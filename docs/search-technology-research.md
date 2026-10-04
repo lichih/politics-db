@@ -145,3 +145,26 @@ fact / evidence retrieval
 Quickwit/Tantivy remains the primary future candidate if the corpus becomes dominated by very large document collections or local rebuild/query performance becomes materially inadequate.
 
 Do not migrate merely because another engine has a higher theoretical throughput ceiling.
+
+
+## 2026-10-04 follow-up: direct database integration changes the preferred architecture
+
+After connecting the user's Supabase project directly to ChatGPT, the project was inspected and confirmed to expose:
+
+- PGroonga 3.2.5
+- pg_trgm 1.6
+- vector / pgvector 0.8.2
+- PostgreSQL 17
+
+This materially changes the architecture decision because the query index can now be accessed directly from the discussion environment.
+
+Updated preference:
+
+1. GitHub JSONL remains authoritative.
+2. Supabase/Postgres is the primary online query projection.
+3. PGroonga is the primary Chinese/CJK FTS engine.
+4. pg_trgm is auxiliary fuzzy/fragment search.
+5. pgvector is semantic candidate retrieval.
+6. SQLite FTS5 trigram remains the offline/local fallback.
+
+See `docs/adr/0002-supabase-primary-query-projection.md`.
