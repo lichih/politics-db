@@ -1,6 +1,6 @@
 # ADR-0001: Local search index uses SQLite FTS5 trigram
 
-- Status: **Accepted**
+- Status: **Superseded by ADR-0002**
 - Date: 2026-10-04
 - Decision owner: politics-db
 - Supersedes: none
@@ -132,6 +132,10 @@ The generated `politics.sqlite`:
 - index size can be larger than token-based FTS.
 - short queries need fallback logic.
 - future large-scale document archival may outgrow this backend.
+
+## Supersession
+
+Superseded on 2026-10-04 after connecting a Supabase project directly to ChatGPT and verifying that the project exposes PGroonga, pg_trgm and pgvector. SQLite FTS5 remains the local/offline fallback described here.
 
 ## Reconsideration triggers
 
