@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/lichih/politics-db/schema/evidence.schema.json",
+  "title": "Politics DB session evidence",
+  "type": "object",
+  "required": ["session", "topics", "sources", "facts", "claims", "searches"],
+  "additionalProperties": true,
+  "properties": {
+    "session": {
+      "type": "object",
+      "required": ["id", "project", "title", "status"],
+      "additionalProperties": true,
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "project": {"const": "Politics"},
+        "title": {"type": "string", "minLength": 1},
+        "started_at": {"type": "string"},
+        "updated_at": {"type": "string"},
+        "status": {"enum": ["active", "closed", "archived"]}
+      }
+    },
+    "topics": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "sources": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/source"}
+    },
+    "facts": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/fact"}
+    },
+    "claims": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/claim"}
+    },
+    "searches": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/search"}
+    },
+    "promotion": {"type": "object"},
+    "notes": {
+      "type": "array",
+      "items": {"type": "string"}
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": ["id", "source_type", "title", "observed_at", "retrieval_status"],
+      "additionalProperties": true,
+      "properties": {
+        "id": {"type": "string", "pattern": "^S[0-9]+$"},
+        "source_type": {"enum": ["primary", "secondary", "commentary"]},
+        "publisher": {"type": "string"},
+        "title": {"type": "string", "minLength": 1},
+        "url": {"type": "string"},
+        "published_at": {"type": "string"},
+        "observed_at": {"type": "string", "minLength": 1},
+        "retrieval_status": {
+          "enum": ["reachable", "not_found", "removed", "blocked", "changed"]
+        },
+        "notes": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "fact": {
+      "type": "object",
+      "required": ["id", "statement", "status", "observed_at", "source_ids", "evidence_summary"],
+      "additionalProperties": true,
+      "properties": {
+        "id": {"type": "string", "pattern": "^F[0-9]+$"},
+        "statement": {"type": "string", "minLength": 1},
+        "status": {"enum": ["verified", "disputed", "partial", "superseded"]},
+        "observed_at": {"type": "string", "minLength": 1},
+        "source_ids": {
+          "type": "array",
+          "items": {"type": "string", "pattern": "^S[0-9]+$"},
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "evidence_summary": {"type": "string"},
+        "excerpt": {"type": "string"},
+        "verification_notes": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "tags": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        }
+      }
+    },
+    "claim": {
+      "type": "object",
+      "required": ["id", "statement", "status"],
+      "additionalProperties": true,
+      "properties": {
+        "id": {"type": "string", "pattern": "^C[0-9]+$"},
+        "statement": {"type": "string", "minLength": 1},
+        "status": {"enum": ["supported", "unsupported", "contradicted", "unresolved"]},
+        "supports": {
+          "type": "array",
+          "items": {"type": "string", "pattern": "^F[0-9]+$"},
+          "uniqueItems": true
+        },
+        "contradicts": {
+          "type": "array",
+          "items": {"type": "string", "pattern": "^F[0-9]+$"},
+          "uniqueItems": true
+        },
+        "related_facts": {
+          "type": "array",
+          "items": {"type": "string", "pattern": "^F[0-9]+$"},
+          "uniqueItems": true
+        },
+        "reasoning_notes": {"type": "string"}
+      }
+    },
+    "search": {
+      "type": "object",
+      "required": ["id", "observed_at", "platform", "query", "result"],
+      "additionalProperties": true,
+      "properties": {
+        "id": {"type": "string", "pattern": "^Q[0-9]+$"},
+        "observed_at": {"type": "string", "minLength": 1},
+        "platform": {"type": "string", "minLength": 1},
+        "query": {"type": "string", "minLength": 1},
+        "scope": {"type": "string"},
+        "result": {"enum": ["found", "not_found", "partial"]},
+        "notes": {"type": "string"}
+      }
+    }
+  }
+}
