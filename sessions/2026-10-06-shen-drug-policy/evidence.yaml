@@ -190,6 +190,30 @@ sources:
     notes:
       - "記載 Measure 110 由 2020 選民通過，2021-02-01 起將多數單純持有降為 Class E violation，最高罰 100 美元。"
 
+  - id: S016
+    source_type: primary
+    publisher: "Government of British Columbia"
+    title: "Minister’s statement on status of the decriminalization pilot program"
+    url: "https://news.gov.bc.ca/releases/2026HLTH0003-000031"
+    published_at: "2026-01-14"
+    observed_at: "2026-10-07+08:00"
+    retrieval_status: reachable
+    notes:
+      - "B.C. 衛生部長 Josie Osborne 宣布不向聯邦政府申請延長除罪化豁免。"
+      - "原文：Despite the hard work and good intentions behind the pilot, it has not delivered the results we hoped for."
+
+  - id: S017
+    source_type: primary
+    publisher: "Health Canada"
+    title: "Canadians’ knowledge and attitudes around drug decriminalization: Results from a 2025 public opinion research survey"
+    url: "https://www.canada.ca/en/health-canada/services/publications/healthy-living/canadians-knowledge-attitudes-drug-decriminalization-results-2025-public-opinion-research-survey.html"
+    published_at: "2026-04-24"
+    observed_at: "2026-10-07+08:00"
+    retrieval_status: reachable
+    notes:
+      - "聯邦官方資料記載 B.C. 豁免自 2023-01-31 生效、2026-01-31 到期，B.C. 不尋求續期。"
+      - "原豁免涵蓋成人持有合計不超過 2.5 克的 opioids、cocaine、methamphetamine、MDMA。"
+
 facts:
   - id: F001
     statement: "2014-09-01 想想論壇文章作者署名『撲馬』，作者簡介明載本名沈伯洋。"
@@ -329,6 +353,18 @@ facts:
       - "此案例針對的是除罪化／轉介治理架構，不等同於美沙冬或清潔針具療效被推翻。"
     tags: [Oregon, Measure110, 除罪化]
 
+  - id: F014
+    statement: "加拿大卑詩省（B.C.）的少量毒品持有除罪化試辦自 2023-01-31 至 2026-01-31；2026-01-14 省政府宣布不尋求續期，衛生部長表示試辦『沒有帶來我們所期望的結果』。"
+    status: verified
+    observed_at: "2026-10-07+08:00"
+    source_ids: [S016, S017]
+    evidence_summary: "B.C. 省政府與 Health Canada 官方資料可交叉確認試辦期間、適用範圍與不續期決定；省衛生部長對結果的負面評價為官方原話。"
+    excerpt: "it has not delivered the results we hoped for"
+    verification_notes:
+      - "這證明 B.C. 政府對該次除罪化試辦不滿意並停止續期；不等於所有減害措施失敗。"
+      - "應與美沙冬、清潔針具、naloxone、overdose-prevention sites 等措施分開評估。"
+    tags: [Canada, British-Columbia, 除罪化, 政策回撤]
+
 claims:
   - id: C001
     statement: "沈伯洋 2014 年『提供吸毒者毒品』中的『毒品』就是指美沙冬。"
@@ -402,6 +438,14 @@ claims:
     related_facts: []
     reasoning_notes: "作者先批判政府懲罰導向，接著說台灣『至少可以效仿某些國家』建立社區中心；若意指已實施多年的本國政策，文本通常更自然的寫法會是指出既有政策並主張擴大。這是文本推論，不是直接事實。"
 
+  - id: C010
+    statement: "加拿大 B.C. 2023–2026 試辦的終止，可作為『毒品除罪化仍是可被經驗檢驗、可因成效不佳而回撤的政策』之案例。"
+    status: supported
+    supports: [F014]
+    contradicts: []
+    related_facts: [F013]
+    reasoning_notes: "此案例能反駁『質疑除罪化本身已屬過時』這類過度概括，但不能直接外推成美沙冬、清潔針具或其他減害工具無效。"
+
 searches:
   - id: Q001
     observed_at: "2026-10-06+08:00"
@@ -434,6 +478,14 @@ searches:
     scope: "oregon.gov / oregonlegislature.gov"
     result: found
     notes: "確認 2021 除罪化生效與 2024 部分回撤／重新提高持有刑責。"
+
+  - id: Q005
+    observed_at: "2026-10-07+08:00"
+    platform: web
+    query: "British Columbia decriminalization pilot not renewed 2026 health minister did not deliver results"
+    scope: "news.gov.bc.ca / canada.ca"
+    result: found
+    notes: "找到 B.C. 省政府 2026-01-14 聲明與 Health Canada 2026-04-24 官方資料，確認 2023-01-31 至 2026-01-31 試辦及不續期。"
 
 promotion:
   cases:
