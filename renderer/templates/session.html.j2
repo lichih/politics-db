@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ data.session.title }} · politics-db</title>
+  <link rel="stylesheet" href="../../static/site.css">
+</head>
+<body>
+  <main class="container">
+    <nav class="crumb"><a href="../../">← politics-db</a></nav>
+
+    <header class="hero compact">
+      <p class="eyebrow">{{ data.session.id }}</p>
+      <h1>{{ data.session.title }}</h1>
+      <div class="metrics">
+        <span>{{ data._meta.fact_count }} facts</span>
+        <span>{{ data._meta.claim_count }} claims</span>
+        <span>{{ data._meta.source_count }} sources</span>
+        <span>{{ data._meta.search_count }} searches</span>
+      </div>
+      <div class="tags">
+        {% for topic in data.topics %}
+        <span class="tag">{{ topic }}</span>
+        {% endfor %}
+      </div>
+    </header>
+
+    <section>
+      <div class="section-head">
+        <h2>Claims</h2>
+        <p>論述層。狀態與理由必須能追到 facts。</p>
+      </div>
+      <div class="stack">
+        {% for claim in data.claims %}
+        <article class="panel" id="{{ claim.id }}">
+          <div class="panel-head">
+            <code>{{ claim.id }}</code>
+            <span class="badge {{ claim.status }}">{{ claim.status }}</span>
+          </div>
+          <h3>{{ claim.statement }}</h3>
+          {% if claim.reasoning_notes %}
+          <p>{{ claim.reasoning_notes }}</p>
+          {% endif %}
+
+          {% if claim.support_facts %}
+          <details open>
+            <summary>支持 facts</summary>
+            <ul class="link-list">
+              {% for fact in claim.support_facts %}
+              <li><a href="#{{ fact.id }}"><code>{{ fact.id }}</code> {{ fact.statement }}</a></li>
+              {% endfor %}
+            </ul>
+          </details>
+          {% endif %}
+
+          {% if claim.contradict_facts %}
+          <details open>
+            <summary>反證 facts</summary>
+            <ul class="link-list">
+              {% for fact in claim.contradict_facts %}
+              <li><a href="#{{ fact.id }}"><code>{{ fact.id }}</code> {{ fact.statement }}</a></li>
+              {% endfor %}
+            </ul>
+          </details>
+          {% endif %}
+
+          {% if claim.related_fact_items %}
+          <details>
+            <summary>相關 facts</summary>
+            <ul class="link-list">
+              {% for fact in claim.related_fact_items %}
+              <li><a href="#{{ fact.id }}"><code>{{ fact.id }}</code> {{ fact.statement }}</a></li>
+              {% endfor %}
+            </ul>
+          </details>
+          {% endif %}
+        </article>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <h2>Facts</h2>
+        <p>可作為論述基礎的事實單位；來源直接展開。</p>
+      </div>
+      <div class="stack">
+        {% for fact in data.facts %}
+        <article class="panel" id="{{ fact.id }}">
+          <div class="panel-head">
+            <code>{{ fact.id }}</code>
+            <span class="badge {{ fact.status }}">{{ fact.status }}</span>
+          </div>
+          <h3>{{ fact.statement }}</h3>
+          {% if fact.evidence_summary %}
+          <p>{{ fact.evidence_summary }}</p>
+          {% endif %}
+          {% if fact.excerpt %}
+          <blockquote>{{ fact.excerpt }}</blockquote>
+          {% endif %}
+          {% if fact.verification_notes %}
+          <ul>
+            {% for note in fact.verification_notes %}
+            <li>{{ note }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+
+          <details>
+            <summary>來源（{{ fact.source_items | length }}）</summary>
+            <div class="sources">
+              {% for source in fact.source_items %}
+              <article class="source" id="{{ source.id }}">
+                <div class="source-title">
+                  <code>{{ source.id }}</code>
+                  <strong>{{ source.title }}</strong>
+                </div>
+                <p class="muted">
+                  {{ source.publisher }}
+                  {% if source.published_at %} · {{ source.published_at }}{% endif %}
+                  · observed {{ source.observed_at }}
+                  · {{ source.source_type }}
+                  · {{ source.retrieval_status }}
+                </p>
+                {% if source.url %}
+                <p><a href="{{ source.url }}" rel="noreferrer">開啟原始來源 ↗</a></p>
+                {% endif %}
+                {% if source.notes %}
+                <ul>
+                  {% for note in source.notes %}
+                  <li>{{ note }}</li>
+                  {% endfor %}
+                </ul>
+                {% endif %}
+              </article>
+              {% endfor %}
+            </div>
+          </details>
+
+          {% if fact.tags %}
+          <div class="tags">
+            {% for tag in fact.tags %}
+            <span class="tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </article>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <h2>Search records</h2>
+        <p>包含 found / partial / not_found，避免把查不到誤寫成不存在。</p>
+      </div>
+      <div class="stack">
+        {% for item in data.searches %}
+        <article class="panel" id="{{ item.id }}">
+          <div class="panel-head">
+            <code>{{ item.id }}</code>
+            <span class="badge {{ item.result }}">{{ item.result }}</span>
+          </div>
+          <h3>{{ item.query }}</h3>
+          <p class="muted">{{ item.platform }} · {{ item.scope }} · {{ item.observed_at }}</p>
+          {% if item.notes %}<p>{{ item.notes }}</p>{% endif %}
+        </article>
+        {% endfor %}
+      </div>
+    </section>
+
+    {% if data.notes %}
+    <section>
+      <div class="section-head"><h2>Session notes</h2></div>
+      <div class="panel">
+        <ul>
+          {% for note in data.notes %}
+          <li>{{ note }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+    {% endif %}
+  </main>
+</body>
+</html>
