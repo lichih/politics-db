@@ -1,0 +1,451 @@
+session:
+  id: 2026-10-06-shen-drug-policy
+  project: Politics
+  title: "沈伯洋 2014 毒品政策文章、2026 美沙冬／清潔針具攻防"
+  started_at: "2026-10-02+08:00"
+  updated_at: "2026-10-06+08:00"
+  status: active
+
+topics:
+  - 沈伯洋
+  - 毒品政策
+  - 毒品除罪化
+  - 減害
+  - 美沙冬
+  - 清潔針具
+  - 政策一致性
+  - Oregon Measure 110
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "想想論壇"
+    title: "〖撲馬想想〗柯震東震出我國毒品政策的爛瘡"
+    url: "https://www.thinkingtaiwan.net/content/3055"
+    published_at: "2014-09-01"
+    observed_at: "2026-10-06+08:00"
+    retrieval_status: reachable
+    notes:
+      - "作者欄為「撲馬」，頁面作者簡介標示本名沈伯洋。"
+      - "本 session 對 2014 立場的判讀以此原文為最高優先來源。"
+
+  - id: S002
+    source_type: primary
+    publisher: "衛生福利部疾病管制署"
+    title: "落實清潔針具計畫，防範愛滋蔓延"
+    url: "https://www.cdc.gov.tw/Bulletin/Detail/YLma89aSwEX1RzZobz9VYg?typeid=9"
+    published_at: "2005-11-26"
+    observed_at: "2026-10-06+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記載 2005 年 8 月起於台北市、台北縣、桃園縣、台南縣試辦清潔針具。"
+
+  - id: S003
+    source_type: primary
+    publisher: "衛生福利部疾病管制署"
+    title: "清潔針具計畫滿週年，有效降低愛滋病毒新感染人數"
+    url: "https://www.cdc.gov.tw/Bulletin/Detail/g5izrf5DLW1q4rGFso857Q?typeid=9"
+    published_at: "2006-10-31"
+    observed_at: "2026-10-06+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記載 2005-11-01 正式發出第一份針具，2006 年已擴增到全國 23 縣市。"
+
+  - id: S004
+    source_type: primary
+    publisher: "衛生福利部疾病管制署"
+    title: "桃療積極辦理替代療法，切中毒品病患需求，獲多方肯定"
+    url: "https://www.cdc.gov.tw/Bulletin/Detail/qz25JjMhrIyKUEzUrsjEnw?typeid=9"
+    published_at: "2006-05-02"
+    observed_at: "2026-10-06+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記載桃園療養院自 2006-02-10 起收治第一位服用美沙冬的病患。"
+      - "記載病患每日到院、在醫護人員監督下服藥。"
+
+  - id: S005
+    source_type: primary
+    publisher: "衛生福利部疾病管制署"
+    title: "國內減害發展情形"
+    url: "https://www.cdc.gov.tw/En/Category/ListContent/OUPNP63tWS90YdQben3U7g?uaid=_88zy7VhEaFTxIYmHk1y0A"
+    published_at: "2006-09-10"
+    observed_at: "2026-10-06+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記載清潔針具 2006-07-01 擴大至 23 縣市。"
+      - "記載替代療法自 2006-02-10 桃園療養院收治首位病患後，已有 6 家試辦院所。"
+
+  - id: S006
+    source_type: primary
+    publisher: "衛生福利部疾病管制署"
+    title: "衛生署為減緩毒品之害，減害計畫經費已到位，替代療法藥品供應無缺"
+    url: "https://www.cdc.gov.tw/Category/ListContent/Hh094B49-DRwe2RR4eFfrQ?uaId=OTzS0HgwOalKc89AV3Uzgw"
+    published_at: "2006-06-05"
+    observed_at: "2026-10-06+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方明確把清潔針具與替代療法分開描述。"
+      - "替代療法使用口服美沙冬，以改變注射毒品行為。"
+
+  - id: S007
+    source_type: primary
+    publisher: "衛生福利部"
+    title: "減害不是鼓勵用毒！三大策略促藥癮愛滋大幅下降"
+    url: "https://www.mohw.gov.tw/cp-16-88143-1.html"
+    published_at: "2026"
+    observed_at: "2026-10-06+08:00"
+    retrieval_status: reachable
+    notes:
+      - "將清潔針具、替代／維持治療、衛教篩檢轉介列為三項不同策略。"
+
+  - id: S008
+    source_type: secondary
+    publisher: "TVBS 新聞"
+    title: "遭爆當年曾推「毒品和藥品劃上等號」 沈伯洋怒嗆：放馬過來"
+    url: "https://news.tvbs.com.tw/politics/4031160"
+    published_at: "2026-10-03"
+    observed_at: "2026-10-06+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導沈伯洋受訪與 Threads 回應。"
+      - "其中沈將 2014 文章與『針頭交換、美沙冬治療計畫』連結。"
+
+  - id: S009
+    source_type: commentary
+    publisher: "2026 市長官方來源觀測站"
+    title: "沈伯洋（臺北市）｜2026 市長官方來源觀測站"
+    url: "https://mayor2026.observe.tw/taipei/shen-poyang/"
+    published_at: "2026-10-03"
+    observed_at: "2026-10-06+08:00"
+    retrieval_status: reachable
+    notes:
+      - "保存沈伯洋 2026-10-03 Threads 貼文文字鏡像；可作為原貼文不可直接抓取時的近原始記錄。"
+      - "原 Threads 連結目前透過抓取工具遇到 429，故此來源層級暫列 commentary。"
+
+  - id: S010
+    source_type: primary
+    publisher: "臺北市政府衛生局／文山區健康服務中心轉載"
+    title: "北市美沙冬維持療法與清潔針具政策 與沈委員倡議之做法完全不同"
+    url: "https://www.wshc.gov.taipei/News_Content.aspx?n=EDB021E1893E64A1&s=E7C3113099E3B6FD&sms=54AF326A9286E8E1"
+    published_at: "2026-10-04"
+    observed_at: "2026-10-06+08:00"
+    retrieval_status: reachable
+    notes:
+      - "北市衛生局是當前政治攻防中的一方，屬 primary source 但非中立裁判。"
+      - "內容記載美沙冬為口服、醫療人員目視下服用，清潔針具服務另有藥局／機構與自動服務機。"
+
+  - id: S011
+    source_type: primary
+    publisher: "衛生福利部食品藥物管理署"
+    title: "管制藥品分級及品項"
+    url: "https://www.fda.gov.tw/tc/includes/GetFile.ashx?chk=b105df22-6bda-473c-8da8-ae0e84d703b3&id=1100&mid=46&name=fdContent"
+    published_at: "2025"
+    observed_at: "2026-10-06+08:00"
+    retrieval_status: reachable
+    notes:
+      - "列美沙冬（Methadone）為第二級管制藥品。"
+
+  - id: S012
+    source_type: primary
+    publisher: "衛生福利部"
+    title: "伴你，找回人生主控權．衛生福利部替代治療十週年特輯（節錄）"
+    url: "https://www.mohw.gov.tw/dl-47459-0fb765c9-1df9-44cd-8148-4075ee4d3096.html"
+    published_at: "2018"
+    observed_at: "2026-10-06+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方資料同時說明：美沙冬依管制藥品管理條例屬第二級管制藥品，依毒品危害防制條例亦屬第二級毒品。"
+      - "同頁記載國內使用的是美沙冬口服液。"
+
+  - id: S013
+    source_type: primary
+    publisher: "Oregon Health Authority"
+    title: "Behavioral Health Resource Network (BHRN) Program"
+    url: "https://www.oregon.gov/OHA/HSD/AMH/Pages/Measure110.aspx"
+    published_at: ""
+    observed_at: "2026-10-06+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方頁面記載 HB 4002 (2024) recriminalized possession of controlled substances。"
+
+  - id: S014
+    source_type: primary
+    publisher: "Oregon Legislative Information System"
+    title: "HB 4002 (2024 Regular Session)"
+    url: "https://olis.oregonlegislature.gov/liz/2024R1/Measures/Overview/HB4002"
+    published_at: "2024"
+    observed_at: "2026-10-06+08:00"
+    retrieval_status: reachable
+    notes:
+      - "HB 4002 自 2024-09-01 提高持有管制物質的刑責，另建立 deflection program。"
+
+  - id: S015
+    source_type: primary
+    publisher: "Oregon Department of Administrative Services"
+    title: "Ballot Measure 110 Savings"
+    url: "https://www.oregon.gov/das/oea/Pages/Ballot-Measure-110-Savings.aspx"
+    published_at: ""
+    observed_at: "2026-10-06+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記載 Measure 110 由 2020 選民通過，2021-02-01 起將多數單純持有降為 Class E violation，最高罰 100 美元。"
+
+facts:
+  - id: F001
+    statement: "2014-09-01 想想論壇文章作者署名『撲馬』，作者簡介明載本名沈伯洋。"
+    status: verified
+    observed_at: "2026-10-06+08:00"
+    source_ids: [S001]
+    evidence_summary: "原始頁面直接標示作者、作者本名與發布日期。"
+    excerpt: ""
+    verification_notes: []
+    tags: [沈伯洋, 2014原文]
+
+  - id: F002
+    statement: "2014 文章把毒品政策分成 A『非法化／懲罰』、B『除罪化＋協助＋管制』、C『處理吸毒的社會原因並協助』三類。"
+    status: verified
+    observed_at: "2026-10-06+08:00"
+    source_ids: [S001]
+    evidence_summary: "原文第 34-36 行列出 A/B/C。"
+    excerpt: "B：將毒品除罪化，對有毒癮者予以協助，並對毒品管制。"
+    verification_notes: []
+    tags: [除罪化, 政策分類]
+
+  - id: F003
+    statement: "2014 文章明確批判 A 類懲罰政策，並在提出社區中心方案前質問政府為何遇到毒品問題『只會大叫處罰』。"
+    status: verified
+    observed_at: "2026-10-06+08:00"
+    source_ids: [S001]
+    evidence_summary: "原文第 38、42-43 行的論述把政府政策描繪為高度偏向懲罰與排除。"
+    excerpt: "為什麼毒品的問題出來，政府只會大叫處罰"
+    verification_notes:
+      - "此為作者對政策取向的評價，不等同於『2014 台灣客觀上完全沒有任何減害政策』。"
+    tags: [政府政策, 懲罰, 脈絡]
+
+  - id: F004
+    statement: "2014 文章寫道：若 B 政策的除罪化對某些人太偏激，台灣至少可效仿某些國家，建立社區中心，提供吸毒者毒品與乾淨針頭，並導入社工協助。"
+    status: verified
+    observed_at: "2026-10-06+08:00"
+    source_ids: [S001]
+    evidence_summary: "這是目前爭議核心的原始文字；『效仿某些國家』『社區中心』『毒品』『乾淨的針頭』『社工』均同段出現。"
+    excerpt: "建立社區中心，提供吸毒者毒品與乾淨的針頭"
+    verification_notes: []
+    tags: [社區中心, 乾淨針頭, 提供毒品, 減害]
+
+  - id: F005
+    statement: "2014 文章另寫『把毒品和藥品劃上等號』，並以 drugs 的概念主張應從用藥者背後的原因與管制方式處理。"
+    status: verified
+    observed_at: "2026-10-06+08:00"
+    source_ids: [S001]
+    evidence_summary: "原文第 51 行。"
+    excerpt: "首先，把毒品和藥品劃上等號吧！"
+    verification_notes:
+      - "此 fact 只記錄作者文字；其法律與醫療概念是否精確另列 claim 評估。"
+    tags: [毒品, 藥品, 概念]
+
+  - id: F006
+    statement: "2014 原文沒有出現『美沙冬』一詞，也沒有直接把第 F004 段的『毒品』指定為美沙冬。"
+    status: verified
+    observed_at: "2026-10-06+08:00"
+    source_ids: [S001]
+    evidence_summary: "逐頁檢視原文；頁面全文可見『毒品』『針頭』『除罪化』等詞，但未出現『美沙冬』。"
+    excerpt: ""
+    verification_notes:
+      - "這只能證明文本未明示，不足以單獨證明作者當時心中絕對不可能想到美沙冬。"
+    tags: [美沙冬, 文本證據]
+
+  - id: F007
+    statement: "台灣清潔針具政策在 2005 年已開始試辦；2005-11-01 正式發出第一份針具，2006 年擴大至全國。"
+    status: verified
+    observed_at: "2026-10-06+08:00"
+    source_ids: [S002, S003, S005]
+    evidence_summary: "疾管署 2005、2006 年 contemporaneous 官方資料可交叉確認。"
+    excerpt: ""
+    verification_notes:
+      - "2005 年試辦地區包含台北市、台北縣、桃園縣、台南縣。"
+    tags: [清潔針具, 台灣, 時序]
+
+  - id: F008
+    statement: "台灣美沙冬替代療法首位收治病患為 2006-02-10 於衛生署桃園療養院；2006 年後續擴大試辦與推廣。"
+    status: verified
+    observed_at: "2026-10-06+08:00"
+    source_ids: [S004, S005]
+    evidence_summary: "疾管署當年官方新聞稿明載日期、院所與試辦擴張。"
+    excerpt: ""
+    verification_notes: []
+    tags: [美沙冬, 台灣, 時序]
+
+  - id: F009
+    statement: "台灣官方減害政策把『清潔針具』與『美沙冬／丁基原啡因替代或維持治療』列為不同措施；美沙冬在治療中為口服並受醫療專業監督。"
+    status: verified
+    observed_at: "2026-10-06+08:00"
+    source_ids: [S004, S006, S007, S010]
+    evidence_summary: "2006 與 2026 官方資料均分開描述兩類措施；多份資料明確指出口服美沙冬。"
+    excerpt: ""
+    verification_notes: []
+    tags: [美沙冬, 清潔針具, 減害, 醫療]
+
+  - id: F010
+    statement: "2026-10-03 沈伯洋公開回應時，主動把『針頭交換』與『美沙冬治療計畫』連在一起，並稱對手把他十幾年前『介紹這些政策的文章』拿來製造恐慌。"
+    status: verified
+    observed_at: "2026-10-06+08:00"
+    source_ids: [S008, S009]
+    evidence_summary: "新聞報導與官方來源觀測站保存的 Threads 文字一致。"
+    excerpt: "把我十幾年前介紹這些政策的文章拿來製造恐慌？"
+    verification_notes:
+      - "原 Threads 目前抓取遇到 429；保留 secondary + mirror 雙來源。"
+    tags: [2026回應, 美沙冬, 針頭交換]
+
+  - id: F011
+    statement: "2026 北市衛生局公開主張，現行美沙冬維持療法與清潔針具政策，和沈 2014 所寫『社區中心提供吸毒者毒品與乾淨針頭』並非同一做法。"
+    status: verified
+    observed_at: "2026-10-06+08:00"
+    source_ids: [S010]
+    evidence_summary: "北市衛生局以官方新聞稿說明現行服務的執行地點、醫療監督與口服美沙冬。"
+    excerpt: ""
+    verification_notes:
+      - "這是北市政府在選戰爭議中的政策立場／事實說明；應與中央衛福部資料交叉使用，不把其『完全不同』評價單獨當成中立結論。"
+    tags: [台北市, 美沙冬, 清潔針具]
+
+  - id: F012
+    statement: "美沙冬在台灣可同時落在兩套法律語境：依管制藥品制度列第二級管制藥品；衛福部資料亦指出依毒品危害防制條例屬第二級毒品。醫療使用時則以管制藥品／藥品制度管理。"
+    status: verified
+    observed_at: "2026-10-06+08:00"
+    source_ids: [S011, S012]
+    evidence_summary: "官方分級資料與衛福部替代治療專刊明確呈現雙重法制分類。"
+    excerpt: ""
+    verification_notes:
+      - "因此『美沙冬是不是毒品』若脫離法律情境直接作單一詞義回答，容易混淆醫療使用與非法施用的規範界線。"
+    tags: [美沙冬, 管制藥品, 毒品危害防制條例]
+
+  - id: F013
+    statement: "Oregon Measure 110 將多數少量持有管制物質的刑責降為違規，2021-02-01 生效；2024 HB 4002 又提高持有刑責並建立 deflection 方案，構成對除罪化架構的部分回撤。"
+    status: verified
+    observed_at: "2026-10-06+08:00"
+    source_ids: [S013, S014, S015]
+    evidence_summary: "Oregon 官方行政與立法資料均記載 Measure 110 與 HB 4002 的法制變化。"
+    excerpt: ""
+    verification_notes:
+      - "此案例針對的是除罪化／轉介治理架構，不等同於美沙冬或清潔針具療效被推翻。"
+    tags: [Oregon, Measure110, 除罪化]
+
+claims:
+  - id: C001
+    statement: "沈伯洋 2014 年『提供吸毒者毒品』中的『毒品』就是指美沙冬。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F004, F006, F008, F009, F010]
+    reasoning_notes: "2026 沈確實以美沙冬＋針頭交換回應，但 2014 原文沒有寫美沙冬，也沒有把『毒品』明確定義為替代治療藥物。現有證據不足以把事後解釋回填成 2014 文本的唯一含義。"
+
+  - id: C002
+    statement: "沈伯洋 2014 年那一段只是介紹台灣當時既有的美沙冬與清潔針具政策。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F003, F004, F006, F007, F008, F010]
+    reasoning_notes: "台灣 2005-2006 已有兩項政策，但 2014 原文的語法是『效仿某些國家』並批評政府政策偏向懲罰；文本沒有說『台灣已有、應擴大』。這使『只是介紹既有政策』缺乏直接文本支持，但仍不宜宣稱邏輯上絕無可能。"
+
+  - id: C003
+    statement: "美沙冬治療與清潔針具是同一項措施，或美沙冬需要用清潔針頭施打。"
+    status: contradicted
+    supports: []
+    contradicts: [F009]
+    related_facts: [F007, F008]
+    reasoning_notes: "官方資料長期把兩者分列；台灣美沙冬替代／維持治療為口服。"
+
+  - id: C004
+    statement: "只要批評沈伯洋 2014 年『提供毒品』的文字，就是反對美沙冬或反對清潔針具減害。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F004, F009, F010]
+    reasoning_notes: "批評對象可能是『提供毒品』的具體含義、除罪化、醫療與非法毒品的概念界線，並不必然包含對既有美沙冬／針具政策的反對。需要逐一檢查批評者實際說了什麼。"
+
+  - id: C005
+    statement: "2014 年台灣政府客觀上只有懲罰毒品使用者，沒有減害措施。"
+    status: contradicted
+    supports: []
+    contradicts: [F007, F008, F009]
+    related_facts: [F003]
+    reasoning_notes: "若把 2014 文中『政府只會大叫處罰』理解為字面政策事實，會與 2005-2006 已存在的清潔針具與美沙冬政策衝突；較合理的是把它視為作者對政策主軸的批判性概括。"
+
+  - id: C006
+    statement: "美沙冬在任何語境下都只能叫『藥品』，絕不能叫『毒品』。"
+    status: contradicted
+    supports: []
+    contradicts: [F012]
+    related_facts: []
+    reasoning_notes: "台灣現行法制存在雙重分類；但在合法醫療情境把『管制藥品』直接修辭化成『政府發毒品』仍可能抹除重要的醫療／法律條件。法律分類事實不等於任何政治表述都精確。"
+
+  - id: C007
+    statement: "Oregon Measure 110 的回撤證明美沙冬替代治療或清潔針具政策失敗。"
+    status: contradicted
+    supports: []
+    contradicts: [F013]
+    related_facts: [F009]
+    reasoning_notes: "Measure 110/HB 4002 的政策核心是持有除罪化、刑責與 deflection；不能直接外推成對美沙冬或針具交換療效的否定。"
+
+  - id: C008
+    statement: "Oregon 的政策回撤至少證明『反對或質疑毒品除罪化已經是過時立場』不是可直接當成事實的說法。"
+    status: supported
+    supports: [F013]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "這只支持『除罪化仍是可爭論政策問題』，不支持任何特定反對理由自動成立，也不支持把減害措施一併否定。"
+
+  - id: C009
+    statement: "2014 原文的上下文對『2026 美沙冬只是既有政策說』形成文本上的張力。"
+    status: supported
+    supports: [F003, F004, F006, F007, F008, F010]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "作者先批判政府懲罰導向，接著說台灣『至少可以效仿某些國家』建立社區中心；若意指已實施多年的本國政策，文本通常更自然的寫法會是指出既有政策並主張擴大。這是文本推論，不是直接事實。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-06+08:00"
+    platform: web
+    query: "沈伯洋 2014 想想論壇 撲馬 毒品 乾淨針頭 美沙冬"
+    scope: "公開網頁"
+    result: found
+    notes: "找到想想論壇原文與 2026 攻防報導。"
+
+  - id: Q002
+    observed_at: "2026-10-06+08:00"
+    platform: web
+    query: "台灣 2005 清潔針具 2006 美沙冬 疾管署"
+    scope: "cdc.gov.tw / mohw.gov.tw"
+    result: found
+    notes: "找到 2005-2006 同期官方新聞稿與後續政策整理。"
+
+  - id: Q003
+    observed_at: "2026-10-06+08:00"
+    platform: web
+    query: "沈伯洋 2026 針頭交換 美沙冬治療計畫"
+    scope: "公開新聞與候選人社群鏡像"
+    result: found
+    notes: "原 Threads 抓取遭 429；以報導與官方來源觀測站交叉保存文字。"
+
+  - id: Q004
+    observed_at: "2026-10-06+08:00"
+    platform: web
+    query: "Oregon Measure 110 HB 4002 official"
+    scope: "oregon.gov / oregonlegislature.gov"
+    result: found
+    notes: "確認 2021 除罪化生效與 2024 部分回撤／重新提高持有刑責。"
+
+promotion:
+  cases:
+    - proposed: "shen-2014-drug-policy"
+      rationale: "若選戰持續延燒，可升格為獨立 case，保存沈歷次回應與政策說明變化。"
+  comparators: []
+  research:
+    - proposed: "drug-decriminalization-comparative-cases"
+      rationale: "Oregon 與其他司法管轄區應另建研究，不和美沙冬／針具療效混成同一議題。"
+
+notes:
+  - "本檔只保存可重用的事實基礎與主張狀態，不保存整段聊天或陣營式結論。"
+  - "重要方法：fact ≠ inference；true premise ≠ valid conclusion。"
+  - "『反對減害』本身不是違法或禁止的立場。成熟政策的批評應看證據、外部性、替代方案與因果推論，而不是靠陣營標籤裁決。"
+  - "後續若取得沈 2014 當時的其他文章／研究、或他明確說明『毒品』具體所指，應追加 observation，不覆寫本次紀錄。"
