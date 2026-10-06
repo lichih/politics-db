@@ -19,6 +19,9 @@
 - `docs/evidence-policy.md`：證據保存與查詢紀錄規則。
 - `docs/project-workflow.md`：Politics Project 與本 repo 的工作流契約。
 - `sessions/_template/evidence.yaml`：session evidence 樣板。
+- `schema/evidence.schema.json`：YAML 結構驗證規格。
+- `renderer/`：Python + Jinja2 HTML renderer；HTML 為 projection，不進版控。
+- `.github/workflows/deploy-pages.yml`：驗證、render、部署 GitHub Pages。
 
 ## 第一組資料
 
@@ -27,3 +30,20 @@
 - 2026-10-04 研究紀錄：另追蹤周玉蔻／高虹安、林靜儀／顏寬恒等案件。
 
 核心原則：**not_found ≠ never_existed；reachable_now ≠ permanent。**
+
+
+## Renderer
+
+本機：
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python renderer/render.py --check
+python renderer/render.py
+```
+
+輸出在 `site/`。每次 push 到 `main` 且 evidence / renderer / schema 有變更時，GitHub Actions 會先驗證 schema 與 cross-reference，再產生 HTML 並部署 Pages。
+
+設計原則：**YAML authoritative，HTML projection，不產生 Markdown。**
