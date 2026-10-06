@@ -47,3 +47,14 @@ python renderer/render.py
 輸出在 `site/`。每次 push 到 `main` 且 evidence / renderer / schema 有變更時，GitHub Actions 會先驗證 schema 與 cross-reference，再產生 HTML 並部署 Pages。
 
 設計原則：**YAML authoritative，HTML projection，不產生 Markdown。**
+
+
+### GitHub Pages 一次性設定
+
+目前 workflow 可以自動驗證、render 並上傳 Pages artifact；但 GitHub App token 無法替 repository 首次建立 Pages site。
+
+第一次需要在 GitHub repository：
+
+`Settings -> Pages -> Build and deployment -> Source: GitHub Actions`
+
+完成一次後，後續 push 會自動部署，不需要人工維護 HTML。
