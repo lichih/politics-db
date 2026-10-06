@@ -165,6 +165,7 @@ def index_document(doc: EvidenceDocument) -> dict[str, Any]:
             "claim_count": len(claims),
             "search_count": len(data.get("searches", [])),
             "relative_dir": doc.rel_dir.as_posix(),
+            "root_prefix": "../" * len(doc.rel_dir.parts),
         },
     }
 
