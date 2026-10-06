@@ -1,0 +1,56 @@
+session:
+  id: YYYY-MM-DD-topic-slug
+  project: Politics
+  title: ""
+  started_at: ""
+  updated_at: ""
+  status: active
+
+topics: []
+
+sources: []
+# - id: S001
+#   source_type: primary | secondary | commentary
+#   publisher: ""
+#   title: ""
+#   url: ""
+#   published_at: ""
+#   observed_at: ""
+#   retrieval_status: reachable | not_found | removed | blocked | changed
+#   notes: ""
+
+facts: []
+# - id: F001
+#   statement: ""
+#   status: verified | disputed | partial | superseded
+#   observed_at: ""
+#   source_ids: [S001]
+#   evidence_summary: ""
+#   excerpt: ""
+#   verification_notes: []
+#   tags: []
+
+claims: []
+# - id: C001
+#   statement: ""
+#   status: supported | unsupported | contradicted | unresolved
+#   supports: [F001]
+#   contradicts: []
+#   related_facts: []
+#   reasoning_notes: ""
+
+searches: []
+# - id: Q001
+#   observed_at: ""
+#   platform: web
+#   query: ""
+#   scope: ""
+#   result: found | not_found | partial
+#   notes: ""
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes: []
