@@ -8,12 +8,17 @@
 - 後來來源是否修改、消失或出現新資料；
 - 不同案件是否採取一致的法律與執法標準。
 
+這個 repo 同時作為 ChatGPT **Politics Project** 的外部 evidence ledger。長對話中已核實、之後可能成為論述基礎的事實，不應只留在 conversation 裡，而應按 session 歸檔。
+
 ## 目錄
 
+- `sessions/`：依對話／研究 session 保存可重用的事實、來源、claim 與查詢紀錄；YAML 為 authoritative source。
 - `cases/`：事件本身與證據時間軸。
 - `comparators/`：可用於制度、司法或執法一致性比較的案件。
 - `research/`：查詢過程、尚未解決的問題與「此次未找到」紀錄。
 - `docs/evidence-policy.md`：證據保存與查詢紀錄規則。
+- `docs/project-workflow.md`：Politics Project 與本 repo 的工作流契約。
+- `sessions/_template/evidence.yaml`：session evidence 樣板。
 
 ## 第一組資料
 
