@@ -67,15 +67,17 @@ session 檔保留原始查核脈絡，不因升格而刪除。
 
 ### 5. 輸出層
 
-YAML 是 session evidence 的 authoritative source。
+YAML 是 evidence 的 authoritative source。
 
-Markdown / HTML 都是 projection：
+目前只維護一種 projection：
 
-`evidence.yaml -> Python renderer -> evidence.md / evidence.html`
+`evidence.yaml -> schema / cross-reference validation -> Python + Jinja2 -> HTML`
 
-不要人工同步維護多份 authoritative state。
+不產生 Markdown，避免 YAML / Markdown / HTML 三份內容並存而增加同步成本。
 
-HTML renderer 不是第一階段必要項目；先確保 evidence YAML 穩定、可查、可引用。
+HTML 只負責閱讀、導覽、filter 與展開 evidence graph；不得作為資料回寫來源。產生的 `site/` 不進版控，由 GitHub Actions build 後部署到 GitHub Pages。
+
+Renderer 在 `renderer/render.py`，schema 在 `schema/evidence.schema.json`。
 
 ## 原則
 
