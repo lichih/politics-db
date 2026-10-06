@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>politics-db evidence</title>
+  <link rel="stylesheet" href="./static/site.css">
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <p class="eyebrow">Politics Project · evidence ledger</p>
+      <h1>politics-db</h1>
+      <p>YAML 是 authoritative source；這個網站只是可閱讀、可篩選的 HTML projection。</p>
+    </header>
+
+    <section class="toolbar">
+      <label>
+        <span>搜尋</span>
+        <input id="filter" type="search" placeholder="標題、topic、session id…">
+      </label>
+    </section>
+
+    <section class="cards" id="documents">
+      {% for doc in documents %}
+      <article class="card searchable" data-search="{{ (doc.session.title ~ ' ' ~ doc.session.id ~ ' ' ~ (doc.topics | join(' '))) | lower }}">
+        <div class="card-head">
+          <div>
+            <p class="muted">{{ doc.session.id }}</p>
+            <h2><a href="./{{ doc._meta.relative_dir }}/">{{ doc.session.title }}</a></h2>
+          </div>
+          <span class="badge {{ doc.session.status }}">{{ doc.session.status }}</span>
+        </div>
+        <div class="metrics">
+          <span>{{ doc._meta.fact_count }} facts</span>
+          <span>{{ doc._meta.claim_count }} claims</span>
+          <span>{{ doc._meta.source_count }} sources</span>
+          <span>{{ doc._meta.search_count }} searches</span>
+        </div>
+        <div class="tags">
+          {% for topic in doc.topics %}
+          <span class="tag">{{ topic }}</span>
+          {% endfor %}
+        </div>
+      </article>
+      {% endfor %}
+    </section>
+  </main>
+  <script>
+    const input = document.getElementById('filter');
+    const cards = [...document.querySelectorAll('.searchable')];
+    input.addEventListener('input', () => {
+      const q = input.value.trim().toLowerCase();
+      cards.forEach(card => {
+        card.hidden = q && !card.dataset.search.includes(q);
+      });
+    });
+  </script>
+</body>
+</html>
