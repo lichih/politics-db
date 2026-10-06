@@ -214,6 +214,41 @@ sources:
       - "聯邦官方資料記載 B.C. 豁免自 2023-01-31 生效、2026-01-31 到期，B.C. 不尋求續期。"
       - "原豁免涵蓋成人持有合計不超過 2.5 克的 opioids、cocaine、methamphetamine、MDMA。"
 
+  - id: S018
+    source_type: primary
+    publisher: "City of Portland"
+    title: "City Council Unanimously Passes Resolution and Ordinance, Affirm Commitment to Partner and Collaborate with State Leaders on Drug Crisis"
+    url: "https://www.portland.gov/wheeler/news/2023/9/6/city-council-unanimously-passes-resolution-and-ordinance-affirm-commitment"
+    published_at: "2023-09-06"
+    observed_at: "2026-10-07+08:00"
+    retrieval_status: reachable
+    notes:
+      - "Portland 市議會 2023 年通過禁止公共場所使用管制物質的市級規範。"
+      - "市府明確說明：該 ordinance 不改變 Measure 110 對單純持有的除罪化，只處理公共場所使用。"
+
+  - id: S019
+    source_type: primary
+    publisher: "Oregon Legislative Information System"
+    title: "SB 254 (2023 Regular Session)"
+    url: "https://olis.oregonlegislature.gov/liz/2023R1/Measures/Overview/SB254"
+    published_at: "2023"
+    observed_at: "2026-10-07+08:00"
+    retrieval_status: reachable
+    notes:
+      - "SB 254 提案內容是撤銷 Measure 110 中與持有毒品除罪化有關的條文。"
+      - "該案停留在 Senate Committee on Judiciary，未成為 2023 年的 statewide policy reversal。"
+
+  - id: S020
+    source_type: primary
+    publisher: "City of Portland"
+    title: "Oregon State Legislature adjourns, delivers for Portland"
+    url: "https://www.portland.gov/wheeler/news/2024/3/8/oregon-state-legislature-adjourns-delivers-portland"
+    published_at: "2024-03-08"
+    observed_at: "2026-10-07+08:00"
+    retrieval_status: reachable
+    notes:
+      - "Portland 市府把 HB 4002 描述為對 Measure 110 的重大改革，並公開肯定州議會回應地方毒品危機。"
+
 facts:
   - id: F001
     statement: "2014-09-01 想想論壇文章作者署名『撲馬』，作者簡介明載本名沈伯洋。"
@@ -365,6 +400,29 @@ facts:
       - "應與美沙冬、清潔針具、naloxone、overdose-prevention sites 等措施分開評估。"
     tags: [Canada, British-Columbia, 除罪化, 政策回撤]
 
+  - id: F015
+    statement: "Oregon 在 2023 年已出現對 Measure 110 的明顯回撤壓力，但尚未完成 statewide 反轉：州議會有 SB 254 提案要撤銷持有毒品除罪化；Portland 則通過禁止公共場所使用管制物質的地方規範，同時明確說這不改變 Measure 110 對單純持有的除罪化。"
+    status: verified
+    observed_at: "2026-10-07+08:00"
+    source_ids: [S018, S019]
+    evidence_summary: "2023 的正確描述是『政治與地方治理層面的回撤／修正開始』，而不是 Measure 110 已在全州被撤銷。"
+    excerpt: ""
+    verification_notes:
+      - "SB 254 未通過；Portland ordinance 處理 public use，不等於 statewide possession recriminalization。"
+    tags: [Oregon, Measure110, 2023, Portland, 政策回撤]
+
+  - id: F016
+    statement: "Oregon 真正的 statewide 法律反轉發生在 2024 年：HB 4002 重新把持有管制物質刑事化，並保留／建立 deflection 與治療導向機制；相關持有罪規定自 2024-09-01 生效。"
+    status: verified
+    observed_at: "2026-10-07+08:00"
+    source_ids: [S013, S014, S015, S020]
+    evidence_summary: "Oregon Health Authority、州政府與 Portland 官方資料均把 HB 4002 視為對 Measure 110 的重大修正／recriminalization。"
+    excerpt: ""
+    verification_notes:
+      - "這不是回到純粹『抓去關』的舊制；HB 4002 同時設計 deflection，使執法仍可把部分個案導向治療服務。"
+      - "因此較準確的描述是『撤回 possession decriminalization，但保留 harm-reduction / treatment diversion elements』。"
+    tags: [Oregon, Measure110, HB4002, 2024, recriminalization]
+
 claims:
   - id: C001
     statement: "沈伯洋 2014 年『提供吸毒者毒品』中的『毒品』就是指美沙冬。"
@@ -446,6 +504,14 @@ claims:
     related_facts: [F013]
     reasoning_notes: "此案例能反駁『質疑除罪化本身已屬過時』這類過度概括，但不能直接外推成美沙冬、清潔針具或其他減害工具無效。"
 
+  - id: C011
+    statement: "把 Oregon 說成『2023 就廢掉 Measure 110』並不精確；2023 是回撤壓力與地方限制，2024 HB 4002 才是 statewide 的 possession recriminalization。"
+    status: supported
+    supports: [F015, F016]
+    contradicts: []
+    related_facts: [F013]
+    reasoning_notes: "時間線應分兩階段：2023 政治／地方修正訊號；2024 州法正式反轉。"
+
 searches:
   - id: Q001
     observed_at: "2026-10-06+08:00"
@@ -486,6 +552,14 @@ searches:
     scope: "news.gov.bc.ca / canada.ca"
     result: found
     notes: "找到 B.C. 省政府 2026-01-14 聲明與 Health Canada 2026-04-24 官方資料，確認 2023-01-31 至 2026-01-31 試辦及不續期。"
+
+  - id: Q006
+    observed_at: "2026-10-07+08:00"
+    platform: web
+    query: "Oregon Measure 110 2023 repeal proposal Portland public drug use 2024 HB 4002"
+    scope: "oregonlegislature.gov / portland.gov / oregon.gov"
+    result: found
+    notes: "確認 2023 SB 254 未通過、Portland 只限制 public use；2024 HB 4002 才完成 statewide possession recriminalization。"
 
 promotion:
   cases:
