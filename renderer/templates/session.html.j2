@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ data.session.title }} · politics-db</title>
-  <link rel="stylesheet" href="../../static/site.css">
+  <link rel="stylesheet" href="{{ data._meta.root_prefix }}static/site.css">
 </head>
 <body>
   <main class="container">
-    <nav class="crumb"><a href="../../">← politics-db</a></nav>
+    <nav class="crumb"><a href="{{ data._meta.root_prefix }}">← politics-db</a></nav>
 
     <header class="hero compact">
       <p class="eyebrow">{{ data.session.id }}</p>
