@@ -249,6 +249,66 @@ sources:
     notes:
       - "Portland 市府把 HB 4002 描述為對 Measure 110 的重大改革，並公開肯定州議會回應地方毒品危機。"
 
+  - id: S021
+    source_type: secondary
+    publisher: "The Awl"
+    title: "Vancouver's Supervised Drug Injection Center: How Does It Work?"
+    url: "https://www.theawl.com/2012/04/vancouvers-supervised-drug-injection-center-how-does-it-work/"
+    published_at: "2012-04-30"
+    observed_at: "2026-10-07+08:00"
+    retrieval_status: reachable
+    notes:
+      - "沈伯洋 2014 年回覆網友時，曾把此文列為『相關資料』之一。"
+      - "文中 InSite 臨床協調員 Tim Gauthier 明確說 participants come in with their own drugs。"
+      - "文中另說設施提供乾淨針具、酒精棉、洗手設施、醫療與轉介，但不提供使用者自行攜入的 street drugs。"
+
+  - id: S022
+    source_type: primary
+    publisher: "Vancouver Coastal Health"
+    title: "Supervised Consumption and Overdose Prevention Sites"
+    url: "https://www.vch.ca/en/service/supervised-consumption-and-overdose-prevention-sites"
+    published_at: ""
+    observed_at: "2026-10-07+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方將服務描述為監督人們使用 illicit drugs，並提供 harm reduction supplies、overdose response、drug checking 與健康服務。"
+
+  - id: S023
+    source_type: primary
+    publisher: "Health Canada"
+    title: "Vancouver's INSITE Service and Other Supervised Injection Sites: What Has Been Learned from Research?"
+    url: "https://www.canada.ca/en/health-canada/corporate/about-health-canada/reports-publications/vancouver-insite-service-other-supervised-injection-sites-what-been-learned-research.html"
+    published_at: "2008"
+    observed_at: "2026-10-07+08:00"
+    retrieval_status: reachable
+    notes:
+      - "加拿大官方評估記載 InSite 提供乾淨注射環境、針筒、針頭與棉片；禁止分享毒品與針具。"
+
+  - id: S024
+    source_type: primary
+    publisher: "Government of Ontario"
+    title: "Ontario Protecting Communities and Supporting Addiction Recovery with New Treatment Hubs"
+    url: "https://news.ontario.ca/en/release/1004955/ontario-protecting-communities-and-supporting-addiction-recovery-with-new-treatment-hub"
+    published_at: "2024-08-20"
+    observed_at: "2026-10-07+08:00"
+    retrieval_status: reachable
+    notes:
+      - "Ontario 宣布關閉距學校／托兒中心 200 公尺內的 9 個省資助及 1 個自籌 supervised consumption sites，最晚 2025-03-31 關閉。"
+      - "省政府新聞稿曾稱 Ottawa site 附近 crime rate 比全市高 250%。"
+      - "此數字是省政府主張，不能單獨當成因果證明。"
+
+  - id: S025
+    source_type: secondary
+    publisher: "CityNews / Canadian Press"
+    title: "No link between supervised consumption sites and crime rates in Toronto: study"
+    url: "https://montreal.citynews.ca/2026/01/08/no-link-supervised-consumption-sites-crime-rates/"
+    published_at: "2026-01-08"
+    observed_at: "2026-10-07+08:00"
+    retrieval_status: reachable
+    notes:
+      - "2026 報導 peer-reviewed Toronto analysis，長期未發現 SCS 與犯罪增加的關聯。"
+      - "另有 Ottawa FOI 後續報導質疑 Ontario 先前 250% 數字；因此不宜把 250% 當成 settled causal fact。"
+
 facts:
   - id: F001
     statement: "2014-09-01 想想論壇文章作者署名『撲馬』，作者簡介明載本名沈伯洋。"
@@ -423,6 +483,40 @@ facts:
       - "因此較準確的描述是『撤回 possession decriminalization，但保留 harm-reduction / treatment diversion elements』。"
     tags: [Oregon, Measure110, HB4002, 2024, recriminalization]
 
+  - id: F017
+    statement: "沈伯洋 2014 年回覆網友追問『建立社區中心，提供吸毒者毒品與乾淨針頭』的相關資料時，曾連結 2012 The Awl 對 Vancouver InSite 的訪談。該訪談明確說使用者是『自己帶毒品進來』，設施提供的是監督注射、乾淨針具、醫療與轉介。"
+    status: verified
+    observed_at: "2026-10-07+08:00"
+    source_ids: [S021, S022, S023]
+    evidence_summary: "The Awl 原文與加拿大官方資料一致：InSite 是 supervised consumption/injection site；使用者攜入既有非法毒品，場站提供安全環境與減害服務，而非一般意義上的『由場站供應毒品』。"
+    excerpt: "The participants come in with their own drugs."
+    verification_notes:
+      - "沈當年的連結可證明他把 InSite 視為相關案例；但僅憑這一點仍不能證明他主觀上故意說假話。"
+      - "若有人主張該連結本身支持『社區中心提供毒品』，則與連結內容直接不符。"
+    tags: [沈伯洋, 2014回覆, InSite, Vancouver, supervised-consumption]
+
+  - id: F018
+    statement: "Ontario 2024 決定關閉 10 個距學校或托兒中心 200 公尺內的 supervised consumption sites，並把部分據點轉為 HART treatment hubs；這是 Ontario 省級政策，不是加拿大聯邦全面關閉。"
+    status: verified
+    observed_at: "2026-10-07+08:00"
+    source_ids: [S024]
+    evidence_summary: "Ontario 官方新聞稿列明 9 個省資助站點與 1 個 self-funded site 最晚於 2025-03-31 關閉。"
+    excerpt: ""
+    verification_notes:
+      - "可作為加拿大內部對 supervised consumption site 政策出現回撤的案例，但不等於 Vancouver InSite 被關閉。"
+    tags: [Ontario, supervised-consumption, policy-rollback]
+
+  - id: F019
+    statement: "Ontario 政府 2024 曾宣稱 Ottawa supervised consumption site 附近犯罪率比全市高 250%，但該數字後續受到資料與方法質疑，因此不能把『250%』直接當成該設施造成犯罪增加的既定事實。"
+    status: partial
+    observed_at: "2026-10-07+08:00"
+    source_ids: [S024, S025]
+    evidence_summary: "250% 是省政府公開主張；後續媒體與研究報導對其資料基礎及因果推論提出反證與質疑。"
+    excerpt: ""
+    verification_notes:
+      - "即使某區犯罪率較高，也不能直接推出是 supervised consumption site 所造成。"
+    tags: [Ontario, crime, 250-percent, causality]
+
 claims:
   - id: C001
     statement: "沈伯洋 2014 年『提供吸毒者毒品』中的『毒品』就是指美沙冬。"
@@ -512,6 +606,30 @@ claims:
     related_facts: [F013]
     reasoning_notes: "時間線應分兩階段：2023 政治／地方修正訊號；2024 州法正式反轉。"
 
+  - id: C012
+    statement: "沈伯洋 2014 年自己提供的 Vancouver InSite 資料，可以支持他原文『社區中心提供吸毒者毒品』這一具體敘述。"
+    status: contradicted
+    supports: []
+    contradicts: [F017]
+    related_facts: [F004, F006]
+    reasoning_notes: "該連結支持『容許／監督使用者施打自己帶來的非法毒品＋提供乾淨針具與醫療』，不支持『場站提供毒品』。"
+
+  - id: C013
+    statement: "因此可以直接證明沈伯洋在 2014 或 2026 是『故意說謊』。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F017, F010]
+    reasoning_notes: "現有證據足以指出文字與其自行引用來源不一致、後續解釋與 2014 文本存在張力；但『說謊』還包含主觀明知不實而故意陳述的要件，現有材料不足以直接證明主觀故意。"
+
+  - id: C014
+    statement: "Ontario 的『250% 犯罪率』可以直接證明 supervised consumption sites 造成犯罪增加。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F019]
+    reasoning_notes: "即使接受區域犯罪率差異，仍有 selection/confounding/causality 問題；後續資料也對 250% 數字本身提出質疑。"
+
 searches:
   - id: Q001
     observed_at: "2026-10-06+08:00"
@@ -560,6 +678,22 @@ searches:
     scope: "oregonlegislature.gov / portland.gov / oregon.gov"
     result: found
     notes: "確認 2023 SB 254 未通過、Portland 只限制 public use；2024 HB 4002 才完成 statewide possession recriminalization。"
+
+  - id: Q007
+    observed_at: "2026-10-07+08:00"
+    platform: web
+    query: "The Awl 2012 Vancouver supervised drug injection center participants come in with their own drugs InSite"
+    scope: "theawl.com / vch.ca / canada.ca"
+    result: found
+    notes: "確認沈 2014 所連 The Awl 文章內容：使用者自行攜帶毒品，場站提供監督、乾淨器材與醫療。"
+
+  - id: Q008
+    observed_at: "2026-10-07+08:00"
+    platform: web
+    query: "Ontario 10 supervised consumption sites close 250 percent crime 2024"
+    scope: "news.ontario.ca / Canadian media / peer-reviewed research"
+    result: found
+    notes: "確認 Ontario 關閉 10 站政策與 250% 官方主張；同時找到後續資料與研究質疑該數字及因果推論。"
 
 promotion:
   cases:
