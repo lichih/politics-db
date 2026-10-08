@@ -1,0 +1,210 @@
+session:
+  id: 2026-10-08-election-prediction-market-reform
+  project: Politics
+  title: "選舉預測市場與選罷法第103條之1修法建議"
+  started_at: "2026-10-08+08:00"
+  updated_at: "2026-10-08+08:00"
+  status: active
+
+topics:
+  - 公職人員選舉罷免法
+  - 第103條之1
+  - 選舉賭盤
+  - 預測市場
+  - Polymarket
+  - 刑法謙抑
+  - 比例原則
+  - 修法建議
+
+proposal:
+  summary: "不是主張全面開放選舉賭博，而是要求重新區分『一般小額 prediction-market 參與者』與『組織賭盤、操盤、內線、利益衝突或實際介選者』的法律責任。"
+  problem: "現行第103條之1只要透過公共場所或網際網路，以選舉、罷免結果為標的賭博財物，即可成立犯罪；不要求行為人有操盤意圖、具備影響選舉能力，或實際造成任何選舉危害。2026年Polymarket案件顯示，現行規範已直接套用到可交易、即時浮動價格的prediction market，而非僅限傳統地下組頭賭盤。"
+  legal_opinion:
+    - "保護選舉公正具有正當目的；選舉賭盤確實可能創造操盤、內線、利益衝突與介選誘因。"
+    - "但『存在高風險使用方式』不當然證明所有一般參與者均有足夠法益侵害，足以使用刑罰。"
+    - "法務部早在2018年草案階段即正式質疑：若不要求達到影響選舉結果，選舉賭客特別侵害的法益為何、何以單獨重罰，是否符合刑法謙抑、最後手段及罪刑均衡。"
+    - "因此爭點不是法院能否依現行明文判刑，而是現行立法將抽象風險前置到何種程度，是否仍符合比例原則與刑罰最後手段。"
+    - "Polymarket等prediction market與傳統莊家賭盤結構不同；立法院法制局2026年研究也已明確認知其由市場參與者形成價格、類似訂單簿交易。是否應完全等同傳統賭盤，值得重新論證。"
+  recommendations:
+    - "要求內政部、法務部就2018年法務部既有疑義提出正式檢討報告，說明第103條之1對一般參與者使用刑罰的必要性與比例性。"
+    - "修法時區分一般參與者與高風險行為：對組織賭盤、營利聚賭、候選人／幕僚利益衝突、內線資訊、大額操盤、虛假掛單或實際介選行為維持或加強刑責。"
+    - "對無介選、無操盤、無內線的一般小額參與者，評估改採行政罰、設定金額／身分門檻，或其他較小侵害手段，而非一律刑事處罰。"
+    - "另就prediction market建立明確定義與規範，不應只因標的是選舉結果，就省略其市場結構、資訊聚合功能與操縱風險的個別評估。"
+    - "修法前至少先由立法院內政委員會舉行公聽會或專題報告，邀法務部、內政部、中選會、刑法學者、金融／預測市場研究者共同釐清法益與替代手段。"
+  submission_channels:
+    - name: "台灣民眾黨線上陳情／政策建議"
+      role: "首選正式入口"
+      url: "https://helpyou.tpp.org.tw/HelpYou"
+      notes: "官方受理『立委協助、政策建議、問題反映』；流程為提交→受理確認→分配服務處→承辦回覆，一般案件標示約7–14個工作天，可附佐證資料。建議案件訴求寫成『請轉交立法院黨團研議第103條之1修法』。"
+    - name: "台灣民眾黨中央黨部"
+      role: "追蹤／確認收件"
+      url: "https://www.tpp.org.tw/"
+      notes: "官方網站列中央黨部電話02-27520806、02-77020806，傳真02-87730001；可在送出線上建議後以電話確認轉交政策／黨團窗口。"
+    - name: "立法院內政委員會"
+      role: "法案實質審查的目標委員會"
+      url: "https://www.ly.gov.tw/Pages/List.aspx?nodeid=152"
+      notes: "公職人員選舉罷免法修正案由內政委員會審查；實際提案仍需由立委或黨團提出。"
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "法務部"
+    title: "法制字第10702504240號法規諮詢意見"
+    url: "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?etype=etype3&id=FE311131&kw=&type=E"
+    published_at: "2018-03-12"
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "法務部在第103條之1草案階段直接質疑特別法益、刑罰必要性、刑法謙抑、最後手段及罪刑均衡。"
+
+  - id: S002
+    source_type: primary
+    publisher: "行政院"
+    title: "公職人員選舉罷免法部分條文修正草案總說明"
+    url: "https://www.ey.gov.tw/File/97D5171472470CE3?A=C"
+    published_at: "2018-12-13"
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "行政院草案以一般賭博刑度低、選舉賭盤會不當影響選舉結果為由，主張另立選舉賭博特別罪。"
+
+  - id: S003
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "公職人員選舉罷免法第103條之1"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0020010"
+    published_at: ""
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "現行條文對公共場所及利用電信、電子通訊、網際網路等方式，以選舉、罷免結果為標的賭博財物者均處罰。"
+
+  - id: S004
+    source_type: primary
+    publisher: "立法院法制局"
+    title: "去中心化預測市場平台介入選舉賭盤相關法制問題淺析"
+    url: "https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=6590&pid=262603"
+    published_at: "2026-05-11"
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "研究明確認知Polymarket不同於傳統莊家設定賠率，而由市場參與者依交易形成價格；文件僅供委員問政參考，不代表立法院立場。"
+
+  - id: S005
+    source_type: primary
+    publisher: "台灣民眾黨"
+    title: "台灣民眾黨線上陳情"
+    url: "https://helpyou.tpp.org.tw/HelpYou"
+    published_at: ""
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方系統明列適用範圍包含立委協助、政策建議、問題反映。"
+      - "一般案件預估7–14個工作天，Email回覆為主，可上傳附件。"
+      - "頁面亦列中央黨部電話02-27520806與傳真02-87730001。"
+
+  - id: S006
+    source_type: primary
+    publisher: "立法院"
+    title: "第11屆第5會期內政委員會選罷法審查紀錄"
+    url: "https://ppg.ly.gov.tw/ppg/publications/official-gazettes/115/40/01/details"
+    published_at: "2026-06-04"
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "2026年公職人員選舉罷免法修正案仍由內政委員會進行實質審查。"
+
+facts:
+  - id: F001
+    statement: "現行公職人員選舉罷免法第103條之1處罰單純透過網路以選舉、罷免結果為標的賭博財物，不要求實際影響選舉結果或具體操盤行為。"
+    status: verified
+    observed_at: "2026-10-08+08:00"
+    source_ids: [S003]
+    evidence_summary: "構成要件文字本身未設實際危害、操盤能力或介選意圖要件。"
+    excerpt: ""
+    verification_notes: []
+    tags: [第103條之1, 抽象危險]
+
+  - id: F002
+    statement: "法務部2018年已正式指出：若草案不要求達影響選舉結果，應釐清選舉賭客特別侵害何種法益、何以重罰，以及是否符合刑法謙抑、最後手段與罪刑均衡。"
+    status: verified
+    observed_at: "2026-10-08+08:00"
+    source_ids: [S001]
+    evidence_summary: "這不是事後才產生的批評，而是立法草案階段官方法律機關已提出的同類疑義。"
+    excerpt: "本項增訂刑事處罰規定，並未要求達影響選舉結果，則此賭博行為所特別侵害之法益為何？"
+    verification_notes: []
+    tags: [刑法謙抑, 最後手段, 罪刑均衡]
+
+  - id: F003
+    statement: "行政院推動特別選舉賭博罪的主要理由，是一般賭博處罰過輕，且選舉賭盤可能不當影響選舉結果。"
+    status: verified
+    observed_at: "2026-10-08+08:00"
+    source_ids: [S002]
+    evidence_summary: "立法目的可辨識為保護選舉公正，而非單純反賭博。"
+    excerpt: ""
+    verification_notes: []
+    tags: [立法目的, 選舉公正]
+
+  - id: F004
+    statement: "立法院法制局2026年研究已明確認知Polymarket等去中心化預測市場在市場結構上不同於傳統由莊家設定賠率的選舉賭盤。"
+    status: verified
+    observed_at: "2026-10-08+08:00"
+    source_ids: [S004]
+    evidence_summary: "官方研究指出其利用區塊鏈與類訂單簿機制，由市場參與者交易形成價格。"
+    excerpt: ""
+    verification_notes:
+      - "法制局研究不代表立法院正式立場。"
+    tags: [Polymarket, prediction-market]
+
+  - id: F005
+    statement: "台灣民眾黨官方線上陳情系統可受理政策建議與立委協助，且可附佐證資料；公職人員選舉罷免法的實質審查委員會為立法院內政委員會。"
+    status: verified
+    observed_at: "2026-10-08+08:00"
+    source_ids: [S005, S006]
+    evidence_summary: "可作為把本案從研究紀錄提升成實際修法建議的正式提交路徑。"
+    excerpt: ""
+    verification_notes: []
+    tags: [民眾黨, 提案管道, 內政委員會]
+
+claims:
+  - id: C001
+    statement: "選舉賭盤具有操盤與介選風險，因此所有一般小額參與者一律以刑罰處理即當然符合比例原則。"
+    status: unsupported
+    supports: []
+    contradicts: [F002]
+    related_facts: [F001, F003]
+    reasoning_notes: "正當的管制目的與具體手段的必要性必須分開檢驗；2018年法務部已要求說明為何一般賭客需要特別刑罰。"
+
+  - id: C002
+    statement: "重新檢討第103條之1，不等於主張全面開放地下選舉賭盤。"
+    status: supported
+    supports: [F002, F004]
+    contradicts: []
+    related_facts: [F003]
+    reasoning_notes: "可同時維持對組織賭盤、操盤、內線與實際介選的強力管制，並對低危害的一般參與者採取較小侵害手段。"
+
+  - id: C003
+    statement: "本案適合從research提升到proposals分區。"
+    status: supported
+    supports: [F002, F004, F005]
+    contradicts: []
+    related_facts: [F001, F003]
+    reasoning_notes: "已有明確法律疑義、官方既有資料、新型市場情境、具體修法方向與可提交管道，已超過單純待查問題。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-08+08:00"
+    platform: web
+    query: "選罷法第103條之1 立法理由 法務部 刑法謙抑 最後手段 Polymarket 預測市場 民眾黨 政策建議"
+    scope: "法務部、行政院、全國法規資料庫、立法院、台灣民眾黨官方網站"
+    result: found
+    notes: "已找到足以形成修法建議的官方法制資料與提交管道。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "對外提案時應避免使用『政府在做Minority Report』作為主論證；可作為直覺比喻，但正式法律論證應集中在保護法益、刑法謙抑、最後手段、罪刑均衡、比例原則與新型prediction market分類。"
+  - "第一階段不必先寫死具體條文；先要求黨團提出修法研究／公聽會，通常比直接指定單一版本更容易進入政策流程。"
