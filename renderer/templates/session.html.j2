@@ -26,6 +26,42 @@
       </div>
     </header>
 
+    {% if data.proposal %}
+    <section>
+      <div class="section-head">
+        <h2>Proposal</h2>
+        <p>可送交政黨／立委／機關的政策或修法建議。</p>
+      </div>
+      <div class="panel">
+        {% if data.proposal.summary %}<h3>{{ data.proposal.summary }}</h3>{% endif %}
+        {% if data.proposal.problem %}
+        <h4>問題定義</h4>
+        <p>{{ data.proposal.problem }}</p>
+        {% endif %}
+        {% if data.proposal.legal_opinion %}
+        <h4>法律意見</h4>
+        <ul>{% for item in data.proposal.legal_opinion %}<li>{{ item }}</li>{% endfor %}</ul>
+        {% endif %}
+        {% if data.proposal.recommendations %}
+        <h4>建議方向</h4>
+        <ol>{% for item in data.proposal.recommendations %}<li>{{ item }}</li>{% endfor %}</ol>
+        {% endif %}
+        {% if data.proposal.submission_channels %}
+        <h4>提交管道</h4>
+        <ul>
+          {% for item in data.proposal.submission_channels %}
+          <li>
+            <strong>{{ item.name }}</strong>{% if item.role %} — {{ item.role }}{% endif %}
+            {% if item.url %} · <a href="{{ item.url }}" rel="noreferrer">開啟 ↗</a>{% endif %}
+            {% if item.notes %}<br>{{ item.notes }}{% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+    </section>
+    {% endif %}
+
     <section>
       <div class="section-head">
         <h2>Claims</h2>
