@@ -72,6 +72,54 @@ sources:
     notes:
       - "報導沈表示現階段立場支持死刑；長遠希望減少死刑使用。"
 
+  - id: S006
+    source_type: commentary
+    publisher: "Newtalk 讀者投書"
+    title: "真正值得託付的政治人物，不是保證自己不會變"
+    url: "https://newtalk.tw/citizen/view/73981"
+    published_at: "2026-10-01"
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "明確以沈伯洋為對象，主張政治人物可能改變，重點應是制度能否限制權力；並肯定沈曾表示若偏離信念，希望大家『用力批評』。"
+      - "這不是死刑爭議後的留言，但可作為支持者／友善論述中『改變本身不構成失格』框架的 contemporaneous evidence。"
+
+  - id: S007
+    source_type: commentary
+    publisher: "民視新聞（轉述翁達瑞臉書）"
+    title: "沈伯洋『超扛單挑』趙少康團戰大軍！翁達瑞揭3外掛殺招"
+    url: "https://www.ftvnews.com.tw/news/detail/2026A07W0439"
+    published_at: "2026-10-07"
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "翁達瑞在沈上少康戰情室前公開稱，在『是非、學識與品格』三方面沈都佔優勢。"
+      - "可作為核心支持者在爭議期間仍以『品格』正面框架沈的例子。"
+
+  - id: S008
+    source_type: commentary
+    publisher: "Newtalk"
+    title: "張宇韶觀點》真正的破圈，是接受不能控制的問題"
+    url: "https://newtalk.tw/news/view/2026-10-08/1064350"
+    published_at: "2026-10-08"
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "友善評論把沈上異質媒體、接受不可控制提問，解讀為政治自信與接受外部檢驗。"
+      - "文章把焦點轉向『願意讓政策與治理紀錄接受檢驗』，而非直接處理其 2018／2026 對《死刑肯定論》的敘事差異。"
+
+  - id: S009
+    source_type: commentary
+    publisher: "民視新聞"
+    title: "羅智強改打『廢死』 林俊憲酸『造謠天團』：凸顯蔣萬安不了解市政"
+    url: "https://sport.ftvnews.com.tw/news/detail/2026A07W0472"
+    published_at: "2026-10-07"
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "民進黨立委林俊憲把藍營追問沈死刑立場定性為『造謠天團』與負面攻擊，並把焦點轉回市政。"
+      - "這是一種陣營防衛論述，不等同回答沈自身過去與現在說法是否一致。"
+
 facts:
   - id: F001
     statement: "2018 年沈伯洋在法律扶助基金會《死刑肯定論》講座中，將書名形容為帶有『詐欺』意味，並說書到最後『有點諷刺』、作者『並不是那麼支持死刑』。"
@@ -106,6 +154,18 @@ facts:
       - "這顯示 2018 沈的『詐欺書名／並不是那麼支持』是他對作品的詮釋，不宜簡化成出版社或作者明確自稱反對死刑。"
     tags: [2018, 出版社, 森炎]
 
+  - id: F004
+    statement: "公開可檢索的沈伯洋友善／支持性論述中，至少可見三種護航框架：①政治人物會改變，重點是制度與可被批評；②把沈接受異質媒體檢驗本身視為『品格／政治自信』證據；③把追問其舊立場定性為片段標籤、造謠或負面選戰，並將焦點移回市政。"
+    status: verified
+    observed_at: "2026-10-08+08:00"
+    source_ids: [S006, S007, S008, S009]
+    evidence_summary: "這些來源不是抽象推測，而是 2026 選戰期間公開可見的支持／友善論述。它們可以證明存在這些防衛框架，但不能推出所有沈支持者都如此。"
+    excerpt: ""
+    verification_notes:
+      - "目前一般搜尋引擎未找到使用者提到的精確句子『這才是市長該有的品格』；社群留言索引不完整，故不能宣稱已找到該原留言。"
+      - "應區分『允許政治人物改變立場』與『替前後矛盾或對過去材料的重新描述辯護』，前者本身並非不合理。"
+    tags: [支持者, 護航, 品格, 敘事框架, 問責]
+
 claims:
   - id: C001
     statement: "沈伯洋 2018 與 2026 對《死刑肯定論》作者最終立場的公開描述存在明顯張力：2018 說『並不是那麼支持死刑』、具有諷刺意味；2026 則說作者『最後選擇了支持死刑』。"
@@ -131,6 +191,22 @@ claims:
     related_facts: []
     reasoning_notes: "現有公開說法是現階段支持保留死刑、長期希望減少使用。"
 
+  - id: C004
+    statement: "目前公開資料足以支持『沈的部分支持／友善論述會把立場變化、接受挑戰或外部檢驗重新框成品格優點，並把追問舊立場視為負面標籤攻擊』。"
+    status: supported
+    supports: [F004]
+    contradicts: []
+    related_facts: [F001, F002]
+    reasoning_notes: "這支持的是『存在此種支持者敘事機制』，不是『所有支持者都無條件忠誠』。後者若要成立，需要更廣泛、可代表性的樣本。"
+
+  - id: C005
+    statement: "因為支持者稱立場改變是成長／品格，所以可直接推論他們在任何情況下都不會批評沈伯洋。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F004]
+    reasoning_notes: "目前只能證明在若干爭議中出現高度彈性的正面重框；若要證明『不可證偽的支持系統』，需持續觀察當出現明確政策失敗、違法或本人承認錯誤時，這些群體是否仍一律合理化。"
+
 searches:
   - id: Q001
     observed_at: "2026-10-08+08:00"
@@ -147,6 +223,14 @@ searches:
     scope: "中央社 / 聯合報 / NOWnews"
     result: found
     notes: "多家媒體一致報導 2026-10-07 受訪說法。"
+
+  - id: Q003
+    observed_at: "2026-10-08+08:00"
+    platform: web
+    query: "沈伯洋 支持者 護航 市長 品格 死刑 改變立場 成長"
+    scope: "公開新聞、評論、Threads/Facebook 可被搜尋引擎索引內容"
+    result: partial
+    notes: "找到多個『品格／政治自信／可改變／負面標籤』支持性框架；未找到精確句『這才是市長該有的品格』。社群留言索引不完整。"
 
 promotion:
   cases: []
