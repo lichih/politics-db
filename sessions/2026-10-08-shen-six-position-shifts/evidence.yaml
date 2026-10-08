@@ -1,0 +1,259 @@
+session:
+  id: 2026-10-08-shen-six-position-shifts
+  project: Politics
+  title: "沈伯洋六項前後說法圖卡查核"
+  started_at: "2026-10-08+08:00"
+  updated_at: "2026-10-08+08:00"
+  status: active
+
+topics:
+  - 沈伯洋
+  - 兩岸交流
+  - 毒品政策
+  - 死刑
+  - 核能
+  - 普發現金
+  - 大罷免
+  - 立場一致性
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "民主進步黨"
+    title: "中國視交流為統戰之一 沈伯洋：建法律依據、管理機制"
+    url: "https://www.dpp.org.tw/anti_rumor/puma/fact-check-11"
+    published_at: "2026-06-16"
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "民進黨官方頁面確認沈曾說：對中國來說，所有交流都是統戰的一部分；同時主張風險管理與法律依據，不是全面禁止交流。"
+
+  - id: S002
+    source_type: secondary
+    publisher: "中央社"
+    title: "沈伯洋破圈少康戰情室　無政治前提願參加雙城論壇"
+    url: "https://www.cna.com.tw/news/aloc/202610070359.aspx"
+    published_at: "2026-10-07"
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "沈稱無一國兩制、九二共識等政治前提，且有效益、有內容、能幫助產業，雙城論壇可續辦，自己願意參加。"
+
+  - id: S003
+    source_type: secondary
+    publisher: "中央社"
+    title: "沈伯洋：立場其實一直都很清楚　不主張毒品除罪化"
+    url: "https://www.cna.com.tw/news/aipl/202610060294.aspx"
+    published_at: "2026-10-06"
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "沈稱從未主張毒品除罪化，並以學生論文結論為佐證。"
+
+  - id: S004
+    source_type: secondary
+    publisher: "中央社"
+    title: "藍營強攻毒品再打廢死議題　沈伯洋：未提廢死修法"
+    url: "https://www.cna.com.tw/news/aloc/202610070070.aspx"
+    published_at: "2026-10-07"
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "沈稱2014文章提出A/B/C三方案，現在被質疑的是B，但自己結論為C。"
+
+  - id: S005
+    source_type: secondary
+    publisher: "Yahoo新聞"
+    title: "沈伯洋昔挺廢死影片曝光！喊『國家在殺人』"
+    url: "https://tw.news.yahoo.com/%E6%B2%88%E4%BC%AF%E6%B4%8B%E6%98%94%E6%8C%BA%E5%BB%A2%E6%AD%BB%E7%89%87%E6%9B%9D%E5%85%89-%E5%96%8A-%E5%9C%8B%E5%AE%B6%E5%9C%A8%E6%AE%BA%E4%BA%BA-%E9%99%B3%E6%8F%AE%E6%96%87%E5%97%86-%E5%85%AC%E9%96%8B%E8%A1%A8%E6%85%8B-030014661.html"
+    published_at: "2026-07-02"
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "轉述舊演講影片，包含『死刑宣判下去，表示國家在殺人』及反省後『死刑就判不下去了』等原話。"
+
+  - id: S006
+    source_type: secondary
+    publisher: "Newtalk"
+    title: "沈伯洋指死刑要謹慎但要維持"
+    url: "https://newtalk.tw/news/view/2026-10-08/1064351"
+    published_at: "2026-10-08"
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "沈2026明確表示長遠減少使用、使用要謹慎，但死刑仍要維持。"
+
+  - id: S007
+    source_type: secondary
+    publisher: "華視"
+    title: "核三公投延役未過關　綠：浪費11億公帑"
+    url: "https://www.youtube.com/watch?v=Aca20lRPFKU"
+    published_at: "2025-08-23"
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導沈批核三公投主文模糊並浪費11億公帑。"
+
+  - id: S008
+    source_type: secondary
+    publisher: "中央社"
+    title: "沈伯洋談北市選戰　盼聚焦市政討論和國際觀"
+    url: "https://www.cna.com.tw/news/aloc/202606010214.aspx"
+    published_at: "2026-06-01"
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "沈稱民進黨反核理由是核安、核廢料、社會無共識；若都改善，社會就會有共識，並稱立場未變。"
+
+  - id: S009
+    source_type: secondary
+    publisher: "中央社"
+    title: "綠委批普發現金癱瘓政府 藍嗆蔡政府也發過"
+    url: "https://www.cna.com.tw/news/aipl/202507120195.aspx"
+    published_at: "2025-07-12"
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "沈2025批在野推普發1萬元是『共產黨的招，先窮台，再統一』。"
+
+  - id: S010
+    source_type: secondary
+    publisher: "Newtalk"
+    title: "曾批普發一萬共產黨的招 沈伯洋：我標準沒變、各城市都可加碼"
+    url: "https://newtalk.tw/news/view/2026-08-17/1053991"
+    published_at: "2026-08-17"
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "沈2026稱標準是不要舉債、先顧弱勢、預算先編；此次符合，因此支持普發，地方也可依原則加碼。"
+
+  - id: S011
+    source_type: secondary
+    publisher: "中央社"
+    title: "沈伯洋籲適時協助罷團 民進黨：尊重公民行使權利"
+    url: "https://www.cna.com.tw/news/aipl/202502040305.aspx"
+    published_at: "2025-02-04"
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "沈公開呼籲民進黨中央『動起來』，幫罷團論述、辦講座，不讓公民團體孤軍奮戰。"
+
+  - id: S012
+    source_type: secondary
+    publisher: "中央社"
+    title: "罷團辦宣講 綠委沈伯洋籲自由靠爭取"
+    url: "https://www.cna.com.tw/news/aipl/202503300152.aspx"
+    published_at: "2025-03-30"
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "沈赴罷團宣講，呼籲民眾參與罷免連署。"
+
+  - id: S013
+    source_type: secondary
+    publisher: "聯合報"
+    title: "協助民團推動大罷免撕裂台灣？沈伯洋：是憲法賦予權力"
+    url: "https://udn.com/vote2026/story/124652/9801140"
+    published_at: "2026-10-07"
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "沈2026承認自己不是發起人但『很贊成』，也承認當時曾與公民團體討論策略。"
+
+facts:
+  - id: F001
+    statement: "沈曾主張『對中國來說，所有交流都是統戰的一部分』，但其完整主張同時包含建立風險管理與法律依據，而非全面禁止交流；2026又表示無政治前提、有效益的雙城論壇可做。"
+    status: verified
+    observed_at: "2026-10-08+08:00"
+    source_ids: [S001, S002]
+    evidence_summary: "『所有交流都是統戰的一部分』確有其言，但『所以所有交流都不應做』不是其完整原意。"
+    excerpt: ""
+    verification_notes: []
+    tags: [兩岸交流]
+
+  - id: F002
+    statement: "沈2026稱自己從未主張毒品除罪化；但其2014文章確實把除罪化列為政策方案並作正面討論，且另提出社區中心、毒品與乾淨針頭等減害構想。"
+    status: verified
+    observed_at: "2026-10-08+08:00"
+    source_ids: [S003, S004]
+    evidence_summary: "圖卡若寫『討論除罪化』與『現在稱從未主張』，有實質張力；但『討論』本身不等於『正式政策主張』。"
+    excerpt: ""
+    verification_notes:
+      - "更完整的2014 contemporaneous evidence已另存 shen-drug-policy session。"
+    tags: [毒品政策]
+
+  - id: F003
+    statement: "沈舊演講確曾以『國家在殺人』與反省後『死刑判不下去』的方式討論死刑；2026則明確表示死刑應謹慎、減少使用但仍要維持。"
+    status: verified
+    observed_at: "2026-10-08+08:00"
+    source_ids: [S005, S006]
+    evidence_summary: "可支持其死刑態度有顯著移動；但舊演講是否等於正式主張全面廢死，仍需避免過度概括。"
+    excerpt: ""
+    verification_notes: []
+    tags: [死刑]
+
+  - id: F004
+    statement: "沈2025批核三延役公投主文模糊、浪費公帑；2026則稱其核能原則未變，若核安、核廢料與社會共識問題改善，可再討論核能。"
+    status: verified
+    observed_at: "2026-10-08+08:00"
+    source_ids: [S007, S008]
+    evidence_summary: "這是由反對一個具體延役公投轉為條件式開放核能討論，不等於無條件由反核轉挺核。"
+    excerpt: ""
+    verification_notes: []
+    tags: [核能]
+
+  - id: F005
+    statement: "沈2025把在野推動的普發1萬元放在『癱瘓政府／共產黨的招』框架；2026支持由行政部門在不舉債、先顧弱勢、預算先編條件下普發，也主張地方有餘裕可加碼。"
+    status: verified
+    observed_at: "2026-10-08+08:00"
+    source_ids: [S009, S010]
+    evidence_summary: "前後政策結論不同，但沈提出了財政與預算權限上的條件差異；因此不能只用『以前反普發、現在挺普發』概括。"
+    excerpt: ""
+    verification_notes:
+      - "2025『共產黨的招』修辭本身遠比其後來提出的技術性區分更寬泛，仍有政治修辭一致性問題。"
+    tags: [普發現金]
+
+  - id: F006
+    statement: "沈2025並非大罷免正式發起人，但確實高度支持、公開宣講、呼籲民進黨中央投入協助；2026仍承認自己『很贊成』當時的大罷免，只強調發起者是公民團體。"
+    status: verified
+    observed_at: "2026-10-08+08:00"
+    source_ids: [S011, S012, S013]
+    evidence_summary: "『不是發起人』是形式上的事實；若被用來淡化其高度參與與政治支持程度，則會造成不完整印象。"
+    excerpt: ""
+    verification_notes: []
+    tags: [大罷免]
+
+claims:
+  - id: C001
+    statement: "圖卡六項都能直接證明沈伯洋『立場180度翻轉』。"
+    status: contradicted
+    supports: []
+    contradicts: [F001, F004, F005, F006]
+    related_facts: [F002, F003]
+    reasoning_notes: "六項證據強度不同。毒品與死刑的敘事張力最強；兩岸、核能、普發都有可檢驗的條件差異；大罷免則主要是角色與責任敘事，不是政策立場反轉。"
+
+  - id: C002
+    statement: "這張圖可作為『沈在進入市長選戰後重新包裝過去立場』的查核索引。"
+    status: supported
+    supports: [F001, F002, F003, F004, F005, F006]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "適合作為待查清單，但每一項必須回到完整語境，不能把六項都當成同強度證據。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-08+08:00"
+    platform: web
+    query: "沈伯洋 六項立場 兩岸 毒品 死刑 核能 普發 大罷免"
+    scope: "中央社、民進黨官方、公開新聞與舊紀錄"
+    result: found
+    notes: "六項均找到可核對資料，但證據強弱與是否構成反轉不同。"
+
+promotion:
+  cases: []
+  comparators: []
+  research:
+    - proposed: "shen-position-reframing-longitudinal"
+
+notes:
+  - "此圖卡可當索引，不宜直接當結論。對候選人誠信的判斷，應區分：真正立場改變、條件改變、語境差異、角色責任淡化、以及對舊資料的重寫。"
