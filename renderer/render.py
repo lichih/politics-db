@@ -33,7 +33,7 @@ def load_schema() -> dict[str, Any]:
 
 def discover_documents(root: Path = ROOT) -> list[EvidenceDocument]:
     docs: list[EvidenceDocument] = []
-    for area in ("sessions", "cases", "comparators", "research"):
+    for area in ("sessions", "cases", "comparators", "research", "proposals"):
         base = root / area
         if not base.exists():
             continue
@@ -165,6 +165,7 @@ def index_document(doc: EvidenceDocument) -> dict[str, Any]:
             "claim_count": len(claims),
             "search_count": len(data.get("searches", [])),
             "relative_dir": doc.rel_dir.as_posix(),
+            "area": doc.rel_dir.parts[0] if doc.rel_dir.parts else "",
             "root_prefix": "../" * len(doc.rel_dir.parts),
         },
     }
