@@ -1,0 +1,158 @@
+session:
+  id: 2026-10-08-shen-death-penalty
+  project: Politics
+  title: "沈伯洋死刑立場與《死刑肯定論》2018／2026說法對照"
+  started_at: "2026-10-08+08:00"
+  updated_at: "2026-10-08+08:00"
+  status: active
+
+topics:
+  - 沈伯洋
+  - 死刑
+  - 廢死
+  - 死刑肯定論
+  - 政治立場一致性
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "法律扶助基金會"
+    title: "肯定死刑？法律系名教授 李茂生來談《死刑肯定論》—逍遙法外 法律扶助跨界講座"
+    url: "https://www.youtube.com/watch?v=ZxGS-DdNt-Q"
+    published_at: "2018-11-25"
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "法律扶助基金會官方 YouTube；說明列沈伯洋為講座與談人。"
+
+  - id: S002
+    source_type: primary
+    publisher: "讀書共和國／光現出版"
+    title: "死刑肯定論"
+    url: "https://www.bookrep.com.tw/index.php?at=bookcontent&cl=book&id=12911&md=gwindex"
+    published_at: "2018-07-04"
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "出版社頁面列沈伯洋（撲馬）為專業審定。"
+      - "宣傳文案明寫『你支持死刑嗎？如果是，請用森炎的方式支持！』並介紹作者為何仍然支持死刑。"
+
+  - id: S003
+    source_type: secondary
+    publisher: "媒體報導（2018講座逐字摘錄）"
+    title: "沈伯洋2018曾說：死刑肯定論是詐欺書名　讓大家知道死刑是奇怪的事情"
+    url: "https://tw.wa01.com/a/chen-bo-yang-2018ceng-shuo-si-xing-ken-ding-lun-shi-zha-qi-shu-ming-rang-da-jia-zhi-dao-si-xing-shi-qi-guai-de-shi-qing.html"
+    published_at: "2026-10-07"
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導引用 2018 法扶講座影片內容：沈稱《死刑肯定論》書名『原則上算是一個詐欺』，到最後『有點諷刺』、『並不是那麼支持死刑』。"
+      - "沈並稱作者想傳達『死刑的執行是一件那麼奇怪的事情』，用書名吸引支持死刑者翻閱並思考死刑是否該存在。"
+
+  - id: S004
+    source_type: secondary
+    publisher: "中央社"
+    title: "香港人委託全天監控　沈伯洋：應該不只我個人"
+    url: "https://www.cna.com.tw/news/aipl/202610070222.aspx"
+    published_at: "2026-10-07"
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "中央社報導沈 2026-10-07 對死刑立場的完整回應。"
+      - "沈說《死刑肯定論》作者經支持／廢除的辯證後『最後選擇了支持死刑』，『這和我現在的立場比較相近』。"
+
+  - id: S005
+    source_type: secondary
+    publisher: "聯合報"
+    title: "批藍用片段的標籤攻擊 沈伯洋：現在立場「支持死刑」"
+    url: "https://udn.com/vote2026/story/124652/9801614"
+    published_at: "2026-10-08"
+    observed_at: "2026-10-08+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導沈表示現階段立場支持死刑；長遠希望減少死刑使用。"
+
+facts:
+  - id: F001
+    statement: "2018 年沈伯洋在法律扶助基金會《死刑肯定論》講座中，將書名形容為帶有『詐欺』意味，並說書到最後『有點諷刺』、作者『並不是那麼支持死刑』。"
+    status: verified
+    observed_at: "2026-10-08+08:00"
+    source_ids: [S001, S003]
+    evidence_summary: "官方講座影片存在，2026 媒體依影片逐字摘錄沈當時對該書的解讀。"
+    excerpt: "並不是那麼支持死刑"
+    verification_notes:
+      - "此處是在記錄沈 2018 對書的公開解讀，不等同判定森炎本人實際立場。"
+    tags: [2018, 沈伯洋, 死刑肯定論]
+
+  - id: F002
+    statement: "2026-10-07 沈伯洋公開表示，《死刑肯定論》作者在辯證過程中『最後選擇了支持死刑』，並稱『這和我現在的立場比較相近』。"
+    status: verified
+    observed_at: "2026-10-08+08:00"
+    source_ids: [S004, S005]
+    evidence_summary: "中央社與聯合報對沈 2026-10-07 受訪內容均有一致報導。"
+    excerpt: "最後選擇了支持死刑，這和我現在的立場比較相近"
+    verification_notes:
+      - "沈另表示長遠希望減少死刑使用，因此其 2026 立場較準確描述為現階段支持保留死刑、長期希望減少使用。"
+    tags: [2026, 沈伯洋, 支持死刑]
+
+  - id: F003
+    statement: "出版社 2018 年官方書介本身把《死刑肯定論》定位為一位重視司法品質的法官『為什麼仍然支持死刑』，並以『如果支持死刑，請用森炎的方式支持』作為宣傳文案。"
+    status: verified
+    observed_at: "2026-10-08+08:00"
+    source_ids: [S002]
+    evidence_summary: "出版社同期資料可作為理解原書定位的 contemporaneous source。"
+    excerpt: "如果是，請用森炎的方式支持！"
+    verification_notes:
+      - "這顯示 2018 沈的『詐欺書名／並不是那麼支持』是他對作品的詮釋，不宜簡化成出版社或作者明確自稱反對死刑。"
+    tags: [2018, 出版社, 森炎]
+
+claims:
+  - id: C001
+    statement: "沈伯洋 2018 與 2026 對《死刑肯定論》作者最終立場的公開描述存在明顯張力：2018 說『並不是那麼支持死刑』、具有諷刺意味；2026 則說作者『最後選擇了支持死刑』。"
+    status: supported
+    supports: [F001, F002]
+    contradicts: []
+    related_facts: [F003]
+    reasoning_notes: "兩段話並非形式邏輯上的絕對互斥，因為一個人可以批判性／保留地支持死刑；但沈 2026 用該書作為自身現在支持死刑的佐證時，與他 2018 強調其書名具有欺騙性、作者並非那麼支持死刑的說法形成實質的敘事轉向。"
+
+  - id: C002
+    statement: "單憑『沈曾參與審定《死刑肯定論》』即可證明沈 2018 當時本人支持死刑。"
+    status: contradicted
+    supports: []
+    contradicts: [F001]
+    related_facts: [F003]
+    reasoning_notes: "審定一本支持或討論死刑的書，不代表審定者採取同一立場；沈 2018 自己的講座解讀尤其不能用『曾審定』直接推成其當時支持死刑。"
+
+  - id: C003
+    statement: "2026 沈目前立場可直接描述為『主張全面廢除死刑』。"
+    status: contradicted
+    supports: []
+    contradicts: [F002]
+    related_facts: []
+    reasoning_notes: "現有公開說法是現階段支持保留死刑、長期希望減少使用。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-08+08:00"
+    platform: web
+    query: "沈伯洋 死刑肯定論 2018 詐欺 書名 法扶 YouTube"
+    scope: "法律扶助基金會 YouTube / 出版社 / 新聞"
+    result: found
+    notes: "找到法扶 2018 官方講座影片、出版社 2018 書介及 2026 對講座內容的逐字摘錄報導。"
+
+  - id: Q002
+    observed_at: "2026-10-08+08:00"
+    platform: web
+    query: "沈伯洋 2026 死刑肯定論 跟我現在立場比較相近 最後選擇死刑"
+    scope: "中央社 / 聯合報 / NOWnews"
+    result: found
+    notes: "多家媒體一致報導 2026-10-07 受訪說法。"
+
+promotion:
+  cases: []
+  comparators: []
+  research:
+    - proposed: "politician-position-change-and-retrospective-reframing"
+
+notes:
+  - "此 session 重點是區分『立場改變』與『對過去資料的重新描述』。立場改變本身不構成不誠實；若用過去的審定工作作為今日立場證明，則必須連同當時自己對該書的公開解讀一起評估。"
