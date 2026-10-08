@@ -16,6 +16,7 @@
 - `cases/`：事件本身與證據時間軸。
 - `comparators/`：可用於制度、司法或執法一致性比較的案件。
 - `research/`：查詢過程、尚未解決的問題與「此次未找到」紀錄。
+- `proposals/`：已完成基本查核、可送交政黨／立委／機關的政策或修法建議；保留問題定義、法律意見、建議方向與提交管道。
 - `docs/evidence-policy.md`：證據保存與查詢紀錄規則。
 - `docs/project-workflow.md`：Politics Project 與本 repo 的工作流契約。
 - `sessions/_template/evidence.yaml`：session evidence 樣板。
