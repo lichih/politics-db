@@ -12,7 +12,10 @@ on:
       - "renderer/**"
       - "schema/**"
       - "requirements.txt"
-      - ".github/workflows/validate-evidence.yml"
+      - ".github/workflows/**"
+      - "docs/project-workflow.md"
+      - "README.md"
+      - "CNAME"
   push:
     branches-ignore:
       - gh-pages
@@ -25,7 +28,10 @@ on:
       - "renderer/**"
       - "schema/**"
       - "requirements.txt"
-      - ".github/workflows/validate-evidence.yml"
+      - ".github/workflows/**"
+      - "docs/project-workflow.md"
+      - "README.md"
+      - "CNAME"
   workflow_dispatch:
 
 permissions:

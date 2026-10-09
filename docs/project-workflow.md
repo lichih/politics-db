@@ -20,7 +20,7 @@
 4. 建立 PR 至 `main`，由 `.github/workflows/validate-evidence.yml` 再執行同一套 schema 與 cross-reference validation。
 5. validation 成功後才可 merge。
 6. 不得以直接 push `main`、停用 validation、刪除錯誤 evidence 或降低 schema 約束來繞過失敗檢查；若 schema 本身需要調整，應在同一 PR 中說明原因並讓既有資料全部通過新版驗證。
-7. merge 後由部署 workflow 再驗證一次，render HTML 並發布 `gh-pages`。部署失敗不得改寫 authoritative evidence 來掩蓋問題。
+7. merge 後由部署 workflow 再驗證一次，render HTML 並 force-push `gh-pages`。GitHub Pages 直接由 `gh-pages` branch 發布；部署失敗不得改寫 authoritative evidence 來掩蓋問題。
 
 GitHub branch protection / ruleset 是額外的機械 enforcement；即使 repository 尚未啟用 protection，本工作流仍是 Politics Project Agent 的操作契約。
 
