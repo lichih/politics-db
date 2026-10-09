@@ -54,3 +54,12 @@ jobs:
 
       - name: Validate schema and cross-references
         run: python renderer/render.py --check
+
+      - name: Render site smoke test
+        run: |
+          python renderer/render.py --output site
+          test -s site/index.html
+          test -s site/sitemap.xml
+          test -s site/robots.txt
+          grep -Fq "https://politics-db.4649.tw/" site/sitemap.xml
+          grep -Fq "Sitemap: https://politics-db.4649.tw/sitemap.xml" site/robots.txt
