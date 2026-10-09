@@ -240,14 +240,6 @@ claims:
     related_facts: [F004]
     reasoning_notes: "這個樣本支持『支持者敘事可能從政策論證滑向人格認同』，但不宜外推為所有支持者。"
 
-  - id: C006
-    statement: "部分支持者的論證已不只是在替特定政策辯護，而是把與治理無關的個人好感訊號也轉化成『品格』證據，形成整體人格光環。"
-    status: supported
-    supports: [F005]
-    contradicts: []
-    related_facts: [F004]
-    reasoning_notes: "這是一個典型 halo effect 樣本：政策、個人印象與人格評價被混在同一個正向框架中；但不能由單一貼文推論整個支持群體皆如此。"
-
 searches:
   - id: Q001
     observed_at: "2026-10-08+08:00"
