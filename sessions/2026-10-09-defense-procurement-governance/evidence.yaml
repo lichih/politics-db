@@ -1,0 +1,426 @@
+session:
+  id: 2026-10-09-defense-procurement-governance
+  project: Politics
+  title: "國防採購治理：反無人機、軍火代理資格、履約能力與驗收失敗"
+  started_at: "2026-10-09"
+  updated_at: "2026-10-09"
+  status: active
+
+topics:
+  - 國防採購
+  - 無人機反制
+  - 創未來科技
+  - 廠商資格
+  - 履約能力
+  - 驗收
+  - RDX
+  - 9公厘手槍彈
+  - 顧立雄
+  - 採購治理
+
+sources:
+  - id: S001
+    source_type: secondary
+    publisher: "台灣事實查核中心"
+    title: "【錯誤】網傳圖卡「沒當過兵顧立雄，當了國防部長」？"
+    url: "https://tfc-taiwan.org.tw/fact-check-reports/migration-10603/"
+    published_at: "2024-05-17"
+    observed_at: "2026-10-09"
+    retrieval_status: reachable
+    notes:
+      - "顧立雄辦公室提供退伍令；入伍1980-10-11、退伍1982-08-25，曾任陸軍少尉運輸排長。"
+
+  - id: S002
+    source_type: primary
+    publisher: "監察院"
+    title: "國防工業發展基金會辦理外島無人機反制系統委託研究案－糾正案文"
+    url: "https://www.cy.gov.tw/CyBsBoxContent2.aspx?n=718&s=28653"
+    published_at: "2024-03-22"
+    observed_at: "2026-10-09"
+    retrieval_status: reachable
+    notes:
+      - "字號113國正0005。"
+
+  - id: S003
+    source_type: primary
+    publisher: "監察院"
+    title: "國防工業發展基金會辦理外島無人機反制系統委託研究案－調查報告"
+    url: "https://www.cy.gov.tw/CyBsBoxContent2.aspx?n=718&s=28654"
+    published_at: "2024-03-22"
+    observed_at: "2026-10-09"
+    retrieval_status: reachable
+    notes:
+      - "字號113國調0005；研究案原規劃作為後續26套外島無人機反制系統採購案參考。"
+
+  - id: S004
+    source_type: primary
+    publisher: "監察院"
+    title: "無人機反制系統委託案調查報告PDF（公布版）"
+    url: "https://www.cy.gov.tw/public/Data/114mo/113%E5%9C%8B%E8%AA%BF0005.pdf"
+    published_at: "2024-03-22"
+    observed_at: "2026-10-09"
+    retrieval_status: reachable
+    notes:
+      - "報告明載未循正常預算及武器獲取程序、迴避正常法令規定程序，以及明知參與廠商技術能力不足仍堅持辦理等認定。"
+
+  - id: S005
+    source_type: secondary
+    publisher: "開放政府標案"
+    title: "無人機反制系統／國防部（TK13006L188）"
+    url: "https://pcc.mlwmlw.org/tender/%E5%9C%8B%E9%98%B2%E9%83%A8/TK13006L188"
+    published_at: ""
+    observed_at: "2026-10-09"
+    retrieval_status: reachable
+    notes:
+      - "彙整政府電子採購網資料：2024-04-29首次公告，後續多次公告／更正；2025-01決標，創未來科技得標，決標金額987,810,000元。"
+
+  - id: S006
+    source_type: secondary
+    publisher: "中央社"
+    title: "藍委指無人機反制系統複驗不及格　陸軍：已呈報解約"
+    url: "https://www.cna.com.tw/news/aipl/202607150375.aspx"
+    published_at: "2026-07-15"
+    observed_at: "2026-10-09"
+    retrieval_status: reachable
+    notes:
+      - "陸軍確認交貨驗收及2次複驗均不合格，已呈報辦理解約；並強調2024監院糾正的委託研究案與後續公開採購案法律屬性不同。"
+
+  - id: S007
+    source_type: secondary
+    publisher: "中央社"
+    title: "無人機反制系統傳複驗不及格　顧立雄：會解除契約"
+    url: "https://www.cna.com.tw/news/aipl/202607160046.aspx"
+    published_at: "2026-07-16"
+    observed_at: "2026-10-09"
+    retrieval_status: reachable
+    notes:
+      - "顧立雄表示將計罰、沒收履約保證金、解除契約，且不支付任何合約價金。"
+
+  - id: S008
+    source_type: primary
+    publisher: "國防部軍事新聞通訊社"
+    title: "顧部長：依作戰需求建構無人機戰力　依法履約維護國防權益"
+    url: "https://mna.mnd.gov.tw/news/detail/?UserKey=2d080724-1cd4-4eeb-a663-a479b3d92cd1"
+    published_at: "2026-07-16"
+    observed_at: "2026-10-09"
+    retrieval_status: reachable
+    notes:
+      - "顧立雄同日稱無人載具為迫切需求；對採購案則稱驗測與兩次複驗未通過，依法計罰、沒收履約保證金、解約、不付款。"
+
+  - id: S009
+    source_type: primary
+    publisher: "立法院／國防部"
+    title: "國軍軍品採購履約爭議與違約致獲裝期程延宕採購策略精進作為－國防部書面報告"
+    url: "https://ppg.ly.gov.tw/ppg/SittingAttachment/download/2026071635/6701482023207010002.pdf"
+    published_at: "2026-07-20"
+    observed_at: "2026-10-09"
+    retrieval_status: reachable
+    notes:
+      - "國防部承認部分案件因廠商履約能力不足、品質不符、出口管制等影響獲裝期程；並提出前期市場調查、供應鏈分析、掌握廠商履約能力、替代／第二供應來源等精進措施。"
+
+  - id: S010
+    source_type: primary
+    publisher: "國防部"
+    title: "國防部針對「炸藥標案得標廠商為室內裝修公司」乙情說明"
+    url: "https://www.mnd.gov.tw/news/pressrelease/85495/66"
+    published_at: "2025-12-10"
+    observed_at: "2026-10-09"
+    retrieval_status: reachable
+    notes:
+      - "RDX等火藥原物料內購外貨案資格為合法設立、國際貿易業、納稅證明；兩次開標均僅福麥公司一家投標。"
+
+  - id: S011
+    source_type: primary
+    publisher: "國防部"
+    title: "國防部針對「RDX海掃更高能炸藥購案相關議題」說明"
+    url: "https://www.mnd.gov.tw/news/pressrelease/87075/656"
+    published_at: "2026-07-21"
+    observed_at: "2026-10-09"
+    retrieval_status: reachable
+    notes:
+      - "福麥未於期限內取得輸出入許可，國防部辦理解約、計罰、沒收履約保證金並刊登停權；後續改以擴充自製產線因應。"
+
+  - id: S012
+    source_type: secondary
+    publisher: "中央社"
+    title: "福麥未履約RDX炸藥　軍備局：解約共罰款8398萬元"
+    url: "https://www.cna.com.tw/news/aipl/202607200263.aspx"
+    published_at: "2026-07-20"
+    observed_at: "2026-10-09"
+    retrieval_status: reachable
+    notes:
+      - "報導RDX案決標約5.7億元，廠商因無法取得輸出許可達解約條件，逾期罰款與沒收履約保證金合計約8398萬元。"
+
+  - id: S013
+    source_type: primary
+    publisher: "國防部"
+    title: "國防部發布新聞稿，針對「國防部採購9公厘手槍彈標案依法辦理」乙情說明"
+    url: "https://www.mnd.gov.tw/en/Publication/85968"
+    published_at: "2026-01-15"
+    observed_at: "2026-10-09"
+    retrieval_status: reachable
+    notes:
+      - "近10年同類案資格為合法設立、同時具槍砲彈藥刀械輸出入業與國際貿易業、納稅證明；決標後再要求輸出許可、進口同意及交貨性能檢驗。"
+
+  - id: S014
+    source_type: secondary
+    publisher: "中央社"
+    title: "藍委質疑無人機採購案涉介入　經部：絕無循私或私人推薦"
+    url: "https://www.cna.com.tw/news/aipl/202607170306.aspx"
+    published_at: "2026-07-17"
+    observed_at: "2026-10-09"
+    retrieval_status: reachable
+    notes:
+      - "經濟部否認王美花私人推薦或循私介入，稱名單由跨部會遴選指導小組依程序提供國防部參考。"
+
+facts:
+  - id: F001
+    statement: "『顧立雄沒當過兵』為錯誤說法；其退伍令顯示1980年入伍、1982年退伍，曾任陸軍少尉運輸排長。"
+    status: verified
+    observed_at: "2026-10-09"
+    source_ids: [S001]
+    evidence_summary: "可批評其國防政策或專業，但不能以『沒當過兵』作為事實前提。"
+    verification_notes:
+      - "來源為事實查核中心，關鍵原始資料是顧立雄辦公室提供的退伍令。"
+    tags: [顧立雄, 兵役, fact-check]
+
+  - id: F002
+    statement: "監察院2024年正式糾正國防部外島無人機反制系統委託研究案，認定國防部未循正常預算及武器獲取程序，改以委託研究向國防工業發展基金會申請預算，欲快速取得2套無人機干擾設備。"
+    status: verified
+    observed_at: "2026-10-09"
+    source_ids: [S002, S004]
+    evidence_summary: "監察院將此作法明確描述為迴避正常法令規定程序，並認定國防部有違失。"
+    verification_notes: []
+    tags: [監察院, 糾正, 無人機反制, 程序]
+
+  - id: F003
+    statement: "監察院認定陸軍在該委託研究案遴選時，未落實要求同一團隊廠商提出合作意向書或其他書面證明，影響評選公正性與後續執行成效。"
+    status: verified
+    observed_at: "2026-10-09"
+    source_ids: [S002, S004]
+    evidence_summary: "問題不只在進度，而包含遴選程序與團隊整合能力的事前把關。"
+    verification_notes: []
+    tags: [遴選, 評選公正性, 無人機反制]
+
+  - id: F004
+    statement: "監察院認定陸軍事前已明知參與廠商技術能力不足、無法達成預期成效，仍堅持辦理委託研究案，並遴選一家廠商進行兩套相同設備研究。"
+    status: verified
+    observed_at: "2026-10-09"
+    source_ids: [S002, S004]
+    evidence_summary: "這是監察院正式違失認定，不是單純事後推測廠商能力不足。"
+    verification_notes: []
+    tags: [技術能力, 廠商資格, 監察院]
+
+  - id: F005
+    statement: "監察院調查文件顯示，前述科研案原被要求完成2套不同成果與部署驗收，以作為後續『陸軍外島26套無人機反制系統採購案』參考；但科研案時程延宕，後續採購規格先行訂定，研究成果已無從作為採購參考。"
+    status: verified
+    observed_at: "2026-10-09"
+    source_ids: [S003]
+    evidence_summary: "兩案法律屬性不同，但在建案脈絡上存在明確前後關聯；監察院正是因其失去原定參考功能而調查公帑與程序問題。"
+    verification_notes:
+      - "不可把兩案寫成同一份契約；陸軍2026年亦強調兩案屬性不同。"
+    tags: [科研案, 26套採購, 建案關聯]
+
+  - id: F006
+    statement: "後續26套無人機反制系統公開採購案（TK13006L188）自2024年起多次公告／更正，2025年1月由創未來科技得標，決標金額約9.8781億元。"
+    status: verified
+    observed_at: "2026-10-09"
+    source_ids: [S005]
+    evidence_summary: "正式採購案在監察院2024年糾正後繼續推進並於2025年決標。"
+    verification_notes:
+      - "此來源為政府電子採購網資料之第三方彙整；日後可補政府採購網原始決標公告。"
+    tags: [創未來, 26套, 決標, 無人機反制]
+
+  - id: F007
+    statement: "創未來在26套無人機反制系統案的交貨驗收及兩次複驗均不合格，陸軍呈報解約；顧立雄表示將依約計罰、沒收履約保證金、解除契約，且不支付任何合約價金。"
+    status: verified
+    observed_at: "2026-10-09"
+    source_ids: [S006, S007, S008]
+    evidence_summary: "驗收機制最終阻止不合格裝備付款，但原定戰力未依期形成。"
+    verification_notes:
+      - "『三次』指首次交貨驗測加兩次複驗，不應寫成三份不同契約。"
+    tags: [驗收失敗, 解約, 創未來, 戰力形成]
+
+  - id: F008
+    statement: "國防部2026年7月提交立法院的專案報告，將『廠商履約能力不足』列為軍品採購履約爭議與獲裝延宕的主要原因之一，並稱部分案件在規劃階段未能事先掌握市場供應能力、技術成熟度與廠商履約能力。"
+    status: verified
+    observed_at: "2026-10-09"
+    source_ids: [S009]
+    evidence_summary: "國防部自身承認前端能力辨識不足會造成後端履約風險。"
+    verification_notes: []
+    tags: [國防部, 履約能力, 採購治理]
+
+  - id: F009
+    statement: "同一份國防部報告提出的精進措施包括：前期市場調查、供應鏈分析、掌握廠商履約能力、強化需求與風險評估，以及建立替代來源／第二供應來源。"
+    status: verified
+    observed_at: "2026-10-09"
+    source_ids: [S009]
+    evidence_summary: "後續制度精進方向本身證明國防部認為『廠商能力的事前審查』需要補強，而不能只依靠事後驗收與解約。"
+    verification_notes: []
+    tags: [精進措施, 事前審查, 第二供應來源]
+
+  - id: F010
+    statement: "RDX火藥原物料採購案招標資格為合法設立、具國際貿易業營業項目及納稅證明；2025年兩次開標均僅福麥一家投標。"
+    status: verified
+    observed_at: "2026-10-09"
+    source_ids: [S010]
+    evidence_summary: "資格設計主要確認公司合法性與貿易資格，輸出許可與實際履約能力則在決標後由契約條件把關。"
+    verification_notes: []
+    tags: [RDX, 福麥, 投標資格]
+
+  - id: F011
+    statement: "福麥得標RDX案後未能在期限內取得輸出入許可文件，國防部其後辦理解約、逾期計罰、沒收履約保證金並刊登停權，後續改以追加／年度預算擴充國內自製產線。"
+    status: verified
+    observed_at: "2026-10-09"
+    source_ids: [S011, S012]
+    evidence_summary: "該案再次呈現『先決標、再以輸出許可與履約條件篩選，失敗後解約』的採購風險。"
+    verification_notes:
+      - "中央社報導逾期罰款與沒收履約保證金合計約8398萬元。"
+    tags: [RDX, 解約, 輸出許可, 履約]
+
+  - id: F012
+    statement: "國防部說明近10年9公厘手槍彈同類採購的廠商資格，主要是合法設立、同時具槍砲彈藥刀械輸出入業與國際貿易業，以及納稅證明；決標後才要求取得外國輸出許可、經濟部進口同意並接受交貨品質與性能檢驗。"
+    status: verified
+    observed_at: "2026-10-09"
+    source_ids: [S013]
+    evidence_summary: "部分『內購外貨』軍火案制度設計，確實把相當一部分供貨能力與品質風險留到決標後的履約與驗收階段處理。"
+    verification_notes:
+      - "這一制度安排本身不等於違法或弊案；其政策問題是是否適合高迫切性、不可延誤的軍需。"
+    tags: [手槍彈, 軍火代理, 投標資格, 內購外貨]
+
+  - id: F013
+    statement: "2026年7月顧立雄一方面稱無人載具採購是『迫切需求』，另一方面26套無人機反制系統案因承商驗測與兩次複驗不合格而解約。"
+    status: verified
+    observed_at: "2026-10-09"
+    source_ids: [S008]
+    evidence_summary: "這形成『需求迫切』與『採購履約失敗導致戰力延宕』之間可直接檢驗的政策張力。"
+    verification_notes: []
+    tags: [迫切需求, 戰力延宕, 政策一致性]
+
+claims:
+  - id: C001
+    statement: "外島無人機反制案不能只用『軍購本來就難、偶爾會出包』完整解釋。"
+    status: supported
+    supports: [F002, F003, F004, F005, F007]
+    contradicts: []
+    related_facts: [F008, F009]
+    reasoning_notes: "監察院已在前期正式認定存在繞程序、遴選把關不足及明知技術能力不足仍辦理等違失；後續正式採購又發生驗收與兩次複驗全部不合格。這些事實超出單純不可預見的技術失敗範圍。"
+
+  - id: C002
+    statement: "目前公開證據足以支持『國防採購治理存在結構性的廠商履約能力辨識與風險管理問題』。"
+    status: supported
+    supports: [F004, F007, F008, F009, F010, F011, F012]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "監察院與國防部各自從不同角度指出前端廠商能力把關及後端履約風險；國防部2026年更把掌握廠商履約能力列為後續精進重點。"
+
+  - id: C003
+    statement: "『只要最後沒付款、沒收保證金，就代表採購治理沒有造成國安損失』。"
+    status: contradicted
+    supports: []
+    contradicts: [F007, F013]
+    related_facts: [F008]
+    reasoning_notes: "不付款與沒收保證金可以降低財務損失，卻無法恢復已延誤的獲裝時間與缺失戰力；國防部自己的報告亦把履約失敗視為獲裝期程延宕問題。"
+
+  - id: C004
+    statement: "『顧立雄沒當過兵』。"
+    status: contradicted
+    supports: []
+    contradicts: [F001]
+    related_facts: []
+    reasoning_notes: "退伍令與查核資料均顯示其曾服役。"
+
+  - id: C005
+    statement: "『2024監察院糾正的委託研究案』與『2025決標的26套公開採購案』是完全無關的兩件事。"
+    status: contradicted
+    supports: []
+    contradicts: [F005]
+    related_facts: [F006, F007]
+    reasoning_notes: "法律與契約屬性確實不同，但監察院文件明載前期科研案原本就是要作為後續26套採購案的參考，因此不能說兩者毫無建案脈絡關係。"
+
+  - id: C006
+    statement: "『王美花私人推薦創未來給國防部』已被證實。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "目前可查到的是政治人物指控與經濟部否認；尚未找到監察、司法或其他可直接證明私人推薦的獨立證據。"
+
+  - id: C007
+    statement: "『上述案件已證明民進黨中央有組織地以國防採購分贓』。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F002, F003, F004, F007, F008, F010, F011]
+    reasoning_notes: "目前證據已足以支持程序違失與採購治理風險，但要證明有組織分贓仍需補上政治關係、決策介入、利益流向及保護機制的直接證據鏈。中立要求的是證據門檻一致，不是把結論硬調回50:50。"
+
+  - id: C008
+    statement: "對高迫切性軍需而言，將供貨能力與部分資格風險大量留到決標後的輸出許可、履約與驗收階段，可能造成『國庫未付款但戰力時間已損失』的制度性風險。"
+    status: supported
+    supports: [F007, F008, F009, F010, F011, F012, F013]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "RDX與無人機案均顯示事後解約可以保護部分財務權益，但無法回復獲裝時程；國防部自身也因此提出強化前端市場與履約能力調查。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-09"
+    platform: web
+    query: "site:cy.gov.tw 無人機反制 委託研究 明知 技術能力不足 仍堅持辦理"
+    scope: "監察院"
+    result: found
+    notes: "找到113國正0005糾正案與113國調0005調查報告。"
+
+  - id: Q002
+    observed_at: "2026-10-09"
+    platform: web
+    query: "無人機反制系統 創未來 TK13006L188 決標 驗收 複驗 解約"
+    scope: "政府採購資料彙整、中央社、國防部"
+    result: found
+    notes: "確認後續公開採購案決標、首次驗收加兩次複驗不合格及解約處置。"
+
+  - id: Q003
+    observed_at: "2026-10-09"
+    platform: web
+    query: "國軍軍品採購履約爭議 廠商履約能力不足 採購策略精進 2026"
+    scope: "立法院、國防部"
+    result: found
+    notes: "找到2026-07-20國防部專案書面報告，明載廠商履約能力不足及前端能力掌握不足。"
+
+  - id: Q004
+    observed_at: "2026-10-09"
+    platform: web
+    query: "RDX 福麥 國際貿易業 輸出許可 解約 國防部"
+    scope: "國防部、中央社"
+    result: found
+    notes: "確認資格設計、單一投標情形、輸出許可失敗與解約。"
+
+  - id: Q005
+    observed_at: "2026-10-09"
+    platform: web
+    query: "9公厘手槍彈 廠商資格 槍砲彈藥刀械輸出入業 國際貿易業 國防部"
+    scope: "國防部"
+    result: found
+    notes: "確認近10年同類案的資格與決標後輸出許可／驗收機制。"
+
+  - id: Q006
+    observed_at: "2026-10-09"
+    platform: web
+    query: "顧立雄 沒當兵 退伍令 少尉 運輸排長"
+    scope: "台灣事實查核中心"
+    result: found
+    notes: "確認『沒當過兵』為錯誤資訊。"
+
+promotion:
+  cases:
+    - "建議後續升格：外島無人機反制系統委託研究案／26套正式採購案"
+    - "建議後續升格：RDX火藥原物料採購案"
+  comparators: []
+  research:
+    - "待查：創未來股權／政治關係與採購決策是否存在可證明的直接介入鏈。"
+    - "待查：其他軍艦、彈藥、軍火代理案是否呈現相同的資格設計與履約失敗模式。"
+
+notes:
+  - "本session刻意區分『程序違失／治理風險』與『有組織分贓』；前者已有硬證據，後者仍須補直接利益與決策鏈。"
+  - "中立方法：同一證據門檻適用所有政黨與政府；結論不要求50:50。"
+  - "對外論述最穩固的核心：監察院事前已警告程序與技術能力問題；後續正式採購又實際驗收失敗，而國防部事後也承認廠商履約能力事前辨識不足是制度問題。"
