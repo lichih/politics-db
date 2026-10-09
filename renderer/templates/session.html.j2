@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ data.session.title }} · politics-db</title>
+  {% if data._meta.canonical_url %}<link rel="canonical" href="{{ data._meta.canonical_url }}">{% endif %}
   <link rel="stylesheet" href="{{ data._meta.root_prefix }}static/site.css">
 </head>
 <body>
