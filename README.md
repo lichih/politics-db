@@ -45,17 +45,17 @@ python renderer/render.py --check
 python renderer/render.py
 ```
 
-輸出在 `site/`。每次 push 到 `main` 且 evidence / renderer / schema 有變更時，GitHub Actions 會先驗證 schema 與 cross-reference，再產生 HTML 並部署 Pages。
+輸出在 `site/`。每次 push 到 `main` 且 evidence / renderer / schema 有變更時，GitHub Actions 會先驗證 schema 與 cross-reference，再產生 HTML，force-push 到 `gh-pages` branch；GitHub Pages 直接由該 branch 發布。
 
 設計原則：**YAML authoritative，HTML projection，不產生 Markdown。**
 
 
 ### GitHub Pages 一次性設定
 
-目前 workflow 可以自動驗證、render 並上傳 Pages artifact；但 GitHub App token 無法替 repository 首次建立 Pages site。
+本站採 **branch-based Pages**。workflow 只負責驗證、render，然後 force-push 產物到 `gh-pages`；不再同時呼叫 GitHub Actions Pages deployment，避免兩套發布機制互相重疊。
 
 第一次需要在 GitHub repository：
 
-`Settings -> Pages -> Build and deployment -> Source: GitHub Actions`
+`Settings -> Pages -> Build and deployment -> Source: Deploy from a branch -> Branch: gh-pages / (root)`
 
-完成一次後，後續 push 會自動部署，不需要人工維護 HTML。
+完成一次後，後續 `main` 的合格變更會自動重建 `gh-pages`，不需要人工維護 HTML。自訂網域由 repository root 的 `CNAME` 保存，render 時一併複製到 `gh-pages`。
