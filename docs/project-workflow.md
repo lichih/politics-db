@@ -8,6 +8,25 @@
 
 ## 工作流
 
+### 0. 寫入契約：先驗證，再進 authoritative main
+
+`main` 是 evidence 的 authoritative state。任何 Agent 或人工對 evidence、schema、renderer 或其工作流的修改，都不得把未驗證內容直接寫入 `main`。
+
+標準流程：
+
+1. 從最新 `main` 建立工作 branch。
+2. 只在工作 branch 寫入或修改檔案。
+3. 在送出 PR 前執行 `python renderer/render.py --check`；失敗時先修正，不得建立「明知驗證失敗」的可合併 PR。
+4. 建立 PR 至 `main`，由 `.github/workflows/validate-evidence.yml` 再執行同一套 schema 與 cross-reference validation。
+5. validation 成功後才可 merge。
+6. 不得以直接 push `main`、停用 validation、刪除錯誤 evidence 或降低 schema 約束來繞過失敗檢查；若 schema 本身需要調整，應在同一 PR 中說明原因並讓既有資料全部通過新版驗證。
+7. merge 後由部署 workflow 再驗證一次，render HTML 並發布 `gh-pages`。部署失敗不得改寫 authoritative evidence 來掩蓋問題。
+
+GitHub branch protection / ruleset 是額外的機械 enforcement；即使 repository 尚未啟用 protection，本工作流仍是 Politics Project Agent 的操作契約。
+
+YAML 注意事項：年份、日期、純數字代碼等在 `tags`、ID 或其他要求 string 的欄位中必須顯式加引號，例如 `"2027"`，避免 YAML scalar inference 將其解析為 integer。
+
+
 ### 1. Session 開始
 
 遇到政治／政策／司法／人物爭議的實證問題時：

@@ -296,7 +296,7 @@ facts:
     evidence_summary: "該計畫涵蓋防空反彈道、反裝甲、無人載具、作戰持續量能、AI/C5ISR及台美共同研發採購等核心戰力。"
     verification_notes:
       - "這表示核心戰力建置的官方時間表本身跨越2027多年。"
-    tags: [特別預算, 不對稱戰力, 2027]
+    tags: [特別預算, 不對稱戰力, "2027"]
 
   - id: F007
     statement: "66架新造F-16V Block 70的首批2架直到2026年10月2日才抵台；鳳翔專案持續性預算期程為2020至2026年。"
@@ -335,7 +335,7 @@ facts:
     source_ids: [S014]
     evidence_summary: "政府層級的全社會防衛韌性統合機制在2024年才正式建立。"
     verification_notes: []
-    tags: [全社會防衛韌性, 民防, 2024]
+    tags: [全社會防衛韌性, 民防, "2024"]
 
   - id: F011
     statement: "2026年漢光演習出現海軍與海巡聯合反封鎖護航演練；Reuters將其描述為兩者首次聯合反封鎖行動。"
@@ -355,7 +355,7 @@ facts:
     evidence_summary: "2027不是美國情報界所判定的固定侵台日期。"
     verification_notes:
       - "這是2026年時點的情報評估，不等於未來不會改變，也不等於中國永遠不使用武力。"
-    tags: [2027, ODNI, 中國, 侵台風險]
+    tags: ["2027", ODNI, 中國, 侵台風險]
 
   - id: F013
     statement: "五角大廈公開說法曾明確區分：2027是習近平要求解放軍具備能力的節點，不等於2027有行動意圖。"
@@ -364,7 +364,7 @@ facts:
     source_ids: [S017]
     evidence_summary: "『2027能力節點』與『2027開戰期限』不是同一命題。"
     verification_notes: []
-    tags: [2027, capability, intent]
+    tags: ["2027", capability, intent]
 
   - id: F014
     statement: "川普2026年5月接受訪問時表示美國台灣政策未改，但同時說不希望跨9500英里打一場戰爭，並表示尚未批准一批對台軍售、可能批准也可能不批准。"

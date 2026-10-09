@@ -469,7 +469,7 @@ facts:
     excerpt: ""
     verification_notes:
       - "SB 254 未通過；Portland ordinance 處理 public use，不等於 statewide possession recriminalization。"
-    tags: [Oregon, Measure110, 2023, Portland, 政策回撤]
+    tags: [Oregon, Measure110, "2023", Portland, 政策回撤]
 
   - id: F016
     statement: "Oregon 真正的 statewide 法律反轉發生在 2024 年：HB 4002 重新把持有管制物質刑事化，並保留／建立 deflection 與治療導向機制；相關持有罪規定自 2024-09-01 生效。"
@@ -481,7 +481,7 @@ facts:
     verification_notes:
       - "這不是回到純粹『抓去關』的舊制；HB 4002 同時設計 deflection，使執法仍可把部分個案導向治療服務。"
       - "因此較準確的描述是『撤回 possession decriminalization，但保留 harm-reduction / treatment diversion elements』。"
-    tags: [Oregon, Measure110, HB4002, 2024, recriminalization]
+    tags: [Oregon, Measure110, HB4002, "2024", recriminalization]
 
   - id: F017
     statement: "沈伯洋 2014 年回覆網友追問『建立社區中心，提供吸毒者毒品與乾淨針頭』的相關資料時，曾連結 2012 The Awl 對 Vancouver InSite 的訪談。該訪談明確說使用者是『自己帶毒品進來』，設施提供的是監督注射、乾淨針具、醫療與轉介。"
