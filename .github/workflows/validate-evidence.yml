@@ -14,7 +14,8 @@ on:
       - "requirements.txt"
       - ".github/workflows/validate-evidence.yml"
   push:
-    branches: [main]
+    branches-ignore:
+      - gh-pages
     paths:
       - "sessions/**"
       - "cases/**"
