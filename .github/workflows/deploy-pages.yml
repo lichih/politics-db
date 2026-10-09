@@ -12,6 +12,7 @@ on:
       - "renderer/**"
       - "schema/**"
       - "requirements.txt"
+      - "CNAME"
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
 
@@ -45,6 +46,10 @@ jobs:
 
       - name: Render HTML
         run: python renderer/render.py --output site
+
+      - name: Preserve custom domain
+        if: ${{ hashFiles('CNAME') != '' }}
+        run: cp CNAME site/CNAME
 
       - name: Configure GitHub Pages
         id: pages
