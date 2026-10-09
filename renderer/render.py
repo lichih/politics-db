@@ -5,6 +5,7 @@ import argparse
 import json
 import shutil
 import sys
+import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Iterable
@@ -171,6 +172,45 @@ def index_document(doc: EvidenceDocument) -> dict[str, Any]:
     }
 
 
+
+def site_base_url(root: Path = ROOT) -> str:
+    cname_path = root / "CNAME"
+    if not cname_path.exists():
+        return ""
+    domain = cname_path.read_text(encoding="utf-8").strip().splitlines()[0].strip()
+    if not domain:
+        return ""
+    return f"https://{domain.rstrip('/')}"
+
+
+def write_sitemap(indexed: list[tuple[EvidenceDocument, dict[str, Any]]], output_dir: Path) -> None:
+    base_url = site_base_url()
+    if not base_url:
+        return
+
+    urls = [f"{base_url}/"]
+    urls.extend(
+        f"{base_url}/{doc.rel_dir.as_posix().strip('/')}/"
+        for doc, _ in indexed
+    )
+
+    urlset = ET.Element("urlset", {"xmlns": "http://www.sitemaps.org/schemas/sitemap/0.9"})
+    for location in urls:
+        url = ET.SubElement(urlset, "url")
+        ET.SubElement(url, "loc").text = location
+
+    tree = ET.ElementTree(urlset)
+    ET.indent(tree, space="  ")
+    tree.write(output_dir / "sitemap.xml", encoding="utf-8", xml_declaration=True)
+
+    (output_dir / "robots.txt").write_text(
+        "User-agent: *\n"
+        "Allow: /\n"
+        f"Sitemap: {base_url}/sitemap.xml\n",
+        encoding="utf-8",
+    )
+
+
 def build_site(docs: list[EvidenceDocument], output_dir: Path) -> None:
     if output_dir.exists():
         shutil.rmtree(output_dir)
@@ -205,6 +245,8 @@ def build_site(docs: list[EvidenceDocument], output_dir: Path) -> None:
 
     if STATIC_DIR.exists():
         shutil.copytree(STATIC_DIR, output_dir / "static")
+
+    write_sitemap(indexed, output_dir)
 
     (output_dir / ".nojekyll").write_text("", encoding="utf-8")
 
