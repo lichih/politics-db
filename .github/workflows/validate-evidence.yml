@@ -63,3 +63,5 @@ jobs:
           test -s site/robots.txt
           grep -Fq "https://politics-db.4649.tw/" site/sitemap.xml
           grep -Fq "Sitemap: https://politics-db.4649.tw/sitemap.xml" site/robots.txt
+          grep -Fq '<link rel="canonical" href="https://politics-db.4649.tw/">' site/index.html
+          grep -R -Fq 'rel="canonical" href="https://politics-db.4649.tw/sessions/' site/sessions
