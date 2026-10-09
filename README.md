@@ -47,7 +47,7 @@ python renderer/render.py
 
 輸出在 `site/`。每次 push 到 `main` 且 evidence / renderer / schema 有變更時，GitHub Actions 會先驗證 schema 與 cross-reference，再產生 HTML，force-push 到 `gh-pages` branch；GitHub Pages 直接由該 branch 發布。
 
-設計原則：**YAML authoritative，HTML projection，不產生 Markdown。**
+設計原則：**YAML authoritative，HTML projection，不產生 Markdown。** Renderer 會依 `CNAME` 自動產生 `sitemap.xml` 與 `robots.txt`；新增或移除 evidence 頁面時不需手動維護 sitemap。
 
 
 ### GitHub Pages 一次性設定
