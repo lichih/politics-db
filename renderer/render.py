@@ -227,6 +227,11 @@ def build_site(docs: list[EvidenceDocument], output_dir: Path) -> None:
     )
 
     indexed = [(doc, index_document(doc)) for doc in docs]
+    base_url = site_base_url()
+    for doc, data in indexed:
+        data["_meta"]["canonical_url"] = (
+            f"{base_url}/{doc.rel_dir.as_posix().strip('/')}/" if base_url else ""
+        )
 
     session_template = env.get_template("session.html.j2")
     for doc, data in indexed:
