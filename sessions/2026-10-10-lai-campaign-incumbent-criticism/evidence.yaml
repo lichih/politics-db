@@ -1,0 +1,233 @@
+session:
+  id: 2026-10-10-lai-campaign-incumbent-criticism
+  project: Politics
+  title: "賴清德任總統期間替黨籍候選人站台並公開批評現任民選地方首長"
+  started_at: "2026-10-10T16:07:00+08:00"
+  updated_at: "2026-10-10T16:07:00+08:00"
+  status: active
+
+topics:
+  - 賴清德
+  - 總統
+  - 民進黨
+  - 地方選舉
+  - 選舉站台
+  - 地方首長
+  - 盧秀燕
+  - 張麗善
+  - 張善政
+  - 中央地方關係
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "中華民國總統府"
+    title: "賴清德總統"
+    url: "https://www.president.gov.tw/Page/694"
+    published_at: "2024-05-20"
+    observed_at: "2026-10-10T16:07:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "總統府頁面載明賴清德自2024-05-20開始就任第16任總統。"
+
+  - id: S002
+    source_type: primary
+    publisher: "民主進步黨"
+    title: "首場「行動中常會」移師台中舉行　賴清德：何欣純率領的團隊，未來也會是台中安定的力量，也會是台灣穩定的基石！"
+    url: "https://www.dpp.org.tw/media/contents/11701"
+    published_at: "2026-08-05"
+    observed_at: "2026-10-10T16:07:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方稿開頭明示由「黨主席暨總統賴清德」出席。"
+      - "賴清德在同場直接評論現任台中市長盧秀燕的市政表現，並呼籲換人換黨。"
+
+  - id: S003
+    source_type: primary
+    publisher: "民主進步黨"
+    title: "何欣純競總成立 賴清德：讓台中未來的力量一次備齊，市長當選、議員全壘打"
+    url: "https://www.dpp.org.tw/media/contents/11765"
+    published_at: "2026-09-12"
+    observed_at: "2026-10-10T16:07:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "場合為台中市長候選人何欣純競選總部成立大會。"
+      - "賴清德批評台中市政治理缺失，並在同段落明示「身為總統」與「三軍統帥」身分。"
+
+  - id: S004
+    source_type: primary
+    publisher: "民主進步黨"
+    title: "宣布接任劉建國競總主委　賴清德：只有劉建國當選，雲林縣才有辦法改變、才能繼續向前"
+    url: "https://www.dpp.org.tw/media/contents/11771"
+    published_at: "2026-09-16"
+    observed_at: "2026-10-10T16:07:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "賴清德宣布擔任劉建國競選總部主任委員。"
+      - "官方稿以黨主席身分呈現該場選舉活動；此時賴清德同時是在任總統。"
+
+  - id: S005
+    source_type: primary
+    publisher: "民主進步黨"
+    title: "民進黨「行動中常會」移師桃園　賴清德：桃園需要黃世杰，一位有活力、有使命感、心在桃園的市長"
+    url: "https://www.dpp.org.tw/media/contents/11780"
+    published_at: "2026-09-23"
+    observed_at: "2026-10-10T16:07:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "賴清德在替黃世杰拉抬的場合直接評價現任桃園市長張善政是否適任連任。"
+      - "同一段致詞明示「身為總統，我希望下一任的市長，桃園市市長能夠跟中央合作」。"
+
+  - id: S006
+    source_type: primary
+    publisher: "民主進步黨"
+    title: "黃世杰南桃園競總成立　賴清德：桃園條件得天獨厚，需要一流人才帶領"
+    url: "https://www.dpp.org.tw/media/contents/11796"
+    published_at: "2026-10-03"
+    observed_at: "2026-10-10T16:07:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "場合為桃園市長候選人黃世杰南桃園競選總部成立大會。"
+      - "賴清德再次對張善政任內桃園治理作負面評價，並承諾中央支持黃世杰。"
+
+facts:
+  - id: F001
+    statement: "賴清德自2024年5月20日起就任第16任總統，因此2026年8月至10月以下地方選舉站台活動均發生在其總統任內。"
+    status: verified
+    observed_at: "2026-10-10T16:07:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "總統府官方頁面載明開始就任時間為2024-05-20。"
+    excerpt: "開始就任時間 2024.05.20"
+    verification_notes: []
+    tags: [總統身分, 任期]
+
+  - id: F002
+    statement: "2026年8月5日，民進黨官方稿以「黨主席暨總統賴清德」描述其赴台中行動中常會；賴清德在同場直接批評盧秀燕任內市政表現，並呼籲台中選民換市長。"
+    status: verified
+    observed_at: "2026-10-10T16:07:00+08:00"
+    source_ids: [S001, S002]
+    evidence_summary: "賴清德稱台中市政表現不符市民預期，批評治理、食安與捷運等問題，並明確提出換市長。"
+    excerpt: "台中市的問題那麼多，但最重要的一個處方就是換市長。"
+    verification_notes:
+      - "此事實只記錄其公開發言內容與場合，不判斷對盧秀燕施政評價是否正確。"
+    tags: [台中, 盧秀燕, 何欣純, 行動中常會, 批評現任首長]
+
+  - id: F003
+    statement: "2026年9月12日何欣純競選總部成立大會，賴清德批評台中市政治理缺失、區域發展與產業政策，並在同一場致詞明示自己「身為總統」負有責任，期盼未來台中市長與中央合作。"
+    status: verified
+    observed_at: "2026-10-10T16:07:00+08:00"
+    source_ids: [S001, S003]
+    evidence_summary: "同一篇官方稿同時保存選舉站台、對現任市府的負面評價，以及賴清德主動援引總統身分三個元素。"
+    excerpt: "站在台灣經濟發展，身為總統我更是義不容辭。"
+    verification_notes:
+      - "這一筆可直接證明「站台場合中援引總統身分」；不必以外部評論推定。"
+    tags: [台中, 盧秀燕, 何欣純, 總統身分, 中央地方合作]
+
+  - id: F004
+    statement: "2026年9月16日雲林選舉活動，賴清德宣布擔任劉建國競選總部主任委員，並直接批評對手張麗善代表家族利益、批評張家掌握地方組織及其任內重大建設表現。"
+    status: verified
+    observed_at: "2026-10-10T16:07:00+08:00"
+    source_ids: [S001, S004]
+    evidence_summary: "民進黨官方逐字內容保存賴清德對現任雲林縣長及其家族政治的直接負面評價。"
+    excerpt: "她代表的是黨意，她所打拚的目標是家族利益。"
+    verification_notes:
+      - "官方稿在該場合主要以黨主席／競總主委角色呈現；「總統任內」與「以總統職銜發言」應區分。"
+    tags: [雲林, 張麗善, 劉建國, 競選總部, 批評現任首長]
+
+  - id: F005
+    statement: "2026年9月23日桃園行動中常會，賴清德直接表示張善政不適合繼續擔任桃園市長；緊接著又以「身為總統」表明希望下一任桃園市長能與中央合作。"
+    status: verified
+    observed_at: "2026-10-10T16:07:00+08:00"
+    source_ids: [S001, S005]
+    evidence_summary: "同一篇民進黨官方稿將對現任民選市長適任性的直接否定、替黨籍候選人推薦，以及總統身分與中央合作期待完整保留下來。"
+    excerpt: "張善政並不適合繼續再擔任桃園市市長。"
+    verification_notes:
+      - "這是目前本 session 最直接的例子：批評對象、選舉目的與總統身分均在同一篇官方稿中明示。"
+    tags: [桃園, 張善政, 黃世杰, 總統身分, 批評現任首長]
+
+  - id: F006
+    statement: "2026年10月3日黃世杰南桃園競選總部成立大會，賴清德再度對張善政任內桃園治理作負面評價，稱三年多來桃園像被按下停止鍵，並表示中央一定會大力支持黃世杰。"
+    status: verified
+    observed_at: "2026-10-10T16:07:00+08:00"
+    source_ids: [S001, S006]
+    evidence_summary: "此筆顯示9月23日後並非單一偶發發言，而是後續站台場合仍持續評論現任市長治理成果並支持挑戰者。"
+    excerpt: "三年多來，桃園卻像被按下「停止鍵」。"
+    verification_notes: []
+    tags: [桃園, 張善政, 黃世杰, 競選總部, 批評現任首長]
+
+claims:
+  - id: C001
+    statement: "賴清德在總統任內曾多次替民進黨地方首長候選人站台，並公開批評當時由選民選出的在野黨現任縣市首長或其市政／縣政表現。"
+    status: supported
+    supports: [F001, F002, F003, F004, F005, F006]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "此主張只證明行為是否發生，不評價總統參與政黨輔選是否適當，也不判斷各項施政批評真偽。"
+
+  - id: C002
+    statement: "上述場合全部都是賴清德明確以總統職銜而非黨主席身分發言。"
+    status: contradicted
+    supports: []
+    contradicts: [F004]
+    related_facts: [F002, F003, F005]
+    reasoning_notes: "不同官方稿對角色呈現不同；有的明示「黨主席暨總統」，有的以黨主席為主。應區分「發生於總統任內」與「當場援引總統身分」。"
+
+  - id: C003
+    statement: "至少在2026年9月12日台中與9月23日桃園兩場選舉輔選場合，賴清德在批評或對比現任地方政府的同一場致詞中，明確援引自己的總統身分並談中央與未來地方首長合作。"
+    status: supported
+    supports: [F003, F005]
+    contradicts: []
+    related_facts: [F001]
+    reasoning_notes: "兩篇民進黨官方稿都有直接文字，無須靠二手媒體標題推論。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-10T16:07:00+08:00"
+    platform: web
+    query: "site:dpp.org.tw 2026 8 5 賴清德 盧秀燕 台中 何欣純 市長對了 問題就解決了"
+    scope: "民主進步黨官方網站"
+    result: found
+    notes: "找到11701，確認官方稿明示「黨主席暨總統」並保存對盧秀燕施政的批評及換市長主張。"
+
+  - id: Q002
+    observed_at: "2026-10-10T16:07:00+08:00"
+    platform: web
+    query: "site:dpp.org.tw 2026 9 12 賴清德 何欣純 競選總部 盧秀燕 台中"
+    scope: "民主進步黨官方網站"
+    result: found
+    notes: "找到11765，確認賴清德在競總成立大會批評現任市府並明示「身為總統」。"
+
+  - id: Q003
+    observed_at: "2026-10-10T16:07:00+08:00"
+    platform: web
+    query: "site:dpp.org.tw 2026 9 16 賴清德 張麗善 雲林 行動中常會 劉建國"
+    scope: "民主進步黨官方網站"
+    result: found
+    notes: "找到11771，確認賴清德任劉建國競總主委並直接批評張麗善及張家地方政治。"
+
+  - id: Q004
+    observed_at: "2026-10-10T16:07:00+08:00"
+    platform: web
+    query: "site:dpp.org.tw 2026 9 23 賴清德 張善政 桃園 行動中常會 黃世杰"
+    scope: "民主進步黨官方網站"
+    result: found
+    notes: "找到11780，確認「張善政並不適合繼續再擔任桃園市市長」與「身為總統」出現在同一場致詞。"
+
+  - id: Q005
+    observed_at: "2026-10-10T16:07:00+08:00"
+    platform: web
+    query: "site:dpp.org.tw 2026 賴清德 張善政 黃世杰 競選總部 10月3日"
+    scope: "民主進步黨官方網站"
+    result: found
+    notes: "找到11796，確認10月3日南桃園競總成立大會再次批評張善政任內桃園治理。"
+
+promotion:
+  cases: []
+  comparators: []
+  research:
+    - proposed: "presidential-campaigning-and-incumbent-criticism"
+
+notes:
+  - "保存目的：不以媒體標題代替原始紀錄，優先保存總統府與政黨官方頁面的事件日期、場合、角色標示與短摘錄，供日後比較不同政治人物在國慶、政黨活動與競選站台的發言標準。"
+  - "方法限制：本 session 不是「賴清德所有站台發言」的完整清單；它只記錄2026-10-10本次查詢已核實的代表性案例。"
+  - "角色區分很重要：「在總統任內參與站台」不等於每一場都「以總統職權身分發言」；因此另以F003、F005保存當場明示總統身分的例子。"
