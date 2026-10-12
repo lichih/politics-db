@@ -202,6 +202,17 @@ sources:
     notes:
       - "黃國昌公開表示，若國民黨再推動黨產條例修法，民眾黨不會支持。"
 
+  - id: S017
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "中央選舉委員會組織法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0000153"
+    observed_at: "2026-10-12"
+    retrieval_status: reachable
+    notes:
+      - "第3條規定主任委員、副主任委員及委員由行政院院長提名，經立法院同意後任命。"
+      - "法條沒有賦予政黨法定推薦權；政黨推薦屬行政院自行徵詢的政治程序，不等於法律上的提名權。"
+
 facts:
   - id: F001
     statement: "2024年原民禁伐補償修法中，民眾黨沒有提出自己的版本，而是表明支持先前朝野協商的每公頃6萬元結論；最後院會以「審查會與委員陳瑩等提案條文」表決通過。"
@@ -309,6 +320,16 @@ facts:
     verification_notes: []
     tags: [黨產條例, 藍白差異, 政策立場]
 
+  - id: F012
+    statement: "中選會委員的法定提名權屬行政院院長，不是總統；《中央選舉委員會組織法》也沒有賦予在野黨法定推薦權。"
+    status: verified
+    observed_at: "2026-10-12"
+    source_ids: [S017]
+    evidence_summary: "第3條直接規定由行政院院長提名、經立法院同意後任命。政黨推薦是行政院可自行採用的政治徵詢方式，而非法律授權的正式提名權。"
+    verification_notes:
+      - "因此把此程序稱為『憲法規定總統提名』並不精確：法源是組織法，提名人是行政院院長。"
+    tags: [中選會, 提名權, 法律程序]
+
 claims:
   - id: C001
     statement: "第11屆國會中，民眾黨與民進黨之間完全沒有任何法案合作。"
@@ -357,6 +378,14 @@ claims:
     contradicts: []
     related_facts: []
     reasoning_notes: "國會改革與法庭直播均可見政策交集與最終黨團立場分離；但每案仍應分別檢驗版本內容，不能因此推出所有制度改革衝突責任均在民進黨。"
+
+  - id: C007
+    statement: "中選會委員是由總統依憲法提名，且在野黨具有法定推薦權。"
+    status: contradicted
+    supports: []
+    contradicts: [F012]
+    related_facts: [F007]
+    reasoning_notes: "法源是《中央選舉委員會組織法》第3條，法定提名權屬行政院院長；政黨推薦是行政院自行徵詢的政治安排，不是法律上的推薦權。"
 
 searches:
   - id: Q001
