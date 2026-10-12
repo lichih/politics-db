@@ -1,0 +1,435 @@
+session:
+  id: 2026-10-12-green-white-legislative-cooperation
+  project: Politics
+  title: "第11屆國會綠白合作、合作失敗與藍白一致率主張"
+  started_at: "2026-10-12"
+  updated_at: "2026-10-12"
+  status: active
+
+topics:
+  - 台灣民眾黨
+  - 民進黨
+  - 國民黨
+  - 第11屆立法院
+  - 藍白合作
+  - 綠白合作
+  - 記名表決
+  - 國會改革
+  - 法庭直播
+  - 中選會人事同意權
+  - 原民禁伐補償
+  - 公益揭弊者保護法
+  - 再生醫療法
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網"
+    title: "第11屆第1會期第16次會議（原住民保留地禁伐補償條例表決）"
+    url: "https://ppg.ly.gov.tw/ppg/sittings/2024052941/details?meetingDate=113%2F06%2F04"
+    published_at: "2024-06-04"
+    observed_at: "2026-10-12"
+    retrieval_status: reachable
+    notes:
+      - "第6條以審查會與委員陳瑩等提案條文進行記名表決，60票贊成、46票反對。"
+
+  - id: S002
+    source_type: secondary
+    publisher: "中央社"
+    title: "立院三讀 原民禁伐補償每公頃調升至6萬元"
+    url: "https://www.cna.com.tw/news/aipl/202406040268.aspx"
+    published_at: "2024-06-04"
+    observed_at: "2026-10-12"
+    retrieval_status: reachable
+    notes:
+      - "報導記錄5月2日委員會黨團協商時朝野黨團代表均支持每公頃6萬元。"
+      - "黃國昌表示民眾黨沒有自己的提案，而是支持先前黨團協商結論。"
+
+  - id: S003
+    source_type: secondary
+    publisher: "中央社"
+    title: "調升原民禁伐補償三讀 綠主張違憲呼籲在野勿扣帽子"
+    url: "https://www.cna.com.tw/news/aipl/202406040370.aspx"
+    published_at: "2024-06-04"
+    observed_at: "2026-10-12"
+    retrieval_status: reachable
+    notes:
+      - "報導記錄民進黨團反對該案，但民進黨立委伍麗華、陳瑩投贊成票。"
+
+  - id: S004
+    source_type: secondary
+    publisher: "中央社"
+    title: "游錫堃拜會民眾黨團談國會改革 贊同單一召委不代表民進黨立場"
+    url: "https://www.cna.com.tw/news/aipl/202401290197.aspx"
+    published_at: "2024-01-29"
+    observed_at: "2026-10-12"
+    retrieval_status: reachable
+    notes:
+      - "游錫堃表示重視國會改革，對部分民眾黨改革主張表達贊同，但明確說這是個人立場，不代表民進黨。"
+
+  - id: S005
+    source_type: secondary
+    publisher: "中央社"
+    title: "游錫堃贊成單一召委 柯建銘：黨團有黨團立場"
+    url: "https://www.cna.com.tw/news/aipl/202401300091.aspx"
+    published_at: "2024-01-30"
+    observed_at: "2026-10-12"
+    retrieval_status: reachable
+    notes:
+      - "柯建銘表示游錫堃只是個人意見，民進黨團有自己的黨團立場。"
+
+  - id: S006
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網"
+    title: "制定再生醫療法，咨請公布"
+    url: "https://ppg.ly.gov.tw/ppg/bills/latest-pass-third-readings/1130702288/process"
+    published_at: "2024-06-14"
+    observed_at: "2026-10-12"
+    retrieval_status: reachable
+    notes:
+      - "關聯議案包括行政院、民進黨立委、台灣民眾黨黨團、國民黨立委等多個版本，最後完成三讀。"
+
+  - id: S007
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網"
+    title: "制定公益揭弊者保護法，咨請公布"
+    url: "https://ppg.ly.gov.tw/ppg/bills/latest-pass-third-readings/1130704598/process"
+    published_at: "2025-01-13"
+    observed_at: "2026-10-12"
+    retrieval_status: reachable
+    notes:
+      - "關聯議案包括民進黨林月琴等人、台灣民眾黨黨團及多位國民黨立委版本，最後完成三讀。"
+
+  - id: S008
+    source_type: primary
+    publisher: "司法改革進度追蹤平台"
+    title: "決議序號50-2：法庭直播之研採"
+    url: "https://judicialreform.gov.tw/Resolutions/Form/?fn=50&oid=6&sn=2"
+    published_at: "2017"
+    observed_at: "2026-10-12"
+    retrieval_status: reachable
+    notes:
+      - "司改國是會議決議要求司法院就多類事實審案件，在權衡知的權利、公平審判及人格權後，一年內研議法庭直播範圍與條件。"
+      - "進度頁另記錄2025年6月27日立法院三讀通過相關修法。"
+
+  - id: S009
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網"
+    title: "第11屆第3會期第18次會議（法院組織法法庭直播表決）"
+    url: "https://ppg.ly.gov.tw/ppg/sittings/2025062580/details?meetingDate=114%2F06%2F27"
+    published_at: "2025-06-27"
+    observed_at: "2026-10-12"
+    retrieval_status: reachable
+    notes:
+      - "民眾黨黨團再修正動議與全案表決均為59票贊成、49票反對。"
+
+  - id: S010
+    source_type: secondary
+    publisher: "中央社"
+    title: "法庭直播修法 立院朝野協商無共識送院會處理"
+    url: "https://www.cna.com.tw/news/aipl/202506270201.aspx"
+    published_at: "2025-06-27"
+    observed_at: "2026-10-12"
+    retrieval_status: reachable
+    notes:
+      - "報導記錄民眾黨版本主張法律審原則公開、事實審原則不公開但重大公共利益案件可例外公開；司法院及民進黨團反對。"
+
+  - id: S011
+    source_type: secondary
+    publisher: "中央社"
+    title: "游盈隆獲提名中選會主委 綠：嚴守適格適任原則審查"
+    url: "https://www.cna.com.tw/news/aipl/202512230110.aspx"
+    published_at: "2025-12-23"
+    observed_at: "2026-10-12"
+    retrieval_status: reachable
+    notes:
+      - "民進黨團幹事長鍾佳濱明言，行政院曾請朝野黨團推薦中選會人選，但民進黨團沒有推薦。"
+
+  - id: S012
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網"
+    title: "115年3月11日黨團協商會議紀錄：中央選舉委員會人事同意權"
+    url: "https://ppg.ly.gov.tw/ppg/SittingAttachmentCapp/download/2026030961_1.pdf"
+    published_at: "2026-03-11"
+    observed_at: "2026-10-12"
+    retrieval_status: reachable
+    notes:
+      - "協商主題包括中選會人事同意權；本次核對未見各黨互相承諾放行特定人選的交換條款。"
+      - "可確認的協商結論重點是投票日期、時間與票張等程序安排。"
+
+  - id: S013
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網"
+    title: "第11屆第5會期第3次會議（中選會委員同意權）"
+    url: "https://ppg.ly.gov.tw/ppg/sittings/2026031170/details?meetingDate=115%2F03%2F13"
+    published_at: "2026-03-13"
+    observed_at: "2026-10-12"
+    retrieval_status: reachable
+    notes:
+      - "游盈隆、李禮仲、蘇嘉宏、蘇子喬獲同意；胡博硯、黃文玲、陳宗義未獲同意。"
+
+  - id: S014
+    source_type: secondary
+    publisher: "中央社"
+    title: "游盈隆將任中選會主委 胡博硯等3人遭立院否決"
+    url: "https://www.cna.com.tw/news/aipl/202603130156.aspx"
+    published_at: "2026-03-13"
+    observed_at: "2026-10-12"
+    retrieval_status: reachable
+    notes:
+      - "游盈隆、李禮仲、蘇嘉宏、蘇子喬均獲112張同意票。"
+      - "民進黨團對7人全投同意；國民黨團同意前述4人；民眾黨團同意前述4人並不同意另外3人。"
+
+  - id: S015
+    source_type: secondary
+    publisher: "中央社"
+    title: "志願役加給在野不同調 白表決棄權藍版齊頭式加薪"
+    url: "https://www.cna.com.tw/news/aipl/202506100130.aspx"
+    published_at: "2025-06-10"
+    observed_at: "2026-10-12"
+    retrieval_status: reachable
+    notes:
+      - "民眾黨反對國民黨志願役齊頭式加給3萬元版本，在該再修正動議投棄權；但對義務役月薪不得低於最低工資的國民黨版本投贊成。"
+
+  - id: S016
+    source_type: secondary
+    publisher: "中央社"
+    title: "黃國昌：台灣民眾黨不會支持黨產條例修法再推動"
+    url: "https://www.cna.com.tw/news/aipl/202605310061.aspx"
+    published_at: "2026-05-31"
+    observed_at: "2026-10-12"
+    retrieval_status: reachable
+    notes:
+      - "黃國昌公開表示，若國民黨再推動黨產條例修法，民眾黨不會支持。"
+
+facts:
+  - id: F001
+    statement: "2024年原民禁伐補償修法中，民眾黨沒有提出自己的版本，而是表明支持先前朝野協商的每公頃6萬元結論；最後院會以「審查會與委員陳瑩等提案條文」表決通過。"
+    status: verified
+    observed_at: "2026-10-12"
+    source_ids: [S001, S002]
+    evidence_summary: "官方表決頁與中央社報導可互相核對：民眾黨是支持既有協商與他黨立委提案，而不是只能支持自己的或國民黨版本。"
+    verification_notes:
+      - "此事實不足以單獨估算綠白整體合作頻率，只能作為『從未支持民進黨來源主張』的反例。"
+    tags: [原民禁伐補償, 跨黨合作, 反例]
+
+  - id: F002
+    statement: "同一禁伐補償案最後60票贊成、46票反對；民進黨團主張反對，但民進黨立委伍麗華、陳瑩仍投贊成票。"
+    status: verified
+    observed_at: "2026-10-12"
+    source_ids: [S001, S003]
+    evidence_summary: "此案顯示『提案來源』『黨團立場』『個別立委投票』可能分離，不能把單一法案簡化成固定藍綠白三塊。"
+    verification_notes: []
+    tags: [原民禁伐補償, 黨團紀律, 個別投票]
+
+  - id: F003
+    statement: "2024年立法院長選舉前，游錫堃對民眾黨提出的多項國會改革表示贊同，但明確說是個人立場、不代表民進黨；柯建銘隔日亦表示黨團有黨團立場。"
+    status: verified
+    observed_at: "2026-10-12"
+    source_ids: [S004, S005]
+    evidence_summary: "存在明確政策交集，但未轉化成民進黨黨團的正式承諾。"
+    verification_notes:
+      - "這只能證明當時合作窗口與黨內立場落差存在，不能單獨證明後續所有國會改革衝突均由民進黨造成。"
+    tags: [國會改革, 游錫堃, 合作窗口]
+
+  - id: F004
+    statement: "2024年再生醫療法由行政院、民進黨立委、民眾黨黨團與國民黨立委等多版本併案審查，最後完成三讀。"
+    status: verified
+    observed_at: "2026-10-12"
+    source_ids: [S006]
+    evidence_summary: "這是第11屆國會中藍綠白與行政院版本共同進入同一立法程序並完成立法的明確案例。"
+    verification_notes:
+      - "併案三讀不等於每一黨的原始條文均被採納；但足以反證『綠白完全沒有法案合作』。"
+    tags: [再生醫療法, 三讀, 跨黨合作]
+
+  - id: F005
+    statement: "公益揭弊者保護法的關聯議案包括民進黨林月琴等人版本、民眾黨黨團版本及多位國民黨立委版本，最後完成三讀。"
+    status: verified
+    observed_at: "2026-10-12"
+    source_ids: [S007]
+    evidence_summary: "這是另一個綠白及其他黨派版本共同進入立法程序並產出法律的案例。"
+    verification_notes:
+      - "最終條文多處採藍白再修正動議，故不應把此案描述成『民進黨版本獲民眾黨完整支持』。"
+    tags: [公益揭弊者保護法, 三讀, 跨黨合作]
+
+  - id: F006
+    statement: "2017年司改國是會議官方追蹤決議已要求研議法庭直播的範圍與條件；2025年民眾黨提出分層公開的法庭直播修法時，民進黨團與司法院均反對，最後由藍白59票對49票三讀通過。"
+    status: verified
+    observed_at: "2026-10-12"
+    source_ids: [S008, S009, S010]
+    evidence_summary: "可確認政府主導的司改體系早有法庭直播研議方向，也可確認2025年民進黨團反對民眾黨具體版本。"
+    verification_notes:
+      - "司改國是會議決議不等於民進黨黨綱或黨團正式承諾，因此只能作為政策脈絡與合作交集證據，不能簡化成『民進黨自己法案後來反對』。"
+    tags: [法庭直播, 司法改革, 制度改革, 政策脈絡]
+
+  - id: F007
+    statement: "2025年底中選會7人提名案中，民進黨團明確表示自己沒有向行政院推薦人選；行政院正式提名名單中則納入國民黨與民眾黨推薦者。"
+    status: verified
+    observed_at: "2026-10-12"
+    source_ids: [S011]
+    evidence_summary: "因此把未通過的胡博硯、黃文玲、陳宗義直接稱為『民進黨推薦人選』並不精確。"
+    verification_notes: []
+    tags: [中選會, 人事同意權, 提名程序]
+
+  - id: F008
+    statement: "2026年3月11日中選會人事同意權黨團協商可確認的是投票程序安排；本次查核未在正式協商紀錄中找到各黨互相承諾支持特定人選的交換條款。"
+    status: verified
+    observed_at: "2026-10-12"
+    source_ids: [S012]
+    evidence_summary: "現有原始紀錄不足以支持『藍白先答應互相放行、之後欺騙民進黨』的說法。"
+    verification_notes:
+      - "此處採嚴格表述：只記錄本次正式協商紀錄中未見交換條款，不推論私下絕對沒有任何政治溝通。"
+    tags: [中選會, 黨團協商, 程序]
+
+  - id: F009
+    statement: "2026年3月13日中選會同意權表決中，游盈隆、李禮仲、蘇嘉宏、蘇子喬均獲112票同意；游盈隆並非國民黨或民眾黨推薦人選。"
+    status: verified
+    observed_at: "2026-10-12"
+    source_ids: [S013, S014]
+    evidence_summary: "這直接反證『藍白只通過藍白推薦人選』。"
+    verification_notes: []
+    tags: [中選會, 人事同意權, 反例]
+
+  - id: F010
+    statement: "2025年軍人待遇修法中，民眾黨對國民黨志願役齊頭式加給3萬元版本投棄權，但對義務役月薪不得低於最低工資的國民黨版本投贊成。"
+    status: verified
+    observed_at: "2026-10-12"
+    source_ids: [S015]
+    evidence_summary: "同一議題內即可觀察到民眾黨對國民黨不同條文採不同投票選擇，不能把所有藍白投票視為機械式同一。"
+    verification_notes:
+      - "棄權不是反對票；因此此事實不能反證『民眾黨沒有投反對票』這個更窄命題，但可以反證『國民黨版本一律照單全收』。"
+    tags: [軍人待遇, 藍白差異, 棄權]
+
+  - id: F011
+    statement: "2026年5月黃國昌公開表示，若國民黨再推動黨產條例修法，民眾黨不會支持。"
+    status: verified
+    observed_at: "2026-10-12"
+    source_ids: [S016]
+    evidence_summary: "這是藍白存在政策邊界的公開證據，但不是院會記名表決紀錄。"
+    verification_notes: []
+    tags: [黨產條例, 藍白差異, 政策立場]
+
+claims:
+  - id: C001
+    statement: "第11屆國會中，民眾黨與民進黨之間完全沒有任何法案合作。"
+    status: contradicted
+    supports: []
+    contradicts: [F001, F004, F005]
+    related_facts: [F002]
+    reasoning_notes: "再生醫療法與公益揭弊者保護法均有兩黨版本共同進入立法程序並完成三讀；禁伐補償案又有民眾黨支持民進黨立委提案與既有朝野共識的明確反例。"
+
+  - id: C002
+    statement: "民眾黨只要看到國民黨提案就一律照單全收。"
+    status: contradicted
+    supports: []
+    contradicts: [F010, F011]
+    related_facts: []
+    reasoning_notes: "軍人待遇案中民眾黨對國民黨不同版本分別採棄權與贊成；另有公開表態不支持國民黨後續黨產修法。若要進一步檢驗『是否從不投反對票』，仍需完整記名表決資料。"
+
+  - id: C003
+    statement: "藍白在中選會人事同意權案先談好互相放行，之後只通過藍白推薦人選、封殺民進黨推薦人選。"
+    status: contradicted
+    supports: []
+    contradicts: [F007, F008, F009]
+    related_facts: []
+    reasoning_notes: "民進黨團自己表示沒有推薦人選；正式協商紀錄未見互相放行條款；游盈隆不是藍白推薦卻獲112票同意。"
+
+  - id: C004
+    statement: "綠白成功合作在第11屆國會只占『極低機率』或『少數』。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F001, F004, F005, F006]
+    reasoning_notes: "目前已找到成功合作、政策交集、合作失敗等代表案例，但尚未建立完整母體、分類規則與逐案表決資料，因此不能從選取案例估算頻率，更不能使用『機率』一詞作統計推論。"
+
+  - id: C005
+    statement: "若綠白最終成功合作案件較少，就足以證明是民眾黨沒有合作意願。"
+    status: unsupported
+    supports: []
+    contradicts: [F001, F003, F006]
+    related_facts: [F004, F005]
+    reasoning_notes: "成功合作是雙方策略、版本差異、黨團立場、程序與票數共同作用的結果。禁伐補償與國會改革窗口顯示，至少部分合作機會不能只由民眾黨單方意願解釋。"
+
+  - id: C006
+    statement: "在制度改革議題上，曾出現民眾黨與民進黨人物或政府既有改革方向存在交集，但民進黨黨團沒有支持民眾黨最後版本的案例。"
+    status: supported
+    supports: [F003, F006]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "國會改革與法庭直播均可見政策交集與最終黨團立場分離；但每案仍應分別檢驗版本內容，不能因此推出所有制度改革衝突責任均在民進黨。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-12"
+    platform: web
+    query: "原住民保留地禁伐補償 陳瑩 伍麗華 6萬元 表決 2024"
+    scope: "立法院議事暨公報資訊網、中央社"
+    result: found
+    notes: "確認提案來源、先前朝野協商、民眾黨表態與最終60:46表決，並確認民進黨團反對而伍麗華、陳瑩投贊成。"
+
+  - id: Q002
+    observed_at: "2026-10-12"
+    platform: web
+    query: "2024 游錫堃 民眾黨 四項國會改革 個人立場 不代表民進黨"
+    scope: "中央社"
+    result: found
+    notes: "確認游錫堃對改革主張存在交集，但沒有代表民進黨黨團承諾。"
+
+  - id: Q003
+    observed_at: "2026-10-12"
+    platform: web
+    query: "再生醫療法 民眾黨黨團 民進黨版本 三讀 2024"
+    scope: "立法院議事暨公報資訊網"
+    result: found
+    notes: "確認行政院、民進黨立委、民眾黨及國民黨版本併案並完成三讀。"
+
+  - id: Q004
+    observed_at: "2026-10-12"
+    platform: web
+    query: "公益揭弊者保護法 民眾黨 民進黨 2024 三讀"
+    scope: "立法院議事暨公報資訊網"
+    result: found
+    notes: "確認民進黨林月琴版、民眾黨版與多個國民黨版本均列入關聯議案並完成三讀。"
+
+  - id: Q005
+    observed_at: "2026-10-12"
+    platform: web
+    query: "法庭直播 司法改革國是會議 50-2 2025 民眾黨 民進黨"
+    scope: "司法改革進度追蹤平台、立法院、中央社"
+    result: found
+    notes: "確認2017官方改革決議與2025具體修法內容、民進黨團反對及59:49表決。"
+
+  - id: Q006
+    observed_at: "2026-10-12"
+    platform: web
+    query: "2026 中選會 委員 民進黨 沒有推薦 3月11日 協商 3月13日 表決"
+    scope: "中央社、立法院議事暨公報資訊網"
+    result: found
+    notes: "確認民進黨未推薦、正式協商紀錄內容與最終投票結果。"
+
+  - id: Q007
+    observed_at: "2026-10-12"
+    platform: web
+    query: "軍人加薪 民眾黨 國民黨 版本 棄權 2025"
+    scope: "中央社、立法院"
+    result: found
+    notes: "確認同一議題中民眾黨對國民黨不同版本採不同投票選擇。"
+
+  - id: Q008
+    observed_at: "2026-10-12"
+    platform: web
+    query: "第11屆所有記名表決 藍白一致率 綠白一致率 完整統計"
+    scope: "本次一般網路搜尋與立法院單案頁面"
+    result: not_found
+    notes: "本次沒有取得一份已定義完整母體、能直接計算藍白與綠白一致率的可靠成品資料集；因此不對『極低機率』『少數』做量化判定。"
+
+promotion:
+  cases: []
+  comparators: []
+  research:
+    - proposed: "legislative-vote-alignment-dataset"
+
+notes:
+  - "本 session 的核心方法限制：案例可以反證全稱命題，但不能用選取案例估計整體合作率。若要判斷『少數』『極低機率』『附隨組織』，下一步應建立第11屆完整記名表決資料集，事先定義程序票、實體法案、共同提案、行政院版、棄權、缺席與黨團版本的編碼規則。"
+  - "合作成功件數不能直接當作單方合作意願的代理變數；至少要區分誰先提案、是否存在相近版本、協商階段、誰拒絕、最後是否因票數或程序失敗。"
+  - "對『民進黨自己打掉合作』的描述應逐案使用：禁伐補償可直接看到民眾黨支持既有朝野共識與民進黨立委提案、而民進黨團反對；國會改革與法庭直播則只能說存在政策交集但民進黨黨團未支持最後方案，不宜概括成所有責任均在民進黨。"
