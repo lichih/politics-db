@@ -11,9 +11,12 @@ on:
       - "proposals/**"
       - "renderer/**"
       - "schema/**"
+      - "tools/**"
+      - "tests/**"
       - "requirements.txt"
       - ".github/workflows/**"
       - "docs/project-workflow.md"
+      - "docs/threads-evidence-fetch.md"
       - "README.md"
       - "CNAME"
   push:
@@ -27,9 +30,12 @@ on:
       - "proposals/**"
       - "renderer/**"
       - "schema/**"
+      - "tools/**"
+      - "tests/**"
       - "requirements.txt"
       - ".github/workflows/**"
       - "docs/project-workflow.md"
+      - "docs/threads-evidence-fetch.md"
       - "README.md"
       - "CNAME"
   workflow_dispatch:
@@ -51,6 +57,9 @@ jobs:
 
       - name: Install renderer dependencies
         run: pip install -r requirements.txt
+
+      - name: Run tool unit tests
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
 
       - name: Validate schema and cross-references
         run: python renderer/render.py --check
