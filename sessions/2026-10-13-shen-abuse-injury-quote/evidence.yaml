@@ -466,7 +466,7 @@ searches:
   - id: Q001
     observed_at: "2026-10-13"
     platform: web
-    query: ""黃國昌" "凌虐不一定會造成傷害" 沈伯洋"
+    query: '"黃國昌" "凌虐不一定會造成傷害" 沈伯洋'
     scope: "公開新聞、YouTube、立法院資料"
     result: partial
     notes: "找到2024原始院會黃國昌接續發言及民眾之聲相關內容，但未找到黃國昌本人日後直接以摘句攻擊沈伯洋的可確認紀錄。"
@@ -474,7 +474,7 @@ searches:
   - id: Q002
     observed_at: "2026-10-13"
     platform: web
-    query: ""張啓楷" "凌虐不一定會造成傷害" 沈伯洋"
+    query: '"張啓楷" "凌虐不一定會造成傷害" 沈伯洋'
     scope: "公開新聞、YouTube"
     result: partial
     notes: "找到《庶民大頭家》PART 2 metadata列張啓楷為全集來賓，但無法由metadata證明其在該片段親自發言。"
@@ -482,7 +482,7 @@ searches:
   - id: Q003
     observed_at: "2026-10-13"
     platform: web
-    query: ""凌虐不一定會造成傷害" 政客爽 沈伯洋 2025 3 20"
+    query: '"凌虐不一定會造成傷害" 政客爽 沈伯洋 2025 3 20'
     scope: "新聞、YouTube、論壇轉錄"
     result: found
     notes: "中天YouTube說明與中時新聞轉錄均明確記錄「政客爽」挖出該句。"
@@ -490,7 +490,7 @@ searches:
   - id: Q004
     observed_at: "2026-10-13"
     platform: web
-    query: ""沈伯洋稱" "兒虐" "觀點相對論" "民眾之聲""
+    query: '"沈伯洋稱" "兒虐" "觀點相對論" "民眾之聲"'
     scope: "YouTube、民眾黨官網"
     result: found
     notes: "找到2025-03-28民眾之聲《觀點相對論》影片，標題與說明均採用該摘句框架。"
