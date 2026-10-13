@@ -61,12 +61,12 @@ jobs:
       - name: Run tool unit tests
         run: python -m unittest discover -s tests -p 'test_*.py' -v
 
-      - name: Direct Threads share diagnostic (temporary)
+      - name: Inspect Threads share bootstrap (temporary)
         if: github.event_name == 'pull_request' && github.head_ref == 'tool/threads-evidence-fetch'
         run: |
           python - <<'PY'
+          import html
           import re
-          from urllib.error import HTTPError, URLError
           from urllib.request import Request, urlopen
 
           url = "https://www.threads.com/share/BBtkG8GXY7/"
@@ -74,22 +74,42 @@ jobs:
               "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/141.0 Safari/537.36",
               "Accept": "text/html,application/xhtml+xml",
           })
-          try:
-              with urlopen(req, timeout=30) as r:
-                  body = r.read(2_000_000).decode("utf-8", errors="replace")
-                  print("status:", r.status)
-                  print("final_url:", r.geturl())
-                  print("content_type:", r.headers.get("content-type"))
-                  urls = sorted(set(re.findall(r'https://(?:www\\.)?threads\\.(?:com|net)/@[^"\\s<>]+/post/[A-Za-z0-9_-]+', body)))
-                  print("canonical_candidates:", urls[:10])
-                  print("body_bytes:", len(body.encode("utf-8")))
-                  print("has_thread_items:", '"thread_items"' in body)
-          except HTTPError as exc:
-              print("http_error:", exc.code)
-              print("location:", exc.headers.get("location"))
-              print(exc.read(2000).decode("utf-8", errors="replace"))
-          except URLError as exc:
-              print("url_error:", exc.reason)
+          with urlopen(req, timeout=30) as r:
+              body = r.read(2_000_000).decode("utf-8", errors="replace")
+
+          normalized = html.unescape(body).replace("\\/", "/")
+          print("body_chars:", len(body))
+
+          for name in ("og:url", "og:title", "og:description", "twitter:title", "twitter:description"):
+              pattern = rf'<meta[^>]+(?:property|name)=["\\\']{re.escape(name)}["\\\'][^>]+content=["\\\']([^"\\\']*)'
+              m = re.search(pattern, normalized, re.I)
+              print(name + ":", m.group(1)[:1000] if m else None)
+
+          m = re.search(r'<link[^>]+rel=["\\\']canonical["\\\'][^>]+href=["\\\']([^"\\\']+)', normalized, re.I)
+          print("canonical_link:", m.group(1) if m else None)
+
+          post_patterns = [
+              r'https://(?:www\\.)?threads\\.(?:com|net)/@[A-Za-z0-9._-]+/post/[A-Za-z0-9_-]+',
+              r'/@[A-Za-z0-9._-]+/post/[A-Za-z0-9_-]+',
+          ]
+          candidates = []
+          for pattern in post_patterns:
+              candidates.extend(re.findall(pattern, normalized))
+          print("post_candidates:", sorted(set(candidates))[:30])
+
+          for needle in ("BBtkG8GXY7", "redirect_url", "permalink", "shortcode", "post_id", "media_id"):
+              print("---", needle, "---")
+              start = 0
+              shown = 0
+              while shown < 3:
+                  idx = normalized.find(needle, start)
+                  if idx < 0:
+                      break
+                  print(normalized[max(0, idx-500):idx+1500])
+                  start = idx + len(needle)
+                  shown += 1
+              if shown == 0:
+                  print("not found")
           PY
 
       - name: Validate schema and cross-references
