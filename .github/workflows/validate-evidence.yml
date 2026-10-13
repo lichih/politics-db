@@ -61,31 +61,15 @@ jobs:
       - name: Run tool unit tests
         run: python -m unittest discover -s tests -p 'test_*.py' -v
 
-      - name: Install browser for Threads diagnostic (temporary)
+      - name: Install Threads browser dependencies
         if: github.event_name == 'pull_request' && github.head_ref == 'tool/threads-evidence-fetch'
         run: |
           pip install playwright
           python -m playwright install chromium
 
-      - name: Resolve Threads share in browser (temporary)
+      - name: Live Threads fetch
         if: github.event_name == 'pull_request' && github.head_ref == 'tool/threads-evidence-fetch'
-        run: |
-          python - <<'PY'
-          from playwright.sync_api import sync_playwright
-
-          url = "https://www.threads.com/share/BBtkG8GXY7/"
-          with sync_playwright() as p:
-              browser = p.chromium.launch(headless=True)
-              page = browser.new_page()
-              page.goto(url, wait_until="domcontentloaded", timeout=30000)
-              page.wait_for_timeout(8000)
-              print("final_url:", page.url)
-              print("title:", page.title())
-              content = page.content()
-              print("dom_chars:", len(content))
-              print("has_thread_items:", '"thread_items"' in content)
-              browser.close()
-          PY
+        run: python tools/fetch_threads.py https://www.threads.com/share/BBtkG8GXY7/ --mode browser --pretty
 
       - name: Validate schema and cross-references
         run: python renderer/render.py --check
