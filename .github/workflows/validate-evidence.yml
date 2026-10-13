@@ -61,55 +61,30 @@ jobs:
       - name: Run tool unit tests
         run: python -m unittest discover -s tests -p 'test_*.py' -v
 
-      - name: Inspect Threads share bootstrap (temporary)
+      - name: Install browser for Threads diagnostic (temporary)
+        if: github.event_name == 'pull_request' && github.head_ref == 'tool/threads-evidence-fetch'
+        run: |
+          pip install playwright
+          python -m playwright install chromium
+
+      - name: Resolve Threads share in browser (temporary)
         if: github.event_name == 'pull_request' && github.head_ref == 'tool/threads-evidence-fetch'
         run: |
           python - <<'PY'
-          import html
-          import re
-          from urllib.request import Request, urlopen
+          from playwright.sync_api import sync_playwright
 
           url = "https://www.threads.com/share/BBtkG8GXY7/"
-          req = Request(url, headers={
-              "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/141.0 Safari/537.36",
-              "Accept": "text/html,application/xhtml+xml",
-          })
-          with urlopen(req, timeout=30) as r:
-              body = r.read(2_000_000).decode("utf-8", errors="replace")
-
-          normalized = html.unescape(body).replace("\\/", "/")
-          print("body_chars:", len(body))
-
-          for name in ("og:url", "og:title", "og:description", "twitter:title", "twitter:description"):
-              pattern = rf'<meta[^>]+(?:property|name)=["\\\']{re.escape(name)}["\\\'][^>]+content=["\\\']([^"\\\']*)'
-              m = re.search(pattern, normalized, re.I)
-              print(name + ":", m.group(1)[:1000] if m else None)
-
-          m = re.search(r'<link[^>]+rel=["\\\']canonical["\\\'][^>]+href=["\\\']([^"\\\']+)', normalized, re.I)
-          print("canonical_link:", m.group(1) if m else None)
-
-          post_patterns = [
-              r'https://(?:www\\.)?threads\\.(?:com|net)/@[A-Za-z0-9._-]+/post/[A-Za-z0-9_-]+',
-              r'/@[A-Za-z0-9._-]+/post/[A-Za-z0-9_-]+',
-          ]
-          candidates = []
-          for pattern in post_patterns:
-              candidates.extend(re.findall(pattern, normalized))
-          print("post_candidates:", sorted(set(candidates))[:30])
-
-          for needle in ("BBtkG8GXY7", "redirect_url", "permalink", "shortcode", "post_id", "media_id"):
-              print("---", needle, "---")
-              start = 0
-              shown = 0
-              while shown < 3:
-                  idx = normalized.find(needle, start)
-                  if idx < 0:
-                      break
-                  print(normalized[max(0, idx-500):idx+1500])
-                  start = idx + len(needle)
-                  shown += 1
-              if shown == 0:
-                  print("not found")
+          with sync_playwright() as p:
+              browser = p.chromium.launch(headless=True)
+              page = browser.new_page()
+              page.goto(url, wait_until="domcontentloaded", timeout=30000)
+              page.wait_for_timeout(8000)
+              print("final_url:", page.url)
+              print("title:", page.title())
+              content = page.content()
+              print("dom_chars:", len(content))
+              print("has_thread_items:", '"thread_items"' in content)
+              browser.close()
           PY
 
       - name: Validate schema and cross-references
