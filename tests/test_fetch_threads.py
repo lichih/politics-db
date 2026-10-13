@@ -39,12 +39,50 @@ class ParseThreadsUrlTests(unittest.TestCase):
             fetch_threads.parse_threads_url("https://example.com/share/ABC")
 
 
+class BootstrapTests(unittest.TestCase):
+    def test_find_and_normalize_post(self):
+        raw = {
+            "payload": {
+                "thread_items": [
+                    {
+                        "post": {
+                            "code": "POST1",
+                            "caption": {"text": "hello"},
+                            "user": {
+                                "username": "alice",
+                                "full_name": "Alice",
+                                "profile_pic_url": "https://example.com/a.jpg",
+                            },
+                            "like_count": 4,
+                            "taken_at": 123,
+                            "text_post_app_info": {
+                                "direct_reply_count": 2,
+                                "repost_count": 1,
+                                "reshare_count": 3,
+                            },
+                        }
+                    }
+                ]
+            }
+        }
+        post = fetch_threads.find_threads_post(raw, "POST1")
+        self.assertIsNotNone(post)
+        normalized = fetch_threads.normalize_threads_post(post)
+        self.assertEqual(normalized["content"], "hello")
+        self.assertEqual(normalized["author"]["username"], "alice")
+        self.assertEqual(
+            normalized["url"],
+            "https://www.threads.com/@alice/post/POST1",
+        )
+        self.assertEqual(normalized["stats"]["comments"], 2)
+
+
 class BuildRecordTests(unittest.TestCase):
     def test_transport_is_not_promoted_to_source(self):
         target = fetch_threads.ThreadsTarget(
             "https://www.threads.com/share/ABC", "share", "ABC"
         )
-        payload = {
+        normalized = {
             "id": "POST1",
             "url": "https://www.threads.com/@alice/post/POST1",
             "content": "hello",
@@ -55,12 +93,16 @@ class BuildRecordTests(unittest.TestCase):
         }
         record = fetch_threads.build_record(
             target,
-            payload,
-            "https://fx.akitsuki.me/api/share/ABC",
+            normalized,
+            transport="Playwright/Chromium direct Threads browser",
+            final_url="https://www.threads.com/@alice/post/POST1?xmt=foo",
         )
         self.assertEqual(record["source"]["platform"], "Threads")
         self.assertEqual(record["source"]["source_type"], "primary")
-        self.assertEqual(record["retrieval"]["transport_role"], "resolver/proxy only")
+        self.assertEqual(
+            record["retrieval"]["transport_role"],
+            "retrieval mechanism only",
+        )
         self.assertEqual(
             record["source"]["canonical_url"],
             "https://www.threads.com/@alice/post/POST1",
