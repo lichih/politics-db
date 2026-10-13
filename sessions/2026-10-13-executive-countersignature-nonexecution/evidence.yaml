@@ -306,7 +306,7 @@ claims:
 
   - id: C002
     statement: "「行政院已形成可以阻止國會法律生效的實質否決效果。」"
-    status: verified
+    status: supported
     related_facts: [F001, F002, F003]
     reasoning_notes: "不論對此權力的憲法正當性如何評價，8項三讀法案確實因行政院長拒絕副署而未公布生效；功能效果即為阻止法律生效。"
 
@@ -330,7 +330,7 @@ claims:
 
   - id: C006
     statement: "「在目前的實務下，立法院過半並不能保證其三讀法律會生效或被行政院執行。」"
-    status: verified
+    status: supported
     related_facts: [F001, F002, F003, F004]
     reasoning_notes: "已有8項三讀案因不副署未生效，另有2項已公布法律未依條文內容編列執行。"
 
