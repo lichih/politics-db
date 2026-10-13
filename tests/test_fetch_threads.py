@@ -1,12 +1,14 @@
 import importlib.util
 from pathlib import Path
+import sys
 import unittest
 
 
 MODULE_PATH = Path(__file__).resolve().parents[1] / "tools" / "fetch_threads.py"
 SPEC = importlib.util.spec_from_file_location("fetch_threads", MODULE_PATH)
-fetch_threads = importlib.util.module_from_spec(SPEC)
 assert SPEC and SPEC.loader
+fetch_threads = importlib.util.module_from_spec(SPEC)
+sys.modules[SPEC.name] = fetch_threads
 SPEC.loader.exec_module(fetch_threads)
 
 
