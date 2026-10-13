@@ -139,6 +139,54 @@ sources:
       - "影片標題標籤與說明列張啓楷為該集來賓之一。"
       - "僅憑影片標題、標籤與全集來賓名單，不能證明張啓楷本人在這個PART 2片段中使用該摘句。"
 
+
+  - id: S011
+    source_type: secondary
+    publisher: "中天電視"
+    title: "剴剴案 沈伯洋喊「凌虐不一定造成傷害」；陳玉珍、凌濤回應"
+    url: "https://www.youtube.com/watch?v=DPN8Edsa9Ag"
+    published_at: "2025-03-20"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "影片章節標示02:20「沈伯洋喊『凌虐不一定會傷害』 陳玉珍酸不足為奇」。"
+      - "影片章節標示04:35「沈伯洋稱『凌虐不一定會造成傷害』 凌濤轟：出來道歉」。"
+      - "此來源顯示2025-03-20藍營政治人物已直接把該摘句用於政治攻防。"
+
+  - id: S012
+    source_type: primary
+    publisher: "立法院全球資訊網"
+    title: "剴剴案保母2人逃死定讞！王鴻薇揭「判決關鍵」怒批：怎麼殘殺幼兒都不判死"
+    url: "https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=47012&pid=264521"
+    published_at: "2026-07-31"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "王鴻薇再次引用沈伯洋「凌虐不一定會造成傷害」，並稱此語「讓全民震驚跟憤怒」。"
+      - "來源位於立法院全球資訊網委員新聞頁，屬可直接歸責王鴻薇的公開政治使用紀錄。"
+
+  - id: S013
+    source_type: secondary
+    publisher: "Newtalk新聞"
+    title: "沈伯洋槓美媒控扭曲 徐巧芯轟慣犯「問A答B、答B拗C」"
+    url: "https://newtalk.tw/news/view/2026-09-10/1058943"
+    published_at: "2026-09-10"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "報導記錄徐巧芯再次引用「凌虐不一定會造成傷害」，並將其作為沈伯洋「敢說不敢當／慣犯」敘事的一部分。"
+
+  - id: S014
+    source_type: secondary
+    publisher: "NOWnews今日新聞"
+    title: "沈伯洋看社工電影造勢 柳采葳打臉：他反對加重兒虐刑期修法"
+    url: "https://www.nownews.com/news/6837121"
+    published_at: "2026-05-17"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "報導記錄柳采葳直接將沈伯洋「凌虐不一定造成傷害」稱為「冷血言論」，並用於2026台北市長選舉政治攻防。"
+
 facts:
   - id: F001
     statement: "沈伯洋確實在2024年7月16日立法院院會說過「畢竟凌虐不一定會造成傷害」。"
@@ -264,6 +312,65 @@ facts:
       - 張啓楷
       - 證據邊界
 
+
+  - id: F012
+    statement: "2025年3月20日，陳玉珍與凌濤都已在媒體政治攻防中使用「凌虐不一定會造成傷害／不一定會傷害」這個摘句框架。"
+    status: verified
+    observed_at: "2026-10-13"
+    source_ids: [S005, S011]
+    evidence_summary: "中天影片章節直接標示陳玉珍與凌濤對該摘句的回應；凌濤另有國民黨官方記者會紀錄可交叉確認。"
+    tags:
+      - 國民黨
+      - 陳玉珍
+      - 凌濤
+      - 政治使用
+
+  - id: F013
+    statement: "2026年7月31日，王鴻薇在立法院全球資訊網公開內容中再次引用「凌虐不一定會造成傷害」，並稱其曾引發全民震驚與憤怒。"
+    status: verified
+    observed_at: "2026-10-13"
+    source_ids: [S012]
+    evidence_summary: "立法院委員新聞頁可直接確認。"
+    tags:
+      - 國民黨
+      - 王鴻薇
+      - 重複傳播
+
+  - id: F014
+    statement: "2026年9月10日，徐巧芯再次以「凌虐不一定會造成傷害」作為批評沈伯洋言論風格的例證。"
+    status: verified
+    observed_at: "2026-10-13"
+    source_ids: [S013]
+    evidence_summary: "Newtalk報導記錄徐巧芯完整批評內容。"
+    tags:
+      - 國民黨
+      - 徐巧芯
+      - 重複傳播
+
+  - id: F015
+    statement: "2026年5月17日，柳采葳再次引用「凌虐不一定造成傷害」，並直接稱之為「冷血言論」。"
+    status: verified
+    observed_at: "2026-10-13"
+    source_ids: [S014]
+    evidence_summary: "NOWnews報導記錄柳采葳公開發言。"
+    tags:
+      - 國民黨
+      - 柳采葳
+      - 重複傳播
+
+  - id: F016
+    statement: "目前可確認至少凌濤、陳玉珍、王鴻薇、徐巧芯、柳采葳五名國民黨政治人物曾在2025至2026年間，以此摘句或其近似表述作為對沈伯洋的政治攻擊素材；因此藍營使用不是單一人物、單一日期的孤例。"
+    status: verified
+    observed_at: "2026-10-13"
+    source_ids: [S005, S011, S012, S013, S014]
+    evidence_summary: "五名政治人物的公開使用紀錄分布於2025-03至2026-09，形成可重複驗證的持續傳播鏈。"
+    verification_notes:
+      - "「至少五名」是依目前已找到且可歸責的公開資料計算；不主張這是完整名單。"
+    tags:
+      - 國民黨
+      - 傳播鏈
+      - 重複使用
+
 claims:
   - id: C001
     statement: "「沈伯洋認為凌虐不會讓受害者受到任何傷害或痛苦。」"
@@ -295,6 +402,13 @@ claims:
     status: unsupported
     contradicts: [F011]
     reasoning_notes: "目前可檢索資料只有片名與全集來賓標籤，不能證明張啓楷在該片段發言。使用者另提供Gemini逐段檢視結果稱該PART 2張啓楷完全未發言，但本ledger不以該AI輸出作為獨立證據。"
+
+
+  - id: C006
+    statement: "「國民黨對這個摘句的政治使用只是凌濤一人的單次事件。」"
+    status: contradicted
+    contradicts: [F012, F013, F014, F015, F016]
+    reasoning_notes: "目前已可確認至少五名國民黨政治人物在2025至2026年間重複使用此摘句或近似表述，且跨越不同事件與時間點。"
 
 searches:
   - id: Q001
@@ -329,6 +443,15 @@ searches:
     result: found
     notes: "找到2025-03-28民眾之聲《觀點相對論》影片，標題與說明均採用該摘句框架。"
 
+
+  - id: Q005
+    observed_at: "2026-10-13"
+    platform: web
+    query: "\"凌虐不一定會造成傷害\" 國民黨 沈伯洋 凌濤 陳玉珍 徐巧芯 王鴻薇 柳采葳"
+    scope: "新聞、國民黨官方資料、立法院全球資訊網、YouTube"
+    result: found
+    notes: "可確認凌濤、陳玉珍、王鴻薇、徐巧芯、柳采葳至少五名國民黨政治人物曾公開使用該摘句或近似表述進行政治攻防。"
+
 promotion:
   cases: []
   comparators: []
@@ -336,4 +459,5 @@ promotion:
 
 notes:
   - "本session保存的是第一手法律語境、後續摘句傳播鏈與責任邊界，不推測任何人的主觀動機。"
+  - "白營部分查核較細，是為確認責任邊界；整體傳播場景則需同時記錄國民黨至少五名政治人物的重複使用，避免因研究關注點不同而造成證據呈現失衡。"
   - "fact.4649.tw另有整理後查核文章；politics-db本檔以可重用evidence ledger為主，不以評論文章取代第一手來源。"
