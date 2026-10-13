@@ -9,30 +9,34 @@ https://www.threads.com/share/BBtkG8GXY7/
 ## 原則
 
 - **原始證據來源仍是 Threads。**
-- 第三方 resolver/proxy 只記為 transport，不得冒充 primary source。
-- 輸出同時保存 `original_url`、`canonical_url`、`observed_at`、transport 與原始 transport payload。
-- 若抓取失敗，只能記為 `blocked_or_unresolved`，不得推論貼文不存在。
+- 預設先用 Playwright/Chromium 直接載入 Threads，執行頁面 JavaScript，取得 canonical post URL 與 Threads 自己嵌入的 bootstrap JSON。
+- 第三方 resolver/proxy 只作為 `auto` 模式備援 transport，不得冒充 primary source。
+- 輸出保存 `original_url`、`canonical_url`、`observed_at`、transport、final URL 與原始 Threads post object。
+- 抓取失敗只能記為 `blocked_or_unresolved`，不得推論貼文不存在。
 - 這符合本 repo 的 `not_found ≠ never_existed` 與 `reachable_now ≠ permanent` 原則。
 
-目前 transport 使用 FxThreads 公開 API。FxThreads 本身使用 headless browser 解析 Threads 的新 `/share/:shareID` 格式；本工具只消費其公開 JSON API，不把它視為證據來源。
+## 安裝
+
+```bash
+pip install playwright
+python -m playwright install chromium
+```
 
 ## 使用
 
 ```bash
-python tools/fetch_threads.py 'https://www.threads.com/share/BBtkG8GXY7/' --pretty
+python tools/fetch_threads.py 'https://www.threads.com/share/BBtkG8GXY7/' --mode browser --pretty
 ```
+
+預設 `--mode auto`：先直接用 Chromium 讀 Threads；若 browser 路徑失敗，再嘗試 proxy fallback。
 
 存檔：
 
 ```bash
-python tools/fetch_threads.py URL --pretty -o tmp/threads.json
+python tools/fetch_threads.py URL --mode browser --pretty -o tmp/threads.json
 ```
 
-canonical Threads URL 也可以直接輸入：
-
-```bash
-python tools/fetch_threads.py 'https://www.threads.com/@user/post/POST_ID' --pretty
-```
+canonical Threads URL 也可以直接輸入。
 
 ## 輸出結構
 
@@ -42,10 +46,11 @@ python tools/fetch_threads.py 'https://www.threads.com/@user/post/POST_ID' --pre
 - `source.canonical_url`
 - `retrieval.status`
 - `retrieval.transport`
+- `retrieval.final_url`
 - `post.author`
 - `post.content`
 - `post.media`
 - `post.stats`
-- `raw_transport_payload`
+- `raw_threads_post`
 
 這個 JSON 是採集結果，不直接等同 `evidence.yaml`。是否升格為 session/case evidence，仍依 `docs/project-workflow.md` 處理。
