@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "第11屆國會綠白合作、合作失敗與藍白一致率主張"
   started_at: "2026-10-12"
-  updated_at: "2026-10-12"
+  updated_at: "2026-10-13"
   status: active
 
 topics:
@@ -20,6 +20,10 @@ topics:
   - 原民禁伐補償
   - 公益揭弊者保護法
   - 再生醫療法
+  - 黃國昌主席任期
+  - 關稅特別條例
+  - 安樂死公投
+  - 黨產條例
 
 sources:
   - id: S001
@@ -213,6 +217,64 @@ sources:
       - "第3條規定主任委員、副主任委員及委員由行政院院長提名，經立法院同意後任命。"
       - "法條沒有賦予政黨法定推薦權；政黨推薦屬行政院自行徵詢的政治程序，不等於法律上的提名權。"
 
+  - id: S018
+    source_type: secondary
+    publisher: "中央社"
+    title: "黃國昌留任多數黨部主管 賴香伶任政策會執行長"
+    url: "https://www.cna.com.tw/news/aipl/202502190280.aspx"
+    published_at: "2025-02-19"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "中央社記錄黃國昌於2025年2月19日正式就任台灣民眾黨主席。"
+
+  - id: S019
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網"
+    title: "第11屆第3會期第20次會議（因應國際情勢特別條例表決）"
+    url: "https://ppg.ly.gov.tw/ppg/sittings/2025070915/details?meetingDate=114%2F07%2F15"
+    published_at: "2025-07-11"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "院會逐條表決包含民眾黨黨團與國民黨黨團各自提出的再修正動議；民眾黨多項再修正動議僅獲8票贊成。"
+      - "最終全案表決為60票贊成、44票反對。"
+
+  - id: S020
+    source_type: secondary
+    publisher: "中央社"
+    title: "特別條例三讀國民黨團版本勝出 普發現金1萬元10月底前完成"
+    url: "https://www.cna.com.tw/news/aipl/202507110253.aspx"
+    published_at: "2025-07-11"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "中央社明確記錄逐條表決時藍白罕見沒有合作，各黨團贊成票只投各自提案。"
+      - "民眾黨提案表決時國民黨未插卡參與；國民黨條文表決時民眾黨也未參與投票。"
+
+  - id: S021
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網"
+    title: "第11屆第5會期第22次會議（安樂死法制化公投案）"
+    url: "https://ppg.ly.gov.tw/ppg/sittings/2026081280/details?meetingDate=115%2F08%2F14"
+    published_at: "2026-08-14"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "民眾黨黨團提出安樂死法制化公投案，院會記名表決後不通過。"
+      - "同日另有民眾黨交通罰鍰專款改善道安公投案獲通過。"
+
+  - id: S022
+    source_type: secondary
+    publisher: "中央社"
+    title: "立院通過交通罰鍰專用改善道安公投案 將併九合一投票"
+    url: "https://www.cna.com.tw/news/aipl/202608140108.aspx"
+    published_at: "2026-08-14"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "中央社記錄交通罰鍰公投案獲藍白支持通過，但安樂死法制化公投因國民黨立委全數未投票而未成案。"
+
 facts:
   - id: F001
     statement: "2024年原民禁伐補償修法中，民眾黨沒有提出自己的版本，而是表明支持先前朝野協商的每公頃6萬元結論；最後院會以「審查會與委員陳瑩等提案條文」表決通過。"
@@ -330,6 +392,34 @@ facts:
       - "因此把此程序稱為『憲法規定總統提名』並不精確：法源是組織法，提名人是行政院院長。"
     tags: [中選會, 提名權, 法律程序]
 
+  - id: F013
+    statement: "黃國昌於2025年2月19日正式就任台灣民眾黨主席。"
+    status: verified
+    observed_at: "2026-10-13"
+    source_ids: [S018]
+    evidence_summary: "因此檢驗『從黃國昌上任開始變小藍』時，2025年2月19日可作為明確時間切點。"
+    verification_notes: []
+    tags: [黃國昌, 黨主席, 時間切點]
+
+  - id: F014
+    statement: "黃國昌正式就任後的2025年7月11日關稅特別條例逐條表決，藍白沒有互相支持對方版本：國民黨未參與民眾黨條文表決，民眾黨也未參與國民黨條文表決。"
+    status: verified
+    observed_at: "2026-10-13"
+    source_ids: [S019, S020]
+    evidence_summary: "這是主席任期內、同一重大法案中藍白各自投自己版本的記名表決案例。"
+    verification_notes:
+      - "此案例可反證『所有重大表決都機械式藍白一致』，但不能單獨估算整體一致率。"
+    tags: [關稅特別條例, 藍白差異, 記名表決, 黃國昌任期]
+
+  - id: F015
+    statement: "2026年8月14日民眾黨提出安樂死法制化公投案，因國民黨立委全數未投票而未能成案；同日民眾黨提出的交通罰鍰專款改善道安公投案則獲通過。"
+    status: verified
+    observed_at: "2026-10-13"
+    source_ids: [S021, S022]
+    evidence_summary: "同一天兩個民眾黨自提公投案即出現國民黨選擇性支持，顯示兩黨並非對民眾黨政策全面綁定。"
+    verification_notes: []
+    tags: [安樂死, 公投, 交通安全, 藍白差異, 黃國昌任期]
+
 claims:
   - id: C001
     statement: "第11屆國會中，民眾黨與民進黨之間完全沒有任何法案合作。"
@@ -386,6 +476,22 @@ claims:
     contradicts: [F012]
     related_facts: [F007]
     reasoning_notes: "法源是《中央選舉委員會組織法》第3條，法定提名權屬行政院院長；政黨推薦是行政院自行徵詢的政治安排，不是法律上的推薦權。"
+
+  - id: C008
+    statement: "黃國昌正式上任後，民眾黨已完全失去獨立路線，國民黨的政策或版本一律照單全收。"
+    status: contradicted
+    supports: []
+    contradicts: [F011, F014, F015]
+    related_facts: [F013]
+    reasoning_notes: "主席任期內已有民眾黨拒絕國民黨再修黨產條例、重大特別條例各投各自版本，以及民眾黨安樂死公投未獲國民黨支持等反例。"
+
+  - id: C009
+    statement: "黃國昌上任後，民眾黨與國民黨整體投票一致率顯著上升，因此可量化稱為『幾乎變小藍』。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F013, F014, F015]
+    reasoning_notes: "目前有主席任期內藍白分歧的明確反例，但尚未建立黃國昌上任前後完整記名表決母體與一致率時間序列，因此不能從選取案例量化『幾乎』或證明一致率是否顯著上升。"
 
 searches:
   - id: Q001
@@ -451,6 +557,30 @@ searches:
     scope: "本次一般網路搜尋與立法院單案頁面"
     result: not_found
     notes: "本次沒有取得一份已定義完整母體、能直接計算藍白與綠白一致率的可靠成品資料集；因此不對『極低機率』『少數』做量化判定。"
+
+  - id: Q009
+    observed_at: "2026-10-13"
+    platform: web
+    query: "黃國昌 2025 2 19 民眾黨 主席 正式上任"
+    scope: "中央社"
+    result: found
+    notes: "確認黃國昌於2025年2月19日正式就任，作為上任前後比較時間切點。"
+
+  - id: Q010
+    observed_at: "2026-10-13"
+    platform: web
+    query: "2025 7 關稅 特別條例 藍白 各投自己版本"
+    scope: "立法院議事暨公報資訊網、中央社"
+    result: found
+    notes: "確認2025年7月11日逐條表決時藍白沒有互投對方版本，並以官方表決頁交叉核對。"
+
+  - id: Q011
+    observed_at: "2026-10-13"
+    platform: web
+    query: "2026 8 安樂死 公投 國民黨 不投票 民眾黨"
+    scope: "立法院議事暨公報資訊網、中央社"
+    result: found
+    notes: "確認民眾黨安樂死公投案因國民黨全數未投票而未成案；同日交通罰鍰公投案則通過。"
 
 promotion:
   cases: []
