@@ -1,0 +1,339 @@
+session:
+  id: 2026-10-13-shen-abuse-injury-quote
+  project: Politics
+  title: "沈伯洋「凌虐不一定會造成傷害」原始語境、法律結構與傳播鏈"
+  started_at: "2026-10-13"
+  updated_at: "2026-10-13"
+  status: active
+
+topics:
+  - 沈伯洋
+  - 刑法第277條
+  - 刑法第286條
+  - 凌虐
+  - 傷害罪
+  - 剴剴案
+  - 政客爽
+  - 中國國民黨
+  - 台灣民眾黨
+  - 民眾之聲
+  - 黃國昌
+  - 張啓楷
+  - 摘句
+  - 語境查核
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "立法院"
+    title: "立法院公報第113卷第71期院會紀錄"
+    url: "https://ppg.ly.gov.tw/ppg/PublicationBulletinDetail/download/communique1/final/pdf/113/71/LCIDC01_1137115.pdf"
+    published_at: "2024-07-16"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "沈伯洋於第286條修法三讀發言中說：「到底凌虐跟傷害的不同在哪裡？畢竟凌虐不一定會造成傷害……」。"
+      - "其前文正在比較刑法第277條普通傷害罪、第286條，以及兒少法第112條加重後的刑度與適用問題。"
+      - "沈伯洋之後緊接由黃國昌發言；黃國昌說明第286條在實務上因第277條加兒少法第112條後的法定刑比較與想像競合而幾乎被架空。"
+
+  - id: S002
+    source_type: primary
+    publisher: "法務部主管法規查詢系統"
+    title: "中華民國刑法第286條立法理由"
+    url: "https://mojlaw.moj.gov.tw/LawContentReason.aspx?LSID=FL001424&LawNo=286"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "2024年修法理由明文區分第286條與第277條。"
+      - "立法理由使用「凌虐但未成傷」文字，並說明造成身體或健康傷害時，可能同時成立第286條及第277條第1項傷害罪。"
+
+  - id: S003
+    source_type: primary
+    publisher: "法務部主管法規查詢系統"
+    title: "中華民國刑法第10條立法理由"
+    url: "https://mojlaw.moj.gov.tw/LawContentReason.aspx?LSID=fl001424&LawNo=10"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "刑法第10條對「凌虐」作一般性定義。"
+      - "2019年增訂理由說明，對他人施加身體或精神上的凌辱虐待，達到造成身體上或精神上苦痛之程度，屬凌虐行為。"
+
+  - id: S004
+    source_type: secondary
+    publisher: "中天新聞"
+    title: "談剴剴案喊「凌虐不一定會造成傷害」 網轟爆沈伯洋"
+    url: "https://www.youtube.com/watch?v=0-N0d7yUBGQ"
+    published_at: "2025-03-20"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "影片說明明載：「粉專『政客爽』則挖出立委沈伯洋……還說『凌虐不一定會造成傷害』」。"
+      - "可作為目前可定位的早期公開傳播節點；不足以單獨證明「政客爽」一定是全網最早來源。"
+
+  - id: S005
+    source_type: primary
+    publisher: "中國國民黨"
+    title: "捍衛公理正義！反廢死，支持虐童無期徒刑或死刑，為剴剴及所有孩子討公道！"
+    url: "https://www.kmt.org.tw/2025/03/blog-post_21.html?m=1"
+    published_at: "2025-03-21"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "國民黨記者會紀錄載凌濤直接引用沈伯洋「凌虐不一定會造成傷害」，並反問「難道虐童致死沒有傷害嗎？」。"
+
+  - id: S006
+    source_type: primary
+    publisher: "台灣民眾黨"
+    title: "民眾之聲影音專區"
+    url: "https://www.tpp.org.tw/video"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "民眾黨官網以「民眾之聲」為自有影音專區，並列出「觀點相對論」分類與 @TPP_Media 影片。"
+      - "民眾黨大事紀另記錄2019-10-28由黨文宣創意部成立「民眾之聲」YouTube頻道。"
+
+  - id: S007
+    source_type: primary
+    publisher: "民眾之聲"
+    title: "沈伯洋稱「凌虐不一定造成傷害」？兒虐「唯一死刑」？台灣究竟需要什麼樣的社會正義？【觀點相對論4K】"
+    url: "https://www.youtube.com/watch?v=mOoJu8Dgv6A"
+    published_at: "2025-03-28"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "YouTube索引顯示頻道為「民眾之聲」，主持人為李頂立。"
+      - "影片說明寫：「粉專挖出綠委沈伯洋曾質疑重刑的威嚇效果……甚至說『凌虐不一定會造成傷害』。網友對此不滿反嗆……」。"
+
+  - id: S008
+    source_type: secondary
+    publisher: "中央社"
+    title: "黃國昌留任多數黨部主管 賴香伶任政策會執行長"
+    url: "https://www.cna.com.tw/news/aipl/202502190280.aspx"
+    published_at: "2025-02-19"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "報導記錄黃國昌接任黨主席後，李頂立續任民眾黨文宣部主任。"
+      - "時間早於2025-03-28「觀點相對論」影片發布。"
+
+  - id: S009
+    source_type: commentary
+    publisher: "YouTube 使用者 @blanche1120"
+    title: "民眾之聲影片留言：「凌虐不會構成傷害，麻煩沈柏洋可以自己親自示範給大家看看」"
+    url: "https://www.youtube.com/watch?v=mOoJu8Dgv6A&lc=UgzjsA-wOOYDZD30Hvt4AaABAg"
+    observed_at: "2026-10-13"
+    retrieval_status: blocked
+    notes:
+      - "留言文字與直達留言URL由使用者在本次Politics Project對話中提供。"
+      - "自動網頁搜尋未能獨立索引到該留言，因此本項保留為使用者提供之可定位公開來源，未升格為獨立抓取證據。"
+
+  - id: S010
+    source_type: secondary
+    publisher: "新庶民大頭家"
+    title: "凌虐不一定會傷害？黑熊頭嗆藍修法「法盲」萬人「護兒少」都來亂的？《庶民大頭家》PART 2 20250321"
+    url: "https://www.youtube.com/watch?v=NL3ekrd_nww"
+    published_at: "2025-03-21"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "影片標題標籤與說明列張啓楷為該集來賓之一。"
+      - "僅憑影片標題、標籤與全集來賓名單，不能證明張啓楷本人在這個PART 2片段中使用該摘句。"
+
+facts:
+  - id: F001
+    statement: "沈伯洋確實在2024年7月16日立法院院會說過「畢竟凌虐不一定會造成傷害」。"
+    status: verified
+    observed_at: "2026-10-13"
+    source_ids: [S001]
+    evidence_summary: "立法院公報保存逐字發言。"
+    excerpt: "到底凌虐跟傷害的不同在哪裡？畢竟凌虐不一定會造成傷害……"
+    verification_notes:
+      - "原話真實，不應以否認原句方式澄清。"
+    tags:
+      - 原話
+      - 立法院公報
+
+  - id: F002
+    statement: "沈伯洋該句的直接上下文是刑法第277條普通傷害罪、第286條凌虐罪、兒少法第112條加重及其競合與刑度問題。"
+    status: verified
+    observed_at: "2026-10-13"
+    source_ids: [S001]
+    evidence_summary: "其前文直接比較第277與第286條；緊接其後的黃國昌發言亦明確說明第286條因第277條加兒少法第112條及想像競合而在實務上幾乎被架空。"
+    tags:
+      - 法律語境
+      - 277
+      - 286
+      - 競合
+
+  - id: F003
+    statement: "第286條正式立法理由明文承認可能存在「凌虐但未成傷」的情況，並將第286條成立與第277條傷害結果分開判斷。"
+    status: verified
+    observed_at: "2026-10-13"
+    source_ids: [S002]
+    evidence_summary: "正式立法理由使用「凌虐但未成傷」文字，並說明若造成身體或健康傷害，可能同時成立第286條及第277條。"
+    excerpt: "至於在凌虐但未成傷……"
+    tags:
+      - 立法理由
+      - 凌虐但未成傷
+
+  - id: F004
+    statement: "法律上的「凌虐」本身並非毫無侵害性的行為；刑法第10條立法理由要求凌辱虐待達到造成身體或精神苦痛的程度。"
+    status: verified
+    observed_at: "2026-10-13"
+    source_ids: [S003]
+    evidence_summary: "第10條及其立法理由對凌虐設有獨立門檻，和第277條是否另行成傷不是同一問題。"
+    tags:
+      - 凌虐定義
+      - 精神苦痛
+      - 身體苦痛
+
+  - id: F005
+    statement: "2025年3月20日中天新聞公開說明「政客爽」挖出沈伯洋該句，顯示此粉專是目前可明確定位的早期摘句傳播節點之一。"
+    status: verified
+    observed_at: "2026-10-13"
+    source_ids: [S004]
+    evidence_summary: "中天影片說明直接點名「政客爽」。"
+    verification_notes:
+      - "此證據不能單獨證明政客爽是全網第一個摘句者。"
+    tags:
+      - 傳播鏈
+      - 政客爽
+
+  - id: F006
+    statement: "2025年3月21日凌濤在國民黨官方記者會中直接引用「凌虐不一定會造成傷害」，並以「難道虐童致死沒有傷害嗎？」進行政治攻防。"
+    status: verified
+    observed_at: "2026-10-13"
+    source_ids: [S005]
+    evidence_summary: "國民黨官方網站保存記者會文字紀錄。"
+    tags:
+      - 國民黨
+      - 凌濤
+      - 政治使用
+
+  - id: F007
+    statement: "「民眾之聲」是台灣民眾黨自有官方影音體系，而非與民眾黨無關的外圍頻道。"
+    status: verified
+    observed_at: "2026-10-13"
+    source_ids: [S006]
+    evidence_summary: "民眾黨官網直接設置「民眾之聲」影音專區；黨大事紀記載由文宣創意部成立該YouTube頻道。"
+    tags:
+      - 台灣民眾黨
+      - 民眾之聲
+      - 官方媒體
+
+  - id: F008
+    statement: "2025年3月28日民眾黨官方「民眾之聲」《觀點相對論》以「沈伯洋稱『凌虐不一定造成傷害』？」作為標題核心，影片說明亦沿用「粉專挖出」及網友反嗆的摘句框架。"
+    status: verified
+    observed_at: "2026-10-13"
+    source_ids: [S006, S007]
+    evidence_summary: "YouTube影片標題與說明均可直接確認；民眾黨官網確認「民眾之聲」之官方性質。"
+    tags:
+      - 台灣民眾黨
+      - 民眾之聲
+      - 摘句傳播
+
+  - id: F009
+    statement: "在民眾之聲該影片發布前，李頂立已任台灣民眾黨文宣部主任。"
+    status: verified
+    observed_at: "2026-10-13"
+    source_ids: [S007, S008]
+    evidence_summary: "中央社於2025年2月19日記錄李頂立續任文宣部主任；影片於3月28日發布並列李頂立為主持人。"
+    tags:
+      - 李頂立
+      - 文宣部
+
+  - id: F010
+    statement: "使用者提供的民眾之聲影片留言把「凌虐不一定會造成傷害」轉述成「凌虐不會構成傷害」，同時刪去「不一定」並將「造成」改為「構成」。"
+    status: partial
+    observed_at: "2026-10-13"
+    source_ids: [S009]
+    evidence_summary: "留言可由使用者提供的直達URL與原文定位，但本次自動檢索未獨立抓取成功。"
+    verification_notes:
+      - "適合作為資訊變形案例保存；若未來可獨立抓取或截圖存證，可升格為verified。"
+    tags:
+      - YouTube留言
+      - 語意變形
+
+  - id: F011
+    statement: "《庶民大頭家》PART 2的標題與全集來賓標籤雖含張啓楷，但這些metadata本身不足以證明張啓楷在該片段親自使用「凌虐不一定會造成傷害」作為攻擊。"
+    status: verified
+    observed_at: "2026-10-13"
+    source_ids: [S010]
+    evidence_summary: "YouTube索引只能證明該集來賓名單與影片主題，不能把片段內容自動歸到每一位列名來賓。"
+    tags:
+      - 張啓楷
+      - 證據邊界
+
+claims:
+  - id: C001
+    statement: "「沈伯洋認為凌虐不會讓受害者受到任何傷害或痛苦。」"
+    status: contradicted
+    contradicts: [F002, F003, F004]
+    related_facts: [F001]
+    reasoning_notes: "原句存在，但法律上下文是第277條成傷結果與第286條凌虐罪的區分；凌虐本身仍有身體或精神苦痛的法律門檻。"
+
+  - id: C002
+    statement: "「沈伯洋說過『凌虐不會構成傷害』。」"
+    status: contradicted
+    contradicts: [F001, F010]
+    reasoning_notes: "可驗證原話為「凌虐不一定會造成傷害」；「不會構成傷害」是後續轉述版本。"
+
+  - id: C003
+    statement: "「只有藍營在傳播這個摘句框架。」"
+    status: contradicted
+    contradicts: [F007, F008]
+    reasoning_notes: "民眾黨官方影音體系「民眾之聲」於2025-03-28也採用該摘句作為節目標題與說明框架。"
+
+  - id: C004
+    statement: "「黃國昌本人曾用這句摘句攻擊沈伯洋。」"
+    status: unresolved
+    related_facts: [F002]
+    reasoning_notes: "本次檢索未找到可確認的本人直接使用紀錄；原始2024院會中黃國昌反而緊接沈伯洋後說明277、286與競合問題。not_found不等於never_existed。"
+
+  - id: C005
+    statement: "「張啓楷本人在《庶民大頭家》PART 2用這句摘句攻擊沈伯洋。」"
+    status: unsupported
+    contradicts: [F011]
+    reasoning_notes: "目前可檢索資料只有片名與全集來賓標籤，不能證明張啓楷在該片段發言。使用者另提供Gemini逐段檢視結果稱該PART 2張啓楷完全未發言，但本ledger不以該AI輸出作為獨立證據。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-13"
+    platform: web
+    query: ""黃國昌" "凌虐不一定會造成傷害" 沈伯洋"
+    scope: "公開新聞、YouTube、立法院資料"
+    result: partial
+    notes: "找到2024原始院會黃國昌接續發言及民眾之聲相關內容，但未找到黃國昌本人日後直接以摘句攻擊沈伯洋的可確認紀錄。"
+
+  - id: Q002
+    observed_at: "2026-10-13"
+    platform: web
+    query: ""張啓楷" "凌虐不一定會造成傷害" 沈伯洋"
+    scope: "公開新聞、YouTube"
+    result: partial
+    notes: "找到《庶民大頭家》PART 2 metadata列張啓楷為全集來賓，但無法由metadata證明其在該片段親自發言。"
+
+  - id: Q003
+    observed_at: "2026-10-13"
+    platform: web
+    query: ""凌虐不一定會造成傷害" 政客爽 沈伯洋 2025 3 20"
+    scope: "新聞、YouTube、論壇轉錄"
+    result: found
+    notes: "中天YouTube說明與中時新聞轉錄均明確記錄「政客爽」挖出該句。"
+
+  - id: Q004
+    observed_at: "2026-10-13"
+    platform: web
+    query: ""沈伯洋稱" "兒虐" "觀點相對論" "民眾之聲""
+    scope: "YouTube、民眾黨官網"
+    result: found
+    notes: "找到2025-03-28民眾之聲《觀點相對論》影片，標題與說明均採用該摘句框架。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "本session保存的是第一手法律語境、後續摘句傳播鏈與責任邊界，不推測任何人的主觀動機。"
+  - "fact.4649.tw另有整理後查核文章；politics-db本檔以可重用evidence ledger為主，不以評論文章取代第一手來源。"
