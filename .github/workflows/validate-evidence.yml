@@ -61,9 +61,36 @@ jobs:
       - name: Run tool unit tests
         run: python -m unittest discover -s tests -p 'test_*.py' -v
 
-      - name: Live Threads share smoke (temporary)
+      - name: Direct Threads share diagnostic (temporary)
         if: github.event_name == 'pull_request' && github.head_ref == 'tool/threads-evidence-fetch'
-        run: python tools/fetch_threads.py 'https://www.threads.com/share/BBtkG8GXY7/' --pretty
+        run: |
+          python - <<'PY'
+          import re
+          from urllib.error import HTTPError, URLError
+          from urllib.request import Request, urlopen
+
+          url = "https://www.threads.com/share/BBtkG8GXY7/"
+          req = Request(url, headers={
+              "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/141.0 Safari/537.36",
+              "Accept": "text/html,application/xhtml+xml",
+          })
+          try:
+              with urlopen(req, timeout=30) as r:
+                  body = r.read(2_000_000).decode("utf-8", errors="replace")
+                  print("status:", r.status)
+                  print("final_url:", r.geturl())
+                  print("content_type:", r.headers.get("content-type"))
+                  urls = sorted(set(re.findall(r'https://(?:www\\.)?threads\\.(?:com|net)/@[^"\\s<>]+/post/[A-Za-z0-9_-]+', body)))
+                  print("canonical_candidates:", urls[:10])
+                  print("body_bytes:", len(body.encode("utf-8")))
+                  print("has_thread_items:", '"thread_items"' in body)
+          except HTTPError as exc:
+              print("http_error:", exc.code)
+              print("location:", exc.headers.get("location"))
+              print(exc.read(2000).decode("utf-8", errors="replace"))
+          except URLError as exc:
+              print("url_error:", exc.reason)
+          PY
 
       - name: Validate schema and cross-references
         run: python renderer/render.py --check
