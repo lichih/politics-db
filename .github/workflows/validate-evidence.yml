@@ -61,16 +61,6 @@ jobs:
       - name: Run tool unit tests
         run: python -m unittest discover -s tests -p 'test_*.py' -v
 
-      - name: Install Threads browser dependencies
-        if: github.event_name == 'pull_request' && github.head_ref == 'tool/threads-evidence-fetch'
-        run: |
-          pip install playwright
-          python -m playwright install chromium
-
-      - name: Live Threads fetch
-        if: github.event_name == 'pull_request' && github.head_ref == 'tool/threads-evidence-fetch'
-        run: python tools/fetch_threads.py https://www.threads.com/share/BBtkG8GXY7/ --mode browser --pretty
-
       - name: Validate schema and cross-references
         run: python renderer/render.py --check
 
