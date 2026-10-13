@@ -166,8 +166,8 @@ def fetch_with_browser(url: str, timeout: float) -> dict[str, Any]:
         from playwright.sync_api import sync_playwright
     except ImportError as exc:
         raise FetchError(
-            "browser transport requires Playwright; install requirements-tools.txt "
-            "and run `python -m playwright install chromium`"
+            "browser transport requires Playwright; run `pip install playwright` "
+            "and `python -m playwright install chromium`"
         ) from exc
 
     timeout_ms = max(1, int(timeout * 1000))
