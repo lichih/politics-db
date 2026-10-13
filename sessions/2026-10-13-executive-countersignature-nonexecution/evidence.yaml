@@ -1,0 +1,384 @@
+session:
+  id: 2026-10-13-executive-countersignature-nonexecution
+  project: Politics
+  title: "2025–2026行政院不副署、不編列與立法院多數制衡"
+  started_at: "2026-10-13"
+  updated_at: "2026-10-13"
+  status: active
+
+topics:
+  - 行政院
+  - 立法院
+  - 不副署
+  - 不執行
+  - 覆議
+  - 權力分立
+  - 財政收支劃分法
+  - 軍人待遇條例
+  - 警察人員人事條例
+  - 憲法法庭
+  - 國會多數
+  - 不信任案
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "中華民國憲法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "憲法第37條規定，總統依法公布法律、發布命令，須經行政院院長副署，或行政院院長及有關部會首長副署。"
+      - "憲法第62、63條規定立法院為最高立法機關，具有議決法律案、預算案等權限。"
+
+  - id: S002
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "中華民國憲法增修條文"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "第3條第2項第2款規定，行政院對法律案、預算案、條約案認為窒礙難行時得提覆議；如全體立委二分之一以上維持原案，行政院院長『應即接受該決議』。"
+      - "第3條第2項第3款規定，三分之一以上立委可提不信任案；全體立委二分之一以上贊成時，行政院長應辭職，並得呈請總統解散立法院。"
+      - "第2條規定，總統在不信任案通過後得解散立法院。"
+
+  - id: S003
+    source_type: primary
+    publisher: "總統府"
+    title: "針對立院再咨請公布財政收支劃分法修正條文 總統批示本法修正破壞財政永續"
+    url: "https://www.president.gov.tw/News/39708"
+    published_at: "2025-12-15"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "立法院2025-11-14三讀財劃法修正，行政院提出覆議；立法院2025-12-05維持原決議。"
+      - "行政院長卓榮泰其後仍決定不予副署，法案因而未公布生效。"
+      - "此為現行憲政下首件以不副署阻止法律生效的法律案。"
+
+  - id: S004
+    source_type: primary
+    publisher: "憲法法庭"
+    title: "114年憲判字第1號（憲法訴訟法修正案）"
+    url: "https://cons.judicial.gov.tw/docdata.aspx?brid=LQAqJRjF42Chw2jOOxEL2A&fid=38&id=355485"
+    published_at: "2025-12-19"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "憲法法庭宣告2025年憲法訴訟法部分修正違憲失效，使憲法法庭恢復依原規範運作。"
+      - "3名大法官另公開主張5人作成判決無效，顯示該判決本身亦存在重大程序爭議。"
+
+  - id: S005
+    source_type: primary
+    publisher: "行政院公報"
+    title: "行政院公報第032卷第002期附錄"
+    url: "https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg032002/ch09/type9/gov01/num39/Eg.pdf"
+    published_at: "2026-01-05"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "卓榮泰表示，因憲法法庭已恢復正常運作，對立法院通過的『反年改』法案，行政院將履行義務予以副署，同時立即聲請憲法審查。"
+      - "同一段話亦表示，若國會法案被行政院認定有摧毀憲政體制、削弱國防安全、破壞財政紀律且難以回復等情況，他仍不會放棄不副署。"
+
+  - id: S006
+    source_type: secondary
+    publisher: "中央社"
+    title: "回應韓國瑜 政院：不副署法案僅占3.8%是被動防衛"
+    url: "https://www.cna.com.tw/news/aipl/202608270325.aspx"
+    published_at: "2026-08-27"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "行政院表示，卓榮泰任內截至2026年8月已副署201案，8案不副署，占209案的3.8%。"
+      - "行政院將不副署定位為守護憲政秩序的防衛手段。"
+
+  - id: S007
+    source_type: secondary
+    publisher: "中央社"
+    title: "不副署廣播電視法 政院：黨政軍投資媒體規範應一致"
+    url: "https://www.cna.com.tw/news/aipl/202608240291.aspx"
+    published_at: "2026-08-24"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "中央社整理，2025年底至2026-08-24共有8項三讀法案遭行政院不副署：財劃法、眷改條例、黨產條例、衛廣法、立法院組織法、臺灣兒少成長及未來帳戶條例、有線廣播電視法、廣播電視法。"
+
+  - id: S008
+    source_type: secondary
+    publisher: "中央社"
+    title: "行政院：眷改條例修法不副署 只適用特定個案、違反平等原則"
+    url: "https://www.cna.com.tw/news/aipl/202602060051.aspx"
+    published_at: "2026-02-06"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "憲法法庭恢復運作後，卓榮泰仍於2026-02-06決定不副署眷改條例修法。"
+
+  - id: S009
+    source_type: secondary
+    publisher: "中央社"
+    title: "黨產條例、衛廣法及立院組織法修法 行政院不副署"
+    url: "https://www.cna.com.tw/news/aipl/202603040332.aspx"
+    published_at: "2026-03-04"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "行政院於2026-03-04一次宣布不副署衛廣法、不當黨產條例與立法院組織法等3項修法。"
+
+  - id: S010
+    source_type: primary
+    publisher: "總統府"
+    title: "針對立法院咨請公布制定《臺灣兒少成長及未來帳戶條例》 總統批示"
+    url: "https://www.president.gov.tw/News/40274"
+    published_at: "2026-08-17"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "總統府記錄卓榮泰不副署《臺灣兒少成長及未來帳戶條例》，理由包括侵害行政院施政計畫及預算提出權。"
+
+  - id: S011
+    source_type: primary
+    publisher: "總統府"
+    title: "修正軍人待遇條例第五條條文"
+    url: "https://www.president.gov.tw/Page/294/49917"
+    published_at: "2025-06-27"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "軍人待遇條例第5條由總統賴清德公布，行政院長卓榮泰、國防部長顧立雄副署。"
+      - "三讀條文明定志願役加給每月3萬元，自2026-01-01施行。"
+
+  - id: S012
+    source_type: primary
+    publisher: "總統府"
+    title: "修正警察人員人事條例條文"
+    url: "https://www.president.gov.tw/Page/294/49829"
+    published_at: "2025-04-25"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "警察人員人事條例修正由總統賴清德公布，行政院長卓榮泰、內政部長劉世芳副署。"
+      - "修法提高警察、消防、海巡、移民、空勤等退休所得替代率。"
+
+  - id: S013
+    source_type: primary
+    publisher: "立法院預算中心"
+    title: "警察、消防等人員退休所得經費係屬法定義務支出，惟未依規定優先編足"
+    url: "https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=56112&pid=255118"
+    published_at: "2025-09-01"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "立法院預算中心認為，相關退休所得屬法定義務支出，應優先編列。"
+      - "若行政院認為支出未合時宜或未具效益，應先完成修法程序後才能停止編列，以符依法行政原則。"
+
+  - id: S014
+    source_type: secondary
+    publisher: "中央社"
+    title: "志願役加薪警消退休金加給 政院：若不違憲將追溯補齊"
+    url: "https://www.cna.com.tw/news/aipl/202508210266.aspx"
+    published_at: "2025-08-21"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "行政院表示115年度總預算暫未編列志願役加薪及提高警消退休所得替代率預算，理由是有違憲疑慮並已規劃聲請憲法審查。"
+      - "行政院稱若最終未被認定違憲，將追溯補齊。"
+
+  - id: S015
+    source_type: secondary
+    publisher: "中央社"
+    title: "卓榮泰：軍警權益已提升 10/15向立院提軍公教保障措施"
+    url: "https://www.cna.com.tw/news/aipl/202608200224.aspx"
+    published_at: "2026-08-20"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "截至2026-08-20，軍人待遇條例及警察人員人事條例的憲法審查尚未有結果，行政院仍未按修法內容執行。"
+      - "卓榮泰表示：若違憲就不執行；若合憲則編列預算並回溯。"
+
+  - id: S016
+    source_type: secondary
+    publisher: "中央社"
+    title: "政院：強化調升軍公教待遇 114年迄今投入995億"
+    url: "https://www.cna.com.tw/news/aipl/202610030020.aspx"
+    published_at: "2026-10-03"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "截至2026-10-03，行政院提出的是其他軍公教待遇提升與警消退休所得69%等替代方案，未見已依2025年公布之兩項修法全面執行。"
+
+  - id: S017
+    source_type: secondary
+    publisher: "中央社"
+    title: "銓敘部：若8/1前年金停砍釋憲結果未定 完成差額發放"
+    url: "https://www.cna.com.tw/news/aipl/202606240186.aspx"
+    published_at: "2026-06-24"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "作為比較案例：另一項被行政院、考試院聲請憲法審查的『停砍年金』修法，在憲法判決未出爐時，銓敘部仍表示將依法發放差額。"
+      - "顯示『已聲請憲法審查』本身並非所有機關都視為當然停止法律執行的依據。"
+
+  - id: S018
+    source_type: secondary
+    publisher: "中央社"
+    title: "史上首次總統彈劾案 56贊成50反對不通過"
+    url: "https://www.cna.com.tw/news/aipl/202605190104.aspx"
+    published_at: "2026-05-19"
+    observed_at: "2026-10-13"
+    retrieval_status: reachable
+    notes:
+      - "2026年5月立法院席次：國民黨及參與其黨團運作的無黨籍共54席、民進黨51席、民眾黨8席。"
+      - "藍白及合作無黨籍在一般過半門檻上具有多數。"
+
+facts:
+  - id: F001
+    statement: "截至2026年8月底，卓榮泰內閣已對8項立法院三讀法案拒絕副署，行政院自己統計為209案中的8案（3.8%）。"
+    status: verified
+    observed_at: "2026-10-13"
+    source_ids: [S006, S007]
+    evidence_summary: "行政院公開統計與中央社整理一致。"
+    tags: [不副署, 行政院, 統計]
+
+  - id: F002
+    statement: "2025年財劃法修正案在行政院覆議失敗、立法院維持原案後，卓榮泰仍拒絕副署，使法案無法公布生效。"
+    status: verified
+    observed_at: "2026-10-13"
+    source_ids: [S002, S003]
+    evidence_summary: "增修條文規定覆議維持原案後院長『應即接受』；本案實際又以不副署阻止公布。"
+    tags: [財劃法, 覆議, 不副署]
+
+  - id: F003
+    statement: "2025年12月19日憲法法庭恢復運作後，行政院仍在2026年間至少7次以不副署阻止三讀法案公布。"
+    status: verified
+    observed_at: "2026-10-13"
+    source_ids: [S004, S005, S007, S008, S009, S010]
+    evidence_summary: "財劃法是2025-12-15首例；其餘眷改、黨產、衛廣、立院組織、兒少帳戶、有線廣電、廣電等案件發生於憲法法庭恢復後。"
+    tags: [憲法法庭, 不副署, 時間線]
+
+  - id: F004
+    statement: "軍人待遇條例與警察人員人事條例均已由總統公布且由卓榮泰副署，但行政院未依修法內容編足相關預算，選擇等待憲法審查結果再決定是否追溯執行。"
+    status: verified
+    observed_at: "2026-10-13"
+    source_ids: [S011, S012, S014, S015, S016]
+    evidence_summary: "兩法已完成公布程序；行政院其後明確承認暫緩編列與執行。"
+    tags: [軍人待遇, 警消退休, 不執行, 預算]
+
+  - id: F005
+    statement: "立法院預算中心認為警消退休所得屬法定義務支出，若行政院認為不合時宜，應先修法後才能停止編列。"
+    status: verified
+    observed_at: "2026-10-13"
+    source_ids: [S013]
+    evidence_summary: "立法院預算中心以依法行政與法定義務支出為由提出明確意見。"
+    tags: [依法行政, 預算中心, 警消退休]
+
+  - id: F006
+    statement: "對另案『停砍年金』修法，即使行政院、考試院已聲請憲法審查，銓敘部仍表示在判決未出爐前依法執行並補發差額。"
+    status: verified
+    observed_at: "2026-10-13"
+    source_ids: [S005, S017]
+    evidence_summary: "同為被主張違憲並聲請憲法審查的法律，行政體系並非一律採取停止執行。"
+    tags: [比較案例, 年金, 釋憲]
+
+  - id: F007
+    statement: "憲法增修條文仍提供立法院過半多數對行政院長提出不信任案的終局政治制衡，但不信任案通過後總統得解散立法院。"
+    status: verified
+    observed_at: "2026-10-13"
+    source_ids: [S002]
+    evidence_summary: "不信任案門檻為三分之一連署、全體二分之一贊成；通過後院長辭職，總統得解散國會。"
+    tags: [不信任案, 解散國會, 制衡]
+
+  - id: F008
+    statement: "2026年立法院一般表決結構中，國民黨、民眾黨及合作無黨籍合計可達過半，但並不足以達成總統彈劾所需三分之二門檻。"
+    status: verified
+    observed_at: "2026-10-13"
+    source_ids: [S018]
+    evidence_summary: "2026-05總統彈劾案56票贊成、50票反對而未達三分之二。"
+    tags: [在野過半, 席次, 彈劾]
+
+claims:
+  - id: C001
+    statement: "「行政院把所有在野通過的法律都擋掉。」"
+    status: contradicted
+    contradicts: [F001]
+    reasoning_notes: "行政院自報截至2026年8月已副署201案、拒絕8案；不能描述成全部法案都被擋。"
+
+  - id: C002
+    statement: "「行政院已形成可以阻止國會法律生效的實質否決效果。」"
+    status: verified
+    related_facts: [F001, F002, F003]
+    reasoning_notes: "不論對此權力的憲法正當性如何評價，8項三讀法案確實因行政院長拒絕副署而未公布生效；功能效果即為阻止法律生效。"
+
+  - id: C003
+    statement: "「不副署是現行憲法已明確確認的行政院對國會否決權。」"
+    status: unresolved
+    related_facts: [F002, F003]
+    reasoning_notes: "憲法第37條明定公布法律須經副署，但增修條文第3條又明定覆議後行政院長應即接受；目前尚無憲法法庭判決直接確認卓內閣所主張的一般性不副署否決權。此為重大憲法爭議，不應當成既定法理。"
+
+  - id: C004
+    statement: "「聲請憲法審查後，行政院當然可以暫停執行已公布法律。」"
+    status: unsupported
+    related_facts: [F004, F005, F006]
+    reasoning_notes: "目前沒有資料顯示聲請憲法審查本身具有一般性的自動停止法律效力；立法院預算中心反而主張法定義務支出應先修法後才能停編，且停砍年金案在審查中仍被執行。"
+
+  - id: C005
+    statement: "「在野過半完全沒有任何制度制衡工具。」"
+    status: contradicted
+    contradicts: [F007]
+    reasoning_notes: "立法院仍有預算、立法、人事同意及不信任案等權力；但不信任案通過後伴隨總統解散國會風險，不能等同一般立法的日常救濟。"
+
+  - id: C006
+    statement: "「在目前的實務下，立法院過半並不能保證其三讀法律會生效或被行政院執行。」"
+    status: verified
+    related_facts: [F001, F002, F003, F004]
+    reasoning_notes: "已有8項三讀案因不副署未生效，另有2項已公布法律未依條文內容編列執行。"
+
+  - id: C007
+    statement: "「憲法法庭恢復後，不副署實務就停止了。」"
+    status: contradicted
+    contradicts: [F003]
+    reasoning_notes: "2026年2月至8月仍有7項三讀法案遭不副署。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-13"
+    platform: web
+    query: "行政院 不副署 2025 2026 財劃法 眷改 黨產 衛廣 立院組織 兒少帳戶 有線廣電 廣電"
+    result: found
+    notes: "確認行政院截至2026年8月共8案不副署，並取得各案時間與理由。"
+
+  - id: Q002
+    observed_at: "2026-10-13"
+    platform: web
+    query: "軍人待遇條例 警察人員人事條例 已公布 未編列預算 釋憲 2025 2026"
+    result: found
+    notes: "確認兩法均已公布，行政院仍以違憲疑慮為由暫未依修法內容編列執行。"
+
+  - id: Q003
+    observed_at: "2026-10-13"
+    platform: web
+    query: "憲法 增修條文 第3條 覆議 應即接受 不信任案 解散立法院"
+    result: found
+    notes: "取得現行憲法文字，確認覆議與不信任案之制度設計。"
+
+  - id: Q004
+    observed_at: "2026-10-13"
+    platform: web
+    query: "憲法法庭 114年憲判字第1號 恢復運作 不副署 2026"
+    result: found
+    notes: "確認2025-12-19判決後，2026年間不副署仍持續發生。"
+
+promotion:
+  cases: []
+  comparators:
+    - "已公布但待釋憲之法律：軍人待遇／警消退休（暫不執行） vs 停砍年金（判決前仍執行）"
+  research:
+    - "不副署是否構成憲法增修條文第3條以外的實質第二否決權"
+    - "行政機關對已公布法律聲請憲法審查時，是否存在一致的暫停執行標準"
+
+notes:
+  - "本session區分『法律效果已發生』與『該效果是否合憲』：8案被不副署阻止生效是事實；不副署是否為合法的一般性否決權仍屬未決憲法爭議。"
+  - "『在野過半沒用』不宜作絕對事實陳述；較精確的命題是：目前實務下，在野過半不足以保證三讀法律生效或被執行。"
+  - "行政院提出的反證亦保留：截至2026年8月，209件三讀法案中201件已副署，8件不副署，行政院主張其使用比例僅3.8%、屬例外性防衛。"
+  - "評論應避免把合憲性爭議直接寫成法院已判行政院違憲；目前尚無直接終局判決。"
