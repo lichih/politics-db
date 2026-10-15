@@ -1,0 +1,26 @@
+Source snapshot: S007
+Observed at: 2026-10-15
+Publisher: 內政部建築研究所
+Title: 因公派員出國計畫考察費用執行情形表（114年1至9月）
+Official URL:
+https://ws.moi.gov.tw/Download.ashx?n=5Zug5YWs5rS%2B5ZOh5Ye65ZyL6KiI55Wr6ICD5a%2Bf6LK755So5Z%2B36KGM5oOF5b2i6KGoKDExNDAxLTA5KS5wZGY%3D&u=LzAwMS9VcGxvYWQvNDA0L3JlbGZpbGUvOTI1OC81NjYwLzAyZGFiY2JhLWI5ZTYtNDY5YS1hOGY3LTVmYjhmNDQwOWFmYi5wZGY%3D
+
+Capture method:
+- Official PDF opened successfully through web retrieval.
+- Relevant pages visually inspected.
+- Original binary bytes were not downloadable from this execution environment; this is a provenance-preserving text snapshot, not a byte-for-byte archive of the PDF.
+
+Relevant document text / observations:
+1. Table title: 因公派員出國計畫考察費用執行情形表。
+2. The table includes plans titled「參加美國混凝土學會（ACI）2025春季會議」and「參加2025年世界建築大會」.
+3. The PDF retains a section headed「填表說明(本表於機關網站公開時請予以刪除)」.
+4. That instruction cites:
+   - 立法院114年2月19日台立院議字第1140700223號函
+   - 行政院114年7月3日院授主預彙字第1140101903A號函
+5. The instruction states:「本表係以當月完成核銷之計畫為範疇」.
+6. It directs agencies to publish overseas inspection/travel expense details monthly and to place the table in the government-information-disclosure section of the agency website.
+
+Evidence limitation:
+- This snapshot proves what the recipient agency publicly displayed as the implementation/filling instruction.
+- It does not by itself prove that the visible instruction reproduces the complete text of 行政院1140101903A號函.
+- The original Executive Yuan letter and all attachments remain a separate retrieval target.
