@@ -235,7 +235,7 @@ sources:
     url: "https://www.ptt.cc/bbs/Gossiping/M.1791677842.A.0CA.html"
     published_at: "2026-10-11"
     observed_at: "2026-10-15"
-    retrieval_status: partial
+    retrieval_status: reachable
     notes:
       - "公開索引／鏡像可見其轉錄 formosansnoopy 的自殺風險與正國會指控文字，並提供 Threads share URL：https://www.threads.com/share/BAay1QIzLJ/。"
       - "本次工具無法直接開啟 Threads share URL，因此未取得 Threads 平台原始 post object；此來源只作為10月11日前後公開傳播的時間佐證。"
@@ -247,7 +247,7 @@ sources:
     url: "https://www.facebook.com/hyuui/posts/pfbid02aw47KzrY1BMqA5ELqSzSgxiMJjHftARG3dfmDW3ZYmWSejC8KY75BMKhBmwmdfz2l"
     published_at: "2026-10-15"
     observed_at: "2026-10-15"
-    retrieval_status: partial
+    retrieval_status: reachable
     notes:
       - "使用者提供貼文全文；黃士修將帳號限制與正國會、呂建德的關係連結，主張為政府部門封鎖／政治追殺。"
       - "該因果結論屬評論主張，必須由其他證據獨立驗證。"
