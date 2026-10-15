@@ -173,6 +173,23 @@ def index_document(doc: EvidenceDocument) -> dict[str, Any]:
 
 
 
+def sort_indexed_documents(
+    indexed: list[tuple[EvidenceDocument, dict[str, Any]]],
+) -> list[tuple[EvidenceDocument, dict[str, Any]]]:
+    """Sort homepage documents by evidence recency, independent of storage area."""
+    ordered = sorted(indexed, key=lambda item: item[0].rel_dir.as_posix())
+    ordered.sort(key=lambda item: str(item[1].get("session", {}).get("id", "")))
+    ordered.sort(
+        key=lambda item: str(item[1].get("session", {}).get("started_at", "")),
+        reverse=True,
+    )
+    ordered.sort(
+        key=lambda item: str(item[1].get("session", {}).get("updated_at", "")),
+        reverse=True,
+    )
+    return ordered
+
+
 def site_base_url(root: Path = ROOT) -> str:
     cname_path = root / "CNAME"
     if not cname_path.exists():
@@ -226,7 +243,9 @@ def build_site(docs: list[EvidenceDocument], output_dir: Path) -> None:
         value, ensure_ascii=False, indent=2
     )
 
-    indexed = [(doc, index_document(doc)) for doc in docs]
+    indexed = sort_indexed_documents(
+        [(doc, index_document(doc)) for doc in docs]
+    )
     base_url = site_base_url()
     for doc, data in indexed:
         data["_meta"]["canonical_url"] = (
