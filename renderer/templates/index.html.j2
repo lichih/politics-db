@@ -35,6 +35,7 @@
           <span class="badge {{ doc.session.status }}">{{ doc.session.status }}</span>
         </div>
         <div class="metrics">
+          <span>updated {{ doc.session.updated_at }}</span>
           <span>{{ doc._meta.fact_count }} facts</span>
           <span>{{ doc._meta.claim_count }} claims</span>
           <span>{{ doc._meta.source_count }} sources</span>
