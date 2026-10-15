@@ -1,4 +1,4 @@
-from datetime import timezone
+from datetime import timedelta
 from pathlib import Path
 import unittest
 
@@ -6,6 +6,7 @@ from renderer.render import (
     EvidenceDocument,
     parse_session_timestamp,
     sort_indexed_documents,
+    validate_session_timestamps,
 )
 
 
@@ -23,7 +24,7 @@ class SessionTimestampTests(unittest.TestCase):
         self.assertEqual(parsed.precision, "day")
         self.assertEqual(parsed.precision_rank, 0)
         self.assertEqual(parsed.instant.hour, 0)
-        self.assertEqual(parsed.instant.utcoffset(), timezone.utc.utcoffset(None) + parsed.instant.utcoffset())
+        self.assertEqual(parsed.instant.utcoffset(), timedelta(hours=8))
 
     def test_parses_legacy_date_with_offset_as_day_precision(self):
         parsed = parse_session_timestamp("2026-10-08+08:00")
@@ -39,6 +40,53 @@ class SessionTimestampTests(unittest.TestCase):
     def test_rejects_invalid_calendar_date(self):
         with self.assertRaises(ValueError):
             parse_session_timestamp("2026-13-40")
+
+
+class SessionTimestampCompatibilityTests(unittest.TestCase):
+    @staticmethod
+    def document(value: str):
+        rel_dir = Path("sessions") / "legacy-example"
+        return EvidenceDocument(
+            path=rel_dir / "evidence.yaml",
+            rel_dir=rel_dir,
+            data={
+                "session": {
+                    "started_at": value,
+                    "updated_at": value,
+                }
+            },
+        )
+
+    def test_unregistered_legacy_value_fails_validation(self):
+        errors = validate_session_timestamps(
+            self.document("2026-10-15"),
+            legacy_values={},
+        )
+
+        self.assertEqual(len(errors), 2)
+        self.assertTrue(all("compatibility-only" in error for error in errors))
+
+    def test_frozen_legacy_value_remains_valid(self):
+        document = self.document("2026-10-15")
+        legacy_values = {
+            "sessions/legacy-example/evidence.yaml": {
+                "started_at": "2026-10-15",
+                "updated_at": "2026-10-15",
+            }
+        }
+
+        self.assertEqual(
+            validate_session_timestamps(document, legacy_values),
+            [],
+        )
+
+    def test_canonical_value_needs_no_compatibility_entry(self):
+        document = self.document("2026-10-15T19:10:00+08:00")
+
+        self.assertEqual(
+            validate_session_timestamps(document, legacy_values={}),
+            [],
+        )
 
 
 class RendererIndexSortTests(unittest.TestCase):
