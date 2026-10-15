@@ -14,8 +14,8 @@
         "id": {"type": "string", "minLength": 1},
         "project": {"const": "Politics"},
         "title": {"type": "string", "minLength": 1},
-        "started_at": {"type": "string", "minLength": 1},
-        "updated_at": {"type": "string", "minLength": 1},
+        "started_at": {"$ref": "#/$defs/sessionTimestamp"},
+        "updated_at": {"$ref": "#/$defs/sessionTimestamp"},
         "status": {"enum": ["active", "closed", "archived"]}
       }
     },
@@ -47,6 +47,14 @@
     }
   },
   "$defs": {
+    "sessionTimestamp": {
+      "type": "string",
+      "description": "Canonical writes use RFC3339 date-time with explicit timezone. Legacy day-precision values are schema-readable only when frozen in schema/legacy-session-timestamps.json.",
+      "oneOf": [
+        {"pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?(?:Z|[+-]\\d{2}:\\d{2})$"},
+        {"pattern": "^\\d{4}-\\d{2}-\\d{2}(?:[+-]\\d{2}:\\d{2})?$"}
+      ]
+    },
     "source": {
       "type": "object",
       "required": ["id", "source_type", "title", "observed_at", "retrieval_status"],

@@ -96,10 +96,16 @@ YAML 是 evidence 的 authoritative source。
 
 HTML 只負責閱讀、導覽、filter 與展開 evidence graph；不得作為資料回寫來源。產生的 `site/` 不進版控，由 GitHub Actions build 後部署到 GitHub Pages。
 
-### 首頁時間語意與排序
+### 首頁時間語意、格式與排序
 
 - `session.started_at`：這份 evidence session 開始建立／查核的時間，不等於底層事件發生時間。
 - `session.updated_at`：這份 evidence 最後一次有實質內容更新的時間，例如新增或修正 source、fact、claim、search、status 或會改變證據解讀的重要 note；renderer、CSS、純格式整理等投影層變更不得更新此欄。
+- **新寫入或新的實質更新一律使用 RFC3339 完整 timestamp 並明確帶 timezone**，例如 `2026-10-15T19:10:00+08:00`；不得再新增只有日期的 session timestamp。
+- 相容既有資料時，`YYYY-MM-DD` 與早期 `YYYY-MM-DD+HH:MM` 仍可被 parser/schema 讀取，但**只有已凍結在 `schema/legacy-session-timestamps.json` 的既有 path + field + value 能通過 validation**。這兩種格式都只代表「日精度」；後者雖帶 offset，仍沒有時分秒，不得解讀成已知的實際時間。
+- 舊 evidence 的原始時間若未知，不得為了升級格式而猜測時分秒。當舊 evidence 今天有實質更新時，只把 `updated_at` 改成當下可確認的完整 timestamp；`started_at` 可繼續保留 legacy 日精度值。
+- Renderer 排序時，完整 timestamp 依真實帶時區 instant 比較；legacy 日精度值只在內部以該日 `00:00` 作 deterministic sort floor，原始 YAML 與畫面顯示不會被改寫。未帶 offset 的 legacy 日期以本專案歷史時區 `+08:00` 作排序相容基準。
+- 完整 timestamp 若晚於某 legacy sort floor，自然排在它前面；若完整 timestamp 與 legacy floor 恰為同一 instant，時間精度較高者優先。這只是導覽排序規則，不代表推定舊資料實際發生在午夜。
+- Legacy 相容清單必須與 YAML 的舊值完全一致；一旦某欄升級成完整 timestamp，就應同步移除清單中的該欄，避免相容例外永久擴張。
 - 事件日期、來源發布時間仍記在 evidence 自身對應欄位，不拿來冒充 session 更新時間。
 - 首頁跨 `sessions/`、`cases/`、`comparators/`、`research/`、`proposals/` 統一排序：先 `updated_at` 新到舊，再 `started_at` 新到舊，最後以 `session.id` 與 path 作 deterministic tie-break。
 - 儲存區域是資料分類，不是閱讀優先級；不得因 area 讓較舊 evidence 固定排在較新 evidence 前面。

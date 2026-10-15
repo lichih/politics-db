@@ -2,8 +2,8 @@ session:
   id: YYYY-MM-DD-topic-slug
   project: Politics
   title: ""
-  started_at: ""
-  updated_at: ""
+  started_at: "YYYY-MM-DDTHH:MM:SS+08:00"
+  updated_at: "YYYY-MM-DDTHH:MM:SS+08:00"
   status: active
 
 topics: []
