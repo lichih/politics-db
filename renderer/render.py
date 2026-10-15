@@ -21,6 +21,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SCHEMA_PATH = ROOT / "schema" / "evidence.schema.json"
 TEMPLATE_DIR = ROOT / "renderer" / "templates"
 STATIC_DIR = ROOT / "renderer" / "static"
+LEGACY_SESSION_TIMESTAMPS_PATH = ROOT / "schema" / "legacy-session-timestamps.json"
 
 CANONICAL_SESSION_TIMESTAMP_RE = re.compile(
     r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$"
@@ -111,17 +112,107 @@ def parse_session_timestamp(value: str) -> SessionTimestamp:
     )
 
 
-def validate_session_timestamps(doc: EvidenceDocument) -> list[str]:
+def load_legacy_session_timestamps(
+    path: Path = LEGACY_SESSION_TIMESTAMPS_PATH,
+) -> dict[str, dict[str, str]]:
+    data = json.loads(path.read_text(encoding="utf-8"))
+    legacy_values = data.get("legacy_values")
+    if not isinstance(legacy_values, dict):
+        raise ValueError(f"{path}: legacy_values must be an object")
+
+    normalized: dict[str, dict[str, str]] = {}
+    for document_path, fields in legacy_values.items():
+        if not isinstance(fields, dict):
+            raise ValueError(f"{path}: {document_path} must map to an object")
+        normalized[str(document_path)] = {
+            str(field): str(value) for field, value in fields.items()
+        }
+    return normalized
+
+
+def _document_relative_path(doc: EvidenceDocument) -> str:
+    try:
+        return doc.path.relative_to(ROOT).as_posix()
+    except ValueError:
+        return doc.path.as_posix()
+
+
+def validate_session_timestamps(
+    doc: EvidenceDocument,
+    legacy_values: dict[str, dict[str, str]],
+) -> list[str]:
     errors: list[str] = []
     session = doc.data.get("session", {})
+    document_path = _document_relative_path(doc)
+    allowed_legacy = legacy_values.get(document_path, {})
+
     for field in ("started_at", "updated_at"):
         value = session.get(field)
         if not isinstance(value, str):
             continue
         try:
-            parse_session_timestamp(value)
+            parsed = parse_session_timestamp(value)
         except ValueError as exc:
             errors.append(f"{doc.path}: session.{field}: {exc}")
+            continue
+
+        if parsed.precision == "day" and allowed_legacy.get(field) != value:
+            errors.append(
+                f"{doc.path}: session.{field}: legacy day-precision timestamp "
+                "is compatibility-only; new writes must use RFC3339 date-time "
+                "with explicit timezone"
+            )
+
+    return errors
+
+
+def validate_legacy_session_timestamp_registry(
+    docs: list[EvidenceDocument],
+    legacy_values: dict[str, dict[str, str]],
+) -> list[str]:
+    errors: list[str] = []
+    documents_by_path = {_document_relative_path(doc): doc for doc in docs}
+
+    for document_path, fields in legacy_values.items():
+        doc = documents_by_path.get(document_path)
+        if doc is None:
+            errors.append(
+                f"{LEGACY_SESSION_TIMESTAMPS_PATH}: stale document path {document_path}"
+            )
+            continue
+
+        session = doc.data.get("session", {})
+        for field, expected in fields.items():
+            if field not in ("started_at", "updated_at"):
+                errors.append(
+                    f"{LEGACY_SESSION_TIMESTAMPS_PATH}: unsupported field "
+                    f"{document_path}.{field}"
+                )
+                continue
+
+            actual = session.get(field)
+            if actual != expected:
+                errors.append(
+                    f"{LEGACY_SESSION_TIMESTAMPS_PATH}: stale legacy value "
+                    f"{document_path}.{field}; expected {expected!r}, found {actual!r}"
+                )
+                continue
+
+            try:
+                parsed = parse_session_timestamp(expected)
+            except ValueError as exc:
+                errors.append(
+                    f"{LEGACY_SESSION_TIMESTAMPS_PATH}: "
+                    f"{document_path}.{field}: {exc}"
+                )
+                continue
+
+            if parsed.precision != "day":
+                errors.append(
+                    f"{LEGACY_SESSION_TIMESTAMPS_PATH}: {document_path}.{field} "
+                    "must contain only a legacy day-precision value"
+                )
+
     return errors
 
 
@@ -174,6 +265,12 @@ def validate_documents(docs: list[EvidenceDocument]) -> None:
     validator = Draft202012Validator(schema)
     errors: list[str] = []
 
+    try:
+        legacy_values = load_legacy_session_timestamps()
+    except (OSError, json.JSONDecodeError, ValueError) as exc:
+        print(f"Evidence validation failed:\n  - {exc}", file=sys.stderr)
+        raise SystemExit(1) from exc
+
     seen_session_ids: dict[str, Path] = {}
 
     for doc in docs:
@@ -182,7 +279,7 @@ def validate_documents(docs: list[EvidenceDocument]) -> None:
             errors.append(f"{doc.path}: {location}: {err.message}")
 
         errors.extend(validate_cross_references(doc))
-        errors.extend(validate_session_timestamps(doc))
+        errors.extend(validate_session_timestamps(doc, legacy_values))
 
         session_id = str(doc.data.get("session", {}).get("id", ""))
         if session_id:
@@ -193,6 +290,8 @@ def validate_documents(docs: list[EvidenceDocument]) -> None:
                 )
             else:
                 seen_session_ids[session_id] = doc.path
+
+    errors.extend(validate_legacy_session_timestamp_registry(docs, legacy_values))
 
     if errors:
         print("Evidence validation failed:", file=sys.stderr)
