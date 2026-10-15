@@ -96,6 +96,15 @@ YAML 是 evidence 的 authoritative source。
 
 HTML 只負責閱讀、導覽、filter 與展開 evidence graph；不得作為資料回寫來源。產生的 `site/` 不進版控，由 GitHub Actions build 後部署到 GitHub Pages。
 
+### 首頁時間語意與排序
+
+- `session.started_at`：這份 evidence session 開始建立／查核的時間，不等於底層事件發生時間。
+- `session.updated_at`：這份 evidence 最後一次有實質內容更新的時間，例如新增或修正 source、fact、claim、search、status 或會改變證據解讀的重要 note；renderer、CSS、純格式整理等投影層變更不得更新此欄。
+- 事件日期、來源發布時間仍記在 evidence 自身對應欄位，不拿來冒充 session 更新時間。
+- 首頁跨 `sessions/`、`cases/`、`comparators/`、`research/`、`proposals/` 統一排序：先 `updated_at` 新到舊，再 `started_at` 新到舊，最後以 `session.id` 與 path 作 deterministic tie-break。
+- 儲存區域是資料分類，不是閱讀優先級；不得因 area 讓較舊 evidence 固定排在較新 evidence 前面。
+- 目前首頁搜尋是 client-side filter，保留上述時間順序；未來若接 FTS／query projection，搜尋結果應由查詢層另行定義 relevance 排序，不反向改寫 evidence 時間欄位。
+
 Renderer 在 `renderer/render.py`，schema 在 `schema/evidence.schema.json`。
 
 ## 原則
