@@ -8,14 +8,14 @@
   "properties": {
     "session": {
       "type": "object",
-      "required": ["id", "project", "title", "status"],
+      "required": ["id", "project", "title", "started_at", "updated_at", "status"],
       "additionalProperties": true,
       "properties": {
         "id": {"type": "string", "minLength": 1},
         "project": {"const": "Politics"},
         "title": {"type": "string", "minLength": 1},
-        "started_at": {"type": "string"},
-        "updated_at": {"type": "string"},
+        "started_at": {"type": "string", "minLength": 1},
+        "updated_at": {"type": "string", "minLength": 1},
         "status": {"enum": ["active", "closed", "archived"]}
       }
     },
