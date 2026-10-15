@@ -1,0 +1,57 @@
+{
+  "description": "Frozen compatibility values for session timestamps created before full RFC3339 timestamps became mandatory on 2026-10-15. Do not add new entries for new evidence; migrate a field to a canonical timestamp when its real update time becomes known.",
+  "legacy_values": {
+    "proposals/2026-10-08-election-prediction-market-reform/evidence.yaml": {
+      "started_at": "2026-10-08+08:00",
+      "updated_at": "2026-10-08+08:00"
+    },
+    "sessions/2026-10-06-shen-drug-policy/evidence.yaml": {
+      "started_at": "2026-10-02+08:00",
+      "updated_at": "2026-10-06+08:00"
+    },
+    "sessions/2026-10-08-election-betting-legislative-history/evidence.yaml": {
+      "started_at": "2026-10-08+08:00",
+      "updated_at": "2026-10-08+08:00"
+    },
+    "sessions/2026-10-08-shen-death-penalty/evidence.yaml": {
+      "started_at": "2026-10-08+08:00",
+      "updated_at": "2026-10-08+08:00"
+    },
+    "sessions/2026-10-08-shen-six-position-shifts/evidence.yaml": {
+      "started_at": "2026-10-08+08:00",
+      "updated_at": "2026-10-08+08:00"
+    },
+    "sessions/2026-10-09-defense-procurement-governance/evidence.yaml": {
+      "started_at": "2026-10-09",
+      "updated_at": "2026-10-09"
+    },
+    "sessions/2026-10-09-taiwan-defense-urgency-revealed-preference/evidence.yaml": {
+      "started_at": "2026-10-09",
+      "updated_at": "2026-10-09"
+    },
+    "sessions/2026-10-12-green-white-legislative-cooperation/evidence.yaml": {
+      "started_at": "2026-10-12",
+      "updated_at": "2026-10-13"
+    },
+    "sessions/2026-10-13-executive-countersignature-nonexecution/evidence.yaml": {
+      "started_at": "2026-10-13",
+      "updated_at": "2026-10-13"
+    },
+    "sessions/2026-10-13-shen-abuse-injury-quote/evidence.yaml": {
+      "started_at": "2026-10-13",
+      "updated_at": "2026-10-13"
+    },
+    "sessions/2026-10-15-formosansnoopy-meta-restriction/evidence.yaml": {
+      "started_at": "2026-10-15",
+      "updated_at": "2026-10-15"
+    },
+    "sessions/2026-10-15-ocac-travel-report/evidence.yaml": {
+      "started_at": "2026-10-15",
+      "updated_at": "2026-10-15"
+    },
+    "sessions/2026-10-15-taipei-prosecutor-drug-case/evidence.yaml": {
+      "started_at": "2026-10-15",
+      "updated_at": "2026-10-15"
+    }
+  }
+}
