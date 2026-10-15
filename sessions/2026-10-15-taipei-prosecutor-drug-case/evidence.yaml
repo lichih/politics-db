@@ -1,0 +1,429 @@
+session:
+  id: "2026-10-15-taipei-prosecutor-drug-case"
+  project: Politics
+  title: "北檢劉姓檢察官施用第二級毒品案：刑事處分、通報時序與職務風險"
+  started_at: "2026-10-15"
+  updated_at: "2026-10-15"
+  status: active
+
+topics:
+  - "檢察官"
+  - "毒品"
+  - "緩起訴"
+  - "司法倫理"
+  - "跨機關通報"
+  - "警察函送時序"
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "臺灣臺北地方檢察署"
+    title: "本署劉姓檢察官經警攔檢驗尿呈毒品陽性反應，經內部行政調查，認違失情節重大，已函請檢察官評鑑委員會進行個案評鑑。茲說明如下"
+    url: "https://www.tpc.moj.gov.tw/"
+    published_at: "2026-10-15"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "北檢官網首頁新聞稿列表可確認標題與發布日期；中央社另轉述其內容與10月5日、10月13日處置時序。"
+
+  - id: S002
+    source_type: primary
+    publisher: "臺灣新北地方檢察署"
+    title: "115-10-15新北地檢偵辦劉姓檢察官涉嫌施用第二級毒品案件偵結予以緩起訴處分新聞稿"
+    url: "https://www.pcc.moj.gov.tw/293833/293987/293989/"
+    published_at: "2026-10-15"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "新北地檢官網新聞稿列表可確認新聞稿存在與日期；案件細節由中央社與多家媒體轉述。"
+
+  - id: S003
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "北檢檢察官涉持有施用毒品　新北檢緩起訴、命戒癮治療"
+    url: "https://www.cna.com.tw/news/asoc/202610150100.aspx"
+    published_at: "2026-10-15"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "轉述新北地檢新聞稿：2月27日查獲、殘渣袋、尿液陽性、坦承、無毒品前科、緩起訴1年6月與戒癮治療條件。"
+
+  - id: S004
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "北檢檢察官涉施用毒品　主動請辭"
+    url: "https://www.cna.com.tw/news/asoc/202610150106.aspx"
+    published_at: "2026-10-15"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "轉述北檢新聞稿：10月5日經高檢署通知、同日啟動行政調查、10月13日職務評定及送個案評鑑、辭職生效前請假暫停行使職務。"
+
+  - id: S005
+    source_type: secondary
+    publisher: "太報 TaiSounds"
+    title: "檢察官吸毒案辦了7個多月才偵結　新北檢說明辦案時序還原真相"
+    url: "https://www.taisounds.com/news/content/97/294299"
+    published_at: "2026-10-15"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "報導轉述新北地檢下午補充說明：2/27查獲；8/21警方函送；8/27收件；9/4分案；10/1承辦主任始知檢察官身分並口頭通報；10/2書面通報高檢並首度傳喚；10/5再傳喚並諭知緩起訴、轉介醫療；10/13收到醫療評估後偵結。"
+
+  - id: S006
+    source_type: secondary
+    publisher: "太報 TaiSounds"
+    title: "緝毒檢座竟染毒　北檢劉姓檢察官獲緩起訴自費戒癮治療"
+    url: "https://www.taisounds.com/news/content/97/294185"
+    published_at: "2026-10-15"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "報導案件事實與緩起訴理由，並稱劉姓檢察官9月間仍曾承辦重大刑案；後者尚未取得官方案件分案文件交叉確認。"
+
+  - id: S007
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "刑事訴訟法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "第253-1條為緩起訴法源；第256條規定253-1緩起訴如無得聲請再議之人，原檢察官應依職權逕送直接上級檢察署檢察長或檢察總長再議。第26條使檢察官準用部分迴避規定。"
+
+  - id: S008
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "毒品危害防制條例"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0000008"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "第24條允許檢察官先依刑訴法作成附條件緩起訴，並規範戒癮治療意見徵詢。"
+
+  - id: S009
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "毒品戒癮治療實施辦法及完成治療認定標準"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030024"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "第2條明定戒癮治療對象為施用第一、二級毒品者；第3至4條規定醫療評估、說明與同意；第10至13條規定治療與毒品檢驗等履行事項。"
+
+  - id: S010
+    source_type: primary
+    publisher: "臺灣高等檢察署"
+    title: "113年度上半年國內毒品情勢分析報告新聞稿"
+    url: "https://www.tph.moj.gov.tw/4421/4509/4515/1183034/"
+    published_at: "2024-06-06"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "臺高檢稱113年1至4月緩起訴附命戒癮治療比例占全部毒偵案件23.5%，並要求各地檢署積極運用該制度。"
+
+  - id: S011
+    source_type: primary
+    publisher: "法務部主管法規查詢系統"
+    title: "檢察官倫理規範"
+    url: "https://mojlaw.moj.gov.tw/LawContent.aspx?LSID=FL063886&LawNo=11"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "第2條要求檢察官公正、客觀、超然、獨立、勤慎；第5條要求廉潔自持、謹言慎行並維護職位榮譽及尊嚴。"
+
+  - id: S012
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "法官法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030243"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "第86條規定檢察官代表國家追訴犯罪並應公正超然、勤慎執行職務；第89條使第18條等規定準用於檢察官；第95、96條規範監督與重大違失之評鑑處理。"
+
+  - id: S013
+    source_type: secondary
+    publisher: "FTNN新聞網"
+    title: "獨／檢察官吸毒不吐上游！新北警半年後函送　曝光關鍵是『他』踢爆染毒醜聞"
+    url: "https://www.ftnn.com.tw/news/587601"
+    published_at: "2026-10-15"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "獨家報導稱警方移送資料未註明劉男檢察官身分，並稱承辦主任因姓名與司法官同期同學相同而辨識；亦稱被告未供出毒品上游。上述細節尚無官方文件確認，僅列調查線索。"
+
+  - id: S014
+    source_type: commentary
+    publisher: "黃國昌 Facebook"
+    title: "毒蟲檢察官遭查獲後繼續辦案　獲緩起訴寬典"
+    observed_at: "2026-10-15"
+    retrieval_status: blocked
+    notes:
+      - "使用者提供貼文全文。貼文主張事件一路遮掩、緩起訴屬寬典、北檢拖至10月13日才送評鑑並以『包庇遮醜』定性；本次未獨立擷取Facebook原始貼文。"
+
+facts:
+  - id: F001
+    statement: "公開資料顯示，劉姓檢察官於2026年2月27日在新北市蘆洲遭警方查獲，背包內有含甲基安非他命殘渣袋，尿液檢驗呈安非他命及甲基安非他命陽性；其後於偵查中坦承施用。"
+    status: verified
+    observed_at: "2026-10-15"
+    source_ids: [S003, S004]
+    evidence_summary: "中央社分別轉述新北地檢與北檢正式新聞稿，兩機關對查獲日期、陽性結果與坦承施用核心事實一致。"
+    tags: ["2026-02-27", "甲基安非他命", "尿液陽性", "施用第二級毒品"]
+
+  - id: F002
+    statement: "蘆洲分局於2026年8月21日函送案件；新北地檢8月27日收受卷證、9月4日完成分案。"
+    status: verified
+    observed_at: "2026-10-15"
+    source_ids: [S005]
+    evidence_summary: "太報逐項轉述新北地檢10月15日下午補充的官方辦案時序。"
+    verification_notes:
+      - "目前尚未取得蘆洲分局8月21日函文原件。"
+    tags: ["蘆洲分局", "新北地檢", "函送", "分案"]
+
+  - id: F003
+    statement: "依新北地檢對外說明，承辦主任檢察官於2026年10月1日核閱案件時始知被告為北檢檢察官，隨即向檢察長陳報並口頭通報臺高檢；新北地檢10月2日再發文通報臺高檢。"
+    status: verified
+    observed_at: "2026-10-15"
+    source_ids: [S005]
+    evidence_summary: "新北地檢經媒體轉述公布明確日期與處理動作。"
+    tags: ["2026-10-01", "2026-10-02", "身分辨識", "臺高檢"]
+
+  - id: F004
+    statement: "北檢表示其於2026年10月5日經臺高檢通知劉姓檢察官涉毒情事，當日啟動內部行政調查；10月13日職務評定認情節重大並函請檢察官評鑑委員會進行個案評鑑，辭職令生效前其請假暫停行使檢察官職務。"
+    status: verified
+    observed_at: "2026-10-15"
+    source_ids: [S001, S004]
+    evidence_summary: "北檢官網確認新聞稿存在，中央社轉述新聞稿中的10月5日與10月13日時序。"
+    tags: ["北檢", "2026-10-05", "2026-10-13", "個案評鑑", "暫停職務"]
+
+  - id: F005
+    statement: "新北地檢於2026年10月13日對劉姓檢察官作成緩起訴1年6月、附命戒癮治療等條件；公開理由包括坦承犯行、無施用毒品前科、有戒癮意願及醫療機構評估。"
+    status: verified
+    observed_at: "2026-10-15"
+    source_ids: [S002, S003, S005]
+    evidence_summary: "新北地檢官網確認緩起訴新聞稿；中央社與太報一致轉述處分期間、條件及主要考量。"
+    tags: ["緩起訴", "1年6月", "戒癮治療", "無毒品前科"]
+
+  - id: F006
+    statement: "附命戒癮治療之緩起訴並非針對本案特設：法律明文允許施用第一、二級毒品案件採此制度，臺高檢2024年資料顯示113年1至4月此類處分占全部毒偵案件23.5%。"
+    status: verified
+    observed_at: "2026-10-15"
+    source_ids: [S008, S009, S010]
+    evidence_summary: "法律與臺高檢官方統計均證明制度具有一般適用性；但23.5%是全部毒偵案件統計，不能單獨證明本案與同條件一般被告待遇完全一致。"
+    tags: ["緩起訴比較", "戒癮治療", "23.5%", "一般制度"]
+
+  - id: F007
+    statement: "刑事訴訟法第256條規定，依第253-1條作成的緩起訴處分，如無得聲請再議之人，原檢察官應依職權逕送直接上級檢察署檢察長或檢察總長再議。"
+    status: verified
+    observed_at: "2026-10-15"
+    source_ids: [S007]
+    evidence_summary: "現行刑事訴訟法條文直接支持。"
+    verification_notes:
+      - "此事實說明一般程序規則；本次尚未取得本案實際送職權再議及審核結果的文件。"
+    tags: ["刑事訴訟法256", "職權再議", "上級檢察署"]
+
+  - id: F008
+    statement: "檢察官依現行法及倫理規範負有高於一般私人身分的職務信任義務：代表國家追訴犯罪，並應公正超然、勤慎執行職務、廉潔自持、謹言慎行及維護職位尊嚴。"
+    status: verified
+    observed_at: "2026-10-15"
+    source_ids: [S011, S012]
+    evidence_summary: "法官法第86、89條與檢察官倫理規範第2、5條直接支持。"
+    tags: ["檢察官職務信任", "法官法", "檢察官倫理規範"]
+
+  - id: F009
+    statement: "媒體報導劉姓檢察官在2月27日被查獲後至10月知情處置前仍持續辦案，並稱其9月21日重大刑案仍由其指揮；本次未取得官方分案或指揮紀錄原件。"
+    status: partial
+    observed_at: "2026-10-15"
+    source_ids: [S006]
+    evidence_summary: "太報具體報導其後續承辦案件，但欠缺官方案件分案文件；北檢則明確表示直到辭職處理時才請假暫停職務，與其此前仍在職相容。"
+    tags: ["繼續辦案", "職務風險", "未取得分案原件"]
+
+  - id: F010
+    statement: "目前公開的官方時序只說警方完成鑑驗等作業後於8月21日函送，沒有公開尿液與扣案物各自的送驗日期、報告完成日期，也沒有說明2月27日至8月21日各階段實際耗時。"
+    status: verified
+    observed_at: "2026-10-15"
+    source_ids: [S005]
+    evidence_summary: "新北地檢公開說明使用『完成鑑驗等作業後』概括描述警察端期間，未列鑑驗關鍵日期。"
+    tags: ["資訊缺口", "鑑驗日期", "警方時序"]
+
+  - id: F011
+    statement: "一篇FTNN獨家報導稱警方移送資料未註明劉姓被告的檢察官身分，並稱承辦主任檢察官因姓名辨識出司法官同期同學；此細節目前沒有警方移送書或新北地檢官方文件可供本次查核直接驗證。"
+    status: partial
+    observed_at: "2026-10-15"
+    source_ids: [S013]
+    evidence_summary: "保留媒體具體報導作為後續調查線索，不升格為已確認官方事實。"
+    tags: ["身分欄", "警方移送書", "未獨立確認"]
+
+  - id: F012
+    statement: "同一篇FTNN報導稱劉姓被告未供出毒品上游；目前未取得警方或檢方說明其毒品來源調查範圍、是否另案追查或追查結果。"
+    status: partial
+    observed_at: "2026-10-15"
+    source_ids: [S013]
+    evidence_summary: "只能確認有媒體提出『未供出上游』說法；不能據此斷言檢警沒有追查毒品來源。"
+    tags: ["毒品來源", "上游", "未解問題"]
+
+  - id: F013
+    statement: "黃國昌2026年10月15日公開主張本案『一路遮掩』、『緩起訴寬典』及『包庇遮醜』，並批評劉姓檢察官2月遭查獲後仍繼續辦案、北檢直到10月13日才送個案評鑑。"
+    status: partial
+    observed_at: "2026-10-15"
+    source_ids: [S014]
+    evidence_summary: "使用者提供貼文全文，可確認本次查核針對的主張內容；Facebook原文未由工具獨立擷取。"
+    tags: ["黃國昌", "公開主張", "包庇", "遮掩"]
+
+claims:
+  - id: C001
+    statement: "北檢自2026年2月27日起即已知劉姓檢察官涉毒，仍故意讓其繼續辦案至10月。"
+    status: contradicted
+    contradicts: [F003, F004]
+    related_facts: [F001, F009]
+    reasoning_notes: "現有公開時序指出新北地檢10月1日始辨識其檢察官身分，北檢10月5日才接獲臺高檢通知。這只能反駁『北檢自2月即明知』的狹義命題；不能據此消除2月至10月跨機關通報與職務風險管理的問題。"
+
+  - id: C002
+    statement: "劉姓檢察官獲緩起訴本身，即可證明檢方因其檢察官身分給予特殊寬典或包庇。"
+    status: unsupported
+    related_facts: [F005, F006, F007]
+    reasoning_notes: "法律明文允許施用一、二級毒品採附命戒癮治療緩起訴，且官方統計顯示實務上廣泛運用。要證明特殊待遇，仍需同條件一般被告比較、分案與審核資料。本案是否已完成職權再議亦待查。"
+
+  - id: C003
+    statement: "『北檢直到10月才知道』足以解消本案的制度責任問題。"
+    status: contradicted
+    contradicts: [F008, F009, F010]
+    related_facts: [F001, F002, F003, F004]
+    reasoning_notes: "北檢晚知情可以限縮北檢『明知包庇』的指控，但本案涉及具有國家追訴權的現職檢察官；2月已進入警察刑事程序而職務管理端至10月才收到資訊，仍留下跨機關識別、通報與風險控管責任問題。"
+
+  - id: C004
+    statement: "蘆洲分局2月27日至8月21日的期間已可確認是不當延宕或故意包庇。"
+    status: unresolved
+    related_facts: [F002, F010]
+    reasoning_notes: "目前缺尿液與扣案物送驗、鑑驗完成日期，以及警方內部處理節點。六個月時間差值得查，但不能在缺關鍵日期時直接定性為不當延宕或包庇。"
+
+  - id: C005
+    statement: "尿液或扣案毒品鑑驗報告本身耗時將近六個月才完成。"
+    status: unresolved
+    related_facts: [F010]
+    reasoning_notes: "部分媒體以『報告半年才出爐』描述，但目前官方說明未公開報告完成日期；不能把2/27至8/21整段直接等同實驗室鑑驗時間。"
+
+  - id: C006
+    statement: "警方移送卷證未記載劉姓被告的檢察官職業，導致新北地檢直到10月1日才辨識其身分。"
+    status: unresolved
+    related_facts: [F003, F011]
+    reasoning_notes: "已有媒體具體如此報導，但缺移送書、警詢筆錄基本資料頁或官方說明。取得文件即可快速驗證。"
+
+  - id: C007
+    statement: "新北地檢對同業作成緩起訴存在未處理的利益衝突或迴避問題。"
+    status: unresolved
+    related_facts: [F005, F007, F011]
+    reasoning_notes: "刑訴法有檢察官迴避規則，且253-1緩起訴在特定情形須職權送上級再議；但本次未取得承辦主任與被告關係、是否迴避、案件如何重新分配、實際職權再議承辦及結果等資料。媒體稱兩人為司法官同期同學，尚未官方確認。"
+
+  - id: C008
+    statement: "檢警沒有追查劉姓被告的毒品來源或上游供應者。"
+    status: unresolved
+    related_facts: [F012]
+    reasoning_notes: "目前只能找到媒體稱被告未供出上游，沒有官方資料足以證明『沒有追查』；not_found 不等於 never_existed。"
+
+  - id: C009
+    statement: "如果2月至10月各機關均完全依現行規定辦理，現行規範仍容許已進入毒品刑事程序的現職檢察官長期不被職務管理體系識別，則跨機關通報與職務風險制度存在實質缺口。"
+    status: supported
+    supports: [F001, F002, F003, F004, F008, F009]
+    reasoning_notes: "這是條件式制度推論，不預設有人包庇。若未來證明已有應通報規範而承辦人違反，責任會轉向執行失職；若沒有規範或規範不足，則屬制度設計責任。"
+
+  - id: C010
+    statement: "黃國昌所稱『一路遮掩／包庇遮醜』目前已被公開證據完整證實。"
+    status: unresolved
+    related_facts: [F001, F002, F003, F004, F005, F010, F013]
+    reasoning_notes: "目前能確認重大時間差、職務持續與晚通報；但尚未找到證明故意隱匿、施壓、違反通報規範或特殊司法待遇的直接證據。現階段較精確的描述是『重大制度與處理責任疑點待釐清』。"
+
+  - id: C011
+    statement: "黃國昌稱劉姓檢察官已因緩起訴而『安全下莊』，可視為刑事程序已無上級審查可能。"
+    status: contradicted
+    contradicts: [F007]
+    related_facts: [F005]
+    reasoning_notes: "刑訴法第256條對253-1緩起訴設有再議機制；如無得聲請再議之人，依法應職權送直接上級檢察署再議。至2026-10-15本次查核尚未找到本案上級再議審核結果，因此不能把『10/13作成緩起訴』直接寫成刑事程序已完全確定。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-15"
+    platform: web
+    query: "劉姓檢察官 10月15日 新北地檢 8月21日 9月4日 10月1日 10月2日 10月5日"
+    scope: "新北地檢、北檢、中央社、太報等公開資料"
+    result: found
+    notes: "找到新北地檢與北檢新聞稿索引，以及太報17:40轉述的新北地檢完整偵辦時序。"
+
+  - id: Q002
+    observed_at: "2026-10-15"
+    platform: web
+    query: "刑事訴訟法 256 緩起訴 職權 送再議"
+    scope: "全國法規資料庫"
+    result: found
+    notes: "確認第256條第三項對253-1緩起訴在無得聲請再議之人時的職權再議規定。"
+
+  - id: Q003
+    observed_at: "2026-10-15"
+    platform: web
+    query: "毒品危害防制條例 第24條 緩起訴 戒癮治療"
+    scope: "全國法規資料庫"
+    result: found
+    notes: "確認附命戒癮治療緩起訴之法律依據與醫療評估制度。"
+
+  - id: Q004
+    observed_at: "2026-10-15"
+    platform: web
+    query: "緩起訴 23.5% 戒癮治療 高檢署 2024"
+    scope: "臺灣高等檢察署"
+    result: found
+    notes: "找到113年上半年毒品情勢報告：113年1至4月緩起訴附命戒癮治療占全部毒偵案件23.5%。"
+
+  - id: Q005
+    observed_at: "2026-10-15"
+    platform: web
+    query: "劉姓檢察官 上游 安非他命 警方 身分 移送"
+    scope: "2026-10-15公開新聞"
+    result: partial
+    notes: "找到FTNN獨家稱警方未註明檢察官身分且被告未供出上游，但未找到警方移送書、警詢筆錄或官方上游調查說明。"
+
+  - id: Q006
+    observed_at: "2026-10-15"
+    platform: web
+    query: "劉姓檢察官 尿液 鑑驗 報告 完成日期 送驗日期"
+    scope: "官方與公開新聞"
+    result: partial
+    notes: "官方時序僅稱警方完成鑑驗等作業後8/21函送，未找到各項鑑驗送件／完成的確切日期。"
+
+  - id: Q007
+    observed_at: "2026-10-15"
+    platform: web
+    query: "劉姓檢察官 緩起訴 職權再議 高檢 核准 10月15日"
+    scope: "臺高檢、新北地檢及公開新聞"
+    result: not_found
+    notes: "截至本次查核未找到本案緩起訴已完成職權再議審查的公開資料；此結果只表示本次查詢未找到，不代表程序未進行。"
+
+  - id: Q008
+    observed_at: "2026-10-15"
+    platform: web
+    query: "劉姓檢察官 警詢筆錄 職業欄 移送書 檢察官"
+    scope: "公開網頁"
+    result: not_found
+    notes: "未找到可公開核對的移送書或警詢筆錄原件；不代表文件不存在。"
+
+promotion:
+  cases:
+    - "北檢劉姓檢察官施用第二級毒品案"
+  comparators:
+    - "一般施用第一、二級毒品案件之緩起訴附命戒癮治療比例與條件"
+  research:
+    - "取得2/27採尿及扣案物之送驗日、鑑驗完成日、警方收件日與8/21函送理由。"
+    - "取得蘆洲分局移送書與警詢筆錄基本資料頁，確認職業欄及警方何時知悉被告檢察官身分。"
+    - "確認警察查獲現職檢察官涉嫌犯罪時是否存在強制通報所屬檢察署、臺高檢或法務部的規範。"
+    - "取得本案新北地檢分案、迴避、承辦關係與職權再議流程資料。"
+    - "確認10/13緩起訴是否已送職權再議、由何人審核及結果。"
+    - "取得劉姓檢察官2/27至10/5間實際承辦／指揮案件清單，評估職務風險範圍。"
+    - "確認毒品來源、同行友人案件與是否另案向上追查供應鏈。"
+
+notes:
+  - "本案必須拆開『刑事待遇是否特殊』與『職務風險是否及時處理』；兩者不是同一問題。"
+  - "現有證據足以反駁『北檢2月即明知』，但不能把『北檢10月才知道』當作整個制度沒有責任的證明。"
+  - "2/27至8/21是目前最需要補齊原始文件的時間段；沒有鑑驗關鍵日期前，不把六個月直接定性為警方包庇或實驗室延誤。"
+  - "緩起訴是施用毒品案件的一般法定工具；若要主張特殊寬典，需做同條件一般被告 comparator，而非只看處分名稱。"
+  - "『警方未註明身分』『承辦主任為司法官同期同學』『未供上游』目前均主要來自單一媒體報導，保持 partial/unresolved。"
+  - "重大違法、包庇、故意遮掩等定性須等原始規範、通報義務及關鍵文件補齊後再下結論。"
