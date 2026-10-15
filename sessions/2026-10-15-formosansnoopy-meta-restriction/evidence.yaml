@@ -230,15 +230,15 @@ sources:
 
   - id: S017
     source_type: secondary
-    publisher: "PTT／公開搜尋索引"
-    title: "[爆卦] 脆熱議：正國會有性騷與霸凌 當事人尋死"
-    url: "https://www.ptt.cc/bbs/Gossiping/M.1791677842.A.0CA.html"
+    publisher: "公開搜尋索引"
+    title: "10月11日前後 formosansnoopy 貼文轉錄與 Threads share URL 索引紀錄"
+    url: "https://www.threads.com/share/BAay1QIzLJ/"
     published_at: "2026-10-11"
     observed_at: "2026-10-15"
-    retrieval_status: reachable
+    retrieval_status: blocked
     notes:
-      - "公開索引／鏡像可見其轉錄 formosansnoopy 的自殺風險與正國會指控文字，並提供 Threads share URL：https://www.threads.com/share/BAay1QIzLJ/。"
-      - "本次工具無法直接開啟 Threads share URL，因此未取得 Threads 平台原始 post object；此來源只作為10月11日前後公開傳播的時間佐證。"
+      - "本次公開搜尋索引曾出現第三方頁面轉錄 formosansnoopy 的自殺風險與正國會指控文字，並顯示 Threads share URL：https://www.threads.com/share/BAay1QIzLJ/。"
+      - "本次工具無法直接開啟該 Threads share URL，也未穩定重現第三方頁面，因此未取得 Threads 平台原始 post object；僅保留『此次搜尋曾見到此索引線索』，不得視為已驗證的原文備份。"
 
   - id: S018
     source_type: commentary
