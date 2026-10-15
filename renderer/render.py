@@ -3,10 +3,12 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import shutil
 import sys
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
+from datetime import date, datetime, time, timedelta, timezone
 from pathlib import Path
 from typing import Any, Iterable
 
@@ -19,6 +21,14 @@ ROOT = Path(__file__).resolve().parents[1]
 SCHEMA_PATH = ROOT / "schema" / "evidence.schema.json"
 TEMPLATE_DIR = ROOT / "renderer" / "templates"
 STATIC_DIR = ROOT / "renderer" / "static"
+
+CANONICAL_SESSION_TIMESTAMP_RE = re.compile(
+    r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$"
+)
+LEGACY_SESSION_DATE_RE = re.compile(
+    r"^(?P<date>\d{4}-\d{2}-\d{2})(?P<offset>[+-]\d{2}:\d{2})?$"
+)
+LEGACY_DEFAULT_TIMEZONE = timezone(timedelta(hours=8))
 
 
 @dataclass
@@ -52,6 +62,67 @@ def discover_documents(root: Path = ROOT) -> list[EvidenceDocument]:
                 )
             )
     return docs
+
+
+@dataclass(frozen=True)
+class SessionTimestamp:
+    instant: datetime
+    precision_rank: int
+    precision: str
+
+
+def _timezone_from_offset(value: str | None) -> timezone:
+    if value is None:
+        return LEGACY_DEFAULT_TIMEZONE
+
+    sign = 1 if value[0] == "+" else -1
+    hours = int(value[1:3])
+    minutes = int(value[4:6])
+    if hours > 23 or minutes > 59:
+        raise ValueError(f"invalid UTC offset: {value}")
+    return timezone(sign * timedelta(hours=hours, minutes=minutes))
+
+
+def parse_session_timestamp(value: str) -> SessionTimestamp:
+    """Parse canonical timestamps plus legacy day-precision compatibility values."""
+    if CANONICAL_SESSION_TIMESTAMP_RE.fullmatch(value):
+        parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+        if parsed.tzinfo is None:
+            raise ValueError("canonical session timestamp must include a timezone")
+        return SessionTimestamp(
+            instant=parsed,
+            precision_rank=1,
+            precision="time",
+        )
+
+    legacy = LEGACY_SESSION_DATE_RE.fullmatch(value)
+    if legacy:
+        calendar_date = date.fromisoformat(legacy.group("date"))
+        tz = _timezone_from_offset(legacy.group("offset"))
+        return SessionTimestamp(
+            instant=datetime.combine(calendar_date, time.min, tzinfo=tz),
+            precision_rank=0,
+            precision="day",
+        )
+
+    raise ValueError(
+        "expected RFC3339 timestamp with timezone, YYYY-MM-DD, "
+        "or legacy YYYY-MM-DD+HH:MM"
+    )
+
+
+def validate_session_timestamps(doc: EvidenceDocument) -> list[str]:
+    errors: list[str] = []
+    session = doc.data.get("session", {})
+    for field in ("started_at", "updated_at"):
+        value = session.get(field)
+        if not isinstance(value, str):
+            continue
+        try:
+            parse_session_timestamp(value)
+        except ValueError as exc:
+            errors.append(f"{doc.path}: session.{field}: {exc}")
+    return errors
 
 
 def unique_ids(items: Iterable[dict[str, Any]], label: str, path: Path) -> set[str]:
@@ -111,6 +182,7 @@ def validate_documents(docs: list[EvidenceDocument]) -> None:
             errors.append(f"{doc.path}: {location}: {err.message}")
 
         errors.extend(validate_cross_references(doc))
+        errors.extend(validate_session_timestamps(doc))
 
         session_id = str(doc.data.get("session", {}).get("id", ""))
         if session_id:
@@ -173,6 +245,15 @@ def index_document(doc: EvidenceDocument) -> dict[str, Any]:
 
 
 
+def _session_timestamp_sort_key(
+    item: tuple[EvidenceDocument, dict[str, Any]],
+    field: str,
+) -> tuple[datetime, int]:
+    value = str(item[1].get("session", {}).get(field, ""))
+    parsed = parse_session_timestamp(value)
+    return parsed.instant, parsed.precision_rank
+
+
 def sort_indexed_documents(
     indexed: list[tuple[EvidenceDocument, dict[str, Any]]],
 ) -> list[tuple[EvidenceDocument, dict[str, Any]]]:
@@ -180,11 +261,11 @@ def sort_indexed_documents(
     ordered = sorted(indexed, key=lambda item: item[0].rel_dir.as_posix())
     ordered.sort(key=lambda item: str(item[1].get("session", {}).get("id", "")))
     ordered.sort(
-        key=lambda item: str(item[1].get("session", {}).get("started_at", "")),
+        key=lambda item: _session_timestamp_sort_key(item, "started_at"),
         reverse=True,
     )
     ordered.sort(
-        key=lambda item: str(item[1].get("session", {}).get("updated_at", "")),
+        key=lambda item: _session_timestamp_sort_key(item, "updated_at"),
         reverse=True,
     )
     return ordered
