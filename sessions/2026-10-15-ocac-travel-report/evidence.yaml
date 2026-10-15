@@ -1,0 +1,226 @@
+session:
+  id: 2026-10-15-ocac-travel-report
+  project: Politics
+  title: "僑委會考察費用表與預算分類爭議"
+  started_at: "2026-10-15"
+  updated_at: "2026-10-15"
+  status: active
+
+topics:
+  - 僑務委員會
+  - 因公派員出國
+  - 考察費用執行情形表
+  - 預算分類
+  - 國立臺灣博物館
+  - ICOM 2025 Dubai
+  - 林楚茵
+  - 行政監督
+  - 公文書
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "立法院"
+    title: "釐清僑委會出國預算疑義！林楚茵：從未編「考察」預算 公務員不能違法填報"
+    url: "https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=47506&pid=266495"
+    published_at: "2026-10-15"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "林楚茵主張僑委會未編列考察預算，因此機關自然無法填報。"
+      - "並稱不能要求公務員將視察計畫冠上考察名義，否則恐涉及違法挪用預算。"
+
+  - id: S002
+    source_type: primary
+    publisher: "國立臺灣博物館"
+    title: "114年度國立臺灣博物館單位預算"
+    url: "https://www.ntm.gov.tw/News_Content.aspx?n=9907&s=241106"
+    published_at: "2025"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "正式單位預算將出國計畫分列「考察、視察、訪問」與「開會、談判」。"
+      - "ICOM 2025 Dubai 暨 ICOM NATHIST 理事會及年會列於「開會、談判」之「定期會議」。"
+      - "正式預算數為140千元。"
+
+  - id: S003
+    source_type: primary
+    publisher: "國立臺灣博物館"
+    title: "114年度國立臺灣博物館單位預算案"
+    url: "https://www.ntm.gov.tw/News_Content.aspx?n=9907&s=223055&sms=14286"
+    published_at: "2024"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "預算案階段同一 ICOM 2025 Dubai 計畫原列350千元。"
+      - "此數字不是立法院審議後的正式單位預算數。"
+
+  - id: S004
+    source_type: primary
+    publisher: "文化部"
+    title: "114年12月因公派員出國計畫考察費用執行情形表"
+    url: "https://file.moc.gov.tw/Download.ashx?icon=.pdf&n=MTLmnIjlm6DlhazmtL7lk6Hlh7rlnIvoqIjnlavogIPlr5%2FosrvnlKjln7fooYzmg4XlvaLooagucGRm&u=LzAwMS9VcGxvYWQvNDcwL3JlbGZpbGUvMTYxNTQvMjQ5OTY5L2ZlZmUxOWE2LTU3ZTUtNGU5MS04Zjc4LWU2OWVkNzFkZWY5Zi5wZGY%3D"
+    published_at: "2025-12"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "第一筆為國立臺灣博物館 ICOM 2025 Dubai 暨 ICOM NATHIST 理事會及年會。"
+      - "表中「考察目的」填寫「開會、學術發表」。"
+      - "預算數140千元，執行數140千元。"
+
+  - id: S005
+    source_type: primary
+    publisher: "僑務委員會"
+    title: "103年度派員出國計畫預算彙總表"
+    url: "https://www.ocac.gov.tw/OCAC/file/attach/2335/file_6054.pdf"
+    published_at: "2013"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "103年度考察為0；另有視察、訪問、開會、進修預算。"
+      - "顯示僑委會沒有考察類別至少可追溯到馬英九政府時期。"
+
+  - id: S006
+    source_type: primary
+    publisher: "僑務委員會"
+    title: "114年第4季因公派員出國計畫考察費用執行情形表"
+    url: "https://www.ocac.gov.tw/OCAC/File/Attach/80880921/File_593906.pdf"
+    published_at: "2026"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "僑委會該表填列「無」。"
+      - "表下注明依行政院114年7月3日院授主預彙字第1140101903A號函辦理。"
+
+facts:
+  - id: F001
+    statement: "僑委會沒有編列「考察」類出國預算並非現政府才出現；至少103年度（2014）預算彙總表即顯示考察為0，另有視察、訪問、開會與進修。"
+    status: verified
+    observed_at: "2026-10-15"
+    source_ids: [S005]
+    evidence_summary: "僑委會103年度官方預算彙總表直接列示各類別。"
+    tags: [僑委會, 出國預算, 歷史比較]
+
+  - id: F002
+    statement: "國立臺灣博物館 ICOM 2025 Dubai 暨 ICOM NATHIST 理事會及年會，在114年度正式單位預算中列於「派員出國計畫預算類別表－開會、談判」之「定期會議」，不是「考察」類。"
+    status: verified
+    observed_at: "2026-10-15"
+    source_ids: [S002]
+    evidence_summary: "正式預算文件的分類表直接支持。"
+    tags: [臺博館, ICOM, 開會談判, 預算分類]
+
+  - id: F003
+    statement: "同一 ICOM 計畫在114年度預算案階段原列350千元，經審議後正式單位預算為140千元。"
+    status: verified
+    observed_at: "2026-10-15"
+    source_ids: [S002, S003]
+    evidence_summary: "預算案與正式預算的數字不同；140千元才是正式預算。"
+    tags: [臺博館, ICOM, 預算案, 正式預算]
+
+  - id: F004
+    statement: "文化部114年12月《因公派員出國計畫考察費用執行情形表》將上述原編「開會、談判」的 ICOM 計畫列入，並在「考察目的」欄如實寫「開會、學術發表」。"
+    status: verified
+    observed_at: "2026-10-15"
+    source_ids: [S002, S004]
+    evidence_summary: "同一計畫在正式預算與後續執行情形表中可互相對照。"
+    tags: [文化部, 臺博館, ICOM, 考察費用表]
+
+  - id: F005
+    statement: "文化部該執行情形表對 ICOM 計畫列示預算數140千元、執行數140千元，與正式預算140千元一致。"
+    status: verified
+    observed_at: "2026-10-15"
+    source_ids: [S002, S004]
+    evidence_summary: "正式預算與執行情形表數額可直接對照。"
+    tags: [文化部, 臺博館, 預算執行]
+
+  - id: F006
+    statement: "因此，至少在文化部公開行政實務中，將一筆原預算分類為「開會、談判」的案件列入名稱含「考察費用」的執行情形表，並沒有伴隨把該案用途改寫為「考察」。"
+    status: verified
+    observed_at: "2026-10-15"
+    source_ids: [S002, S004]
+    evidence_summary: "原分類仍為開會、談判；表內目的仍記載開會、學術發表。"
+    tags: [行政實務, 資訊揭露, 預算分類]
+
+  - id: F007
+    statement: "林楚茵於2026-10-15公開主張，僑委會未編考察預算，因此「機關自然無法填報」，並稱把視察冠上考察名義恐涉及違法挪用預算。"
+    status: verified
+    observed_at: "2026-10-15"
+    source_ids: [S001]
+    evidence_summary: "立法院網站刊載其本人新聞稿。"
+    tags: [林楚茵, 公開主張, 僑委會]
+
+  - id: F008
+    statement: "僑委會114年第4季《因公派員出國計畫考察費用執行情形表》實際填列「無」，並註明依行政院114年7月3日院授主預彙字第1140101903A號函辦理。"
+    status: verified
+    observed_at: "2026-10-15"
+    source_ids: [S006]
+    evidence_summary: "僑委會官方表格可直接確認。"
+    tags: [僑委會, 填報, 行政院函]
+
+claims:
+  - id: C001
+    statement: "「沒有考察預算，所以行政機關在事實上無法把其他出國類別填入《因公派員出國計畫考察費用執行情形表》。」"
+    status: contradicted
+    contradicts: [F004, F006]
+    reasoning_notes: "文化部官方文件存在原編「開會、談判」而後列入該表的直接反例。"
+
+  - id: C002
+    statement: "「沒有考察預算，所以依法不能把開會、訪問或視察案件填入該表；否則即屬違法變更預算名目或挪用預算。」"
+    status: unresolved
+    related_facts: [F002, F004, F006, F007, F008]
+    reasoning_notes: "文化部實務顯示填表與改變原預算用途可被區分，但是否『依法不得填』仍須確認行政院1140101903A號函及附件的填報範圍；不能只由表名或單一立委法律見解直接判定。"
+
+  - id: C003
+    statement: "「文化部把 ICOM 開會案列入該表，就代表文化部違法挪用預算。」"
+    status: unsupported
+    related_facts: [F002, F004, F005, F006]
+    reasoning_notes: "現有文件只顯示資訊揭露表收錄該案，且目的仍寫開會、學術發表；沒有證據顯示140千元被改作另一個考察計畫。"
+
+  - id: C004
+    statement: "「僑委會填『無』已可直接認定構成刑法第213條公務員登載不實。」"
+    status: unresolved
+    related_facts: [F008]
+    reasoning_notes: "必須先確認1140101903A號函究竟要求填哪些案件，並進一步確認客觀不實、職務上登載、主觀明知及足生損害等構成要件。現階段證據不足以作刑事定性。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-15"
+    platform: web
+    query: "僑委會 103年度 派員出國計畫 預算 考察 視察 訪問 開會"
+    result: found
+    notes: "確認馬政府時期僑委會考察類別亦為0。"
+
+  - id: Q002
+    observed_at: "2026-10-15"
+    platform: web
+    query: "國立臺灣博物館 114年度 ICOM 2025 Dubai 預算 開會 談判"
+    result: found
+    notes: "確認正式預算分類與140千元正式預算數，並區分預算案350千元。"
+
+  - id: Q003
+    observed_at: "2026-10-15"
+    platform: web
+    query: "文化部 114年12月 因公派員出國計畫考察費用執行情形表 ICOM Dubai"
+    result: found
+    notes: "確認同一 ICOM 案被列入表中，目的寫開會、學術發表。"
+
+  - id: Q004
+    observed_at: "2026-10-15"
+    platform: web
+    query: "院授主預彙字第1140101903A號函"
+    result: partial
+    notes: "已從僑委會表下注記確認函號存在，但本次尚未取得行政院原函全文與附件，故填報義務範圍仍未解決。"
+
+promotion:
+  cases: []
+  comparators:
+    - "文化部／國立臺灣博物館 ICOM 2025 Dubai：原編開會、談判，後列入考察費用執行情形表"
+  research:
+    - "取得行政院114年7月3日院授主預彙字第1140101903A號函全文與附件"
+    - "確認該表中的「考察」是狹義預算分類或因公出國監督表名"
+    - "確認各中央機關對同一填報規則是否採一致口徑"
+
+notes:
+  - "本session最重要的區分：預算用途變更 != 將原用途如實列入監督／揭露表。"
+  - "文化部案例可反證『事實上無法填』，但尚不足以單獨證明『依法一定可以填』；法律義務範圍仍待1140101903A號函。"
+  - "刑事責任目前不得先下結論。"
