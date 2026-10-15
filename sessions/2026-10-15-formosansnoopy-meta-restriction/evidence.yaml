@@ -1,0 +1,559 @@
+session:
+  id: 2026-10-15-formosansnoopy-meta-restriction
+  project: Politics
+  title: "土狗妹 Threads 台灣地區限制、54陪審團通告與正國會指控：證據整理"
+  started_at: "2026-10-15"
+  updated_at: "2026-10-15"
+  status: active
+
+topics:
+  - Threads
+  - Meta
+  - 內容限制
+  - 政府要求
+  - 國民健康署
+  - 衛生福利部
+  - 自殺防治法
+  - 54陪審團
+  - 正國會
+  - 黃郁芬
+  - 呂建德
+  - 言論自由
+  - 行政透明
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "使用者提供／Threads 畫面"
+    title: "formosansnoopy 帳號在台灣顯示 Content 無法在台灣顯示之截圖"
+    url: ""
+    published_at: ""
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "截圖文字顯示：Content 無法在台灣顯示。"
+      - "理由文字顯示：這是因為我們遵守一項來自 Taiwan Health Promotion Authority 的法律要求，必須限制這則內容。"
+      - "本次僅能驗證使用者提供的影像檔內容，尚未由 Meta/Threads 後台或獨立台灣／海外連線重現其真實性與限制範圍。"
+      - "sha256=f102e0d120f0bdad720a13c21e6c6ac491a6ece8c8a23431f7f9ee7c4fabe4a0"
+
+  - id: S002
+    source_type: primary
+    publisher: "Meta"
+    title: "Meta Q1 2023 Quarterly Update on the Oversight Board"
+    url: "https://about.fb.com/wp-content/uploads/2023/05/Meta-Q1-2023-Quarterly-Update-on-the-Oversight-Board.pdf"
+    published_at: "2023-05"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "Meta 說明：2022年推出基於當地法律、following a government request 的地區性內容限制通知；2023年第1季再更新通知文字，在特定司法轄區顯示送出 takedown request 的政府機關。"
+      - "這是判讀 S001 畫面屬於何種 Meta 通知類型的重要一手來源。"
+
+  - id: S003
+    source_type: primary
+    publisher: "Meta Transparency Center"
+    title: "Taiwan - Content Restrictions Report"
+    url: "https://transparency.meta.com/reports/content-restrictions/country/TW/"
+    published_at: ""
+    observed_at: "2026-10-15"
+    retrieval_status: blocked
+    notes:
+      - "直接開啟頁面時回傳 HTTP 429，故未取得完整期間與上下文。"
+      - "搜尋索引片段顯示：Through the same channel, we restricted access to 2,500 items in Taiwan reported by the Health Promotion Administration (HPA) for allegedly violating ..."
+      - "只能據此確認 Meta 的台灣內容限制報告曾明確記載 HPA 透過該管道報告內容並導致台灣地區限制；不得用此片段推定本案個別限制就是 HPA 所送、也不得補上被截斷的法律依據。"
+
+  - id: S004
+    source_type: primary
+    publisher: "衛生福利部國民健康署"
+    title: "Health Promotion Administration (HPA) - official English site"
+    url: "https://www.hpa.gov.tw/EngPages/Index.aspx"
+    published_at: ""
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "國民健康署正式英文名稱為 Health Promotion Administration (HPA)。"
+      - "S001 的 UI 顯示 Taiwan Health Promotion Authority，並非國健署官網使用的正式英文名稱，因此兩者不能只憑字面直接畫等號。"
+
+  - id: S005
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "自殺防治法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?kw=%E8%87%AA%E6%AE%BA%E9%98%B2%E6%B2%BB%E6%B3%95&pcode=L0020213"
+    published_at: ""
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "第16條列舉媒體不得教導自殺方法、教唆／誘使／煽惑自殺、詳細描述自殺方法及原因、誘導自殺等內容。"
+      - "第17條第2項規定，廣電以外的宣傳品、出版品、網際網路或其他媒體違反第16條時，由直轄市、縣（市）主管機關處罰，並得令限期移除內容、下架或其他必要處置。"
+
+  - id: S006
+    source_type: primary
+    publisher: "國家通訊傳播委員會委託／衛生福利部主管議題"
+    title: "落實網路防護機制申訴系統服務平臺－網路媒體不當自殺內容"
+    url: "https://www.reportharmfulcontent.org.tw/"
+    published_at: ""
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "平台說明網路媒體不當自殺內容為衛福部心理健康司權管，可申訴疑似違反自殺防治法第16條或不符 WHO 自殺新聞報導原則的內容。"
+      - "衛福部114年3月11日衛部心字第1140107561A號函另說明，自114年3月14日起將該類申訴改於 NCC 委託建置之本平臺辦理。"
+      - "此制度提供一條與政治動機無關的既存申訴／轉介途徑，但現階段沒有案件編號或公文證明本案實際經由此途徑。"
+
+  - id: S007
+    source_type: primary
+    publisher: "三立新聞網"
+    title: "54陪審團 20261004"
+    url: "https://tonytest.settv.com.tw/Live/4435/25207"
+    published_at: "2026-10-04"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "三立官方頁面標示節目名稱 54陪審團 20261004，直播時間2026/10/04 13:55。"
+      - "頁面另標示節目時段為每週六下午1:55至4:00。"
+
+  - id: S008
+    source_type: primary
+    publisher: "使用者提供／formosansnoopy Threads 貼文照片"
+    title: "54陪審團 10/04 來賓表照片"
+    url: ""
+    published_at: ""
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "照片中的紙本標示〈54陪審團〉、時間10/04(日) 1355-1600、錄影地點台北市內湖區舊宗路一段159號8樓。"
+      - "可辨識來賓欄包括民進黨立委王義川、資深媒體人徐千惠、台北市議員林延鳳、秦慧珠，以及前國會助理土狗妹等。"
+      - "紙本時間與 S007 三立官方節目頁面相符；照片可支持『曾有排入來賓表』，不能單獨證明最後取消通告的原因或施壓者身分。"
+      - "sha256=8c3aaa8e14806b49be175525f8f626916e72c28798b33ca1e0151807ee2ad10f"
+
+  - id: S009
+    source_type: primary
+    publisher: "使用者提供／formosansnoopy Threads 截圖"
+    title: "formosansnoopy 10月公開貼文：自殺風險文字與正國會指控"
+    url: ""
+    published_at: "2026-10"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "截圖可見『我好像快要撐不下去了』『你們現在真的要有人跳樓死才開心嗎？』『如果我死了，你們一個都別想逃』等文字。"
+      - "同一截圖亦公開指控正國會存在性騷、霸凌與包庇。"
+      - "此來源可以證明帳號公開發表了這些文字與指控，不能證明被指控事件本身為真。"
+      - "sha256=c12e48bf7e12c4279a14591f1277a4b8d8acda5e50bfee6639f37c577e792cc8"
+
+  - id: S010
+    source_type: secondary
+    publisher: "使用者提供／自稱土狗妹家人與朋友之 Threads 帳號截圖"
+    title: "自稱家人與朋友帳號稱已阻止土狗妹輕生"
+    url: ""
+    published_at: "2026-10"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "截圖稱『土狗妹人還在』『我們有成功阻止』『剛剛她終於體力不支倒下了』。"
+      - "尚無醫療、警消或其他獨立紀錄交叉確認，因此只能記錄為關係人公開說法。"
+      - "sha256=14417bab07bfc37b5c228edb74567e4663471e0b9e04965fd4389210be402db5"
+
+  - id: S011
+    source_type: primary
+    publisher: "使用者提供／formosansnoopy Threads 截圖"
+    title: "formosansnoopy 長文：正國會職場霸凌性騷與54陪審團抽通告之本人敘述"
+    url: ""
+    published_at: "2026-10"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "帳號自述曾在正國會遭職場霸凌及性騷，高層接到申訴後吃案；另稱受邀上政論節目後，在對稿後、進棚前被某位來賓施壓而抽通告。"
+      - "此為當事人公開指控；尚未取得被指控者、節目製作單位或內部通聯紀錄交叉確認。"
+      - "sha256=1a32e1d8c00e6b7d514312618b81ad5e4dc1bef71811a97044df3712cc679faf"
+
+  - id: S012
+    source_type: primary
+    publisher: "使用者提供／formosansnoopy Threads 截圖"
+    title: "formosansnoopy 舊貼文『職場霸凌 metoo』"
+    url: ""
+    published_at: "2026-03-22"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "截圖 UI 標示『職場霸凌 metoo 26/3/22』，內容已公開點名正國會與多名相關政治人物並主張存在職場霸凌、性騷問題。"
+      - "可支持『相關指控至少在此次10月通告爭議之前即已出現』；仍不能用來證明指控內容為真。"
+      - "sha256=76f009f2849e5a93dc20bcf4944adb89a3bbeb9a603b4404ebd2928e7999f183"
+
+  - id: S013
+    source_type: primary
+    publisher: "使用者提供／formosansnoopy Threads 截圖"
+    title: "formosansnoopy 後續7點說明：台灣IP可見性、製作單位與正國會指控"
+    url: ""
+    published_at: "2026-10"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "帳號稱自己可登入、可查看，但發文與留言無法對台灣 IP 帳號顯示。"
+      - "帳號稱看過製作單位道歉，並再次主張抽通告者為正國會同場來賓。"
+      - "上述限制範圍與抽通告原因仍屬本人說法，需獨立技術重現或製作單位資料確認。"
+      - "page1_sha256=0dc5997b764f1041589f68093425ef7dd56116cb527a8c27d973e634e42a88df"
+      - "page2_sha256=4a1601d70ab25f868a800cc5da41ae00033e1154ed0d35a75a1aea3accdce72b"
+
+  - id: S014
+    source_type: secondary
+    publisher: "鏡週刊"
+    title: "正國會設政策中心　黃郁芬將助立委量身打造政策議題"
+    url: "https://www.mirrormedia.mg/story/20230221inv007"
+    published_at: "2023-02-21"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "報導稱林佳龍領導的正國會改組、新設政策中心，延攬前台北市議員黃郁芬為主任。"
+      - "此可支持黃郁芬與正國會的組織關係，不能支持任何性騷、霸凌或吃案指控。"
+
+  - id: S015
+    source_type: primary
+    publisher: "衛生福利部"
+    title: "呂建德政務次長"
+    url: "https://www.mohw.gov.tw/fp-5-78709-1.html"
+    published_at: "2024-05-20"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "官方履歷列呂建德自2024年5月起任衛福部政務次長。"
+      - "履歷亦列其2014年12月至2018年11月任台中市政府社會局局長。"
+
+  - id: S016
+    source_type: secondary
+    publisher: "聯合新聞網"
+    title: "衛福部長邱泰源已在打包辦公室？ 傳他先接任『代理部長』"
+    url: "https://udn.com/news/story/6656/8964327"
+    published_at: "2025-08"
+    observed_at: "2026-10-15"
+    retrieval_status: reachable
+    notes:
+      - "報導引述知情人士，將呂建德描述為外交部長林佳龍人馬、屬民進黨正國會。"
+      - "這是新聞媒體對派系歸屬的描述，不是政黨或正國會官方名冊，故不提升為官方組織身分證明。"
+
+  - id: S017
+    source_type: secondary
+    publisher: "PTT／公開搜尋索引"
+    title: "[爆卦] 脆熱議：正國會有性騷與霸凌 當事人尋死"
+    url: "https://www.ptt.cc/bbs/Gossiping/M.1791677842.A.0CA.html"
+    published_at: "2026-10-11"
+    observed_at: "2026-10-15"
+    retrieval_status: partial
+    notes:
+      - "公開索引／鏡像可見其轉錄 formosansnoopy 的自殺風險與正國會指控文字，並提供 Threads share URL：https://www.threads.com/share/BAay1QIzLJ/。"
+      - "本次工具無法直接開啟 Threads share URL，因此未取得 Threads 平台原始 post object；此來源只作為10月11日前後公開傳播的時間佐證。"
+
+  - id: S018
+    source_type: commentary
+    publisher: "黃士修"
+    title: "Facebook 貼文：土狗妹 Threads 台灣限制與正國會／衛福部推論"
+    url: "https://www.facebook.com/hyuui/posts/pfbid02aw47KzrY1BMqA5ELqSzSgxiMJjHftARG3dfmDW3ZYmWSejC8KY75BMKhBmwmdfz2l"
+    published_at: "2026-10-15"
+    observed_at: "2026-10-15"
+    retrieval_status: partial
+    notes:
+      - "使用者提供貼文全文；黃士修將帳號限制與正國會、呂建德的關係連結，主張為政府部門封鎖／政治追殺。"
+      - "該因果結論屬評論主張，必須由其他證據獨立驗證。"
+
+facts:
+  - id: F001
+    statement: "使用者提供的 formosansnoopy Threads 畫面明確顯示『Content 無法在台灣顯示』，並寫明因遵守來自『Taiwan Health Promotion Authority』的法律要求而限制內容。"
+    status: verified
+    observed_at: "2026-10-15"
+    source_ids: [S001]
+    evidence_summary: "影像檔本身可直接讀取上述 UI 文句；尚未獨立驗證 Meta 後台與實際地區限制狀態。"
+    verification_notes:
+      - "驗證的是截圖內容，不是截圖來源真偽。"
+    tags: [Threads, Meta, 台灣地區限制, 使用者截圖]
+
+  - id: F002
+    statement: "Meta 公開文件說明：其『基於當地法律的地區性內容限制』通知，是在政府要求（government request）之後使用；2023年第1季並開始在特定司法轄區的通知中顯示送出 takedown request 的政府機關。"
+    status: verified
+    observed_at: "2026-10-15"
+    source_ids: [S002]
+    evidence_summary: "Meta Q1 2023 Oversight Board update 對通知機制有直接說明。"
+    tags: [Meta, government_request, local_law, content_restriction]
+
+  - id: F003
+    statement: "Meta 的台灣內容限制報告搜尋索引片段顯示，Meta 曾限制台灣境內2,500項由 Health Promotion Administration (HPA) 報告的內容。"
+    status: partial
+    observed_at: "2026-10-15"
+    source_ids: [S003]
+    evidence_summary: "直接頁面因 HTTP 429 無法取得完整內容；目前只能保存搜尋索引可見片段，期間與完整法律依據尚缺。"
+    verification_notes:
+      - "不得將此一般性統計直接歸因到 formosansnoopy 個案。"
+    tags: [Meta, Taiwan, HPA, content_restriction]
+
+  - id: F004
+    statement: "國民健康署正式英文名稱為 Health Promotion Administration (HPA)；使用者截圖顯示的是『Taiwan Health Promotion Authority』，兩者字面並不完全一致。"
+    status: verified
+    observed_at: "2026-10-15"
+    source_ids: [S001, S004]
+    evidence_summary: "國健署官方英文網站與截圖 UI 可直接對照。"
+    tags: [國民健康署, HPA, Meta_UI]
+
+  - id: F005
+    statement: "《自殺防治法》第16條禁止網路媒體教導自殺方法、教唆／誘使／煽惑自殺、詳細描述自殺方法及原因、誘導自殺等內容；第17條第2項對網路媒體的法定裁罰與移除／下架權限文字指向直轄市、縣（市）主管機關。"
+    status: verified
+    observed_at: "2026-10-15"
+    source_ids: [S005]
+    evidence_summary: "法規條文直接支持。"
+    tags: [自殺防治法, 第16條, 第17條, 下架]
+
+  - id: F006
+    statement: "台灣目前存在由 NCC 委託建置、受理衛福部主管之『網路媒體不當自殺內容』申訴平台；該平台明確以疑似違反《自殺防治法》第16條或不符自殺報導原則的內容為申訴對象。"
+    status: verified
+    observed_at: "2026-10-15"
+    source_ids: [S006]
+    evidence_summary: "申訴平台與衛福部函文均直接說明制度用途。"
+    tags: [衛福部, 心理健康司, NCC, 自殺內容申訴]
+
+  - id: F007
+    statement: "三立官方節目頁面確認《54陪審團》於2026年10月4日13:55播出；使用者提供的來賓表照片標示同日13:55至16:00並列出『前國會助理 土狗妹』。"
+    status: verified
+    observed_at: "2026-10-15"
+    source_ids: [S007, S008]
+    evidence_summary: "官方節目時間與紙本來賓表時間一致，足以支持曾有與該節目相符的來賓排程資料。"
+    verification_notes:
+      - "尚未取得三立內部通告系統或製作單位確認紙本真偽。"
+    tags: [54陪審團, 通告, 三立, formosansnoopy]
+
+  - id: F008
+    statement: "formosansnoopy 公開自述自己在《54陪審團》對稿後、進棚前被抽通告，並主張是某位同場來賓施壓；目前未取得製作單位或被指控者資料證實取消原因。"
+    status: partial
+    observed_at: "2026-10-15"
+    source_ids: [S011, S013]
+    evidence_summary: "可以確認使用者提供截圖中的本人說法；施壓者、施壓事實與因果關係仍待查。"
+    tags: [54陪審團, 抽通告, 當事人指控]
+
+  - id: F009
+    statement: "使用者提供的10月 Threads 截圖顯示 formosansnoopy 曾公開發表強烈自殺風險文字，同時指控正國會涉及性騷、霸凌與包庇。"
+    status: verified
+    observed_at: "2026-10-15"
+    source_ids: [S009]
+    evidence_summary: "截圖文字直接可見；此事實僅指她公開發表了這些內容。"
+    tags: [Threads, 自殺風險, 正國會, 公開指控]
+
+  - id: F010
+    statement: "自稱其家人與朋友的帳號公開表示曾成功阻止其輕生；本次沒有醫療、警消或其他獨立資料可交叉確認。"
+    status: partial
+    observed_at: "2026-10-15"
+    source_ids: [S010]
+    evidence_summary: "僅能確認關係人帳號的公開說法。"
+    tags: [關係人說法, 輕生, 未獨立驗證]
+
+  - id: F011
+    statement: "使用者提供的舊 Threads 截圖 UI 標示『職場霸凌 metoo 26/3/22』，內容已在10月通告爭議前公開提出正國會職場霸凌／性騷相關指控。"
+    status: partial
+    observed_at: "2026-10-15"
+    source_ids: [S012]
+    evidence_summary: "可由截圖的日期標籤與內容確認『指控非10月才首次出現』；尚未平台原始資料驗證日期。"
+    tags: [正國會, 職場霸凌, 性騷, 時間線]
+
+  - id: F012
+    statement: "formosansnoopy 後續截圖自述：她仍可登入及查看帳號，但其發文與留言無法對台灣 IP 帳號顯示。"
+    status: partial
+    observed_at: "2026-10-15"
+    source_ids: [S013]
+    evidence_summary: "這是帳號持有人本人對限制範圍的描述；尚未由獨立台灣／海外連線測試重現。"
+    tags: [Threads, Taiwan_IP, 限制範圍, 未獨立重現]
+
+  - id: F013
+    statement: "2023年鏡週刊報導，林佳龍領導的正國會新設政策中心並延攬黃郁芬為主任。"
+    status: verified
+    observed_at: "2026-10-15"
+    source_ids: [S014]
+    evidence_summary: "可支持黃郁芬與正國會的組織關係。"
+    tags: [黃郁芬, 正國會, 林佳龍]
+
+  - id: F014
+    statement: "衛福部官方履歷顯示呂建德自2024年5月起任衛福部政務次長，並曾於林佳龍任台中市長期間擔任台中市政府社會局長。"
+    status: verified
+    observed_at: "2026-10-15"
+    source_ids: [S015]
+    evidence_summary: "衛福部官方人事頁直接支持職務與經歷。"
+    tags: [呂建德, 衛福部, 林佳龍市府]
+
+  - id: F015
+    statement: "聯合新聞網2025年一篇內閣人事報導將呂建德描述為林佳龍人馬、屬民進黨正國會；此為媒體對派系歸屬的描述。"
+    status: partial
+    observed_at: "2026-10-15"
+    source_ids: [S016]
+    evidence_summary: "存在公開媒體來源支持該政治關係描述，但不是正式派系名冊或本人聲明。"
+    tags: [呂建德, 正國會, 林佳龍, 媒體描述]
+
+  - id: F016
+    statement: "10月11日前後，formosansnoopy 的自殺風險文字與正國會指控已被公開論壇轉錄，並留下 Threads share URL，顯示爭議在帳號限制前後已進入公共討論。"
+    status: partial
+    observed_at: "2026-10-15"
+    source_ids: [S017]
+    evidence_summary: "公開索引可確認轉錄與 share URL；未取得 Threads post object。"
+    tags: [Threads, PTT, 公開傳播, 時間線]
+
+  - id: F017
+    statement: "黃士修於2026年10月15日公開把 formosansnoopy 的台灣地區限制與正國會、呂建德的政治關係串聯，主張為政府部門封鎖／政治追殺。"
+    status: verified
+    observed_at: "2026-10-15"
+    source_ids: [S018]
+    evidence_summary: "使用者提供黃士修貼文全文；本事實只記錄其公開主張，不代表因果鏈已獲證明。"
+    tags: [黃士修, 公開主張, 正國會, 訊息控管]
+
+claims:
+  - id: C001
+    statement: "若 S001 截圖為真且屬 Meta 現行同類通知，該畫面所描述的地區性限制應理解為基於當地法律、在政府要求之後產生的限制通知，而不是單純一般用戶檢舉或純社群守則處分。"
+    status: supported
+    supports: [F001, F002]
+    reasoning_notes: "Meta 對這類通知的公開說明直接使用 following a government request，並說明會顯示送出 takedown request 的政府機關；但本案截圖來源仍需平台或獨立重現確認。"
+
+  - id: C002
+    statement: "S001 中的『Taiwan Health Promotion Authority』可直接認定就是衛福部國民健康署（Health Promotion Administration, HPA）。"
+    status: unresolved
+    related_facts: [F003, F004]
+    reasoning_notes: "Meta 台灣報告確有 HPA 透過內容限制管道報告內容的紀錄，增加此解釋的可能性；但 UI 名稱與國健署正式英文名稱不同，且沒有本案案件資料可完成個案對應。"
+
+  - id: C003
+    statement: "本案個別 Threads 限制要求確實由國民健康署 HPA 提出。"
+    status: unresolved
+    related_facts: [F001, F003, F004]
+    reasoning_notes: "目前只有 UI 標籤與 HPA 一般性 Meta 報告紀錄，缺案件編號、Meta 個案通知明細或 HPA 公文。"
+
+  - id: C004
+    statement: "本案限制的法律依據就是《自殺防治法》第16條／第17條。"
+    status: unresolved
+    related_facts: [F005, F006, F009]
+    reasoning_notes: "存在與自殺內容相關的既存法制及申訴機制，且帳號貼文確有自殺風險文字；但 S001 沒有顯示法條，現有資料也沒有案件公文。第17條網路媒體處分權文字另指向地方主管機關，不能僅憑衛生機關標籤推定法源與權限鏈。"
+
+  - id: C005
+    statement: "政府要求造成的是 formosansnoopy 整個帳號、所有貼文與留言在台灣全面不可見，而非個別內容限制。"
+    status: unresolved
+    related_facts: [F001, F012]
+    reasoning_notes: "截圖呈現帳號頁面層級的 Content 無法在台灣顯示，帳號本人亦稱發文與留言均對台灣IP不可見；但尚缺多組台灣／海外連線測試、Meta 限制通知明細或 URL 清單。"
+
+  - id: C006
+    statement: "《54陪審團》取消 formosansnoopy 通告，是由正國會的同場來賓施壓造成。"
+    status: unresolved
+    related_facts: [F007, F008]
+    reasoning_notes: "有排程相符的來賓表，且當事人持續如此指控；目前沒有製作單位、同場來賓或通聯紀錄證明取消原因。"
+
+  - id: C007
+    statement: "黃郁芬對 formosansnoopy 實施性騷／霸凌，且正國會高層吃案。"
+    status: unresolved
+    related_facts: [F009, F011, F013]
+    reasoning_notes: "可確認指控存在且時間上早於10月爭議，也可確認黃郁芬與正國會的組織關係；尚缺調查、判決、第三方證詞或被指控方資料證明事件本身。"
+
+  - id: C008
+    statement: "呂建德或正國會人士介入衛福部／國健署處理流程，促成 Meta 對 formosansnoopy 的台灣地區限制。"
+    status: unsupported
+    related_facts: [F013, F014, F015, F017]
+    reasoning_notes: "目前只有人物／派系關係與時間序列，沒有任何通聯、公文、案件流程、指示紀錄或證人可把政治關係接到個案處理決定。"
+
+  - id: C009
+    statement: "現有證據已足以證明這是為壓制政治爆料而進行的政治性訊息控管。"
+    status: unresolved
+    related_facts: [F001, F002, F005, F006, F009, F012, F016]
+    reasoning_notes: "政府連結的地區性限制已有值得查明的具體跡象；但同時存在自殺風險內容與既存申訴法制的替代解釋。需要知道被送審的具體 URL、法源、限制範圍與決策鏈，才能判斷政治內容是否被當作目標或過度波及。"
+
+  - id: C010
+    statement: "單一 formosansnoopy 個案已足以證明台灣目前是獨裁體制。"
+    status: unsupported
+    related_facts: [F001, F002]
+    reasoning_notes: "『獨裁體制』是制度層級結論，需要選舉競爭、權力更替、司法與媒體獨立、公民組織空間、系統性壓制等更廣泛證據；單一內容限制個案不足以完成此推論。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-15"
+    platform: web
+    query: "site:about.fb.com following a government request local law content restriction notification government authority takedown request"
+    scope: "Meta 官方文件"
+    result: found
+    notes: "找到 Meta Q4 2022 / Q1 2023 Oversight Board updates，明確說明通知機制與 government request。"
+
+  - id: Q002
+    observed_at: "2026-10-15"
+    platform: web
+    query: "site:transparency.meta.com/reports/content-restrictions/country/TW Health Promotion Administration 2,500 items"
+    scope: "Meta Taiwan content restrictions report"
+    result: partial
+    notes: "搜尋索引找到 HPA 與2,500項限制片段，但直接頁面回 HTTP 429，完整期間與法源未取得。"
+
+  - id: Q003
+    observed_at: "2026-10-15"
+    platform: web
+    query: "site:hpa.gov.tw Health Promotion Administration official English name"
+    scope: "國健署官方網站"
+    result: found
+    notes: "確認正式英文名稱 Health Promotion Administration (HPA)。"
+
+  - id: Q004
+    observed_at: "2026-10-15"
+    platform: web
+    query: "site:law.moj.gov.tw 自殺防治法 第16條 第17條"
+    scope: "全國法規資料庫"
+    result: found
+    notes: "確認第16、17條文字與主管機關層級。"
+
+  - id: Q005
+    observed_at: "2026-10-15"
+    platform: web
+    query: "網路媒體不當自殺內容 申訴 平臺 衛福部 心理健康司 NCC 114年3月14日"
+    scope: "政府／受委託申訴平台"
+    result: found
+    notes: "確認現行申訴平台與衛福部主管關係及2025年3月移轉。"
+
+  - id: Q006
+    observed_at: "2026-10-15"
+    platform: web
+    query: "site:tonytest.settv.com.tw/Live/4435/25207 54陪審團 20261004 13:55"
+    scope: "三立官方節目頁"
+    result: found
+    notes: "確認2026/10/04 13:55節目存在。"
+
+  - id: Q007
+    observed_at: "2026-10-15"
+    platform: web
+    query: "黃郁芬 正國會 政策中心 主任 林佳龍 2023"
+    scope: "公開新聞"
+    result: found
+    notes: "找到鏡週刊2023年正國會改組報導。"
+
+  - id: Q008
+    observed_at: "2026-10-15"
+    platform: web
+    query: "呂建德 衛福部 政務次長 正國會 林佳龍"
+    scope: "衛福部官方＋公開新聞"
+    result: found
+    notes: "官方資料確認職務與台中市府經歷；聯合報提供正國會派系描述。"
+
+  - id: Q009
+    observed_at: "2026-10-15"
+    platform: web
+    query: "formosansnoopy 我好像快要撐不下去了 正國會 Threads"
+    scope: "公開網頁與搜尋索引"
+    result: partial
+    notes: "找到10月11日論壇轉錄與 Threads share URL BAay1QIzLJ；本工具無法直接讀取 Threads share URL，因此平台原文未獨立擷取。"
+
+  - id: Q010
+    observed_at: "2026-10-15"
+    platform: web
+    query: "\"Content 無法在台灣顯示\" \"Taiwan Health Promotion Authority\""
+    scope: "公開搜尋索引"
+    result: not_found
+    notes: "本次查詢未找到可獨立重現 formosansnoopy 個案限制畫面的索引來源；不代表限制從未存在。"
+
+promotion:
+  cases:
+    - "formosansnoopy Threads 台灣地區內容限制"
+  comparators:
+    - "Meta Taiwan Content Restrictions：HPA 一般性內容限制通報紀錄"
+  research:
+    - "向 Meta／HPA／衛福部／NCC 確認 Taiwan Health Promotion Authority 在 UI 中對應的法律實體。"
+    - "取得本案 Meta government request / takedown request 的日期、案件編號、送件機關、法律依據與被要求限制的 URL 清單。"
+    - "確認本案是否經『落實網路防護機制申訴系統服務平臺』受理、轉介，以及申訴人身分是否依法可公開。"
+    - "以台灣與海外 IP 對相同帳號／貼文／留言做同時測試，確認限制是個別 URL、帳號頁面或帳號全部內容。"
+    - "向三立／54陪審團製作單位取得10/04通告與取消紀錄，確認取消時間、理由及是否有來賓施壓。"
+    - "尋找正國會／黃郁芬對職場霸凌與性騷指控的正式回應、內部處理文件或外部調查資料。"
+
+notes:
+  - "本 session 嚴格區分：『有政府連結的內容限制跡象』與『政治人物指揮政府封殺』是兩個不同命題。"
+  - "目前最強證據鏈是 S001 + S002：若截圖為真，Meta 自身文件支持將這類 UI 理解為基於當地法律、following a government request 的地區性限制通知。"
+  - "S003 只證明 HPA 曾一般性使用 Meta 的台灣內容限制通報管道，不能直接證明本案就是 HPA。"
+  - "自殺風險內容與既存自殺內容申訴制度是必須排除的替代解釋；不能因政治人物／派系關係就省略這一步。"
+  - "人物關係是調查線索，不是因果證據。"
+  - "評論可討論政府訊息控管的透明度、比例原則與監督門檻；不得把 C003、C004、C005、C006、C007、C008、C009 當成已證實事實。"
