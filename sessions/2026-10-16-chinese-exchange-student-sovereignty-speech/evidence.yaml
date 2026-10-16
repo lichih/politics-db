@@ -1,0 +1,400 @@
+session:
+  id: "2026-10-16-chinese-exchange-student-sovereignty-speech"
+  project: Politics
+  title: "中國交換生政治表意遭驅逐及五年禁入：對等尊嚴、裁量基準與民進黨既有公開標準"
+  started_at: "2026-10-16T19:26:00+08:00"
+  updated_at: "2026-10-16T19:39:56+08:00"
+  status: active
+
+topics:
+  - "中國交換生"
+  - "言論自由"
+  - "對等尊嚴原則"
+  - "驅逐出境"
+  - "五年禁入"
+  - "民進黨"
+  - "台獨黑名單"
+  - "兩岸交流"
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "內政部移民署"
+    title: "中國交換生於網路社群發表不當言論 移民署：已依法廢證並驅逐出境"
+    url: "https://www.immigration.gov.tw/5385/7229/7238/419903/"
+    published_at: "2026-10-16"
+    observed_at: "2026-10-16"
+    retrieval_status: reachable
+    notes:
+      - "移民署稱王姓交換生發布總統出席活動側錄影片並標註『主張消滅我國主權之文字』，認定違背對等尊嚴原則並引發社會紛擾，廢止入境許可、驅逐出境，並管制五年不予許可來臺。"
+      - "新聞稿未公開個案處分書全文，也未具體說明五年管制相較較短期間的個別化裁量理由。"
+
+  - id: S002
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "交換生手捏賴總統遭驅逐 台大：言論自由應兼顧尊重"
+    url: "https://www.cna.com.tw/news/ahel/202610160270.aspx"
+    published_at: "2026-10-16"
+    observed_at: "2026-10-16"
+    retrieval_status: reachable
+    notes:
+      - "報導列出貼文文字，包括『小小賴清德拿下』及『兩岸統一』『台灣是中國不可分割的一部分』『台灣是中國的』『堅持一個中國原則』等標籤。"
+      - "台大表示該生為國際姊妹校交換生，已於10月16日離境，並重申重視言論自由、開放多元及相互尊重。"
+
+  - id: S003
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "台大陸生遭驅逐出境 海基會：盼勿影響交換生計畫"
+    url: "https://www.cna.com.tw/news/acn/202610160274.aspx"
+    published_at: "2026-10-16"
+    observed_at: "2026-10-16"
+    retrieval_status: reachable
+    notes:
+      - "報導稱當事人後來撤下貼文並發表道歉聲明；本次未取得道歉聲明原始頁面。"
+      - "海基會秘書長羅文嘉在移民署公布處分前表示，台灣是自由民主社會，任何人都有言論表達自由，但陸籍人士在臺仍須遵守相關規定並尊重台灣民主自由制度。"
+
+  - id: S004
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "大陸地區人民進入臺灣地區許可辦法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=Q0060002"
+    observed_at: "2026-10-16"
+    retrieval_status: reachable
+    notes:
+      - "第12條第1項第15款列『從事違背對等尊嚴原則之不當行為』為得不予許可、撤銷或廢止許可事由。"
+      - "第14條對第12條第1項第14款至第16款等情形，規定得於1年至5年內不予許可申請進入臺灣地區。"
+
+  - id: S005
+    source_type: primary
+    publisher: "行政院公報／內政部"
+    title: "大陸地區人民申請進入臺灣地區不予許可期間處理原則修正規定"
+    url: "https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg025144/ch02/type2/gov10/num1/Eg.htm"
+    published_at: "2019-08-01"
+    observed_at: "2026-10-16"
+    retrieval_status: reachable
+    notes:
+      - "內政部明載本處理原則係為執行許可辦法第14條並『統一認定基準』。"
+      - "第2點第5款規定：從事違背對等尊嚴原則之不當行為，二年不予許可；再次從事者，五年不予許可。"
+
+  - id: S006
+    source_type: primary
+    publisher: "內政部移民署"
+    title: "行政規則、各類公告及函(令)釋"
+    url: "https://www.immigration.gov.tw/5382/5385/396729/396134/396165/"
+    observed_at: "2026-10-16"
+    retrieval_status: reachable
+    notes:
+      - "移民署現行行政規則列表仍列有2019年8月1日『大陸地區人民申請進入臺灣地區不予許可期間處理原則』。"
+
+  - id: S007
+    source_type: primary
+    publisher: "大陸委員會"
+    title: "陸委會重申中國大陸人士來台從事各項活動，不得有從事損害我方主權、矮化台灣及違反我國法令之行為，違者將依相關規定處置"
+    url: "https://www.mac.gov.tw/News_Content.aspx?n=A0A73CF7630B1B26&s=071382723982886D&sms=B69F3267D6C0F22D"
+    published_at: "2024-10-03"
+    observed_at: "2026-10-16"
+    retrieval_status: reachable
+    notes:
+      - "針對2名中國人士於西門町滋擾港人活動並發生衝突案，陸委會表示其同時涉及『違背對等尊嚴原則』及『原申請事由或目的消失』，遭廢止入境許可並強制出境。"
+      - "陸委會另明言，中國大陸人士入境後『不得發表對台灣自主地位有害之言論』。"
+
+  - id: S008
+    source_type: primary
+    publisher: "民主進步黨"
+    title: "中共片面宣布制裁台獨份子 民進黨：毫無意義！更看清中共政權的獨裁嘴臉！"
+    url: "https://www.dpp.org.tw/media/contents/10073"
+    published_at: "2022-08-16"
+    observed_at: "2026-10-16"
+    retrieval_status: reachable
+    notes:
+      - "民進黨稱中共對『台獨頑固分子』制裁是片面施加莫須有指控、意在造成寒蟬效應，並稱『中共當局無權對台灣人民與民主進行制裁』。"
+
+  - id: S009
+    source_type: primary
+    publisher: "民主進步黨"
+    title: "中國國台辦設『懲獨專區』與『舉報信箱』 民進黨：中共『惡言惡行』無助兩岸關係正向發展"
+    url: "https://www.dpp.org.tw/content_print/media/10915"
+    published_at: "2024-08-07"
+    observed_at: "2026-10-16"
+    retrieval_status: reachable
+    notes:
+      - "民進黨稱中共沒有權力『懲治』堅持民主自由的台灣人民，並稱『懲獨22條』及懲獨專區會製造、升高寒蟬效應。"
+
+  - id: S010
+    source_type: primary
+    publisher: "民主進步黨"
+    title: "沈伯洋遭中國立案調查 民進黨：中國無權干涉台灣人民 紅色恐怖破壞兩岸和平"
+    url: "https://www.dpp.org.tw/content_print/media/11352"
+    published_at: "2025-10-28"
+    observed_at: "2026-10-16"
+    retrieval_status: reachable
+    notes:
+      - "民進黨稱中國對台灣人民沒有管轄權，將沈伯洋列為台獨頑固份子並立案偵查是『企圖以政治手段恐嚇台灣人民』。"
+
+  - id: S011
+    source_type: primary
+    publisher: "民主進步黨"
+    title: "7/1中國惡法『支持統一』成義務 民進黨：拒絕以團結之名實行長臂管轄與跨國鎮壓"
+    url: "https://www.dpp.org.tw/content_print/media/11647"
+    published_at: "2026-07-01"
+    observed_at: "2026-10-16"
+    retrieval_status: reachable
+    notes:
+      - "民進黨批評中國法律『概念模糊、標準任意』，若不符合官方政治敘事即可違法，等同將思想審查法律化。"
+      - "民進黨明確把『被限制入境』列為可製造寒蟬效應的制裁方式之一，並稱台灣價值是多元自由，每個人都可有不同政治立場。"
+
+  - id: S012
+    source_type: primary
+    publisher: "民主進步黨"
+    title: "〖闢謠〗中國視交流為統戰之一 沈伯洋：建法律依據、管理機制"
+    url: "https://www.dpp.org.tw/anti_rumor/puma/fact-check-11"
+    published_at: "2026-06-16"
+    observed_at: "2026-10-16"
+    retrieval_status: reachable
+    notes:
+      - "民進黨替沈伯洋澄清時稱，其主張建立法律依據與管理機制，使執法單位得依法行政，『而非以空泛理由限制交流』。"
+
+  - id: S013
+    source_type: primary
+    publisher: "中華人民共和國最高人民法院／最高人民檢察院等五部門"
+    title: "關於依法懲治『台獨』頑固分子分裂國家、煽動分裂國家犯罪的意見"
+    url: "https://www.spp.gov.cn/xwfbh/wsfbt/202406/t20240621_657405.shtml"
+    published_at: "2024-06-21"
+    observed_at: "2026-10-16"
+    retrieval_status: reachable
+    notes:
+      - "中方文件以維護『國家主權、統一和領土完整』為總體理由。"
+      - "第7點把『頑固宣揚台獨分裂主張及其分裂行動綱領、計畫、方案』列為煽動分裂國家罪的具體情形之一。"
+
+facts:
+  - id: F001
+    statement: "本案當事人的公開貼文不只有『小小賴清德拿下』，亦包含『兩岸統一』『台灣是中國不可分割的一部分』『台灣是中國的』『堅持一個中國原則』等政治文字。"
+    status: verified
+    observed_at: "2026-10-16"
+    source_ids: [S002, S003]
+    evidence_summary: "中央社兩篇報導均列出相關貼文文字；因此不能把本案事實主體縮減為單一句網路用語。"
+    tags: ["完整事實", "統一主張", "貼文"]
+
+  - id: F002
+    statement: "移民署對本案的公開理由，是當事人標註『主張消滅我國主權之文字』，其行為被認定違背對等尊嚴原則並引發社會紛擾，而非只因『小小賴清德拿下』一句。"
+    status: verified
+    observed_at: "2026-10-16"
+    source_ids: [S001]
+    evidence_summary: "移民署2026年10月16日新聞稿直接載明處分理由。"
+    tags: ["移民署", "處分理由", "對等尊嚴", "主權"]
+
+  - id: F003
+    statement: "移民署已廢止王姓交換生入境許可、驅逐出境，並管制五年內不予許可申請來臺。"
+    status: verified
+    observed_at: "2026-10-16"
+    source_ids: [S001, S003]
+    evidence_summary: "移民署新聞稿及中央社均確認處分結果。"
+    tags: ["驅逐", "五年禁入"]
+
+  - id: F004
+    statement: "現行《大陸地區人民進入臺灣地區許可辦法》第12條第1項第15款以『從事違背對等尊嚴原則之不當行為』作為得不予許可、撤銷或廢止許可的事由；第14條對相關情形規定1年至5年的不予許可期間。"
+    status: verified
+    observed_at: "2026-10-16"
+    source_ids: [S004]
+    evidence_summary: "全國法規資料庫現行條文可直接核對。"
+    tags: ["法源", "第12條", "第14條"]
+
+  - id: F005
+    statement: "內政部2019年公布、為『統一認定基準』而訂的《大陸地區人民申請進入臺灣地區不予許可期間處理原則》規定：第一次從事違背對等尊嚴原則之不當行為為二年不予許可，再次從事者為五年。"
+    status: verified
+    observed_at: "2026-10-16"
+    source_ids: [S005]
+    evidence_summary: "行政院公報所載處理原則第1點說明目的為統一認定基準，第2點第5款明列2年／再次5年。"
+    tags: ["裁量基準", "二年", "五年", "再犯"]
+
+  - id: F006
+    statement: "截至2026年10月16日，移民署官網現行『行政規則、各類公告及函(令)釋』列表仍列有2019年《大陸地區人民申請進入臺灣地區不予許可期間處理原則》。"
+    status: verified
+    observed_at: "2026-10-16"
+    source_ids: [S006]
+    evidence_summary: "移民署現行行政規則索引頁仍可見該處理原則。這只能確認目前仍被官網列示，不能單憑列表推定其對本案的全部法律適用結論。"
+    tags: ["行政規則", "現行列表"]
+
+  - id: F007
+    statement: "移民署2026年10月16日公開新聞稿沒有說明為何本案選擇五年管制而非較短期間，也沒有公開個案處分書全文。"
+    status: verified
+    observed_at: "2026-10-16"
+    source_ids: [S001]
+    evidence_summary: "新聞稿只公布五年管制結果與概括理由，未載個別化期間選擇理由；本次查核亦未取得處分書全文。"
+    verification_notes:
+      - "此事實只描述目前公開新聞稿內容，不等於正式處分書或內部會商紀錄一定沒有更完整理由。"
+    tags: ["資訊缺口", "比例原則", "五年"]
+
+  - id: F008
+    statement: "當事人後來撤下貼文並發表道歉聲明，但本次查核尚未取得該道歉聲明的原始頁面。"
+    status: partial
+    observed_at: "2026-10-16"
+    source_ids: [S003]
+    evidence_summary: "中央社明確報導撤文與道歉；因未取得原始聲明，保留為partial。"
+    tags: ["撤文", "道歉"]
+
+  - id: F009
+    statement: "2024年陸委會曾在西門町滋擾港人活動並發生衝突的案件中，以『違背對等尊嚴原則』及另一項入境事由消失為由驅逐兩名中國人士，並公開表示中國大陸人士入境後『不得發表對台灣自主地位有害之言論』。"
+    status: verified
+    observed_at: "2026-10-16"
+    source_ids: [S007]
+    evidence_summary: "陸委會2024年10月3日說明資料直接載明。該案同時包含現場滋擾、衝突與入境事由問題，不能作為純言論案件的一對一比較。"
+    tags: ["既往案例", "對等尊嚴", "主權言論"]
+
+  - id: F010
+    statement: "民進黨2022年批評中共制裁『台獨頑固分子』是在片面施加指控、製造寒蟬效應，並主張中共無權對台灣人民與民主進行制裁。"
+    status: verified
+    observed_at: "2026-10-16"
+    source_ids: [S008]
+    evidence_summary: "民進黨中央官網新聞稿直接記載。"
+    tags: ["民進黨", "台獨黑名單", "寒蟬效應"]
+
+  - id: F011
+    statement: "民進黨2024年批評中共『懲獨22條』與『懲獨專區』會製造寒蟬效應，並稱中共沒有權力『懲治』堅持民主自由的台灣人民。"
+    status: verified
+    observed_at: "2026-10-16"
+    source_ids: [S009]
+    evidence_summary: "民進黨中央官網2024年8月7日新聞稿直接記載。"
+    tags: ["民進黨", "懲獨22條", "寒蟬效應"]
+
+  - id: F012
+    statement: "民進黨2025年就沈伯洋被中國以『台獨頑固份子』『分裂國家』立案偵查一事，稱中國無權干涉台灣人民，並將其定性為『企圖以政治手段恐嚇台灣人民』。"
+    status: verified
+    observed_at: "2026-10-16"
+    source_ids: [S010]
+    evidence_summary: "民進黨中央官網2025年10月28日新聞稿直接記載。"
+    tags: ["民進黨", "沈伯洋", "政治手段"]
+
+  - id: F013
+    statement: "民進黨2026年7月批評中國以模糊概念要求接受單一政治敘事，稱『概念模糊、標準任意』會把思想審查法律化，並把『被限制入境』列為可造成寒蟬效應的制裁方式之一。"
+    status: verified
+    observed_at: "2026-10-16"
+    source_ids: [S011]
+    evidence_summary: "民進黨中央官網2026年7月1日新聞稿直接記載。"
+    tags: ["民進黨", "模糊標準", "限制入境", "寒蟬效應"]
+
+  - id: F014
+    statement: "同一份2026年7月民進黨新聞稿主張，台灣的價值是多元、自由與彼此尊重，『每個人都可以擁有不同的身分認同、歷史觀點與政治立場』。"
+    status: verified
+    observed_at: "2026-10-16"
+    source_ids: [S011]
+    evidence_summary: "民進黨中央官網原文可直接核對。"
+    tags: ["民進黨", "政治立場", "多元自由"]
+
+  - id: F015
+    statement: "民進黨2026年6月替沈伯洋澄清兩岸交流立場時，明確主張建立法律依據與管理機制，使執法單位得依法行政，『而非以空泛理由限制交流』。"
+    status: verified
+    observed_at: "2026-10-16"
+    source_ids: [S012]
+    evidence_summary: "民進黨中央官網闢謠頁面兩度以相同文字表述。"
+    tags: ["民進黨", "依法行政", "空泛理由", "限制交流"]
+
+  - id: F016
+    statement: "中國2024年『兩高三部』懲治台獨意見，以維護國家主權、統一和領土完整為總體理由，並把『頑固宣揚台獨分裂主張』列為煽動分裂國家罪的具體情形之一。"
+    status: verified
+    observed_at: "2026-10-16"
+    source_ids: [S013]
+    evidence_summary: "中國最高檢等五部門公開文件可直接核對；此處僅記錄中方制度與自我正當化理由，不認可其對台灣的管轄權主張。"
+    tags: ["中國", "懲獨22條", "主權", "政治表意"]
+
+claims:
+  - id: C001
+    statement: "本案處分只是因政府誤解『小小賴清德拿下』這句中國網路用語。"
+    status: contradicted
+    contradicts: [F001, F002]
+    reasoning_notes: "官方公開理由及貼文完整內容都涵蓋統一／主權文字，因此不能把案件縮減成單一句網路梗的語意誤讀。"
+
+  - id: C002
+    statement: "本案公開處分理由把當事人的主權／統一政治表意本身納入『違背對等尊嚴原則』的處分基礎。"
+    status: supported
+    supports: [F001, F002, F003]
+    reasoning_notes: "移民署明文以『主張消滅我國主權之文字』描述其行為並據此認定違背對等尊嚴。"
+
+  - id: C003
+    statement: "目前公開資料已具體說明當事人除政治表意外造成何種可辨識的實害，足以證成驅逐出境的必要性。"
+    status: unresolved
+    related_facts: [F002, F007, F008]
+    reasoning_notes: "移民署僅公開寫『引發社會紛擾』及維護國安、社會安定、交流秩序，尚未取得處分書或更具體危害事實。不能因此推定不存在更完整理由。"
+
+  - id: C004
+    statement: "本案五年禁入已有公開、個別化的期間選擇理由。"
+    status: unresolved
+    related_facts: [F003, F005, F006, F007]
+    reasoning_notes: "公開新聞稿未說明為何選擇五年；2019處理原則文字則是第一次2年、再次5年。仍須取得正式處分書、確認當事人是否有先前同類紀錄，並確認該處理原則在本案的具體適用關係。"
+
+  - id: C005
+    statement: "2019年《不予許可期間處理原則》目前仍對本案有拘束力，因此本案若屬第一次『違背對等尊嚴』，五年管制即當然違法。"
+    status: unresolved
+    related_facts: [F004, F005, F006, F007]
+    reasoning_notes: "可以確認處理原則文本存在且仍列於移民署現行行政規則頁，但尚未取得本案正式處分書及主管機關對其適用／例外的說明，不應提前下違法結論。"
+
+  - id: C006
+    statement: "民進黨過去公開建立的原則包括：反對以模糊政治標準要求接受單一政治敘事、反對藉限制入境等方式製造寒蟬效應、主張人民可以有不同政治立場，並主張兩岸交流管制不應使用空泛理由。"
+    status: supported
+    supports: [F010, F011, F012, F013, F014, F015]
+    reasoning_notes: "上述原則均可由民進黨中央官網原文直接支持；至於這些原則在大陸地區交換生入境／停留制度上應如何適用，屬後續規範性論證。"
+
+  - id: C007
+    statement: "若本案最終可確認重大不利益處分的充分理由僅是『主張統一／否定我國主權』這種政治立場本身，將與民進黨過去反對以單一主權政治敘事作為制裁理由的公開原則形成一致性問題。"
+    status: unresolved
+    related_facts: [F002, F003, F010, F011, F012, F013, F014, F015, F016]
+    reasoning_notes: "此為待建立的評論論證，關鍵前提仍缺正式處分書、具體危害認定、必要性與五年期間裁量理由；不得在證據層提前寫成確定結論。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-16"
+    platform: web
+    query: "小小賴清德拿下 五年 移民署 處分書 2026 交換生"
+    scope: "移民署、陸委會、中央社及公開網頁"
+    result: partial
+    notes: "找到移民署新聞稿與中央社報導，但此次查詢未找到可公開取得的正式個案處分書全文或五年期間的個別化裁量說明。not_found不等於文件不存在。"
+
+  - id: Q002
+    observed_at: "2026-10-16"
+    platform: web
+    query: "大陸地區人民申請進入臺灣地區不予許可期間處理原則 對等尊嚴 二年 五年"
+    scope: "行政院公報、移民署、全國法規資料庫"
+    result: found
+    notes: "找到2019年內政部處理原則：第一次違背對等尊嚴2年，再次5年；移民署現行行政規則索引仍列該文件。"
+
+  - id: Q003
+    observed_at: "2026-10-16"
+    platform: web
+    query: "違背對等尊嚴原則 驅逐 言論 主權 陸委會"
+    scope: "陸委會、移民署既往公開案例"
+    result: found
+    notes: "找到2024年西門町港人活動衝突案；該案同時存在現場滋擾衝突及入境事由消失，不能當作純政治言論案例直接類比。"
+
+  - id: Q004
+    observed_at: "2026-10-16"
+    platform: web
+    query: "民進黨 台獨頑固分子 懲獨專區 寒蟬效應 限制入境 空泛理由限制交流"
+    scope: "民主進步黨中央官網 2022-2026"
+    result: found
+    notes: "找到2022制裁台獨份子、2024懲獨專區、2025沈伯洋立案、2026民族團結法與兩岸交流闢謠等原始黨中央資料。"
+
+  - id: Q005
+    observed_at: "2026-10-16"
+    platform: web
+    query: "中國 兩高三部 台獨頑固分子 分裂國家 煽動分裂國家 2024"
+    scope: "中國最高人民法院、最高人民檢察院等官方網站"
+    result: found
+    notes: "找到2024年22條意見；確認官方以國家主權、統一、領土完整為理由，並將頑固宣揚台獨主張納入煽動分裂國家罪。"
+
+promotion:
+  cases:
+    - "中國交換生政治表意遭驅逐及五年禁入案"
+  comparators:
+    - "2024年西門町中國人士滋擾港人活動遭驅逐案"
+    - "2019年李毅武統言論及觀光事由不符遭強制出境案"
+  research:
+    - "取得王姓交換生正式行政處分書及送達資料，確認全部法律依據、事實認定與五年管制理由。"
+    - "確認2019年《大陸地區人民申請進入臺灣地區不予許可期間處理原則》在2026年本案的現行效力、拘束方式、例外與主管機關實務。"
+    - "查找更多僅涉及政治表意、未伴隨暴力、現場滋擾、目的不符或其他違規的『對等尊嚴』既往案例。"
+    - "確認本案所稱『引發社會紛擾』的具體事實內容，以及驅逐措施與五年禁入的必要性、比例性評估。"
+    - "追蹤當事人是否提起訴願或行政訴訟及後續裁判。"
+
+notes:
+  - "本案自己的證據版本不採用『政府誤解中國網路梗』作核心論證；完整保留當事人統一／主權文字，集中檢驗重大行政不利益的具體危害、必要性、期間裁量與民進黨既有公開標準的一致性。"
+  - "中國懲獨制度的強度、法域主張與台灣入境／停留處分不同；比較時只針對『主權政治立場能否本身成為國家制裁理由』的論證結構，不把兩者具體手段等同。"
+  - "重大違法或濫權定性目前均保留；正式處分書、裁量基準適用及具體危害事實未補齊前，維持unresolved。"
