@@ -1,0 +1,325 @@
+session:
+  id: 2026-10-17-tsai-kang-yong-jiang-framing
+  project: Politics
+  title: "蔡康永出席蔣萬安競總事件：黑西裝、賈永婕服儀爭議與「京都人」解讀"
+  started_at: "2026-10-17T22:06:00+08:00"
+  updated_at: "2026-10-17T22:06:00+08:00"
+  status: active
+
+topics:
+  - 蔡康永
+  - 蔣萬安
+  - 賈永婕
+  - 賴惠員
+  - 沈伯洋
+  - 黑西裝
+  - 京都人
+  - 媒體框架
+  - 社群解讀
+  - 2026台北市長選舉
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "立法院議事轉播 IVOD"
+    title: "第11屆第6會期財政委員會第2次全體委員會議：賴惠員委員發言片段"
+    url: "https://ivod.ly.gov.tw/Play/Clip/300K/171264"
+    published_at: "2026-10-14"
+    observed_at: "2026-10-17T22:06:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方頁面確認2026-10-14財政委員會會議與賴惠員發言時段。"
+
+  - id: S002
+    source_type: secondary
+    publisher: "TVBS"
+    title: "影音／遭綠委要求「穿搭應純樸」　賈永婕喊「錯愕」：制服哪買　賴惠員道歉"
+    url: "https://news.tvbs.com.tw/politics/4036141"
+    published_at: "2026-10-14"
+    observed_at: "2026-10-17T22:06:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導與影音保存賴惠員對賈永婕說「下次請穿得跟我們一樣，一樣的這個純樸」，賈永婕當場回應；賴惠員傍晚道歉。"
+
+  - id: S003
+    source_type: secondary
+    publisher: "中央社"
+    title: "蔣萬安競總26日成立　蔡康永受邀出席不上台、稱穿黑西裝以表重視"
+    url: "https://www.cna.com.tw/news/amov/202610150105.aspx"
+    published_at: "2026-10-15"
+    observed_at: "2026-10-17T22:06:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "引述蔡康永10月15日社群文字：將到蔣萬安競總觀摩、不上台歌舞，並稱「有鑑於近日政壇忽然追求服裝儀容的端莊肅穆，因此康永將穿黑色西裝前往，以表重視」。"
+
+  - id: S004
+    source_type: secondary
+    publisher: "TVBS"
+    title: "蔡康永宣布「穿黑西裝」赴蔣萬安競總！賈永婕發聲了"
+    url: "https://news.tvbs.com.tw/entertainment/4036744"
+    published_at: "2026-10-16"
+    observed_at: "2026-10-17T22:06:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導把蔡康永「端莊肅穆／黑色西裝」與前一日賈永婕在立院遭評論穿著事件連結。"
+      - "賈永婕本人並在蔡貼文下留言「哈哈哈，不要啦，要穿最閃亮的」。"
+
+  - id: S005
+    source_type: secondary
+    publisher: "Newtalk"
+    title: "蔡康永穿黑西裝赴蔣萬安競總！網友笑問「參加告別式？」賈永婕急喊：不要啦"
+    url: "https://newtalk.tw/news/view/2026-10-15/1065715"
+    published_at: "2026-10-15"
+    observed_at: "2026-10-17T22:06:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "同時記錄兩種外界詮釋：一是服裝文字呼應賈永婕事件；二是部分網友把黑西裝聯想到告別式。"
+      - "報導記錄政治工作者周軒轉發並稱「蔡康永示範了什麼叫做京都式的禮貌」。"
+      - "報導明確指出蔡康永本人並未明言黑西裝另有政治寓意。"
+
+  - id: S006
+    source_type: secondary
+    publisher: "鏡報"
+    title: "蔡康永發文提「京都人」、「掛掉了」 網笑「一語雙關」：說話藝術的巔峰"
+    url: "https://www.mirrordaily.news/story/92091"
+    published_at: "2026-10-17"
+    observed_at: "2026-10-17T22:06:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "保存蔡康永10月16日晚間「有人打電話來找京都人／對方就把電話掛掉了／現在只剩下嘟嘟嘟」貼文內容。"
+      - "報導把「暗酸蔣萬安」標示為網友解讀，而非蔡本人明說。"
+
+  - id: S007
+    source_type: secondary
+    publisher: "2026市長官方來源觀測站"
+    title: "沈伯洋（臺北市）官方來源觀測頁"
+    url: "https://mayor2026.observe.tw/taipei/shen-poyang/"
+    published_at: "2026-10-17"
+    observed_at: "2026-10-17T22:06:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "頁面保存沈伯洋10月16日11:01、11:21發布「我知道嘟嘟嘟是什麼了。詐騙很壞，你們不要相信。嘟嘟嘟～」的時間。"
+
+  - id: S008
+    source_type: secondary
+    publisher: "TVBS"
+    title: "蔣萬安才稱「沒邀他上台」！蔡康永突發聲　網友：他很壞嘟嘟嘟"
+    url: "https://news.tvbs.com.tw/entertainment/variety/4037188"
+    published_at: "2026-10-16"
+    observed_at: "2026-10-17T22:06:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "發布時間21:57，保存蔡康永當晚「京都人／掛掉了／嘟嘟嘟」文本並記錄網友把它連結到政治情境。"
+
+  - id: S009
+    source_type: secondary
+    publisher: "Newtalk"
+    title: "「嘟嘟嘟」傷害人？ 蔡康永：一篇玩笑小文字，我已刪除"
+    url: "https://newtalk.tw/news/view/2026-10-17/1066096"
+    published_at: "2026-10-17"
+    observed_at: "2026-10-17T22:06:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "引述蔡康永10月17日後續說明：請別再用此事打擾蔣萬安；蔣一直充滿善意讓他參加活動，他會很感榮幸去參加；上一則是「玩笑小文字」，大家「各自望文生義」。"
+
+  - id: S010
+    source_type: secondary
+    publisher: "Dailymotion／新聞受訪片段轉錄"
+    title: "蔣萬安10月9日受訪片段：媒體問是否與蔡康永一起唱歌"
+    url: "https://www.dailymotion.com/video/xbk93sm"
+    published_at: "2026-10-09"
+    observed_at: "2026-10-17T22:06:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "逐字轉錄顯示，記者問「會跟他一起唱歌嗎」，蔣萬安答「我們一定會邀請他來我們競總成立，然後安排搖滾區」，未直接回答會一起唱歌。"
+
+  - id: S011
+    source_type: secondary
+    publisher: "中央社"
+    title: "蔣萬安公布競選曲「台北安可」　競總10/26成立邀民眾參與"
+    url: "https://www.cna.com.tw/news/aloc/202610090166.aspx"
+    published_at: "2026-10-09"
+    observed_at: "2026-10-17T22:06:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "中央社記錄蔣萬安表示一定會邀蔡康永並安排搖滾區；另稱競總成立當天歡迎市民及支持者一起歡唱主題曲。"
+
+facts:
+  - id: F001
+    statement: "2026年10月14日，台北101董事長賈永婕赴立法院財政委員會備詢時，召委賴惠員公開建議她「下次請穿得跟我們一樣，一樣的這個純樸」；賈永婕當場回應自己的穿著與委員相似，事後表示錯愕。"
+    status: verified
+    observed_at: "2026-10-17T22:06:00+08:00"
+    source_ids: [S001, S002]
+    evidence_summary: "立法院官方會議頁確認會議與賴惠員發言，新聞影音保存現場對話。"
+    tags: [賈永婕, 賴惠員, 服儀爭議]
+
+  - id: F002
+    statement: "賴惠員於10月14日事後就服儀言論公開道歉，並表示原意涉及國會場合正式性而非批評賈永婕個人穿著風格。"
+    status: verified
+    observed_at: "2026-10-17T22:06:00+08:00"
+    source_ids: [S002]
+    evidence_summary: "TVBS報導記錄賴惠員事後說明與道歉。"
+    tags: [賴惠員, 道歉]
+
+  - id: F003
+    statement: "蔡康永10月15日宣布將出席蔣萬安10月26日競總成立活動、坐在台下且不上台歌舞，並寫「有鑑於近日政壇忽然追求服裝儀容的端莊肅穆，因此康永將穿黑色西裝前往，以表重視」。"
+    status: verified
+    observed_at: "2026-10-17T22:06:00+08:00"
+    source_ids: [S003]
+    evidence_summary: "中央社完整引述蔡康永社群文字。"
+    tags: [蔡康永, 黑西裝, 端莊肅穆]
+
+  - id: F004
+    statement: "蔡康永「黑西裝／端莊肅穆」貼文發布後，賈永婕本人於該貼文下留言「哈哈哈，不要啦，要穿最閃亮的」；同日多家媒體也將蔡的服裝文字與10月14日賈永婕／賴惠員服儀爭議連結。"
+    status: verified
+    observed_at: "2026-10-17T22:06:00+08:00"
+    source_ids: [S004, S005]
+    evidence_summary: "賈永婕本人互動與新聞時間線共同支持「近日政壇服裝儀容」至少明確存在賈永婕事件這個直接背景。"
+    tags: [黑西裝, 賈永婕, 語境]
+
+  - id: F005
+    statement: "10月15日同一波網路討論中，另有部分網友把「黑色西裝」聯想到「告別式」，政治工作者周軒則以「京都式的禮貌」形容蔡康永的文字；蔡本人在該則黑西裝貼文中沒有寫「告別式」、「落選」或「蔣萬安會輸」。"
+    status: verified
+    observed_at: "2026-10-17T22:06:00+08:00"
+    source_ids: [S003, S005]
+    evidence_summary: "可驗證的是外界另行產生告別式／京都式禮貌解讀；這些字眼不是蔡康永原貼文內容。"
+    tags: [告別式, 京都式禮貌, 外界解讀]
+
+  - id: F006
+    statement: "蔡康永10月16日晚間另發「京都人」電話短文，內容是有人打電話找「京都人」，他回答沒有，對方掛掉；朋友反覆問「掛掉了？」後，結尾為「現在只剩下：嘟嘟嘟」。"
+    status: verified
+    observed_at: "2026-10-17T22:06:00+08:00"
+    source_ids: [S006, S008]
+    evidence_summary: "兩家媒體保存已刪除貼文的主要文字內容。"
+    tags: [京都人, 掛掉了, 嘟嘟嘟]
+
+  - id: F007
+    statement: "「京都式禮貌／京都人」這個標籤在蔡康永10月16日晚間發布「京都人」短文以前，就已出現在10月15日對其黑西裝貼文的外界評論中。"
+    status: verified
+    observed_at: "2026-10-17T22:06:00+08:00"
+    source_ids: [S005, S006]
+    evidence_summary: "時間順序支持「京都人」短文至少是在回應既有網路標籤，而不是該標籤最初由蔡本人創造。"
+    tags: [京都人, 時間線, 社群標籤]
+
+  - id: F008
+    statement: "沈伯洋10月16日上午已發布包含「詐騙很壞／嘟嘟嘟」的社群內容；蔡康永的「京都人／嘟嘟嘟」短文則在同日晚間出現。"
+    status: verified
+    observed_at: "2026-10-17T22:06:00+08:00"
+    source_ids: [S007, S008]
+    evidence_summary: "公開時間線使「蔡可能看過或引用當日流行的嘟嘟嘟梗」成為可能，但時間先後本身不能證明其意圖或特定指涉。"
+    tags: [沈伯洋, 嘟嘟嘟, 時間線]
+
+  - id: F009
+    statement: "10月17日蔡康永刪除「京都人」短文後，公開稱上一則是「玩笑小文字」、大家「各自望文生義」，並要求不要再用此事打擾蔣萬安；他同時稱蔣萬安一直充滿善意，自己會很感榮幸出席活動。"
+    status: verified
+    observed_at: "2026-10-17T22:06:00+08:00"
+    source_ids: [S009]
+    evidence_summary: "蔡本人後續公開文字拒絕把該短文固定解讀為對蔣的政治攻擊，並再次確認出席。"
+    tags: [蔡康永, 刪文, 望文生義, 蔣萬安]
+
+  - id: F010
+    statement: "10月9日媒體問蔣萬安是否會與蔡康永一起唱歌時，蔣的實際回答是一定會邀蔡參加競總成立並安排搖滾區；現有受訪轉錄未顯示蔣回答「會一起唱歌」。"
+    status: verified
+    observed_at: "2026-10-17T22:06:00+08:00"
+    source_ids: [S010, S011]
+    evidence_summary: "受訪逐字與中央社文字一致：蔣回答的是邀請與座位安排；「一起歡唱」另指向市民／支持者參與競選歌曲。"
+    tags: [蔣萬安, 媒體問答, 一起唱歌, 搖滾區]
+
+claims:
+  - id: C001
+    statement: "「蔡康永說要穿黑西裝，是在回應或嘲諷蔣萬安對他提出服裝要求。」"
+    status: contradicted
+    contradicts: [F003, F004]
+    reasoning_notes: "現有文本把原因寫成「近日政壇」的服裝儀容風波；前一日正發生賈永婕／賴惠員事件，且賈本人直接到貼文互動。沒有證據顯示蔣萬安曾要求蔡穿黑西裝。"
+
+  - id: C002
+    statement: "「蔡康永黑西裝文的明確原意就是把蔣萬安競總當告別式，暗示蔣將落選。」"
+    status: unsupported
+    related_facts: [F003, F004, F005]
+    reasoning_notes: "告別式／落選是外界由黑色西裝再推一步的解讀；蔡原文沒有告別式、死亡、落選等字眼。可以記錄為流行解讀，不能記成蔡本人已證實原意。"
+
+  - id: C003
+    statement: "「蔡康永10月16日『京都人／掛掉了／嘟嘟嘟』一文明确是在說蔣萬安會落選。」"
+    status: unsupported
+    related_facts: [F006, F007, F009]
+    reasoning_notes: "「京都人」首先可直接回扣前一天外界給蔡的標籤；「掛掉」具雙關空間，但文章沒有點名蔣。蔡次日又把該文稱為玩笑、表示大家各自望文生義並強調蔣的善意。"
+
+  - id: C004
+    statement: "「蔡康永文末『嘟嘟嘟』一定是在呼應沈伯洋當日上午的『嘟嘟嘟』內容。」"
+    status: unresolved
+    related_facts: [F006, F008]
+    reasoning_notes: "時間順序允許此解讀，而且當天網友與媒體確有如此連結；但「嘟嘟嘟」同時是電話被掛斷後最自然的擬聲詞，也屬當時流行迷因，缺乏蔡本人確認。"
+
+  - id: C005
+    statement: "「『黑西裝＝蔣萬安告別式／落選』與『京都人＝酸蔣』的社群說法是由同一中央廚房協調後大量copy-paste擴散。」"
+    status: unresolved
+    related_facts: [F005, F006, F007]
+    reasoning_notes: "目前公開網頁可確認相同或近似詮釋大量存在並被媒體轉述，但本次尚未取得足夠的原始Threads貼文樣本、帳號關聯、精確發布時間與文字相似度資料，不能把「敘事高度一致」直接升格成「組織協調」。"
+
+  - id: C006
+    statement: "「媒體問蔣萬安會不會和蔡康永一起唱歌，等於蔣萬安自己已答應或要求蔡上台唱歌。」"
+    status: contradicted
+    contradicts: [F010]
+    reasoning_notes: "問題內容不能取代受訪者答案；蔣回答的是邀請出席與安排搖滾區。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-17T22:06:00+08:00"
+    platform: web
+    query: "賈永婕 賴惠員 純樸 2026-10-14 立法院 財政委員會"
+    scope: "立法院IVOD與新聞報導"
+    result: found
+    notes: "確認會議、原話、賈永婕回應與賴惠員事後道歉。"
+
+  - id: Q002
+    observed_at: "2026-10-17T22:06:00+08:00"
+    platform: web
+    query: "蔡康永 黑色西裝 端莊肅穆 賈永婕 2026-10-15"
+    scope: "蔡康永原文轉引、賈永婕留言與同日新聞"
+    result: found
+    notes: "確認黑西裝文字與賈永婕服儀爭議的直接時序與互動；同時找到外界「告別式／京都式禮貌」解讀。"
+
+  - id: Q003
+    observed_at: "2026-10-17T22:06:00+08:00"
+    platform: web
+    query: "蔡康永 京都人 掛掉了 嘟嘟嘟 2026-10-16 2026-10-17"
+    scope: "已刪貼文轉載與後續本人說明"
+    result: found
+    notes: "確認京都人短文、前一日「京都式禮貌」標籤及蔡10月17日「玩笑／各自望文生義」說明。"
+
+  - id: Q004
+    observed_at: "2026-10-17T22:06:00+08:00"
+    platform: web
+    query: "沈伯洋 嘟嘟嘟 2026-10-16 發布時間"
+    scope: "候選人官方來源觀測與新聞"
+    result: found
+    notes: "確認沈伯洋相關內容早於蔡康永當日晚間短文；只能建立先後，不能證明引用意圖。"
+
+  - id: Q005
+    observed_at: "2026-10-17T22:06:00+08:00"
+    platform: web
+    query: "site:threads.com 蔡康永 黑色西裝 告別式 京都人 蔣萬安 落選"
+    scope: "公開搜尋引擎可索引Threads頁面"
+    result: not_found
+    notes: "此次公開搜尋沒有取得足以重建「洋流」帳號群原始貼文序列的Threads結果；因此暫不能驗證中央廚房、copy-paste或協調擴散。"
+
+  - id: Q006
+    observed_at: "2026-10-17T22:06:00+08:00"
+    platform: web
+    query: "蔣萬安 10月9日 會跟蔡康永一起唱歌嗎 一定會邀請 搖滾區"
+    scope: "原始受訪片段轉錄與中央社"
+    result: found
+    notes: "確認媒體問題與蔣實際回答不同；回答未包含「會一起唱歌」。"
+
+promotion:
+  cases: []
+  comparators: []
+  research:
+    - "蒐集10月15日至17日「洋流」相關Threads原始貼文與時間戳，做文案相似度、首發來源與擴散路徑分析"
+
+notes:
+  - "本案需區分三層：蔡康永原始文本、網友／政治工作者的二次解讀、媒體把二次解讀再報導成事件敘事。"
+  - "黑西裝段落目前最強的直接背景證據是賈永婕／賴惠員服儀爭議：事件前一日發生，蔡原文寫「近日政壇／服裝儀容」，賈永婕本人又直接在貼文留言。"
+  - "「告別式／蔣落選」屬額外聯想，不應在 evidence 中改寫成蔡康永本人原意。"
+  - "「京都人」短文具有刻意製造多義的可能，但其首要可證脈絡是前一天外界先稱蔡為「京都式禮貌」；重複「掛掉了」與「嘟嘟嘟」可以記錄為雙關空間，不能直接定性其政治指涉。"
+  - "若要判定「中央廚房copy-paste」，需要原始帳號樣本、時間序列、文字近似度與交互關聯；媒體出現同一敘事只能證明敘事擴散，不能單獨證明協調。"
