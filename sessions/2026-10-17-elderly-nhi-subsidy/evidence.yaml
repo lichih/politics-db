@@ -1,0 +1,394 @@
+session:
+  id: 2026-10-17-elderly-nhi-subsidy
+  project: Politics
+  title: "65歲以上長者健保費中央補助：家庭負擔、地方基準線與法定保障"
+  started_at: "2026-10-17T14:41:10+08:00"
+  updated_at: "2026-10-17T14:41:10+08:00"
+  status: active
+
+topics:
+  - 老人福利法
+  - 全民健康保險
+  - 長者健保費補助
+  - 眷屬依附投保
+  - 法定經費
+  - 地方自治
+  - 財政收支劃分
+  - 社福基準線
+  - 2026縣市長選舉
+
+sources:
+  - id: S001
+    source_type: secondary
+    publisher: "中央社"
+    title: "立院三讀部分長者免健保費 政院：恐有世代不公等問題"
+    url: "https://www.cna.com.tw/news/aipl/202610160330.aspx"
+    published_at: "2026-10-16"
+    observed_at: "2026-10-17T14:41:10+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導三讀通過《老人福利法》第22條修正，近1年綜合所得未達申報標準或綜所稅率未達20%的65歲以上長者，由中央主管機關補助全額健保費。"
+      - "行政院估算依三讀規範，中央每年新增支出接近400億元，並預估未來隨高齡化增加。"
+
+  - id: S002
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "全民健康保險法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=L0060001"
+    observed_at: "2026-10-17T14:41:10+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第2條將無職業之直系血親尊親屬列為眷屬。"
+      - "第18條規定第一類至第三類被保險人之眷屬保險費依被保險人投保金額計算，眷屬保險費由被保險人繳納，最多計3口。"
+      - "第27條規定一般受僱者及眷屬自付30%、投保單位60%、中央政府補助10%。"
+
+  - id: S003
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "全民健康保險法施行細則"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=L0060002"
+    observed_at: "2026-10-17T14:41:10+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第18條規定眷屬在有多位可依附被保險人時的依附順序，包含配偶或一親等直系血親。"
+
+  - id: S004
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "預算法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=T0020001"
+    observed_at: "2026-10-17T14:41:10+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第5條定義法定經費為依設定條件、於法律存續期間按年支用；其設定、變更或廢止以法律為之。"
+
+  - id: S005
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "財政收支劃分法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0320015"
+    observed_at: "2026-10-17T14:41:10+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第8條規定所得稅總收入11%、營業稅特定範圍收入及貨物稅10%納入中央統籌分配地方。"
+      - "第16條之1規定普通統籌分配稅款依公式分配，受分配地方政府列為當年度稅課收入；另有4%特別統籌分配稅款由行政院依實際情形分配。"
+
+  - id: S006
+    source_type: secondary
+    publisher: "中央社"
+    title: "民眾黨拚三讀65歲有條件免健保費 石崇良：轉嫁15至64歲每人年增3千元"
+    url: "https://www.cna.com.tw/news/aipl/202610160068.aspx"
+    published_at: "2026-10-16"
+    observed_at: "2026-10-17T14:41:10+08:00"
+    retrieval_status: reachable
+    notes:
+      - "衛福部以不同財源假設說明成本轉嫁；民眾黨則將修法理由表述為統一各縣市補助差異並減輕三明治世代負擔。"
+      - "報導並確認民進黨彰化縣長參選人陳素月曾將長者健保補助列為政見。"
+
+  - id: S007
+    source_type: secondary
+    publisher: "中央社"
+    title: "黃世杰提補助健保費等政見 桃市府批流於口號"
+    url: "https://www.cna.com.tw/news/aloc/202607270257.aspx"
+    published_at: "2026-07-27"
+    observed_at: "2026-10-17T14:41:10+08:00"
+    retrieval_status: reachable
+    notes:
+      - "民進黨桃園市長參選人黃世杰主張全面補助0至12歲及65歲以上健保費。"
+
+  - id: S008
+    source_type: secondary
+    publisher: "聯合報"
+    title: "鄭朝方推65歲健保補助 綠委卻反對"
+    url: "https://udn.com/news/story/124652/9819480"
+    published_at: "2026-10-16"
+    observed_at: "2026-10-17T14:41:10+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導記載民進黨新竹縣長參選人鄭朝方主張65歲以上健保費全額補助。"
+
+  - id: S009
+    source_type: secondary
+    publisher: "民視"
+    title: "莊競程拋減壓顧老3大福利"
+    url: "https://sport.ftvnews.com.tw/news/detail/2026511W0455"
+    published_at: "2026-05-11"
+    observed_at: "2026-10-17T14:41:10+08:00"
+    retrieval_status: reachable
+    notes:
+      - "民進黨新竹市長參選人莊競程提出65歲以上健保免費。"
+
+  - id: S010
+    source_type: secondary
+    publisher: "遠見雜誌"
+    title: "2026九合一大選看遠見：苗栗縣長選情分析"
+    url: "https://event.gvm.com.tw/2026_rank/?city=miaoli"
+    observed_at: "2026-10-17T14:41:10+08:00"
+    retrieval_status: reachable
+    notes:
+      - "整理民進黨苗栗縣長參選人陳品安主張65歲以上長者免自付健保費。"
+
+  - id: S011
+    source_type: secondary
+    publisher: "聯合報"
+    title: "陳素月缺席立院老人免健保費表決 對手齊轟政見打假球"
+    url: "https://udn.com/news/story/124652/9819557"
+    published_at: "2026-10-16"
+    observed_at: "2026-10-17T14:41:10+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導記載民進黨彰化縣長參選人陳素月曾率先提出彰化65歲以上長者免健保費政見。"
+
+  - id: S012
+    source_type: secondary
+    publisher: "聯合報"
+    title: "老人健保修法未參與表決 雲林縣長綠營參選人劉建國批：這是突襲"
+    url: "https://udn.com/vote2026/story/124652/9819741"
+    published_at: "2026-10-16"
+    observed_at: "2026-10-17T14:41:10+08:00"
+    retrieval_status: reachable
+    notes:
+      - "劉建國重申若當選雲林縣長仍會推動65歲以上長者健保免繳，並主張地方因財劃法增加財源後應依財政能力自行推動。"
+
+  - id: S013
+    source_type: secondary
+    publisher: "聯合報"
+    title: "老人健保費補助三讀修法 王美惠：與民進黨團立場一致"
+    url: "https://udn.com/news/story/124652/9819708"
+    published_at: "2026-10-16"
+    observed_at: "2026-10-17T14:41:10+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導記載民進黨嘉義市長參選人王美惠選舉政見提出老人健保費補助。"
+
+  - id: S014
+    source_type: secondary
+    publisher: "聯合報"
+    title: "65歲長者免健保費立院三讀 陳亭妃：未來台南加碼不排富"
+    url: "https://money.udn.com/money/story/7307/9819299"
+    published_at: "2026-10-16"
+    observed_at: "2026-10-17T14:41:10+08:00"
+    retrieval_status: reachable
+    notes:
+      - "民進黨台南市長參選人陳亭妃表示台南既有65歲以上長者健保補助，未來主張加碼不排富。"
+
+  - id: S015
+    source_type: secondary
+    publisher: "屏東在地媒體"
+    title: "屏東縣長周春米議會施政總報告 宣布明年全面補助長者健保費"
+    url: "https://www.pingtung-media.com/post/%E5%B1%8F%E6%9D%B1%E7%B8%A3%E9%95%B7%E5%91%A8%E6%98%A5%E7%B1%B3%E8%AD%B0%E6%9C%83%E6%96%BD%E6%94%BF%E7%B8%BD%E5%A0%B1%E5%91%8A%E5%AE%A3%E5%B8%83%E6%98%8E%E5%B9%B4%E5%85%A8%E9%9D%A2%E8%A3%9C%E5%8A%A9%E9%95%B7%E8%80%85%E5%81%A5%E4%BF%9D%E8%B2%BB"
+    published_at: "2026-09-22"
+    observed_at: "2026-10-17T14:41:10+08:00"
+    retrieval_status: reachable
+    notes:
+      - "周春米宣布2027年起屏東65歲以上長者健保費取消排富、全面補助，每月最高826元，縣府負擔約15.5億元。"
+      - "報導引述周春米說明中央支持地方的稅款與補助款增加，使縣府更有餘裕推動新政。"
+
+facts:
+  - id: F001
+    statement: "2026-10-16立法院三讀修正《老人福利法》第22條，符合最近一年綜合所得未達申報標準或綜所稅率未達20%條件的65歲以上長者，其全民健康保險費由中央主管機關全額補助。"
+    status: verified
+    observed_at: "2026-10-17T14:41:10+08:00"
+    source_ids: [S001]
+    evidence_summary: "三讀內容由中央社報導確認。"
+    tags: [老人福利法, 健保費, 中央補助, "2026"]
+
+  - id: F002
+    statement: "現行《全民健康保險法》將無職業之直系血親尊親屬列為眷屬；第一類至第三類被保險人的眷屬保險費由被保險人繳納，最多計三口。"
+    status: verified
+    observed_at: "2026-10-17T14:41:10+08:00"
+    source_ids: [S002, S003]
+    evidence_summary: "全民健康保險法第2條、第18條及施行細則第18條直接規定眷屬資格與依附投保。"
+    tags: [全民健保, 眷屬, 父母, 依附投保]
+
+  - id: F003
+    statement: "對一般受僱者，現行健保法規的本人及眷屬保費負擔並非全由家庭承擔；法定比例為被保險人及眷屬自付30%、投保單位60%、中央政府補助10%。"
+    status: verified
+    observed_at: "2026-10-17T14:41:10+08:00"
+    source_ids: [S002]
+    evidence_summary: "全民健康保險法第27條。"
+    tags: [全民健保, 保費負擔, 雇主, 政府補助]
+
+  - id: F004
+    statement: "因此，對父母以眷屬身分依附工作中子女投保的家庭，老人健保自付保費在修法前即可能形成子女家庭的既有支出；中央補助不是把全部成本從零新增到青壯年身上。"
+    status: verified
+    observed_at: "2026-10-17T14:41:10+08:00"
+    source_ids: [S002, S003]
+    evidence_summary: "眷屬保費由被保險人繳納，故至少對依附投保家庭存在既有家庭負擔；但目前未取得403萬預估受益者中依附投保者比例。"
+    tags: [家庭負擔, 青壯年, 眷屬投保, 負擔移轉]
+
+  - id: F005
+    statement: "目前沒有查到足以支持『403萬預估受益長者大多數原本都由子女繳健保費』的官方比例資料。"
+    status: verified
+    observed_at: "2026-10-17T14:41:10+08:00"
+    source_ids: [S001, S002]
+    evidence_summary: "現行法可證明依附投保機制存在，但現有來源不足以量化本次預估受益者中的依附投保占比。"
+    tags: [資料缺口, 依附投保, 受益人口]
+
+  - id: F006
+    statement: "《預算法》第5條所稱法定經費，是依設定條件於法律存續期間按年支用，其設定、變更或廢止須以法律為之。"
+    status: verified
+    observed_at: "2026-10-17T14:41:10+08:00"
+    source_ids: [S004]
+    evidence_summary: "預算法第5條直接規定。"
+    tags: [預算法, 法定經費, 法定保障]
+
+  - id: F007
+    statement: "若《老人福利法》第22條三讀修正內容完成公布施行，中央對符合條件者的補助義務將具有法律上的持續性；欲變更補助條件原則上需透過修法，而非單靠某一年度不編列或刪減政策預算即可消滅法律義務。"
+    status: verified
+    observed_at: "2026-10-17T14:41:10+08:00"
+    source_ids: [S001, S004]
+    evidence_summary: "三讀條文創設中央補助義務；預算法第5條說明法定經費的持續性與變更方式。法案目前仍須完成後續憲政程序。"
+    tags: [老人福利法, 法定經費, 年度預算, 保障強度]
+
+  - id: F008
+    statement: "地方政府自行辦理老人健保費補助，與中央依法建立全國性補助的制度效果不同：前者可因地方財力與政策選擇形成不同補助標準，後者則將符合條件者的基本補助責任提升為全國共同規則。"
+    status: verified
+    observed_at: "2026-10-17T14:41:10+08:00"
+    source_ids: [S001, S006, S012]
+    evidence_summary: "現有各縣市標準不一已為朝野共同承認；修法目的之一即為統一條件，而劉建國明確主張地方依財政能力自行推動。"
+    tags: [地方自治, 中央補助, baseline, 地域差異]
+
+  - id: F009
+    statement: "中央補助與地方補助並非互斥；中央建立全國基本補助後，地方仍可用地方預算加碼更寬的資格或更高補助。"
+    status: verified
+    observed_at: "2026-10-17T14:41:10+08:00"
+    source_ids: [S014]
+    evidence_summary: "陳亭妃在中央三讀後即表示台南未來仍要加碼不排富，提供中央補助與地方加碼並存的直接案例。"
+    tags: [中央地方, 加碼, baseline]
+
+  - id: F010
+    statement: "截至本次查核，至少可確認七名民進黨縣市長參選人在民進黨非現任地方執政的縣市提出長者健保補助或免繳政見：桃園黃世杰、新竹縣鄭朝方、新竹市莊競程、苗栗陳品安、彰化陳素月、雲林劉建國、嘉義市王美惠。"
+    status: verified
+    observed_at: "2026-10-17T14:41:10+08:00"
+    source_ids: [S007, S008, S009, S010, S011, S012, S013]
+    evidence_summary: "逐一查得候選人政見報導；此處使用『至少』，不宣稱已窮盡所有民進黨參選人。"
+    tags: [民進黨, 地方選舉, 長者健保, 政見, "2026"]
+
+  - id: F011
+    statement: "民進黨現任執政縣市也存在地方承擔長者健保補助的確認案例：台南陳亭妃主張既有制度再加碼不排富；屏東現任縣長周春米宣布2027年起全面補助並取消排富。"
+    status: verified
+    observed_at: "2026-10-17T14:41:10+08:00"
+    source_ids: [S014, S015]
+    evidence_summary: "台南與屏東是不能忽略的反例，因此不得寫成『民進黨從不在自己執政縣市推地方買單』。"
+    tags: [民進黨, 台南, 屏東, 反例, 地方補助]
+
+  - id: F012
+    statement: "地方政府的財源不能簡化為『與其他縣市人民無關的地方自己的錢』；現行《財政收支劃分法》明定部分所得稅、營業稅與貨物稅等國稅收入進入中央統籌分配後成為地方稅課收入。"
+    status: verified
+    observed_at: "2026-10-17T14:41:10+08:00"
+    source_ids: [S005]
+    evidence_summary: "財劃法第8條與第16條之1直接規定統籌分配稅款來源與地方列帳方式。"
+    tags: [財劃法, 統籌分配稅款, 地方財源, 國稅]
+
+  - id: F013
+    statement: "屏東全面補助案例中，周春米公開將政策擴張與中央支持地方的稅款、補助款增加及縣府財政餘裕連結；2027年全面補助預估由縣府負擔約15.5億元。"
+    status: verified
+    observed_at: "2026-10-17T14:41:10+08:00"
+    source_ids: [S015]
+    evidence_summary: "周春米施政報告相關報導直接記載其財源說明。"
+    tags: [屏東, 周春米, 財源, 地方預算]
+
+claims:
+  - id: C001
+    statement: "「這次修法就是拿年輕人繳的健保費去替老人做福利。」"
+    status: contradicted
+    contradicts: [F001, F004]
+    reasoning_notes: "三讀文字是由中央主管機關補助符合條件者保費；是否以保費、稅收或其他總預算調整承擔屬財源問題。對依附投保家庭而言，修法前已有子女家庭負擔。"
+
+  - id: C002
+    statement: "「地方政府出錢就不是全民稅金，與其他縣市人民無關。」"
+    status: contradicted
+    contradicts: [F012, F013]
+    reasoning_notes: "地方財源包含由國稅統籌分配而來的稅課收入及中央補助；不能把地方預算理解為完全封閉於該縣市居民繳納的財源。"
+
+  - id: C003
+    statement: "「地方補助比較有彈性，所以已解決世代負擔或財政成本問題。」"
+    status: unsupported
+    related_facts: [F004, F008]
+    reasoning_notes: "地方彈性改變的是誰承擔與能否撤回政策，沒有使原本的保費成本消失；地方縮減補助時，成本可回到老人本人或扶養家庭。"
+
+  - id: C004
+    statement: "「中央法定補助與地方年度補助的核心差異只是誰出錢。」"
+    status: contradicted
+    contradicts: [F006, F007, F008, F009]
+    reasoning_notes: "差異還包括全國或地方的保障基準、法律拘束程度、年度可撤回性與地域差異。"
+
+  - id: C005
+    statement: "「民進黨完全不敢在自己執政縣市提出由地方政府補助老人健保。」"
+    status: contradicted
+    contradicts: [F011]
+    reasoning_notes: "台南陳亭妃與屏東周春米是直接反例。可討論政見分布是否大量集中在非民進黨執政縣市，但不能寫成絕對命題。"
+
+  - id: C006
+    statement: "「目前民進黨地方參選人的相關政見分布是6個非執政縣市＋2個執政縣市。」"
+    status: contradicted
+    contradicts: [F010, F011]
+    reasoning_notes: "重新逐一核實後，至少可確認7個非民進黨現任執政縣市案例，加上台南、屏東兩個民進黨執政案例；先前聊天中的6+2計數不應再沿用。"
+
+  - id: C007
+    statement: "「把這項補助法定化後，立法院未來任何情況都絕對不能調整這筆支出。」"
+    status: contradicted
+    contradicts: [F006, F007]
+    reasoning_notes: "法定化提高變更門檻，但法律仍可經立法程序修改或廢止；正確說法是不能只靠年度預算決定就消滅法律義務。"
+
+  - id: C008
+    statement: "「不立法等於完全沒有任何老人健保補助。」"
+    status: contradicted
+    contradicts: [F008, F011]
+    reasoning_notes: "地方或行政政策仍可提供補助；差異是欠缺全國一致且較難以年度政策撤回的法定保障。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-17T14:41:10+08:00"
+    platform: web
+    query: "老人福利法 第22條 65歲 健保 中央主管機關 補助 2026-10-16"
+    result: found
+    notes: "確認三讀內容、行政院財政與世代公平反對理由。"
+
+  - id: Q002
+    observed_at: "2026-10-17T14:41:10+08:00"
+    platform: web
+    query: "全民健康保險法 眷屬 無職業直系血親尊親屬 保險費由被保險人繳納"
+    result: found
+    notes: "確認家庭依附投保與保費負擔的法定結構。"
+
+  - id: Q003
+    observed_at: "2026-10-17T14:41:10+08:00"
+    platform: web
+    query: "民進黨 縣市長參選人 65歲 健保 補助 2026"
+    result: found
+    notes: "逐一核實候選人後發現先前聊天中的6+2計數過時／錯誤；目前至少確認7個非民進黨執政縣市案例與台南、屏東兩個民進黨執政案例。"
+
+  - id: Q004
+    observed_at: "2026-10-17T14:41:10+08:00"
+    platform: web
+    query: "財政收支劃分法 統籌分配稅款 所得稅 營業稅 貨物稅"
+    result: found
+    notes: "確認地方預算中的統籌分配稅款來源包含國稅，不宜稱為與其他縣市完全無關的地方自有稅源。"
+
+  - id: Q005
+    observed_at: "2026-10-17T14:41:10+08:00"
+    platform: web
+    query: "403萬受益長者 依附子女投保比例"
+    result: not_found
+    notes: "本次未找到足以量化403萬預估受益者中，有多少目前以眷屬身分依附子女投保的官方統計；不得把存在依附制度擴張成『大多數受益者皆由子女繳費』。"
+
+promotion:
+  cases: []
+  comparators:
+    - "中央法定補助 vs 地方年度補助：全國保障基準、法律拘束與地域差異"
+    - "依附子女投保家庭 vs 自行投保老人：修法前實際付款人的差異"
+    - "民進黨地方候選人政見：非現任執政縣市案例與台南／屏東反例"
+  research:
+    - "取得403萬預估受益人口的投保身分類型分布，量化依附子女、本人投保及其他類別占比"
+    - "持續更新三讀後覆議、公布、副署或憲法訴訟進度"
+    - "逐縣市建立老人健保補助條件與財源年度比較表"
+
+notes:
+  - "本題首要分析順序：先確認修法前誰在付保費，再比較中央與地方的財政層級；不能直接把約400億元全描述成新增加在青壯年身上的既有保費負擔。"
+  - "地方『彈性』主要描述政策可撤回性與責任分配，不代表成本消失。"
+  - "中央法定化的代價是壓縮未來年度財政裁量；其政策價值則是提高全國保障的一致性與穩定性。"
+  - "『排富』回答的是誰有資格被公共財源補助，不等於回答修法前的自付保費究竟由老人本人還是扶養家庭實際承擔。"
+  - "中央財源與地方財源不是『全民稅金 vs 地方自己的錢』的乾淨二分；統籌分配稅款即是國稅依法轉為地方稅課收入。"
+  - "對中央執政者的政治效果具有雙面性：法定給付會壓縮行政財政裁量，但若施行，中央政府也是實際執行全國福利的政府，且該福利較不易被年度預算單獨撤回。這是分析，不記為事實動機。"
