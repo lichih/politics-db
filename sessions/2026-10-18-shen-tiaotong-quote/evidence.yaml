@@ -1,0 +1,137 @@
+session:
+  id: 2026-10-18-shen-tiaotong-quote
+  project: Politics
+  title: "沈伯洋10月17日條通回應：教授、文獻與不尊重專業原話查證"
+  started_at: "2026-10-18T17:28:00+08:00"
+  updated_at: "2026-10-18T17:28:00+08:00"
+  status: active
+
+topics:
+  - 沈伯洋
+  - 條通
+  - CPTED
+  - 文獻多如牛毛
+  - 不尊重專業
+  - 影音查證
+  - 配圖錯置
+  - 引述真偽
+
+sources:
+  - id: S001
+    source_type: secondary
+    publisher: "鏡新聞"
+    title: "倒數42天！沈蔣拚陸戰　韓流重返高雄1／嬤聲淚俱下陳情社子島問題　沈伯洋：沒問題這個我來"
+    url: "https://www.mnews.tw/story/20261017sot1249001"
+    published_at: "2026-10-17"
+    observed_at: "2026-10-18T17:28:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "影音新聞頁。頁面直接嵌入YouTube影片，embed id為 PKP8fQ0cu-k。"
+      - "頁面文字逐字保留條通爭議聯訪片段。"
+
+  - id: S002
+    source_type: secondary
+    publisher: "Newtalk新聞"
+    title: "被蔣萬安諷「車架隔開條通」 沈伯洋怒：用「哇塞」鄙夷我犯罪學所長"
+    url: "https://newtalk.tw/news/view/2026-10-17/1066041"
+    published_at: "2026-10-17"
+    observed_at: "2026-10-18T17:28:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "現場採訪報導，保留長段近逐字引述。"
+
+  - id: S003
+    source_type: secondary
+    publisher: "中央社"
+    title: "沈伯洋：蔣萬安也可辦1場「市長你給我聽好了！」"
+    url: "https://www.cna.com.tw/news/aloc/202610170064.aspx"
+    published_at: "2026-10-17"
+    observed_at: "2026-10-18T17:28:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "獨立新聞來源，交叉確認沈伯洋在同場受訪時以犯罪學研究所任教背景、相關文獻及不尊重專業回應蔣萬安質疑。"
+
+facts:
+  - id: F001
+    statement: "2026年10月17日上午，沈伯洋在台北士林區社子島坤天亭活動後接受媒體聯訪時，回應蔣萬安對條通『樹木與車架阻隔』構想的質疑。"
+    status: verified
+    observed_at: "2026-10-18T17:28:00+08:00"
+    source_ids: [S001, S002, S003]
+    evidence_summary: "三個同日來源一致指向同一場社子島媒體聯訪。"
+    tags: ["2026-10-17", 沈伯洋, 社子島, 條通]
+
+  - id: F002
+    statement: "同場聯訪中，沈伯洋明確說自己是犯罪學研究所教授、曾任所長，稱相關作法在其領域屬正常做法，相關文獻『多如牛毛』，並批評若不懂尊重專業、以鄙夷方式看待此類解方，會造成不健康的政策討論，最後再次提到『不尊重專業』。"
+    status: verified
+    observed_at: "2026-10-18T17:28:00+08:00"
+    source_ids: [S001, S002, S003]
+    evidence_summary: "鏡新聞影音頁保留實際發言字幕／逐字，Newtalk保存更長近逐字引述，中央社獨立交叉確認教授身分、相關文獻與不尊重專業三個核心元素。"
+    tags: [教授, 所長, 文獻多如牛毛, 不尊重專業]
+
+  - id: F003
+    statement: "鏡新聞10月17日影音頁面直接連結同場YouTube影片，embed id為 PKP8fQ0cu-k；頁面逐字列出沈伯洋『這個在我們的領域是極其正常的事情』『如果不懂得尊重專業』『在我們的文獻是多如牛毛』『這種政策的討論真的很不健康』等發言。"
+    status: verified
+    observed_at: "2026-10-18T17:28:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "影音頁本身同時提供可播放影片與文字內容，證明相關言論不是僅存在於二手梗圖。"
+    tags: [影音, YouTube, 原話]
+
+  - id: F004
+    statement: "目前查證『沈伯洋是否說過上述言論』不依賴社群梗圖所使用的照片年代；即使梗圖配圖另有時間錯置問題，也不會反證已由10月17日影音與多家同期新聞獨立證實的發言。"
+    status: verified
+    observed_at: "2026-10-18T17:28:00+08:00"
+    source_ids: [S001, S002, S003]
+    evidence_summary: "引述真偽的證據鏈來自同日影音與採訪報導，與梗圖所選照片是否同日為不同事實問題。"
+    tags: [配圖錯置, 引述真偽, 證據鏈]
+
+claims:
+  - id: C001
+    statement: "『我是犯罪學教授／文獻多如牛毛／不尊重專業』是社群梗圖替沈伯洋捏造、他本人未曾在條通爭議中說過的內容。"
+    status: contradicted
+    supports: []
+    contradicts: [F001, F002, F003]
+    related_facts: []
+    reasoning_notes: "10月17日同場影音與多家同期採訪均直接支持核心內容。"
+
+  - id: C002
+    statement: "只要社群梗圖使用的沈伯洋照片不是10月17日當天拍攝，就足以證明梗圖中的引述是假話或造謠。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F004]
+    reasoning_notes: "配圖年代與引述真偽是兩個獨立命題。舊照若造成誤解，可批評配圖時間語境；但不能藉此推翻由同日影音與採訪直接證明的發言。"
+
+  - id: C003
+    statement: "社群梗圖若以舊照片搭配真實的新發言，仍可能產生『照片與發言發生在同一時點』的誤導風險。"
+    status: supported
+    supports: [F004]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "此為呈現層與語境問題，不等同於捏造發言內容。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-18T17:28:00+08:00"
+    platform: web
+    query: "沈伯洋 文獻多如牛毛 不尊重專業 影片 2026-10-17"
+    scope: "公開新聞與影音"
+    result: found
+    notes: "找到鏡新聞影音頁及其YouTube嵌入，另找到Newtalk近逐字與中央社交叉報導。"
+
+  - id: Q002
+    observed_at: "2026-10-18T17:28:00+08:00"
+    platform: "GitHub politics-db"
+    query: "條通 / CPTED / 文獻多如牛毛"
+    scope: "lichih/politics-db default branch"
+    result: not_found
+    notes: "本次repo-first搜尋未找到既有條通原話查證條目；不代表歷史上不存在其他命名或未索引材料。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "此條目只處理『沈伯洋是否說過這些話』與『配圖年代能否反證引述真偽』，不處理CPTED方法在條通個案是否適用。"
+  - "『言論真實』不等於『言論中的政策推論正確』；後者需另以資料、點位、機制與成效證據評估。"
+  - "影音來源可提高對發言內容的證明力；若未能穩定取得影片時間碼，不應自行猜測秒數。"
