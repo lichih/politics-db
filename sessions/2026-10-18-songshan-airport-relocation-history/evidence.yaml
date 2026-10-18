@@ -1,0 +1,469 @@
+session:
+  id: 2026-10-18-songshan-airport-relocation-history
+  project: Politics
+  title: "松山機場遷建：歷史主張、政策成熟度與跨陣營比較基準"
+  started_at: "2026-10-18T12:36:37+08:00"
+  updated_at: "2026-10-18T12:39:02+08:00"
+  status: active
+
+topics:
+  - 松山機場
+  - 機場遷建
+  - 臺北市長選舉
+  - 都市規劃
+  - 民航
+  - 國防
+  - 離島交通
+  - 救災救難
+  - 李應元
+  - 謝長廷
+  - 姚文智
+  - 吳怡農
+  - 蔣萬安
+  - 政策成熟度
+  - 同一把尺
+
+sources:
+  - id: S001
+    source_type: secondary
+    publisher: "聯合報／北市選戰電子報"
+    title: "李應元主張遷移松山機場"
+    url: "https://paper.udn.com/udnpaper/PID0024/29719/web/"
+    published_at: "2002-10-16"
+    observed_at: "2026-10-18T12:36:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "保存2002年民進黨台北市長參選人李應元『遷移松山機場，打造首都中央公園』政見。"
+
+  - id: S002
+    source_type: secondary
+    publisher: "自立晚報"
+    title: "謝長廷：郝龍斌狂妄自大 說謊成性！"
+    url: "https://www.idn.com.tw/news/news_content.aspx?artid=20061127abcd006&catdid=0&catid=1&catsid=2"
+    published_at: "2006-11-27"
+    observed_at: "2026-10-18T12:36:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導謝長廷2006年台北市長選舉提出『松山機場再生計畫』，包含機場退場後中央森林公園、文化創意、藝術、體育等土地利用構想。"
+
+  - id: S003
+    source_type: secondary
+    publisher: "公視新聞網"
+    title: "姚籲納入柯P2階段整合 呂顧許反對"
+    url: "https://news.pts.org.tw/article/263819"
+    published_at: "2014-03-09"
+    observed_at: "2026-10-18T12:36:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記錄2014年民進黨台北市長初選辯論中，姚文智主張廢除松山機場、進行大規模公辦都更並把松機改為超過400公頃中央公園。"
+
+  - id: S004
+    source_type: primary
+    publisher: "臺北市政府都市發展局"
+    title: "首都圈論壇：松山機場遷建及再生—會議實錄"
+    url: "https://udd.gov.taipei/assets/161-8845/Documents/01%E6%9D%BE%E5%B1%B1%E6%A9%9F%E5%A0%B4%E9%81%B7%E5%BB%BA%E5%8F%8A%E5%86%8D%E7%94%9F%E8%AB%96%E5%A3%87%E5%AF%A6%E9%8C%84.pdf"
+    published_at: "2015-11-17"
+    observed_at: "2026-10-18T12:36:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方完整會議實錄。姚文智以蔡英文總統候選人代表身分稱2020年松山機場遷移是其主張；民航局代表則列出容量、國防、救災、運輸等限制並主張需確實評估。"
+
+  - id: S005
+    source_type: secondary
+    publisher: "中央社"
+    title: "松機遷建 104年柯文哲與姚文智對談"
+    url: "https://www.cna.com.tw/news/aipl/201712170176.aspx"
+    published_at: "2017-12-17"
+    observed_at: "2026-10-18T12:36:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "回顧2015論壇，並記錄姚文智2017年提出2018政策確定、2023開始動工等競選時程。"
+
+  - id: S006
+    source_type: secondary
+    publisher: "中央社"
+    title: "松山機場存廢不同調 姚文智呂秀蓮政見交鋒"
+    url: "https://www.cna.com.tw/news/aipl/201805260127.aspx"
+    published_at: "2018-05-26"
+    observed_at: "2026-10-18T12:36:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記錄2018民進黨台北市長初選內部對松機存廢的明確分歧：姚文智支持遷移／中央公園，呂秀蓮反對。"
+
+  - id: S007
+    source_type: secondary
+    publisher: "中央社"
+    title: "吳怡農拋遷移松山機場 全區變公園"
+    url: "https://www.cna.com.tw/news/aipl/202212080074.aspx"
+    published_at: "2022-12-08"
+    observed_at: "2026-10-18T12:36:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記錄吳怡農主張配合桃園機場第三跑道時程遷移松機、原址全區公園、2024年前完成規劃與政策定案、中央與雙北成立專責機構。"
+
+  - id: S008
+    source_type: secondary
+    publisher: "中央社"
+    title: "松機遷建議題 王國材：戰備等很多問題須深思"
+    url: "https://www.cna.com.tw/news/aipl/202212130351.aspx"
+    published_at: "2022-12-13"
+    observed_at: "2026-10-18T12:36:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "時任交通部長王國材就吳怡農政見指出離島／東部旅次、軍民合用、首都防衛、空勤救援等限制。"
+
+  - id: S009
+    source_type: secondary
+    publisher: "中央社"
+    title: "松機遷移議題延燒 蔣萬安、王鴻薇：應通盤考量"
+    url: "https://www.cna.com.tw/news/aipl/202212110027.aspx"
+    published_at: "2022-12-11"
+    observed_at: "2026-10-18T12:36:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "蔣萬安當時表示松機遷移涉及民用、軍用、商用、都市發展、在地需求，中央地方應完善溝通並提出具體方案。"
+
+  - id: S010
+    source_type: primary
+    publisher: "交通部"
+    title: "109年交通年鑑：臺北松山機場—松山機場2040年整體規劃"
+    url: "https://www.motc.gov.tw/ch/app/yearbook/doc?detailNo=2&id=21&module=directory&serno=8473&type=s&year=109"
+    published_at: "2021"
+    observed_at: "2026-10-18T12:36:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "交通部官方年鑑記錄：2015完成2030整體規劃；因北市主張遷建，行政院2016要求民航局協調；民航局研析後確立北部維持兩機場、松機不遷建政策，2020啟動2040整體規劃。"
+
+  - id: S011
+    source_type: secondary
+    publisher: "中央社"
+    title: "民航局：松機規劃為國際商務機場 台北市112年表尊重"
+    url: "https://www.cna.com.tw/news/aipl/202610150173.aspx"
+    published_at: "2026-10-15"
+    observed_at: "2026-10-18T12:36:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "民航局說明2023年2040整體規劃定位，並轉述北市府當年一方面表達遷建有利都市規劃、另一方面尊重中央對松機的既定規劃。"
+
+  - id: S012
+    source_type: primary
+    publisher: "臺北市政府"
+    title: "輝達來了！蔣萬安發表『AI黃金世紀』新願景 拋松機遷移打造百公頃臺北AI園區"
+    url: "https://www.gov.taipei/News_Content.aspx?n=2044902FC839D045&s=8ED4D25BC664CF21&sms=72544237BBE4C5F6"
+    published_at: "2026-10-08"
+    observed_at: "2026-10-18T12:36:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "北市府正式新聞稿，含300公頃土地分配、570公頃航高禁限建區、產業與交通願景等數量化內容。"
+
+  - id: S013
+    source_type: secondary
+    publisher: "中央社"
+    title: "交通部：北市府過去4年未主動討論松機遷移"
+    url: "https://www.cna.com.tw/news/ahel/202610150219.aspx"
+    published_at: "2026-10-15"
+    observed_at: "2026-10-18T12:36:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "交通部官員表示，蔣市府過去4年未主動與民航局或交通部討論遷移；2023會議僅表達遷建有利都市發展、希望後續整體思考。"
+
+  - id: S014
+    source_type: secondary
+    publisher: "中央社"
+    title: "交通部：2023年曾發函詢問松機規劃 蔣市府回應同意中央安排"
+    url: "https://www.cna.com.tw/news/aipl/202610160045.aspx"
+    published_at: "2026-10-16"
+    observed_at: "2026-10-18T12:36:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "補充2023函文脈絡：由交通部主動詢問；北市府表達遷建有利發展，同時尊重交通部安排。"
+
+  - id: S015
+    source_type: primary
+    publisher: "立法院"
+    title: "立法院公報第96卷第84期委員會紀錄"
+    url: "https://ppg.ly.gov.tw/ppg/PublicationBulletinDetail/download/communique/final/pdf/96/84/LCIDC01_968401.pdf"
+    published_at: "2007"
+    observed_at: "2026-10-18T12:36:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "會議中蔣孝嚴提到陳水扁、李應元、謝長廷等競選台北市長時都曾提出松機遷移；時任國防部長李天羽答覆當時仍肯定松機存在價值，未接獲遷移指示或規劃。此來源對候選人歷史主張僅作同時代交叉佐證，不單獨作為唯一證明。"
+
+facts:
+  - id: F001
+    statement: "2002年，民進黨台北市長參選人李應元提出『遷移松山機場，打造首都中央公園』競選政見，主張將原有航線移往當時的中正機場，並以松機原址進行大型公園與都市發展規劃。"
+    status: verified
+    observed_at: "2026-10-18T12:36:37+08:00"
+    source_ids: [S001]
+    evidence_summary: "2002年選戰同期報導直接記錄李應元的松機遷移與中央公園政見。"
+    tags: ["2002", 李應元, 民進黨, 松機遷移, 中央公園]
+
+  - id: F002
+    statement: "2006年台北市長選舉期間，民進黨參選人謝長廷提出『松山機場再生計畫』，描述松機退場後將部分土地作中央森林公園，其他部分規劃文化創意、藝術、體育等用途。"
+    status: verified
+    observed_at: "2026-10-18T12:36:37+08:00"
+    source_ids: [S002, S015]
+    evidence_summary: "2006年同期報導保存謝長廷方案內容；2007立院紀錄亦把謝長廷列為曾主張松機遷移的台北市長參選人。"
+    tags: ["2006", 謝長廷, 民進黨, 松機再生]
+
+  - id: F003
+    statement: "2014年民進黨台北市長初選辯論中，姚文智主張廢除松山機場、推動大規模公辦都更，並把松機改造成超過400公頃的中央公園。"
+    status: verified
+    observed_at: "2026-10-18T12:36:37+08:00"
+    source_ids: [S003]
+    evidence_summary: "公視對初選辯論的同期報導直接記錄姚文智發言。"
+    tags: ["2014", 姚文智, 民進黨, 中央公園]
+
+  - id: F004
+    statement: "2015年臺北市政府『首都圈論壇』中，姚文智以蔡英文總統候選人代表身分表示，該主張經民進黨內部研討，並公開主張2020年松山機場遷移；這可證明當時蔡英文陣營代表曾在正式論壇公開承擔該立場，但不等同於自動證明其後每一時點的民進黨正式黨綱都採相同立場。"
+    status: verified
+    observed_at: "2026-10-18T12:36:37+08:00"
+    source_ids: [S004]
+    evidence_summary: "官方逐字實錄保存姚文智自述代表身分、黨內研討與2020遷移主張。"
+    tags: ["2015", 姚文智, 蔡英文, 民進黨, 2020遷移]
+
+  - id: F005
+    statement: "同一場2015論壇中，民航局代表明確指出松機同時具有民航、國防、救災救難、國內離島與商務等功能，並警告桃園機場容量不能用簡單加總處理；當時並認為2020年以既有兩條跑道無法直接承接全部松機航空器，主張政策需經整體、確實評估才有可行性。"
+    status: verified
+    observed_at: "2026-10-18T12:36:37+08:00"
+    source_ids: [S004]
+    evidence_summary: "官方會議實錄同時保存支持遷移的政治主張與民航專業機關提出的容量、國防、救災、運輸限制。"
+    tags: ["2015", 民航局, 桃園機場容量, 國防, 救災, 可行性]
+
+  - id: F006
+    statement: "2017至2018年姚文智再把松機遷移／廢除列為台北市長選舉核心政見，並提出政策確定、設計競圖、機場退場與中央公園施工等競選時程；這些時程是候選人的政策目標，不等同於已完成跨部會可行性驗證。"
+    status: verified
+    observed_at: "2026-10-18T12:36:37+08:00"
+    source_ids: [S005]
+    evidence_summary: "中央社保存姚文智的選舉政見與時程；來源本身沒有證明相關中央機關已完成核定或替代功能方案。"
+    tags: ["2017", "2018", 姚文智, 時程, 政見]
+
+  - id: F007
+    statement: "2018年民進黨台北市長初選內部對松機存廢並無一致立場：姚文智支持遷移並改為中央公園，呂秀蓮則主張保留松機，理由包含國際門戶、國防與離島／花東交通等功能。"
+    status: verified
+    observed_at: "2026-10-18T12:36:37+08:00"
+    source_ids: [S006]
+    evidence_summary: "同一黨內初選辯論呈現相反政策立場，足以反駁『民進黨歷來在此議題始終一致』的過度概括。"
+    tags: ["2018", 民進黨, 姚文智, 呂秀蓮, 黨內分歧]
+
+  - id: F008
+    statement: "2022年民進黨立委補選參選人吳怡農主張配合桃園機場第三跑道時程遷移松機，原址全區作公園，並提出2024年前完成規劃與政策定案、中央與雙北成立專責機構等執行構想。"
+    status: verified
+    observed_at: "2026-10-18T12:36:37+08:00"
+    source_ids: [S007]
+    evidence_summary: "中央社完整記錄吳怡農政策發布內容。"
+    tags: ["2022", 吳怡農, 民進黨, 第三跑道, 專責機構]
+
+  - id: F009
+    statement: "吳怡農提出松機遷移後，民進黨政府的交通部長王國材公開指出，松機仍承擔大量離島／東部旅次、軍民合用與首都防衛、空勤總隊緊急救援及離島運送等功能，不能只從單一城市發展角度判斷遷建。"
+    status: verified
+    observed_at: "2026-10-18T12:36:37+08:00"
+    source_ids: [S008]
+    evidence_summary: "同一政治陣營執政下的交通主管機關對本黨候選人方案提出功能替代與國家層級限制。"
+    tags: ["2022", 交通部, 王國材, 離島交通, 國防, 空勤救援]
+
+  - id: F010
+    statement: "2022年12月，尚未就任台北市長的蔣萬安就吳怡農松機遷移政見表示，議題涉及民用、軍用、商用、都市發展與在地需求，須中央地方完善溝通並提出兼顧國土與地方需求的具體方案，重大議題不應只在選舉期間倉促提出。"
+    status: verified
+    observed_at: "2026-10-18T12:36:37+08:00"
+    source_ids: [S009]
+    evidence_summary: "蔣萬安本人2022年公開建立了對松機遷移案的可行性與跨機關說明門檻，可作為2026檢驗其自身方案的一致性基準。"
+    tags: ["2022", 蔣萬安, 一致性基準, 具體方案, 跨機關]
+
+  - id: F011
+    statement: "交通部109年交通年鑑記載：2015年完成松機2030整體規劃後，因臺北市政府主張遷建，行政院2016年要求民航局加強地方溝通；民航局研析後認為北部維持兩座機場較佳，確立不遷建松機的政策立場，並於2020年啟動松機2040整體規劃。"
+    status: verified
+    observed_at: "2026-10-18T12:36:37+08:00"
+    source_ids: [S010]
+    evidence_summary: "交通部官方年鑑證明：地方遷建主張長期存在，但中央民航政策在2016後曾明確採取維持兩機場、松機不遷建路線。"
+    tags: ["2016", "2020", 交通部, 兩機場政策, 2040規劃]
+
+  - id: F012
+    statement: "民航局2026年說明，2023年松機2040整體規劃仍把松機定位為首都國際商務機場與國內航空樞紐；北市府2023年曾表示長期遷建有利都市規劃、希望中央納入思考，同時對中央當時的松機規劃表達尊重。"
+    status: verified
+    observed_at: "2026-10-18T12:36:37+08:00"
+    source_ids: [S011, S014]
+    evidence_summary: "可同時排除兩個極端說法：蔣市府在2026前不是完全未曾表達遷建偏好，但2023也不是已啟動松機遷建執行計畫。"
+    tags: ["2023", 蔣市府, 2040規劃, 國際商務機場, 國內航空樞紐]
+
+  - id: F013
+    statement: "2026年10月8日蔣萬安正式提出松機遷移願景，北市府新聞稿具體列出機場及周邊約300公頃的下游土地利用：100公頃AI產業聚落、90公頃住宅及支援性公共設施、110公頃公園綠地，並主張釋放570公頃航高禁限建都市更新地區及重新布局交通路網。"
+    status: verified
+    observed_at: "2026-10-18T12:36:37+08:00"
+    source_ids: [S012]
+    evidence_summary: "北市府第一手新聞稿證明方案並非『只有一句廢松機』，至少對遷移後土地用途與都市願景已有大量具體描述。"
+    tags: ["2026", 蔣萬安, AI園區, 土地利用, 都市願景]
+
+  - id: F014
+    statement: "截至蔣萬安2026年10月提出方案後的中央說明，北市府在其任內過去數年並未主動與交通部或民航局展開松機遷移的專業協調；2023的接觸是交通部就2040規劃主動徵詢，北市府表達遷建有利城市發展並請中央納入思考。"
+    status: verified
+    observed_at: "2026-10-18T12:36:37+08:00"
+    source_ids: [S013, S014]
+    evidence_summary: "中央說法顯示2026宣布前曾有政策偏好表達，但尚不能據此認定已存在持續、正式的跨部會遷建可行性工作。"
+    tags: ["2023", "2026", 跨部會協調, 可行性]
+
+  - id: F015
+    statement: "從2002李應元、2006謝長廷、2014與2017-18姚文智、2015蔡英文陣營代表主張，到2022吳怡農，松機遷移／退場與原址再利用在民進黨相關候選人與陣營中至少跨二十年反覆被提出；因此2026蔣萬安提出『遷移松機』這個方向本身不是首次出現的新政策概念。"
+    status: verified
+    observed_at: "2026-10-18T12:36:37+08:00"
+    source_ids: [S001, S002, S003, S004, S005, S007]
+    evidence_summary: "多個不同年份的同期或官方來源形成連續時間線。這項事實只證明政策構想長期存在，不證明任一版本已具可行性。"
+    tags: [歷史脈絡, 民進黨, 跨年份, 重複主張]
+
+  - id: F016
+    statement: "不同年份對松機遷移的反對或保留理由高度重複，至少包括桃園機場承接容量、民航與離島／東部交通、軍事與首都防衛、空勤／救災、跨機關權責與整體國土規劃；這些問題在2015官方論壇與2022交通部回應中均已明確存在。"
+    status: verified
+    observed_at: "2026-10-18T12:36:37+08:00"
+    source_ids: [S004, S008, S009]
+    evidence_summary: "核心可行性問題並非2026政治攻防才新出現，而是長期政策討論中反覆被主管機關與政治人物提出。"
+    tags: [可行性, 桃園機場容量, 國防, 離島交通, 救災, 跨機關]
+
+claims:
+  - id: C001
+    statement: "『遷移松山機場』是蔣萬安在2026年才首次提出的新構想。"
+    status: contradicted
+    supports: []
+    contradicts: [F001, F002, F003, F004, F006, F008, F015]
+    related_facts: []
+    reasoning_notes: "跨2002至2022已有多次明確政治主張；2026版本的AI園區與土地配置可以是新的具體包裝，但『遷移松機』本身不是新概念。"
+
+  - id: C002
+    statement: "蔣萬安2026年的松機方案完全沒有任何具體內容，只是一句『廢松機』。"
+    status: contradicted
+    supports: []
+    contradicts: [F013]
+    related_facts: [F014, F016]
+    reasoning_notes: "北市府已提出相當具體的遷移後土地使用與都市願景；但『有具體下游願景』不能推論『已完成上游機場遷移可行性』。"
+
+  - id: C003
+    statement: "蔣萬安在2026年宣布松機遷移前，已完成足以支撐遷建的跨部會、民航、國防、離島交通與救災功能替代可行性評估。"
+    status: contradicted
+    supports: []
+    contradicts: [F012, F014]
+    related_facts: [F016]
+    reasoning_notes: "2023存在偏好表達但同時尊重中央2040規劃；交通部稱其任內未主動展開遷移專業協調。現有公開證據不足以把都市願景升格成已完成整體可行性方案。"
+
+  - id: C004
+    statement: "蔣市府在2026年以前從未以任何形式向中央表達過松機遷建偏好。"
+    status: contradicted
+    supports: []
+    contradicts: [F012, F014]
+    related_facts: []
+    reasoning_notes: "2023回函／會議中已表達遷建有利台北都市發展並希望中央納入思考。"
+
+  - id: C005
+    statement: "蔣市府2023年已正式啟動並持續推進松機遷建執行計畫。"
+    status: contradicted
+    supports: []
+    contradicts: [F012, F014]
+    related_facts: [F011]
+    reasoning_notes: "目前可證明的是對中央2040規劃的回覆與政策偏好，不是持續的遷建執行／跨部會可行性程序。"
+
+  - id: C006
+    statement: "民進黨及其相關候選人長期從未主張過松山機場遷移。"
+    status: contradicted
+    supports: []
+    contradicts: [F001, F002, F003, F004, F006, F008, F015]
+    related_facts: [F007]
+    reasoning_notes: "歷史上反覆出現主張；但F007同時提醒不能把這段歷史誤寫成民進黨所有人物、所有時期均一致支持。"
+
+  - id: C007
+    statement: "民進黨在松機存廢議題上歷來立場完全一致，且執政後始終推動遷建。"
+    status: contradicted
+    supports: []
+    contradicts: [F007, F011]
+    related_facts: [F004, F008]
+    reasoning_notes: "候選人與陣營曾多次支持遷建，但2018黨內已有明確反對聲音；中央民航政策2016後曾正式確立兩機場、不遷建松機並推動2040規劃。"
+
+  - id: C008
+    statement: "因為松機遷移構想已被不同政治人物提出很多年，所以2026蔣萬安版本的遷建可行性已經被證明。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F005, F009, F011, F013, F014, F016]
+    reasoning_notes: "『歷史上多次提出』只能證明議題不是新想法；可行性仍須就當時有效的機場容量、功能替代、國防、救災、財務、權責與跨機關協調另行證明。"
+
+  - id: C009
+    statement: "對松機遷移案做跨陣營一致性檢驗時，應把『遷移後土地願景的具體程度』與『機場核心功能能否被替代的可行性證據』分開評估。"
+    status: supported
+    supports: [F005, F009, F010, F013, F014, F016]
+    contradicts: []
+    related_facts: [F001, F002, F003, F006, F008]
+    reasoning_notes: "歷史各版本往往能詳細描述原址再利用，但主管機關反覆提出的是遷移前提與功能替代。若把願景細節直接當成可行性證明，會混淆不同層級的政策資訊。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-18T12:36:37+08:00"
+    platform: "GitHub politics-db"
+    query: "松山機場／條通／沈伯洋／蔣萬安"
+    scope: "lichih/politics-db default branch"
+    result: not_found
+    notes: "本次repo-first查詢未找到既有松機遷建專題 evidence；不代表歷史上從未建立過其他命名或未索引資料。"
+
+  - id: Q002
+    observed_at: "2026-10-18T12:36:37+08:00"
+    platform: web
+    query: "李應元 謝長廷 姚文智 松山機場 遷移 台北市長"
+    scope: "2002-2018歷史選舉與同期新聞"
+    result: found
+    notes: "找到2002李應元、2006謝長廷、2014及2017-18姚文智等多次主張，以及2018民進黨內反對案例。"
+
+  - id: Q003
+    observed_at: "2026-10-18T12:36:37+08:00"
+    platform: web
+    query: "首都圈論壇 松山機場遷建及再生 2015 2020 小英 民航局"
+    scope: "臺北市政府官方論壇實錄"
+    result: found
+    notes: "官方PDF同時保留支持2020遷移的政治主張與民航局對容量、國防、救災、運輸等限制的專業意見。"
+
+  - id: Q004
+    observed_at: "2026-10-18T12:36:37+08:00"
+    platform: web
+    query: "吳怡農 松山機場 遷移 2022 王國材 戰備 離島 救援"
+    scope: "2022立委補選政策與交通部回應"
+    result: found
+    notes: "找到吳怡農具體政策構想及交通部對其提出的核心功能／國家層級限制。"
+
+  - id: Q005
+    observed_at: "2026-10-18T12:36:37+08:00"
+    platform: web
+    query: "蔣萬安 松山機場 2022 具體方案 通盤考量"
+    scope: "蔣萬安2022公開發言"
+    result: found
+    notes: "找到蔣萬安本人在2022年對松機遷移設定的具體評估、中央地方溝通與非倉促提出標準。"
+
+  - id: Q006
+    observed_at: "2026-10-18T12:36:37+08:00"
+    platform: web
+    query: "交通部 109交通年鑑 松山機場 2040 兩機場 不遷建"
+    scope: "交通部官方歷史政策文件"
+    result: found
+    notes: "官方年鑑確認2016後曾確立北部兩機場、不遷建松機政策，2020啟動2040規劃。"
+
+  - id: Q007
+    observed_at: "2026-10-18T12:36:37+08:00"
+    platform: web
+    query: "2026 蔣萬安 松山機場 AI園區 2023 回函 交通部 未主動討論"
+    scope: "2026北市府官方方案與中央後續說明"
+    result: found
+    notes: "找到北市府正式都市願景，以及交通部對2023接觸和2026宣布前協調程度的說明。"
+
+  - id: Q008
+    observed_at: "2026-10-18T12:36:37+08:00"
+    platform: web
+    query: "2006 謝長廷 松山機場 官方競選政見 原始文件"
+    scope: "公開網頁與歷史新聞"
+    result: partial
+    notes: "本次未找到可直接存取的2006謝長廷官方競選政見原始文件；找到2006同期新聞詳述方案，另有2007立院紀錄作交叉佐證。此次未找到不等於原始文件從未存在。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "本 session 的核心用途是建立可重用時間線與政策成熟度比較基準，不替任何政黨或人物預設結論。"
+  - "『提出過很多次』、『願景寫得很具體』、『已完成可行性驗證』是三個不同命題，必須分開。"
+  - "土地再利用、AI園區、公園、住宅、捷運等屬遷移後願景；桃園機場承接、國防、離島交通、救災救難、醫療後送、民航功能、跨機關權責等屬遷移本身的核心可行性鏈。"
+  - "Specificity != feasibility；detail != evidence；vision != plan。"
+  - "本次證據支持『民進黨相關候選人長期多次提出松機遷移』，但不支持把民進黨所有人物與所有執政時期概括成一致立場。"
