@@ -1,0 +1,545 @@
+session:
+  id: 2026-10-19-elderly-welfare-medical-subsidy-gap
+  project: Politics
+  title: "老人福利法第22條三讀後弱勢老人醫療補助法源爭議"
+  started_at: "2026-10-19T08:31:18+08:00"
+  updated_at: "2026-10-19T08:31:18+08:00"
+  status: active
+
+topics:
+  - 老人福利法
+  - 弱勢老人
+  - 健保部分負擔
+  - 非健保醫療費用
+  - 中低收入老人
+  - 中低收入戶
+  - 社會救助法
+  - 全民健康保險法
+  - 法規命令
+  - 地方自治
+  - 法源
+  - 法律生效時間
+  - 2026老人健保修法
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "老人福利法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050037"
+    observed_at: "2026-10-19T08:31:18+08:00"
+    retrieval_status: reachable
+    notes:
+      - "查詢當下頁面仍標示修正日期為民國114年8月1日；現行第22條仍同時規定保險費、部分負擔費用及健保給付未涵蓋醫療費用，對無力負擔者由地方主管機關補助。"
+      - "現行第22條第二項授權中央主管機關訂定補助對象、項目、基準等辦法。"
+      - "第20條規範居家式、社區式與機構式服務提供者的資格及服務準則，不是醫療費用補助的一般授權條款。"
+      - "第4、5、8條另規範中央與地方老人福利職掌及各主管機關得以補助、委託等方式提供老人服務照顧。"
+      - "第55條規定本法自公布日施行。"
+
+  - id: S002
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網"
+    title: "第11屆第6會期第6期公報初稿"
+    url: "https://ppg.ly.gov.tw/ppg/publications/official-gazettes-draft/11/06/06/01/details"
+    published_at: "2026-10-16"
+    observed_at: "2026-10-19T08:31:18+08:00"
+    retrieval_status: reachable
+    notes:
+      - "立法院公報初稿目錄明載2026-10-16『老人福利法修正第二十二條條文─完成三讀─』。"
+      - "本次查詢取得完成三讀的程序狀態，但未從該頁的可檢索文字取得完整三讀逐字條文。"
+
+  - id: S003
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網"
+    title: "第11屆第6會期第3次會議"
+    url: "https://ppg.ly.gov.tw/ppg/sittings/2026101417/details?meetingDate=115%2F10%2F16"
+    published_at: "2026-10-16"
+    observed_at: "2026-10-19T08:31:18+08:00"
+    retrieval_status: reachable
+    notes:
+      - "會議頁確認老人福利法第22條相關多案與陳超明等17人新提案均排入2026-10-16院會討論事項。"
+
+  - id: S004
+    source_type: secondary
+    publisher: "中央社"
+    title: "立院三讀修正老人福利法 綜所稅率未達20%長者健保費中央補助"
+    url: "https://www.cna.com.tw/news/aipl/202610160144.aspx"
+    published_at: "2026-10-16"
+    observed_at: "2026-10-19T08:31:18+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導確認2026-10-16三讀通過的核心效果為：符合最近一年所得申報／20%稅率條件的長者，由中央主管機關全額補助健保保險費。"
+      - "報導未說明原第22條的部分負擔及健保未涵蓋醫療費用文字如何處理。"
+
+  - id: S005
+    source_type: commentary
+    publisher: "台灣放送／賴中強"
+    title: "藍白不仁，以中低收入老人為芻狗"
+    url: "https://www.telltaiwan.org/29491"
+    published_at: "2026-10-18"
+    observed_at: "2026-10-19T08:31:18+08:00"
+    retrieval_status: reachable
+    notes:
+      - "賴中強表示其重聽2026-10-16院會IVOD後，轉錄三讀第22條為：第一項只處理符合所得條件者的健保保險費中央全額補助，第二項授權『前項補助』之對象、項目、基準等由中央主管機關定之。"
+      - "其主張原條文的部分負擔及健保給付未涵蓋醫療費用補助法源被刪除。此來源用來保存原始爭議主張與三讀文字轉錄，不把其法律結論直接當作已證實事實。"
+
+  - id: S006
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "老人參加全民健康保險無力負擔費用補助辦法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050174"
+    observed_at: "2026-10-19T08:31:18+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第1條明文：本辦法依老人福利法第22條第2項規定訂定。"
+      - "第2條的『中低收入老人』不是直接引用社會救助法中低收入戶，而是引用中低收入老人生活津貼發給辦法。"
+      - "第4條規範低收入戶老人之保費、部分負擔及健保未涵蓋醫療費用；第5條規範中低收入老人之保費、部分負擔及健保未涵蓋醫療費用。"
+      - "中低收入老人申請部分負擔或未涵蓋醫療費用，以疾病、傷害事故所生且最近3個月自付累計5萬元以上為限，補助比例由地方依財政狀況訂定。"
+      - "第9條要求於就醫／出院後6個月內申請，並附收據與醫療必要證明；第10條排除重複政府補助。"
+
+  - id: S007
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "中低收入老人生活津貼發給辦法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050045"
+    observed_at: "2026-10-19T08:31:18+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第2條一般資格的家庭平均每人每月收入上限可至最低生活費2.5倍，另受臺灣地區平均每人每月消費支出1.5倍及財產限額約束。"
+      - "符合社會救助法低收入戶或中低收入戶者申請本津貼時，免重複審查該所得財產條件。"
+      - "因此『中低收入老人』資格集合可包含未達社會救助法『中低收入戶』資格、但符合老人生活津貼2.5倍等條件者。"
+
+  - id: S008
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "社會救助法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050078"
+    observed_at: "2026-10-19T08:31:18+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第4條之1：中低收入戶家庭平均每人每月收入不得超過最低生活費1.5倍，並有家庭財產限制。"
+      - "第18條：低收入戶傷病患者，以及患嚴重傷病且醫療費用非本人或扶養義務人所能負擔者，可申請醫療補助；可由健保取得之醫療給付不得重複申請。"
+      - "第19條：低收入戶健保保費由中央補助，中低收入戶自付健保保費中央補助二分之一。"
+      - "第20條：醫療補助給付項目、方式及標準，由中央、直轄市主管機關定之。"
+
+  - id: S009
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "縣（市）醫療補助辦法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050082"
+    observed_at: "2026-10-19T08:31:18+08:00"
+    retrieval_status: reachable
+    notes:
+      - "本辦法依社會救助法第20條訂定，適用縣（市）醫療補助。"
+      - "中低收入戶須患嚴重傷病、費用無力負擔，且最近3個月相關醫療費累計3萬元以上。"
+      - "補助範圍包括健保部分負擔及健保未涵蓋醫療費用，但明文排除義肢、義眼、義齒、配鏡、鑲牙、整容、指定醫材、掛號費、看護費、指定病房等項目。"
+      - "中低收入戶補助比例為80%，申請期限為出院或就醫後3個月。"
+      - "此中央辦法是縣（市）規範；直轄市依社會救助法第20條另定其標準，不能把本辦法細節直接套用到所有直轄市。"
+
+  - id: S010
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "全民健康保險法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0060001"
+    observed_at: "2026-10-19T08:31:18+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第49條明文：符合社會救助法之低收入戶成員，依健保法第43、47條應自付之門診／住院部分負擔，由中央社政主管機關編列預算補助；不經轉診等情形有例外。"
+      - "因此低收入戶老人之健保部分負擔至少存在獨立於老人福利法第22條的法定補助來源。"
+
+  - id: S011
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "行政程序法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030055"
+    observed_at: "2026-10-19T08:31:18+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第150條：法規命令係行政機關基於法律授權，對不特定多數人民作成之抽象對外規範；內容應明列法律授權依據且不得逾越授權範圍與立法精神。"
+      - "第151條：法規命令修正、廢止等準用訂定程序。"
+      - "第158條規定法規命令牴觸法律、或無法律授權而剝奪限制權利等情形之無效，以及部分無效的處理。"
+
+  - id: S012
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "中央法規標準法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030133"
+    observed_at: "2026-10-19T08:31:18+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第4條：法律應經立法院通過、總統公布。"
+      - "第11條：命令不得牴觸憲法或法律。"
+      - "第13條：明定自公布或發布日施行者，自公布或發布日起算至第3日起發生效力。"
+      - "第20條規定因有關法規修正或廢止而應配合修正者，法規應修正。"
+      - "第21條第3款：法規因有關法規廢止或修正致失其依據、而無單獨施行必要者，應廢止。"
+      - "第22條：命令之廢止由原發布機關為之。"
+
+  - id: S013
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "地方制度法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0040003"
+    observed_at: "2026-10-19T08:31:18+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第18、19條將直轄市、縣（市）社會福利、公益慈善及社會救助列為地方自治事項。"
+      - "因此中央老人福利法特定法定義務是否消失，與地方是否仍有一般自治權限自辦福利，必須分開判斷。"
+
+  - id: S014
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "社會福利基本法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050213"
+    observed_at: "2026-10-19T08:31:18+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第16條要求地方政府規劃、制定並執行地方社會福利政策、自治法規與方案；第18條指出各級政府社會福利支出負擔依各該法律規定。"
+      - "此法支持地方仍有規劃福利方案的一般職權，但不等同原老人福利法第22條『應予補助』的特定全國法定最低義務。"
+
+  - id: S015
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網"
+    title: "第11屆第1會期第14次會議老人福利法第22條及第25條修正草案"
+    url: "https://ppg.ly.gov.tw/ppg/download/agenda1/02/pdf/11/01/14/LCEWA01_110114_00077.pdf"
+    published_at: "2024"
+    observed_at: "2026-10-19T08:31:18+08:00"
+    retrieval_status: reachable
+    notes:
+      - "該較早提案保留現行第22條第一項對保險費、部分負擔及健保未涵蓋醫療費用的地方補助義務，另新增中央對符合20%所得條件者的保費補助。"
+      - "因此實現中央老人保費補助在文字技術上不必然要求刪除原本兩類醫療費用補助。"
+
+  - id: S016
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網"
+    title: "第11屆第2會期第4次會議老人福利法第22條修正草案"
+    url: "https://ppg.ly.gov.tw/ppg/download/agenda1/02/pdf/11/02/04/LCEWA01_110204_00031.pdf"
+    published_at: "2024"
+    observed_at: "2026-10-19T08:31:18+08:00"
+    retrieval_status: reachable
+    notes:
+      - "該12%版本第一項創設中央保費補助，第二項仍明列無力負擔之健保部分負擔及健保未涵蓋醫療費用由中央全額補助，第三項再授權訂辦法。"
+      - "此版本同樣證明前述兩類醫療費用並非所有中央補助版本都預定刪除。"
+
+  - id: S017
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網"
+    title: "第11屆第1會期第5次會議老人福利法第22條修正草案"
+    url: "https://ppg.ly.gov.tw/ppg/download/agenda1/02/pdf/11/01/05/LCEWA01_110105_00040.pdf"
+    published_at: "2024"
+    observed_at: "2026-10-19T08:31:18+08:00"
+    retrieval_status: reachable
+    notes:
+      - "20%版本亦曾保留『部分負擔費用或保險給付未涵蓋之醫療費用無力負擔者，由中央主管機關全額補助』文字。"
+
+  - id: S018
+    source_type: secondary
+    publisher: "聯合報"
+    title: "老人福利法遭指狠刪弱勢3項補助 民眾黨團：政治操作其心可議才是不仁"
+    url: "https://udn.com/news/story/6656/9822603"
+    published_at: "2026-10-18"
+    observed_at: "2026-10-19T08:31:18+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導民眾黨團反駁賴中強，主張中低收入相關醫療補助仍有社會救助及地方補助體系，不存在其所稱全面斷裂。"
+      - "此來源保存政黨答辯內容，不把答辯中的法律判斷直接視為已證實。"
+
+  - id: S019
+    source_type: secondary
+    publisher: "中央社"
+    title: "律師指弱勢老人2類補助失法源 林靜儀：突襲式修法缺溝通"
+    url: "https://www.cna.com.tw/news/ahel/202610180173.aspx"
+    published_at: "2026-10-18"
+    observed_at: "2026-10-19T08:31:18+08:00"
+    retrieval_status: reachable
+    notes:
+      - "衛福部次長林靜儀的公開回應重點是修法缺乏行政溝通、影響範圍與補救措施未事前討論；她並未在該報導中作成『所有補助確定失效』或『完全沒有缺口』的正式法律認定。"
+
+  - id: S020
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網"
+    title: "陳超明等17人老人福利法第22條修正草案議案頁"
+    url: "https://ppg.ly.gov.tw/ppg/bills/deliver-and-negotiation/202110233680000/details"
+    published_at: "2026-10-02"
+    observed_at: "2026-10-19T08:31:18+08:00"
+    retrieval_status: reachable
+    notes:
+      - "議案頁確認陳超明等17人版本於2026-10-02逕付二讀、交付協商，並排入10月16日院會相關討論。"
+      - "本次查詢尚未取得該版本完整條文文字，不以其他人的轉述替代原始內容。"
+
+facts:
+  - id: F001
+    statement: "截至2026-10-19 08:31（+08:00）查詢，全國法規資料庫仍將《老人福利法》最近修正日標為2025-08-01，現行有效第22條仍明列保險費、健保部分負擔及健保給付未涵蓋醫療費用三類，並要求地方主管機關對無力負擔者補助。"
+    status: verified
+    observed_at: "2026-10-19T08:31:18+08:00"
+    source_ids: [S001]
+    evidence_summary: "2026-10-16三讀不等於已公布生效；query-as-of時點的官方現行法仍是舊第22條。"
+    verification_notes:
+      - "此次搜尋未找到2026-10-16三讀修正已由總統公布的資料；只能記錄本次查詢未找到，不推論未來不會公布。"
+    tags: [query-as-of, 現行法, 生效時間]
+
+  - id: F002
+    statement: "立法院官方公報初稿明載2026-10-16完成《老人福利法》第22條三讀。"
+    status: verified
+    observed_at: "2026-10-19T08:31:18+08:00"
+    source_ids: [S002, S003]
+    evidence_summary: "程序狀態可由立法院primary source直接確認。"
+    tags: [三讀, 立法院, "2026-10-16"]
+
+  - id: F003
+    statement: "目前可取得的三讀文字轉錄與中央社對三讀效果的報導一致顯示，新第22條第一項聚焦符合所得條件長者之健保保險費中央全額補助；賴中強轉錄的第二項則僅授權『前項補助』的對象、項目、基準等。"
+    status: partial
+    observed_at: "2026-10-19T08:31:18+08:00"
+    source_ids: [S004, S005, S002]
+    evidence_summary: "立法院primary source已確認完成三讀，但本次尚未從官方可檢索頁面取得完整逐字三讀條文；精確文字目前以當事人重聽IVOD轉錄與媒體一致報導交叉確認，待正式公報全文或總統公布文本補強。"
+    verification_notes:
+      - "不得把secondary/commentary轉錄冒充已取得的正式公布法律文本。"
+    tags: [三讀文字, 部分確認, 待正式文本]
+
+  - id: F004
+    statement: "現行《老人參加全民健康保險無力負擔費用補助辦法》明文以《老人福利法》第22條第2項作為授權依據，並實際規範低收入戶老人及中低收入老人的健保部分負擔與健保未涵蓋醫療費用補助。"
+    status: verified
+    observed_at: "2026-10-19T08:31:18+08:00"
+    source_ids: [S006]
+    evidence_summary: "子法授權鏈與保障項目均由中央法規primary source直接確認。"
+    tags: [授權子法, 部分負擔, 非健保醫療]
+
+  - id: F005
+    statement: "舊老人專屬補助辦法所稱『中低收入老人』，係引用《中低收入老人生活津貼發給辦法》，其一般所得門檻可到最低生活費2.5倍；《社會救助法》的『中低收入戶』則以1.5倍為所得上限，因此兩個資格集合並不相同。"
+    status: verified
+    observed_at: "2026-10-19T08:31:18+08:00"
+    source_ids: [S006, S007, S008]
+    evidence_summary: "法規交叉引用與兩套所得門檻直接顯示：不能用『社救法中低收入戶仍有救濟』推論所有原中低收入老人均受同等覆蓋。"
+    tags: [中低收入老人, 中低收入戶, 資格差異, 2.5倍, 1.5倍]
+
+  - id: F006
+    statement: "《全民健康保險法》第49條對符合《社會救助法》低收入戶資格者的門診、住院健保部分負擔另有中央補助法源，因此低收入戶老人的這一類部分負擔並非僅依賴《老人福利法》第22條。"
+    status: verified
+    observed_at: "2026-10-19T08:31:18+08:00"
+    source_ids: [S010]
+    evidence_summary: "存在獨立法源，故『所有弱勢老人部分負擔補助都完全無法源』過度概括。"
+    tags: [健保法49條, 低收入戶, 獨立法源]
+
+  - id: F007
+    statement: "《社會救助法》第18至20條另有醫療補助制度，但其資格與老人專屬制度並不等價：一般非低收入戶須涉及嚴重傷病及無力負擔；縣（市）中低收入戶實施辦法另要求最近3個月費用達3萬元。"
+    status: verified
+    observed_at: "2026-10-19T08:31:18+08:00"
+    source_ids: [S008, S009]
+    evidence_summary: "社救法提供替代／重疊法源，但條件不是原老人制度的完整複製。"
+    tags: [社會救助法, 醫療補助, 覆蓋差異]
+
+  - id: F008
+    statement: "縣（市）《醫療補助辦法》雖補助健保部分負擔與健保未涵蓋醫療費用，但明文排除義齒、鑲牙等項目；中低收入戶補助80%，申請期限3個月。舊老人專屬辦法則沒有同一份排除清單，並給6個月申請期，補助比例由地方財政狀況訂定。"
+    status: verified
+    observed_at: "2026-10-19T08:31:18+08:00"
+    source_ids: [S006, S009]
+    evidence_summary: "兩套制度在項目、比例與程序上存在明確差異；不能稱社救法子法『原封不動承接』老人專屬補助。"
+    verification_notes:
+      - "縣（市）醫療補助辦法不直接決定各直轄市標準；直轄市須逐一查其規範。"
+      - "舊老人中央辦法沒有列義齒排除，不等於已證明所有地方在舊法下都實際補助活動假牙；實際地方給付仍待逐地查核。"
+    tags: [coverage-matrix, 義齒, 申請期限, 補助比例]
+
+  - id: F009
+    statement: "地方政府對社會福利與社會救助具有一般自治事項與規劃地方福利方案的權限；因此即使中央法的特定義務或授權改變，也不能直接推出地方政府從此完全無權提供相關醫療補助。"
+    status: verified
+    observed_at: "2026-10-19T08:31:18+08:00"
+    source_ids: [S001, S013, S014]
+    evidence_summary: "地方仍有一般福利自治權限；但這與是否仍存在原第22條的全國法定最低義務是不同問題。"
+    tags: [地方自治, 社會福利, 權限, 法定義務]
+
+  - id: F010
+    statement: "現行《老人福利法》第20條內容是前三條居家式、社區式、機構式服務提供者的資格及服務準則授權，不能作為『第20條本身就是弱勢老人醫療／假牙補助法源』的文字依據。"
+    status: verified
+    observed_at: "2026-10-19T08:31:18+08:00"
+    source_ids: [S001]
+    evidence_summary: "Facebook反駁將老人福利法第20條描述為醫療補助一般授權，與現行條文內容不符。"
+    tags: [老人福利法20條, 錯誤引法]
+
+  - id: F011
+    statement: "法規命令原則上須有法律授權且不得逾越授權；相關法律修正導致命令失去依據時，中央法規標準法要求檢討修正或在失去依據且無單獨施行必要時廢止，但命令廢止仍由原發布機關依程序為之。"
+    status: verified
+    observed_at: "2026-10-19T08:31:18+08:00"
+    source_ids: [S011, S012]
+    evidence_summary: "因此若新第22條生效，舊辦法中超出新授權文字的部分會產生明顯授權基礎問題；但不能不經分析直接說整部辦法在生效瞬間自動全部消滅。"
+    tags: [法規命令, 授權, 廢止, 行政程序]
+
+  - id: F012
+    statement: "至少三個較早的立法版本在增加中央老人健保保費補助時，都保留了原本的部分負擔及健保未涵蓋醫療費用補助文字，部分版本甚至改由中央全額補助。"
+    status: verified
+    observed_at: "2026-10-19T08:31:18+08:00"
+    source_ids: [S015, S016, S017]
+    evidence_summary: "立法沿革顯示『中央承擔老人保費』與『刪掉另外兩類弱勢醫療補助文字』不是文字上必然綁在一起。"
+    verification_notes:
+      - "此事實不能單獨證明最終刪除是故意、疏失或具有特定動機；動機維持未解。"
+    tags: [立法沿革, 早期版本, 保留保障]
+
+  - id: F013
+    statement: "《老人福利法》須經總統公布；現行法第55條規定自公布日施行，而中央法規標準法第13條規定此類法規自公布日起算至第3日起發生效力。"
+    status: verified
+    observed_at: "2026-10-19T08:31:18+08:00"
+    source_ids: [S001, S012]
+    evidence_summary: "時間軸上，三讀完成與法律生效不是同一事件。"
+    tags: [公布, 生效, 時間軸]
+
+  - id: F014
+    statement: "民眾黨團在2026-10-18公開反駁『弱勢補助法源全失』說法；衛福部次長林靜儀則公開指出修法前欠缺行政溝通，影響範圍與補救措施未充分討論，但未在相關報導中對完整法源覆蓋作最終法律認定。"
+    status: verified
+    observed_at: "2026-10-19T08:31:18+08:00"
+    source_ids: [S018, S019]
+    evidence_summary: "保存主要爭議雙方公開立場；其法律結論仍需用原始法規獨立驗證。"
+    tags: [民眾黨, 衛福部, 公開立場]
+
+claims:
+  - id: C001
+    statement: "「2026-10-16三讀後，弱勢老人原有的健保部分負擔與非健保醫療補助已在2026-10-19當下立即失效。」"
+    status: contradicted
+    contradicts: [F001, F013]
+    related_facts: [F002, F003]
+    reasoning_notes: "三讀不是生效時點。query-as-of 2026-10-19官方現行法仍是舊第22條；本次亦未找到總統公布新修正的資料。"
+
+  - id: C002
+    statement: "「若2026-10-16三讀文字依目前轉錄內容原樣完成公布並生效，原第22條對無力負擔之部分負擔費用與健保未涵蓋醫療費用所設的全國法律明文及對應第二項授權將不再出現在第22條。」"
+    status: supported
+    supports: [F003, F004, F012, F013]
+    related_facts: [F011]
+    reasoning_notes: "這是條文文字與授權鏈的比較。最終精確措辭仍待正式公布／公報全文補強，但目前證據高度一致。"
+
+  - id: C003
+    statement: "「三讀文字生效後，低收入與中低收入老人所有相關醫療補助在全台都完全失去任何法源，地方也不能再補助。」"
+    status: contradicted
+    contradicts: [F006, F007, F009]
+    related_facts: [F005, F008, F011]
+    reasoning_notes: "健保法49條、社會救助法醫療補助及地方自治福利權限均提供部分獨立法源；但其覆蓋不等同舊老人專屬制度。"
+
+  - id: C004
+    statement: "「因為社會救助法與地方制度仍存在，所以原老人福利法第22條的弱勢醫療補助保障被完整、等價地保留下來，沒有任何保障缺口。」"
+    status: contradicted
+    contradicts: [F005, F007, F008]
+    related_facts: [F004, F009]
+    reasoning_notes: "中低收入老人與中低收入戶資格集合不同，社救法及縣市醫療補助另有嚴重傷病、金額門檻、排除項目、比例與期限差異；地方自治的一般權限也不等於原本全國法律的『應予補助』義務。"
+
+  - id: C005
+    statement: "「現行老人無力負擔費用補助辦法本身即可在新第22條生效後，毫無授權問題地繼續支撐原部分負擔與未涵蓋醫療費用補助。」"
+    status: unsupported
+    contradicts: [F004, F011]
+    related_facts: [F003]
+    reasoning_notes: "該辦法第1條直接以老人福利法第22條第2項為授權依據；若新第2項只授權『前項』的保費補助，其餘規定至少產生授權範圍是否仍存在的明顯問題。"
+
+  - id: C006
+    statement: "「新第22條一生效，現行老人無力負擔費用補助辦法就會在同一瞬間自動全部失效或全部無效。」"
+    status: unresolved
+    related_facts: [F011, F003, F004]
+    reasoning_notes: "相關法要求命令因上位法修正而檢討修正／廢止，命令廢止也有程序；是否部分條文可由其他權限維持、是否構成部分無效、以及行政機關如何處理，尚無本案權威解釋。不能把『授權基礎出現問題』直接等同『整部命令自動消滅』。"
+
+  - id: C007
+    statement: "「老人福利法第20條本身可以取代被刪掉的第22條，作為地方弱勢老人部分負擔與假牙等醫療補助的直接授權法源。」"
+    status: contradicted
+    contradicts: [F010]
+    related_facts: [F009]
+    reasoning_notes: "第20條的文義是服務提供者資格與服務準則。地方仍可能依其他一般自治／福利法源自辦補助，但不是因為第20條具有Facebook留言所稱的醫療補助內容。"
+
+  - id: C008
+    statement: "「社會救助法所稱中低收入戶與老人補助辦法所稱中低收入老人是同一群人。」"
+    status: contradicted
+    contradicts: [F005]
+    reasoning_notes: "前者所得上限1.5倍最低生活費；後者一般資格可至2.5倍且另有消費支出與資產條件，集合明顯不同。"
+
+  - id: C009
+    statement: "「較早草案都已經刪掉部分負擔與未涵蓋醫療費用，因此最終三讀只是延續原本共同設計。」"
+    status: contradicted
+    contradicts: [F012]
+    reasoning_notes: "至少多個20%或12%版本明文保留相關補助，甚至改由中央全額承擔。"
+
+  - id: C010
+    statement: "「最終文字漏掉兩類醫療補助是立法者故意犧牲弱勢，或反之只是單純筆誤。」"
+    status: unresolved
+    related_facts: [F012, F002, F003, F014]
+    reasoning_notes: "文字結果與過往版本可以確認，但目前沒有足夠原始證據判定主觀動機。應查10月16日再修正動議原件、協商／院會完整紀錄與提案人事後說明。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-19T08:31:18+08:00"
+    platform: web
+    query: "老人福利法 2026-10-16 三讀 第22條 完成三讀 立法院公報"
+    scope: "立法院議事暨公報資訊網"
+    result: found
+    notes: "找到官方公報初稿目錄與會議頁，可確認完成三讀；可檢索頁尚未取得完整逐字三讀條文。"
+
+  - id: Q002
+    observed_at: "2026-10-19T08:31:18+08:00"
+    platform: web
+    query: "總統府 2026-10-16至2026-10-19 老人福利法第22條 公布"
+    scope: "總統府、全國法規資料庫，recency 7 days"
+    result: not_found
+    notes: "此次查詢未找到2026-10-16三讀修正已由總統公布的紀錄；全國法規資料庫仍顯示2025-08-01版本。not_found不等於未來不會公布。"
+
+  - id: Q003
+    observed_at: "2026-10-19T08:31:18+08:00"
+    platform: web
+    query: "老人福利法第22條 老人無力負擔補助辦法 中低收入老人 社會救助法 健保法49條"
+    scope: "全國法規資料庫"
+    result: found
+    notes: "找到現行老人專屬子法、社會救助法、健保法及資格辦法，可建立法源與coverage matrix。"
+
+  - id: Q004
+    observed_at: "2026-10-19T08:31:18+08:00"
+    platform: web
+    query: "中低收入老人生活津貼 2.5倍 vs 社會救助法中低收入戶 1.5倍"
+    scope: "全國法規資料庫"
+    result: found
+    notes: "確認兩個法律概念不是同一資格集合，這是評估替代法源是否完整覆蓋的關鍵。"
+
+  - id: Q005
+    observed_at: "2026-10-19T08:31:18+08:00"
+    platform: web
+    query: "縣市醫療補助辦法 部分負擔 未涵蓋醫療費用 義齒 中低收入戶"
+    scope: "全國法規資料庫"
+    result: found
+    notes: "確認社救法縣市醫療補助有嚴重傷病、3萬元門檻、義齒等排除、80%補助及3個月申請期限；與老人專屬辦法不同。"
+
+  - id: Q006
+    observed_at: "2026-10-19T08:31:18+08:00"
+    platform: web
+    query: "老人福利法第22條早期提案 20% 12% 部分負擔 保險給付未涵蓋"
+    scope: "立法院議事暨公報資訊網"
+    result: found
+    notes: "找到至少三個早期版本在增加中央老人健保保費補助的同時，仍保留原部分負擔／未涵蓋醫療費用補助。"
+
+  - id: Q007
+    observed_at: "2026-10-19T08:31:18+08:00"
+    platform: web
+    query: "陳超明等17人 2026-10-02 老人福利法第22條 完整修正條文"
+    scope: "立法院議事暨公報資訊網"
+    result: partial
+    notes: "找到官方議案頁與程序狀態，但本次尚未取得其完整條文內容；不採用二手轉述補空缺。"
+
+  - id: Q008
+    observed_at: "2026-10-19T08:31:18+08:00"
+    platform: web
+    query: "老人福利法第22條 地方政府 假牙 非健保醫療補助 各縣市 實際法源"
+    scope: "中央法規與一般地方自治框架"
+    result: partial
+    notes: "確認地方有社會福利自治權限及社救法醫療補助，但尚未逐一核對22縣市現行自治法規／行政規則，不能說所有地方既有方案都可原封不動延續。"
+
+  - id: Q009
+    observed_at: "2026-10-19T08:31:18+08:00"
+    platform: web
+    query: "老人參加全民健康保險無力負擔費用補助辦法 實際受益人數 部分負擔 非健保醫療補助 全國統計"
+    scope: "衛福部、健保署、地方政府公開資料"
+    result: not_found
+    notes: "本次尚未找到全國同口徑的現行受益人數與支出統計，因此目前可確認法定保障範圍差異，不能量化若新法生效後實際受影響人數與金額。"
+
+promotion:
+  cases: []
+  comparators: []
+  research:
+    - proposed: "elderly-medical-subsidy-statutory-coverage"
+
+notes:
+  - "本session與 sessions/2026-10-17-elderly-nhi-subsidy/evidence.yaml 有關，但問題不同：前者主要處理老人保費中央補助的付款責任／財政；本session專門處理第22條重寫後弱勢老人部分負擔與未涵蓋醫療費用的法源coverage。"
+  - "時間軸硬約束：2026-10-16完成三讀；截至2026-10-19查詢，官方現行法仍是舊第22條。不得用預期未來生效效果描述成當下已失效。"
+  - "目前最穩健法律結論：若三讀文字依現有轉錄原樣生效，舊第22條對另外兩類醫療費用的明文法定義務與舊第二項授權會出現實質缺口；但其他法律仍提供部分重疊保障，不能寫成『所有補助全部無法源』。"
+  - "同樣不能接受『社救法完全承接所以零缺口』：中低收入老人與中低收入戶不是同一集合，補助項目、嚴重傷病條件、費用門檻、排除項目、比例與期限也不同。"
+  - "地方一般自治權限與中央法律設定的全國最低義務必須分層：地方可能仍能自辦福利，不表示人民仍享有原第22條同等且全國一致的法定保障。"
+  - "老人福利法第20條不是醫療補助條款；以第20條直接反駁法源疑義屬引法錯誤。"
+  - "舊老人補助辦法的授權基礎若因新法縮限會如何處理，應區分『授權鏈出現問題』、『部分規定可能無效』與『命令正式廢止』，目前不得把三者混成自動全面失效。"
+  - "是否為故意刪除、急就章疏失或其他動機維持unresolved；下一步應優先取得10月16日再修正動議原件與正式公報全文。"
