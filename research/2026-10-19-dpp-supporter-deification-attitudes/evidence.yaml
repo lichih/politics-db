@@ -1,9 +1,9 @@
 session:
   id: 2026-10-19-dpp-supporter-deification-attitudes
   project: Politics
-  title: "民進黨支持者對政黨、人物與「造神」的公開態度：自然樣本研究"
+  title: "支持者對政黨、人物、「造神」與同一把尺的公開態度：跨陣營自然樣本研究"
   started_at: "2026-10-19T12:57:00+08:00"
-  updated_at: "2026-10-19T12:57:00+08:00"
+  updated_at: "2026-10-19T16:34:00+08:00"
   status: active
 
 topics:
@@ -17,6 +17,9 @@ topics:
   - 自然樣本
   - 柯文哲
   - 沈伯洋
+  - 同一把尺
+  - 跨陣營對照
+  - 共同事實基礎
 
 sources:
   - id: S001
@@ -55,6 +58,31 @@ sources:
       - "此來源直接證明該帳號把一篇稱讚柯文哲做事方法的貼文標記為「造神」。"
       - "目前尚未在本 research 中證明 @zitarcheng 的政黨認同，因此不能先把此帳號歸類為民進黨支持者。"
 
+  - id: S004
+    source_type: primary
+    publisher: "Threads / @hsiang_90123"
+    title: "對『同一把尺』與共同事實基礎的跨立場回應"
+    url: "https://www.threads.com/@hsiang_90123/post/Deqv1pOH3on"
+    published_at: "2026-10-19"
+    observed_at: "2026-10-19T16:34:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "作者先問：『那如果有人可以用同一把尺批評民進黨，我們就有機會來討論問題本身嗎？』"
+      - "後續作者表示自己的政治光譜『可能跟你截圖提及的人一樣』，但仍認為原貼文『講的沒錯』，並稱『藍也好綠也罷，只要變成信仰那根本難以撼動』，否則連事實基礎都不在同一平面。"
+      - "『政治光譜可能跟截圖提及的人一樣』是作者自我描述，不能自行延伸成正式黨籍或固定投票身分。"
+
+  - id: S005
+    source_type: primary
+    publisher: "Threads / @loleveryday365"
+    title: "對『同一把尺批評民進黨後才能討論問題』回覆『這不是廢話嗎...』"
+    url: "https://www.threads.com/@loleveryday365/post/Deq1FaGmcXO"
+    published_at: "2026-10-19"
+    observed_at: "2026-10-19T16:31:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "該回覆直接接在 @hsiang_90123 的問題下。"
+      - "同一時間可見的 @loleveryday365 replies 對沈伯洋多次採批判語氣，可確認其在該議題上屬反沈方向；目前不足以由此單獨證明其正式黨籍或穩定國民黨支持者身分。"
+
 facts:
   - id: F001
     statement: "@ercx93 在 2026-10-18 公開貼文中，以國民黨、民眾黨、民進黨三個政黨作為排除與投票選擇單位，並表示排除前兩黨後「只剩下民進黨可以投」。"
@@ -90,6 +118,24 @@ facts:
     source_ids: [S003]
     evidence_summary: "該留言是目前直接觀察到的『造神』標籤使用案例；留言者政黨認同另需獨立查證。"
     tags: [造神, 柯文哲, 方法論, Threads]
+
+  - id: F005
+    statement: "@hsiang_90123 在自述政治光譜可能接近原先被討論者的同時，仍明確同意『藍也好綠也罷，只要變成信仰』就會使討論難以觸及事情本質，甚至失去共同事實基礎。"
+    status: verified
+    observed_at: "2026-10-19T16:34:00+08:00"
+    source_ids: [S004]
+    evidence_summary: "這是公開自我定位與規則認同同時出現的自然樣本；可證明至少存在政治光譜接近被批評一側、仍接受跨陣營同一標準的人。"
+    tags: [同一把尺, 共同事實基礎, 跨立場, 自然樣本]
+
+  - id: F006
+    statement: "@loleveryday365 對『若有人能用同一把尺批評民進黨，是否就能討論問題本身』直接回覆「這不是廢話嗎...」；同一可見 replies 樣本中該帳號對沈伯洋採明顯批判態度。"
+    status: verified
+    observed_at: "2026-10-19T16:31:00+08:00"
+    source_ids: [S005]
+    evidence_summary: "這是一個反沈方向帳號把『同一把尺才有共同討論基礎』視為近乎理所當然的自然對照樣本。"
+    verification_notes:
+      - "反沈方向不等於已證明為國民黨支持者；正式政黨認同保持 unresolved。"
+    tags: [同一把尺, 反沈伯洋, 對照樣本, Threads]
 
 claims:
   - id: C001
@@ -132,6 +178,22 @@ claims:
     related_facts: [F001, F004]
     reasoning_notes: "候選人端的沈伯洋人格／能力品牌已另由 sessions/2026-10-19-shen-branding-ko-methodology-contrast/evidence.yaml 證實；但支持者端目前缺少同一帳號或可分類樣本同時出現『對外喊造神、對內接受人格神格化』的 paired evidence。"
 
+  - id: C006
+    statement: "『同一把尺、共同事實基礎』不是只能由某一政治陣營接受的規則；目前自然樣本中已可觀察到政治取向不同、甚至在沈伯洋議題上方向相反的帳號，都明示接受此原則。"
+    status: supported
+    supports: [F005, F006]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "這是存在性結論：證明跨方向接受是可能的；不能由兩個樣本推出各陣營接受比例相同。"
+
+  - id: C007
+    statement: "因為『同一把尺』在抽象層次聽起來像常識，所以沒有必要明示或檢驗它。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F001, F002, F003, F005, F006]
+    reasoning_notes: "本研究正同時出現『口頭把規則視為理所當然』與『公開發言是否實際符合該規則仍需另行檢驗』兩個層次；規則的抽象可接受性不能替代具體行為檢驗。"
+
 searches:
   - id: Q001
     observed_at: "2026-10-19T12:57:00+08:00"
@@ -149,13 +211,24 @@ searches:
     result: found
     notes: "ercx93 提供黨中心支持結構的自然樣本；zitarcheng 提供直接『造神』標籤案例。兩者目前不能視為同一類已確認民進黨支持者樣本。"
 
+  - id: Q003
+    observed_at: "2026-10-19T16:34:00+08:00"
+    platform: "connected browser / Threads"
+    query: "hsiang_90123 Deqv1pOH3on; loleveryday365 Deq1FaGmcXO and replies"
+    scope: "原串可見回覆與 @loleveryday365 當下已載入 replies"
+    result: found
+    notes: "找到一組跨政治方向的自然對照：@hsiang_90123 明示接受藍綠同一標準與共同事實基礎；反沈方向的 @loleveryday365 則把同一把尺視為『這不是廢話嗎』。"
+
 promotion:
   cases: []
-  comparators: []
+  comparators:
+    - proposed: "cross-camp-same-standard-natural-samples"
+      rationale: "hsiang_90123 與 loleveryday365 提供政治方向不同但都明示接受『同一把尺／共同事實基礎』的自然對照，可用來校正『只有某一陣營有此問題』的過度概括。"
   research: []
 
 notes:
-  - "研究主體是『支持者對黨、人與造神的態度』，不是任何單一 Threads 帳號。個人帳號只作為 source / sample。"
+  - "研究主體是『支持者對黨、人、造神與同一把尺的態度』，不是任何單一 Threads 帳號。個人帳號只作為 source / sample。"
+  - "跨陣營自然樣本的功能是建立 comparator / negative control：同樣的規則若能被不同政治方向的人明示接受，就更適合拿來檢驗各自是否在具體案件中一致實行。"
   - "最有力的後續證據會是 paired evidence：同一帳號一方面把對手陣營的具體能力／方法稱為『造神』，另一方面對己方人物的人格化品牌採肯定、轉發或免責式論述。"
   - "另一條證據路徑是群體層級資料：政黨認同強度、候選人 vs 政黨投票、分裂投票、政治人物好感與黨認同的相對解釋力。這類資料才能回答比例問題。"
   - "與沈伯洋候選人端人格／能力品牌相關的 authoritative facts 保存在 sessions/2026-10-19-shen-branding-ko-methodology-contrast/evidence.yaml；本 research 不重複複製。"
