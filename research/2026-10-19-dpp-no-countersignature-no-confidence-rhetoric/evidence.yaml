@@ -3,7 +3,7 @@ session:
   project: Politics
   title: 民進黨／支持者「不副署、不滿就倒閣」論述的形成、延續與憲政含義
   started_at: '2026-10-19T18:09:00+08:00'
-  updated_at: '2026-10-19T18:09:00+08:00'
+  updated_at: '2026-10-19T19:01:00+08:00'
   status: active
 topics:
 - 民進黨
@@ -206,6 +206,50 @@ sources:
   retrieval_status: reachable
   notes:
   - 整理多位憲法學者的相反觀點。蘇彥圖警告，不副署若成為無法被突破的否決，可能形成極強行政否決與重複賽局；蘇子喬等認為覆議失敗後應接受。此為學者意見整理，不是憲法法庭終局判決。
+- id: S020
+  source_type: secondary
+  publisher: 中央社
+  title: 不副署廣播電視法　政院：黨政軍投資媒體規範應一致
+  url: https://www.cna.com.tw/news/aipl/202608240291.aspx
+  published_at: '2026-08-24'
+  observed_at: '2026-10-19T19:01:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 報導逐項列出截至2026-08-24行政院長卓榮泰不副署的8項三讀法案：財劃法、眷改條例、黨產條例、衛廣法、立院組織法、台灣兒少成長及未來帳戶條例、有線廣播電視法、廣播電視法。
+- id: S021
+  source_type: secondary
+  publisher: 中央社
+  title: 學者稱副署權應制衡總統　卓榮泰：那閣揆馬上被換掉
+  url: https://www.cna.com.tw/news/aipl/202609090332.aspx
+  published_at: '2026-09-09'
+  observed_at: '2026-10-19T19:01:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 卓榮泰明確反駁『副署權是用來制衡總統』的說法，理由是行政院長由總統直接任命、若拒絕總統想公布的法律即可被撤換；他進一步主張總統沒有否決權，因此行政院長必須以不副署『輔助』總統阻止其認定違憲、破壞財政紀律或危害國安的法律。
+  - 卓榮泰同時主張8項不副署法案均已逾憲法第72條10日期限，已不可能再副署。此點是行政院長的法律立場，本research不把它視為憲法法庭已確認的法律結論。
+- id: S022
+  source_type: commentary
+  publisher: I·CONnect / International Journal of Constitutional Law Blog
+  title: "‘In the Name of (Executive) Constitutionalism’: A Tale of Two Invincible Executives"
+  url: https://www.iconnectblog.com/in-the-name-of-executive-constitutionalism-a-tale-of-two-invincible-executives/
+  published_at: '2026-09-04'
+  observed_at: '2026-10-19T19:01:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 英國華瑞克大學法學院郭銘松（Ming-Sung Kuo）主張，第37條副署制度歷史上是行政院長對總統的責任／制衡機制；行政部門對立法院法案最接近否決權的明文工具是覆議，且覆議維持原案後行政院長『應即接受』。
+  - 該文將2025-12覆議失敗後不副署及2026後續不副署描述為實質形成國會無法覆決的『ultra executive veto』；並記錄2026-02眷改條例起行政院未先走覆議程序，其後又以不副署阻止另外六案。
+  - 此來源屬學術評論，不是憲法法庭判決；其中關於制度性質的文字應作為學者法律論證保存，不冒充拘束性法源。
+- id: S023
+  source_type: commentary
+  publisher: I·CONnect / International Journal of Constitutional Law Blog
+  title: 同篇文章下之反方評論：第37條可否作為條件式憲政防衛
+  url: https://www.iconnectblog.com/in-the-name-of-executive-constitutionalism-a-tale-of-two-invincible-executives/
+  published_at: '2026-09-04'
+  observed_at: '2026-10-19T19:01:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 同頁評論提出相反的最強論證：第37條明文要求副署，不應預設其僅為形式；在憲法法庭失能、立法權可能越界時，可把條件式拒絕副署理解為權力分立下的最後防衛，而不是從文字沉默中憑空創設權力。
+  - 該評論也承認把第37條理解成『無限制、全面否決』具有明顯制度風險，因此支持論證本身仍主張條件與邊界，而非無條件行政優位。
 facts:
 - id: F001
   statement: 現行憲法增修條文把『覆議後應即接受』與『不信任案／倒閣』規定在同一條但不同款：覆議經全體立委二分之一以上維持原案時，行政院長應即接受；不信任案通過後，行政院長辭職並得呈請總統解散立法院。
@@ -365,6 +409,59 @@ facts:
   - 抽樣邊界
   - 支持者文化
   - 代表性
+- id: F013
+  statement: 截至2026-08-24，行政院長卓榮泰已對8項立法院三讀法案拒絕副署，涵蓋財政分配、眷村改建、黨產、立法院組織、兒少政策與三部媒體法規；不副署已由2025-12財劃法單一首例發展為重複使用的行政工具。
+  status: verified
+  observed_at: '2026-10-19T19:01:00+08:00'
+  source_ids:
+  - S017
+  - S020
+  evidence_summary: 行政院自己以『已副署201案、8案未副署』說明比例；中央社另逐項列出8案，可交叉確認數量與案件範圍。
+  tags:
+  - '2026'
+  - 8案
+  - 制度化
+  - 不副署
+- id: F014
+  statement: 2026-09卓榮泰公開主張，副署權在現行體制下並非用來制衡總統，而應在總統欠缺否決權時以不副署加以『輔助』；這是行政院長對第37條功能的明示制度解釋。
+  status: verified
+  observed_at: '2026-10-19T19:01:00+08:00'
+  source_ids:
+  - S021
+  evidence_summary: 中央社完整記錄卓榮泰對『副署制衡總統』學說的反駁，以及他將不副署定位為補足總統欠缺否決權的工具。
+  verification_notes:
+  - 此fact只確認卓榮泰採取何種憲法解釋，不表示該解釋已獲憲法法庭確認。
+  tags:
+  - 副署權
+  - 總統否決權
+  - 行政院
+  - 憲法解釋立場
+- id: F015
+  statement: 郭銘松於2026-09在I·CONnect主張，第37條副署原本指向總統而非國會，行政部門對立法案的明文否決型機制是覆議；把不副署用於阻止國會法案，會形成國會無法以覆議程序突破的『ultra executive veto』。
+  status: verified
+  observed_at: '2026-10-19T19:01:00+08:00'
+  source_ids:
+  - S022
+  evidence_summary: 這是具名憲法學者的公開法律論證，可作為反對行政院解釋的高資訊量學術意見；其法律評價本身不是終局司法裁判。
+  tags:
+  - 學者意見
+  - ultra executive veto
+  - 副署
+  - 覆議
+- id: F016
+  statement: 對行政院解釋的支持方也存在具體法理：第37條既明文要求副署，可主張它具有實質判斷功能；在憲法法庭失能且立法權可能越界的極端情況，條件式拒絕副署可被理解為最後一道憲政防衛。
+  status: verified
+  observed_at: '2026-10-19T19:01:00+08:00'
+  source_ids:
+  - S023
+  evidence_summary: I·CONnect同頁反方評論清楚提出此結構論證，且同時承認無限制否決的制度風險；因此可作為此爭議的最強支持論點之一，而非稻草人。
+  verification_notes:
+  - 此fact確認『此法律論證存在及其內容』，不把評論者意見轉寫成既定法律。
+  tags:
+  - 反方最強論證
+  - 憲政防衛
+  - 第37條
+  - 權力分立
 claims:
 - id: C001
   statement: 『不副署後，在野不滿就自己倒閣』不是fateric09或2026年才出現的臨時說法；至少自2024-12起已有民進黨立委與支持性社群公開採用，2025-12行政院實際不副署後成為行政院、民進黨發言人／黨團反覆使用的正式政治論述，並延續到2026-09。
@@ -439,6 +536,52 @@ claims:
   - F009
   - F012
   reasoning_notes: 可觀察到政治支持與制度實踐並存，但缺乏足以識別政策決策因果的內部資料。
+- id: C010
+  statement: 到2026年，不副署已不能再合理描述為只針對財劃法的一次性緊急例外；它已成為行政院面對其認定違憲或破壞權力分立之三讀法案時會重複動用的制度工具。
+  status: supported
+  supports:
+  - F009
+  - F013
+  reasoning_notes: 這是對實踐頻率與範圍的描述，不預先判斷每一案的實體理由是否正確。
+- id: C011
+  statement: 卓榮泰目前公開提出的制度理論，實質上是以行政院長不副署補足『總統沒有否決權』；因此其制度功能已不只是傳統的總統命令責任副署，而是被執政團隊用作阻止國會法案公布的行政否決工具。
+  status: supported
+  supports:
+  - F013
+  - F014
+  related_facts:
+  - F001
+  - F002
+  - F015
+  reasoning_notes: 『行政否決工具』描述的是可觀察制度效果與卓榮泰自己的功能說明；『是否合憲』仍由C007保持unresolved。
+- id: C012
+  statement: 若接受行政院目前的解釋，立法院對『覆議失敗後仍不副署』沒有另一個對等的一般立法覆決程序；不信任案是另一款的政治責任機制，通過後行政院長必須辭職，且立法院同時承擔總統可能解散國會的風險。
+  status: supported
+  supports:
+  - F001
+  - F006
+  related_facts:
+  - F014
+  reasoning_notes: 增修條文把覆議與不信任案分列不同款；因此把『倒閣』當作突破不副署的途徑，確實把衝突從一般立法程序升高到政府存續與可能改選的層級。總統解散立法院是『得』而非必然。
+- id: C013
+  statement: 『行政院覆議失敗仍可不副署，而國會若要突破只能承擔倒閣及可能解散的政治成本』不是純粹的反對黨想像；前半段已在財劃法成為實際行為，後半段則由行政院與民進黨反覆公開提出作為制衡／出口。
+  status: supported
+  supports:
+  - F005
+  - F006
+  - F009
+  - F010
+  - F013
+  reasoning_notes: 仍須保留司法救濟可能性；此claim談的是執政團隊已實際採行並公開辯護的制度路徑，不是宣稱倒閣是唯一所有形式的救濟。
+- id: C014
+  statement: 支持不副署的最強法律論證不是『行政院想擋就能擋』，而是把第37條的明文副署要求解為有實質內容、在司法救濟失靈且面臨明顯憲政越界時得作條件式最後防衛；但這個較窄版本本身不足以自動證成目前8案實踐都合憲。
+  status: supported
+  supports:
+  - F016
+  related_facts:
+  - F013
+  - F011
+  reasoning_notes: 將支持方最強版本與實際8案逐案正當性分開，避免把『可能存在極端例外』偷換成『所有不副署都有概括授權』。
 searches:
 - id: Q001
   observed_at: '2026-10-19T18:09:00+08:00'
@@ -461,6 +604,13 @@ searches:
   scope: 憲法第37、72條、增修條文第3條、釋字520與截至2026-10-19可搜尋之憲法法庭資料
   result: partial
   notes: 找到明確條文與釋字520體系論證，另有正反學者意見；此次查詢未找到直接就『法律案覆議失敗後不副署』作成的終局憲法判決。
+- id: Q004
+  observed_at: '2026-10-19T19:01:00+08:00'
+  platform: Web search / 中央社 / I·CONnect
+  query: 8項不副署法案；卓榮泰副署制衡總統否決權；Ming-Sung Kuo ultra executive veto；第37條條件式拒絕副署反方論證
+  scope: 2025-12至2026-09不副署實踐、行政院長制度論述、國內外憲法學術評論及其反方論證
+  result: found
+  notes: 補得8案完整清單、卓榮泰明示『不副署輔助沒有否決權的總統』、郭銘松I·CONnect原文，以及同頁對條件式拒絕副署的實質支持論證；仍未找到憲法法庭直接裁判本爭點。
 promotion:
   cases: []
   comparators: []
@@ -471,3 +621,4 @@ notes:
 - 法律層級必須區分：行政院／政黨自我解釋可證明其採取何種憲政立場；學者意見可證明法律爭議；只有憲法法庭終局裁判能在相應範圍內提供更高程序權威。
 - 若後續取得民調、系統抽樣、Threads大樣本或同一帳號跨陣營反事實案例，可再檢驗『支持者文化是否具有群體代表性』『是否同一把尺』與『政治支持是否對行政權擴張形成獎勵』。
 - 本research可與 research/2026-10-19-dpp-supporter-deification-attitudes/evidence.yaml 交叉閱讀；前者研究具體憲政權力論述，後者研究支持者對政黨、人物與同一把尺的自然樣本。
+- 2026-10-19補查後，制度爭點可更精確描述為：行政院已把不副署從一次性首例發展為8案實踐，卓榮泰並明示其功能在『輔助沒有否決權的總統』；因此『第二次／超級行政否決』不只是反對者標籤，而是可由實際法律效果與行政院長自我說明檢驗的制度命題。是否因此違憲仍維持unresolved。
