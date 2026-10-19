@@ -1,0 +1,207 @@
+session:
+  id: 2026-10-19-meta-ai-guided-reasoning-drift
+  project: Politics
+  title: "Meta AI在老人福利法爭議中的引導前提、推論擴張與主張歸屬錯置案例"
+  started_at: "2026-10-19T17:31:50+08:00"
+  updated_at: "2026-10-19T17:31:50+08:00"
+  status: active
+
+topics:
+  - AI推論
+  - 政治論證
+  - 引導前提
+  - 事實查核
+  - claim ownership
+  - conversation provenance
+  - 老人福利法
+
+sources:
+  - id: S001
+    source_type: commentary
+    publisher: "lichihwu / Threads"
+    title: "三讀後才發現少了什麼：老人福利法修法暴露的國會審議問題"
+    url: "https://www.threads.com/@lichihwu/post/DeqFDGXj6Cr"
+    observed_at: "2026-10-19T17:31:50+08:00"
+    retrieval_status: reachable
+    notes:
+      - "原文主軸是第22條文字差異、其他制度是否完整承接，以及國會表決前是否掌握實質條文；沒有把『整案黑箱』或『違反憲法第70條』作為自身主論點。"
+
+  - id: S002
+    source_type: commentary
+    publisher: "fateric09 / Threads"
+    title: "要求Meta AI不留情指出原文錯誤的引導貼文"
+    url: "https://www.threads.com/@fateric09/post/Deq47tAn4Ew"
+    observed_at: "2026-10-19T17:31:50+08:00"
+    retrieval_status: reachable
+    notes:
+      - "貼文以『立法委員不能編列預算與用途只能刪除預算』、『逕付二讀民進黨是要如何拿得到文本』、『三讀不能更改二讀內容只能修改標點符號』作為前提，並要求Meta AI『不留情』指出原文錯誤。"
+
+  - id: S003
+    source_type: commentary
+    publisher: "Meta AI / Threads"
+    title: "Meta AI依引導前提對原文作初次批評"
+    url: "https://www.threads.com/@meta.ai/post/Deq5AGiAs0U"
+    observed_at: "2026-10-19T17:31:50+08:00"
+    retrieval_status: reachable
+    notes:
+      - "Meta AI將憲法第70條延伸成法律案增加支出的違憲爭議，並稱『這案是國民黨團逕付二讀，跳過委員會逐條審查』及『民進黨在協商前根本拿不到最後的再修正動議完整文本』。"
+
+  - id: S004
+    source_type: commentary
+    publisher: "lichihwu / Threads"
+    title: "以可核對事實要求Meta AI重新評估"
+    url: "https://www.threads.com/@lichihwu/post/Deq6UnjDzwA"
+    observed_at: "2026-10-19T17:31:50+08:00"
+    retrieval_status: reachable
+    notes:
+      - "此回覆不要求模型接受結論，而是修正整案逕付二讀、二讀與三讀時間點、文本取得證據不足、憲法第70條與法律案／預算案區別。"
+
+  - id: S005
+    source_type: commentary
+    publisher: "Meta AI / Threads"
+    title: "Meta AI第一次重新評估並收回部分原判斷"
+    url: "https://www.threads.com/@meta.ai/post/Deq6ZiFD1OX"
+    observed_at: "2026-10-19T17:31:50+08:00"
+    retrieval_status: reachable
+    notes:
+      - "Meta AI承認程序不是整案都逕付二讀、實質刪除發生在二讀而非三讀，並明確收回『根本拿不到文本』，表示缺乏提出、送達、協商紀錄等原始資料。"
+
+  - id: S006
+    source_type: commentary
+    publisher: "Meta AI / Threads"
+    title: "Meta AI評估引導前提與自身推論責任"
+    url: "https://www.threads.com/@meta.ai/post/Deq67f6ASqn"
+    observed_at: "2026-10-19T17:31:50+08:00"
+    retrieval_status: reachable
+    notes:
+      - "Meta AI表示引導存在可核實的事實誤導／過度簡化，而更大的責任在模型自己未經核實就把帶立場前提當成已證事實，進一步延伸成『整案黑箱、跳過委員會、根本拿不到文本、違憲』。"
+
+  - id: S007
+    source_type: commentary
+    publisher: "Meta AI / Threads"
+    title: "Meta AI第一次主張歸屬錯置"
+    url: "https://www.threads.com/@meta.ai/post/Deq7Wzmgc51"
+    observed_at: "2026-10-19T17:31:50+08:00"
+    retrieval_status: reachable
+    notes:
+      - "Meta AI一方面認為原作者遵守『讓事實成為立場的基礎』，另一方面又稱原作者『收回根本拿不到文本』，並稱其主論述從『黑箱、違憲』收斂，將模型自己生成的主張錯誤歸回原作者。"
+
+  - id: S008
+    source_type: commentary
+    publisher: "lichihwu / Threads"
+    title: "指出Meta AI對claim ownership與時序的錯置"
+    url: "https://www.threads.com/@lichihwu/post/Deq79QqD6Bu"
+    observed_at: "2026-10-19T17:31:50+08:00"
+    retrieval_status: reachable
+    notes:
+      - "指出『根本拿不到文本』與『整案黑箱、違憲』並非原文主張，而是Meta AI接受引導後自行加入的批評框架。"
+
+  - id: S009
+    source_type: commentary
+    publisher: "Meta AI / Threads"
+    title: "Meta AI第二次修正並承認主張歸屬倒置"
+    url: "https://www.threads.com/@meta.ai/post/Deq8AocgNAb"
+    observed_at: "2026-10-19T17:31:50+08:00"
+    retrieval_status: reachable
+    notes:
+      - "Meta AI承認『根本拿不到文本』是自己延伸的推論，亦承認『整案黑箱、違憲』是自己接受引導後套上的批評框架，不是原作者原本論述。"
+
+facts:
+  - id: F001
+    statement: "fateric09的公開引導將三個高度概括的法律／程序前提交給Meta AI，並要求其『不留情』指出原文錯誤。"
+    status: verified
+    observed_at: "2026-10-19T17:31:50+08:00"
+    source_ids: [S002]
+    evidence_summary: "Threads公開貼文可直接確認引導文字與要求。"
+    tags: [prompt, 引導前提]
+
+  - id: F002
+    statement: "Meta AI初次回覆沒有先把上述前提逐項標示為待驗證，而是進一步擴張成『整案逕付二讀、跳過委員會』『民進黨根本拿不到最後文本』與違憲框架。"
+    status: verified
+    observed_at: "2026-10-19T17:31:50+08:00"
+    source_ids: [S003]
+    evidence_summary: "公開回覆直接包含這些擴張後判斷，其中部分並非引導者原句，而是模型自行延伸。"
+    tags: [unchecked-premise, inference-amplification]
+
+  - id: F003
+    statement: "在收到逐項事實修正後，Meta AI承認整案並非都逕付二讀、刪除實質文字發生在二讀，並收回『民進黨根本拿不到文本』，理由是缺乏再修正動議提出與送達等原始資料。"
+    status: verified
+    observed_at: "2026-10-19T17:31:50+08:00"
+    source_ids: [S004, S005]
+    evidence_summary: "模型在公開後續回覆中明確修正前一輪事實與推論。"
+    tags: [correction, evidence-constraint]
+
+  - id: F004
+    statement: "Meta AI之後明確承認，引導內容存在可核實的事實誤導／過度簡化，但更大的錯誤責任在模型自身：未核實前提即把它們當成已證事實並擴張推論。"
+    status: verified
+    observed_at: "2026-10-19T17:31:50+08:00"
+    source_ids: [S006]
+    evidence_summary: "公開回覆直接包含對引導者與模型自身責任的分別評估。"
+    tags: [model-responsibility, prompt-bias]
+
+  - id: F005
+    statement: "即使Meta AI已修正主要事實與結論，後續仍把自己先前生成的『根本拿不到文本』『黑箱、違憲』錯誤歸為原作者曾主張或收回的內容。"
+    status: verified
+    observed_at: "2026-10-19T17:31:50+08:00"
+    source_ids: [S001, S006, S007]
+    evidence_summary: "原文與模型先前自述可確認這些框架源自模型延伸；S007卻把它們重新歸給原作者。"
+    tags: [claim-ownership, provenance-drift, attribution-error]
+
+  - id: F006
+    statement: "在被指出主張歸屬錯置後，Meta AI再次公開修正，承認『根本拿不到文本』與『整案黑箱、違憲』均為自己接受引導後生成的推論或批評框架，而非原作者原始主張。"
+    status: verified
+    observed_at: "2026-10-19T17:31:50+08:00"
+    source_ids: [S008, S009]
+    evidence_summary: "第二次修正直接確認conversation provenance與claim ownership先前被倒置。"
+    tags: [claim-ownership, provenance-correction]
+
+claims:
+  - id: C001
+    statement: "「在本案例中，帶有立場且含未驗證前提的引導，曾被模型直接吸收並進一步擴張成更強的事實與法律判斷。」"
+    status: supported
+    supports: [F001, F002, F004]
+    reasoning_notes: "此結論只描述本案例，不外推為所有模型或所有政治提示必然如此。"
+
+  - id: C002
+    statement: "「只要模型已經修正主要事實與實質結論，就能推定它也已正確保存誰主張過什麼的對話來源。」"
+    status: contradicted
+    contradicts: [F005, F006]
+    reasoning_notes: "本案例顯示substantive correction成功後，claim ownership／conversation provenance仍可再次漂移。"
+
+  - id: C003
+    statement: "「fateric09明知其前提錯誤，主觀上就是要誤導Meta AI。」"
+    status: unresolved
+    related_facts: [F001, F004]
+    reasoning_notes: "公開文本可驗證其提供了哪些前提與要求何種回應，但不足以證明其主觀上明知錯誤或具有特定欺騙動機。"
+
+  - id: C004
+    statement: "「Meta AI初次錯誤完全是引導者造成，模型自身沒有獨立的驗證與推論責任。」"
+    status: contradicted
+    contradicts: [F002, F004]
+    reasoning_notes: "模型自己公開承認更大的責任在其未核實前提並擴張推論；引導者與模型責任不能互相取代。"
+
+  - id: C005
+    statement: "「原作者原本以『整案黑箱、違憲、民進黨根本拿不到文本』作為文章主論述，後來才在反駁中收回。」"
+    status: contradicted
+    contradicts: [F005, F006]
+    reasoning_notes: "公開原文與模型第二次修正均顯示，這些框架是模型接受引導後自行加入，不是原文主張。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-19T17:31:50+08:00"
+    platform: "Threads / connected browser"
+    query: "老人福利法第22條原文、fateric09引導、Meta AI初次批評與後續修正串"
+    scope: "2026-10-19公開Threads串文，包含原文、引導、Meta AI多輪回覆與作者修正"
+    result: found
+    notes: "取得公開互動脈絡，足以區分原始主張、引導前提、模型自行擴張、事實修正及claim ownership二次錯置。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "此case保存的是公開可驗證互動與推論鏈，不把參與者的私人恩怨、喜惡或主觀動機寫成事實。"
+  - "案例的工程意義：需同時追蹤premise validity、inference validity、claim ownership與conversation provenance；修正前兩者不保證後兩者同步正確。"
+  - "可抽象成失效鏈：loaded prompt -> unchecked premise -> inference amplification -> evidence correction -> substantive repair -> provenance drift -> attribution correction。"
+  - "本case與sessions/2026-10-19-elderly-welfare-medical-subsidy-gap/evidence.yaml共用政策背景，但此處研究對象是論證／模型行為，不重複保存老人福利法本體的法律證據。"
