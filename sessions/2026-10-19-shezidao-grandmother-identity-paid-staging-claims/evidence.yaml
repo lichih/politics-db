@@ -441,19 +441,6 @@ facts:
   - 郭桂英
   - 澄清截圖
   - 未附來源
-- id: F019
-  statement: 截至2026年10月19日13:34，本次以『郭桂英』『洪阿嬤』『立法院周邊／附近』『本人與家人澄清』等組合搜尋公開可索引新聞與社群資料，未找到可獨立核驗『下跪阿嬤現居立法院周邊』或『本人與家人已透過媒體公開澄清』的來源。
-  status: verified
-  observed_at: '2026-10-19T13:34:11+08:00'
-  source_ids: []
-  evidence_summary: 這是本次 search state；只代表截至 query-as-of 尚未找到，不等於這些資料從未存在。
-  verification_notes:
-  - 搜尋可找到多篇媒體轉述『洪姓社子島居民、6年前已反徵收』，但未找到截圖所稱的本人／家屬澄清或立法院周邊居住證據。
-  tags:
-  - search-state
-  - not-found
-  - 居住地
-  - 本人澄清
 claims:
 - id: C001
   statement: 2026年10月17日向沈伯洋下跪陳情的阿嬤，就是圖卡所稱『住三峽的郭桂英女士、民進黨籍』，且根本不住台北。
@@ -571,7 +558,6 @@ claims:
   contradicts: []
   related_facts:
   - F018
-  - F019
   - F002
   - F015
   reasoning_notes: 目前只有一張未附來源的澄清截圖如此主張；公開搜尋尚未找到本人、家屬、媒體或其他第一手資料可核驗。即使未來證實現居立法院附近，也不會自動否定其過去或土地權利上與社子島的關係。
@@ -582,7 +568,6 @@ claims:
   contradicts: []
   related_facts:
   - F018
-  - F019
   reasoning_notes: 截至query-as-of未找到具名媒體報導、本人／家屬聲明、影片或社群原文可支持『本人與家人已澄清』；目前只能確認有人在Facebook留言串貼出這項二手說法。unsupported不等於證明澄清從未發生。
 searches:
 - id: Q001
