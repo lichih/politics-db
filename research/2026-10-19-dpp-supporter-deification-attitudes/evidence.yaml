@@ -1,0 +1,161 @@
+session:
+  id: 2026-10-19-dpp-supporter-deification-attitudes
+  project: Politics
+  title: "民進黨支持者對政黨、人物與「造神」的公開態度：自然樣本研究"
+  started_at: "2026-10-19T12:57:00+08:00"
+  updated_at: "2026-10-19T12:57:00+08:00"
+  status: active
+
+topics:
+  - 民進黨支持者
+  - 造神
+  - 政黨認同
+  - 人物崇拜
+  - 黨中心
+  - 支持者行為
+  - Threads
+  - 自然樣本
+  - 柯文哲
+  - 沈伯洋
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "Threads / @ercx93"
+    title: "「討厭某個政黨不是你無條件支持其他政黨的理由」貼文"
+    url: "https://www.threads.com/@ercx93/post/DeofEixHU4I"
+    published_at: "2026-10-18"
+    observed_at: "2026-10-19T12:24:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "作者明確寫道：若不想投給其所稱「已經紅到不行」的國民黨與民眾黨，「那我只剩下民進黨可以投」。"
+      - "本研究把此帳號當作自然樣本來源，而不是研究對象本身。"
+
+  - id: S002
+    source_type: primary
+    publisher: "Threads / @ercx93"
+    title: "ercx93 公開個人檔案可見貼文樣本"
+    url: "https://www.threads.com/@ercx93"
+    published_at: ""
+    observed_at: "2026-10-19T12:24:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "當次連接瀏覽器可見樣本包含多篇對國民黨、蔣萬安、深藍支持者的負面評價。"
+      - "同一可見樣本內未觀察到明確批評民進黨的貼文；此為 bounded not_found，不代表歷史上從未存在。"
+
+  - id: S003
+    source_type: primary
+    publisher: "Threads / @zitarcheng"
+    title: "對方法論貼文回覆：『柯文哲都要去關了 還在造神』"
+    url: "https://www.threads.com/@zitarcheng/post/DeneGfuo03I"
+    published_at: "2026-10-18"
+    observed_at: "2026-10-19T12:24:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "此來源直接證明該帳號把一篇稱讚柯文哲做事方法的貼文標記為「造神」。"
+      - "目前尚未在本 research 中證明 @zitarcheng 的政黨認同，因此不能先把此帳號歸類為民進黨支持者。"
+
+facts:
+  - id: F001
+    statement: "@ercx93 在 2026-10-18 公開貼文中，以國民黨、民眾黨、民進黨三個政黨作為排除與投票選擇單位，並表示排除前兩黨後「只剩下民進黨可以投」。"
+    status: verified
+    observed_at: "2026-10-19T12:57:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "原貼文直接以政黨而非特定候選人或單一政策作為選擇單位。"
+    tags: [民進黨, 政黨支持, 黨中心, 自然樣本]
+
+  - id: F002
+    statement: "在 2026-10-19 當次可見的 @ercx93 profile 樣本中，可見多篇對國民黨、蔣萬安或深藍支持者的負面評論；同一已載入樣本內未觀察到明確批評民進黨的貼文。"
+    status: verified
+    observed_at: "2026-10-19T12:57:00+08:00"
+    source_ids: [S002]
+    evidence_summary: "此為當次已載入公開樣本的方向性觀察；未找到民進黨批評只能記錄為 bounded not_found。"
+    verification_notes:
+      - "not_found != never_existed。"
+      - "此 fact 不支持『該帳號從未批評民進黨』。"
+    tags: [公開發言樣本, 民進黨, 國民黨, not_found]
+
+  - id: F003
+    statement: "@ercx93 的可見貼文也曾批評深藍支持者接受「政黨餵給他們的、改變不了的答案」，並另主張政治思考不應急著下定論、簡單強烈的政治口號容易被直接接受。"
+    status: verified
+    observed_at: "2026-10-19T12:57:00+08:00"
+    source_ids: [S002]
+    evidence_summary: "這提供該自然樣本自己對『黨性造成認知封閉』與『應保持查證』的公開標準，可供後續檢驗同一把尺。"
+    tags: [政黨認同, 查證, 同一把尺, 自然樣本]
+
+  - id: F004
+    statement: "@zitarcheng 在 @lichihwu 一篇把柯文哲正面評價限定在問題定義、數據、點位、限制與方案等做事方法的貼文下，回覆「柯文哲都要去關了 還在造神」。"
+    status: verified
+    observed_at: "2026-10-19T12:57:00+08:00"
+    source_ids: [S003]
+    evidence_summary: "該留言是目前直接觀察到的『造神』標籤使用案例；留言者政黨認同另需獨立查證。"
+    tags: [造神, 柯文哲, 方法論, Threads]
+
+claims:
+  - id: C001
+    statement: "@ercx93 可作為『以民進黨為投票選擇單位』的自然支持者樣本。"
+    status: supported
+    supports: [F001]
+    contradicts: []
+    related_facts: [F002, F003]
+    reasoning_notes: "此處的『自然樣本』只表示其公開發言自然呈現出政黨選擇結構，不代表具統計代表性。"
+
+  - id: C002
+    statement: "@ercx93 的樣本對研究『民進黨支持者如何區分支持黨、支持人與造神』具有證據價值，即使該帳號本身不值得成為獨立研究主題。"
+    status: supported
+    supports: [F001, F002, F003]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "研究價值來自其公開行為作為支持者樣本，而不是來自帳號個人的政治重要性。"
+
+  - id: C003
+    statement: "單靠 @ercx93 一個樣本即可證明『民進黨支持者普遍是先黨後人』或『普遍接受自己陣營造神』。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F001, F002, F003]
+    reasoning_notes: "個案自然樣本只能提供存在性與假說生成證據，不能提供群體比例或普遍性結論。若要談比例，需要系統抽樣、民調或可重複分類資料。"
+
+  - id: C004
+    statement: "目前已有一個直接把『稱讚柯文哲的方法』標記為『造神』的公開案例，但現有 evidence 尚不足以把該留言者歸類為民進黨支持者。"
+    status: supported
+    supports: [F004]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "造神標籤行為本身已直接觀察；政黨認同是另一個待查命題，不能因留言內容或政治方向自行補上。"
+
+  - id: C005
+    statement: "現有資料已足以證明同一批民進黨支持者一方面把柯文哲的方法論稱作『造神』，另一方面又接受或擴散沈伯洋『溫暖、謙卑、勇氣、高度、行動知識庫』式的人格品牌。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F001, F004]
+    reasoning_notes: "候選人端的沈伯洋人格／能力品牌已另由 sessions/2026-10-19-shen-branding-ko-methodology-contrast/evidence.yaml 證實；但支持者端目前缺少同一帳號或可分類樣本同時出現『對外喊造神、對內接受人格神格化』的 paired evidence。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-19T12:57:00+08:00"
+    platform: "GitHub politics-db"
+    query: "民進黨支持者 / 造神 / ercx93 / zitarcheng"
+    scope: "lichih/politics-db main"
+    result: partial
+    notes: "既有 session 已保存沈伯洋人格／能力品牌與 @zitarcheng 的造神標籤；先前以個人帳號為中心的 ercx93 session 已移除，本 research 只重建與主題有關的最小 facts。"
+
+  - id: Q002
+    observed_at: "2026-10-19T12:57:00+08:00"
+    platform: "connected browser / Threads"
+    query: "ercx93 profile and DeofEixHU4I; zitarcheng DeneGfuo03I"
+    scope: "先前同一查核 session 已讀取的公開原貼文與 profile 可見樣本"
+    result: found
+    notes: "ercx93 提供黨中心支持結構的自然樣本；zitarcheng 提供直接『造神』標籤案例。兩者目前不能視為同一類已確認民進黨支持者樣本。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "研究主體是『支持者對黨、人與造神的態度』，不是任何單一 Threads 帳號。個人帳號只作為 source / sample。"
+  - "最有力的後續證據會是 paired evidence：同一帳號一方面把對手陣營的具體能力／方法稱為『造神』，另一方面對己方人物的人格化品牌採肯定、轉發或免責式論述。"
+  - "另一條證據路徑是群體層級資料：政黨認同強度、候選人 vs 政黨投票、分裂投票、政治人物好感與黨認同的相對解釋力。這類資料才能回答比例問題。"
+  - "與沈伯洋候選人端人格／能力品牌相關的 authoritative facts 保存在 sessions/2026-10-19-shen-branding-ko-methodology-contrast/evidence.yaml；本 research 不重複複製。"
