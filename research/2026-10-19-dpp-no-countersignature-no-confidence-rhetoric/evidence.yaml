@@ -1,0 +1,473 @@
+session:
+  id: 2026-10-19-dpp-no-countersignature-no-confidence-rhetoric
+  project: Politics
+  title: 民進黨／支持者「不副署、不滿就倒閣」論述的形成、延續與憲政含義
+  started_at: '2026-10-19T18:09:00+08:00'
+  updated_at: '2026-10-19T18:09:00+08:00'
+  status: active
+topics:
+- 民進黨
+- 支持者行為
+- 不副署
+- 覆議
+- 倒閣
+- 不信任案
+- 行政權
+- 立法權
+- 權力分立
+- 憲政慣例
+- 支持者文化
+sources:
+- id: S001
+  source_type: primary
+  publisher: 全國法規資料庫
+  title: 中華民國憲法
+  url: https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001
+  observed_at: '2026-10-19T18:09:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 第37條規定總統公布法律須經行政院長副署；第72條規定立法院法律案通過後移送總統及行政院，總統應於收到後10日內公布；第170條定義法律為經立法院通過、總統公布之法律。
+- id: S002
+  source_type: primary
+  publisher: 全國法規資料庫
+  title: 中華民國憲法增修條文
+  url: https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002
+  observed_at: '2026-10-19T18:09:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 第3條第2項第2款：覆議時如經全體立委二分之一以上維持原案，行政院長『應即接受該決議』。第3款另規定不信任案；通過後行政院長應辭職並得呈請總統解散立法院。第2條規定總統於不信任案通過後得解散立法院。
+- id: S003
+  source_type: primary
+  publisher: 司法院憲法法庭
+  title: 釋字第520號解釋
+  url: https://cons.judicial.gov.tw/docdata.aspx?fid=100&id=310701
+  published_at: '2001-01-15'
+  observed_at: '2026-10-19T18:09:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 解釋理由指出，行政院若對立法院通過之預算案認有窒礙難行而不欲依內容執行，應在公布前依覆議程序處理；若行政機關可在公布後任意不執行，則憲法無須設置預算案覆議程序。此解釋直接處理預算執行，不是對法律案不副署的終局裁判。
+- id: S004
+  source_type: secondary
+  publisher: 東森新聞
+  title: 「國會改革」政院提覆議 卓榮泰開嗆傅崐萁
+  url: https://news.ebc.net.tw/news/politics/424710
+  published_at: '2024-06-07'
+  observed_at: '2026-10-19T18:09:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 卓榮泰在國會改革覆議爭議中表示，覆議未過後行政院長無辭職選項，並提醒傅崐萁可依增修條文第3條第2項第3款提出倒閣。此時尚非『不副署法律』事件。
+- id: S005
+  source_type: commentary
+  publisher: Reddit / r/Taiwanese
+  title: 卓榮泰提醒傅崐萁有倒閣選項之支持者討論串
+  url: https://www.reddit.com/r/Taiwanese/comments/1da2fki
+  published_at: '2024-06-07'
+  observed_at: '2026-10-19T18:09:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 留言出現『來哪～倒閣啊～笑你們藍白不敢』『快倒閣給他看』『如果不敢倒閣就坐實了打假球』等正面呼應。這能證明此類倒閣挑戰在親綠社群的存在，不代表整體支持者比例。
+- id: S006
+  source_type: secondary
+  publisher: 中央社
+  title: 不副署阻擋3法？吳思瑤：非常極端臆測言之過早
+  url: https://www.cna.com.tw/news/aipl/202412210010.aspx
+  published_at: '2024-12-21'
+  observed_at: '2026-10-19T18:09:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 報導記錄林俊憲主張行政院長可思考拒絕副署、阻止其稱之惡法施行，並表示『藍白不滿意就來提倒閣，讓民意重新洗牌見真章』；吳思瑤本人當時稱不副署仍屬極端臆測、言之過早。
+- id: S007
+  source_type: commentary
+  publisher: PTT HatePolitics
+  title: 以行政院長不副署逼迫立法院提不信任案倒閣
+  url: https://www.pttweb.cc/bbs/HatePolitics/M.1734721347.A.8DF
+  published_at: '2024-12-21'
+  observed_at: '2026-10-19T18:09:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 發文者明確主張：行政院長不副署後，藍白若要解決僵局『只能提倒閣』。此為網路自然樣本，不具統計代表性。
+- id: S008
+  source_type: secondary
+  publisher: 中央社
+  title: 民進黨便當會共識　財劃法是否副署由行政部門決斷
+  url: https://www.cna.com.tw/news/aipl/202512120174.aspx
+  published_at: '2025-12-12'
+  observed_at: '2026-10-19T18:09:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 民進黨政策會執行長吳思瑤稱『不副署或不執行都是合憲方式』並交行政部門決斷；鍾佳濱稱國會若認為閣揆不適任，應依憲法以不信任投票表達否定，並把國會全面改選風險作為政治責任的一部分。
+- id: S009
+  source_type: secondary
+  publisher: 中央社
+  title: 藍指不副署將成憲法劊子手　綠：在野不認同可提倒閣
+  url: https://www.cna.com.tw/news/aipl/202512140173.aspx
+  published_at: '2025-12-14'
+  observed_at: '2026-10-19T18:09:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 民進黨發言人、立委李坤城稱不副署是合憲救濟程序，若在野不認同可提不信任案、倒閣，國會全面改選；並稱民進黨及黨團會支持。
+- id: S010
+  source_type: primary
+  publisher: 行政院
+  title: 卓揆宣布「不副署」財劃法再修正版
+  url: https://www.ey.gov.tw/Page/9277F759E41CCD91/4cae91e8-e648-4e09-960d-841c5ddd128e
+  published_at: '2025-12-15'
+  observed_at: '2026-10-19T18:09:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 行政院正式宣布不副署財劃法再修正版，將第37條副署權解釋為可用來阻止其認定違憲或破壞憲政秩序的法律生效。
+- id: S011
+  source_type: secondary
+  publisher: 中央社
+  title: 卓榮泰：不副署絕非行政權獨裁　立法院可提倒閣制衡
+  url: https://www.cna.com.tw/news/aipl/202512150195.aspx
+  published_at: '2025-12-15'
+  observed_at: '2026-10-19T18:09:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 卓榮泰正式宣布不副署後，將立法院可提出不信任案、倒閣作為『不副署不是行政獨裁』的主要制衡理由之一。
+- id: S012
+  source_type: commentary
+  publisher: PTT HatePolitics
+  title: 立法院不倒閣等於認同不副署？
+  url: https://www.ptt.cc/bbs/HatePolitics/M.1765788444.A.4F0.html
+  published_at: '2025-12-15'
+  observed_at: '2026-10-19T18:09:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 發文者直接主張『藍白不認同卓院長的不副署行為，就應該要倒閣；要不然就等於是認同』；留言有正面附和。這是存在性樣本，不代表支持者整體比例。
+- id: S013
+  source_type: commentary
+  publisher: Reddit / r/Taiwanese
+  title: 卓榮泰拒絕副署、藍白不滿可提倒閣之討論串
+  url: https://www.reddit.com/r/Taiwanese/comments/1pnzci6
+  published_at: '2025-12-16'
+  observed_at: '2026-10-19T18:09:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 留言出現『只要白藍不倒閣，就是支持卓榮泰』等說法；顯示『不倒閣＝支持／背書不副署』這種更強版本確實存在於支持性社群論述。
+- id: S014
+  source_type: secondary
+  publisher: 中央社
+  title: 黨產條例、衛廣法及立院組織法修法　行政院不副署
+  url: https://www.cna.com.tw/news/aipl/202603040332.aspx
+  published_at: '2026-03-04'
+  observed_at: '2026-10-19T18:09:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 行政院將不副署擴及黨產條例、衛廣法、立法院組織法等三項修法，顯示其不再是財劃法單一事件。
+- id: S015
+  source_type: commentary
+  publisher: Reddit / r/Taiwanese
+  title: 卓榮泰不副署黨產條例等3修正案之支持者討論串
+  url: https://www.reddit.com/r/Taiwanese/comments/1rl2ck5
+  published_at: '2026-03-05'
+  observed_at: '2026-10-19T18:09:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 留言明確寫『大家選民進黨就是希望他們能遏制這些東西』『行政院不附署，就倒閣啊！有60%民意護身還怕甚麼？』，可作為自我定位接近民進黨支持者的自然樣本。
+- id: S016
+  source_type: secondary
+  publisher: Newtalk
+  title: 白委指政院「不副署」違法 張惇涵反嗆：有異議可以提倒閣
+  url: https://newtalk.tw/news/view/2026-05-21/1036458
+  published_at: '2026-05-21'
+  observed_at: '2026-10-19T18:09:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 行政院秘書長張惇涵在立院質詢時再次表示，若立法院認為行政院長行使不副署權違憲，可依增修條文第3條倒閣或聲請釋憲。
+- id: S017
+  source_type: secondary
+  publisher: 中央社
+  title: 回應韓國瑜　政院：不副署法案僅占3.8%是被動防衛
+  url: https://www.cna.com.tw/news/aipl/202608270325.aspx
+  published_at: '2026-08-27'
+  observed_at: '2026-10-19T18:09:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 行政院稱截至2026年8月已副署201案、8案未副署，並把不副署描述為守護憲政秩序的『盾牌』；可確認制度實踐已重複發生。
+- id: S018
+  source_type: secondary
+  publisher: 中央社
+  title: 行政立法陷僵局　綠：憲法法庭癱瘓、在野倒閣無行動
+  url: https://www.cna.com.tw/news/aipl/202609080101.aspx
+  published_at: '2026-09-08'
+  observed_at: '2026-10-19T18:09:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 民進黨團幹事長莊瑞雄稱行政立法爭議除憲法法庭外，另一關卡是不信任案，並批評在野黨只喊倒閣卻無實際行動。顯示該論述至少延續到2026年9月。
+- id: S019
+  source_type: secondary
+  publisher: The News Lens
+  title: 財劃法「副署權」爭議：不副署支持與反對者怎麼說？
+  url: https://www.thenewslens.com/article/262398
+  published_at: 2025-12
+  observed_at: '2026-10-19T18:09:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 整理多位憲法學者的相反觀點。蘇彥圖警告，不副署若成為無法被突破的否決，可能形成極強行政否決與重複賽局；蘇子喬等認為覆議失敗後應接受。此為學者意見整理，不是憲法法庭終局判決。
+facts:
+- id: F001
+  statement: 現行憲法增修條文把『覆議後應即接受』與『不信任案／倒閣』規定在同一條但不同款：覆議經全體立委二分之一以上維持原案時，行政院長應即接受；不信任案通過後，行政院長辭職並得呈請總統解散立法院。
+  status: verified
+  observed_at: '2026-10-19T18:09:00+08:00'
+  source_ids:
+  - S002
+  evidence_summary: 條文可直接核對；法律文字本身沒有寫『立法院不倒閣即視為同意行政院不副署』。
+  tags:
+  - 憲法
+  - 覆議
+  - 不信任案
+  - 倒閣
+- id: F002
+  statement: 釋字第520號對預算案的體系論證指出：若行政院對不滿意的立法院決議可在公布後任意不執行，則憲法設置覆議程序將失去意義。
+  status: verified
+  observed_at: '2026-10-19T18:09:00+08:00'
+  source_ids:
+  - S003
+  evidence_summary: 解釋理由明確提出此反證；但案件標的是法定預算執行，不是法律案不副署，因此只能作為體系解釋的重要類比，不是本爭議的直接終局判決。
+  tags:
+  - 釋字520
+  - 覆議
+  - 行政立法制衡
+- id: F003
+  statement: 早在2024-06國會改革覆議爭議中，卓榮泰就已公開以『立法院可以提出不信任案』回應在野對其政治責任的質疑，親綠社群也出現大量『來倒閣』『不敢倒閣』的呼應。
+  status: verified
+  observed_at: '2026-10-19T18:09:00+08:00'
+  source_ids:
+  - S004
+  - S005
+  evidence_summary: 這顯示『不服行政院就倒閣』的政治修辭早於法律案不副署實踐；但當時議題是覆議與政治責任，不應倒推為已主張不副署。
+  tags:
+  - '2024'
+  - 倒閣修辭
+  - 支持者樣本
+- id: F004
+  statement: 2024-12藍白三法爭議時，林俊憲已公開提出『行政院長是否應拒絕副署、阻止惡法施行；藍白不滿意就來提倒閣』，同時網路社群也出現『行政院長不副署後藍白只能倒閣』的論述。
+  status: verified
+  observed_at: '2026-10-19T18:09:00+08:00'
+  source_ids:
+  - S006
+  - S007
+  evidence_summary: 這是目前查得『不副署＋不滿就倒閣』成套論述的明確早期公開紀錄，至少可追溯到2024-12-21。
+  tags:
+  - '2024'
+  - 不副署
+  - 倒閣
+  - 民進黨立委
+  - 支持者樣本
+- id: F005
+  statement: 2025-12財劃法覆議失敗後，民進黨主席主持的黨籍立委便當會把『不副署或副署後不執行』交行政部門決斷；民進黨公職並同步把『在野若不認同可提不信任案／倒閣』作為公開回應。
+  status: verified
+  observed_at: '2026-10-19T18:09:00+08:00'
+  source_ids:
+  - S008
+  - S009
+  evidence_summary: 此時『不副署＋倒閣反制』已不是單一立委或網友說法，而進入黨內正式公開論述。
+  tags:
+  - '2025'
+  - 民進黨
+  - 不副署
+  - 不執行
+  - 倒閣
+- id: F006
+  statement: 2025-12-15卓榮泰正式對財劃法再修正版不副署，創下行政院長拒絕副署立法院三讀法律案的首例；他並公開主張這不是行政獨裁，理由之一是立法院可以提出不信任案制衡。
+  status: verified
+  observed_at: '2026-10-19T18:09:00+08:00'
+  source_ids:
+  - S010
+  - S011
+  evidence_summary: 行政行為與論述直接由行政院官方及中央社記錄。
+  tags:
+  - 憲政首例
+  - 行政院
+  - 不副署
+  - 倒閣
+- id: F007
+  statement: 2025-12的親綠／支持性社群樣本中，已出現比官方論述更強的版本：『不倒閣就等於認同不副署』或『只要白藍不倒閣，就是支持卓榮泰』。
+  status: verified
+  observed_at: '2026-10-19T18:09:00+08:00'
+  source_ids:
+  - S012
+  - S013
+  evidence_summary: PTT與Reddit的公開自然樣本可直接確認此論述存在；樣本非隨機抽樣，不能推算支持者比例。
+  tags:
+  - 支持者樣本
+  - 不倒閣
+  - 默認
+  - 正當化
+- id: F008
+  statement: 2026-03行政院將不副署擴張到黨產條例、衛廣法、立法院組織法等修法；同時支持性社群仍出現『行政院不附署，就倒閣啊』及『大家選民進黨就是希望他們能遏制這些東西』的明確支持。
+  status: verified
+  observed_at: '2026-10-19T18:09:00+08:00'
+  source_ids:
+  - S014
+  - S015
+  evidence_summary: 制度實踐與支持者正面強化同時可見。
+  tags:
+  - '2026'
+  - 制度延續
+  - 支持者樣本
+  - 民進黨
+- id: F009
+  statement: 2026-05行政院秘書長張惇涵仍公開主張，若立法院認為不副署違憲，可採倒閣或釋憲；截至2026-08行政院稱已有8案不副署。
+  status: verified
+  observed_at: '2026-10-19T18:09:00+08:00'
+  source_ids:
+  - S016
+  - S017
+  evidence_summary: 顯示不副署已成為重複使用的行政工具，而『不滿可倒閣』仍是官方防衛論述的一部分。
+  tags:
+  - '2026'
+  - 行政院
+  - 不副署
+  - 倒閣
+- id: F010
+  statement: 2026-09民進黨團仍把『在野可提出不信任案／倒閣』描述為行政立法僵局的制度出口，並批評在野只有口頭喊倒閣而沒有實際行動。
+  status: verified
+  observed_at: '2026-10-19T18:09:00+08:00'
+  source_ids:
+  - S018
+  evidence_summary: 自2024-12的『不副署＋倒閣』組合算起，該公開論述至少持續約21個月；若只看更廣義『不服行政院就倒閣』修辭，則可追溯到2024-06。
+  tags:
+  - '2026'
+  - 民進黨團
+  - 長期論述
+  - 倒閣
+- id: F011
+  statement: 公開法律與學界資料對『覆議失敗後是否仍可把第37條副署權解釋成拒絕公布法律的實質否決權』存在明顯爭議；本次查詢未找到憲法法庭已就此具體爭點作成終局判決。
+  status: partial
+  observed_at: '2026-10-19T18:09:00+08:00'
+  source_ids:
+  - S001
+  - S002
+  - S003
+  - S019
+  evidence_summary: 憲法文字、釋字520的體系理由與學者意見形成強烈爭議，但本次搜尋沒有找到直接處理『法律案覆議失敗後不副署』的憲法法庭終局判決。not_found不等於從未存在，後續仍需追蹤。
+  verification_notes:
+  - 本fact的『未找到終局判決』只限本次查詢截至2026-10-19。
+  tags:
+  - 法律爭議
+  - 憲法法庭
+  - unresolved
+- id: F012
+  statement: 目前蒐集到的支持者證據是多個公開自然樣本與跨時間平台紀錄，足以證明此論述在親綠／支持性社群中反覆存在，但不足以估計『民進黨支持者有多少比例支持不副署或不滿就倒閣』。
+  status: verified
+  observed_at: '2026-10-19T18:09:00+08:00'
+  source_ids:
+  - S005
+  - S007
+  - S012
+  - S013
+  - S015
+  evidence_summary: 樣本跨Reddit與PTT且跨2024至2026，但沒有代表性抽樣、民調或完整社群母體分類。
+  tags:
+  - 抽樣邊界
+  - 支持者文化
+  - 代表性
+claims:
+- id: C001
+  statement: 『不副署後，在野不滿就自己倒閣』不是fateric09或2026年才出現的臨時說法；至少自2024-12起已有民進黨立委與支持性社群公開採用，2025-12行政院實際不副署後成為行政院、民進黨發言人／黨團反覆使用的正式政治論述，並延續到2026-09。
+  status: supported
+  supports:
+  - F004
+  - F005
+  - F006
+  - F008
+  - F009
+  - F010
+  reasoning_notes: 這是存在性與時間延續結論，不等於支持者多數比例結論。
+- id: C002
+  statement: 更廣義的『你若不信任行政院，就倒閣』修辭在2024-06已由卓榮泰公開使用，並獲親綠社群大量正面呼應；2024-12後才進一步與『不副署』結合。
+  status: supported
+  supports:
+  - F003
+  - F004
+  reasoning_notes: 必須區分兩個階段，避免把2024-06倒閣修辭誤寫成當時已經主張不副署法律。
+- id: C003
+  statement: 在支持性社群中確實存在『不倒閣＝認同行政院不副署／替行政院背書』的論證模式。
+  status: supported
+  supports:
+  - F007
+  - F008
+  reasoning_notes: 此處只證明這種模式存在並重複出現，不推定所有或多數民進黨支持者如此。
+- id: C004
+  statement: 『多數民進黨支持者都支持覆議失敗後以不副署否決法律，並認為在野若反對只能倒閣』。
+  status: unsupported
+  related_facts:
+  - F012
+  reasoning_notes: 現有社群自然樣本不能提供群體比例。若要談多數，需要代表性民調、系統抽樣或可重複的完整樣本框架。
+- id: C005
+  statement: 『立法院若不提出不信任案，就在法律上等於承認行政院不副署合憲、合法或具有正當性』。
+  status: unsupported
+  related_facts:
+  - F001
+  - F007
+  reasoning_notes: 憲法把覆議後『應即接受』與不信任案分列不同款，並沒有把不提出不信任案規定為對行政行為的法律承認；支持者的『不倒閣＝認同』屬政治論證，不是條文明定法律效果。
+- id: C006
+  statement: 如果把行政院長的副署權解釋為：覆議失敗後仍可自由、無期限以不副署阻止法律公布，制度效果會形成一次覆議之外的第二層實質否決，並與『覆議維持原案後應即接受』產生強烈體系張力。
+  status: supported
+  supports:
+  - F001
+  - F002
+  related_facts:
+  - F011
+  reasoning_notes: 這是依條文結構與釋字520類比所作的制度推論；是否因此當然違憲仍屬待憲法法庭或更完整法律論證處理的問題。
+- id: C007
+  statement: 『覆議失敗後行政院長不副署法律』目前已被憲法法庭明確認定為合憲，或已被明確認定為違憲。
+  status: unresolved
+  related_facts:
+  - F011
+  reasoning_notes: 本次截至2026-10-19的查詢沒有找到直接就此具體爭點作成的終局憲法判決；不得把行政院自我解釋、學者意見或政黨主張冒充終局法源。
+- id: C008
+  statement: 現有證據足以把『不副署＋不滿就倒閣』視為一個跨個別網友、跨時間、由執政黨公職與部分支持者共同重複的政治論述模式，而不是單一fateric09個案。
+  status: supported
+  supports:
+  - F004
+  - F005
+  - F006
+  - F007
+  - F008
+  - F009
+  - F010
+  reasoning_notes: 這個結論仍不回答群體比例，也不證明所有支持者對制度後果都有完整自覺。
+- id: C009
+  statement: 支持者對『不副署＋倒閣』的正面呼應，是行政院決定持續採用不副署的直接因果原因。
+  status: unresolved
+  related_facts:
+  - F008
+  - F009
+  - F012
+  reasoning_notes: 可觀察到政治支持與制度實踐並存，但缺乏足以識別政策決策因果的內部資料。
+searches:
+- id: Q001
+  observed_at: '2026-10-19T18:09:00+08:00'
+  platform: GitHub politics-db
+  query: 不副署 / 倒閣 / 覆議
+  scope: lichih/politics-db main
+  result: not_found
+  notes: 現有repo未找到以不副署、倒閣、覆議為核心的既有evidence；因此另建research，並與既有支持者態度研究保持主題區分。
+- id: Q002
+  observed_at: '2026-10-19T18:09:00+08:00'
+  platform: Web search
+  query: 不副署 倒閣 藍白 民進黨 2024-2026；不倒閣就是認同不副署；行政院不副署就倒閣
+  scope: 中央社、行政院、新聞媒體、PTT、Reddit公開資料
+  result: found
+  notes: 找到2024-06廣義倒閣修辭、2024-12『不副署＋倒閣』早期案例、2025-12官方化與支持者強化、2026持續重複的跨時間證據。
+- id: Q003
+  observed_at: '2026-10-19T18:09:00+08:00'
+  platform: Web search / 憲法法庭、全國法規資料庫
+  query: 覆議 應即接受 不副署 副署權 憲法法庭 2026
+  scope: 憲法第37、72條、增修條文第3條、釋字520與截至2026-10-19可搜尋之憲法法庭資料
+  result: partial
+  notes: 找到明確條文與釋字520體系論證，另有正反學者意見；此次查詢未找到直接就『法律案覆議失敗後不副署』作成的終局憲法判決。
+promotion:
+  cases: []
+  comparators: []
+  research: []
+notes:
+- 本research的問題不是『民進黨支持者都怎樣』，而是先建立可追溯時間線：哪些黨公職何時說過什麼、行政院何時開始實際不副署、哪些支持性社群樣本如何正當化，以及這些論述延續多久。
+- 支持者來源是自然樣本，不是代表性抽樣；可以證明存在與重複模式，不能自行推算比例。
+- 法律層級必須區分：行政院／政黨自我解釋可證明其採取何種憲政立場；學者意見可證明法律爭議；只有憲法法庭終局裁判能在相應範圍內提供更高程序權威。
+- 若後續取得民調、系統抽樣、Threads大樣本或同一帳號跨陣營反事實案例，可再檢驗『支持者文化是否具有群體代表性』『是否同一把尺』與『政治支持是否對行政權擴張形成獎勵』。
+- 本research可與 research/2026-10-19-dpp-supporter-deification-attitudes/evidence.yaml 交叉閱讀；前者研究具體憲政權力論述，後者研究支持者對政黨、人物與同一把尺的自然樣本。
