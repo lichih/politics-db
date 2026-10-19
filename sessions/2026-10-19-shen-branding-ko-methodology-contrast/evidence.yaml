@@ -1,0 +1,255 @@
+session:
+  id: 2026-10-19-shen-branding-ko-methodology-contrast
+  project: Politics
+  title: "「造神」指控的可驗證文本：柯文哲方法論貼文與沈伯洋「洋流」人格／能力品牌"
+  started_at: "2026-10-19T12:24:00+08:00"
+  updated_at: "2026-10-19T12:24:00+08:00"
+  status: active
+
+topics:
+  - 柯文哲
+  - 沈伯洋
+  - 造神
+  - SOP
+  - 方法論
+  - 洋流
+  - 人格品牌
+  - 專業權威
+  - 民進黨
+  - 競選敘事
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "Threads / @lichihwu"
+    title: "「我大概又知道，為什麼我會比較認同柯文哲那一套了」"
+    url: "https://www.threads.com/@lichihwu/post/DemZLJFD01w"
+    published_at: "2026-10-17"
+    observed_at: "2026-10-19T12:24:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "透過已登入的連接瀏覽器分頁讀取原貼文與回覆。"
+      - "原文把「專業」具體化為問題、數據、點位、限制、方案，並批評只搬出學歷、術語、教授與文獻不足以回答個案適用性。"
+
+  - id: S002
+    source_type: primary
+    publisher: "Threads / @zitarcheng"
+    title: "對 @lichihwu 貼文回覆：『柯文哲都要去關了 還在造神』"
+    url: "https://www.threads.com/@zitarcheng/post/DeneGfuo03I"
+    published_at: "2026-10-18"
+    observed_at: "2026-10-19T12:24:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "此來源只證明該帳號對 S001 使用「造神」標籤，不證明標籤本身成立。"
+
+  - id: S003
+    source_type: primary
+    publisher: "Threads / @lichihwu"
+    title: "回覆『還在造神』：司法案件與政策方法是不同命題"
+    url: "https://www.threads.com/@lichihwu/post/Denf_2OD6Kz"
+    published_at: "2026-10-18"
+    observed_at: "2026-10-19T12:24:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "作者明確說「我在談的是一套做事方法值不值得參考」，並區分司法案件與政策方法。"
+
+  - id: S004
+    source_type: primary
+    publisher: "民主進步黨"
+    title: "民進黨提名台北市長候選人　賴清德：沈伯洋是一流人才、市長不二人選、有三度空間的治理能力"
+    url: "https://www.dpp.org.tw/media/contents/11580"
+    published_at: "2026-05-13"
+    observed_at: "2026-10-19T12:24:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "民進黨官方新聞稿。"
+
+  - id: S005
+    source_type: primary
+    publisher: "民主進步黨"
+    title: "民進黨創黨40週年　賴清德：承接前輩勇氣　鞏固主權、捍衛民主　讓民進黨成為保護台灣第一品牌"
+    url: "https://www.dpp.org.tw/media/contents/11789"
+    published_at: "2026-09-29"
+    observed_at: "2026-10-19T12:24:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "民進黨官方新聞稿，收錄沈伯洋對「洋流」的自我定義。"
+
+  - id: S006
+    source_type: primary
+    publisher: "民主進步黨"
+    title: "台北競總「洋流號」啟航　賴清德：盼「洋流匯聚」送沈伯洋進市府"
+    url: "https://www.dpp.org.tw/media/contents/11790"
+    published_at: "2026-09-30"
+    observed_at: "2026-10-19T12:24:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "民進黨官方新聞稿，記錄賴清德對「洋流」象徵的描述與競選組織用語。"
+
+  - id: S007
+    source_type: primary
+    publisher: "民主進步黨"
+    title: "沈伯洋台北競選總部成立　賴清德：將對手攻擊視為有機會展開對話的起點，這就是沈伯洋的高度"
+    url: "https://www.dpp.org.tw/media/contents/11797"
+    published_at: "2026-10-04"
+    observed_at: "2026-10-19T12:24:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "民進黨官方新聞稿，以人格與競選風格描述沈伯洋。"
+
+  - id: S008
+    source_type: primary
+    publisher: "民主進步黨"
+    title: "沈伯洋溫暖「洋流」獲共鳴 民進黨：蔣萬安停止潑髒水仇恨動員，應接受市政辯論"
+    url: "https://www.dpp.org.tw/content_print/media/11798"
+    published_at: "2026-10-05"
+    observed_at: "2026-10-19T12:24:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "民進黨官方新聞稿，發言人把沈伯洋競選模式描述為「溫暖正面」。"
+
+  - id: S009
+    source_type: secondary
+    publisher: "中央社"
+    title: "蕭美琴讚沈伯洋是行動知識庫　盼洋流帶動北市溫暖希望"
+    url: "https://www.cna.com.tw/news/aipl/202610040139.aspx"
+    published_at: "2026-10-04"
+    observed_at: "2026-10-19T12:24:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記錄副總統蕭美琴在沈伯洋競總成立大會的公開站台用語。"
+
+facts:
+  - id: F001
+    statement: "@lichihwu 的 2026-10-17 貼文在說明「比較認同柯文哲那一套」時，具體把認同對象描述為一套做事方法：面對政策問題應提出問題定義、數據、點位、限制與方案；文中沒有以柯文哲的人格完美、司法無罪或不可質疑作為支持理由。"
+    status: verified
+    observed_at: "2026-10-19T12:24:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "原文的正面主張集中在方法流程，並以條通個案要求問題與解法之間的可驗證連結。"
+    tags: [柯文哲, 方法論, SOP, 專業]
+
+  - id: F002
+    statement: "在同串有人以「柯文哲都要去關了 還在造神」回覆後，@lichihwu 明確回答自己談的是「一套做事方法值不值得參考」，並主張一個人的司法案件與某套政策方法是否合理是不同命題。"
+    status: verified
+    observed_at: "2026-10-19T12:24:00+08:00"
+    source_ids: [S002, S003]
+    evidence_summary: "「造神」標籤與作者對自己命題範圍的澄清均可由同串原始 Threads 內容直接確認。"
+    tags: [造神, 司法案件, 政策方法, 命題分離]
+
+  - id: F003
+    statement: "民進黨在 2026-05-13 正式提名沈伯洋時，賴清德以「一流人才」「市長不二人選」推薦，並以「國際視野的高度、跨域治理的廣度、對市民的溫度」及「法學的專業、溫暖的性格、對人性的深刻關懷」描述沈伯洋。"
+    status: verified
+    observed_at: "2026-10-19T12:24:00+08:00"
+    source_ids: [S004]
+    evidence_summary: "民進黨官方提名新聞稿直接結合能力、專業與人格特質進行候選人推薦。"
+    tags: [民進黨, 沈伯洋, 人格, 專業, 能力]
+
+  - id: F004
+    statement: "2026-09-29 民進黨官方新聞稿記錄沈伯洋把「洋流」描述為「溫暖」「充滿勇氣」「具備明確方向」，並把該象徵連結到民主前輩、新世代接棒與守護台灣。"
+    status: verified
+    observed_at: "2026-10-19T12:24:00+08:00"
+    source_ids: [S005]
+    evidence_summary: "「洋流」在官方公開敘事中不只是活動名稱，也承載勇氣、溫暖、方向與民主傳承等價值意涵。"
+    tags: [洋流, 勇氣, 溫暖, 民主敘事]
+
+  - id: F005
+    statement: "2026-09-30 民進黨官方新聞稿記錄賴清德把「洋流」描述為「溫暖、豐盛、有方向且充滿力量」，並稱其能照顧各族群與家庭、帶領台北走向世界、改變選舉風氣及擺脫負面攻擊。"
+    status: verified
+    observed_at: "2026-10-19T12:24:00+08:00"
+    source_ids: [S006]
+    evidence_summary: "民進黨主席公開把候選人品牌符號同時連結人格／價值與治理能力。"
+    tags: [洋流, 賴清德, 溫暖, 正面選舉]
+
+  - id: F006
+    statement: "2026-10-04 民進黨官方新聞稿記錄賴清德稱沈伯洋「始終把市民放在第一位」、展現謙卑、不走負面攻擊捷徑，並以替對手解圍等例子稱「這就是沈伯洋的高度」；同文又稱他把對手攻擊當成展開對話的起點。"
+    status: verified
+    observed_at: "2026-10-19T12:24:00+08:00"
+    source_ids: [S007]
+    evidence_summary: "官方競選敘事直接把具體競選行為上升為謙卑、正向與「高度」等人格評價。"
+    tags: [謙卑, 高度, 正向, 人格敘事]
+
+  - id: F007
+    statement: "2026-10-05 民進黨官方新聞稿由發言人吳崢稱沈伯洋的「溫暖正面的選舉模式」獲市民信任肯定，並以「小水滴匯聚成為洋流」描述支持者與候選人品牌。"
+    status: verified
+    observed_at: "2026-10-19T12:24:00+08:00"
+    source_ids: [S008]
+    evidence_summary: "「溫暖正面」與「小水滴／洋流」是黨中央官方使用的公開競選敘事。"
+    tags: [民進黨, 洋流, 溫暖正面, 支持者]
+
+  - id: F008
+    statement: "2026-10-04 沈伯洋競總成立大會上，副總統蕭美琴公開稱沈伯洋是「行動知識庫」且「無比謙卑」，並希望支持者以溫暖堅定的腳步跟著洋流走。"
+    status: verified
+    observed_at: "2026-10-19T12:24:00+08:00"
+    source_ids: [S009]
+    evidence_summary: "中央社對公開站台致詞的報導，同時記錄知識能力與謙卑人格的稱讚。"
+    tags: [蕭美琴, 行動知識庫, 謙卑, 洋流]
+
+claims:
+  - id: C001
+    statement: "@lichihwu 的 2026-10-17 貼文是以「柯文哲人格完美、司法無罪或不可質疑」作為政策主張可信的理由。"
+    status: contradicted
+    supports: []
+    contradicts: [F001, F002]
+    related_facts: []
+    reasoning_notes: "原文與後續澄清把評價對象限定在方法／政策分析流程；是否稱得上「造神」仍可作修辭爭論，但不能把文本改寫成對人格完美或司法無罪的主張。"
+
+  - id: C002
+    statement: "民進黨與主要站台者在沈伯洋 2026 台北市長競選公開敘事中，反覆把候選人品牌與溫暖、謙卑、勇氣、高度、正向，以及知識／專業能力等特質綁定。"
+    status: supported
+    supports: [F003, F004, F005, F006, F007, F008]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "這是對多個官方／公開站台文本的可重複內容歸納；不等於判定這些稱讚為虛假。"
+
+  - id: C003
+    statement: "上述公開敘事已足以在事實層直接證明民進黨正在「造神」，或沈伯洋被塑造成「聖人神」。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F003, F004, F005, F006, F007, F008]
+    reasoning_notes: "「造神」「聖人神」屬政治評價，需要先定義操作標準並處理一般候選人正面行銷的比較基準；facts 可證明人格／能力品牌存在，但不能把評價詞直接當事實。"
+
+  - id: C004
+    statement: "把 S001 稱為「SOP／方法論崇拜」比把它描述成「以柯文哲人格不可錯為核心」更符合原始文本。"
+    status: supported
+    supports: [F001, F002]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "此處只比較兩種文本描述的貼合程度；「SOP神」仍是修辭性標籤，不是資料庫事實分類。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-19T12:24:00+08:00"
+    platform: "GitHub politics-db"
+    query: "沈伯洋 / 洋流 / CPTED / 文獻多如牛毛 / 造神"
+    scope: "lichih/politics-db default branch"
+    result: partial
+    notes: "已找到 sessions/2026-10-18-shen-tiaotong-quote/evidence.yaml，確認10月17日條通聯訪中「犯罪學教授／前所長、文獻多如牛毛、不尊重專業」原話；未找到既有「洋流人格品牌／造神指控」專項 evidence。"
+
+  - id: Q002
+    observed_at: "2026-10-19T12:24:00+08:00"
+    platform: "connected browser / Threads"
+    query: "https://www.threads.com/@lichihwu/post/DemZLJFD01w"
+    scope: "原貼文與可見回覆"
+    result: found
+    notes: "取得原文、@zitarcheng「還在造神」回覆，以及作者對「方法與司法案件為不同命題」的後續澄清。"
+
+  - id: Q003
+    observed_at: "2026-10-19T12:24:00+08:00"
+    platform: web
+    query: "site:dpp.org.tw 沈伯洋 洋流 溫暖 謙卑 高度 行動知識庫 2026"
+    scope: "民進黨官方新聞稿與中央社公開站台報導"
+    result: found
+    notes: "找到2026-05-13提名、09-29黨慶、09-30競總開箱、10-04競總成立、10-05黨發言人等官方文本，以及中央社10-04蕭美琴站台報導。"
+
+promotion:
+  cases: []
+  comparators: []
+  research:
+    - proposed: "political-personality-branding-comparative"
+      rationale: "若要把「造神」做成可比較命題，需另外建立跨候選人、跨政黨的操作定義與基準，不宜只由單一候選人的正面競選文宣直接推出。"
+
+notes:
+  - "既有 sessions/2026-10-18-shen-tiaotong-quote/evidence.yaml 已保存沈伯洋10月17日條通回應的原話證據，本檔不重複建立同一事實。"
+  - "本檔區分「有人使用造神標籤」、候選人品牌實際使用哪些人格／能力描述，以及「是否構成造神」三個層次。"
+  - "對外若使用「聖人神」「SOP神」，應明示為修辭／政治評價，不應改寫成來源直接證明的事實。"
