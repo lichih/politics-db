@@ -1,0 +1,348 @@
+session:
+  id: 2026-10-20-ccp-fellow-traveler-label-diffusion
+  project: Politics
+  title: "『中共同路人』作為政治身份標籤的公共使用、媒體傳播與社群語義擴張"
+  started_at: "2026-10-20T10:52:17+08:00"
+  updated_at: "2026-10-20T10:52:17+08:00"
+  status: active
+
+topics:
+  - 中共同路人
+  - 政治標籤
+  - 抹紅
+  - 身份分類
+  - 民進黨
+  - 媒體框架
+  - 民視
+  - 三立
+  - 自由時報
+  - Threads
+  - 大罷免
+  - 認知框架
+  - frame diffusion
+
+sources:
+  - id: S001
+    source_type: secondary
+    publisher: "民視新聞"
+    title: "柯文哲專案報告 議員送白漆譏『漂白』"
+    url: "https://www.ftvnews.com.tw/news/detail/2017A02L08M1"
+    published_at: "2017-10-02"
+    observed_at: "2026-10-20T10:52:17+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導記載，2017 年台大『中國新歌聲』事件後，柯文哲被獨派指為『中共同路人』，柯本人表示無法接受『共匪同路人、配合共匪統戰』的指控。"
+      - "此來源能證明該標籤在 2017 年已出現在台灣政治攻防中；不能單靠本報導判定當時所有指控是否有充分證據。"
+
+  - id: S002
+    source_type: secondary
+    publisher: "公視新聞網"
+    title: "柯文哲遭獨派成員丟拖鞋"
+    url: "https://news.pts.org.tw/article/398203"
+    published_at: "2018-06-28"
+    observed_at: "2026-10-20T10:52:17+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導記載台灣國辦公室成員向柯文哲丟鞋並高喊『柯文哲，不要做中共同路人』。"
+      - "此為 2018 年公開抗議語境中的直接標籤使用案例。"
+
+  - id: S003
+    source_type: secondary
+    publisher: "民視新聞"
+    title: "快新聞／吳釗燮酸選前與民進黨合作選後卻攻擊 柯文哲稱『不對還是會講』"
+    url: "https://sport.ftvnews.com.tw/news/detail/2021C24W0137"
+    published_at: "2021-12-24"
+    observed_at: "2026-10-20T10:52:17+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導引述柯文哲稱『不能說講你不對就全部打成中共同路人』。"
+      - "這能證明 2021 年柯已公開把『中共同路人』描述為對批評中央政策者的政治標籤；是否真的『全部』如此仍只是柯的主張。"
+
+  - id: S004
+    source_type: secondary
+    publisher: "中央社"
+    title: "凱道拒絕統戰大會 高喊挺罷免、清除中共同路人"
+    url: "https://www.cna.com.tw/news/aipl/202504190193.aspx"
+    published_at: "2025-04-19"
+    observed_at: "2026-10-20T10:52:17+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導記載『拒絕統戰，守護台灣』凱道活動高喊『挺罷免、清除中共同路人』；多位民進黨立委輪番上台宣講。"
+      - "此來源證明該詞在 2025 大罷免／反統戰動員中成為公開群眾口號。"
+      - "民進黨立委出席或上台不等於每一位都親自使用、背書該句口號；個別發言需分別查證。"
+
+  - id: S005
+    source_type: secondary
+    publisher: "三立新聞網（Yahoo 轉載）"
+    title: "糗！黃國昌嗆『沒證據控中共同路人』 沈伯洋列藍白舔共行為打臉"
+    url: "https://tw.news.yahoo.com/%E7%B3%97-%E9%BB%83%E5%9C%8B%E6%98%8C%E5%97%86-%E6%B2%92%E8%AD%89%E6%93%9A%E6%8E%A7%E4%B8%AD%E5%85%B1%E5%90%8C%E8%B7%AF%E4%BA%BA-%E6%B2%88%E4%BC%AF%E6%B4%8B%E6%89%93%E8%87%89-%E6%B0%91%E7%9C%BE%E9%BB%A8%E4%BA%BA%E5%8E%BB%E6%B5%B7%E5%B3%BD%E8%AB%96%E5%A3%87-084500614.html"
+    published_at: "2025-07-04"
+    observed_at: "2026-10-20T10:52:17+08:00"
+    retrieval_status: reachable
+    notes:
+      - "三立標題將黃國昌『沒證據控中共同路人』與沈伯洋列舉海峽論壇、赴中會面、阻擋國安法案、國防預算等行為，框成『舉藍白舔共行為打臉』。"
+      - "報導內沈伯洋主要反問這些行為『叫沒有證據嗎』；本來源不能自行延伸成沈本人明確說『因此所有這些人就是中共同路人』。"
+      - "此來源可用於研究媒體如何把一組政治行為與『中共同路人』爭議連結；不證明三立受政黨指揮或與其他媒體協同行動。"
+
+  - id: S006
+    source_type: secondary
+    publisher: "民視新聞"
+    title: "快新聞／黃國昌嗆『民進黨亂抹紅』慘遭打臉 王義川：被沈伯洋電到吱吱叫"
+    url: "https://www.ftvnews.com.tw/news/detail/2025705W0342"
+    published_at: "2025-07-05"
+    observed_at: "2026-10-20T10:52:17+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導直接引述民進黨立委王義川：藍白阻擋國安法案等行為『這不是中共同路人，不然是什麼？如果不是中共同路人……這就是中共自己人』。"
+      - "此處的判定基礎是公開政治行為及其被解讀的效果，而非已證實接受中共指揮、金流或組織隸屬。"
+
+  - id: S007
+    source_type: commentary
+    publisher: "自由評論網"
+    title: "名家分享~Jiasin Yu》綠營多認同民主體制 藍白信念較弱"
+    url: "https://talk.ltn.com.tw/amp/article/breakingnews/5132726"
+    published_at: "2025-08-05"
+    observed_at: "2026-10-20T10:52:17+08:00"
+    retrieval_status: reachable
+    notes:
+      - "該文直接解釋『同路人』：選擇無關主觀意願，而要看『客觀結果對中國來說是否有利』。"
+      - "這是一篇署名評論／名家分享，能證明自由評論網刊載過這種概念定義；不能直接視為自由時報編輯部的正式立場。"
+
+  - id: S008
+    source_type: secondary
+    publisher: "民視新聞"
+    title: "快新聞／扯！受訪中挨徐巧芯嗆中國紅熊 沈伯洋反擊：替大罷免添柴火"
+    url: "https://sport.ftvnews.com.tw/news/detail/2025610W0518"
+    published_at: "2025-06-10"
+    observed_at: "2026-10-20T10:52:17+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導引述沈伯洋稱，對方常說他把人叫『中共同路人』，但他『根本沒講過』，其處理統戰議題強調風險控管，不能一概把人當成『中共同路人』。"
+      - "此來源構成重要反例：不能把所有民進黨政治人物或所有綠營國安論述都概括成支持無差別貼標籤。"
+
+  - id: S009
+    source_type: secondary
+    publisher: "Newtalk 新聞"
+    title: "譴責中國民族團結法遭藍白封殺！綠委轟：中共同路人！連守護台灣人民都不敢表態"
+    url: "https://newtalk.tw/news/view/2026-07-03/1045166"
+    published_at: "2026-07-03"
+    observed_at: "2026-10-20T10:52:17+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導引述民進黨政策會執行長、立委吳思瑤，針對藍白封殺譴責中國《民族團結進步促進法》的提案稱：『這不是中共同路人，什麼是中共同路人？』"
+      - "此案例再次以國會表決行為作為『中共同路人』政治判定基礎。"
+
+  - id: S010
+    source_type: commentary
+    publisher: "Threads / 搜尋結果"
+    title: "Threads 搜尋『同路人』之當下最相關結果"
+    url: "https://www.threads.com/search?q=%E5%90%8C%E8%B7%AF%E4%BA%BA&serp_type=default"
+    published_at: ""
+    observed_at: "2026-10-20T10:39:33+08:00"
+    retrieval_status: reachable
+    notes:
+      - "當次『最相關』結果可見 @poemofbikers 以『撕裂社會的才是中共同路人』作為反擊標籤；其文章主張使用去人化政治語言本身近似中共認知操作。"
+      - "同頁可見 @buffyshih 對一間花店因留言『噁』而稱『不是同路人，無需給他訂單』，顯示『同路人』在日常社群語境可直接表示政治同陣營／非同陣營。"
+      - "同頁也可見 @impolite.tw 以『無慘同路人』反諷『中共同路人』式語言，顯示該句型已成可辨識政治梗。"
+      - "搜尋排序由平台演算法產生，不是代表性抽樣；只能證明這些用法存在，不能推估比例。"
+
+facts:
+  - id: F001
+    statement: "至少自 2017 年起，『中共同路人／共匪同路人』已出現在台灣政治爭議中，用於指控柯文哲在兩岸／統戰相關事件中的立場或處置。"
+    status: verified
+    observed_at: "2026-10-20T10:52:17+08:00"
+    source_ids: [S001]
+    evidence_summary: "2017 年民視報導直接記載柯文哲被獨派指為中共同路人，並回應無法接受『共匪同路人、配合共匪統戰』指控。"
+    tags: ["2017", 中共同路人, 柯文哲, 抹紅]
+
+  - id: F002
+    statement: "2018 年，公開抗議者曾直接對柯文哲高喊『不要做中共同路人』。"
+    status: verified
+    observed_at: "2026-10-20T10:52:17+08:00"
+    source_ids: [S002]
+    evidence_summary: "公視對丟鞋抗議事件的報導包含該口號。"
+    tags: ["2018", 中共同路人, 抗議, 柯文哲]
+
+  - id: F003
+    statement: "2021 年柯文哲已公開把『中共同路人』描述為一種會被用來處理對中央政策批評者的政治標籤；此為柯的公開主張，不等於該概括本身已被證實。"
+    status: verified
+    observed_at: "2026-10-20T10:52:17+08:00"
+    source_ids: [S003]
+    evidence_summary: "民視引述柯稱『不能說講你不對就全部打成中共同路人』。"
+    verification_notes:
+      - "本 fact 證明的是柯在 2021 年已提出這項標籤化批評，而非證明『所有批評者都被如此處理』。"
+    tags: ["2021", 中共同路人, 政治標籤, 柯文哲]
+
+  - id: F004
+    statement: "2025 年 4 月反統戰／大罷免凱道活動把『清除中共同路人』作為公開群眾動員口號，且多位民進黨立委在同一活動中上台宣講。"
+    status: verified
+    observed_at: "2026-10-20T10:52:17+08:00"
+    source_ids: [S004]
+    evidence_summary: "中央社直接記載現場口號與民進黨立委輪番助陣。"
+    verification_notes:
+      - "出席／宣講不等於每一位立委均親自喊出或個別背書該句口號。"
+    tags: ["2025", 大罷免, 動員口號, 民進黨, 中共同路人]
+
+  - id: F005
+    statement: "2025 年 7 月，民進黨立委王義川公開以藍白阻擋國安法案等政治行為為依據，稱『這不是中共同路人，不然是什麼』，並進一步說若不是中共同路人就是『中共自己人』。"
+    status: verified
+    observed_at: "2026-10-20T10:52:17+08:00"
+    source_ids: [S006]
+    evidence_summary: "民視報導直接引述王義川原話；判斷基礎是政治行為及其國安效果，而非已證實中共組織關係。"
+    tags: ["2025", 王義川, 民進黨, 中共同路人, 國安]
+
+  - id: F006
+    statement: "2025 年 8 月，自由評論網刊載的署名評論明確把『同路人』定義為不取決於主觀意願，而看政治選擇的『客觀結果對中國是否有利』。"
+    status: verified
+    observed_at: "2026-10-20T10:52:17+08:00"
+    source_ids: [S007]
+    evidence_summary: "該文提供一個非常清楚的 outcome-based 定義：不要求先證明主觀親共意圖或組織協力。"
+    verification_notes:
+      - "屬署名評論／名家分享，不得升格成自由時報機構正式定義。"
+    tags: ["2025", 自由評論網, 中共同路人, 客觀效果, 語義擴張]
+
+  - id: F007
+    statement: "2025 年 6 月，沈伯洋公開否認自己採取一概貼『中共同路人』的方式，並把自己的統戰論述描述為風險控管。"
+    status: verified
+    observed_at: "2026-10-20T10:52:17+08:00"
+    source_ids: [S008]
+    evidence_summary: "民視直接引述沈稱自己『根本沒講過』並表示不能一概把人當中共同路人。"
+    tags: ["2025", 沈伯洋, 反例, 風險控管, 中共同路人]
+
+  - id: F008
+    statement: "2026 年 7 月，民進黨政策會執行長、立委吳思瑤以藍白封殺譴責中國特定法律的國會表決行為為基礎，公開稱『這不是中共同路人，什麼是中共同路人？』"
+    status: verified
+    observed_at: "2026-10-20T10:52:17+08:00"
+    source_ids: [S009]
+    evidence_summary: "Newtalk 報導直接引述吳思瑤原話。"
+    tags: ["2026", 吳思瑤, 民進黨, 中共同路人, 國會表決]
+
+  - id: F009
+    statement: "2025 年 7 月三立新聞在『中共同路人』爭議報導中，以『沈伯洋列藍白舔共行為打臉』作為標題框架，將一組赴中、國安法案、國防預算等政治行為與此標籤爭議連結。"
+    status: verified
+    observed_at: "2026-10-20T10:52:17+08:00"
+    source_ids: [S005]
+    evidence_summary: "此 fact 僅記錄媒體標題與報導框架存在，不把新聞框架本身當作被報導政治指控的真實性證明。"
+    tags: ["2025", 三立, 媒體框架, 中共同路人]
+
+  - id: F010
+    statement: "2026-10-20 Threads 搜尋『同路人』的當下最相關結果中，可同時看到『撕裂社會者就是中共同路人』、以『同路人／非同路人』表示政治同陣營，以及把『同路人』句型作為反諷梗的用法。"
+    status: verified
+    observed_at: "2026-10-20T10:52:17+08:00"
+    source_ids: [S010]
+    evidence_summary: "該次搜尋可證明『同路人』在社群上已存在超出組織協力意義的身份／陣營分類與反諷用法。"
+    verification_notes:
+      - "平台搜尋排序非代表性抽樣；不能由此估計 Threads 使用者中的普遍程度。"
+    tags: ["2026", Threads, 同路人, 身份分類, 語義擴張, 自然樣本]
+
+claims:
+  - id: C001
+    statement: "『中共同路人』不是 2025 大罷免才突然出現的政治詞；至少 2017 至 2018 年已可找到公開政治攻防與抗議中的使用紀錄。"
+    status: supported
+    supports: [F001, F002]
+    contradicts: []
+    related_facts: [F003]
+    reasoning_notes: "這是詞彙使用史的存在性結論，不代表各年代的使用頻率相同。"
+
+  - id: C002
+    statement: "到 2025-2026 年，至少已有民進黨重要公職把『中共同路人』直接建立在國會投票、阻擋國安法案、赴中交流等政治行為及其被認為的國安效果上，而不是以已證實受中共指揮、收受金流或具有組織隸屬作為必要前提。"
+    status: supported
+    supports: [F005, F008]
+    contradicts: []
+    related_facts: [F004, F009]
+    reasoning_notes: "王義川、吳思瑤案例直接呈現 behavior/effect-based labeling。這不判斷其政治評價是否合理，只確認判定規則並非限於代理關係證據。"
+
+  - id: C003
+    statement: "『中共同路人』在部分綠營友好／支持性公共論述中，已存在從『與中共有直接協力關係』向『客觀政治效果有利中國』擴張的明示概念框架。"
+    status: supported
+    supports: [F005, F006, F008]
+    contradicts: [F007]
+    related_facts: [F004, F009]
+    reasoning_notes: "F006 是最清楚的 outcome-based 定義；F005/F008 是政治人物的實際行為判定案例。F007 顯示並非所有綠營人物接受無差別貼標籤，因此結論限定為『部分公共論述』。"
+
+  - id: C004
+    statement: "民視、三立與自由時報相關平台都可找到把『中共同路人』爭議與綠營政治主張連結、放大的內容。"
+    status: supported
+    supports: [F003, F005, F006, F009]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "可證明三家平台都有相關內容與框架，但媒體類型不同：民視／三立多為新聞報導，自由來源為署名評論。『都有內容』不等於『三家協同宣傳』。"
+
+  - id: C005
+    statement: "現有 evidence 已足以證明『民進黨透過三立、民視、自由時報有組織地洗腦支持者，讓支持者把異議者一律標成中共同路人』。"
+    status: unsupported
+    supports: []
+    contradicts: [F007]
+    related_facts: [F004, F005, F006, F008, F009, F010]
+    reasoning_notes: "目前能證明上游政治人物／活動與媒體內容反覆提供標籤框架，也能觀察下游社群語義擴張；但尚缺組織指揮、協同傳播、個體曝露→內化的因果證據與群體比例資料。『洗腦』可作政治評價，不宜作已驗證的因果 fact。"
+
+  - id: C006
+    statement: "『政治人物／支持性媒體反覆提供身份框架 → 部分社群使用者以低證據門檻調用該標籤』是一個與現有資料相容、值得繼續測試的 frame-diffusion hypothesis。"
+    status: unresolved
+    supports: [F004, F005, F006, F008, F009, F010]
+    contradicts: [F007]
+    related_facts: [F001, F002, F003]
+    reasoning_notes: "上游與下游兩端都有可觀察資料，且時間順序相容；但本 research 尚未建立同一個體的媒體曝露、重複接觸與後續語言採用，因此因果箭頭保持 hypothesis，而不是 verified causation。"
+
+  - id: C007
+    statement: "Threads 上『同路人』已可作為純粹的政治同陣營／非同陣營身份詞使用，而不必帶有任何中共代理關係含義。"
+    status: supported
+    supports: [F010]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "這是存在性結論；不主張此用法已取代其他含義，也不估計其普遍程度。"
+
+  - id: C008
+    statement: "把某人稱作『中共同路人』若只依據『我認為其政治主張客觀上有利中國』，在證據結構上屬於政治效果評價，不等同於已證明其接受中共指揮、主觀支持中共或與中共有組織關係。"
+    status: supported
+    supports: [F005, F006, F008]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "此 claim 是對不同命題層級的區分：outcome attribution != agency/coordination/motive proof。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-20T10:52:17+08:00"
+    platform: "GitHub politics-db"
+    query: "中共同路人 / 同路人 / 抹紅 / 身份標籤"
+    scope: "lichih/politics-db main"
+    result: not_found
+    notes: "建立本 research 前未找到既有同主題 evidence；因此新增長期 research 檔。not_found != never_existed。"
+
+  - id: Q002
+    observed_at: "2026-10-20T10:52:17+08:00"
+    platform: "web news search"
+    query: "『中共同路人』柯文哲 2017；民視 2021；清除中共同路人 2025；王義川；吳思瑤；自由評論網"
+    scope: "2017-2026 公開新聞與評論"
+    result: found
+    notes: "找到 2017/2018 早期使用、2021 標籤化批評、2025 動員口號與 DPP 公職直接用例、2025 自由評論網 outcome-based 定義，以及 2026 吳思瑤用例。"
+
+  - id: Q003
+    observed_at: "2026-10-20T10:52:17+08:00"
+    platform: "Threads connected browser"
+    query: "https://www.threads.com/search?q=同路人&serp_type=default"
+    scope: "2026-10-20 當下最相關搜尋結果"
+    result: found
+    notes: "找到『中共同路人』作為反擊標籤、一般『同路人』作政治陣營分類，以及同路人句型反諷梗；搜尋排序非代表性樣本。"
+
+  - id: Q004
+    observed_at: "2026-10-20T10:52:17+08:00"
+    platform: "web news search"
+    query: "三立／民視／自由時報 + 中共同路人"
+    scope: "三家媒體平台公開可索引內容"
+    result: found
+    notes: "三家均找到相關內容；但本查詢不能證明共同編輯政策、政黨指揮或協同傳播。自由時報關鍵定義來源為署名評論而非社論。"
+
+promotion:
+  cases: []
+  comparators: []
+  research:
+    - proposed: "political-identity-label-genealogy"
+      rationale: "可後續擴充成跨詞彙比較：中共同路人、賣台、舔共、青鳥、小草、側翼等身份標籤如何從政治菁英／媒體框架進入社群日常分類。"
+
+notes:
+  - "本 research 的核心問題不是判斷所有被稱為『中共同路人』者是否無辜，而是拆分『具體中共協力證據』、『政治行為效果評價』與『身份標籤』三個不同層級。"
+  - "媒體報導政治人物使用某標籤，可證明該語言被公開傳播；不能單靠報導存在推論媒體與政黨有指揮關係。"
+  - "同一詞彙可能在不同使用者手上有不同門檻：有人要求直接協力／統戰證據，有人採客觀效果定義，也有人反對一概貼標。應保留這種異質性。"
+  - "若要把 frame diffusion 升級成較強因果結論，優先尋找 paired evidence：同一帳號先長期接觸／轉發特定政治人物或媒體框架，後來在不提供個案證據時以相同詞彙與判定規則標記異議者。"
+  - "若要討論『普遍性』或『洗腦』，需要代表性抽樣、語料時間序列、轉發網路或實驗／調查資料；大量同義留言本身不等於獨立證據。"
