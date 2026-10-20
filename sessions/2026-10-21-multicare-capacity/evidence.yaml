@@ -3,7 +3,7 @@ session:
   project: Politics
   title: 多元陪伴照顧服務之人力、使用型態與備援能力查核
   started_at: '2026-10-21T01:45:13+08:00'
-  updated_at: '2026-10-21T01:45:13+08:00'
+  updated_at: '2026-10-21T01:57:37+08:00'
   status: active
 
 topics:
@@ -148,6 +148,84 @@ sources:
   - 第二階段新增單位核定後仍須招聘本、外國籍工作人員並安排職前訓練，官方當時估計最快約兩個月後才能正式提供服務。
   - 此來源可證明擴大「試辦單位數」與立即增加可派遣人力不是同一事件。
 
+- id: S011
+  source_type: primary
+  publisher: 勞動部勞動力發展署
+  title: 勞動部「多元陪伴照顧服務試辦計畫」上路！協助民眾照顧不離職
+  url: https://fw.wda.gov.tw/wda-employer/home/activity/2c95efb3960cea3701960ef9090c03eb
+  published_at: '2025-04-07'
+  observed_at: '2026-10-21T01:57:37+08:00'
+  retrieval_status: reachable
+  notes:
+  - 官方表示家中有突發狀況可立即提出申請。
+  - 申請後由試辦單位於1日內與民眾聯繫，再由單位電話聯繫及安排服務。
+  - 此處「1日內」明文指向聯繫，不是保證1日內派到陪伴照顧工作者或完成服務。
+
+- id: S012
+  source_type: primary
+  publisher: 勞動部勞動力發展署／多元陪伴照顧服務計畫
+  title: 多元陪伴照顧服務試辦計畫滿週年 累計服務6萬小時
+  url: https://mcs.wda.gov.tw/news/47
+  published_at: '2026-04-24'
+  observed_at: '2026-10-21T01:57:37+08:00'
+  retrieval_status: reachable
+  notes:
+  - 計畫開辦滿1年時，官方公布全臺累計服務時數6萬小時。
+  - 申請24小時全日服務占55%，為各時數型態中最多。
+  - 官方據此解讀民眾對長時數照顧需求增加。
+
+- id: S013
+  source_type: primary
+  publisher: 勞動部勞動力發展署
+  title: 陪伴照顧有多元　服務面向更周全
+  url: https://www.wda.gov.tw/News_Content.aspx?n=31&s=19219&sms=10306
+  published_at: '2026-06-25'
+  observed_at: '2026-10-21T01:57:37+08:00'
+  retrieval_status: reachable
+  notes:
+  - 截至2026年5月底，累計服務時數突破8萬小時。
+  - 官方稱長時數服務占58%，為申請案件中最多的樣態；使用者滿意度92%。
+  - 新聞稿個案以連續1個多月、每天主要申請10至12小時服務，填補外籍看護到任前空窗。
+
+- id: S014
+  source_type: primary
+  publisher: 勞動部勞動力發展署
+  title: 多元陪伴照顧服務成效亮眼 累計服務時數突破10萬小時
+  url: https://www.wda.gov.tw/News_Content.aspx?n=31&s=19336&sms=10306
+  published_at: '2026-08-18'
+  observed_at: '2026-10-21T01:57:37+08:00'
+  retrieval_status: reachable
+  notes:
+  - 截至2026年7月31日，累計服務時數突破10萬小時、服務人次突破1萬，使用者滿意度93%。
+  - 使用頻率以「單次使用」及「一至兩週1次」合計占76%；官方未在此頁拆分兩者各自占比。
+  - 單次使用13至24小時占62%，為最多；服務時間涉及夜間者占75%。
+  - 上述統計描述已接受服務的使用型態，頁面未同時提供總申請件數、未派案件數或等待時間。
+
+- id: S015
+  source_type: primary
+  publisher: 勞動部勞動力發展署
+  title: 多元陪伴加長照　搭配使用一把罩
+  url: https://www.wda.gov.tw/News_Content.aspx?n=31&s=19410
+  published_at: '2026-09-17'
+  observed_at: '2026-10-21T01:57:37+08:00'
+  retrieval_status: reachable
+  notes:
+  - 官方以南投個案作為成功案例：被照顧者平日使用日間照顧，週末固定申請4小時多元陪伴服務。
+  - 家屬自前一年8月起持續每週使用，至新聞稿發布時已超過1年。
+  - 截至2026年8月底累計服務時數11萬小時，官方稱長時數10至24小時仍是最多使用者申請的型態，整體滿意度93%。
+
+- id: S016
+  source_type: primary
+  publisher: 勞動部勞動力發展署
+  title: 多元陪伴照顧服務試辦計畫－附件二多元陪伴照顧服務計畫書
+  url: https://orsd.wda.gov.tw/download?code=eyJpdiI6IkFyY3JldkVwV2NiM1NZajFrdGRGSlE9PSIsInZhbHVlIjoiSEJFeFRsV0ZLM3pvcW5JcHRkRzFnVXBRbTI1YmZ6QzhzQzM0Q3VOSUg1bz0iLCJtYWMiOiI2OTgzZWY2NjE0MGI1YjcxZWRlNGU2Y2I3YzU5ODcwNjkyZTRmNTg2NTkxNDEwN2IwNmU4OGYzYWJlYjYyMGM0IiwidGFnIjoiIn0%3D
+  observed_at: '2026-10-21T01:57:37+08:00'
+  retrieval_status: reachable
+  notes:
+  - 試辦單位申請計畫書要求提出「派案原則」，內容須包括「重症服務對象優先服務規劃」。
+  - 同一計畫書要求說明排班原則、24小時換班、空班時間管理及單一工作者工時規劃。
+  - 這證明中央評選要求各單位設計重症優先機制；但文件不是全國統一的實際派案順位表，也未把「突然發生的照顧空窗」本身列為一律優先於規律預約需求。
+
 facts:
 - id: F001
   statement: 多元陪伴照顧服務的法定運作模式，是由試辦單位聘僱本國籍及外國籍陪伴照顧工作者、由試辦單位負擔雇主責任，再依服務契約把工作者指派至家庭提供照顧；家庭購買的是服務，而不是直接成為該名工作者的雇主。
@@ -270,6 +348,48 @@ facts:
   evidence_summary: 試辦單位數、核定名額、實際到位並完成訓練的人力是不同層次。
   tags: [核定名額, 招募, 職訓, 上線時間, capacity]
 
+- id: F015
+  statement: 2025年4月7日正式上路時，勞動部對突發需求提供的明確時效承諾是「試辦單位於1日內與民眾聯繫」；官方文字接著是由試辦單位聯繫並安排服務，沒有把1日內聯繫寫成1日內必定派到照顧人力。
+  status: verified
+  observed_at: '2026-10-21T01:57:37+08:00'
+  source_ids: [S011]
+  evidence_summary: 官方已設定contact SLA，但沒有在同一公告設定dispatch/service SLA；兩者不得混寫。
+  tags: [1日內, 聯繫, SLA, 派案]
+
+- id: F016
+  statement: 多元陪伴實際已完成服務並非以短時數為主：2026年4月官方公布24小時全日服務占55%；同年6月又公布長時數服務占58%，均為當時最多的使用型態。
+  status: verified
+  observed_at: '2026-10-21T01:57:37+08:00'
+  source_ids: [S012, S013]
+  evidence_summary: 兩個不同時間點的官方成果資料一致顯示長時數需求在已服務案件中占重要甚至最大比例。
+  tags: [24小時, 長時數, 使用型態, capacity]
+
+- id: F017
+  statement: 截至2026年7月底，官方公布的已服務案件中，「單次使用」與「一至兩週1次」兩種頻率合計占76%；單次服務13至24小時占62%，涉及夜間服務占75%。
+  status: verified
+  observed_at: '2026-10-21T01:57:37+08:00'
+  source_ids: [S014]
+  evidence_summary: 官方統計直接確認計畫同時承接單次與規律週期需求，且長時數、夜間是大量實際使用型態。
+  verification_notes:
+  - 76%是「單次」與「每1至2週一次」合計，來源未拆分各自比例，不得把76%全算成週期性使用。
+  tags: [一至兩週一次, 13至24小時, 夜間, 使用頻率]
+
+- id: F018
+  statement: 2026年9月勞動力發展署以「每週末固定4小時、持續超過1年」的多元陪伴個案作為正面成功案例公開宣傳。
+  status: verified
+  observed_at: '2026-10-21T01:57:37+08:00'
+  source_ids: [S015]
+  evidence_summary: 規律、可預測且長期重複的每週需求不只是規則上未禁止，而是已實際提供並被主管機關當作制度成功案例。
+  tags: [每週, 固定需求, 超過一年, recurring-demand]
+
+- id: F019
+  statement: 中央提供給試辦申請單位的計畫書格式要求各單位提出派案原則，且須包括「重症服務對象優先服務規劃」；同時要求說明排班、24小時換班、空班管理及單一工作者工時。
+  status: verified
+  observed_at: '2026-10-21T01:57:37+08:00'
+  source_ids: [S016]
+  evidence_summary: 中央制度有要求試辦單位自行設計重症優先及排班機制，因此不能概括說完全沒有優先概念；但實際優先順序仍取決於各核定計畫與執行。
+  tags: [重症優先, 派案原則, 排班, 空班管理]
+
 claims:
 - id: C001
   statement: 多元陪伴照顧服務在制度結構上已經實作「由專業服務單位當雇主、家庭購買照顧服務、工作者一對多調派」的集中僱用模式，而不是傳統家庭直接僱用單一外籍家庭看護。
@@ -289,11 +409,11 @@ claims:
 
 - id: C003
   statement: 中央試辦規則禁止符合資格的家庭每週或每月反覆申請多元陪伴服務，因此固定、可預測需求不會持續占用同一人力池。
-  status: unsupported
+  status: contradicted
   supports: []
-  contradicts: [F004, F005]
+  contradicts: [F004, F005, F017, F018]
   related_facts: []
-  reasoning_notes: 中央規則未見通用頻率上限或冷卻期，官方實際資料並包含一週或一個月的服務需求。個別單位是否另有限制仍需逐一查核。
+  reasoning_notes: 官方不只未設通用頻率上限，實際統計包含一至兩週1次，且主管機關公開宣傳過每週固定4小時、持續超過1年的成功案例。個別單位仍可能依容量限制新申請，但「中央禁止週期性使用」已與官方實務相反。
 
 - id: C004
   statement: 只要多元陪伴制度存在，或官方能提出累積服務時數、人次與服務縣市，就足以證明外籍家庭看護突然中斷時已存在可靠且可即時取得的備援。
@@ -351,6 +471,46 @@ claims:
   related_facts: [F004]
   reasoning_notes: 全國家庭雇主抽樣調查與2026年勞動部最新回應都直接處理休假及照護中斷；不能由此推成每個家庭都同樣缺乏替代人力。
 
+- id: C011
+  statement: 多元陪伴同一人力池實際承接規律、可預測且反覆發生的照顧需求，並非只在不可預測的突發空窗時才啟用。
+  status: supported
+  supports: [F004, F017, F018]
+  contradicts: []
+  related_facts: [F016]
+  reasoning_notes: 官方統計出現一至兩週1次的使用頻率，且官方成功案例有每週固定使用超過1年；因此週期需求占用人力池已是實際制度用途，不只是理論可能。
+
+- id: C012
+  statement: 官方「申請後1日內」的承諾足以證明家庭在1日內一定取得實際照顧人力。
+  status: contradicted
+  supports: []
+  contradicts: [F015]
+  related_facts: [F003]
+  reasoning_notes: 原始公告只承諾試辦單位1日內與民眾聯繫，後續才是安排服務。聯繫時效不能替代派案成功或到案時效。
+
+- id: C013
+  statement: 已完成10萬小時、1萬人次以及93%使用者滿意度，可單獨回答「所有提出需求者有多少能在所需時間取得服務」。
+  status: contradicted
+  supports: []
+  contradicts: []
+  related_facts: [F007, F008, F017]
+  reasoning_notes: 服務時數、人次與使用者滿意度的分母是已提供或已使用服務者；availability問題另需要總申請量、未派案、等待時間、指定日期履約等需求端分母。來源頁面未提供這些分母。
+
+- id: C014
+  statement: 中央制度完全沒有任何派案優先機制。
+  status: contradicted
+  supports: []
+  contradicts: [F019]
+  related_facts: []
+  reasoning_notes: 試辦申請計畫書明文要求各單位規劃「重症服務對象優先服務」。但這不等於全國有統一派案順位，也不能推出「突然空窗」必然優先於固定週期需求；各單位實際核定內容仍待取得。
+
+- id: C015
+  statement: 現有中央公開資料已證明「突然發生的家庭看護空窗」在派案順位上一定優先於可預約、每週固定或長期反覆使用的案件。
+  status: unresolved
+  supports: []
+  contradicts: []
+  related_facts: [F018, F019]
+  reasoning_notes: 中央評選要求的是重症優先規劃，不是「突發性優先」的一致規則；本次尚未取得13家試辦單位完整核定派案順位與實際排班資料。
+
 searches:
 - id: Q001
   observed_at: '2026-10-21T01:45:13+08:00'
@@ -400,6 +560,30 @@ searches:
   result: partial
   notes: 找到服務至少4小時、可持續一段時間及個案評估等資訊，但尚未完成13家試辦單位逐一比對預約提前日數、候補、取消、固定週期使用、優先排序與滿案拒單規則。此為下一步重要缺口。
 
+- id: Q007
+  observed_at: '2026-10-21T01:57:37+08:00'
+  platform: web
+  query: site:wda.gov.tw / site:mcs.wda.gov.tw 多元陪伴 1日內；24小時55%；長時數58%；一至兩週1次；每週4小時
+  scope: 勞動部勞動力發展署與多元陪伴照顧服務官方網站
+  result: found
+  notes: 找到2025-04-07上路公告及2026-04、06、08、09月官方成果資料，可把「聯繫時效」與「派案時效」分開，並確認規律週期、長時數、夜間等實際使用型態。
+
+- id: Q008
+  observed_at: '2026-10-21T01:57:37+08:00'
+  platform: web
+  query: site:wda.gov.tw OR site:mcs.wda.gov.tw 多元陪伴 未派案；等待時間；申請件數
+  scope: 勞動部勞動力發展署與多元陪伴照顧服務官方可索引資料
+  result: not_found
+  notes: 本次未找到同口徑公開的總申請件數、未成功派案件數／比例或平均等待時間；找到的成果資料仍以已完成服務量、使用型態與使用者滿意度為主。not_found不等於主管機關內部沒有資料。
+
+- id: Q009
+  observed_at: '2026-10-21T01:57:37+08:00'
+  platform: web
+  query: site:wda.gov.tw OR site:mcs.wda.gov.tw 多元陪伴 優先 派案
+  scope: 中央試辦計畫及其附件
+  result: found
+  notes: 找到試辦單位計畫書要求「派案原則」須包括重症服務對象優先服務規劃。未找到中央統一規定「突發空窗優先於固定週期預約」的公開順位表；各試辦單位實際核定計畫仍待查。
+
 promotion:
   cases: []
   comparators: []
@@ -410,7 +594,8 @@ promotion:
 notes:
 - 本session先回答「多元陪伴到底提供什麼、由誰僱用、人力從哪裡來、需求能否重複使用、官方用什麼量測成果」，不直接下「面子工程」動機結論。
 - 關鍵區分：service existence != service availability。服務時數、人次與覆蓋縣市可證明制度確實提供服務，但不能單獨證明某個家庭在指定日期或突發空窗時派得到適任照顧者。
-- 「臨時」不得自動解讀為即時服務承諾；正式計畫同時允許短期及持續一定時間，且申請後仍需評估與契約程序。
+- 「臨時」不得自動解讀為即時服務承諾；正式計畫同時允許短期及持續一定時間，且申請後仍需評估與契約程序。2025年上路公告明確承諾的是申請後1日內「聯繫」，不是1日內必定派到人。
+- 2026年官方實績進一步證明同一池人力大量承接長時數、夜間與固定週期需求；每週固定4小時持續超過1年的個案甚至被主管機關當作成功案例。這會直接影響評估「突發空窗是否有可用容量」時應使用的需求模型。
 - 照顧人力的可替代性不能只用總人頭衡量；個案技能、地點、時段、交通、語言、照顧難度與家庭接受度都可能縮小某一時間點真正可派的人力。這是待進一步以試辦單位派案規則與實績資料驗證的分析方向，不在本session冒充已驗證統計。
 - 勞動部計畫要求月報、派案日程與成效評估，下一步最有價值的是取得或申請公開：總申請件數、未成功派案件數與原因、申請到首次服務等待時間、指定日期履約率、臨時急案補位時間及重複／固定使用占比。
 - 私人家庭經驗可用來產生查核問題，但本公開evidence未收錄可識別的私人個案敘述。
