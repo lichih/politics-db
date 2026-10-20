@@ -1,0 +1,246 @@
+session:
+  id: 2026-10-20-wu-nai-ren-taisugar-debt-enforcement
+  project: Politics
+  title: 吳乃仁台糖債權強制執行、撤回管收與協商時間線
+  started_at: '2026-10-20T11:49:45+08:00'
+  updated_at: '2026-10-20T11:49:45+08:00'
+  status: active
+
+topics:
+- 吳乃仁
+- 台糖
+- 強制執行
+- 管收
+- 債權追償
+- 債務協商
+- 國營事業治理
+- 春龍公司
+
+sources:
+- id: S001
+  source_type: primary
+  publisher: 司法院裁判書系統／臺灣臺中地方法院
+  title: 臺灣臺中地方法院114年度管字第1號民事裁定
+  url: https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TCDV%2C114%2C%E7%AE%A1%2C1%2C20260611%2C2
+  published_at: '2026-06-11'
+  observed_at: '2026-10-20T11:49:45+08:00'
+  retrieval_status: reachable
+  notes:
+  - 法院裁定吳乃仁准予管收。
+  - 裁定記載截至2025-04-30，台糖僅受償39,763,909元，尚未受償173,977,653元；吳乃仁個人遭執行約7,500,499元。
+  - 法院認定吳乃仁未依命令據實報告財產、未提供擔保或遵期履行，且已有多次執行不足清償之情形，管收聲請有理由。
+- id: S002
+  source_type: primary
+  publisher: 立法院議事暨公報資訊網／經濟部書面答復
+  title: 對黃國昌委員「台糖前董事長吳乃仁賤賣土地弊案強制執行」口頭質詢之答復
+  url: https://ppg.ly.gov.tw/ppg/SittingAttachment/download/2025010279/00112520506100422009.pdf
+  observed_at: '2026-10-20T11:49:45+08:00'
+  retrieval_status: reachable
+  notes:
+  - 記載最高法院於2020-02-27駁回上訴，民事損害賠償確定；台糖2020-04-28取得判決確定證明。
+  - 吳乃仁等4人應賠117,969,922元及自2010-06-16起按年息5%計算利息，其中一人給付範圍內其他人免為給付。
+  - 截至2024-12-31共受償39,730,557元，尚未受償171,985,179元，其中未償利息48,739,108元。
+  - 文件並列2020年後至2024年間多次強制執行與受償歷程。
+- id: S003
+  source_type: primary
+  publisher: 台灣糖業股份有限公司
+  title: 債務人承諾7/20前提協商，當庭合議先撤管收聲請
+  url: https://www.taisugar.com.tw/CSR/News_detail.aspx?n=11085&p=1&s=14978
+  published_at: '2026-07-01'
+  observed_at: '2026-10-20T11:49:45+08:00'
+  retrieval_status: reachable
+  notes:
+  - 台糖確認2026-06-22臺中高分院抗告庭中，代理人撤回管收聲請。
+  - 台糖說明理由是認為促使債務人出面協商之目的已達；吳方律師承諾最遲7/20前提出協商或清償計畫。
+  - 台糖當時表示，如債務人未出面進行協商，將再向法院聲請管收。
+- id: S004
+  source_type: secondary
+  publisher: 中央社
+  title: 台糖8月下旬協商吳乃仁案 若無合理還款方案再聲請管收
+  url: https://www.cna.com.tw/news/afe/202608100086.aspx
+  published_at: '2026-08-10'
+  observed_at: '2026-10-20T11:49:45+08:00'
+  retrieval_status: reachable
+  notes:
+  - 台糖副總經理蕭基淵在立法院表示，7月16日第一次協商中吳方提出的還款方案未獲台糖接受。
+  - 對「每月還5萬元」說法，蕭基淵表示與實際情況「不大相符」，因協商未結束不便公開細節。
+  - 蕭基淵表示預計8月下旬再次協商，若仍無法提出合理還款計畫，台糖會再次聲請管收。
+  - 他並表示6/22代表台糖出庭的訴訟代理人為獨立董事湯瑞科，由公司授權代理訴訟，並在法庭上作出撤回管收決定。
+- id: S005
+  source_type: commentary
+  publisher: 立法院全球資訊網／王鴻薇委員新聞稿
+  title: 台糖、吳乃仁尚未達成協議…王鴻薇：龔明鑫交代清楚 否則再申請管收
+  url: https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=47012&pid=265976
+  published_at: '2026-09-30'
+  observed_at: '2026-10-20T11:49:45+08:00'
+  retrieval_status: reachable
+  notes:
+  - 王鴻薇稱經濟部向其確認，截至當時台糖與吳乃仁尚未達成協議。
+  - 此來源可直接證明王鴻薇公開作此主張；因本次未取得經濟部原始回函，不把「經濟部已確認」本身升格為primary fact。
+- id: S006
+  source_type: secondary
+  publisher: 聯合報
+  title: 吳乃仁欠債協商又破局 藍促管收「抓回去關」
+  url: https://udn.com/news/story/6656/9784479
+  published_at: '2026-09-30'
+  observed_at: '2026-10-20T11:49:45+08:00'
+  retrieval_status: reachable
+  notes:
+  - 報導稱8月下旬第二次協商仍未達成協議。
+  - 報導引述消息人士稱台糖於8/20台中地院訊問庭提請法院調查4名債務人財產，並提供資料等待法院調查後續強制執行。
+  - 報導另稱9月董事會未討論還款方案，原因為第二次協商內容未通過董事會審計委員會；此部分同樣屬消息人士說法，尚缺primary source。
+- id: S007
+  source_type: secondary
+  publisher: 中央社
+  title: 吳乃仁因台糖案遭執行拘提 出面投案被法院管收
+  url: https://www.cna.com.tw/news/asoc/202606120193.aspx
+  published_at: '2026-06-12'
+  observed_at: '2026-10-20T11:49:45+08:00'
+  retrieval_status: reachable
+  notes:
+  - 補充刑事案已服刑完畢與2026年強制執行背景。
+  - 民事部分記載吳乃仁與春龍公司等遭判賠約1.1億元確定，加計利息與衍生債務約1.7億元。
+
+facts:
+- id: F001
+  statement: 吳乃仁等4人對台糖的民事賠償責任於2020-02-27最高法院駁回上訴後確定，執行名義本金為117,969,922元，並自2010-06-16起按年息5%計算利息。
+  status: verified
+  observed_at: '2026-10-20T11:49:45+08:00'
+  source_ids: [S002, S001]
+  evidence_summary: 經濟部書面答復與2026管收裁定均記載同一執行名義與確定時間線。
+  tags: [民事確定, 執行名義, 利息]
+- id: F002
+  statement: 台糖在民事責任確定後持續進行強制執行；截至2024-12-31，4名債務人合計受償39,730,557元，尚未受償171,985,179元，其中未償利息48,739,108元。
+  status: verified
+  observed_at: '2026-10-20T11:49:45+08:00'
+  source_ids: [S002]
+  evidence_summary: 立法院公開的經濟部書面答復提供受償總額、未償金額與多次執行歷程。
+  tags: [強制執行, 受償, 未償債權]
+- id: F003
+  statement: 2026-06-11台中地院裁定吳乃仁准予管收，理由包含其未依命令據實報告財產、未提供擔保或遵期履行，且既有財產執行不足清償債權。
+  status: verified
+  observed_at: '2026-10-20T11:49:45+08:00'
+  source_ids: [S001]
+  evidence_summary: 管收要件與法院認定由裁判書primary source直接確認。
+  tags: [管收, 強制執行法, 財產報告]
+- id: F004
+  statement: 2026-06-22吳乃仁抗告庭中，台糖代理人撤回管收聲請；台糖事後官方說明顯示，撤回當時尚未有已達成的清償協議，而是基於吳方律師承諾將在7/20前提出協商或清償計畫。
+  status: verified
+  observed_at: '2026-10-20T11:49:45+08:00'
+  source_ids: [S003]
+  evidence_summary: 台糖自己的公開說明足以確認「先撤回、後提出計畫／協商」的順序。
+  tags: [撤回管收, 協商, 時間順序]
+- id: F005
+  statement: 台糖副總經理2026-08-10在立法院表示，7/16第一次協商中吳方提出的方案未獲台糖接受；對「每月5萬元」說法則表示與實際情況不大相符。
+  status: verified
+  observed_at: '2026-10-20T11:49:45+08:00'
+  source_ids: [S004]
+  evidence_summary: 可證明第一次協商未達成共識，也可證明「月還5萬」不能作為已確認方案使用。
+  tags: [第一次協商, 5萬元, 未達共識]
+- id: F006
+  statement: 台糖副總經理2026-08-10表示，預計8月下旬再協商；如果對方仍無法提出合理還款計畫，台糖會再次聲請管收。
+  status: verified
+  observed_at: '2026-10-20T11:49:45+08:00'
+  source_ids: [S004]
+  evidence_summary: 此為台糖對後續處理門檻的公開陳述。
+  tags: [再次管收, 公開承諾, 第二次協商]
+- id: F007
+  statement: 2026-09-30王鴻薇公開稱經濟部向其確認，台糖與吳乃仁截至當時仍未達成協議。
+  status: partial
+  observed_at: '2026-10-20T11:49:45+08:00'
+  source_ids: [S005, S006]
+  evidence_summary: 立委新聞稿與媒體均報導相同狀態，但本次未取得經濟部原始回函，故只確認公開主張與一致報導，不把內容升格為primary confirmation。
+  tags: [第二次協商, 未達協議, secondary-confirmation]
+- id: F008
+  statement: 2026-09-30聯合報引述消息人士稱，台糖曾於8/20台中地院訊問庭請法院調查吳乃仁等4名債務人財產，並等待調查結果後續強制執行。
+  status: partial
+  observed_at: '2026-10-20T11:49:45+08:00'
+  source_ids: [S006]
+  evidence_summary: 此資料反駁「撤回管收後台糖完全沒有任何執行行動」的過度表述，但目前缺法院或台糖primary source確認8/20具體程序與內容。
+  verification_notes:
+  - 不得據此推論已再次聲請管收。
+  tags: [財產調查, 強制執行, secondary]
+
+claims:
+- id: C001
+  statement: 吳乃仁已確定提出「每月只還5萬元」的正式清償方案。
+  status: unsupported
+  supports: []
+  contradicts: [F005]
+  related_facts: []
+  reasoning_notes: 「每月5萬」目前是外界揭露／指控；台糖公開表示與實際情況不大相符且拒絕揭露協商細節，因此不能寫成確定事實。
+- id: C002
+  statement: 台糖是在已取得可接受的分期清償協議後，才撤回吳乃仁的管收聲請。
+  status: contradicted
+  supports: []
+  contradicts: [F004, F005]
+  related_facts: []
+  reasoning_notes: 台糖官方說明明確顯示撤回時只有未來提出協商／清償計畫的承諾；之後第一次方案仍未獲台糖接受。
+- id: C003
+  statement: 台糖撤回管收後即完全停止所有債權強制執行行動。
+  status: unresolved
+  supports: []
+  contradicts: []
+  related_facts: [F008]
+  reasoning_notes: 9/30 secondary source顯示8/20仍有財產調查與執行程序，但缺primary source，故不能以「完全停止」或「持續積極執行」任一方向定案。
+- id: C004
+  statement: 截至2026-10-20，台糖已再次向法院聲請管收吳乃仁。
+  status: unresolved
+  supports: []
+  contradicts: []
+  related_facts: [F006, F007, F008]
+  reasoning_notes: 台糖曾公開表示無合理方案將再次聲請管收，但本次公開查詢未找到新的管收聲請或裁定primary record。not_found不等於未聲請。
+- id: C005
+  statement: 截至2026-10-20，台糖與吳乃仁已簽署具拘束力的分期清償協議。
+  status: unresolved
+  supports: []
+  contradicts: []
+  related_facts: [F007]
+  reasoning_notes: 9月底公開資訊仍指向未達成協議；本次未找到10月後官方宣布協議成立的資料，但不能以not_found推論法律上一定未成立。
+- id: C006
+  statement: 6/22撤回管收決定的公司內部授權、核准層級與事後治理程序已由公開資料完整說明。
+  status: unsupported
+  supports: []
+  contradicts: []
+  related_facts: [F004, F006]
+  reasoning_notes: 目前只知獨立董事湯瑞科為公司授權訴訟代理人並在庭上作決定；尚未取得特定撤回決策是否另經事前核准、授權邊界、內部紀錄或事後董事會／審計委員會處理資料。
+
+searches:
+- id: Q001
+  observed_at: '2026-10-20T11:49:45+08:00'
+  platform: GitHub politics-db code search
+  query: 吳乃仁 / 台糖 / 管收
+  scope: lichih/politics-db main
+  result: not_found
+  notes: 此次查詢未找到既有吳乃仁台糖債權追償session。
+- id: Q002
+  observed_at: '2026-10-20T11:49:45+08:00'
+  platform: web
+  query: 吳乃仁 台糖 再次聲請管收 2026-09-30 至 2026-10-20
+  scope: 司法院、台糖、經濟部、立法院、中央社與公開新聞索引
+  result: not_found
+  notes: 本次未找到9/30後再次管收聲請或新管收裁定的公開primary record；不得寫成「確定沒有再次聲請」。
+- id: Q003
+  observed_at: '2026-10-20T11:49:45+08:00'
+  platform: web
+  query: 吳乃仁 台糖 分期協議 協商成立 2026-09-30 至 2026-10-20
+  scope: 台糖、經濟部、立法院與公開新聞索引
+  result: not_found
+  notes: 本次未找到9/30後台糖官方宣布已簽署分期清償協議的資料；不得由此推論私下或未公開協議絕不存在。
+- id: Q004
+  observed_at: '2026-10-20T11:49:45+08:00'
+  platform: web
+  query: 2026-08-20 吳乃仁 台中地院 訊問庭 財產調查
+  scope: 司法院、台糖、經濟部與新聞索引
+  result: partial
+  notes: 找到聯合報／轉載報導的消息人士說法，但未找到可公開存取的法院或台糖primary source確認8/20庭訊與財產調查細節。
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+- 本案需區分「確定債權與強制執行」、「管收這一特定間接執行手段」及「自願協商／分期」三個層次；撤回管收不等於債權消滅，也不等於全部強制執行停止。
+- 可繼續查的核心不是「300年」口號，而是：6/22特定撤回決策的內部授權紀錄；第二次協商方案與審計委員會處理；8/20財產調查程序的primary record；9/30後是否已再聲請管收或取得新受償。
+- 「每月5萬元」不得作為authoritative fact；即使做假設計算，也應明示其方案本身未經台糖證實。
