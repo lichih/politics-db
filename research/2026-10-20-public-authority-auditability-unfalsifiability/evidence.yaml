@@ -1,0 +1,403 @@
+session:
+  id: "2026-10-20-public-authority-auditability-unfalsifiability"
+  project: Politics
+  title: "公權力可驗證性缺口與不可證偽敘事：跨案件研究節點"
+  started_at: "2026-10-20T17:10:48+08:00"
+  updated_at: "2026-10-20T17:10:48+08:00"
+  status: active
+
+topics:
+  - 公權力
+  - 可驗證性
+  - auditability
+  - 不可證偽
+  - 司法信任
+  - 偵訊錄音
+  - 數位證據
+  - failure-state
+  - 國安認知作戰
+  - 台糖
+  - FMS
+
+sources:
+  - id: S001
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "高虹安涉貪案辯方提勘驗偵訊光碟 檢方：可直接訊問當事人"
+    url: "https://www.cna.com.tw/news/asoc/202312270336.aspx"
+    published_at: "2023-12-27"
+    observed_at: "2026-10-20T17:10:48+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記錄王郁文偵訊影音中斷16分鐘之爭議；公訴檢察官表示該段未就犯罪事實訊問，而是與律師溝通、交換法律意見。"
+      - "此來源只能證明中斷與雙方說法，不能證明未錄段落實際說了什麼。"
+
+  - id: S002
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "林俊言辦京華城案涉單獨接觸沈慶京　檢評會認違失"
+    url: "https://www.cna.com.tw/news/asoc/202602030046.aspx"
+    published_at: "2026-02-03"
+    observed_at: "2026-10-20T17:10:48+08:00"
+    retrieval_status: reachable
+    notes:
+      - "轉述檢察官評鑑委員會決議：2024-10-11林俊言以就訊名義赴台北醫院，與沈慶京有約2小時未錄音錄影的非正式談話；另有未通知律師之單獨接觸。"
+      - "檢評會未認定沈慶京原提4項指控成立，但認部分程序行為未盡勤慎執行職務義務並移請職務監督。"
+
+  - id: S003
+    source_type: primary
+    publisher: "臺灣臺北地方檢察署"
+    title: "關於某傳媒引述自稱沈姓被告隔床室友之爆料，指摘本署『逼害柯姓被告』等節之澄清新聞稿（含附件）"
+    url: "https://www.tpc.moj.gov.tw/media/391363/1140318%E8%87%BA%E5%8C%97%E5%9C%B0%E6%AA%A2%E9%87%9D%E5%B0%8D%E6%9F%90%E5%82%B3%E5%AA%92%E5%A0%B1%E5%B0%8E%E6%8C%87%E6%91%98%E6%9C%AC%E7%BD%B2%E9%80%BC%E5%AE%B3%E6%9F%AF%E5%A7%93%E8%A2%AB%E5%91%8A%E4%B9%8B%E6%BE%84%E6%B8%85%E6%96%B0%E8%81%9E%E7%A8%BF-%E5%90%AB%E9%99%84%E4%BB%B6.pdf?mediaDL=true"
+    published_at: "2025-03-18"
+    observed_at: "2026-10-20T17:10:48+08:00"
+    retrieval_status: reachable
+    notes:
+      - "北檢稱10/11先進行視察／交談，結束前依沈慶京要求始製作訊問筆錄；並以附件公文支持其事後向法院陳報。"
+      - "本次網頁索引可讀到新聞稿與附件內容；原始PDF直接開啟偶有逾時。"
+
+  - id: S004
+    source_type: secondary
+    publisher: "鏡新聞"
+    title: "翟本喬質疑變造『法院收發章戳』　北檢駁斥：勿捕風捉影"
+    url: "https://www.mnews.tw/story/20250818nm006"
+    published_at: "2025-08-18"
+    observed_at: "2026-10-20T17:10:48+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記錄翟本喬對北檢3/18附件之法院收發章戳、擬稿／核稿章色差、裝訂線及PDF-XChange Editor等數位文件形成疑點。"
+      - "北檢回應重點是調取北院收文、傳送清單及送件簿，證明2024-10-23確實收文，並否認變造日期。"
+
+  - id: S005
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "北院勘驗柯文哲行動硬碟 辯護律師：指控收賄要有證據"
+    url: "https://www.cna.com.tw/news/asoc/202506050339.aspx"
+    published_at: "2025-06-05"
+    observed_at: "2026-10-20T17:10:48+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記錄A1-37原始行動硬碟勘驗：辯方主張應以映像檔勘驗，直接操作原始硬碟破壞證據同一性；法院及檢方不同意。"
+      - "此來源不提供勘驗前後hash值，不能單憑該報導證明實際hash已改變。"
+
+  - id: S006
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "法庭錄音錄影及其利用保存辦法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0020090"
+    observed_at: "2026-10-20T17:10:48+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第2條以法庭公開透明及司法課責性為目的，規定法院開庭原則上應錄音。"
+      - "第3條規定在庭之人非經審判長許可不得自行錄音、錄影；第8條規範當事人等聲請交付官方錄音。"
+
+  - id: S007
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "法院組織法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0010053"
+    observed_at: "2026-10-20T17:10:48+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第90-1條規範當事人等聲請法院交付法庭錄音；第90-4條限制散布、公開播送或非正當使用；第91條禁止法庭開庭時自行錄音、錄影等行為。"
+
+  - id: S008
+    source_type: primary
+    publisher: "台灣糖業股份有限公司"
+    title: "債務人承諾7/20前提協商，當庭合議先撤管收聲請"
+    url: "https://www.taisugar.com.tw/CSR/News_detail.aspx?n=11085&p=1&s=14978"
+    published_at: "2026-07-01"
+    observed_at: "2026-10-20T17:10:48+08:00"
+    retrieval_status: reachable
+    notes:
+      - "台糖確認6/22在尚未取得清償協議前撤回管收，依據為吳方將提出協商或清償計畫之承諾。"
+
+  - id: S009
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "台糖8月下旬協商吳乃仁案 若無合理還款方案再聲請管收"
+    url: "https://www.cna.com.tw/news/afe/202608100086.aspx"
+    published_at: "2026-08-10"
+    observed_at: "2026-10-20T17:10:48+08:00"
+    retrieval_status: reachable
+    notes:
+      - "台糖副總表示第一次協商方案未獲接受；若後續仍無合理還款計畫，台糖會再次聲請管收。"
+
+  - id: S010
+    source_type: secondary
+    publisher: "聯合報"
+    title: "吳乃仁欠債協商又破局 藍促管收"
+    url: "https://udn.com/news/story/6656/9784479"
+    published_at: "2026-09-30"
+    observed_at: "2026-10-20T17:10:48+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導稱第二次協商仍未達成協議，另引消息人士稱台糖仍進行財產調查等執行程序。"
+      - "截至本研究觀察時間仍未取得再次聲請管收之primary record；not_found不等於未聲請。"
+
+  - id: S011
+    source_type: primary
+    publisher: "Defense Security Cooperation Agency"
+    title: "Figure C5.F9. Letter of Offer and Acceptance Standard Terms and Conditions"
+    url: "https://samm.dsca.mil/figure/figure-c5f9"
+    observed_at: "2026-10-20T17:10:48+08:00"
+    retrieval_status: reachable
+    notes:
+      - "FMS LOA標準條款採best efforts結構。"
+
+  - id: S012
+    source_type: primary
+    publisher: "Defense Security Cooperation Agency"
+    title: "Figure C5.F10. Letter of Offer and Acceptance Information"
+    url: "https://samm.dsca.mil/figure/figure-c5f10"
+    observed_at: "2026-10-20T17:10:48+08:00"
+    retrieval_status: reachable
+    notes:
+      - "MOS為estimated time-period；案件執行後可透過Amendment或Modification更新delivery expectations。"
+
+  - id: S013
+    source_type: primary
+    publisher: "國家安全局"
+    title: "2025年中共對臺認知作戰操作手法分析"
+    url: "https://www.nsb.gov.tw/zh/assets/documents/%E6%96%B0%E8%81%9E%E7%A8%BF/023b202c-8bc9-4b19-a8eb-c0d0b5809f99.pdf"
+    published_at: "2026-01-11"
+    observed_at: "2026-10-20T17:10:48+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報告將『激化我國內部對立』列為中共認知戰戰略目標之一。"
+      - "報告稱中共扶植『無邊界集團』，以Facebook內容農場及Threads、X軟性議題帳號吸引流量並伺機傳散政治貼文。"
+      - "報告是一般性年度威脅與操作手法分析，不是2026-10『洋流發威』特定事件的個案鑑識報告。"
+
+  - id: S014
+    source_type: secondary
+    publisher: "Yahoo新聞／風傳媒"
+    title: "侯漢廷控15粉專同步貼文『洋流發威了』　資安專家曝背後集團真相：其實來自中國"
+    url: "https://tw.news.yahoo.com/%E4%BE%AF%E6%BC%A2%E5%BB%B7%E6%8E%A715%E7%B2%89%E5%B0%88%E5%90%8C%E6%AD%A5%E8%B2%BC%E6%96%87-%E6%B4%8B%E6%B5%81%E7%99%BC%E5%A8%81%E4%BA%86-%E8%B3%87%E5%AE%89%E5%B0%88%E5%AE%B6%E6%9B%9D%E8%83%8C%E5%BE%8C%E9%9B%86%E5%9C%98%E7%9C%9F%E7%9B%B8-%E5%85%B6%E5%AF%A6%E4%BE%86%E8%87%AA%E4%B8%AD%E5%9C%8B-114013132.html"
+    published_at: "2026-10-19"
+    observed_at: "2026-10-20T17:10:48+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導引述不具名資安專家，將15個同步發布『洋流發威了』之粉專連結到中國『無邊界集團』內容農場。"
+      - "這不是國安局對該15粉專的具名個案鑑識或正式認定。"
+
+facts:
+  - id: F001
+    statement: "高虹安助理費案中，王郁文2023年4月12日偵訊影音存在約16分鐘中斷；公訴檢察官並未否認中斷，而主張該段未就犯罪事實訊問、屬與律師溝通及交換法律意見。"
+    status: verified
+    observed_at: "2026-10-20T17:10:48+08:00"
+    source_ids: [S001]
+    evidence_summary: "可確認『16分鐘沒有偵訊影音』及檢方對中斷性質的公開解釋；無影音本身使該段實際談話內容無法由影音直接重建。"
+    verification_notes:
+      - "王郁文所稱『上面指示起訴』等內容仍屬其主張，不能因錄音缺口而升格為已證實。"
+    tags: [北檢, 偵訊錄音, record-gap, 高虹安]
+
+  - id: F002
+    statement: "檢評會後續認定，林俊言2024年10月11日與沈慶京有約2小時未錄音錄影的非正式談話，另有未通知辯護律師之單獨接觸；雖原請求評鑑的4項指控未成立，部分程序行為仍被認定逾越應有分際並移請職務監督。"
+    status: verified
+    observed_at: "2026-10-20T17:10:48+08:00"
+    source_ids: [S002]
+    evidence_summary: "此案提供一個後續外部評鑑實際確認『未錄音長時間談話／程序分際問題』的例子；但不等同確認逼供、洩密等原指控。"
+    tags: [北檢, 沈慶京, 檢評會, record-gap, 外部評鑑]
+
+  - id: F003
+    statement: "北檢2025年3月18日公開新聞稿將10月11日行為描述為先行『視察／交談』、結束前始製作訊問筆錄，並以附件公文說明其事後陳報法院之程序。"
+    status: verified
+    observed_at: "2026-10-20T17:10:48+08:00"
+    source_ids: [S003]
+    evidence_summary: "可確認北檢自己的公開程序敘事，以及其以公文附件作為對外澄清材料。"
+    tags: [北檢, 官方說明, 視察, 訊問, 公開證據]
+
+  - id: F004
+    statement: "2025年8月有人對北檢3月18日官網PDF附件提出可具體檢查的數位文件疑點；北檢後續以北院收文紀錄證明2024年10月23日確實收件並否認變造日期，但公開回應所證明的『收文事件與日期』與『官網PDF影像的製作／加工歷程』並非完全相同的命題。"
+    status: partial
+    observed_at: "2026-10-20T17:10:48+08:00"
+    source_ids: [S003, S004]
+    evidence_summary: "已確認存在具體影像／PDF形成疑點及北檢回應，也確認北檢取得法院紀錄支持10/23收文；本次未取得獨立數位鑑識報告證明官網PDF是否經不當合成或變造。"
+    verification_notes:
+      - "不能由影像異常直接下『偽造公文書』結論。"
+      - "也不能用『10/23確有收文』自動回答PDF公開版本的所有形成過程問題。"
+    tags: [北檢, PDF, document-integrity, adjacent-answer, unresolved]
+
+  - id: F005
+    statement: "北院2025年6月5日勘驗A1-37時直接操作原始行動硬碟；辯方主張應使用映像檔並質疑直接操作破壞證據同一性，法院與公訴檢察官則認為直接檢視原始證據並無程序問題。"
+    status: verified
+    observed_at: "2026-10-20T17:10:48+08:00"
+    source_ids: [S005]
+    evidence_summary: "可確認數位證據保全方法出現實質爭議；現有來源不足以確認勘驗前後hash是否真的改變。"
+    verification_notes:
+      - "『hash被搞廢』目前不得作為verified fact。"
+    tags: [A1-37, digital-forensics, chain-of-custody, hash]
+
+  - id: F006
+    statement: "現行制度一方面要求法院為公開透明及司法課責性原則上全程錄音，另一方面在庭之人（包括當事人）非經審判長許可不得自行錄音；當事人等得依法律要件聲請取得法院官方錄音。"
+    status: verified
+    observed_at: "2026-10-20T17:10:48+08:00"
+    source_ids: [S006, S007]
+    evidence_summary: "制度採『官方集中錄製＋私人自行錄製原則受許可控制＋事後聲請取得』架構。"
+    tags: [法庭錄音, auditability, 官方紀錄, 當事人]
+
+  - id: F007
+    statement: "台糖2026年6月在尚未取得可接受清償協議時撤回吳乃仁管收聲請，8月又公開表示若後續仍無合理還款計畫將再次聲請管收；9月底公開報導仍指向協商未成，而本研究截至10月20日未取得再次聲請管收的primary record。"
+    status: partial
+    observed_at: "2026-10-20T17:10:48+08:00"
+    source_ids: [S008, S009, S010]
+    evidence_summary: "存在由台糖自行公開設定的後續trigger，但公開資訊不足以在10月20日確認該trigger之後是否已完成特定『再次聲請管收』state transition。"
+    verification_notes:
+      - "未找到primary record不等於從未聲請；台糖仍可能採取其他強制執行措施。"
+    tags: [台糖, failure-state, enforcement-trigger, not-found]
+
+  - id: F008
+    statement: "FMS標準LOA採best efforts提供項目，MOS交期為estimated time-period，且可透過Amendment或Modification更新delivery expectations。"
+    status: verified
+    observed_at: "2026-10-20T17:10:48+08:00"
+    source_ids: [S011, S012]
+    evidence_summary: "FMS存在交期資訊，但標準制度並非一般商業契約式固定日期一逾期即自動形成同一類型違約後果。"
+    tags: [FMS, movable-failure-state, estimated-delivery]
+
+  - id: F009
+    statement: "國安局2026年1月公布的年度報告明確把『激化我國內部對立』列為中共認知戰目標之一，並具名指稱『無邊界集團』透過Facebook內容農場及Threads、X帳號吸引流量並伺機投放政治內容。"
+    status: verified
+    observed_at: "2026-10-20T17:10:48+08:00"
+    source_ids: [S013]
+    evidence_summary: "可確認國安局的一般威脅模型與對無邊界集團的官方歸因。"
+    tags: [國安局, 認知作戰, 無邊界集團, 一般威脅模型]
+
+  - id: F010
+    statement: "2026年10月『洋流發威了』15粉專事件的公開歸因，目前可查媒體主要引述不具名資安專家連結到『無邊界集團』；本研究未找到國安局針對該15粉專發布具名個案鑑識或正式認定。"
+    status: partial
+    observed_at: "2026-10-20T17:10:48+08:00"
+    source_ids: [S013, S014]
+    evidence_summary: "國安局年度報告提供背景與既有組織歸因，但不能自動替代對2026-10特定粉專群的個案證據鏈。"
+    verification_notes:
+      - "not_found只代表本次查詢未找到國安局個案聲明，不代表國安機關內部不存在相關情報。"
+    tags: [國安局, 洋流, claim-inflation, source-proximity]
+
+claims:
+  - id: C001
+    statement: "『爭議因缺乏可獨立重建的原始紀錄而長期停在unresolved』與『已證明官方沒有問題』是同一件事。"
+    status: contradicted
+    contradicts: [F001, F002, F004, F005, F007, F010]
+    reasoning_notes: "record gap、文件形成疑義、未取得後續primary record等只能限制可判斷範圍；unresolved不得被偷換成exonerated，也不得反向偷換成guilty。"
+
+  - id: C002
+    statement: "本研究目前已可觀察到跨司法、國營事業、軍購與國安敘事的共同『auditability』問題：關鍵紀錄缺失／集中於被質疑機關、文件完整性爭議、failure state可移動或個案歸因超出公開證據鏈，都可能使外部查核停在無法有效證偽的狀態。"
+    status: supported
+    supports: [F001, F002, F004, F005, F006, F007, F008, F010]
+    related_facts: [F003, F009]
+    reasoning_notes: "支持的是跨案比較框架，不是宣稱各案法律性質相同，也不是宣稱所有官方說法皆為假。"
+
+  - id: C003
+    statement: "上述案例已證明民進黨政府有一套統一、故意設計的『不可證偽』操作策略。"
+    status: unsupported
+    supports: []
+    related_facts: [F001, F002, F004, F005, F007, F008, F009, F010]
+    reasoning_notes: "要升格為統一策略或主觀故意，仍需決策鏈、指令、跨機關協調、共同設計或其他能證明主觀目的的證據。跨案結構相似本身不足。"
+
+  - id: C004
+    statement: "高虹安案16分鐘錄音缺口本身足以證明王郁文所述『上面指示要起訴』等內容確實發生。"
+    status: unsupported
+    supports: []
+    related_facts: [F001]
+    reasoning_notes: "缺錄音只造成不可由影音重建；不能把不可證偽的指控直接升格為事實。"
+
+  - id: C005
+    statement: "檢評會確認醫院2小時未錄音談話及程序違失，即等同確認沈慶京所指逼供、洩密等全部指控成立。"
+    status: contradicted
+    contradicts: [F002]
+    reasoning_notes: "檢評會明確區分：原請求評鑑的4項指控未成立，但另認部分程序行為不符勤慎義務。"
+
+  - id: C006
+    statement: "北檢官網PDF的影像異常已足以證明有人犯偽造公文書罪。"
+    status: unsupported
+    supports: []
+    related_facts: [F004]
+    reasoning_notes: "目前缺獨立數位鑑識、製作者、加工流程、主觀故意及刑法構成要件證據；但『日期事件為真』亦不能自動回答公開PDF形成歷程。"
+
+  - id: C007
+    statement: "法院禁止當事人未經許可自行錄音，就足以證明個案審判不公平。"
+    status: unsupported
+    supports: []
+    related_facts: [F006]
+    reasoning_notes: "現行制度同時有法院官方錄音與當事人聲請交付機制；可批評其可驗證性與比例性，但不能直接由限制自行錄音推導特定案件不公平。"
+
+  - id: C008
+    statement: "國安局2026年1月的一般認知戰報告，已足以證明2026年10月『洋流發威』15粉專、或其後特定國內政治情緒，均是中共認知作戰造成。"
+    status: unsupported
+    supports: []
+    related_facts: [F009, F010]
+    reasoning_notes: "一般威脅模型、既有組織歸因、特定帳號群個案歸因、以及對社會情緒的因果歸因是不同層級；每跨一層都需要新證據。"
+
+  - id: C009
+    statement: "反覆出現且缺乏可外部驗證終局的公權力爭議，會降低合理觀察者對制度自我說明的先驗信任。"
+    status: unresolved
+    supports: [F001, F002, F004, F005, F006, F007, F010]
+    related_facts: [F008, F009]
+    reasoning_notes: "這是目前的核心因果研究假說。案例可證明auditability gap存在，但『造成多少制度信任下降』仍需民調、實驗、歷時比較或其他社會科學證據，不能只由案例存在直接量化。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-20T17:10:48+08:00"
+    platform: politics-db
+    query: "北檢／柯文哲司法程序／台糖／軍購／failure-state"
+    scope: "lichih/politics-db main"
+    result: found
+    notes: "重用既有session/research：柯文哲司法程序、北檢檢察官涉毒、吳乃仁台糖追償、仁武台糖土地、國防採購治理、obligation-without-failure-state。"
+
+  - id: Q002
+    observed_at: "2026-10-20T17:10:48+08:00"
+    platform: web
+    query: "高虹安 王郁文 消失16分鐘 北檢 錄音錄影"
+    scope: "中央社、公開新聞"
+    result: found
+    notes: "確認16分鐘影音中斷與檢方『非犯罪事實訊問／法律意見溝通』說法；未以缺口推定王郁文所述內容為真。"
+
+  - id: Q003
+    observed_at: "2026-10-20T17:10:48+08:00"
+    platform: web
+    query: "林俊言 沈慶京 台北醫院 兩小時 未錄音 檢評會"
+    scope: "中央社與公開新聞"
+    result: found
+    notes: "確認檢評會後續認定未錄音長談及部分程序行為逾越分際；原4項指控未成立。"
+
+  - id: Q004
+    observed_at: "2026-10-20T17:10:48+08:00"
+    platform: web
+    query: "翟本喬 北檢 PDF 公文章 日期 合成 PDF-XChange Editor"
+    scope: "北檢官網附件與新聞報導"
+    result: partial
+    notes: "找到具體PDF形成疑點與北檢以北院收文紀錄反駁變造日期；未找到獨立數位鑑識報告，故維持文件形成歷程unresolved。"
+
+  - id: Q005
+    observed_at: "2026-10-20T17:10:48+08:00"
+    platform: web
+    query: "A1-37 原始硬碟 image hash 勘驗"
+    scope: "中央社與公開新聞"
+    result: partial
+    notes: "確認法院直接勘驗原始硬碟及辯方提出映像檔／證據同一性爭議；未取得勘驗前後hash、write blocker或mount mode等數位鑑識資料。"
+
+  - id: Q006
+    observed_at: "2026-10-20T17:10:48+08:00"
+    platform: web
+    query: "國安局 2025 中共對臺認知作戰 無邊界集團 洋流發威 15粉專"
+    scope: "國安局年度報告、2026-10-18至10-20公開新聞"
+    result: partial
+    notes: "官方報告確認一般威脅模型與無邊界集團歸因；15粉專個案目前主要是媒體引述不具名資安專家，未找到國安局具名個案鑑識聲明。"
+
+promotion:
+  cases: []
+  comparators:
+    - "record gap：高虹安案16分鐘、沈慶京醫院2小時"
+    - "integrity gap：A1-37原始硬碟／映像檔爭議、北檢官網PDF形成疑點"
+    - "record monopoly：法院官方錄音與私人自行錄音限制"
+    - "movable failure state：FMS estimated delivery、台糖再次管收trigger"
+    - "claim inflation：一般國安威脅模型→特定帳號群→特定政治情緒因果"
+  research:
+    - "建立反例集：同樣受到重大質疑，但後續以完整原始資料、獨立調查或明確failure state成功證偽的公權力案例。"
+    - "把auditability gap與制度信任變化做社會科學層級驗證，避免由案例直接推定因果效果。"
+
+notes:
+  - "本research是父級比較節點，不取代各個session/case的authoritative細節；新增個案應優先寫回原案件，再於此處引用其mechanism。"
+  - "核心方法規則：unresolved != exonerated；同時 unresolved != guilty。不可證偽不能替任何一方預支結論。"
+  - "本研究刻意不把『跨案存在相似結構』升格成『執政黨故意統一操作』；後者需要額外的決策與主觀故意證據。"
+  - "相關既有evidence：cases/2026-10-20-ko-wen-je-judicial-proceedings/evidence.yaml；sessions/2026-10-15-taipei-prosecutor-drug-case/evidence.yaml；sessions/2026-10-20-wu-nai-ren-taisugar-debt-enforcement/evidence.yaml；sessions/2026-10-20-renwu-taisugar-soil-yard-clearing/evidence.yaml；sessions/2026-10-09-defense-procurement-governance/evidence.yaml；research/2026-10-20-obligation-without-failure-state/evidence.yaml。"
+  - "stopping rule：本節點不追求『收完所有案例』。只在新案例能增加新的mechanism、提供反例、或實質改變C002/C009判斷時再更新。"
