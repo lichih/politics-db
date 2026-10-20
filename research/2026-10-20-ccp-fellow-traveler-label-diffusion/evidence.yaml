@@ -278,7 +278,7 @@ claims:
 
   - id: C006
     statement: "『政治人物／支持性媒體反覆提供身份框架 → 部分社群使用者以低證據門檻調用該標籤』是一個與現有資料相容、值得繼續測試的 frame-diffusion hypothesis。"
-    status: partially_supported
+    status: unresolved
     supports: [F004, F005, F006, F008, F009, F010]
     contradicts: [F007]
     related_facts: [F001, F002, F003]
