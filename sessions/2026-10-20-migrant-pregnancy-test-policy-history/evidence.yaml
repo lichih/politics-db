@@ -1,0 +1,260 @@
+session:
+  id: 2026-10-20-migrant-pregnancy-test-policy-history
+  project: Politics
+  title: 移工妊娠檢查取消沿革與2026政治歸責爭議
+  started_at: '2026-10-20T12:00:00+08:00'
+  updated_at: '2026-10-20T12:00:00+08:00'
+  status: active
+
+topics:
+- 移工
+- 妊娠檢查
+- 懷孕
+- 健康檢查
+- 受聘僱外國人健康檢查管理辦法
+- 政策沿革
+- 政治歸責
+- 行政命令
+- 民進黨
+- 馬英九政府
+
+sources:
+- id: S001
+  source_type: commentary
+  publisher: Threads / @evanblue0927
+  title: 「原來是民進黨在2017年用行政命令執行此政策」貼文
+  url: https://www.threads.com/@evanblue0927/post/DesgrhVkvYb
+  published_at: '2026-10-20'
+  observed_at: '2026-10-20T12:00:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 原文主張「原來是民進黨在2017年用行政命令執行此政策，難怪找不到相關修法條例，這個政府真的有問題」，並連結勞動力發展署2017年「懷孕及健康檢查項目」頁面。
+  - 此來源只證明社群主張存在，不用來證明制度沿革。
+
+- id: S002
+  source_type: primary
+  publisher: 勞動部勞動力發展署
+  title: 懷孕及健康檢查項目
+  url: https://www.wda.gov.tw/News_Content.aspx?n=156&s=12887&sms=10365
+  published_at: '2017-07-19'
+  observed_at: '2026-10-20T12:00:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 頁面標示發布日期106-07-19，內容寫「外國人健康檢查已全面取消妊娠檢查」。
+  - 頁面是制度說明頁；頁面文字本身未顯示其為2017年新發布、創設全面取消制度的法規命令或修正令。
+  - 頁面另說明移工懷孕時雇主不得單方面以此理由解約並強制出國。
+
+- id: S003
+  source_type: primary
+  publisher: 勞動部勞動力發展署
+  title: 移工婦幼權益保障指引
+  url: https://fw.wda.gov.tw/wda-employer/home/download-file/2c95efb3943b2c9501943e3f511305d1.pdf
+  published_at: '2025-01-06'
+  observed_at: '2026-10-20T12:00:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 指引第3頁記載：90年11月7日取消移工受聘期間不得結婚規定；91年11月9日起取消入國後每滿6個月健康檢查的「懷孕檢查」項目。
+  - 同頁記載《受聘僱外國人健康檢查管理辦法》於93年及96年分別取消女性移工入國後定期健檢與入國3日內健檢之妊娠檢查，104年再取消入國前妊娠檢查。
+  - 指引並將懷孕工作權益連結至性別平等工作法等規範，顯示「妊娠檢查取消」與「不得因懷孕解僱」不能簡化成同一個2017行政措施。
+
+- id: S004
+  source_type: primary
+  publisher: 衛生福利部疾病管制署
+  title: 2001-2007年外籍勞工健康檢查概況
+  url: https://www.cdc.gov.tw/Category/ListContent/81xBc8ZjnReHKsB55Jhezg?uaid=i8D29qJEzUjkeRgDot-x7g
+  published_at: '2012-11-06'
+  observed_at: '2026-10-20T12:00:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 疾管署回顧2001至2007年制度沿革，記載2004年訂定、2007年修正《受聘僱外國人健康檢查管理辦法》，改革事項包含取消入國後妊娠檢查。
+  - 可作為2017以前已有制度變更的獨立官方來源。
+
+- id: S005
+  source_type: primary
+  publisher: 衛生福利部疾病管制署
+  title: 1989–2015年臺灣受聘僱外國人健康檢查制度的演進與革新
+  url: https://www.cdc.gov.tw/EpidemicTheme/Detail/zKNFqsVWxUoUqE6fyhmBNA?archiveId=nuOX0WNc6z0kEALSW7RbRQ
+  published_at: '2017'
+  observed_at: '2026-10-20T12:00:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 疾管署原著文章說明其研究範圍為1989至2015年，並明示截至2015年外勞健檢制度已歷經多次法規調整。
+  - 與勞動部指引交叉支持「妊娠檢查取消是長期、多次調整」而非2017單一措施。
+
+- id: S006
+  source_type: primary
+  publisher: 勞動部
+  title: 有關社群軟體上流傳貼文「移工懷孕勞動部一句話讓雇主養他全家」為嚴重錯誤資訊，勞動部澄清
+  url: https://www.mol.gov.tw/1607/1632/1633/99490/
+  published_at: '2026-10-13'
+  observed_at: '2026-10-20T12:00:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 勞動部針對2026年10月移工懷孕相關社群爭議發布澄清，說明不存在「移工懷孕雇主必須養他全家」的法律規範。
+  - 此來源證明近期確有移工懷孕政策爭議，但不證明任何政黨將整套妊娠檢查制度歸責給政治對手。
+
+- id: S007
+  source_type: secondary
+  publisher: 中央通訊社
+  title: 印尼幫傭來台1個月懷孕　仲介團體籲恢復源頭體檢
+  url: https://www.cna.com.tw/news/ahel/202610080139.aspx
+  published_at: '2026-10-08'
+  observed_at: '2026-10-20T12:00:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 報導中華民國就業服務商業同業公會全國聯合會批評現行制度，並稱104年母國健檢刪除妊娠檢驗與HIV檢查。
+  - 這是產業團體對制度的當代批評，不是政黨或政府對政治對手的歸責。
+
+facts:
+- id: F001
+  statement: 2026年10月20日可見的Threads貼文主張「民進黨在2017年用行政命令執行此政策」，並以勞動力發展署2017年「懷孕及健康檢查項目」頁面作為連結依據。
+  status: verified
+  observed_at: '2026-10-20T12:00:00+08:00'
+  source_ids: [S001]
+  evidence_summary: 可確認該社群歸責主張及其引用來源存在；尚未因此證明主張內容為真。
+  tags: [社群主張, "2017", 民進黨, 行政命令]
+
+- id: F002
+  statement: 勞動力發展署2017年7月19日「懷孕及健康檢查項目」頁面使用的是「外國人健康檢查已全面取消妊娠檢查」的既成狀態表述，頁面本身未載明它是一道於2017年新發布並創設全面取消制度的法規命令或修正令。
+  status: verified
+  observed_at: '2026-10-20T12:00:00+08:00'
+  source_ids: [S002]
+  evidence_summary: 2017發布日期只能直接證明說明頁的發布時間；不能把頁面日期等同底層規範的創設或生效日期。
+  verification_notes:
+  - current web page publication time != underlying rule promulgation/effective time。
+  tags: [publication-time, effective-time, 2017說明頁, authority]
+
+- id: F003
+  statement: 勞動部現行《移工婦幼權益保障指引》記載，妊娠檢查相關限制是分階段變更：2002年取消入國後每滿6個月健康檢查的懷孕檢查；2004年及2007年在《受聘僱外國人健康檢查管理辦法》下分別取消入國後定期健檢與入國3日內健檢之妊娠檢查；2015年再取消入國前妊娠檢查。
+  status: verified
+  observed_at: '2026-10-20T12:00:00+08:00'
+  source_ids: [S003]
+  evidence_summary: 官方指引直接提供跨2002、2004、2007、2015的制度時間線，否定「全面取消制度到2017才開始」的時間模型。
+  tags: ["2002", "2004", "2007", "2015", 妊娠檢查, 時間線]
+
+- id: F004
+  statement: 疾管署對2001至2007年外籍勞工健檢制度的回顧亦記載，2004年訂定、2007年修正相關健康檢查管理辦法，改革內容包含取消入國後妊娠檢查。
+  status: verified
+  observed_at: '2026-10-20T12:00:00+08:00'
+  source_ids: [S004]
+  evidence_summary: 第二個官方機關的歷史回顧獨立支持2017以前已進行妊娠檢查制度改革。
+  tags: ["2004", "2007", 疾管署, 制度沿革]
+
+- id: F005
+  statement: 勞動部指引把「2015年取消入國前妊娠檢查」列為這條妊娠檢查取消時間線的一個後期節點，而不是2017年才全面開始取消。
+  status: verified
+  observed_at: '2026-10-20T12:00:00+08:00'
+  source_ids: [S003, S005]
+  evidence_summary: 至少就官方制度沿革而言，2017說明頁之前已完成關鍵的入國前妊娠檢查取消。
+  tags: ["2015", 入國前, 妊娠檢查]
+
+- id: F006
+  statement: 「取消妊娠檢查」與「雇主不得因移工懷孕而解僱」不是同一個規範命題；勞動部指引將後者明確連結至性別平等工作法等工作權保障規範。
+  status: verified
+  observed_at: '2026-10-20T12:00:00+08:00'
+  source_ids: [S003]
+  evidence_summary: 討論「移工懷孕政策」時必須拆開健康檢查項目與就業歧視／解僱限制，不能把所有現行效果都歸於單一行政命令。
+  tags: [規範分層, 妊娠檢查, 解僱, 性別平等工作法]
+
+- id: F007
+  statement: 2026年10月的近期公共爭議中，已有就業服務產業團體公開批評2015年取消入國前妊娠檢查並要求恢復；勞動部同月也針對另一組移工懷孕社群說法發布澄清。
+  status: verified
+  observed_at: '2026-10-20T12:00:00+08:00'
+  source_ids: [S006, S007]
+  evidence_summary: 可確認議題在2026年10月重新成為公共爭議；但產業團體批評與政府澄清均不能自動證明某政黨正在把整套制度甩鍋給政敵。
+  tags: ["2026", 當代爭議, 仲介團體, 勞動部]
+
+claims:
+- id: C001
+  statement: 連結的2017年勞動力發展署頁面足以證明「民進黨政府在2017年以行政命令新創設或開始執行全面取消移工妊娠檢查的政策」。
+  status: contradicted
+  supports: []
+  contradicts: [F002, F003, F004, F005]
+  related_facts: [F001]
+  reasoning_notes: 2017頁面只直接證明該說明頁於2017發布，且文字本身採「已全面取消」表述；官方沿革把關鍵變更放在2002、2004、2007、2015。若要主張另有2017行政命令，仍須提出該命令的名稱、文號、發布與生效日期。
+
+- id: C002
+  statement: 移工妊娠檢查全面取消制度可以完整歸因於單一政府在單一年份的一次政策決定。
+  status: contradicted
+  supports: []
+  contradicts: [F003, F004, F005]
+  related_facts: [F006]
+  reasoning_notes: 官方時間線顯示至少跨2002至2015多次規範調整；此外，妊娠檢查與不得因懷孕解僱還有不同規範來源。單一政府／單一年份的整包歸責會壓平制度形成過程。
+
+- id: C003
+  statement: 2015年取消了移工入國前的妊娠檢查。
+  status: supported
+  supports: [F003, F005]
+  contradicts: []
+  related_facts: []
+  reasoning_notes: 這個窄命題有官方沿革支持；但它不等於「整套移工懷孕制度都是2015年創設」。
+
+- id: C004
+  statement: 目前可確認民進黨中央、民進黨公職或政府機關正在把整套移工妊娠檢查取消制度歸責給馬英九政府／國民黨並藉此攻擊政治對手。
+  status: unsupported
+  supports: []
+  contradicts: []
+  related_facts: [F007]
+  reasoning_notes: 本次針對民進黨官網、立法院公開索引、近期新聞與可索引社群內容的搜尋，未找到足以支持此歸責鏈的原始黨官方／公職發言。unsupported不等於證明此類發言從未存在；若未來取得具名原始發言，應重新評估。
+
+- id: C005
+  statement: 因為目前社群上有一般評論者或支持者做政治歸責，就可以把那些言論直接歸責為其所支持政黨的官方立場。
+  status: unsupported
+  supports: []
+  contradicts: []
+  related_facts: [F001, F007]
+  reasoning_notes: 個人社群言論只能直接證明該發布者說過什麼；除非另有黨職身分、授權、正式轉發或其他組織連結證據，不能自動升格成政黨主張。
+
+searches:
+- id: Q001
+  observed_at: '2026-10-20T12:00:00+08:00'
+  platform: GitHub politics-db code search
+  query: 移工 懷孕 妊娠 2015 2017
+  scope: lichih/politics-db main
+  result: not_found
+  notes: 開案前未找到既有專項evidence；not_found不表示repo歷來從未有任何相近資料。
+
+- id: Q002
+  observed_at: '2026-10-20T12:00:00+08:00'
+  platform: web
+  query: site:wda.gov.tw / site:fw.wda.gov.tw / site:cdc.gov.tw + 移工 妊娠檢查 2002 2004 2007 2015 2017
+  scope: 勞動部勞動力發展署、衛福部疾管署官方公開資料
+  result: found
+  notes: 找到2017勞發署說明頁、2025《移工婦幼權益保障指引》及疾管署制度沿革資料；官方時間線明確早於2017。
+
+- id: Q003
+  observed_at: '2026-10-20T12:00:00+08:00'
+  platform: web
+  query: 馬英九 / 國民黨 + 移工 懷孕 妊娠檢查 2015 + 民進黨；並限定dpp.org.tw、ly.gov.tw及近期公開索引
+  scope: 民進黨官網、立法院公開資料、近期新聞與可索引社群結果
+  result: not_found
+  notes: 此次查詢未找到足以證明民進黨中央、黨公職或政府機關在目前爭議中把「整套制度」歸責給馬政府／國民黨的原始發言。搜尋得到的民進黨官方相關頁面主要是移工福利謠言澄清，不能拿來證明政黨歸責不存在。
+
+- id: Q004
+  observed_at: '2026-10-20T12:00:00+08:00'
+  platform: web
+  query: 2026 10月 移工懷孕 妊娠檢查 2015 恢復
+  scope: 近期官方與新聞資料
+  result: found
+  notes: 找到2026-10-08仲介團體要求恢復源頭妊娠檢查的公開爭議，以及2026-10-13勞動部對另一組移工懷孕錯誤資訊的澄清；兩者均不足以支持政黨甩鍋命題。
+
+- id: Q005
+  observed_at: '2026-10-20T12:00:00+08:00'
+  platform: connected browser / Threads
+  query: https://www.threads.com/@evanblue0927/post/DesgrhVkvYb
+  scope: 原始貼文正文與其連結
+  result: found
+  notes: 確認原文把2017勞發署說明頁描述為「民進黨在2017年用行政命令執行此政策」；此為待查核主張，不因貼文引用官方連結而自動成立。
+
+promotion:
+  cases: []
+  comparators: []
+  research:
+  - proposed: policy-attribution-timeline-errors
+    rationale: 本案可作「把說明頁發布時間誤當政策創設時間」及「用單一真實節點整包歸責跨政府制度」的比較案例。
+
+notes:
+- 本案的核心不是判斷取消妊娠檢查本身是否為好政策，而是先建立正確制度時間線與歸責邊界。
+- 2015取消入國前妊娠檢查是真實前提，但不能單獨推出整套移工懷孕制度皆由2015政府創設；同理，2017勞發署說明頁存在也不能推出2017才以行政命令創設制度。
+- 對「某政黨把自己的政策安在政敵身上」之類重大政治歸責，應要求可歸責於政黨／政府的原始發言；一般支持者或非黨公職評論者不足以自動建立組織歸責。
+- 若未來找到具名黨公職或官方原始貼文把整套制度歸給政治對手，應新增source並更新C004；目前保持unsupported。
