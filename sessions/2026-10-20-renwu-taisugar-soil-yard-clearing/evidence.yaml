@@ -3,7 +3,7 @@ session:
   project: Politics
   title: 高雄仁武台糖土地砍樹整地與土資場申請責任鏈
   started_at: '2026-10-20T11:34:54+08:00'
-  updated_at: '2026-10-20T11:34:54+08:00'
+  updated_at: '2026-10-20T11:49:45+08:00'
   status: active
 topics:
 - 高雄
@@ -72,11 +72,11 @@ sources:
   source_type: primary
   publisher: 台灣糖業股份有限公司
   title: 台糖公司高雄區處農業用地租賃契約書（範本）
-  url: https://www.taisugar.com.tw/upload/UserFiles/Property/41483/638820637641143216.pdf
+  url: https://www.taisugar.com.tw/upload/UserFiles/Property/42980/639083216762919155.pdf
   observed_at: '2026-10-20T11:34:54+08:00'
   retrieval_status: reachable
   notes:
-  - 現行公開範本第10條將未經台糖書面同意變更土地地形、地貌或挖取土石列為得終止契約之違約情事。
+  - 公開範本文本列示最近修訂至2025-10-22；第10條將未經台糖書面同意變更土地地形、地貌或挖取土石列為得終止契約之違約情事。
   - 第11條規定如正常使用非整地不可，須經台糖書面同意後始得整地；填土亦須事先取得書面同意。
   - 第2條用途限制明列不得供堆置收納營建剩餘土石方、水庫河川淤泥資源再生利用處理設施、採取土石或其他非農業使用。
   - 此為公開範本，不等同本案實際租約，不能單憑範本判定本案違約。
@@ -114,6 +114,28 @@ sources:
   notes:
   - 貼文主張事件是私人整理承租土地，批評把砍樹歸責為「民進黨砍樹」。
   - 此來源只保存原始爭議主張，不用來證明事件事實。
+- id: S010
+  source_type: primary
+  publisher: 高雄市議會議事資訊整合查詢系統
+  title: 115-10-06 第4屆第8次定期會 吳利成市政總質詢影音
+  url: https://ivod.kcc.gov.tw/watch/25/202610KCC0408R1151006110940VIDEOmp4
+  published_at: '2026-10-06'
+  observed_at: '2026-10-20T11:49:45+08:00'
+  retrieval_status: reachable
+  notes:
+  - 官方IVOD確認吳利成於2026-10-06進行該次市政總質詢，與議會文字摘要可相互校驗。
+  - 本次公開索引未提供完整逐字稿，因此不以影音來源自行補造官員原句。
+- id: S011
+  source_type: secondary
+  publisher: 中國時報／Yahoo新聞轉載
+  title: 仁武驚見大片砍樹欲設土資場！居民怒吼 陳其邁回應了
+  url: https://tw.news.yahoo.com/%E4%BB%81%E6%AD%A6%E9%A9%9A%E8%A6%8B%E5%A4%A7%E7%89%87%E7%A0%8D%E6%A8%B9%E6%AC%B2%E8%A8%AD%E5%9C%9F%E8%B3%87%E5%A0%B4-%E5%B1%85%E6%B0%91%E6%80%92%E5%90%BC-%E9%99%B3%E5%85%B6%E9%82%81%E5%9B%9E%E6%87%89%E4%BA%86-041055543.html
+  published_at: '2026-10-06'
+  observed_at: '2026-10-20T11:49:45+08:00'
+  retrieval_status: reachable
+  notes:
+  - 報導將爭議範圍具體描述為仁新段83等多筆地號。
+  - 此精確地號目前仍屬secondary account；高雄市議會官方摘要只寫「仁新段多處地號」，故不得把83等地號升格為已由primary source確認。
 facts:
 - id: F001
   statement: 2026年10月6日高雄市議會官方總質詢摘要記載，仁武區文武路、新莊路周遭仁新段多處地號遭大面積砍樹、整地；陳其邁答詢稱該處為台糖土地，業者承租整地後向工務局申請設置土資場。
@@ -173,6 +195,15 @@ facts:
   source_ids: [S008]
   evidence_summary: 20年期滿本身不是自動清除許可；但本案是否屬該平地造林計畫及適用哪一類仍未確認。
   tags: [平地造林, 20年期滿, 台糖, 分流輔導]
+- id: F008
+  statement: 目前公開可查的高雄市議會primary source只確認爭議地點為仁武區文武路、新莊路周遭「仁新段多處地號」；「仁新段83等多筆地號」的精確描述目前來自媒體報導，尚未由本次取得的primary source獨立確認。
+  status: verified
+  observed_at: '2026-10-20T11:49:45+08:00'
+  source_ids: [S001, S011]
+  evidence_summary: 重查後將地號精度分層，避免把secondary detail回填成官方已確認事實。
+  verification_notes:
+  - S007只能證明仁新段83地號內歷史上曾有台糖農地標租標的，不能用來反向證明該地即為2026爭議基地。
+  tags: [地號, source-proximity, evidence-audit]
 claims:
 - id: C001
   statement: 本案大面積砍樹、整地的直接行為主體是私人承租業者，而非高雄市政府直接施工。
@@ -259,6 +290,13 @@ searches:
   scope: 台糖官方網站公開索引
   result: not_found
   notes: 此次查詢未找到台糖針對2026仁新段83等地號砍樹整地與土資場申請的個案正式說明。
+- id: Q005
+  observed_at: '2026-10-20T11:49:45+08:00'
+  platform: web
+  query: 第一案 evidence audit：高雄市議會IVOD／仁新段83／台糖高雄區處農業用地租賃契約最新版／土資場自治條例
+  scope: 高雄市議會、高雄市政府法規、台糖官方網站與公開新聞索引
+  result: partial
+  notes: 重查確認核心責任鏈未被推翻；補到官方IVOD與2025-10-22修訂版台糖農地租約範本。仍未找到本案實際租約、台糖個案書面同意、土資場案卷或由primary source確認的完整地號清單。
 promotion:
   cases: []
   comparators: []
@@ -267,3 +305,4 @@ notes:
 - 本案目前最關鍵可取得文件是：本案實際租約、台糖在砍樹／整地前後出具的書面同意、土資場申請案中的土地使用權同意書及收件／補件／初審狀態、涉案各地號的土地與造林法律身分。
 - 土地使用權同意書若存在，只能先證明台糖同意特定土地供申請用途使用；其內容、日期與範圍必須另行檢查，不能自動等同台糖事前同意砍樹。
 - 「直接施工者是私人」與「政府／台糖是否有行政、契約或治理責任」必須分層。
+- 2026-10-20二次audit後，核心事實維持，但將「仁新段83等地號」明確降回secondary detail；農地租約範本只作制度baseline，不推定本案契約類型。
