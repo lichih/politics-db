@@ -1,0 +1,216 @@
+session:
+  id: 2026-10-20-obligation-without-failure-state
+  project: Politics
+  title: "沒有 failure state 的公共義務：FMS交期、不副署與台糖追償的制度比較"
+  started_at: "2026-10-20T12:08:00+08:00"
+  updated_at: "2026-10-20T12:08:00+08:00"
+  status: active
+
+topics:
+- 制度設計
+- obligation
+- failure-state
+- timeout
+- enforcement-trigger
+- actor-side-cost
+- FMS
+- 不副署
+- 台糖
+- 吳乃仁
+
+sources:
+- id: S001
+  source_type: primary
+  publisher: "Defense Security Cooperation Agency"
+  title: "Figure C5.F9. Letter of Offer and Acceptance Standard Terms and Conditions"
+  url: "https://samm.dsca.mil/figure/figure-c5f9"
+  observed_at: "2026-10-20T12:08:00+08:00"
+  retrieval_status: reachable
+  notes:
+  - "FMS LOA標準條款第1.4節採best efforts提供項目與availability。"
+- id: S002
+  source_type: primary
+  publisher: "Defense Security Cooperation Agency"
+  title: "Figure C5.F10. Letter of Offer and Acceptance Information"
+  url: "https://samm.dsca.mil/figure/figure-c5f10"
+  observed_at: "2026-10-20T12:08:00+08:00"
+  retrieval_status: reachable
+  notes:
+  - "MOS是estimated time-period；可用Amendment或Modification更新delivery expectations。"
+- id: S003
+  source_type: primary
+  publisher: "Defense Security Cooperation Agency"
+  title: "Chapter 6 - Foreign Military Sales Case Implementation and Execution"
+  url: "https://samm.dsca.mil/chapter/chapter-6"
+  observed_at: "2026-10-20T12:08:00+08:00"
+  retrieval_status: reachable
+  notes:
+  - "買方可以請求取消，但須負擔termination costs與估計行政成本。"
+- id: S004
+  source_type: primary
+  publisher: "全國法規資料庫"
+  title: "中華民國憲法"
+  url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001"
+  observed_at: "2026-10-20T12:08:00+08:00"
+  retrieval_status: reachable
+  notes:
+  - "第37條要求總統公布法律須經行政院長副署；第72條要求總統收到法律案後10日內公布，但可依覆議程序辦理。"
+  - "第37條本身未另列行政院長副署的獨立日數期限或逾期自動效果。"
+- id: S005
+  source_type: primary
+  publisher: "全國法規資料庫"
+  title: "中華民國憲法增修條文"
+  url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002"
+  observed_at: "2026-10-20T12:08:00+08:00"
+  retrieval_status: reachable
+  notes:
+  - "第3條規定行政院10日內可提覆議；立法院過半維持原案時行政院長『應即接受該決議』。"
+  - "不信任案為另一款政治責任機制，通過後行政院長辭職並可能伴隨立法院被解散。"
+- id: S006
+  source_type: primary
+  publisher: "台灣糖業股份有限公司"
+  title: "債務人承諾7/20前提協商，當庭合議先撤管收聲請"
+  url: "https://www.taisugar.com.tw/CSR/News_detail.aspx?n=11085&p=1&s=14978"
+  published_at: "2026-07-01"
+  observed_at: "2026-10-20T12:08:00+08:00"
+  retrieval_status: reachable
+  notes:
+  - "台糖確認6/22在尚未取得清償協議前撤回管收，理由是吳方承諾後續提出協商或清償計畫。"
+- id: S007
+  source_type: secondary
+  publisher: "中央社"
+  title: "台糖8月下旬協商吳乃仁案 若無合理還款方案再聲請管收"
+  url: "https://www.cna.com.tw/news/afe/202608100086.aspx"
+  published_at: "2026-08-10"
+  observed_at: "2026-10-20T12:08:00+08:00"
+  retrieval_status: reachable
+  notes:
+  - "台糖副總表示第一次協商方案未獲接受，若第二次仍無合理還款計畫會再次聲請管收。"
+- id: S008
+  source_type: secondary
+  publisher: "聯合報"
+  title: "吳乃仁欠債協商又破局 藍促管收"
+  url: "https://udn.com/news/story/6656/9784479"
+  published_at: "2026-09-30"
+  observed_at: "2026-10-20T12:08:00+08:00"
+  retrieval_status: reachable
+  notes:
+  - "報導稱第二次協商仍未達成協議，並引述消息人士稱8/20仍有財產調查與後續強制執行程序。"
+  - "目前仍缺primary source確認8/20細節及是否已再次聲請管收。"
+
+facts:
+- id: F001
+  statement: "FMS標準條款對交付採best efforts；LOA的MOS交期是estimated time-period，且可透過Amendment或Modification更新。"
+  status: verified
+  observed_at: "2026-10-20T12:08:00+08:00"
+  source_ids: [S001, S002]
+  evidence_summary: "FMS存在交期資訊，但其標準制度文字明確具有預估與可更新性。"
+  tags: [FMS, deadline, estimated, best-efforts]
+- id: F002
+  statement: "FMS買方可請求取消案件，但退出可能由買方承擔termination costs及行政成本。"
+  status: verified
+  observed_at: "2026-10-20T12:08:00+08:00"
+  source_ids: [S003]
+  evidence_summary: "FMS不是完全沒有退出機制，但退出本身不是零成本自動補救。"
+  tags: [FMS, exit-cost, cancellation]
+- id: F003
+  statement: "現行憲法對總統公布法律與行政院提出覆議均設10日規則，並要求覆議維持原案後行政院長『應即接受』；但第37條沒有另列副署日數期限，也沒有明文規定副署逾期即視為副署或法律自動生效。"
+  status: verified
+  observed_at: "2026-10-20T12:08:00+08:00"
+  source_ids: [S004, S005]
+  evidence_summary: "這是限定於相關現行憲法文字的absence finding，不等於認定無限期不副署合憲。"
+  verification_notes:
+  - "合憲性仍維持既有session的unresolved。"
+  tags: [不副署, timeout, automatic-effect]
+- id: F004
+  statement: "現行增修條文把不信任案設為獨立政治責任機制；通過後行政院長須辭職，並可呈請總統解散立法院，因此其政治成本與一般法律案覆議程序不同。"
+  status: verified
+  observed_at: "2026-10-20T12:08:00+08:00"
+  source_ids: [S005]
+  evidence_summary: "不信任案不是一個低成本的普通法律覆決按鈕，而是政府存續層級的政治機制。"
+  tags: [不信任案, 解散國會, actor-cost]
+- id: F005
+  statement: "台糖於2026-06-22在尚未取得清償協議時撤回吳乃仁管收聲請，依台糖官方說明，當時依據的是吳方將於之後提出協商或清償計畫的承諾。"
+  status: verified
+  observed_at: "2026-10-20T12:08:00+08:00"
+  source_ids: [S006]
+  evidence_summary: "撤回管收與取得可接受清償方案的時間順序可以由台糖自身說明確認。"
+  tags: [台糖, 撤回管收, 協商]
+- id: F006
+  statement: "台糖2026-08-10公開表示第一次協商方案未獲接受，且若第二次仍無合理還款計畫將再次聲請管收。"
+  status: verified
+  observed_at: "2026-10-20T12:08:00+08:00"
+  source_ids: [S007]
+  evidence_summary: "台糖曾自行設定『無合理方案→再聲請管收』的公開處理門檻。"
+  tags: [台糖, enforcement-trigger, 公開承諾]
+- id: F007
+  statement: "截至2026-09-30的公開報導仍指向第二次協商未達成協議；另有secondary source稱台糖仍進行財產調查等強制執行，但截至2026-10-20本研究未取得再次聲請管收的primary record。"
+  status: partial
+  observed_at: "2026-10-20T12:08:00+08:00"
+  source_ids: [S008]
+  evidence_summary: "可排除『撤回後完全沒有任何執行行動』的過度敘述，但不能證明已再次管收，也不能用not_found證明從未聲請。"
+  tags: [台糖, 管收, not-found, unresolved]
+
+claims:
+- id: C001
+  statement: "FMS交期、不副署與台糖追償在法律性質上是同一種義務，應直接套用同一法律結論。"
+  status: contradicted
+  contradicts: [F001, F003, F005]
+  reasoning_notes: "三案分屬國際軍售契約／行政程序、憲政權力分立與國營事業民事債權執行；本research只比較制度結構，不混同法律規範。"
+- id: C002
+  statement: "『obligation without failure state』可作為這三案的共同研究假說：形式上的義務或預期結果若缺少明確hard deadline、外部自動transition或由責任人承擔的直接逾期成本，制度可能長期停留在pending狀態。"
+  status: supported
+  supports: [F001, F002, F003, F004, F005, F006]
+  related_facts: [F007]
+  reasoning_notes: "支持的是比較框架與可觀察結構，不是宣稱三案都已證明存在違法或故意拖延。FMS有退出機制但有買方成本；不副署的合憲性未決；台糖是否已再次聲請管收仍unresolved。"
+- id: C003
+  statement: "三案都已證明責任人可以合法而且無限期地不履行，且永遠不會承擔任何成本。"
+  status: unsupported
+  supports: []
+  contradicts: [F002, F004]
+  related_facts: [F003, F007]
+  reasoning_notes: "這個強命題超出證據：FMS可以取消且存在成本；不信任案與其他監督工具仍存在；台糖也可能持續其他強制執行。真正可研究的是trigger與成本配置是否足以形成有效約束。"
+- id: C004
+  statement: "判斷一項公共義務是否具有實質約束力，不能只問『文字上有沒有義務』，還應分別檢查deadline、誰能觸發下一狀態、失敗的自動後果，以及主要成本落在責任人還是要求履行者。"
+  status: supported
+  supports: [F001, F002, F003, F004, F005, F006]
+  related_facts: [F007]
+  reasoning_notes: "這是由三案差異化比較得到的分析框架，可用來生成後續可反證問題；它本身不替個案預先下違法或失職結論。"
+
+searches:
+- id: Q001
+  observed_at: "2026-10-20T12:08:00+08:00"
+  platform: web
+  query: "DSCA current FMS LOA best efforts estimated delivery MOS cancellation termination costs"
+  scope: "DSCA Security Assistance Management Manual"
+  result: found
+  notes: "確認FMS標準交期結構、MOS可更新及買方取消成本。"
+- id: Q002
+  observed_at: "2026-10-20T12:08:00+08:00"
+  platform: web
+  query: "憲法第37條 第72條 增修條文第3條 副署期限 逾期 自動效果"
+  scope: "全國法規資料庫"
+  result: found
+  notes: "確認相關條文有總統公布及覆議期限，但沒有另列副署逾期自動transition規則；不副署合憲性不因此自動解決。"
+- id: Q003
+  observed_at: "2026-10-20T12:08:00+08:00"
+  platform: politics-db
+  query: "吳乃仁 台糖 管收；不副署；國防採購"
+  scope: "既有authoritative evidence sessions"
+  result: found
+  notes: "重用既有session，只補FMS與副署timeout兩個缺口，沒有重新建立台糖或不副署整條證據鏈。"
+
+promotion:
+  cases: []
+  comparators:
+  - "FMS：estimated delivery / best efforts / purchaser exit cost"
+  - "不副署：明文義務與覆議終點，但無副署逾期自動transition條款"
+  - "台糖追償：撤回管收後的協商、財產調查與再次管收trigger"
+  research:
+  - "obligation-without-failure-state：deadline / external trigger / failure consequence / actor-side cost 四欄比較"
+
+notes:
+- "本research是一個比較框架，不是三案違法性的共同結論。"
+- "建議後續新增案例時先填四欄：obligation或expected outcome、deadline/trigger、failure consequence、actor-side cost；缺資料者保持unresolved。"
+- "最重要的反證方向：找出實際可由外部低成本啟動、且一到期就強迫state transition的制度；若存在，就會削弱『無failure state』判斷。"
+- "相關既有sessions：sessions/2026-10-09-defense-procurement-governance、sessions/2026-10-13-executive-countersignature-nonexecution、sessions/2026-10-20-wu-nai-ren-taisugar-debt-enforcement。"

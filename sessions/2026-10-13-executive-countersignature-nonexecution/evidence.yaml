@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "2025–2026行政院不副署、不編列與立法院多數制衡"
   started_at: "2026-10-13"
-  updated_at: "2026-10-13"
+  updated_at: "2026-10-20T12:08:00+08:00"
   status: active
 
 topics:
@@ -232,6 +232,26 @@ sources:
       - "2026年5月立法院席次：國民黨及參與其黨團運作的無黨籍共54席、民進黨51席、民眾黨8席。"
       - "藍白及合作無黨籍在一般過半門檻上具有多數。"
 
+  - id: S019
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "中華民國憲法（第37條、第72條）"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001"
+    observed_at: "2026-10-20T12:08:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第37條規定總統公布法律須經行政院長副署；條文本身未另列行政院長完成副署的日數期限。"
+      - "第72條規定立法院法律案通過後移送總統及行政院，總統應於收到後10日內公布，但得依覆議程序辦理。"
+  - id: S020
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "中華民國憲法增修條文（第3條）"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002"
+    observed_at: "2026-10-20T12:08:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第3條第2項第2款明定行政院得於法律案送達10日內提覆議；立法院過半維持原案時，行政院長『應即接受該決議』。"
+      - "同條另設不信任案程序，但未規定覆議失敗後另有第二次一般立法覆決程序。"
 facts:
   - id: F001
     statement: "截至2026年8月底，卓榮泰內閣已對8項立法院三讀法案拒絕副署，行政院自己統計為209案中的8案（3.8%）。"
@@ -297,6 +317,16 @@ facts:
     evidence_summary: "2026-05總統彈劾案56票贊成、50票反對而未達三分之二。"
     tags: [在野過半, 席次, 彈劾]
 
+  - id: F009
+    statement: "現行憲法文字對法律公布有10日規定，對行政院提出覆議也有10日規定，但第37條本身沒有另列行政院長完成副署的獨立日數期限，也沒有寫明『逾期未副署即視為副署』或其他自動法律效果。"
+    status: verified
+    observed_at: "2026-10-20T12:08:00+08:00"
+    source_ids: [S019, S020]
+    evidence_summary: "這是對現行憲法與增修條文文字的限定性absence finding：相關條文明列總統公布與覆議期限，但未另列副署逾期的自動transition規則。"
+    verification_notes:
+      - "此fact不自行回答『不副署是否違憲』；它只描述條文明文的deadline與缺少的自動效果。"
+      - "不得把『條文未明載』偷換成『法律上必然允許無限期不副署』。"
+    tags: [副署, deadline, timeout, 自動法律效果, 憲法]
 claims:
   - id: C001
     statement: "「行政院把所有在野通過的法律都擋掉。」"
@@ -340,6 +370,13 @@ claims:
     contradicts: [F003]
     reasoning_notes: "2026年2月至8月仍有7項三讀法案遭不副署。"
 
+  - id: C008
+    statement: "『現行憲法已明文設計一個副署逾期後自動生效、視為副署或由其他機關代替完成的機制。』"
+    status: contradicted
+    supports: []
+    contradicts: [F009]
+    related_facts: [F002, F007]
+    reasoning_notes: "相關憲法文字有總統公布10日、行政院覆議10日及覆議後應即接受，但未見副署逾期的自動生效／代替副署條款。這不等於法院已確認行政院可無限期不副署。"
 searches:
   - id: Q001
     observed_at: "2026-10-13"
@@ -369,6 +406,13 @@ searches:
     result: found
     notes: "確認2025-12-19判決後，2026年間不副署仍持續發生。"
 
+  - id: Q005
+    observed_at: "2026-10-20T12:08:00+08:00"
+    platform: web
+    query: "憲法第37條 第72條 增修條文第3條 副署期限 逾期 自動效果"
+    scope: "全國法規資料庫現行憲法與增修條文"
+    result: found
+    notes: "確認相關條文有總統公布與覆議期限，但未另列行政院長副署的獨立日數期限或逾期自動法律效果；合憲性仍維持原session的unresolved。"
 promotion:
   cases: []
   comparators:

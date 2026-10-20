@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "國防採購治理：反無人機、軍火代理資格、履約能力與驗收失敗"
   started_at: "2026-10-09"
-  updated_at: "2026-10-09"
+  updated_at: "2026-10-20T12:08:00+08:00"
   status: active
 
 topics:
@@ -173,6 +173,33 @@ sources:
     notes:
       - "經濟部否認王美花私人推薦或循私介入，稱名單由跨部會遴選指導小組依程序提供國防部參考。"
 
+  - id: S015
+    source_type: primary
+    publisher: "Defense Security Cooperation Agency"
+    title: "Figure C5.F9. Letter of Offer and Acceptance Standard Terms and Conditions"
+    url: "https://samm.dsca.mil/figure/figure-c5f9"
+    observed_at: "2026-10-20T12:08:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "現行FMS LOA標準條款第1.4節規定，美國政府將以best efforts在所列金額與availability範圍內提供項目；文字不是無條件保證固定交期。"
+  - id: S016
+    source_type: primary
+    publisher: "Defense Security Cooperation Agency"
+    title: "Figure C5.F10. Letter of Offer and Acceptance Information"
+    url: "https://samm.dsca.mil/figure/figure-c5f10"
+    observed_at: "2026-10-20T12:08:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "MOS欄位定義為物資預計可供買方取得的estimated time-period；已實施案件的MOS可透過Amendment或Modification更新，以反映新的delivery expectations。"
+  - id: S017
+    source_type: primary
+    publisher: "Defense Security Cooperation Agency"
+    title: "Chapter 6 - Foreign Military Sales Case Implementation and Execution"
+    url: "https://samm.dsca.mil/chapter/chapter-6"
+    observed_at: "2026-10-20T12:08:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "C6.8.1允許買方請求取消FMS案件，但買方須負擔termination costs及估計行政成本。"
 facts:
   - id: F001
     statement: "『顧立雄沒當過兵』為錯誤說法；其退伍令顯示1980年入伍、1982年退伍，曾任陸軍少尉運輸排長。"
@@ -297,6 +324,22 @@ facts:
     verification_notes: []
     tags: [迫切需求, 戰力延宕, 政策一致性]
 
+  - id: F014
+    statement: "FMS的LOA標準條款對交付採best efforts結構；LOA的MOS交期欄位是預估可供取得期間，並可透過Amendment或Modification更新。"
+    status: verified
+    observed_at: "2026-10-20T12:08:00+08:00"
+    source_ids: [S015, S016]
+    evidence_summary: "現行DSCA標準條款與LOA資訊文件共同顯示，FMS交期具有預估與可更新性，而不是一般商業契約式固定到期即自動構成違約的文字結構。"
+    verification_notes:
+      - "這不等於美國可任意不履約，也不等於所有個別LOA完全沒有case-specific條款；本fact只描述DSCA標準條款與MOS制度。"
+    tags: [FMS, LOA, best-efforts, 交期, MOS]
+  - id: F015
+    statement: "FMS買方可請求取消已實施案件，但依DSCA現行規則，買方須負擔termination costs與估計行政成本。"
+    status: verified
+    observed_at: "2026-10-20T12:08:00+08:00"
+    source_ids: [S017]
+    evidence_summary: "取消不是不存在，而是買方退出本身可能帶有成本。"
+    tags: [FMS, 取消, termination-cost, exit-cost]
 claims:
   - id: C001
     statement: "外島無人機反制案不能只用『軍購本來就難、偶爾會出包』完整解釋。"
@@ -362,6 +405,13 @@ claims:
     related_facts: []
     reasoning_notes: "RDX與無人機案均顯示事後解約可以保護部分財務權益，但無法回復獲裝時程；國防部自身也因此提出強化前端市場與履約能力調查。"
 
+  - id: C009
+    statement: "『FMS軍售標示的預估交期，功能上等同一般商業契約中的硬性deadline；只要超過日期，美方即自動承擔固定遲延責任。』"
+    status: contradicted
+    supports: []
+    contradicts: [F014, F015]
+    related_facts: []
+    reasoning_notes: "DSCA標準條款採best efforts，MOS為estimated period且可更新；買方雖可取消，但退出可能負擔termination與行政成本。因此不能把FMS預估交期直接等同具有自動違約效果的硬期限。"
 searches:
   - id: Q001
     observed_at: "2026-10-09"
@@ -411,6 +461,13 @@ searches:
     result: found
     notes: "確認『沒當過兵』為錯誤資訊。"
 
+  - id: Q007
+    observed_at: "2026-10-20T12:08:00+08:00"
+    platform: web
+    query: "DSCA current FMS LOA best efforts estimated delivery MOS cancellation termination costs"
+    scope: "DSCA Security Assistance Management Manual"
+    result: found
+    notes: "補得現行LOA標準條款、MOS定義及買方取消成本規則，用於區分預估交期與具有自動違約後果的hard deadline。"
 promotion:
   cases:
     - "建議後續升格：外島無人機反制系統委託研究案／26套正式採購案"
