@@ -1,0 +1,540 @@
+session:
+  id: 2026-10-20-three-shift-nurse-patient-ratio
+  project: Politics
+  title: 三班護病比：政策沿革、2026入法責任、院級改善與代表性爭議
+  started_at: '2026-10-20T17:21:00+08:00'
+  updated_at: '2026-10-20T17:21:00+08:00'
+  status: active
+topics:
+- 三班護病比
+- 護理人力
+- 醫療法
+- 醫療機構設置標準
+- 賴清德
+- 衛生福利部
+- 立法院
+- 護理團體
+- 政策履約
+- 立法歸責
+- 醫院關床
+- 護病比獎勵
+- 諮詢委員會
+- 護理代表比例
+sources:
+- id: S001
+  source_type: primary
+  publisher: 民主進步黨
+  title: 賴清德召開第三場國政發表會 目標打造健康台灣 創造樂齡幸福社會
+  url: https://www.dpp.org.tw/content_print/media/10385
+  published_at: '2023-09-21'
+  observed_at: '2026-10-20T17:21:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 賴清德競選政見原始來源；明載「三班護病比入法，上任2年內完成入法，任內完成配套措施實施」。
+- id: S002
+  source_type: primary
+  publisher: 衛生福利部
+  title: 護病比已納入評鑑及健保給付連動 護理執業環境漸改善 人力已見回流
+  url: https://www.mohw.gov.tw/cp-2644-20596-1.html
+  observed_at: '2026-10-20T17:21:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 衛福部回顧102、103年三班護病比試評，以及104年正式納入評鑑時採全日平均護病比。
+- id: S003
+  source_type: primary
+  publisher: 衛生福利部
+  title: 醫院三班護病比標準公告 同步啟動40億投資三班輪值夜班護理人員直接獎勵
+  url: https://mohw.gov.tw/cp-2704-77368-1.html
+  published_at: '2024-01-26'
+  observed_at: '2026-10-20T17:21:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 公告醫學中心6/9/11、區域7/11/13、地區10/13/15之白班/小夜/大夜標準，並明示「獎勵先行、逐步推動、引領標竿」。
+- id: S004
+  source_type: primary
+  publisher: 衛生福利部
+  title: 護病比獎金專款專用 醫院務必要公開透明
+  url: https://www.mohw.gov.tw/cp-2704-83194-1.html
+  published_at: '2025-07-25'
+  observed_at: '2026-10-20T17:21:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 衛福部稱全面達標預估尚須增聘7,500人，因此與團體代表取得共識採獎勵先行，並稱朝法制化發展。
+- id: S005
+  source_type: primary
+  publisher: 衛生福利部
+  title: 三班護病比先達標先獎勵首次撥付
+  url: https://mohw.gov.tw/cp-16-82863-1.html
+  published_at: '2025-06-25'
+  observed_at: '2026-10-20T17:21:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 第一階段二班達標加成3%、三班達標加成7%；第二階段三班整體達標加成10%。
+- id: S006
+  source_type: primary
+  publisher: 立法院議事暨公報資訊網
+  title: 台灣民眾黨黨團「醫療法第十二條、第一百零二條及第一百零二條之一條文修正草案」
+  url: https://ppg.ly.gov.tw/ppg/bills/202110116630000/details
+  published_at: '2025-05-02'
+  observed_at: '2026-10-20T17:21:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 議案頁顯示114年5月2日排入院會並交付審查，114年12月12日逕付二讀交付協商。
+- id: S009
+  source_type: primary
+  publisher: 立法院
+  title: 115年5月6日黨團協商紀錄：醫療法三班護病比修法
+  url: https://ppg.ly.gov.tw/ppg/SittingAttachmentCapp/download/2026050414_1.pdf
+  published_at: '2026-05-06'
+  observed_at: '2026-10-20T17:21:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 石崇良主張把三班標準訂於醫療機構設置標準、母法不必另留文字，且認為過高罰責可能使醫院以關床因應。
+  - 邱慧洳說民眾黨版本不把九個數字硬寫進母法，而是要求衛福部放進設置標準，並稱在野修法是在幫賴總統實現政見。
+  - 蔡其昌表示三黨都支持三班護病比；差異之一是衛福部希望直接改設置標準、民眾黨希望母法加源頭。
+- id: S010
+  source_type: primary
+  publisher: 立法院議事暨公報資訊網
+  title: 第11屆第5會期第9次會議（115年5月8日院會）
+  url: https://ppg.ly.gov.tw/ppg/sittings/meetingLink?id=11-05-09%3B115%2F05%2F08%3B%E9%99%A2%E6%9C%83
+  published_at: '2026-05-08'
+  observed_at: '2026-10-20T17:21:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 第12條三個黨團再修正動議表決：民眾黨8:51未通過、民進黨51:60未通過、國民黨60:50通過；三讀後院內復議0:59:51未通過。
+- id: S011
+  source_type: primary
+  publisher: 立法院議事暨公報資訊網
+  title: 修正醫療法第十二條及第一百零二條之一條文，咨請公布
+  url: https://ppg.ly.gov.tw/ppg/bills/latest-pass-third-readings/1150701509/process
+  published_at: '2026-05-11'
+  observed_at: '2026-10-20T17:21:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 關聯議案僅列蘇清泉等28人、民眾黨黨團、羅廷瑋等17人三案。
+  - 附帶決議要求衛福部醫事司與照護司邀集學者專家及護理相關專業團體（包含工會）成立諮詢委員會。
+- id: S012
+  source_type: primary
+  publisher: 法務部全國法規資料庫
+  title: 增訂並修正醫療法條文
+  url: https://law.moj.gov.tw/News/NewsDetail.aspx?msgid=197965
+  published_at: '2026-05-15'
+  observed_at: '2026-10-20T17:21:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 公布修正第12條及增訂第102-1條；首次三班標準以2024-03-01標準為準，並設分層罰鍰與停業效果。
+- id: S013
+  source_type: primary
+  publisher: 中華民國總統府
+  title: 增訂並修正醫療法條文（總統府公報第7860號）
+  url: https://www.president.gov.tw/Page/294/50259
+  published_at: '2026-05-15'
+  observed_at: '2026-10-20T17:21:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 總統令列名總統賴清德、行政院院長卓榮泰，可直接確認本案有行政院長副署。
+- id: S014
+  source_type: primary
+  publisher: 中華民國總統府
+  title: 總統出席護師節慶祝大會 感謝護理人員辛勞 重申持續打造友善護理職場環境
+  url: https://www.president.gov.tw/NEWS/40047
+  published_at: '2026-05-12'
+  observed_at: '2026-10-20T17:21:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 賴清德宣布三班護病比自2027-05-20起分段實施，並要求醫療人力研究精進小組之護理代表比例不得低於三分之一。
+- id: S015
+  source_type: primary
+  publisher: 中華民國護理師護士公會全國聯合會
+  title: 護理全聯會推動三班護病比入法歷程
+  url: https://www.nurse.org.tw/filecenter/B/8DEBC915FEF84FA071/%E8%AD%B7%E7%90%86%E5%85%A8%E8%81%AF%E6%9C%83%E6%8E%A8%E5%8B%95%E4%B8%89%E7%8F%AD%E8%AD%B7%E7%97%85%E6%AF%94%E5%85%A5%E6%B3%95%E6%AD%B7%E7%A8%8B.1150525(FIN).pdf
+  published_at: '2026-05-28'
+  observed_at: '2026-10-20T17:21:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 屬利益關係人第一手倡議紀錄，不等同中立事實裁判；可證明護理全聯會自身訴求、歷程與版本評價。
+  - 記載護理界自2008年起倡議；2013/2014試評、2015全日平均評鑑、2019全日平均納入設置標準。
+  - 記載2026年護理界共同訴求「專業團體參與比例不得低於二分之一」，並反對蘇清泉版將護理代表降為1/3。
+- id: S016
+  source_type: primary
+  publisher: 衛生福利部中央健康保險署
+  title: 113年3月全民健康保險特約醫院於VPN登錄之各月份急性一般病床三班護病比
+  url: https://www.nhi.gov.tw/ch/dl-70093-f857425ee98f478eb7d6dc83b9a44a52-1.pdf
+  published_at: 2024-03
+  observed_at: '2026-10-20T17:21:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 院級/院區級月資料，包含病床數、占床率、三班平均護理人員數與三班護病比。
+- id: S017
+  source_type: primary
+  publisher: 衛生福利部中央健康保險署
+  title: 115年4月全民健康保險特約醫院於VPN登錄之各月份急性一般病床三班護病比
+  url: https://www.nhi.gov.tw/ch/dl-99513-c2ecfb35651f488d88a6365ebbdb4b51-1.pdf
+  published_at: 2026-04
+  observed_at: '2026-10-20T17:21:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 可與113年3月同表格欄位比較院級/院區級人力、占床率與三班護病比。
+- id: S018
+  source_type: primary
+  publisher: 法務部全國法規資料庫
+  title: 醫院設立或擴充許可辦法
+  url: https://law.moj.gov.tw/LawClass/LawAll.aspx?PCODE=L0020163
+  observed_at: '2026-10-20T17:21:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 第5條顯示擴充或減少一般病床由醫院提出計畫，醫療法人醫院並須附董事會或社員總會同意紀錄；計畫須含人力與財務規劃。
+- id: S019
+  source_type: secondary
+  publisher: Newtalk新聞
+  title: 三班護病比入法！綠委轟藍白「一個很壞、一個很笨」：護理師被賣還幫數鈔票
+  url: https://newtalk.tw/news/view/2026-05-08/1034054
+  published_at: '2026-05-08'
+  observed_at: '2026-10-20T17:21:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 二手報導吳思瑤、郭昱晴社群發言；用於證明報導所載政治框架存在，不單獨證明其對版本效果的評價為真。
+- id: S020
+  source_type: primary
+  publisher: 立法院公報
+  title: 立法院公報第115卷第35期院會紀錄（醫療法第12條各黨團再修正動議）
+  url: https://ppg.ly.gov.tw/ppg/PublicationOfficialGazettes/download/communique1/final/pdf/115/35/LCIDC01_1153501.pdf
+  published_at: 2026-05
+  observed_at: '2026-10-20T17:21:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 民眾黨版本：諮詢委員會9至11名，護理相關專業團體代表不得少於1/2。
+  - 民進黨版本：醫療及護理相關專業團體委員比例各占全體成員1/3。
+  - 國民黨最後通過版本未把法定諮詢委員會寫入第12條。
+- id: S021
+  source_type: commentary
+  publisher: Threads / @pangpangxiaolu
+  title: 「提醒一下：三班病護比入法至今沒有兌現」貼文
+  url: https://www.threads.com/@pangpangxiaolu/post/Desy8YioK3A
+  published_at: '2026-10-20'
+  observed_at: '2026-10-20T17:21:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 本次查核觸發點；此來源只證明該公共主張存在，不用來證明主張內容為真。
+- id: S022
+  source_type: primary
+  publisher: 衛生福利部
+  title: 護理人力政策整備中長程計畫
+  url: https://www.mohw.gov.tw/dl-91457-4e1b5d9a-8517-4855-b54e-d3c2ddcec54c.html
+  observed_at: '2026-10-20T17:21:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 官方計畫回顧108年2月1日公告增訂《醫療機構設置標準》第12條之1，全日平均護病比自108年5月1日施行。
+  - 亦回顧112年8月起啟動每月健保VPN三班護病比填報。
+facts:
+- id: F001
+  statement: 賴清德於2023年9月21日競選政見明確承諾「三班護病比入法，上任2年內完成入法，任內完成配套措施實施」。
+  status: verified
+  observed_at: '2026-10-20T17:21:00+08:00'
+  source_ids: [S001]
+  evidence_summary: 原始政見同時包含兩個不同期限：兩年內完成入法，以及任內完成配套措施實施。
+  tags: [政見, 時間線, 賴清德]
+- id: F002
+  statement: 衛福部在2013、2014年先進行三班護病比試評；2015年正式納入醫院評鑑時採用的是全日平均護病比（醫學中心1:9、區域1:12、地區1:15，醫學中心另有白班1:7）。
+  status: verified
+  observed_at: '2026-10-20T17:21:00+08:00'
+  source_ids: [S002, S015]
+  evidence_summary: 官方與護理全聯會歷程互相支持：三班概念早已被試行，但正式評鑑改採全日平均。
+  tags: ['2013', '2014', '2015', 全日平均, 歷史沿革]
+- id: F003
+  statement: 2019年全日平均護病比被納入《醫療機構設置標準》第12條之1；護理全聯會歷程記載不符且逾期未補正者依當時《醫療法》第102條處理。
+  status: verified
+  observed_at: '2026-10-20T17:21:00+08:00'
+  source_ids: [S015, S022]
+  evidence_summary: 衛福部中長程計畫與護理全聯會歷程一致：2019年納入設置標準的是全日平均護病比，不是2024公告的三班標準。
+  tags: ['2019', 醫療機構設置標準, 全日平均, 法制化]
+- id: F004
+  statement: 衛福部2024年公告三班護病比標準：醫學中心白班/小夜/大夜為6/9/11，區域醫院7/11/13，地區醫院10/13/15；當時明定推動原則為「獎勵先行、逐步推動、引領標竿」。
+  status: verified
+  observed_at: '2026-10-20T17:21:00+08:00'
+  source_ids: [S003]
+  evidence_summary: 2024制度的官方設計以獎勵與逐步推動為主，而非立即以新三班標準作為強制裁罰底線。
+  tags: ['2024', 三班護病比, 獎勵先行]
+- id: F005
+  statement: 衛福部2025年表示，預期全面達到三班護病比標準仍須增聘約7,500名護理人力，因此先以獎勵鼓勵醫院補人，並稱朝法制化方向發展。
+  status: verified
+  observed_at: '2026-10-20T17:21:00+08:00'
+  source_ids: [S004]
+  evidence_summary: 官方自己將人力缺口列為未立即全面強制的核心執行條件之一。
+  tags: [護理人力, '7500', 法制化, 政策理由]
+- id: F006
+  statement: 2025年三班護病比達標獎勵第一階段為二班達標加成3%、三班全達標加成7%；第二階段起三班全達標加成10%。
+  status: verified
+  observed_at: '2026-10-20T17:21:00+08:00'
+  source_ids: [S005]
+  evidence_summary: 入法前的三班制度明確以給付加成作為主要誘因之一。
+  tags: [獎勵, 健保給付, 政策誘因]
+- id: F007
+  statement: 2026年5月三讀案的立法院「關聯議案」僅列民眾黨黨團、蘇清泉等28人、羅廷瑋等17人的三個立法委員／黨團提案；民眾黨案於2025年5月2日排入院會交付審查。
+  status: verified
+  observed_at: '2026-10-20T17:21:00+08:00'
+  source_ids: [S006, S011]
+  evidence_summary: 官方議事資料可確認最終三讀鏈上的三個關聯議案來源，未列行政院提案；民眾黨案在賴清德兩年期限前一年已進入立法程序。
+  tags: [提案來源, 立法歸責, 民眾黨, 國民黨]
+- id: F008
+  statement: 2026年5月6日黨團協商時，衛福部長石崇良主張把三班護病比標準直接訂入《醫療機構設置標準》，認為不必在《醫療法》另留要求文字；他亦主張不宜加重罰責，理由之一是過高罰責可能讓醫院直接以關床因應。
+  status: verified
+  observed_at: '2026-10-20T17:21:00+08:00'
+  source_ids: [S009]
+  evidence_summary: 此為行政主管機關在三讀前兩天的正式協商立場，可用來區分「支持三班護病比」與「支持母法修法及加重罰則」。
+  tags: [衛福部, '2026-05-06', 母法, 關床, 罰則]
+- id: F010
+  statement: 同場協商中，民進黨團總召蔡其昌表示三黨都支持由全日護病比改成三班護病比；衛福部希望直接在《醫療機構設置標準》處理，民眾黨則希望《醫療法》第12條增加源頭；他並表示民進黨不是一定反對入母法，但質疑是否有此必要。
+  status: verified
+  observed_at: '2026-10-20T17:21:00+08:00'
+  source_ids: [S009]
+  evidence_summary: 可證明三班護病比政策方向與母法必要性在當時是不同層次的爭點。
+  tags: [民進黨, 蔡其昌, 母法, 政策分層]
+- id: F011
+  statement: 2026年5月8日《醫療法》第12條院會表決：民眾黨黨團再修正動議8票贊成、51票反對；民進黨黨團版51票贊成、60票反對；國民黨黨團版60票贊成、50票反對而通過。三讀後院內復議案為0票贊成、59票反對、51票棄權。
+  status: verified
+  observed_at: '2026-10-20T17:21:00+08:00'
+  source_ids: [S010]
+  evidence_summary: 官方記名表決資料清楚區分各黨版本與最終通過版本；院內「復議」不等於行政院依憲政程序提出覆議。
+  tags: [表決, 三讀, 復議, '2026-05-08']
+- id: F012
+  statement: 2026年5月15日公布的《醫療法》第12條要求中央主管機關就醫院急性一般病床訂定三班護病比並每三年檢討，首次標準以2024年3月1日施行標準為準；第102-1條另設地區醫院5萬至25萬、區域醫院20萬至100萬、醫學中心100萬至200萬元罰鍰，並有按次處罰與最終停業機制。
+  status: verified
+  observed_at: '2026-10-20T17:21:00+08:00'
+  source_ids: [S012]
+  evidence_summary: 母法修正不只是宣示三班標準，也新設了專屬且分層的強制法律效果。
+  tags: [醫療法, 罰則, 停業, '2026']
+- id: F013
+  statement: 2026年5月15日公布醫療法修正的總統令列名「總統 賴清德」與「行政院院長 卓榮泰」。
+  status: verified
+  observed_at: '2026-10-20T17:21:00+08:00'
+  source_ids: [S013]
+  evidence_summary: 本案有行政院院長副署，因此不能描述成行政院以不副署阻止該法公布。
+  tags: [副署, 卓榮泰, 總統令]
+- id: F014
+  statement: 最終三讀的《醫療法》第12條沒有把法定諮詢委員會寫入條文；立法院另以附帶決議要求衛福部醫事司、照護司邀集學者專家與護理相關專業團體（包含工會）成立諮詢委員會討論最低人數比例。
+  status: verified
+  observed_at: '2026-10-20T17:21:00+08:00'
+  source_ids: [S011, S012, S020]
+  evidence_summary: 諮詢機制存在於附帶決議／後續行政安排，而非最終第12條法定席次設計。
+  tags: [諮詢委員會, 附帶決議, 法條]
+- id: F015
+  statement: 2026年5月8日院會各黨第12條版本中，民眾黨版規定護理相關專業團體代表不得少於委員1/2；民進黨版規定醫療及護理相關專業團體委員各占全體1/3；最後通過的國民黨版未在第12條設法定委員會席次。
+  status: verified
+  observed_at: '2026-10-20T17:21:00+08:00'
+  source_ids: [S020]
+  evidence_summary: 官方公報可直接比較三個院會版本的治理設計。
+  tags: [一半, 三分之一, 代表性, 版本比較]
+- id: F016
+  statement: 護理全聯會在2026年1月反對蘇清泉版把護理專業團體代表由民眾黨原規劃1/2降為1/3；其跨團體共同訴求之一是「專業團體參與比例不得低於二分之一」。
+  status: verified
+  observed_at: '2026-10-20T17:21:00+08:00'
+  source_ids: [S015]
+  evidence_summary: 這是護理專業團體自身的明確政策立場；可證明其訴求存在，但不自動證明該比例在規範上必然最佳。
+  tags: [護理全聯會, 1/2, 1/3, 利益關係人]
+- id: F017
+  statement: 賴清德於2026年5月12日宣布三班護病比自2027年5月20日起分段實施，並要求衛福部成立「醫療人力研究精進小組」，護理人員在相關諮詢機制中的代表比例不得低於1/3。
+  status: verified
+  observed_at: '2026-10-20T17:21:00+08:00'
+  source_ids: [S014]
+  evidence_summary: 總統在母法三讀後提出的是行政層級後續諮詢安排，代表比例下限為1/3，不是護理團體要求的至少1/2。
+  tags: [賴清德, 1/3, '2027-05-20', 實施]
+- id: F018
+  statement: 健保署院級資料顯示，高雄榮總由2024年3月占床率80.8%、白/小夜/大夜護病比5.1/10.0/13.5，改善到2026年4月占床率84.8%、護病比5.1/8.7/10.8；同期小夜與大夜平均護理人員數由78.8/58.0增至95.0/76.5。
+  status: verified
+  observed_at: '2026-10-20T17:21:00+08:00'
+  source_ids: [S016, S017]
+  evidence_summary: 占床率未下降反而上升，而夜班人力增加且護病比改善，支持這家醫院存在實質夜班人力改善，而非只靠降占床率。
+  tags: [高雄榮總, 院級資料, 實質改善]
+- id: F019
+  statement: 健保署院級資料顯示，奇美醫院2024年3月占床率86.1%、白/小夜/大夜護病比5.3/8.3/11.6；2026年4月占床率85.3%、護病比4.9/7.7/9.7，大夜平均護理人員數由64.3增至75.9。
+  status: verified
+  observed_at: '2026-10-20T17:21:00+08:00'
+  source_ids: [S016, S017]
+  evidence_summary: 占床率近似而夜班人力增加，支持奇美的改善不能簡單歸因為關床或病人驟減。
+  tags: [奇美醫院, 院級資料, 實質改善]
+- id: F020
+  statement: 林口長庚2024年3月至2026年4月占床率由83.3%降至80.8%，但白/小夜/大夜平均護理人員數均增加（373.4/255.0/188.7至393.8/265.5/195.9），護病比由5.6/8.3/11.2改善至5.2/7.7/10.5。
+  status: verified
+  observed_at: '2026-10-20T17:21:00+08:00'
+  source_ids: [S016, S017]
+  evidence_summary: 其改善同時包含占床率下降與護理人力增加，不能把全部改善歸因於任一單一因素。
+  tags: [林口長庚, 院級資料, 混合因素]
+- id: F021
+  statement: 健保署公開表格是以醫院／院區為列的月度急性一般病床資料，列出病床數、占床率、各班平均護理人員數與各班護病比；它不是逐病房、逐日、逐班的原始排班清單。
+  status: verified
+  observed_at: '2026-10-20T17:21:00+08:00'
+  source_ids: [S016, S017]
+  evidence_summary: 院級平均達標只能直接證明公開院級指標達標，不能單獨證明每一病房每一班均符合相同比例。
+  tags: [資料粒度, 院級平均, 限制]
+- id: F022
+  statement: 《醫院設立或擴充許可辦法》第5條規定，醫院申請擴充或減少一般病床須提出計畫；醫療法人醫院另須提出董事會或社員總會同意紀錄，計畫內容並包含人力資源與財務規劃。
+  status: verified
+  observed_at: '2026-10-20T17:21:00+08:00'
+  source_ids: [S018]
+  evidence_summary: 病床增減與人力財務規劃屬醫院經營治理程序，而非由第一線護理人員個人決定。
+  tags: [醫院治理, 病床, 董事會, 決策權]
+- id: F023
+  statement: 三讀後，Newtalk報導民進黨政策會執行長、立委吳思瑤公開稱「國民黨出賣護理師！民眾黨背叛護理師！民進黨守護護理師！」，並稱民眾黨版本「最不可行」、可能造成關床；報導亦載她以「被賣了，還替人數鈔票？」批評民眾黨支持最後版本。
+  status: verified
+  observed_at: '2026-10-20T17:21:00+08:00'
+  source_ids: [S019]
+  evidence_summary: 可確認至少有具名執政黨政治人物以「被騙／被賣」框架描述民眾黨及其護理背景立委的選擇；這不能自動推廣成整個政黨或所有支持者的統一立場。
+  tags: [民進黨, 吳思瑤, 政治攻防, 護理]
+- id: F024
+  statement: 2026年10月20日Threads貼文主張「提醒一下：三班病護比入法至今沒有兌現」。
+  status: verified
+  observed_at: '2026-10-20T17:21:00+08:00'
+  source_ids: [S021]
+  evidence_summary: 只確認原始公共主張存在；「沒有兌現」必須拆成正式入法、施行、實際達標與政治歸責等不同命題查核。
+  tags: [Threads, 原始主張, 語義分層]
+claims:
+- id: C001
+  statement: 若只把賴清德2023政見中的「上任2年內完成入法」理解為在兩週年前完成母法公布，該窄命題在形式上已完成。
+  status: supported
+  supports: [F001, F012, F013]
+  contradicts: []
+  related_facts: [F017]
+  reasoning_notes: 賴清德2024-05-20就任；醫療法修正於2026-05-15公布，早於2026-05-20。此判斷只處理形式上的「完成入法」，不等於配套已實施、醫院已全面達標，也不回答立法主導歸責。
+- id: C002
+  statement: 因為醫療法在兩年期限前公布，就可以直接推出「行政院主動提出並主導完成賴清德的三班護病比立法承諾」。
+  status: contradicted
+  supports: []
+  contradicts: [F007, F008, F010, F011]
+  related_facts: [F012, F013]
+  reasoning_notes: 最終三讀關聯議案均為立委／黨團提案；三讀前兩天衛福部正式立場仍是可直接修設置標準、母法不必另留文字。民進黨院會最後亦提出自己的再修正版本，因此不能反向簡化成「執政黨完全反對」，但更不能只憑公布結果把立法主導歸給行政院。
+- id: C003
+  statement: 本案是行政院拒絕副署或以不副署阻止立法院通過法律的案例。
+  status: contradicted
+  supports: []
+  contradicts: [F013]
+  related_facts: [F011]
+  reasoning_notes: 總統府公報明列行政院院長卓榮泰；三讀後出現的是立法院內部復議動議，不是行政院拒絕副署。
+- id: C004
+  statement: 2024年公告的三班護病比在2026母法修正前已是同等強度的強制設置標準，醫院三班不達標本身就會依該標準受罰。
+  status: contradicted
+  supports: []
+  contradicts: [F004, F005, F006, F012]
+  related_facts: [F003]
+  reasoning_notes: 2019已有具強制效果的是全日平均護病比；2024三班制度官方明確採「獎勵先行」並稱朝法制化發展。2026母法另增專屬分級罰則，法律效果不可混同。
+- id: C005
+  statement: 入法前的獎勵政策沒有造成任何醫院的實際護理人力改善。
+  status: contradicted
+  supports: []
+  contradicts: [F018, F019, F020]
+  related_facts: []
+  reasoning_notes: 院級公開資料至少可找到高雄榮總、奇美與林口長庚等反例。這不等於獎勵政策足以讓所有醫院達標，也不證明所有改善都由政策單一造成。
+- id: C006
+  statement: 某醫院公開院級三班護病比達標，就足以證明該院每個病房、每天每一班都達標。
+  status: unsupported
+  supports: []
+  contradicts: []
+  related_facts: [F021]
+  reasoning_notes: 公開表格的資料粒度是醫院／院區月度平均；要證明每病房逐班均達標，需要更細緻排班與病房層級資料。
+- id: C007
+  statement: 政府若不修《醫療法》母法，就完全沒有法律工具可以把三班護病比訂成強制設置標準。
+  status: contradicted
+  supports: []
+  contradicts: [F003, F008]
+  related_facts: []
+  reasoning_notes: 衛福部過去已依《醫療法》第12條授權把全日平均護病比放進《醫療機構設置標準》；2026-05-06石崇良亦明確主張三班標準可直接改設置標準。母法修法的額外效果在於明確法定要求、首次標準、檢討義務與新增專屬罰則等。
+- id: C008
+  statement: 過去多年三班護病比沒有成為強制底線，主要只是因政府不知道或尚未研究三班護病比。
+  status: contradicted
+  supports: []
+  contradicts: [F002, F003, F004, F005, F008]
+  related_facts: []
+  reasoning_notes: 至少自2013年已試評三班；後續正式制度選擇全日平均。官方近年反覆提出人力缺口、緩衝期與關床衝擊等理由，因此「不知道三班」不是充分解釋。
+- id: C009
+  statement: 三班護病比的長期法制化阻力之一，是醫院人力不足與強制後可能關床、影響醫療量能的政策顧慮。
+  status: supported
+  supports: [F005, F008]
+  contradicts: []
+  related_facts: [F002, F003]
+  reasoning_notes: 這是主管機關自己明示的政策理由之一；它不代表此理由必然正當或足以否決強制標準。
+- id: C010
+  statement: 護理代表1/3與至少1/2只是象徵差異，對護理團體在標準制定中的制度影響力沒有實質差別。
+  status: contradicted
+  supports: []
+  contradicts: [F015, F016]
+  related_facts: [F017, F022]
+  reasoning_notes: 至少在席次結構上，1/3與≥1/2明顯改變護理方的相對權重；但是否形成法律上的「否決權」仍取決於委員會實際議事與表決規則，不能只靠席次比例講滿。
+- id: C011
+  statement: 護理團體要求代表比例至少1/2，是修法後才由在野黨臨時發明的政治說法。
+  status: contradicted
+  supports: []
+  contradicts: [F016]
+  related_facts: [F015]
+  reasoning_notes: 護理全聯會自身大事紀記載2026年1月已反對1/3，2月跨黨派拜會時共同訴求之一就是專業團體參與不得低於1/2。
+- id: C012
+  statement: 可以把三讀後所有對護理團體或護理背景政治人物的網路攻擊、抹紅或威脅直接歸責為民進黨組織所指揮。
+  status: unsupported
+  supports: []
+  contradicts: []
+  related_facts: [F023]
+  reasoning_notes: 目前這組 evidence 只足以證明具名民進黨政治人物曾使用「被賣／被騙」等政治攻防框架；若要上升到政黨組織指揮匿名攻擊或威脅，需要另外的組織連結證據。
+- id: C013
+  statement: 2026年10月Threads主張「三班病護比入法至今沒有兌現」可以不拆語義直接判定真或假。
+  status: unsupported
+  supports: []
+  contradicts: []
+  related_facts: [F001, F012, F017, F024]
+  reasoning_notes: 若「入法」指母法形式，2026-05-15已公布；若主張的是配套全面施行或院院實際達標，時間與事實基準不同。查核時必須先指定是 formal enactment、implementation、compliance 還是 political attribution。
+searches:
+- id: Q001
+  observed_at: '2026-10-20T17:21:00+08:00'
+  platform: GitHub politics-db code search
+  query: 護病比 / 三班護病比 / 醫療法 護病比
+  scope: lichih/politics-db main
+  result: not_found
+  notes: 開案前未找到既有三班護病比專項 evidence；not_found 不代表歷來絕無相近內容。
+- id: Q002
+  observed_at: '2026-10-20T17:21:00+08:00'
+  platform: web
+  query: site:mohw.gov.tw 三班護病比 試評 全日平均 設置標準 獎勵先行 7500
+  scope: 衛生福利部歷年官方資料
+  result: found
+  notes: 找到2015回顧、2024公告、2025獎勵與人力缺口說明。
+- id: Q003
+  observed_at: '2026-10-20T17:21:00+08:00'
+  platform: web
+  query: site:ppg.ly.gov.tw 醫療法 第十二條 三班護病比 2025 2026
+  scope: 立法院議案、協商、公報、表決
+  result: found
+  notes: 確認三個關聯議案、2026-05-06協商立場、2026-05-08三版本表決與附帶決議。
+- id: Q004
+  observed_at: '2026-10-20T17:21:00+08:00'
+  platform: web
+  query: site:nurse.org.tw 三班護病比 1/2 1/3 歷程
+  scope: 護理全聯會第一手倡議紀錄
+  result: found
+  notes: 確認護理團體長期倡議、對蘇清泉版1/3的反對，以及至少1/2的共同訴求。
+- id: Q005
+  observed_at: '2026-10-20T17:21:00+08:00'
+  platform: web
+  query: site:nhi.gov.tw 113年3月 115年4月 三班護病比 VPN
+  scope: 健保署院級公開資料
+  result: found
+  notes: 比較2024-03與2026-04院級數據，找到可證明實質改善與混合因素的醫院案例。
+- id: Q006
+  observed_at: '2026-10-20T17:21:00+08:00'
+  platform: web
+  query: 吳思瑤 三班護病比 被賣 還替人數鈔票 2026-05-08
+  scope: 具名政治人物公開攻防
+  result: found
+  notes: 找到Newtalk對吳思瑤、郭昱晴公開發文的二手報導；僅用於證明具名框架，不外推匿名攻擊來源。
+promotion:
+  cases: []
+  comparators: []
+  research:
+  - proposed: nurse-patient-ratio-governance-and-enforcement
+    rationale: 可作為「獎勵型政策與強制最低標準的差異」「結果完成與政治歸責分離」「利益關係人代表比例與決策權」的長期比較案例。
+notes:
+- 最重要的防呆：『結果在期限內成法』不自動等於『承諾者／行政部門主動履約』。每次引用都必須分開檢查提案來源、政府當時立場、最後通過版本、公布／副署與實施狀態。
+- 『入法』在本議題曾被用於不同層級：2019年全日平均護病比納入《醫療機構設置標準》、2026年三班護病比明文進《醫療法》。對任何『已入法／未入法』說法都先問法律層級與法律效果。
+- 2024三班護病比獎勵政策並非毫無效果；院級資料可找到真實補充夜班人力的醫院。不能因支持強制入法，就抹掉這些反例。
+- 反之，院級平均達標不等於逐病房逐班達標；不要用較粗的公開資料粒度推出更細的現場結論。
+- 1/3與≥1/2應作治理結構分析：可確定席次權重不同；不能在缺乏議事規則時直接宣稱1/2必然具有法律否決權，也不能假設其餘2/3全是醫院代表。
+- 醫院是否增減病床、人力與財務規劃屬醫院經營治理程序；但『護理師承受工作量』與『管理端決定資源配置』的更完整因果鏈，若要公開成為法律／治理結論，仍應補醫院內部治理與勞動實證。
+- 具名民進黨政治人物確有『被賣／被騙』等攻防語言；匿名抹紅、威脅是否由政黨組織指揮目前未證，不得升格定性。
+- 不保存使用者或其家人的私人護理職涯 anecdote；公開 evidence 只保留可外部查核資料。
