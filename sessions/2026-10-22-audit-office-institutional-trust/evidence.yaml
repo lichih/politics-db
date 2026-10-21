@@ -1,0 +1,425 @@
+session:
+  id: "2026-10-22-audit-office-institutional-trust"
+  project: Politics
+  title: "審計部制度信賴：獨立性、查核行為、追蹤效果與風險初查"
+  started_at: "2026-10-22T04:20:07+08:00"
+  updated_at: "2026-10-22T04:22:32+08:00"
+  status: active
+
+topics:
+  - 審計部
+  - 審計長
+  - 陳瑞敏
+  - 制度信賴
+  - 審計獨立
+  - 監察院
+  - 立法院
+  - 政府審計
+  - 績效審計
+  - 財務審計
+  - 查核追蹤
+  - 公共資金
+  - 不可證偽
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "法務部全國法規資料庫"
+    title: "審計法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=U0010001"
+    observed_at: "2026-10-22T04:20:07+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第2條列審計職權，包括監督預算、審核財務收支、稽察財政上不法或不忠於職務、考核財務效能等。"
+      - "第10條明定審計人員依法獨立行使審計職權，不受干涉。"
+      - "第14條使審計人員得查閱簿籍、憑證與文件；機關主管不得隱匿或拒絕，並負有答復及提供資料義務。"
+
+  - id: S002
+    source_type: primary
+    publisher: "監察院主管法規共用系統"
+    title: "審計部組織法"
+    url: "https://multimedia.cy.gov.tw/law/LawContent.aspx?id=FL017524"
+    observed_at: "2026-10-22T04:20:07+08:00"
+    retrieval_status: reachable
+    notes:
+      - "審計長任期為6年。"
+      - "審計長須具法定會計、審計或高階公務等資格之一。"
+      - "第4條規定審計長秉承監察院院長，綜理全部事務；顯示組織上並非與監察院完全切離。"
+
+  - id: S003
+    source_type: primary
+    publisher: "中華民國總統府"
+    title: "總統提名陳瑞敏先生為新任審計長　咨文送交立法院"
+    url: "https://www.president.gov.tw/News/24683"
+    published_at: "2019-08-26"
+    observed_at: "2026-10-22T04:20:07+08:00"
+    retrieval_status: reachable
+    notes:
+      - "2019年陳瑞敏由蔡英文總統依憲法第104條提名，送立法院行使同意權。"
+      - "當時陳瑞敏為行政院主計總處政務副主計長，具有長期主計／會計公務資歷。"
+
+  - id: S004
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網"
+    title: "第11屆第4會期第2次會議－審計部審計長陳瑞敏續任同意權案"
+    url: "https://ppg.ly.gov.tw/ppg/sittings/2025092438/details?meetingDate=114%2F09%2F30&meetingTime=09%3A00-18%3A00"
+    published_at: "2025-09-30"
+    observed_at: "2026-10-22T04:20:07+08:00"
+    retrieval_status: reachable
+    notes:
+      - "立法院官方議事資料確認2025-09-30院會行使陳瑞敏續任審計長同意權，結果為同意。"
+
+  - id: S005
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "審計長人事同意權案　陳瑞敏拿112張同意票順利續任"
+    url: "https://www.cna.com.tw/news/aipl/202509300071.aspx"
+    published_at: "2025-09-30"
+    observed_at: "2026-10-22T04:20:07+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導記錄表決為112票同意、0票不同意、0票無效，當日僅1名立委未領票。"
+      - "報導並記錄民眾黨團公開表示支持理由，包括認為審計部會對行政機關重要缺失提出具體指責，對具體檢舉會調查，結果多數客觀公正。"
+      - "跨黨派同意票是政治／制度信任proxy，不直接證明每一項查核結論正確。"
+
+  - id: S006
+    source_type: primary
+    publisher: "中華民國審計部"
+    title: "114年度審計機關發現之違失案件"
+    url: "https://www.audit.gov.tw/p/404-1000-1844.php?Lang=zh-tw"
+    published_at: "2026"
+    observed_at: "2026-10-22T04:20:07+08:00"
+    retrieval_status: reachable
+    notes:
+      - "114年度審計機關發現違失案件，包括移送司法偵辦5件、報請監察院處理3件、通知機關查明處分117件，受處分229人次。"
+      - "這些是審計部自家統計，可證明其公開記錄的處理量與處理類型，不能單靠件數證明選案完整或判斷品質。"
+
+  - id: S007
+    source_type: primary
+    publisher: "中華民國審計部"
+    title: "審計部提出114年度中央政府總決算、附屬單位決算及綜計表，暨特別決算等各冊審核報告"
+    url: "https://www.audit.gov.tw/p/406-1000-11629%2Cr12.php?Lang=zh-tw"
+    published_at: "2026-07-24"
+    observed_at: "2026-10-22T04:20:07+08:00"
+    retrieval_status: reachable
+    notes:
+      - "114年度中央政府總決算審核修正增列歲入19億餘元、淨減列歲出8億餘元；審核報告共揭露682項重要審核意見。"
+      - "公開總決算、附屬單位決算與特別決算審核報告，形成可供外界檢索與比對的審計紀錄。"
+      - "審核意見數量不等於品質，僅可作為透明度與持續產出的證據。"
+
+  - id: S008
+    source_type: primary
+    publisher: "中華民國審計部"
+    title: "數位發展部未訂定補助案件使用效益管考機制，審計部促請改善"
+    url: "https://www.audit.gov.tw/p/405-1000-11958%2Cc189.php?Lang=zh-tw"
+    published_at: "2026-10-16"
+    observed_at: "2026-10-22T04:20:07+08:00"
+    retrieval_status: reachable
+    notes:
+      - "審計部114年11月查核數位發展部補助管考缺失，函請改善；數發部115年5月修正作業要點並增加完竣後應用成效分析要求。"
+      - "可直接證明審計意見至少在此案造成制度規則修改。"
+
+  - id: S009
+    source_type: primary
+    publisher: "中華民國審計部"
+    title: "政府電子採購網領標機制未臻完善，審計部促請檢討改善"
+    url: "https://www.audit.gov.tw/p/405-1000-11889%2Cc189.php?Lang=zh-tw"
+    published_at: "2026-09-24"
+    observed_at: "2026-10-22T04:20:07+08:00"
+    retrieval_status: reachable
+    notes:
+      - "審計部112年查得同帳號領標、董監事重疊等可能圍標風險，函請工程會改善。"
+      - "工程會後續修正電子採購作業辦法與電子領標機制，包括同一帳號同一標案限領標1次。"
+      - "可直接證明審計查核曾導致政府採購制度修改。"
+
+  - id: S010
+    source_type: primary
+    publisher: "中華民國審計部"
+    title: "台灣中油公司大林廠投資計畫停辦發生鉅額損失，經審計部陳報監察院，業由監察院糾正"
+    url: "https://www.audit.gov.tw/p/405-1000-11759%2Cc146.php?Lang=zh-tw"
+    published_at: "2026-08-27"
+    observed_at: "2026-10-22T04:20:07+08:00"
+    retrieval_status: reachable
+    notes:
+      - "審計部查核中油約70.18億元投資計畫，發現基本設計及區外工程等損失，114年4月函請經濟部督促改善並報告監察院，115年4月監察院糾正中油。"
+      - "可證明審計部對中央國營事業重大投資損失有實際陳報與後續程序。"
+
+  - id: S011
+    source_type: primary
+    publisher: "中華民國審計部"
+    title: "國軍對美軍事採購部分案件超收行政管理費，審計部促請改善，已悉數收回繳庫"
+    url: "https://www.audit.gov.tw/p/405-1000-10948%2Cc191.php?Lang=zh-tw"
+    published_at: "2025-09-17"
+    observed_at: "2026-10-22T04:20:07+08:00"
+    retrieval_status: reachable
+    notes:
+      - "審計部113年11月查核發現軍購行政管理費也因原售價高報而高估，114年1月函請國防部處理。"
+      - "後續美方退還行政管理費612萬餘美元，折合新臺幣1億9,834萬餘元，國防部解繳國庫。"
+      - "此案可作『審計發現→追蹤→實際財務回收』案例。"
+
+  - id: S012
+    source_type: primary
+    publisher: "中華民國審計部"
+    title: "被審機關後續改善成效"
+    url: "https://www.audit.gov.tw/p/412-1000-149.php?Lang=zh-tw"
+    observed_at: "2026-10-22T04:20:07+08:00"
+    retrieval_status: reachable
+    notes:
+      - "審計部公開列示被審機關後續改善案例，涵蓋中央與各地方政府。"
+      - "例如經濟部儲能結合太陽光電競標機制經促請改善後修正作業要點，審計部稱可節省台電躉購電費34億餘元。"
+      - "此為審計部自報改善效果，具可查核性但仍應與被審機關／法規變更資料交叉驗證。"
+
+  - id: S013
+    source_type: primary
+    publisher: "監察院"
+    title: "有關外界報導監察院干涉審計職權與事實不符　監察院聲明"
+    url: "https://www.cy.gov.tw/News_Content.aspx?n=796&s=27022"
+    published_at: "2023-09-18"
+    observed_at: "2026-10-22T04:20:07+08:00"
+    retrieval_status: reachable
+    notes:
+      - "2023年審計報告被在野黨引用批評施政後，監察院長陳菊在院會中期許審計部設發言人，對外界對報告之不同解讀適度澄清，引發干涉審計職權質疑。"
+      - "監察院聲明否認干涉，並強調尊重審計部獨立行使職權。"
+      - "此事件本身可證明組織上存在可能產生政治壓力／外觀疑慮的互動；是否實際干預個別審核內容未被證實。"
+
+  - id: S014
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "審計長公聽會　學者盼強化績效審計避免政治化"
+    url: "https://www.cna.com.tw/news/aipl/202509190166.aspx"
+    published_at: "2025-09-19"
+    observed_at: "2026-10-22T04:20:07+08:00"
+    retrieval_status: reachable
+    notes:
+      - "2025年審計長續任公聽會中，有學者指出重要施政議題若僅一年一次於年度決算報告出現，可能過於事後，建議強化即時績效審計與獨立專業意見。"
+      - "這是專家意見，不是已證明的審計失職；可作制度限制與改進方向的外部批評。"
+
+  - id: S015
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "就業安定基金疑濫用　審計長：初步發現5000多萬不符用途"
+    url: "https://www.cna.com.tw/news/aipl/202412170312.aspx"
+    published_at: "2024-12-17"
+    observed_at: "2026-10-22T04:20:07+08:00"
+    retrieval_status: reachable
+    notes:
+      - "陳瑞敏在立法院表示，審計部因立委質疑派員查核，初步發現近5,000多萬元不符基金用途，表示將收回；並稱過去已收回就安基金不符規定支出3億多元。"
+      - "此為立院答覆之媒體報導，完整專案查核報告與最終回收數仍應另行核對。"
+
+facts:
+  - id: F001
+    statement: "審計法明定審計人員依法獨立行使審計職權、不受干涉，並賦予查閱帳冊、憑證、文件及要求機關提供資料與答復的法定權力。"
+    status: verified
+    observed_at: "2026-10-22T04:20:07+08:00"
+    source_ids: [S001]
+    evidence_summary: "法規直接建立審計獨立與資訊取得權的normative safeguard。"
+    tags: [審計獨立, 法定權限, 資訊取得]
+
+  - id: F002
+    statement: "審計長任期為6年，具有法定專業資格門檻；但組織法同時規定審計長秉承監察院院長綜理事務。"
+    status: verified
+    observed_at: "2026-10-22T04:20:07+08:00"
+    source_ids: [S002]
+    evidence_summary: "固定任期與專業資格有助專業穩定；秉承監察院院長則顯示組織上仍存在上層治理關係，不能描述為完全隔離政治或監察院。"
+    tags: [任期, 專業資格, 監察院, 制度風險]
+
+  - id: F003
+    statement: "現任審計長陳瑞敏2019年由蔡英文總統提名，2025年再獲賴清德總統提名續任，均需立法院同意；其進入審計部前長期任職行政院主計體系。"
+    status: verified
+    observed_at: "2026-10-22T04:20:07+08:00"
+    source_ids: [S003, S004, S005]
+    evidence_summary: "提名／同意權制度提供跨機關合法性，但總統提名與既有行政體系資歷也構成應納入獨立性評估的結構因素。"
+    tags: [審計長, 任命, 行政院主計, 獨立性]
+
+  - id: F004
+    statement: "2025年9月30日陳瑞敏續任審計長的立法院投票，中央社記錄為112票同意、0票不同意、0票無效，立法院官方議事資料確認續任案獲同意。"
+    status: verified
+    observed_at: "2026-10-22T04:20:07+08:00"
+    source_ids: [S004, S005]
+    evidence_summary: "在當時朝野分立的國會中幾乎全體出席立委同意續任，是罕見的跨黨派制度／個人信任proxy；但同意票不能直接驗證每項審計判斷正確。"
+    tags: [跨黨派, 審計長, 同意權, 制度信賴]
+
+  - id: F005
+    statement: "114年度審計機關公開統計列有移送司法偵辦5件、報請監察院處理3件、通知機關查明處分117件，受處分229人次。"
+    status: verified
+    observed_at: "2026-10-22T04:20:07+08:00"
+    source_ids: [S006]
+    evidence_summary: "顯示審計機關並非只提出文字建議，也存在法辦、監察與行政責任處理路徑；件數本身不能回答漏失率或選擇性。"
+    tags: [移送司法, 監察院, 行政責任, 審計成效]
+
+  - id: F006
+    statement: "114年度中央政府決算經審計部審核後，歲入修正增列19億餘元、歲出淨減列8億餘元，並公開682項重要審核意見。"
+    status: verified
+    observed_at: "2026-10-22T04:20:07+08:00"
+    source_ids: [S007]
+    evidence_summary: "顯示審計部會直接修正行政院提出之決算數額並公開大量審核意見；這是權限實際運作及透明度證據，而非品質分數。"
+    tags: [中央政府決算, 修正決算, 透明度]
+
+  - id: F007
+    statement: "審計部查核數位發展部補助管考制度後，數位發展部修正補助計畫作業要點，增加計畫完竣後應用成效分析等要求。"
+    status: verified
+    observed_at: "2026-10-22T04:20:07+08:00"
+    source_ids: [S008]
+    evidence_summary: "可觀察到中央現任行政體系被查核、缺失公開且後續規則實際修改。"
+    tags: [數位發展部, 補助, 制度改善, 中央政府]
+
+  - id: F008
+    statement: "審計部發現政府電子採購網同帳號領標等圍標風險後，工程會後續修正電子採購作業辦法與電子領標機制。"
+    status: verified
+    observed_at: "2026-10-22T04:20:07+08:00"
+    source_ids: [S009]
+    evidence_summary: "審計查核造成採購制度具體改變，且涉及行政院公共工程委員會。"
+    tags: [政府採購, 圍標, 制度改善, 工程會]
+
+  - id: F009
+    statement: "審計部查核台灣中油重大投資計畫損失後，函請經濟部督促改善並陳報監察院，後續監察院對中油提出糾正。"
+    status: verified
+    observed_at: "2026-10-22T04:20:07+08:00"
+    source_ids: [S010]
+    evidence_summary: "顯示對中央國營事業重大損失案件可從審計查核進入監察程序。"
+    tags: [中油, 國營事業, 投資損失, 監察院]
+
+  - id: F010
+    statement: "審計部查核國軍對美軍購行政管理費高估問題後，後續收回612萬餘美元、折合新臺幣1億9,834萬餘元並解繳國庫。"
+    status: verified
+    observed_at: "2026-10-22T04:20:07+08:00"
+    source_ids: [S011]
+    evidence_summary: "這是一個可量化的『發現問題—追蹤—財務回收』案例。"
+    tags: [國防部, 軍購, 追繳, 財務效果]
+
+  - id: F011
+    statement: "審計部網站持續公開總決算、半年結算、政府審計年報、公務統計、立法院決議查核案件及被審機關後續改善成效，可供外界追蹤其查核主張與部分結果。"
+    status: verified
+    observed_at: "2026-10-22T04:20:07+08:00"
+    source_ids: [S007, S012]
+    evidence_summary: "公開程度提高外部可驗證性；但公開的是審計部選擇發布及依法公開的資料，不能等同完整工作底稿全部透明。"
+    tags: [資訊公開, 可追溯性, 審計報告]
+
+  - id: F012
+    statement: "2023年監察院長就審計報告外界解讀問題，曾在院會期許審計部設發言人或發布澄清，引發外界質疑是否干涉審計職權；監察院正式否認干涉。"
+    status: verified
+    observed_at: "2026-10-22T04:20:07+08:00"
+    source_ids: [S013]
+    evidence_summary: "爭議事件及監察院回應均有primary記錄；它證明干涉風險／外觀疑慮存在，不證明個別審計內容實際被修改。"
+    tags: [監察院, 陳菊, 干涉疑慮, 制度風險]
+
+  - id: F013
+    statement: "2025年審計長續任公聽會有學者提出，重要施政議題若主要在年度決算審核才揭露，可能過於事後，建議強化即時績效審計。"
+    status: verified
+    observed_at: "2026-10-22T04:20:07+08:00"
+    source_ids: [S014]
+    evidence_summary: "這是制度限制的外部專家評價，可支持『審計可能過於事後』作為待改善問題，而非證明整體失能。"
+    tags: [績效審計, 時效, 外部批評]
+
+  - id: F014
+    statement: "2024年就業安定基金爭議中，審計部在立委要求後擴大專案查核，審計長公開表示初步發現近5,000多萬元不符基金用途，並稱採購異常將移送檢調、未盡職責移送監察院。"
+    status: partial
+    observed_at: "2026-10-22T04:20:07+08:00"
+    source_ids: [S015]
+    evidence_summary: "可支持審計部對國會具體檢舉有回應及擴大查核的行為；最終查核數額與實際追繳仍待primary專案報告補強。"
+    tags: [就業安定基金, 國會監督, 專案查核, partial]
+
+claims:
+  - id: C001
+    statement: "審計部近年對現任中央行政體系與國營事業不敢提出實質缺失或要求改善。"
+    status: contradicted
+    contradicts: [F006, F007, F008, F009, F010]
+    reasoning_notes: "近年公開案例涵蓋數位發展部、工程會、中油、國防部等中央行政機關與國營事業，且有決算修正、制度變更、陳報監察院與追回款項等效果。"
+
+  - id: C002
+    statement: "審計部的工作主要停留在寫報告，缺乏可觀察的後續行政、財務或制度效果。"
+    status: contradicted
+    contradicts: [F005, F007, F008, F009, F010, F011]
+    reasoning_notes: "存在制度修正、財務回收、行政處分、司法／監察移送與後續改善追蹤等可觀察效果。不能因有後續效果就推論所有審計意見都獲落實。"
+
+  - id: C003
+    statement: "近年可觀察資料支持對審計部給予高於『純機關自述』的制度先驗信任。"
+    status: supported
+    related_facts: [F001, F002, F004, F005, F006, F007, F008, F009, F010, F011]
+    reasoning_notes: "支持因素包括法定獨立與資料取得權、固定任期、跨黨派近全票續任、對中央政府與國營事業持續提出缺失、具體追繳／制度修改及公開追蹤。但仍缺乏查核漏失率、未選案件分母、外部同儕審查或長期獨立accuracy評估，故不標記為完全supported。"
+
+  - id: C004
+    statement: "2025年112票同意、0票反對足以證明審計部所有查核均客觀正確。"
+    status: unsupported
+    related_facts: [F004]
+    reasoning_notes: "跨黨派支持是制度信任與政治接受度proxy，不是個別查核accuracy的直接驗證。"
+
+  - id: C005
+    statement: "審計部具有法律上的獨立條款，因此實際上不可能受到任何政治壓力或組織上影響。"
+    status: contradicted
+    contradicts: [F002, F003, F012]
+    reasoning_notes: "審計人員依法獨立是重要保障，但審計長由總統提名、立法院同意，組織法又規定秉承監察院院長；2023亦曾因監察院長對審計報告外部溝通的要求引發干涉疑慮。法律保障不能證明風險為零。"
+
+  - id: C006
+    statement: "2023年監察院長要求審計部澄清報告解讀，已可證明監察院實際修改或壓制審計部的審核內容。"
+    status: unresolved
+    related_facts: [F012]
+    reasoning_notes: "有可驗證的上層互動與干涉疑慮，但目前沒有文件證明審計報告內容因此被修改、撤回或壓制；監察院正式否認干涉。"
+
+  - id: C007
+    statement: "審計部查出不少案件與違失件數，本身足以證明不存在選擇性查核或重大漏失。"
+    status: unsupported
+    related_facts: [F005, F006, F011]
+    reasoning_notes: "evidence volume不等於evidence strength。沒有被查案件、應查案件及實際異常案件的完整分母，就無法計算漏失率或選擇性；公開成果只能證明『確實有查且有結果』。"
+
+  - id: C008
+    statement: "審計部目前值得給予可修正的中度偏高制度信任，但不應給予免於逐案查核的authority immunity。"
+    status: supported
+    related_facts: [F001, F002, F004, F005, F006, F007, F008, F009, F010, F011, F012, F013]
+    reasoning_notes: "這是基於制度保障、跨黨派評價、可追蹤成果與透明度形成的assessment；扣分因素包括政治任命入口、監察院組織關係、過於事後的風險，以及缺乏選案分母與外部accuracy資料。任何新個案仍應回到原始底稿與程序證據。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-22T04:20:07+08:00"
+    platform: politics-db
+    query: "審計部 信賴 司法信任 公權力 審計"
+    scope: "lichih/politics-db main"
+    result: not_found
+    notes: "既有ledger未找到以審計部制度信賴為主題的專門session，因此建立本session。"
+
+  - id: Q002
+    observed_at: "2026-10-22T04:20:07+08:00"
+    platform: web
+    query: "審計部 2025 2026 中央政府 缺失 國營事業 移送 改善"
+    scope: "審計部官方網站、中央社與立法院"
+    result: found
+    notes: "找到中央部會、國營事業、採購制度、軍購追繳、行政處分及監察／司法移送等多類案例。"
+
+  - id: Q003
+    observed_at: "2026-10-22T04:20:07+08:00"
+    platform: web
+    query: "審計部 獨立性 任命 任期 監察院 干涉"
+    scope: "全國法規資料庫、監察院、總統府、立法院"
+    result: found
+    notes: "法律明定審計人員獨立與資訊取得權；同時存在總統提名、立院同意、秉承監察院院長等結構，並找到2023干涉疑慮爭議。"
+
+  - id: Q004
+    observed_at: "2026-10-22T04:20:07+08:00"
+    platform: web
+    query: "陳瑞敏 2025 續任 審計長 票數 跨黨"
+    scope: "立法院與中央社"
+    result: found
+    notes: "立法院確認續任案獲同意；中央社記錄112票同意、0票不同意、0票無效。"
+
+  - id: Q005
+    observed_at: "2026-10-22T04:20:07+08:00"
+    platform: web
+    query: "審計部 失職 選擇性 查核 批評 漏失"
+    scope: "一般新聞、監察院與審計長續任公聽會"
+    result: partial
+    notes: "找到對年度審計過於事後、需強化績效審計的專家批評，以及2023監察院干涉疑慮；未找到可量化審計部整體false-negative rate或系統性選擇性查核的獨立研究。not_found不等於不存在。"
+
+promotion:
+  research:
+    - "政府監督機關制度信賴的可驗證指標"
+    - "審計部作為公權力案件外部驗證來源的authority calibration"
+  cases: []
+  comparators: []
+
+notes:
+  - "本session的研究問題不是『審計部是不是好人』，而是哪些可觀察事實應上調或下調對其制度輸出的先驗信任。"
+  - "信賴指標分層：normative independence（法律獨立與取證權）、institutional insulation（任期／任命／組織關係）、behavioral evidence（敢否查中央政府與重大案件）、follow-through（追繳、修法、移送、追蹤）、transparency（報告與統計公開）、adversarial evidence（干涉疑慮、時效與漏失風險）。"
+  - "112比0續任票是罕見且重要的跨黨派制度信任proxy，但不得把政治共識偷換成審計accuracy。"
+  - "審計部自家公布的案件量、改善成效與節省金額屬primary for『審計部如何記錄及宣稱其成果』；若用來評估實際效果，重要個案仍應與被審機關、法規修正、監察院或財務紀錄交叉驗證。"
+  - "目前沒有足夠資料計算審計部對重大違失的漏失率、選案偏差或不同政治陣營的查核強度差異，因此不能以『查到很多』證明『沒有漏掉／沒有選擇性』。"
+  - "制度信任應可被曠世智能等後續敏感案件更新：若審計部能公開處理申請金額形成、利害關係揭露、審議、迴避及投後管理等核心問題，應上調信任；若只做形式程序核對或迴避核心問題，則下調。"
