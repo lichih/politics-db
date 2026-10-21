@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "公權力不可證偽性與可驗證性缺口：長期研究主軸"
   started_at: "2026-10-20T17:10:48+08:00"
-  updated_at: "2026-10-21T10:24:00+08:00"
+  updated_at: "2026-10-21T12:44:41+08:00"
   status: active
 
 topics:
@@ -241,6 +241,42 @@ sources:
       - "轉述國安局115年下半年書面業務報告：1至9月追蹤異常帳號蒐報約250萬則爭議訊息，稱Facebook與Threads為中共操作認知戰主要管道。"
       - "公開報導未揭露『異常帳號』『爭議訊息』的完整操作性定義、逐筆歸因規則、false-positive rate或外部審計機制；本次亦尚未取得該115年下半年報告的官方公開原始PDF。"
 
+  - id: S020
+    source_type: primary
+    publisher: "臺灣臺北地方法院／司法院"
+    title: "臺灣臺北地方法院112年度矚重訴字第1號被告高虹安等人貪污案件新聞稿"
+    url: "https://www.judicial.gov.tw/tw/cp-1888-1131952-c6ee2-1.html"
+    published_at: "2024-07-26"
+    observed_at: "2026-10-21T12:44:41+08:00"
+    retrieval_status: reachable
+    notes:
+      - "一審認高虹安等4人浮報公費助理酬金及加班費，成立貪污治罪條例利用職務機會詐取財物罪及使公務員登載不實罪；高虹安判刑7年4月、褫奪公權4年。"
+      - "同一新聞稿亦載明，部分以實際酬金為基準計算加班費並繳回作辦公室零用金的起訴內容，因欠缺不法所有意圖等理由未成立犯罪；顯示一審本身即逐項區分起訴事實。"
+
+  - id: S021
+    source_type: primary
+    publisher: "臺灣高等法院／司法院"
+    title: "113年度矚上重訴字第36號高虹安涉詐助理費案件新聞稿"
+    url: "https://www.judicial.gov.tw/tw/cp-1888-1461199-b7e08-1.html"
+    published_at: "2025-12-16"
+    observed_at: "2026-10-21T12:44:41+08:00"
+    retrieval_status: reachable
+    notes:
+      - "二審撤銷高虹安等人相關一審判決，高虹安改依使公務員登載不實罪判刑6月、得易科罰金；貪污罪部分不成立。"
+      - "高院就核心法律／事實評價採與一審不同判斷，包括公費助理補助費性質及高虹安是否具有貪污犯意。"
+
+  - id: S022
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "高虹安涉詐助理費二審改判6月　高檢署上訴"
+    url: "https://www.cna.com.tw/news/asoc/202601050274.aspx"
+    published_at: "2026-01-05"
+    observed_at: "2026-10-21T12:44:41+08:00"
+    retrieval_status: reachable
+    notes:
+      - "確認高檢署已就二審判決提起第三審上訴，因此二審結果截至該報導時並非確定判決。"
+      - "本次2026-10-21另以司法院裁判書系統與公開新聞搜尋後，未找到最高法院已就本案作成終局判決的資料；此為not_found observation，不等於保證不存在尚未索引或未公開資料。"
+
 facts:
   - id: F001
     statement: "高虹安助理費案中，王郁文2023年4月12日偵訊影音存在約16分鐘中斷；公訴檢察官並未否認中斷，而主張該段未就犯罪事實訊問、屬與律師溝通及交換法律意見。"
@@ -360,6 +396,28 @@ facts:
       - "需在10月22日立院備詢後追查是否公開定義、抽樣、歸因證據、false-positive控制或秘密會議監督資料。"
     tags: [國安局, 認知作戰, 異常帳號, 爭議訊息, attribution-opacity, unresolved]
 
+  - id: F014
+    statement: "高虹安助理費案一審於2024年7月26日認定高虹安成立貪污治罪條例利用職務機會詐取財物罪等，判刑7年4月、褫奪公權4年；二審於2025年12月16日撤銷相關判決，認貪污罪不成立，改依使公務員登載不實罪判刑6月並得易科罰金。"
+    status: verified
+    observed_at: "2026-10-21T12:44:41+08:00"
+    source_ids: [S020, S021]
+    evidence_summary: "一、二審官方新聞稿直接確認同一助理費案件的核心犯罪定性由『貪污重罪有罪』改為『貪污無罪、偽造文書有罪』，刑度亦由7年4月降為6月得易科罰金。"
+    verification_notes:
+      - "此事證明一審重大犯罪認定可能在上訴審被實質翻轉；不因此自動證明一審法院違法、北檢惡意，亦不能直接類推其他案件被告必然無罪。"
+      - "二審判決目前有檢方第三審上訴紀錄，不把二審結果描述為終局確定。"
+    tags: [高虹安, 一審二審反轉, 貪污, 偽造文書, judicial-disagreement]
+
+  - id: F015
+    statement: "高虹安案同時存在已確認的偵訊紀錄缺口（王郁文偵訊影音中斷約16分鐘）與後續一、二審對核心貪污犯罪成立與否的相反判斷，但現有證據不能把二審翻轉直接歸因於該16分鐘程序缺口。"
+    status: verified
+    observed_at: "2026-10-21T12:44:41+08:00"
+    source_ids: [S001, S020, S021]
+    evidence_summary: "S001確認record-gap；S020、S021確認裁判結果及核心犯罪定性反轉。兩者可並列作司法可驗證性與階段性裁判可靠性研究，但因果關係沒有被來源直接建立。"
+    verification_notes:
+      - "不得寫成『因16分鐘未錄音，所以二審判貪污無罪』。"
+      - "此案例的證明功能是反駁『一審有罪即可停止證據／程序質疑』的一般化規則，而不是替其他案件提供實體無罪證據。"
+    tags: [高虹安, record-gap, appellate-reversal, inference-boundary]
+
 claims:
   - id: C001
     statement: "『爭議因缺乏可獨立重建的原始紀錄而長期停在unresolved』與『已證明官方沒有問題』是同一件事。"
@@ -442,6 +500,21 @@ claims:
     supports: [F001, F002, F004, F005, F006, F007, F008, F010, F011, F012, F013]
     reasoning_notes: "這是研究分類法與跨案比較框架。它不預先假定所有案例皆違法、皆由同一政黨設計或皆有相同主觀目的；若新案具有透明可重建紀錄、獨立覆核或明確failure state，應作為反例納入。"
 
+  - id: C013
+    statement: "只要一審已就重大犯罪判決有罪，就可把該犯罪視為已不需要再受實質證據與法律檢驗的既成事實；上訴審至多處理量刑或枝節。"
+    status: contradicted
+    supports: []
+    contradicts: [F014]
+    related_facts: [F001, F015]
+    reasoning_notes: "高虹安案提供直接反例：一審貪污罪7年4月，二審撤銷貪污有罪認定並改判偽造文書6月。這只能否定『一審有罪＝不可再質疑的事實終點』，不能反向推出任何其他一審有罪案件必然錯誤。"
+
+  - id: C014
+    statement: "高虹安案的16分鐘偵訊影音缺口已被證明是二審改判貪污無罪的原因。"
+    status: unsupported
+    supports: []
+    related_facts: [F001, F014, F015]
+    reasoning_notes: "目前可分別確認record-gap與後審反轉，但未取得足以建立兩者因果關係的裁判理由或其他證據；程序問題、證據／法律評價差異與後審結果必須分層。"
+
 searches:
   - id: Q001
     observed_at: "2026-10-20T17:10:48+08:00"
@@ -499,10 +572,19 @@ searches:
     result: partial
     notes: "確認第104條及實際偵查／審判baseline；確認國安局250萬爭訊與異常帳號的公開主張。115年下半年國安局原始報告PDF本次尚未由官方公開頁面取得，方法學與監督機制待10月22日備詢後續查。"
 
+  - id: Q008
+    observed_at: "2026-10-21T12:44:41+08:00"
+    platform: web
+    query: "高虹安 一審 7年4月／二審 貪污無罪／最高法院 助理費 2026"
+    scope: "司法院、裁判書系統、中央社"
+    result: partial
+    notes: "找到一審與二審官方新聞稿及2026-01-05高檢署上訴報導；本次查詢未找到截至2026-10-21最高法院就本案作成終局判決的公開資料。not_found不等於不存在。"
+
 promotion:
   cases: []
   comparators:
     - "record gap：高虹安案16分鐘、沈慶京醫院2小時"
+    - "judicial disagreement：高虹安助理費案一審貪污7年4月、二審貪污無罪改判偽造文書6月；作為『一審有罪不是證據審查終點』的反例，不類推其他案件實體結果"
     - "integrity gap：A1-37原始硬碟／映像檔爭議、北檢官網PDF形成疑點"
     - "record monopoly：法院官方錄音與私人自行錄音限制"
     - "movable failure state：FMS estimated delivery、台糖再次管收trigger"
