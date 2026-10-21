@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "公權力不可證偽性與可驗證性缺口：長期研究主軸"
   started_at: "2026-10-20T17:10:48+08:00"
-  updated_at: "2026-10-21T13:44:00+08:00"
+  updated_at: "2026-10-21T13:48:00+08:00"
   status: active
 
 topics:
@@ -279,6 +279,29 @@ sources:
       - "確認高檢署已就二審判決提起第三審上訴，因此二審結果截至該報導時並非確定判決。"
       - "本次2026-10-21另以司法院裁判書系統與公開新聞搜尋後，未找到最高法院已就本案作成終局判決的資料；此為not_found observation，不等於保證不存在尚未索引或未公開資料。"
 
+  - id: S023
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "柯文哲遭噴辣椒水警說明案發經過　中市警局長自請處分向民眾黨致歉"
+    url: "https://www.cna.com.tw/news/asoc/202604200220.aspx"
+    published_at: "2026-04-20"
+    observed_at: "2026-10-21T13:48:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "警方說明周俊銘於不同時間共4次朝地面噴灑辣椒水，並指出發現噴罐異常後應封裝、停用並離開現場；周約24小時後才向警局長報告。"
+
+  - id: S024
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "柯文哲掃街分局長誤噴辣椒水　中市警六分局表歉意"
+    url: "https://www.cna.com.tw/news/asoc/202604210283.aspx"
+    published_at: "2026-04-21"
+    observed_at: "2026-10-21T13:48:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "臺中市警察局長說周俊銘身為分局長原可不攜帶辣椒水卻主動具領；事發後未第一時間坦承，並涉及其他嚴重違反紀律行為。"
+      - "報導亦記載周當晚將辣椒水罐丟入逢甲夜市垃圾桶，後由警方查扣。"
+
 facts:
   - id: F001
     statement: "高虹安助理費案中，王郁文2023年4月12日偵訊影音存在約16分鐘中斷；公訴檢察官並未否認中斷，而主張該段未就犯罪事實訊問、屬與律師溝通及交換法律意見。"
@@ -424,8 +447,8 @@ facts:
     statement: "2026年4月17日柯文哲逢甲掃街辣椒水事件中，臺中市警察局後續確認第六分局長周俊銘主動具領辣椒水、在不同時間共4次朝地面噴灑；發現噴罐異常後未依警方所述正確方式封裝停用，當晚將噴罐丟入夜市垃圾桶，並約24小時後才向警局長報告；警方另表示其偵辦過程中未第一時間坦承。"
     status: verified
     observed_at: "2026-10-21T13:44:00+08:00"
-    source_ids: []
-    evidence_summary: "本fact重用子session sessions/2026-10-21-huang-kuo-chang-public-claim-counterexamples/evidence.yaml 的F010-F011；父級只記錄其auditability mechanism，不重複建立來源權威。"
+    source_ids: [S023, S024]
+    evidence_summary: "本fact與子session sessions/2026-10-21-huang-kuo-chang-public-claim-counterexamples/evidence.yaml 的F010-F011；父級只記錄其auditability mechanism，不重複建立來源權威。"
     verification_notes:
       - "這些行為支持證據保全／時序可驗證性缺口，但不能自行證明政治指示、滅證故意或陰謀。"
     tags: [逢甲辣椒水, record-gap, evidence-lifecycle, police, auditability]
