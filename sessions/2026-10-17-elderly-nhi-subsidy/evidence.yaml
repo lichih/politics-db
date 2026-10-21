@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "65歲以上長者健保費中央補助：家庭負擔、地方基準線與法定保障"
   started_at: "2026-10-17T14:41:10+08:00"
-  updated_at: "2026-10-17T22:05:04+08:00"
+  updated_at: "2026-10-21T18:37:00+08:00"
   status: active
 
 topics:
@@ -23,6 +23,9 @@ topics:
   - 預算法第79條
   - 預算法第91條
   - 財政收支劃分法第38條之1
+  - 政策傳播
+  - framing
+  - 世代正義
 
 sources:
   - id: S001
@@ -486,6 +489,29 @@ sources:
       - "原始提案理由明載當時地方制度差異：新北、基隆不排富；台北、桃園採所得稅率未達20%；台中、台南、高雄採5%左右門檻，並據此提出中央統一補助。"
       - "此文件只能證明原始提案如何選擇20%門檻及其比較基礎，不等同2026年三讀最終文字。"
 
+  - id: S042
+    source_type: primary
+    publisher: "民主進步黨官方Threads"
+    title: "為什麼《老人福利法》修法，會影響年輕人的權益？"
+    url: "https://www.threads.com/@dpp_taiwan/post/Devj0QZD1Sp"
+    published_at: "2026-10-21"
+    observed_at: "2026-10-21T18:37:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方帳號發布老人福利法圖文，主軸為修法對年輕世代的財政負擔與世代公平。"
+
+  - id: S043
+    source_type: primary
+    publisher: "民主進步黨官方Threads"
+    title: "為什麼《老人福利法》修法，會影響年輕人的權益？（文字說明）"
+    url: "https://www.threads.com/@dpp_taiwan/post/Devj9NqD5W5"
+    published_at: "2026-10-21"
+    observed_at: "2026-10-21T18:37:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "貼文明列三種財源情境：健保費、政府預算、舉債。"
+      - "健保費情境明確使用條件句，稱若由健保費支出，15至64歲平均每人每年增加約2,690至3,000元。"
+      - "貼文另稱在野黨沒有寫下排富規則、約403萬名長輩符合資格，並援引憲法第70條與預算法第91條。"
 facts:
   - id: F001
     statement: "2026-10-16立法院三讀修正《老人福利法》第22條，符合最近一年綜合所得未達申報標準或綜所稅率未達20%條件的65歲以上長者，其全民健康保險費由中央主管機關全額補助。"
