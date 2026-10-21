@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "審計部制度信賴：獨立性、查核行為、追蹤效果與風險初查"
   started_at: "2026-10-22T04:20:07+08:00"
-  updated_at: "2026-10-22T04:20:07+08:00"
+  updated_at: "2026-10-22T04:22:32+08:00"
   status: active
 
 topics:
@@ -334,7 +334,7 @@ claims:
 
   - id: C003
     statement: "近年可觀察資料支持對審計部給予高於『純機關自述』的制度先驗信任。"
-    status: partially_supported
+    status: supported
     related_facts: [F001, F002, F004, F005, F006, F007, F008, F009, F010, F011]
     reasoning_notes: "支持因素包括法定獨立與資料取得權、固定任期、跨黨派近全票續任、對中央政府與國營事業持續提出缺失、具體追繳／制度修改及公開追蹤。但仍缺乏查核漏失率、未選案件分母、外部同儕審查或長期獨立accuracy評估，故不標記為完全supported。"
 
@@ -364,7 +364,7 @@ claims:
 
   - id: C008
     statement: "審計部目前值得給予可修正的中度偏高制度信任，但不應給予免於逐案查核的authority immunity。"
-    status: partially_supported
+    status: supported
     related_facts: [F001, F002, F004, F005, F006, F007, F008, F009, F010, F011, F012, F013]
     reasoning_notes: "這是基於制度保障、跨黨派評價、可追蹤成果與透明度形成的assessment；扣分因素包括政治任命入口、監察院組織關係、過於事後的風險，以及缺乏選案分母與外部accuracy資料。任何新個案仍應回到原始底稿與程序證據。"
 
