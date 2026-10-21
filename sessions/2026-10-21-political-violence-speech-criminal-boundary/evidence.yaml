@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "政治暴力言論的刑事界線：煽惑、恐嚇與現實可行性"
   started_at: "2026-10-21T11:28:00+08:00"
-  updated_at: "2026-10-21T12:10:34+08:00"
+  updated_at: "2026-10-21T12:54:00+08:00"
   status: active
 
 topics:
@@ -240,6 +240,132 @@ sources:
     notes:
       - "恐怖攻擊後極短時間內發表肯定性圖文、且刊於對恐怖主義特別敏感地區，法院認定制裁未違反Article 10。"
 
+  - id: S021
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "中華民國憲法第11條、第23條"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001"
+    published_at: "1947-01-01"
+    observed_at: "2026-10-21T12:54:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第11條保障言論自由；第23條以必要性作為限制人民自由權利的憲法界線。"
+
+  - id: S022
+    source_type: primary
+    publisher: "憲法法庭"
+    title: "113年憲判字第5號"
+    url: "https://cons.judicial.gov.tw/docdata.aspx?fid=52&id=339983"
+    published_at: "2024-05-24"
+    observed_at: "2026-10-21T12:54:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "明示公共事務、政府權力監督批評等政治性言論應受高度保障，國家應盡可能保持內容與觀點中立，並對反對政府之情緒性表達有較大容忍。"
+
+  - id: S023
+    source_type: primary
+    publisher: "憲法法庭"
+    title: "113年憲判字第3號判決摘要"
+    url: "https://cons.judicial.gov.tw/docdata.aspx?fid=77&id=352468"
+    published_at: "2024-04-26"
+    observed_at: "2026-10-21T12:54:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "言論限制的個案衡量須考量表意人故意過失、言論類型與內容、表意脈絡及後果等。"
+
+  - id: S024
+    source_type: primary
+    publisher: "Bundesministerium der Justiz / Gesetze im Internet"
+    title: "Grundgesetz Art. 5"
+    url: "https://www.gesetze-im-internet.de/gg/art_5.html"
+    observed_at: "2026-10-21T12:54:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "德國基本法第5條保障意見自由，並明文允許以一般法律、青少年保護與人格名譽法制加以限制。"
+
+  - id: S025
+    source_type: primary
+    publisher: "Bundesverfassungsgericht"
+    title: "Lüth, BVerfG, Urteil vom 15. Januar 1958 - 1 BvR 400/51"
+    url: "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/1958/01/rs19580115_1bvr040051.html"
+    published_at: "1958-01-15"
+    observed_at: "2026-10-21T12:54:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "建立Wechselwirkungslehre：限制言論的一般法律也必須反過來在言論自由的價值光照下解釋與限縮。"
+
+  - id: S026
+    source_type: primary
+    publisher: "Bundesministerium der Justiz / Gesetze im Internet"
+    title: "StGB §111 Öffentliche Aufforderung zu Straftaten"
+    url: "https://www.gesetze-im-internet.de/stgb/__111.html"
+    observed_at: "2026-10-21T12:54:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "德國刑法將公開要求他人犯罪獨立規範；即使要求未成功，仍有明文刑責規定。"
+
+  - id: S027
+    source_type: primary
+    publisher: "Bundesministerium der Justiz / Gesetze im Internet"
+    title: "StGB §126 Störung des öffentlichen Friedens durch Androhung von Straftaten"
+    url: "https://www.gesetze-im-internet.de/stgb/__126.html"
+    observed_at: "2026-10-21T12:54:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "德國刑法另將足以擾亂公共和平的特定重大犯罪威脅獨立規範。"
+
+  - id: S028
+    source_type: primary
+    publisher: "Bundesministerium der Justiz / Gesetze im Internet"
+    title: "StGB §140 Belohnung und Billigung von Straftaten"
+    url: "https://www.gesetze-im-internet.de/stgb/__140.html"
+    observed_at: "2026-10-21T12:54:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "德國刑法另就特定犯罪之公開獎勵或足以擾亂公共和平的公開肯定設獨立規範。"
+
+  - id: S029
+    source_type: primary
+    publisher: "Department of Justice Canada"
+    title: "Constitution Act, 1982 — Canadian Charter of Rights and Freedoms, ss. 1-2"
+    url: "https://www.laws-lois.justice.gc.ca/eng/Const/FullText.html"
+    published_at: "1982-04-17"
+    observed_at: "2026-10-21T12:54:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第2(b)保障表意自由；第1條要求限制必須由法律規定且能在自由民主社會中被證明為合理。"
+
+  - id: S030
+    source_type: primary
+    publisher: "Department of Justice Canada"
+    title: "Criminal Code ss. 22 and 464 — counselling offences"
+    url: "https://laws-lois.justice.gc.ca/eng/acts/C-46/section-22.html"
+    observed_at: "2026-10-21T12:54:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "s.22定義counsel包括procure, solicit or incite；s.464另規範被勸誘之犯罪最終未實行時的刑責。"
+
+  - id: S031
+    source_type: primary
+    publisher: "Department of Justice Canada"
+    title: "Criminal Code s. 264.1 — Uttering threats"
+    url: "https://www.laws-lois.justice.gc.ca/eng/acts/c-46/section-264.1.html"
+    observed_at: "2026-10-21T12:54:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "加拿大將死亡或身體傷害威脅與counselling offences分開規範。"
+
+  - id: S032
+    source_type: primary
+    publisher: "Supreme Court of Canada"
+    title: "R. v. Hamilton, 2005 SCC 47"
+    url: "https://scc-csc.lexum.com/scc-csc/scc-csc/en/2280/1/document.do"
+    published_at: "2005-09-29"
+    observed_at: "2026-10-21T12:54:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "最高法院就counselling未遂犯罪的actus reus與mens rea作限縮；判決理由明確討論過度擴張對抗議、倡議與異議言論的風險。"
+
 facts:
   - id: F001
     statement: "中央社報導，何姓男子於2026-10-13在Threads相關新聞串文下公開留言「煙蛋我出，吸一吸去殺賴清德比較屌」；北檢於10月19日指揮搜索、拘提，並於10月21日依刑法第151條恐嚇公眾、第153條第1款煽惑他人犯罪及第305條恐嚇危害安全等罪起訴，建請法院量處6月以上有期徒刑。"
@@ -413,6 +539,72 @@ facts:
     evidence_summary: "此案顯示ECHR不像美國Brandenburg那樣要求嚴格imminence，但仍實質依賴時點、地區、背景與可能影響，而非只看字面冒犯性。"
     tags: [歐洲, ECHR, Leroy, terrorism, timing, potential-impact]
 
+  - id: F020
+    statement: "台灣憲法第11條直接保障言論自由，第23條則要求對自由權利的法律限制須為防止妨礙他人自由、避免緊急危難、維持社會秩序或增進公共利益所必要。"
+    status: verified
+    observed_at: "2026-10-21T12:54:00+08:00"
+    source_ids: [S021]
+    evidence_summary: "台灣並非欠缺憲法層級的言論自由與必要性框架。"
+    tags: [台灣, 憲法, 言論自由, 必要性]
+
+  - id: F021
+    statement: "憲法法庭113年憲判字第5號明示，公共事務、政府權力行使之監督批評及對政府機關、公務員的評價，因具有形成公意、監督施政及實踐民主的重要功能，應受高度保障；國家對公共事務言論的內容與觀點應盡可能保持中立，對直接反對國家機關或政府施政之言論及其語言、情緒表達應有較大容忍，不應逕以刑罰直接壓制。"
+    status: verified
+    observed_at: "2026-10-21T12:54:00+08:00"
+    source_ids: [S022]
+    evidence_summary: "這反駁『台灣一般言論自由憲法原則本身尚未成熟』的過度概括；至少在批評政府、公務員與公共事務言論上，憲法法庭已有相當明確的高保護立場。"
+    tags: [台灣, 憲法法庭, 政治言論, 政府批評, 高度保障]
+
+  - id: F022
+    statement: "憲法法庭113年憲判字第3號要求，在言論與其他權益或公共利益衝突時，個案衡量須考量表意人的故意過失、言論類型與內容、表意脈絡及後果等因素。"
+    status: verified
+    observed_at: "2026-10-21T12:54:00+08:00"
+    source_ids: [S023]
+    evidence_summary: "台灣憲法判例已具備脈絡化、後果化的言論限制分析，而非只有抽象比例原則。"
+    tags: [台灣, 憲法法庭, context, consequences, mens-rea]
+
+  - id: F023
+    statement: "德國基本法第5條在憲法文字上即把意見自由與其『一般法律』等限制並列；聯邦憲法法院自1958年Lüth判決建立交互作用理論，要求限制言論的一般法律本身也必須在言論自由對民主秩序的根本價值下被解釋與限縮。"
+    status: verified
+    observed_at: "2026-10-21T12:54:00+08:00"
+    source_ids: [S024, S025]
+    evidence_summary: "德國的成熟度主要表現在長期形成的憲法—普通法互動方法，不等於對言論採美國式最寬保護。"
+    tags: [德國, Art5, Lüth, Wechselwirkungslehre, 憲法審查]
+
+  - id: F024
+    statement: "德國現行刑法將『公開要求他人犯罪』（§111）、『以特定犯罪威脅而足以擾亂公共和平』（§126）及『公開獎勵或肯定特定犯罪且足以擾亂公共和平』（§140）分成不同罪型規範。"
+    status: verified
+    observed_at: "2026-10-21T12:54:00+08:00"
+    source_ids: [S026, S027, S028]
+    evidence_summary: "與台灣第151、153、305條相比，德國在法條層級對煽動、威脅公共和平、事後肯定犯罪等行為型態有更細的分類；這只能證明規範分化程度，不直接證明其自由保障較優。"
+    tags: [德國, 刑法, 法條分化, incitement, threat, approval]
+
+  - id: F025
+    statement: "加拿大Charter第2(b)保障表意自由，並由第1條要求任何限制須能在自由民主社會中證明為合理；刑法另將counselling已實行犯罪、counselling未實行犯罪與uttering threats分開規範。"
+    status: verified
+    observed_at: "2026-10-21T12:54:00+08:00"
+    source_ids: [S029, S030, S031]
+    evidence_summary: "加拿大同樣呈現『憲法比例審查＋刑法行為類型分化』的制度結構。"
+    tags: [加拿大, Charter, counselling, threats, 法條分化]
+
+  - id: F026
+    statement: "R. v. Hamilton對counselling offence採限縮理解：言詞客觀上須是積極誘導、促成或鼓勵犯罪，主觀上至少須有說服受眾犯罪的意圖；判決並明確以避免把正當抗議、倡議或異議言論過度刑事化作為限縮理由之一。"
+    status: verified
+    observed_at: "2026-10-21T12:54:00+08:00"
+    source_ids: [S032]
+    evidence_summary: "加拿大最高法院也把刑事煽動／勸誘規範與自由表意風險放在同一解釋框架內，而非只依字面判斷。"
+    tags: [加拿大, Hamilton, counselling, mens-rea, freedom-of-expression]
+
+  - id: F027
+    statement: "就本次官方來源查詢所見，台灣在政治／公共事務言論的一般憲法保障已有明確高保護原則；但刑法第151、153、305條與暴力政治言論交界的具體判準，現階段主要仍仰賴普通法院個案發展，例如最高法院109年度台上字第3695號對第153條的目的性限縮。"
+    status: partial
+    observed_at: "2026-10-21T12:54:00+08:00"
+    source_ids: [S003, S004, S021, S022, S023]
+    evidence_summary: "目前找到的資料支持『特定子領域判準較薄』，但不能由本次檢索推論憲法法庭從未處理過所有相關變形案件。"
+    verification_notes:
+      - "not_found != never_existed；此fact限定於本次可查得官方資料。"
+    tags: [台灣, doctrinal-gap, 暴力政治言論, partial]
+
 claims:
   - id: C001
     statement: "在刑法第153條煽惑他人犯罪的判斷中，『現實可行性／犯罪發生可能性』是法律上可忽略的因素。"
@@ -482,6 +674,32 @@ claims:
     related_facts: [F002, F003, F014, F015, F017, F019]
     reasoning_notes: "這是比較法上的分析命題，不等於目前何男案已證明該資源承諾是真實的；仍須以個案證據確認其語意、資源、受眾與後續行為。"
 
+  - id: C011
+    statement: "可以直接把『歐美法制比較成熟』當成本案比較法的前提。"
+    status: unsupported
+    related_facts: [F021, F023, F024, F025, F026, F027]
+    reasoning_notes: "不同法域採取的價值平衡並不相同；規範較細、案例較多或制度較老，不等於實質答案一定更自由或更正確。成熟度若要使用，必須拆成可觀察指標。"
+
+  - id: C012
+    statement: "在『暴力政治言論如何區分受保護表達、煽動與威脅』這個狹窄子領域，美國、德國、加拿大及ECHR體系已累積比台灣更多的規範分化或最高審／憲法層級反覆修正，因此可合理說它們在『doctrinal differentiation與adversarial testing』上部分走得更遠。"
+    status: supported
+    supports: [F010, F011, F012, F013, F014, F015, F016, F017, F018, F019, F023, F024, F025, F026]
+    related_facts: [F005, F021, F027]
+    reasoning_notes: "這是特定議題、特定維度的比較，不是民主或憲政文明排名。美國尤其有1969至2023跨半世紀的incitement/true-threat兩條判例演化；德國有1958起的憲法方法與細分罪型；加拿大有Charter審查與counselling/threats分化；ECHR則有長期context/potential-impact案例群。"
+
+  - id: C013
+    statement: "台灣目前最大的比較法缺口是『憲法完全沒有形成政治言論高保障原則』。"
+    status: contradicted
+    contradicts: [F020, F021, F022]
+    reasoning_notes: "113年憲判3、5已顯示相當具體的言論自由、政治言論與政府批評高保障框架。更精確的缺口在於暴力政治言論進入刑法151/153/305後的分類、要件細化與跨案件穩定性。"
+
+  - id: C014
+    statement: "若以『法制成熟度』作為研究視角，較可驗證的指標應包括：規範是否區分不同言論型態、最高審／憲法法院是否建立可操作測試、測試是否經反例修正、是否處理主觀心態與實際危險、是否能產生跨案件可預測性，而不應用制度年齡或國家名聲直接排名。"
+    status: supported
+    supports: [F005, F010, F011, F012, F014, F015, F016, F023, F024, F025, F026]
+    related_facts: [F021, F022, F027]
+    reasoning_notes: "此為由比較資料歸納出的研究操作化框架；它刻意把『成熟』改寫成可被反證與比較的制度特徵。"
+
 searches:
   - id: Q001
     observed_at: "2026-10-21T11:28:00+08:00"
@@ -531,6 +749,30 @@ searches:
     result: found
     notes: "ECHR採content/context/potential impact與比例性框架；Zana/Leroy為允許限制案例，Öztürk/Şener為保護言論案例。"
 
+  - id: Q007
+    observed_at: "2026-10-21T12:54:00+08:00"
+    platform: web
+    query: "site:cons.judicial.gov.tw 刑法第151條 刑法第153條 刑法第305條 言論自由 煽惑 恐嚇 憲法"
+    scope: "憲法法庭官方網站"
+    result: partial
+    notes: "找到113年憲判3、5的一般／政治言論保障原則，以及112年審裁字第440號涉及第305條但不受理；本次查詢未找到直接就第151或153條暴力政治言論作成實體憲法判斷的憲法法庭判決。此結果僅代表本次查詢。"
+
+  - id: Q008
+    observed_at: "2026-10-21T12:54:00+08:00"
+    platform: web
+    query: "Germany Basic Law Art 5 Lüth StGB 111 126 140 public incitement threats approval crimes"
+    scope: "德國聯邦憲法法院與Gesetze im Internet官方資料"
+    result: found
+    notes: "找到Art.5、Lüth交互作用理論，以及§111/§126/§140的分化規範。"
+
+  - id: Q009
+    observed_at: "2026-10-21T12:54:00+08:00"
+    platform: web
+    query: "Canada Charter 2(b) section 1 counselling offence threats Hamilton Supreme Court"
+    scope: "加拿大司法部法規與Supreme Court of Canada判決"
+    result: found
+    notes: "找到Charter ss.1-2、Criminal Code ss.22/464/264.1及R. v. Hamilton，顯示憲法審查、counselling與threats的制度分化。"
+
 promotion:
   cases:
     - "何男Threads『煙蛋我出』案"
@@ -545,6 +787,7 @@ promotion:
   research:
     - "政治暴力言論：從惡劣表達到可罰威脅／煽惑的司法界線"
     - "實行能力、資源承諾與實際效果在政治言論刑事化中的角色"
+    - "暴力政治言論的法制成熟度：判準形成、反例壓力與制度可預測性"
 
 notes:
   - "後續意見文不應把『言論令人厭惡』直接等同『國家得以刑罰』；應分別檢查第151、153、305條各自的構成要件與最高法院限縮標準。"
@@ -553,3 +796,5 @@ notes:
   - "『煙蛋我出』與假設語句『煙彈我出錢』不能混同；後者若有真實出資承諾，會明顯提高犯罪促成與客觀可行性的證據強度，但何男原句目前仍需依完整語境及外部行為判斷。"
   - "比較法上應嚴格拆開incitement與true threat：前者主要問是否促成受眾立即且可能的違法行動；後者不要求說話者真的打算或有能力執行威脅，但須有足夠脅迫性及相應主觀心態。"
   - "美國與ECHR可形成有用的兩端比較：美國Brandenburg提供高保護硬門檻；ECHR提供較彈性的context / speaker influence / medium / audience / potential impact比例性框架。"
+  - "『成熟度』不宜作文明或國家排名；若用於比較法，應操作化為doctrinal differentiation、apex-court iteration、反例修正、主客觀要件細化、跨案件一致性與可預測性。"
+  - "目前比較結果較支持『台灣在暴力政治言論的刑事邊界上案例累積與判準分化較薄』，不支持『台灣整體言論自由憲法學尚未成熟』。"
