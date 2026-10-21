@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "支持者獎勵、陣營內規範執行與民主煞車：以2025大罷免為起始案例"
   started_at: "2026-10-21T19:18:52+08:00"
-  updated_at: "2026-10-21T21:38:00+08:00"
+  updated_at: "2026-10-21T23:19:55+08:00"
   status: active
 
 topics:
@@ -26,6 +26,11 @@ topics:
   - identity bundling
   - patriotic credential
   - argument exemption
+  - 民防
+  - 敵我意識
+  - 心防
+  - 歷史比較
+  - 紅衛兵比較
 
 sources:
   - id: S001
@@ -249,6 +254,76 @@ sources:
     notes:
       - "此文把「愛台灣」保留為選黨標準，但明言台灣不是非民進黨不可，構成對「愛台灣＝永久支持民進黨」強命題的反例。"
 
+  - id: S020
+    source_type: primary
+    publisher: "民主進步黨"
+    title: "公布罷免文宣三箭 民進黨：罷免投同意，反共更有力！"
+    url: "https://www.dpp.org.tw/media/contents/11218"
+    published_at: "2025-06-18"
+    observed_at: "2026-10-21T23:19:55+08:00"
+    retrieval_status: reachable
+    notes:
+      - "民進黨官方以「罷免投同意，反共更有力」作為共同目標與訴求，並宣布黨公職街講、客廳會、看板等支援行動。"
+      - "此來源可證明黨組織對特定罷免動員給予政治與資源支持，不足以單獨證明所有參與者具有相同動機或支持者心態。"
+
+  - id: S021
+    source_type: secondary
+    publisher: "中央社"
+    title: "沈伯洋：反制中共對台作戰必須先具備敵我意識"
+    url: "https://www.cna.com.tw/news/aipl/202311010185.aspx"
+    published_at: "2023-11-01"
+    observed_at: "2026-10-21T23:19:55+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導引述沈伯洋稱，反制中共對台整體作戰一定要具備「敵我意識」，包含對自己的認識與對中國的認識。"
+
+  - id: S022
+    source_type: primary
+    publisher: "黑熊學院"
+    title: "為何成立黑熊學院"
+    url: "https://kuma-academy.org/about/"
+    observed_at: "2026-10-21T23:19:55+08:00"
+    retrieval_status: reachable
+    notes:
+      - "黑熊學院自述成立目的為築起台灣人民「心防」，使大眾了解現代戰爭、辨識資訊操弄並強化抵抗力量。"
+      - "此頁是組織自我定位，能證明公開宣示目的，不等於獨立驗證所有實際效果。"
+
+  - id: S023
+    source_type: secondary
+    publisher: "中央社"
+    title: "華府智庫座談　沈伯洋：5大層面打造全社會防衛"
+    url: "https://www.cna.com.tw/news/aipl/202607250014.aspx"
+    published_at: "2026-07-25"
+    observed_at: "2026-10-21T23:19:55+08:00"
+    retrieval_status: reachable
+    notes:
+      - "沈伯洋把「心態建構」列為全社會防衛第五層且稱是最重要的一層，包括「絕不投降」與辨別資訊真偽。"
+      - "同一場合稱政府與公民社會之間需要更緊密連結，以提升社會防衛韌性。"
+
+  - id: S024
+    source_type: secondary
+    publisher: "中央社"
+    title: "全民防衛意識抬頭 社企開課讓民眾找到戰鬥位置"
+    url: "https://www.cna.com.tw/news/aipl/202209010350.aspx"
+    published_at: "2022-09-01"
+    observed_at: "2026-10-21T23:19:55+08:00"
+    retrieval_status: reachable
+    notes:
+      - "沈伯洋稱台灣需要的不是全民提槍上陣，而是讓民眾在戰爭時擴大後勤、搜救、救護、交通、治安與避難引導等支援能力。"
+      - "他把黑熊學院描述為培訓與分享觀念的平台，這是評估「準軍事／對內控制」強類比時必須保留的反向證據。"
+
+  - id: S025
+    source_type: secondary
+    publisher: "HISTORY"
+    title: "What Was the Cultural Revolution?"
+    url: "https://www.history.com/articles/what-was-the-cultural-revolution"
+    published_at: "2016-09-09"
+    observed_at: "2026-10-21T23:19:55+08:00"
+    retrieval_status: reachable
+    notes:
+      - "概述文化大革命由毛澤東發動，青年激進分子形成紅衛兵，攻擊被視為反革命的知識分子與黨內菁英。"
+      - "本來源僅用於界定歷史比較中的群眾動員、政治敵人辨識與暴力清洗特徵，不代表黑熊學院或民進黨與紅衛兵等同。"
+
 
 facts:
   - id: F001
@@ -426,6 +501,68 @@ facts:
       - "互動數不是人口比例，也不保證按讚者理解或認同所有推論。"
       - "搜尋結果有平台排序偏差，不能據此做 prevalence estimate。"
     tags: ["2026", Threads, engagement, 愛台灣, 民進黨, bounded-sample]
+  - id: F020
+    statement: "2025-06-28，賴清德在民進黨全代會官方致詞中明確提及「青鳥飛出」與公民自主發起大罷免，並稱民進黨必須「與公民同行，一起承擔守護國家的責任」。"
+    status: verified
+    observed_at: "2026-10-21T23:19:55+08:00"
+    source_ids: [S004]
+    evidence_summary: "官方致詞直接把青鳥、大罷免、守護國家與民進黨「與公民同行」放在同一正向政治敘事中。"
+    verification_notes:
+      - "此fact證明黨主席的公開規範性肯定，不等於對每一個青鳥或罷團言行逐項背書。"
+    tags: ["2025", 青鳥, 大罷免, 民進黨, 賴清德, 守護國家, party-level-reward]
+
+  - id: F021
+    statement: "2025-06-18，民進黨官方以「罷免投同意，反共更有力」推出罷免文宣，並宣布由黨公職投入街講、客廳會與看板等資源支援。"
+    status: verified
+    observed_at: "2026-10-21T23:19:55+08:00"
+    source_ids: [S020]
+    evidence_summary: "黨中央不只口頭肯定，也提供組織與宣傳資源，且把罷免與反共框架明確連結。"
+    tags: ["2025", 大罷免, 民進黨, 反共, 組織資源, party-level-reward]
+
+  - id: F022
+    statement: "2023-11-01，沈伯洋公開主張反制中共對台整體作戰「一定要具備敵我意識」。"
+    status: verified
+    observed_at: "2026-10-21T23:19:55+08:00"
+    source_ids: [S021]
+    evidence_summary: "中央社引述其公開說法，敵我意識被視為反制統戰、輿論戰等作戰的必要條件。"
+    tags: ["2023", 沈伯洋, 敵我意識, 認知戰, 國安]
+
+  - id: F023
+    statement: "黑熊學院現行官方自我定位包含建立人民「心防」、理解現代戰爭、辨識資訊操弄與強化抵抗力量，而不只是一般災害急救教育。"
+    status: verified
+    observed_at: "2026-10-21T23:19:55+08:00"
+    source_ids: [S022]
+    evidence_summary: "黑熊學院官方『為何成立』頁直接列出心防、戰爭理解、資訊操弄辨識與抵抗力量。"
+    tags: [黑熊學院, 民防, 心防, 資訊操弄, 抵抗意志]
+
+  - id: F024
+    statement: "2026-07-25，沈伯洋把「心態建構」列為全社會防衛五層中的最重要一層，包括「絕不投降」與資訊辨識，並主張政府與公民社會需要更緊密連結。"
+    status: verified
+    observed_at: "2026-10-21T23:19:55+08:00"
+    source_ids: [S023]
+    evidence_summary: "其全社會防衛模型明確包含心理／認知層面的動員與政府—公民社會協作。"
+    verification_notes:
+      - "此fact不等於主張政府應控制公民社會，也不等於把國內政治異議者視為敵人。"
+    tags: ["2026", 沈伯洋, 全社會防衛, 心態建構, 公民社會, 政府協作]
+
+  - id: F025
+    statement: "2022年沈伯洋描述黑熊學院時，明確稱台灣需要的不是「全民提槍上陣」，而是擴大戰時後勤、搜救、救護、交通、治安與避難引導等民間支援能力。"
+    status: verified
+    observed_at: "2026-10-21T23:19:55+08:00"
+    source_ids: [S024]
+    evidence_summary: "此公開說法提供對『黑熊＝武裝黨衛／群眾暴力組織』強類比的重要反向證據。"
+    tags: ["2022", 黑熊學院, 民防, 後勤, counterevidence]
+
+  - id: F026
+    statement: "歷史上的紅衛兵是在文化大革命中由毛澤東政治動員的青年群眾組織，曾以革命純潔與敵我分類為背景，攻擊、羞辱與迫害被視為反革命或政治敵人的群體。"
+    status: verified
+    observed_at: "2026-10-21T23:19:55+08:00"
+    source_ids: [S025]
+    evidence_summary: "歷史資料支持把紅衛兵作為『上層政治正當化＋群眾敵我辨識＋對內規範執行／迫害』的歷史比較案例。"
+    verification_notes:
+      - "此fact只定義 comparator 的歷史特徵，不建立其與當代台灣組織的等同性或因果連續性。"
+    tags: [紅衛兵, 文化大革命, 歷史比較, 群眾動員, 敵我分類]
+
 
 claims:
   - id: C001
@@ -603,6 +740,54 @@ claims:
     contradicts: []
     related_facts: []
     reasoning_notes: "F018提供關鍵反例：可以重視愛台灣並據此選黨，同時保留未來更換政黨的可能；問題焦點是排他綁定、論證替代與異議成本，而不是價值本身。"
+  - id: C023
+    statement: "2025大罷免期間，民進黨中央與黨主席對青鳥／公民罷免動員提供了可觀察的正向規範評價與組織資源支持，且部分官方訊息把該動員與「守護國家」「反共」直接連結。"
+    status: supported
+    supports: [F020, F021, F004, F008]
+    contradicts: []
+    related_facts: [F005, F009]
+    reasoning_notes: "這是party-level reward的存在性結論，不等於民進黨中央逐項背書支持者所有言論，也不能直接推估支持者整體mindset。"
+
+  - id: C024
+    statement: "把黑熊學院只描述為一般防災／急救教育，會遺漏其公開定位中的敵我意識、心防、抵抗意志、資訊戰與政府—公民社會協作等政治安全面向。"
+    status: supported
+    supports: [F022, F023, F024]
+    contradicts: []
+    related_facts: [F025]
+    reasoning_notes: "F025同時限制過度解讀：黑熊公開說明並非要求全民武裝，其主要公開課程／功能仍包含民防與後勤支援。"
+
+  - id: C025
+    statement: "現有證據已足以把黑熊學院、沈伯洋或民進黨定性為「紅衛兵」或正在建立紅衛兵式組織。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F022, F023, F024, F025, F026]
+    reasoning_notes: "歷史紅衛兵包含政治領袖動員群眾、對內敵人辨識、羞辱／暴力迫害與革命純潔競逐等更強特徵；目前資料不足以建立當代台灣與此歷史案例的整體等同性。"
+
+  - id: C026
+    statement: "民進黨目前的支持者獎勵結構正在系統性選擇出一套『類紅衛兵mindset』。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F003, F007, F012, F013, F020, F021, F026]
+    reasoning_notes: "現有資料已能證明敵我化、忠誠壓力、evidence-demand punishment與黨級正向動員框架的存在性案例，但仍缺少可操作化的比較指標、系統抽樣與對照組，不能把『類紅衛兵』直接升格成群體定性。"
+
+  - id: C027
+    statement: "在同一政治生態中同時存在黨級國安／反共動員獎勵，以及沈伯洋／黑熊公開強調敵我意識、心防與政府—公民社會連結，足以使『如何避免國安動員滑向對國內政治異議者的非正式標記或壓力』成為合理且需要制度回答的研究問題。"
+    status: partially_supported
+    supports: [F020, F021, F022, F023, F024]
+    contradicts: []
+    related_facts: [F025, F026]
+    reasoning_notes: "前提事實已確認，但『會否滑向』仍是風險命題而非已發生事實；需要進一步查 safeguards、實際標記機制、政府授權邊界與對異議者處理案例。"
+
+  - id: C028
+    statement: "沈伯洋推動全民防衛／黑熊學院的真實目的，是建立用來壓制國內政治異議者的群眾控制工具。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F022, F023, F024, F025]
+    reasoning_notes: "目前可確認的是公開設計內容與政治安全方向；motive attribution需要直接文件、行為鏈或可排除正常國防／民防目的的證據，現階段走不到此結論。"
+
 
 searches:
   - id: Q001
@@ -644,6 +829,14 @@ searches:
     scope: "recent搜尋頁面與頁面中可直接取得的公開貼文"
     result: found
     notes: "找到切割『愛台灣＝支持民進黨』的defensive disclaimer、把其他政黨是否愛台灣連到投民進黨的反向回覆、把救台灣直接連到集中投民進黨的樣本，以及保留政黨競爭性的反例。搜尋排序不是隨機樣本；同一帳號有重複文本，因此本輪不做比例估計。下一步若要檢驗argument exemption，優先找paired interaction：具體命題 -> 要求證據 -> 未補證據 -> 改以愛台／抗中credential處理提問者。"
+  - id: Q006
+    observed_at: "2026-10-21T23:19:55+08:00"
+    platform: "web + GitHub politics-db"
+    query: "民進黨 青鳥 大罷免 反共；沈伯洋 敵我意識；黑熊學院 心防；全社會防衛 心態建構；紅衛兵 歷史比較"
+    scope: "民進黨官方、黑熊學院官方、中央社、HISTORY；politics-db既有supporter-reward research"
+    result: found
+    notes: "補入黨級正向動員／資源支持、沈伯洋與黑熊的敵我意識／心防／政府—公民社會連結，以及『不是全民提槍』的反向證據。紅衛兵只作機制比較，不作等同性定性。後續優先查：國安動員對國內政治異議的制度邊界、具體safeguards、是否存在非正式標記／排斥案例，以及跨黨派 comparator。"
+
 
 promotion:
   cases: []
@@ -666,3 +859,5 @@ notes:
   - "新增 patriotic credential / identity-bundling 維度：區分『愛台灣是選黨價值標準』與『愛台灣被排他綁定為特定政黨資格』；後者已有存在性樣本，前者本身不是問題。"
   - "argument exemption 暫不升格為已證實機制。需要paired interaction證明在具體待證命題被要求證據後，回應者以愛台／抗中credential替代原本舉證。"
   - "不要用2026搜尋頁倒推『以前沒有』或直接宣稱2024-2026惡化；趨勢需要歷史baseline與可比較樣本。"
+  - "紅衛兵比較只能作 mechanism-level comparator：關注上層政治正當化、敵我／純潔分類、群眾自發規範執行、忠誠競逐與對異議者的壓力；不得由部分結構相似直接推成歷史等同性。"
+  - "對沈伯洋／黑熊的研究應區分 purpose、design、safeguard 與 observed effect。敵我意識／心防／政府—公民社會協作已是公開design；『壓制國內異議』仍需獨立證據。"
