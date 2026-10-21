@@ -1,0 +1,207 @@
+session:
+  id: "2026-10-21-fuzhi-development-government-links"
+  project: Politics
+  title: "富畤開發建設有限公司：公司沿革、政府採購與公部門關聯初查"
+  started_at: "2026-10-21T13:18:00+08:00"
+  updated_at: "2026-10-21T13:18:00+08:00"
+  status: active
+
+topics:
+  - 富畤開發建設有限公司
+  - 璽田建設開發有限公司
+  - 政府採購
+  - 高雄
+  - 建設開發
+  - 橋頭
+  - 台糖
+  - 政商關係
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "經濟部商業發展署／全國商工行政服務入口網"
+    title: "113年12月公司變更登記清冊（高雄市）"
+    url: "https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11312KCC.pdf&method=report&reportClass=cmpy&subPath=11312"
+    published_at: "2025-01-05"
+    observed_at: "2026-10-21T13:18:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "統編89168543於113/12/27之變更登記列為『璽田建設開發有限公司』，代表人詹筱涵，資本額100萬元，所在地高雄市岡山區岡山路267號14樓之1。"
+      - "搜尋結果文字轉錄曾把公司名OCR成其他字樣；PDF頁面截圖核對後公司名為『璽田建設開發有限公司』。"
+
+  - id: S002
+    source_type: secondary
+    publisher: "FindCompany 台灣公司網"
+    title: "富畤開發建設有限公司"
+    url: "https://www.findcompany.com.tw/%E5%AF%8C%E7%95%A4%E9%96%8B%E7%99%BC%E5%BB%BA%E8%A8%AD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8"
+    observed_at: "2026-10-21T13:18:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "列示統編89168543、代表人詹筱涵、資本額100萬元、設立日2022-11-15、最後核准變更日2026-08-13。"
+      - "核准變更資料顯示2024-12-27仍名為璽田建設開發有限公司，2026-08-13改為富畤開發建設有限公司。"
+      - "營業項目包括住宅及大樓開發、工業廠房開發、投資興建公共建設、新市鎮／新社區開發、都市更新、區段徵收及市地重劃代辦等。"
+
+  - id: S003
+    source_type: secondary
+    publisher: "商鏡 CompTW"
+    title: "富畤開發建設有限公司（統編89168543）"
+    url: "https://www.comptw.com/item/89168543"
+    observed_at: "2026-10-21T13:18:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "公司歷程列示：2022-11-15以『璽田建設開發有限公司』設立於高雄市三民區民族一路80號27樓之2；2024-12-27遷至岡山路267號14樓之1；2026-08-13更名為富畤開發建設有限公司。"
+      - "第三方彙整頁顯示以公司名稱查無政治獻金、拒絕往來廠商及違反勞動法令紀錄；此部分仍以原始主管機關資料為最終準據。"
+      - "頁面另列出多家與現址相同的公司／商號；共址本身不能證明彼此有控制、交易或政商關係。"
+      - "頁面有『詹筱涵』同姓名政治獻金資料，但網站明示名稱比對可能不是同一人，故本session不將該紀錄歸屬於公司代表人。"
+
+  - id: S004
+    source_type: primary
+    publisher: "經濟部商業發展署／商工登記公示資料查詢服務"
+    title: "生態方舟實業有限公司公司基本資料（用於地址共址基準）"
+    url: "https://findbiz.nat.gov.tw/fts/company/50880108"
+    observed_at: "2026-10-21T13:18:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "公示頁明載高雄市三民區民族一路80號27樓之2的『同地址登記現況為核准設立之公司家數』至少70家。"
+      - "此來源只用於判斷富畤前身之舊登記地址屬大量公司共址地址；不能據此推定該址為虛擬辦公室或推定其他公司與富畤具關係。"
+
+  - id: S005
+    source_type: primary
+    publisher: "行政院公共工程委員會"
+    title: "政府電子採購網－決標查詢"
+    url: "https://web.pcc.gov.tw/prkms/tender/common/agent/readTenderAgent"
+    observed_at: "2026-10-21T13:18:00+08:00"
+    retrieval_status: blocked
+    notes:
+      - "官方決標查詢介面提供『得標廠商』及『廠商統編』欄位，可用統編89168543作直接查詢。"
+      - "本次工具可讀取查詢介面，但無法將帶統編與完整日期條件的動態查詢結果頁成功取回，因此不能把官方採購資料庫判定為零筆。"
+
+facts:
+  - id: F001
+    statement: "統編89168543之公司於2022-11-15以『璽田建設開發有限公司』設立，代表人為詹筱涵、資本額100萬元；2024-12-27遷址至高雄市岡山區岡山路267號14樓之1，2026-08-13更名為『富畤開發建設有限公司』。"
+    status: verified
+    observed_at: "2026-10-21T13:18:00+08:00"
+    source_ids: [S001, S002, S003]
+    evidence_summary: "公司統編、代表人、資本額及2024遷址可由政府公司變更清冊與多個公司資料彙整頁交叉確認；2026更名由近期公司資料頁一致列示。"
+    verification_notes:
+      - "因此搜尋歷史政府往來時必須同時以統編89168543與舊名『璽田建設開發有限公司』檢索，不能只查2026年8月才啟用的現名。"
+    tags: [公司沿革, 統編89168543, 更名, 遷址]
+
+  - id: F002
+    statement: "該公司登記營業項目包含投資興建公共建設、新市鎮／新社區開發、都市更新、區段徵收及市地重劃代辦等可能涉及公部門程序的業務。"
+    status: verified
+    observed_at: "2026-10-21T13:18:00+08:00"
+    source_ids: [S002]
+    evidence_summary: "公司登記營業項目確有相關類別；營業項目只表示可經營範圍，不能證明實際承作政府案件、取得特許或參與特定開發案。"
+    tags: [營業項目, 公共建設, 都市更新, 重劃]
+
+  - id: F003
+    statement: "該公司2022年至2024年使用的登記地址『高雄市三民區民族一路80號27樓之2』是大量公司共址地址；經濟部公示資料對該地址至少顯示70家核准設立公司。"
+    status: verified
+    observed_at: "2026-10-21T13:18:00+08:00"
+    source_ids: [S003, S004]
+    evidence_summary: "這降低了以舊地址本身推導關係網的證據力；共址可形成後續查核線索，但不是控制、合作或利益關係的證明。"
+    tags: [共址, 公司登記, evidence-boundary]
+
+  - id: F004
+    statement: "本輪以統編89168543、現名『富畤開發建設有限公司』及舊名『璽田建設開發有限公司』搜尋一般網頁、政府網域及多個標案索引網站，未找到可核實的政府標案得標紀錄。"
+    status: partial
+    observed_at: "2026-10-21T13:18:00+08:00"
+    source_ids: [S005]
+    evidence_summary: "公開索引搜尋未命中具體採購案，但政府電子採購網動態查詢結果未能由本次工具直接取回，故只能記錄『此次搜尋未找到』，不能寫成『該公司從未得標』。"
+    verification_notes:
+      - "not_found != never_existed。"
+      - "最終確認仍應以政府電子採購網用廠商統編89168543直接查詢全部期間之得標廠商與投標廠商紀錄。"
+    tags: [政府採購, 標案, not_found, unresolved]
+
+  - id: F005
+    statement: "本輪以公司現名、舊名、統編及代表人姓名搭配『台糖』『橋頭』『土地』『建照』『起造人』『補助』『都更』『重劃』等關鍵字搜尋，未找到可直接證明該公司參與橋頭糖廠、高雄新市鎮第三期、台糖土地或特定政府開發案的公開資料。"
+    status: partial
+    observed_at: "2026-10-21T13:18:00+08:00"
+    source_ids: [S001, S002, S003]
+    evidence_summary: "目前只有公司位於岡山、營業項目涵蓋開發業務等背景事實；沒有找到把公司與橋頭／台糖個案連起來的契約、標案、建照、土地文件或官方名單。"
+    verification_notes:
+      - "搜尋不到不是證明不存在；若有土地謄本、建照資料、都市計畫事業單位名冊或契約當事人名單，應另行加入。"
+    tags: [台糖, 橋頭, 高雄新市鎮, not_found, unresolved]
+
+claims:
+  - id: C001
+    statement: "富畤開發建設有限公司已可被證明是政府標案承包商或與政府存在特殊採購關係。"
+    status: unresolved
+    related_facts: [F004]
+    reasoning_notes: "目前一般公開搜尋未找到具體標案，且官方政府電子採購網的廠商統編查詢結果尚未成功直接取回；證據不足以支持，也不足以斷言從未存在。"
+
+  - id: C002
+    statement: "富畤開發建設有限公司已可被證明參與橋頭糖廠、高雄新市鎮第三期或台糖土地開發。"
+    status: unsupported
+    contradicts: [F005]
+    reasoning_notes: "本輪未找到契約、標案、土地或建築許可等直接連結。公司所在地與營業項目不能填補這個證據缺口。"
+
+  - id: C003
+    statement: "富畤／璽田的登記地址可直接證明其與同地址公司形成政商或控制關係。"
+    status: unsupported
+    contradicts: [F003]
+    reasoning_notes: "舊址本身至少70家公司共址，現址亦有大量公司共址；地址重合的辨識力低，須另有股權、董事、交易、電話、網站、契約或金流等關係證據。"
+
+  - id: C004
+    statement: "現有公開資料已足以把同名『詹筱涵』之個人政治獻金歸屬於富畤開發建設有限公司代表人。"
+    status: unsupported
+    related_facts: [F001]
+    reasoning_notes: "第三方資料頁明示政治獻金欄是姓名比對且可能非同一人；在沒有可區別身分的額外資料前不得歸屬。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-21T13:18:00+08:00"
+    platform: politics-db
+    query: "富畤開發建設有限公司／富畤開發／富畤"
+    scope: "lichih/politics-db main"
+    result: not_found
+    notes: "既有evidence ledger未找到此公司專門節點，因此建立本session。"
+
+  - id: Q002
+    observed_at: "2026-10-21T13:18:00+08:00"
+    platform: web
+    query: "89168543／富畤開發建設有限公司／璽田建設開發有限公司 + 標案／政府採購／得標／決標"
+    scope: "一般搜尋、gov.tw、pcc.gov.tw、標案索引網站"
+    result: not_found
+    notes: "未命中具體標案公告；官方採購網的動態統編查詢結果本次無法由工具直接取回，因此不是『零標案』結論。"
+
+  - id: Q003
+    observed_at: "2026-10-21T13:18:00+08:00"
+    platform: web
+    query: "富畤開發建設有限公司／璽田建設開發有限公司／89168543 + 台糖／橋頭／土地"
+    scope: "一般搜尋及政府網域"
+    result: not_found
+    notes: "未找到公司與橋頭糖廠、高雄新市鎮第三期或台糖土地之直接公開連結。"
+
+  - id: Q004
+    observed_at: "2026-10-21T13:18:00+08:00"
+    platform: web
+    query: "富畤開發建設有限公司／璽田建設開發有限公司／89168543 + 建照／起造人／使用執照"
+    scope: "一般搜尋及政府網域"
+    result: not_found
+    notes: "未找到可核實的建照或起造人紀錄；需再以高雄市建管資料庫或個案土地／建號反查。"
+
+  - id: Q005
+    observed_at: "2026-10-21T13:18:00+08:00"
+    platform: web
+    query: "富畤開發建設有限公司／璽田建設開發有限公司 + 補助／獎勵／容積／都更／重劃"
+    scope: "一般搜尋及政府網域"
+    result: not_found
+    notes: "未找到特定政府補助、獎勵、都更或重劃案紀錄。"
+
+  - id: Q006
+    observed_at: "2026-10-21T13:18:00+08:00"
+    platform: web
+    query: "詹筱涵 + 政府／標案／高雄市政府"
+    scope: "一般搜尋及gov.tw"
+    result: partial
+    notes: "搜尋會命中多個明顯可能是同名不同人的資料（例如運動員名單、外縣市稅務公告）；未取得可把那些資料與公司代表人身分連結的識別資訊，故不作歸屬。"
+
+promotion:
+  research:
+    - "富畤開發建設有限公司／璽田建設開發有限公司之政府往來與開發案關係"
+
+notes:
+  - "下一步證據優先序：政府電子採購網以統編89168543直接查全期間得標／投標紀錄；高雄市建管或建築執照資料以公司名、統編反查；如研究橋頭／台糖個案，再從都市計畫書、土地權屬、標售／設定地上權／合作開發契約與起造人名冊反向找公司。"
+  - "目前最重要的邊界是：公司營業項目含公共建設與重劃，不等於實際承接政府開發；位於岡山，也不等於參與橋頭案。"
