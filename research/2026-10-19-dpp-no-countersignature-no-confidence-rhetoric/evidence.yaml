@@ -3,7 +3,7 @@ session:
   project: Politics
   title: 民進黨／支持者「不副署、不滿就倒閣」論述的形成、延續與憲政含義
   started_at: '2026-10-19T18:09:00+08:00'
-  updated_at: '2026-10-19T18:09:00+08:00'
+  updated_at: '2026-10-21T18:19:00+08:00'
   status: active
 topics:
 - 民進黨
@@ -206,6 +206,39 @@ sources:
   retrieval_status: reachable
   notes:
   - 整理多位憲法學者的相反觀點。蘇彥圖警告，不副署若成為無法被突破的否決，可能形成極強行政否決與重複賽局；蘇子喬等認為覆議失敗後應接受。此為學者意見整理，不是憲法法庭終局判決。
+
+- id: S020
+  source_type: secondary
+  publisher: 中天新聞
+  title: 府院不副署綠嗆「藍白可提倒閣」　徐巧芯：當我們3歲小孩？
+  url: https://ctinews.com/news/items/14a1B8z9xk
+  published_at: '2025-12-14'
+  observed_at: '2026-10-21T18:19:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 報導引述徐巧芯稱，當時「綠營還有青鳥側翼們」在喊「不然倒閣啊」，並反問為何行政院拒絕執行／不副署，反而要求國會承擔解散與重選風險。
+  - 這是反對陣營對支持者話語場的觀察與政治評價，本身不能單獨證明支持者比例；其核心描述可與同時期PTT、Reddit自然樣本交叉核對。
+- id: S021
+  source_type: secondary
+  publisher: 震傳媒
+  title: 震傳媒民調（一）／41%支持倒閣、總統解散國會
+  url: https://www.zmedia.com.tw/Document/Detail/39721
+  published_at: '2025-12-24'
+  observed_at: '2026-10-21T18:19:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 民調交叉分析顯示：民進黨支持者36.0%支持倒閣、48.8%反對；國民黨支持者54.7%支持、30.0%反對；民眾黨支持者52.6%支持、35.1%反對。
+  - 題目測的是「在野提出不信任案、總統得解散國會重選」的支持度，不等同直接詢問「是否支持行政院不副署」或「不倒閣是否等於認同不副署」。
+- id: S022
+  source_type: commentary
+  publisher: 徐巧芯 / Facebook
+  title: 徐巧芯公開貼文（使用者提供）
+  url: https://www.facebook.com/HsuChiaoHsin/posts/pfbid02hGLBBT9Qq1nE21EFxrhqWNcaDmLjUzcGMsfRNdDkZBTj2hsrz3P5fLkayU1oVCHkl
+  observed_at: '2026-10-21T18:19:00+08:00'
+  retrieval_status: blocked
+  notes:
+  - 本次無法直接抓取Facebook本文；不以未讀取的本文內容建立fact。
+  - 同一時間與主題的公開報導S020可確認徐巧芯曾公開回應「綠營／青鳥側翼喊倒閣」的論述。
 facts:
 - id: F001
   statement: 現行憲法增修條文把『覆議後應即接受』與『不信任案／倒閣』規定在同一條但不同款：覆議經全體立委二分之一以上維持原案時，行政院長應即接受；不信任案通過後，行政院長辭職並得呈請總統解散立法院。
@@ -365,6 +398,33 @@ facts:
   - 抽樣邊界
   - 支持者文化
   - 代表性
+
+- id: F013
+  statement: 2025-12財劃法不副署爭議中，徐巧芯公開把「綠營／青鳥側翼喊『不然倒閣啊』」描述為當時已存在的政治話語，並以「為何行政院出問題卻要國會承擔解散重選風險」加以反駁。
+  status: verified
+  observed_at: '2026-10-21T18:19:00+08:00'
+  source_ids:
+  - S020
+  evidence_summary: contemporaneous報導直接記錄其公開說法；該來源可證明「有人公開這樣描述並回應此話語場」，而支持者話語本身另由S012、S013等自然樣本獨立支持。
+  tags:
+  - 徐巧芯
+  - 青鳥
+  - 倒閣
+  - 不副署
+  - 話語場
+- id: F014
+  statement: 2025-12-24震傳媒民調中，民進黨支持者對「在野提出不信任案、總統得解散國會重新改選」為36.0%支持、48.8%反對，顯示至少在該次民調中，民進黨支持者並非多數支持倒閣。
+  status: verified
+  observed_at: '2026-10-21T18:19:00+08:00'
+  source_ids:
+  - S021
+  evidence_summary: 這是目前取得的群體層級反證，可限制把社群高聲量樣本外推成支持者多數。題目不是直接測不副署合憲性，因此不能用來否定「支持不副署」比例，只能直接回答「是否支持倒閣／重選」。
+  tags:
+  - 民調
+  - 民進黨支持者
+  - 倒閣
+  - 代表性
+  - 反證
 claims:
 - id: C001
   statement: 『不副署後，在野不滿就自己倒閣』不是fateric09或2026年才出現的臨時說法；至少自2024-12起已有民進黨立委與支持性社群公開採用，2025-12行政院實際不副署後成為行政院、民進黨發言人／黨團反覆使用的正式政治論述，並延續到2026-09。
@@ -394,9 +454,11 @@ claims:
 - id: C004
   statement: 『多數民進黨支持者都支持覆議失敗後以不副署否決法律，並認為在野若反對只能倒閣』。
   status: unsupported
+  contradicts:
+  - F014
   related_facts:
   - F012
-  reasoning_notes: 現有社群自然樣本不能提供群體比例。若要談多數，需要代表性民調、系統抽樣或可重複的完整樣本框架。
+  reasoning_notes: 現有社群自然樣本不能提供群體比例；而2025-12-24民調中，民進黨支持者對倒閣／解散國會是36.0%支持、48.8%反對，至少直接反駁「多數支持倒閣」這一部分。該民調未直接詢問不副署本身，故仍不足以判定多數支持者對不副署的態度。
 - id: C005
   statement: 『立法院若不提出不信任案，就在法律上等於承認行政院不副署合憲、合法或具有正當性』。
   status: unsupported
@@ -439,6 +501,16 @@ claims:
   - F009
   - F012
   reasoning_notes: 可觀察到政治支持與制度實踐並存，但缺乏足以識別政策決策因果的內部資料。
+
+- id: C010
+  statement: 「『不副署後若不滿就倒閣』在當時不只是執政黨官方說法，也已形成可被反對陣營辨識、點名並公開反駁的支持者／側翼話語場。」
+  status: supported
+  supports:
+  - F007
+  - F013
+  related_facts:
+  - F014
+  reasoning_notes: 自然樣本直接證明話語存在，徐巧芯的公開回應證明此話語已成為政治攻防對象；但F014提醒高聲量話語不等於支持者多數意見。
 searches:
 - id: Q001
   observed_at: '2026-10-19T18:09:00+08:00'
@@ -461,6 +533,14 @@ searches:
   scope: 憲法第37、72條、增修條文第3條、釋字520與截至2026-10-19可搜尋之憲法法庭資料
   result: partial
   notes: 找到明確條文與釋字520體系論證，另有正反學者意見；此次查詢未找到直接就『法律案覆議失敗後不副署』作成的終局憲法判決。
+
+- id: Q004
+  observed_at: '2026-10-21T18:19:00+08:00'
+  platform: Web search / Facebook link cross-check
+  query: 徐巧芯 Facebook pfbid02hGL...；徐巧芯 青鳥 不然倒閣啊 不副署；2025-12倒閣民調政黨支持者
+  scope: 使用者提供Facebook貼文、同期新聞、PTT/Reddit與群體層級民調
+  result: partial
+  notes: Facebook本文本次直接抓取失敗，因此不以未讀本文建立事實；找到同期報導確認徐巧芯公開回應「綠營／青鳥側翼喊倒閣」；另找到2025-12-24民調作為群體比例反證。
 promotion:
   cases: []
   comparators: []
