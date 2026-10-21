@@ -1,0 +1,466 @@
+session:
+  id: "2026-10-22-su-family-political-business-network"
+  project: Politics
+  title: "蘇家長期政治資本、家族企業與政府資源交會網絡初查"
+  started_at: "2026-10-22T03:11:23+08:00"
+  updated_at: "2026-10-22T03:11:23+08:00"
+  status: active
+
+topics:
+  - 蘇貞昌
+  - 蘇巧純
+  - 蘇巧慧
+  - 詹秀齡
+  - 二三設計
+  - 二三無限整合行銷
+  - 曠世智能
+  - 超越文創教育基金會
+  - 政商關係
+  - 政治資本
+  - 家族資本
+  - 政府採購
+  - 政治獻金
+  - 公股投資
+  - 家族借貸
+  - 桃園市立圖書館新總館
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "中華民國總統府"
+    title: "總統府今天中午舉行秘書長交接儀式"
+    url: "https://www.president.gov.tw/NEWS/8493"
+    observed_at: "2026-10-22T03:11:23+08:00"
+    retrieval_status: reachable
+    notes:
+      - "總統府2004年資料記載蘇貞昌在出任總統府秘書長前，已歷任省議員、屏東縣長、民進黨秘書長、立法委員及臺北縣長。"
+
+  - id: S002
+    source_type: primary
+    publisher: "中華民國總統府"
+    title: "總統宣布任命民主進步黨前主席蘇貞昌為新任行政院院長"
+    url: "https://www.president.gov.tw/NEWS/10123"
+    observed_at: "2026-10-22T03:11:23+08:00"
+    retrieval_status: reachable
+    notes:
+      - "總統府2006年資料記錄蘇貞昌在第一次出任行政院長前，已具地方首長、中央黨政與民代等長期政治經歷。"
+
+  - id: S003
+    source_type: primary
+    publisher: "行政院"
+    title: "行政院珍貴史料展示－大事紀／歷任院長"
+    url: "https://history.ey.gov.tw/great/"
+    observed_at: "2026-10-22T03:11:23+08:00"
+    retrieval_status: reachable
+    notes:
+      - "行政院史料列蘇貞昌第一次院長任期為2006-01-25至2007-05-21，第二次為2019-01-14至2023-01-31。"
+
+  - id: S004
+    source_type: primary
+    publisher: "經濟部商業發展署／商工登記公示資料查詢服務"
+    title: "二三設計有限公司（統編25111904）公司登記資料"
+    url: "https://findbiz.nat.gov.tw/fts/company/25111904"
+    observed_at: "2026-10-22T03:11:23+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方公示資料列二三設計成立於2010-03-18，代表人蘇巧純，現資本額320萬元。"
+      - "歷史資料顯示2016-07-04公司地址變更為臺北市中山區南京東路2段160號10樓。"
+
+  - id: S005
+    source_type: secondary
+    publisher: "台灣標案網"
+    title: "投標廠商：二三設計有限公司"
+    url: "https://bid.twincn.com/c.aspx?fd_order=1&fd_sel=2&sn=266258"
+    observed_at: "2026-10-22T03:11:23+08:00"
+    retrieval_status: reachable
+    notes:
+      - "索引頁以統編25111904彙整二三設計參與政府採購共11案、得標5案、未得標6案，得標總額22,718,760元。"
+      - "此為第三方採購資料彙整；個別案件最終仍應以政府電子採購網原始公告為準。"
+
+  - id: S006
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "蘇巧純二三設計主動退出政府標案 政院：尊重"
+    url: "https://www.cna.com.tw/news/aipl/202007160049.aspx"
+    published_at: "2020-07-16"
+    observed_at: "2026-10-22T03:11:23+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導記載二三設計宣布，在蘇貞昌擔任行政院長期間不再投標任何層級政府標案；行政院表示尊重。"
+
+  - id: S007
+    source_type: secondary
+    publisher: "公視新聞網"
+    title: "藍營質疑蘇揆三女蘇巧純 靠父親取得標案"
+    url: "https://news.pts.org.tw/article/487345"
+    published_at: "2020-07-16"
+    observed_at: "2026-10-22T03:11:23+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導稱監察院政治獻金公開平台資料顯示二三設計承接蘇巧慧競選相關支出約580萬元及蔡英文競選相關支出約180萬元。"
+      - "本輪尚未由監察院原始逐筆資料直接取回這兩筆廠商明細，因此金額以secondary記錄。"
+
+  - id: S008
+    source_type: primary
+    publisher: "司法院／臺灣新北地方法院"
+    title: "財團法人超越文創教育基金會變更登記公告（110年度法登他字第131號）"
+    url: "https://www.judicial.gov.tw/tw/cp-144-402659-921ca-1.html"
+    published_at: "2021-04-07"
+    observed_at: "2026-10-22T03:11:23+08:00"
+    retrieval_status: reachable
+    notes:
+      - "2021年第12屆董事登記列詹秀齡為董事長、蘇巧純為董事。"
+
+  - id: S009
+    source_type: primary
+    publisher: "經濟部商業發展署"
+    title: "109年06月公司設立登記公司所營事業項目清冊"
+    url: "https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=379100000Gsetup10906.pdf&method=report&reportClass=cmpyCityItem&subPath=10906"
+    published_at: "2020-07-05"
+    observed_at: "2026-10-22T03:11:23+08:00"
+    retrieval_status: reachable
+    notes:
+      - "清冊列統編83588147『二三無限整合行銷有限公司』於2020-06-11設立，代表人蘇巧純，資本額100萬元，地址南京東路2段160號6樓。"
+
+  - id: S010
+    source_type: primary
+    publisher: "經濟部商業發展署／商工登記公示資料查詢服務"
+    title: "二三無限整合行銷有限公司（統編83588147）公司登記資料"
+    url: "https://findbiz.nat.gov.tw/fts/company/83588147"
+    observed_at: "2026-10-22T03:11:23+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方公示資料列該公司2020-06-11設立，後於2024-07-19解散清算完結。"
+
+  - id: S011
+    source_type: primary
+    publisher: "監察院"
+    title: "廉政專刊第223期－蘇貞昌公職人員財產申報"
+    url: "https://www-ws.cy.gov.tw/Download.ashx?icon=..pdf&n=5buJ5pS%2F5bCI5YiK56ysMjIz5pyfLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzg4NjEvMjY1NzQvY2ZiZTBjZTItODM3ZC00ZDcxLWIwMGQtYjJlOTc4MmMyNjY5LnBkZg%3D%3D"
+    observed_at: "2026-10-22T03:11:23+08:00"
+    retrieval_status: reachable
+    notes:
+      - "財產申報債權欄列蘇貞昌與詹秀齡於2021-04-29分別對『蘇○純』有400萬元借貸債權，合計800萬元。"
+      - "申報文件本身對債務人姓名有遮蔽；不得只靠姓氏自行認定完整身分。"
+
+  - id: S012
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "財產申報陳建仁存款367萬證券千萬 林佳龍身家逾3億"
+    url: "https://www.cna.com.tw/news/aipl/202306130328.aspx"
+    published_at: "2023-06-13"
+    observed_at: "2026-10-22T03:11:23+08:00"
+    retrieval_status: reachable
+    notes:
+      - "同期報導在整理蘇貞昌卸任申報時，將其對女兒的債權合計800萬元列為財產項目；與監察院原始申報可交叉使用，但資金用途仍未知。"
+
+  - id: S013
+    source_type: primary
+    publisher: "經濟部商業發展署／商工登記公示資料查詢服務"
+    title: "曠世智能股份有限公司（統編55860334）公司登記資料"
+    url: "https://findbiz.nat.gov.tw/fts/company/55860334"
+    observed_at: "2026-10-22T03:11:23+08:00"
+    retrieval_status: reachable
+    notes:
+      - "現行公示資料列蘇巧純為董事並持有4,991,846股；公司2024年地址變更至南京東路2段160號6樓。"
+
+  - id: S014
+    source_type: secondary
+    publisher: "Companys 台灣公司網"
+    title: "曠世智能股份有限公司－公司歷程"
+    url: "https://www.companys.com.tw/55860334"
+    observed_at: "2026-10-22T03:11:23+08:00"
+    retrieval_status: reachable
+    notes:
+      - "歷史資料列2021年8月新增董事蘇巧純；2022年7月蘇巧純持股由723,456股變更為4,991,846股。"
+      - "歷史時點仍待原始公司變更登記檔補強。"
+
+  - id: S015
+    source_type: primary
+    publisher: "桃園市政府新建工程處"
+    title: "桃市圖新總館工程依法變更設計，由原廠商執行互動多媒體項目，程序合法無瑕疵"
+    url: "https://opc.tycg.gov.tw/News_Content.aspx?n=9330&s=989871"
+    published_at: "2022-10-31"
+    observed_at: "2026-10-22T03:11:23+08:00"
+    retrieval_status: reachable
+    notes:
+      - "市府說明互動多媒體項目由市府與原施工廠商春原營造辦理契約變更設計納入，原廠商再自行尋找合作團隊。"
+      - "市府主張該安排屬非主要部分分包而非政府採購法所稱轉包。"
+
+  - id: S016
+    source_type: primary
+    publisher: "立法院議事轉播網際網路多媒體隨選視訊系統"
+    title: "賴士葆委員質詢蘇貞昌院長－桃園總圖與二三設計"
+    url: "https://ivod.ly.gov.tw/Demand/Speech/141607"
+    observed_at: "2026-10-22T03:11:23+08:00"
+    retrieval_status: reachable
+    notes:
+      - "2022年質詢逐字稿記錄賴士葆質疑桃園總圖約2,495萬元案經春原營造再交由二三設計執行。"
+      - "蘇貞昌答覆重點是二三設計『不參與投標政府的標案』且『都沒有投標政府的標案』，未主張二三完全沒有參與政府出資工程的履約鏈。"
+
+  - id: S017
+    source_type: primary
+    publisher: "行政院國家發展基金／國家發展委員會"
+    title: "有關創業天使投資方案投資曠世智能股份有限公司之說明"
+    url: "https://www.ndc.gov.tw/nc_27_40157"
+    published_at: "2026-05-26"
+    observed_at: "2026-10-22T03:11:23+08:00"
+    retrieval_status: reachable
+    notes:
+      - "國發基金確認曠世智能2022年申請創業天使投資方案並取得1,999萬餘元投資。"
+      - "本案細節另見session 2026-10-22-kuangshi-public-investment。"
+
+  - id: S018
+    source_type: primary
+    publisher: "經濟部"
+    title: "113年度服務業創新研發計畫（SIIR）獲補助企業名單－第1梯次"
+    url: "https://www.moea.gov.tw/MNS/populace/news/wHandNews_File.ashx?file_id=109889"
+    published_at: "2024"
+    observed_at: "2026-10-22T03:11:23+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方名單將曠世智能列於個別創新類別先期創新獲補助企業。"
+      - "這筆補助發生於蘇貞昌2023-01-31卸任行政院長之後，不能拿來直接證明其任內利益衝突。"
+
+facts:
+  - id: F001
+    statement: "在蘇巧純2010年成立二三設計以前，蘇貞昌已歷任省議員、屏東縣長、民進黨秘書長、立法委員、臺北縣長、總統府秘書長、民進黨主席，並於2006至2007年第一次擔任行政院長。"
+    status: verified
+    observed_at: "2026-10-22T03:11:23+08:00"
+    source_ids: [S001, S002, S003]
+    evidence_summary: "總統府與行政院primary直接確認蘇貞昌的政治資本在2010年前已高度成熟，因此2010不能作為『家族尚無政治資本』的自然baseline。"
+    tags: [政治生涯, 時間線, pre-treatment, 政治資本]
+
+  - id: F002
+    statement: "二三設計有限公司於2010年3月成立，代表人為蘇巧純；2016年公司地址變更至臺北市中山區南京東路2段160號10樓。"
+    status: verified
+    observed_at: "2026-10-22T03:11:23+08:00"
+    source_ids: [S004]
+    evidence_summary: "經濟部公司登記可直接確認設立、代表人、資本額與地址沿革。"
+    tags: [二三設計, 蘇巧純, 公司沿革]
+
+  - id: F003
+    statement: "第三方政府採購索引彙整顯示，二三設計至少參與11件政府採購，得標5件、未得標6件，得標總額約2,271.9萬元。"
+    status: partial
+    observed_at: "2026-10-22T03:11:23+08:00"
+    source_ids: [S005]
+    evidence_summary: "資料可作baseline：二三設計不是『參與即必得標』；但因來源為第三方彙整，個別案與完整期間仍應回官方政府電子採購網核對。"
+    tags: [政府採購, 二三設計, baseline, 得標, 未得標]
+
+  - id: F004
+    statement: "2020年7月，二三設計公開表示在蘇貞昌擔任行政院長期間，不再投標任何層級政府標案。"
+    status: verified
+    observed_at: "2026-10-22T03:11:23+08:00"
+    source_ids: [S006, S007]
+    evidence_summary: "中央社與公視同期報導一致記錄該自我限制；此事本身反映當事人亦承認父親任行政院長期間政府採購存在利益衝突或觀感風險，需要額外邊界管理。"
+    tags: [利益衝突, 自我迴避, 二三設計, 政府採購]
+
+  - id: F005
+    statement: "2020年公開政治獻金資料經媒體整理，二三設計曾承接蘇巧慧競選相關支出約580萬元及蔡英文競選相關支出約180萬元。"
+    status: partial
+    observed_at: "2026-10-22T03:11:23+08:00"
+    source_ids: [S007]
+    evidence_summary: "公視明確指稱資料來自監察院政治獻金公開平台，但本輪尚未直接取回監察院逐筆廠商明細，因此保留partial。"
+    tags: [政治獻金, 競選支出, 二三設計, 蘇巧慧, 蔡英文]
+
+  - id: F006
+    statement: "2021年超越文創教育基金會法人登記列詹秀齡為董事長、蘇巧純為董事，顯示蘇家成員同時存在於一個家族／政治公共活動相關法人治理結構中。"
+    status: verified
+    observed_at: "2026-10-22T03:11:23+08:00"
+    source_ids: [S008]
+    evidence_summary: "司法院法人登記公告直接確認董事名單；董事關係本身不證明基金會與家族企業間有不當交易。"
+    tags: [超越基金會, 詹秀齡, 蘇巧純, 組織網絡]
+
+  - id: F007
+    statement: "蘇巧純於2020年6月11日另設二三無限整合行銷有限公司，資本額100萬元，地址為南京東路2段160號6樓；該公司其後於2024年完成解散清算。"
+    status: verified
+    observed_at: "2026-10-22T03:11:23+08:00"
+    source_ids: [S009, S010]
+    evidence_summary: "經濟部設立清冊與公司公示資料可直接確認設立、代表人、地址、資本額與後續解散狀態。"
+    tags: [二三無限, 蘇巧純, 公司沿革, 南京東路160號]
+
+  - id: F008
+    statement: "蘇貞昌與詹秀齡的財產申報顯示，兩人於2021年4月29日分別對『蘇○純』有400萬元借貸債權，合計800萬元。"
+    status: verified
+    observed_at: "2026-10-22T03:11:23+08:00"
+    source_ids: [S011]
+    evidence_summary: "監察院原始財產申報直接列出兩筆借貸、日期與金額；文件遮蔽完整姓名，因此本fact只忠實記錄『蘇○純』。"
+    verification_notes:
+      - "媒體後續將該債務人識別為女兒蘇巧純，但若要把800萬元與特定公司投資連結，仍需獨立金流證據。"
+    tags: [家族借貸, 財產申報, 蘇貞昌, 詹秀齡, "800萬元"]
+
+  - id: F009
+    statement: "第三方曠世智能歷史資料顯示，蘇巧純於2021年8月新增為董事，2022年7月其持股由723,456股增加至4,991,846股；現行官方登記可確認她目前持有4,991,846股。"
+    status: partial
+    observed_at: "2026-10-22T03:11:23+08:00"
+    source_ids: [S013, S014]
+    evidence_summary: "現況持股有官方primary；2021加入董事與2022持股變化的歷史時點目前依第三方公司歷程，仍待原始變更登記檔補強。"
+    tags: [曠世智能, 董事, 持股, 蘇巧純, 時間線]
+
+  - id: F010
+    statement: "2021年4月家庭借貸、2021年8月蘇巧純加入曠世智能董事、2022年7月持股大幅增加在時間上相近，但目前沒有公開金流證據證明800萬元家庭借款被用於取得曠世智能股份。"
+    status: partial
+    observed_at: "2026-10-22T03:11:23+08:00"
+    source_ids: [S011, S013, S014]
+    evidence_summary: "時間排序形成可查核線索；資金用途鏈尚不存在，不能把時間接近直接寫成資金流向。"
+    verification_notes:
+      - "需要借款契約、銀行流向、增資認購文件或股權交易文件才能進一步判定。"
+    tags: [時間線, 家族資本, 曠世智能, unresolved-link]
+
+  - id: F011
+    statement: "2022年桃園市立圖書館新總館互動多媒體項目由市府與原施工廠商春原營造以契約變更方式納入，桃園市政府當時公開表示由春原自行尋找合作團隊，並主張屬合法分包而非違法轉包。"
+    status: verified
+    observed_at: "2026-10-22T03:11:23+08:00"
+    source_ids: [S015]
+    evidence_summary: "桃園市政府新建工程處primary直接說明契約變更與其法律立場；這能證明市府當時採取的事實與法律說法，不足以自行證明所有下游廠商選擇完全不受公部門影響。"
+    tags: [桃園總圖, 二三設計, 分包, 契約變更, 官方說法]
+
+  - id: F012
+    statement: "2022年立法院質詢時，蘇貞昌面對二三設計參與桃園總圖履約鏈的質疑，答覆重點是二三『不參與投標政府的標案』且『都沒有投標政府的標案』。"
+    status: verified
+    observed_at: "2026-10-22T03:11:23+08:00"
+    source_ids: [S016]
+    evidence_summary: "立法院IVOD逐字稿直接確認蘇貞昌對2020自我限制的解釋採『是否直接投標政府標案』作為邊界。"
+    tags: [桃園總圖, 自我迴避, 承諾邊界, 立法院]
+
+  - id: F013
+    statement: "國發基金確認2022年對蘇巧純擔任董事的曠世智能投資1,999萬餘元；該投資發生於蘇貞昌第二次行政院長任內。"
+    status: verified
+    observed_at: "2026-10-22T03:11:23+08:00"
+    source_ids: [S003, S013, S017]
+    evidence_summary: "行政院院長任期與國發基金官方投資說明可建立時間重疊；是否存在不當介入另案保持unresolved。"
+    tags: [國發基金, 曠世智能, 公股投資, 利益衝突, 時間線]
+
+  - id: F014
+    statement: "2024年度經濟部SIIR獲補助名單包含曠世智能；該補助發生在蘇貞昌2023年1月31日卸任行政院長之後。"
+    status: verified
+    observed_at: "2026-10-22T03:11:23+08:00"
+    source_ids: [S003, S018]
+    evidence_summary: "官方名單確認公司獲補助，行政院史料確認蘇貞昌已卸任；因此此筆補助可作長期政府資源交會背景，但不能直接作為其任內利益衝突證據。"
+    tags: [SIIR, 曠世智能, 補助, baseline, 時間線]
+
+claims:
+  - id: C001
+    statement: "蘇巧純2010年創業發生在蘇家尚未累積顯著政治資本之前，因此可作為排除家族政治資本影響的自然baseline。"
+    status: contradicted
+    contradicts: [F001, F002]
+    reasoning_notes: "2010年前蘇貞昌已從政多年，並已任地方首長、中央黨政要職及行政院長；因此2010不能視為政治資本尚未出現的pre-treatment時點。"
+
+  - id: C002
+    statement: "自至少2010年代起，蘇家政治資本、家族企業／法人、競選商業往來、政府採購及政府／公股資金之間存在長期且反覆的可觀察交會，可作為政商關係的結構性研究對象。"
+    status: supported
+    supports: [F001, F002, F003, F004, F005, F006, F007, F008, F009, F011, F012, F013, F014]
+    reasoning_notes: "此處『政商關係』採描述性定義：政治權力／政治活動與商業、組織及資本活動長期交會。它不等同犯罪、圖利或每筆交易均有特權。"
+
+  - id: C003
+    statement: "二三設計只要參與政府採購就一定得標，或其政府標案可由蘇家政治背景充分解釋。"
+    status: unsupported
+    related_facts: [F003]
+    reasoning_notes: "現有採購索引顯示同時有得標與未得標紀錄；此外部分案件跨不同政黨執政地方政府。政治背景可能是研究變項，但不能以存在政治關係直接解釋每一筆得標。"
+
+  - id: C004
+    statement: "蘇家政治權力曾直接或不當介入二三設計、曠世智能的特定政府採購、補助或投資決策。"
+    status: unresolved
+    related_facts: [F004, F011, F012, F013, F014]
+    reasoning_notes: "現有資料建立利益衝突與長期交會結構，但尚缺個案指示、關說、評選例外、金流、決策紀錄或其他足以連結政治權力與特定結果的直接證據。"
+
+  - id: C005
+    statement: "蘇貞昌與詹秀齡2021年合計800萬元家庭借款被蘇巧純用於取得或增加曠世智能股份。"
+    status: unresolved
+    related_facts: [F008, F009, F010]
+    reasoning_notes: "借款、加入董事與持股增加在時間上接近，但目前沒有資金流向或認購文件可建立用途；時間相關不能代替金流證據。"
+
+  - id: C006
+    statement: "二三設計參與2022年桃園總圖互動多媒體項目，本身已足以證明違法轉包或桃園市政府直接指定二三設計。"
+    status: unresolved
+    related_facts: [F011, F012]
+    reasoning_notes: "桃園市府primary主張原承包商自行尋找合作團隊且屬合法分包；外界另有指定／協調質疑。尚缺原始會議紀錄、下游契約與完整決策鏈，不能把爭議直接定性為違法或指定。"
+
+  - id: C007
+    statement: "2020年二三設計『不再投標任何層級政府標案』的自我限制，字面上也禁止公司作為主承包商下游廠商參與政府出資工程。"
+    status: unsupported
+    related_facts: [F004, F011, F012]
+    reasoning_notes: "2022立院答辯顯示蘇貞昌採『是否直接投標政府標案』解釋承諾邊界。是否違反承諾精神屬政治評價，但不能把字面承諾自行擴張成明文禁止所有下游履約。"
+
+  - id: C008
+    statement: "共同地址、家族法人董事關係或親屬關係本身，即足以證明家族企業間存在控制、利益輸送或不當交易。"
+    status: unsupported
+    related_facts: [F006, F007, F009]
+    reasoning_notes: "組織與地址重疊可建立網絡與查核線索，但控制關係、交易或利益輸送仍需股權、契約、金流、董事決策或其他直接證據。"
+
+  - id: C009
+    statement: "蘇巧純具有真實專業能力、私人客戶或曾在不同政黨執政政府得標，就足以排除政商關係或利益衝突查核的必要。"
+    status: unsupported
+    related_facts: [F003, F004, F013]
+    reasoning_notes: "專業能力與政商交會可以同時存在；前者可反駁『完全無能力、純靠關係』，不能反駁政治資本與商業資本長期交會的結構性命題。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-22T03:11:23+08:00"
+    platform: politics-db
+    query: "蘇家 政商 網絡／蘇貞昌 蘇巧純 家族資本／二三設計 長期"
+    scope: "lichih/politics-db main"
+    result: not_found
+    notes: "已有曠世智能單案session，但尚無以家族長期政治－商業交會為主題的專門session，因此另建本檔。"
+
+  - id: Q002
+    observed_at: "2026-10-22T03:11:23+08:00"
+    platform: web
+    query: "二三設計 25111904 政府採購 得標 未得標"
+    scope: "政府採購索引與一般網頁"
+    result: partial
+    notes: "找到第三方採購彙整顯示11次參與、5得標、6未得標；尚未以政府電子採購網逐案完整重建全期間清單。"
+
+  - id: Q003
+    observed_at: "2026-10-22T03:11:23+08:00"
+    platform: web
+    query: "監察院 政治獻金 二三設計 蘇巧慧 蔡英文"
+    scope: "監察院公開平台與媒體報導"
+    result: partial
+    notes: "公視等媒體明確引用監察院平台並報導約580萬元與180萬元，但本輪未成功直接取回監察院逐筆廠商明細。"
+
+  - id: Q004
+    observed_at: "2026-10-22T03:11:23+08:00"
+    platform: web
+    query: "二三無限整合行銷 83588147 政府採購 標案"
+    scope: "政府採購索引、一般搜尋及政府網域"
+    result: not_found
+    notes: "本輪未找到二三無限整合行銷的政府標案紀錄；not_found不等於從未參與或不存在未索引資料。"
+
+  - id: Q005
+    observed_at: "2026-10-22T03:11:23+08:00"
+    platform: web
+    query: "蘇貞昌 詹秀齡 800萬 蘇巧純 曠世智能 增資 認購 金流"
+    scope: "監察院財產申報、公司資料、新聞與一般網頁"
+    result: not_found
+    notes: "可確認2021-04-29兩筆各400萬元借貸及其後董事／持股時間線，但未找到能把借款用途直接連至曠世智能股份取得的銀行金流、認購書或契約。"
+
+  - id: Q006
+    observed_at: "2026-10-22T03:11:23+08:00"
+    platform: web
+    query: "桃園總圖 二三設計 春原營造 會議紀錄 指定 分包 2020 2022"
+    scope: "桃園市政府、立法院IVOD、議會與媒體"
+    result: partial
+    notes: "取得2022桃園市政府官方說明及立院質詢逐字稿；尚未取得足以完整還原下游廠商選定過程的原始會議紀錄與分包契約。"
+
+  - id: Q007
+    observed_at: "2026-10-22T03:11:23+08:00"
+    platform: web
+    query: "桃園總圖 二三設計 檢察署 不起訴 調查 利益衝突"
+    scope: "司法機關公開資料與一般新聞搜尋"
+    result: not_found
+    notes: "本輪未找到可核實的檢察機關正式處分或司法終局文件；不能據此寫成『司法從未調查』或『已證明無不法』。"
+
+promotion:
+  research:
+    - "蘇家政治資本與家族商業／組織資本的長期交會網絡"
+    - "政治人物近親企業之政府採購、公股投資與利益衝突baseline比較"
+  cases: []
+  comparators: []
+
+notes:
+  - "本session的核心不是『有錢即有罪』，而是先建立家族政治、專業、商業與資本形成時間線，再檢驗政府資源交會是否出現超出一般baseline的異常。"
+  - "『政商關係』在此採描述性、結構性用法：政治活動／權力位置與商業、資本、法人、政府資源長期交會；不自動等於貪污、圖利、關說或犯罪。"
+  - "重要反方／baseline：二三設計有未得標紀錄，且存在專業能力與非單一政治陣營之政府客戶；這些資料限制『每筆都是靠關係』的強主張，但不能用來否定長期政治－商業交會網絡本身。"
+  - "下一步高價值證據：監察院政治獻金逐筆資料；政府電子採購網逐案原始公告；桃園總圖原始會議紀錄與分包契約；2021家庭借款用途與曠世持股取得金流；國發基金與臺企銀投資審議／迴避文件。"
+  - "相關單案：sessions/2026-10-22-kuangshi-public-investment/evidence.yaml。"
