@@ -1,9 +1,9 @@
 session:
   id: "2026-10-20-public-authority-auditability-unfalsifiability"
   project: Politics
-  title: "公權力可驗證性缺口與不可證偽敘事：跨案件研究節點"
+  title: "公權力不可證偽性與可驗證性缺口：長期研究主軸"
   started_at: "2026-10-20T17:10:48+08:00"
-  updated_at: "2026-10-20T17:10:48+08:00"
+  updated_at: "2026-10-21T10:24:00+08:00"
   status: active
 
 topics:
@@ -16,6 +16,12 @@ topics:
   - 數位證據
   - failure-state
   - 國安認知作戰
+  - 選罷法第104條
+  - 官方歸因
+  - 情報機關
+  - 可證偽性門檻
+  - 舉證責任
+  - 權力不對稱
   - 台糖
   - FMS
 
@@ -29,6 +35,9 @@ sources:
     observed_at: "2026-10-20T17:10:48+08:00"
     retrieval_status: reachable
     notes:
+  - "本檔自2026-10-21起升格為長期母題。分類維度至少包括：record gap（關鍵紀錄缺失）、record monopoly（紀錄只掌握在被質疑機關）、document integrity（公開文件形成／完整性爭議）、attribution opacity（敵對勢力／認知作戰歸因不可外部重建）、movable failure state（義務終點可持續後移）、adjacent answer（回答相鄰命題但未回答核心質疑）、burden inversion（把應由公權力證明之事項倒給被標記者自證）、external audit/remedy（是否有獨立覆核、錯誤更正與救濟）。"
+  - "『民進黨政府反覆利用不可證偽結構』可作為待測的跨案hypothesis；現有F001-F013足以證明多個公權力領域出現可驗證性缺口，但仍不足以單獨證明跨機關存在統一政黨指令、共同設計或主觀故意。這個界線保留在C003。"
+  - "新增選罷法baseline：sessions/2026-10-21-election-law-104-political-speech-enforcement/evidence.yaml。它用來比較私人政治言論受到刑事追訴時的構成要件、舉證與司法審查，不把『被偵辦』當成內容必然不實。"
       - "記錄王郁文偵訊影音中斷16分鐘之爭議；公訴檢察官表示該段未就犯罪事實訊問，而是與律師溝通、交換法律意見。"
       - "此來源只能證明中斷與雙方說法，不能證明未錄段落實際說了什麼。"
 
@@ -180,6 +189,61 @@ sources:
       - "報導引述不具名資安專家，將15個同步發布『洋流發威了』之粉專連結到中國『無邊界集團』內容農場。"
       - "這不是國安局對該15粉專的具名個案鑑識或正式認定。"
 
+  - id: S015
+    source_type: primary
+    publisher: "法務部全國法規資料庫"
+    title: "公職人員選舉罷免法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0020010"
+    observed_at: "2026-10-21T10:24:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第104條對選舉／罷免中的散布謠言或傳播不實之事設刑事責任，基本型最高5年；個案仍須由檢方證明法定要件。"
+
+  - id: S016
+    source_type: primary
+    publisher: "臺灣桃園地方檢察署"
+    title: "1151003桃檢偵辦散布不實民調電話案件新聞稿"
+    url: "https://www.tyc.moj.gov.tw/294079/294166/294168/1445589/post"
+    published_at: "2026-10-05"
+    observed_at: "2026-10-21T10:24:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "桃檢確認Threads假民調案曾姓男子遭約談、漏夜訊問、10萬元交保、扣押手機，並以選罷法第104條及加重誹謗列為偵查初期涉嫌罪名。"
+
+  - id: S017
+    source_type: primary
+    publisher: "臺灣桃園地方檢察署"
+    title: "1151015桃檢火速偵結起訴假民調案新聞稿"
+    url: "https://www.tyc.moj.gov.tw/294079/294166/294168/1449719/post"
+    published_at: "2026-10-15"
+    observed_at: "2026-10-21T10:24:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "偵結時只以刑法第310條第2項加重誹謗起訴，未再列第104條；顯示偵查初期罪名與最後起訴罪名可能不同。"
+
+  - id: S018
+    source_type: primary
+    publisher: "臺灣高等法院臺南分院／司法院"
+    title: "111年度上訴字第104號賴惠員違反公職人員選舉罷免法案件新聞稿"
+    url: "https://www.judicial.gov.tw/tw/cp-1888-698959-80511-1.html"
+    published_at: "2022-08-18"
+    observed_at: "2026-10-21T10:24:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "賴惠員因稱陳筱諭選舉『都是國共在操盤』遭第104條起訴，一審有罪；二審改判無罪，並說明不實與真正惡意須由檢方負舉證責任。最高法院其後駁回檢方上訴而無罪確定。"
+
+  - id: S019
+    source_type: secondary
+    publisher: "中央社／聯合系轉載"
+    title: "國安局：網駭、爭議訊息暴增 不排除中共為介選情蒐"
+    url: "https://money.udn.com/money/story/7307/9826519"
+    published_at: "2026-10-20"
+    observed_at: "2026-10-21T10:24:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "轉述國安局115年下半年書面業務報告：1至9月追蹤異常帳號蒐報約250萬則爭議訊息，稱Facebook與Threads為中共操作認知戰主要管道。"
+      - "公開報導未揭露『異常帳號』『爭議訊息』的完整操作性定義、逐筆歸因規則、false-positive rate或外部審計機制；本次亦尚未取得該115年下半年報告的官方公開原始PDF。"
+
 facts:
   - id: F001
     statement: "高虹安助理費案中，王郁文2023年4月12日偵訊影音存在約16分鐘中斷；公訴檢察官並未否認中斷，而主張該段未就犯罪事實訊問、屬與律師溝通及交換法律意見。"
@@ -272,6 +336,33 @@ facts:
       - "not_found只代表本次查詢未找到國安局個案聲明，不代表國安機關內部不存在相關情報。"
     tags: [國安局, 洋流, claim-inflation, source-proximity]
 
+  - id: F011
+    statement: "臺灣對選舉／罷免期間特定不實政治資訊已有明文刑事工具：選罷法第104條；實務上可進入約談、扣押、搜索、具保、羈押、起訴與法院判決，但各程序階段不能彼此倒推。"
+    status: verified
+    observed_at: "2026-10-21T10:24:00+08:00"
+    source_ids: [S015, S016, S017]
+    evidence_summary: "第104條提供有構成要件、檢察官偵查與法院審查的刑事路徑；2026 Threads假民調案並顯示偵查初期列第104條，不代表最後一定以第104條起訴。"
+    tags: [選罷法, 第104條, 刑事程序, 政治言論, failure-state]
+
+  - id: F012
+    statement: "賴惠員曾因在選舉期間公開稱對手『都是國共在操盤』遭選罷法第104條刑事起訴，一審有罪、二審逆轉無罪，最高法院其後駁回檢方上訴而確定；法院要求檢方就『不實』與真正惡意負舉證責任。"
+    status: verified
+    observed_at: "2026-10-21T10:24:00+08:00"
+    source_ids: [S018]
+    evidence_summary: "這是『境外勢力／中共操盤』政治歸因本身曾接受刑事司法可證明性檢驗的直接案例。"
+    tags: [賴惠員, 中共操盤, 第104條, 舉證責任, 無罪]
+
+  - id: F013
+    statement: "國安局2026年10月書面業務報告被公開報導為：情報團隊1至9月透過追蹤『異常帳號』蒐報約250萬則『爭議訊息』，並將Facebook與Threads描述為中共操作認知戰的主要管道；目前公開報導未提供足以讓外部逐筆重建這250萬則分類與歸因的完整方法資訊。"
+    status: partial
+    observed_at: "2026-10-21T10:24:00+08:00"
+    source_ids: [S019]
+    evidence_summary: "可確認國安局公開主張的量化規模與平台歸因；方法學透明度的absence finding目前只限於已取得的公開報導與本次尚未取得官方原始PDF，不能推論國安局內部不存在方法、原始資料或監督程序。"
+    verification_notes:
+      - "not_found／未公開不等於不存在。"
+      - "需在10月22日立院備詢後追查是否公開定義、抽樣、歸因證據、false-positive控制或秘密會議監督資料。"
+    tags: [國安局, 認知作戰, 異常帳號, 爭議訊息, attribution-opacity, unresolved]
+
 claims:
   - id: C001
     statement: "『爭議因缺乏可獨立重建的原始紀錄而長期停在unresolved』與『已證明官方沒有問題』是同一件事。"
@@ -334,6 +425,26 @@ claims:
     related_facts: [F008, F009]
     reasoning_notes: "這是目前的核心因果研究假說。案例可證明auditability gap存在，但『造成多少制度信任下降』仍需民調、實驗、歷時比較或其他社會科學證據，不能只由案例存在直接量化。"
 
+  - id: C010
+    statement: "私人政治行為人對選舉對手作『中共／境外勢力操盤』等可驗證事實歸因時，可能進入選罷法第104條刑事程序並由檢方負舉證責任；國安機關以官方身分作敵對勢力／認知作戰歸因，則不能只因具有institutional authority就自動免除可驗證性、監督與救濟問題。"
+    status: supported
+    supports: [F011, F012]
+    related_facts: [F009, F010, F013]
+    reasoning_notes: "支持的是同一把尺的公權力研究原則：制度權威不能取代證據。這不表示情報機關必須公開所有機密來源，也不表示國安局目前特定歸因必然不實或違法；真正待查的是替代性的外部監督、程序、可審計摘要與錯誤更正機制。"
+
+  - id: C011
+    statement: "國安局一旦以『國安／情資機密』理由不公開逐筆證據，就可以把任何國內政治言論認定為中共認知作戰，且外界完全沒有任何監督或救濟機制。"
+    status: unsupported
+    supports: []
+    related_facts: [F009, F010, F013]
+    reasoning_notes: "目前只能確認公開層面的個案證據鏈與方法資訊可能不足；是否存在立院秘密會議、內部稽核、跨機關覆核、司法救濟或其他監督機制，需另外查清，不能把『公開不可驗證』直接寫成『制度上完全不可監督』。"
+
+  - id: C012
+    statement: "『公權力不可證偽性』值得作為跨案件長期研究主軸，而不是單一事件結論：應比較record gap、record monopoly、document integrity、attribution opacity、movable failure state、adjacent answer、burden inversion與external audit／remedy等機制是否反覆出現。"
+    status: supported
+    supports: [F001, F002, F004, F005, F006, F007, F008, F010, F011, F012, F013]
+    reasoning_notes: "這是研究分類法與跨案比較框架。它不預先假定所有案例皆違法、皆由同一政黨設計或皆有相同主觀目的；若新案具有透明可重建紀錄、獨立覆核或明確failure state，應作為反例納入。"
+
 searches:
   - id: Q001
     observed_at: "2026-10-20T17:10:48+08:00"
@@ -383,6 +494,14 @@ searches:
     result: partial
     notes: "官方報告確認一般威脅模型與無邊界集團歸因；15粉專個案目前主要是媒體引述不具名資安專家，未找到國安局具名個案鑑識聲明。"
 
+  - id: Q007
+    observed_at: "2026-10-21T10:24:00+08:00"
+    platform: web
+    query: "選罷法104 Threads假民調／賴惠員國共操盤／國安局250萬爭議訊息"
+    scope: "全國法規資料庫、桃園地檢署、司法院、中央社與國安局115年下半年書面報告相關公開報導"
+    result: partial
+    notes: "確認第104條及實際偵查／審判baseline；確認國安局250萬爭訊與異常帳號的公開主張。115年下半年國安局原始報告PDF本次尚未由官方公開頁面取得，方法學與監督機制待10月22日備詢後續查。"
+
 promotion:
   cases: []
   comparators:
@@ -392,6 +511,7 @@ promotion:
     - "movable failure state：FMS estimated delivery、台糖再次管收trigger"
     - "claim inflation：一般國安威脅模型→特定帳號群→特定政治情緒因果"
   research:
+    - "將本檔維持為『公權力不可證偽性』母題；子案不重複重建全部世界，只回填各自authoritative evidence，再於本檔引用其mechanism。"
     - "建立反例集：同樣受到重大質疑，但後續以完整原始資料、獨立調查或明確failure state成功證偽的公權力案例。"
     - "把auditability gap與制度信任變化做社會科學層級驗證，避免由案例直接推定因果效果。"
 
