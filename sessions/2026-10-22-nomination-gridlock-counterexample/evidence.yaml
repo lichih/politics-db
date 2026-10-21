@@ -1,0 +1,264 @@
+session:
+  id: "2026-10-22-nomination-gridlock-counterexample"
+  project: Politics
+  title: "人事同意權僵局：陳瑞敏112比0對『提誰都不會過』敘事的反證"
+  started_at: "2026-10-22T04:32:50+08:00"
+  updated_at: "2026-10-22T04:32:50+08:00"
+  status: active
+
+topics:
+  - 人事同意權
+  - 審計長
+  - 陳瑞敏
+  - 大法官
+  - 劉靜怡
+  - 賴清德
+  - 立法院
+  - 民進黨
+  - 國民黨
+  - 民眾黨
+  - 提名品質
+  - 國會封殺
+  - 結果導向論證
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "中華民國總統府"
+    title: "總統提名陳瑞敏先生為新任審計長　咨文送交立法院"
+    url: "https://www.president.gov.tw/News/24683"
+    published_at: "2019-08-26"
+    observed_at: "2026-10-22T04:32:50+08:00"
+    retrieval_status: reachable
+    notes:
+      - "蔡英文總統於2019年提名陳瑞敏為審計長。"
+
+  - id: S002
+    source_type: primary
+    publisher: "中華民國總統府"
+    title: "賴清德總統行程紀要－114年8月11日"
+    url: "https://www.president.gov.tw/Page/5"
+    published_at: "2025-08-11"
+    observed_at: "2026-10-22T04:32:50+08:00"
+    retrieval_status: reachable
+    notes:
+      - "總統府記錄賴清德於2025-08-11提名陳瑞敏續任審計部審計長，咨請立法院行使同意權。"
+
+  - id: S003
+    source_type: primary
+    publisher: "立法院"
+    title: "立法院公報第114卷第78期－審計長同意權投票"
+    url: "https://ppg.ly.gov.tw/ppg/PublicationOfficialGazettes/download/communique1/final/pdf/114/78/LCIDC01_1147801.pdf"
+    published_at: "2025-09-30"
+    observed_at: "2026-10-22T04:32:50+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方公報記載陳瑞敏同意票112張、不同意票0張、無效票0張，依法同意續任。"
+
+  - id: S004
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "審計長人事同意權案　陳瑞敏拿112張同意票順利續任"
+    url: "https://www.cna.com.tw/news/aipl/202509300071.aspx"
+    published_at: "2025-09-30"
+    observed_at: "2026-10-22T04:32:50+08:00"
+    retrieval_status: reachable
+    notes:
+      - "中央社記錄民眾黨團公開支持理由，包括認為審計部對行政機關缺失會具體指出、對具體檢舉會調查且結果多數客觀公正。"
+      - "同篇記錄當時國民黨與合作無黨籍54席、民進黨51席、民眾黨8席。"
+
+  - id: S005
+    source_type: primary
+    publisher: "中華民國總統府"
+    title: "113年司法院院長、副院長及大法官提名咨文"
+    url: "https://www.president.gov.tw/News/28694"
+    published_at: "2024-08-30"
+    observed_at: "2026-10-22T04:32:50+08:00"
+    retrieval_status: reachable
+    notes:
+      - "賴清德提名張文貞、姚立明、何賴傑、陳運財、王碧芳、廖福特、劉靜怡共7人為大法官，其中張文貞、姚立明分別為院長、副院長被提名人。"
+
+  - id: S006
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "大法官同意權案綠不挺劉靜怡 7位被提名人全遭封殺"
+    url: "https://www.cna.com.tw/news/aipl/202412240090.aspx"
+    published_at: "2024-12-24"
+    observed_at: "2026-10-22T04:32:50+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第一輪7名被提名人全未過門檻。"
+      - "國民黨對7人全投不同意；民眾黨僅對劉靜怡投同意；民進黨對劉靜怡投不同意、對其餘6人投同意。"
+
+  - id: S007
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "柯建銘說明封殺大法官被提名人劉靜怡理由 事前已向總統報告"
+    url: "https://www.cna.com.tw/news/aipl/202412240148.aspx"
+    published_at: "2024-12-24"
+    observed_at: "2026-10-22T04:32:50+08:00"
+    retrieval_status: reachable
+    notes:
+      - "柯建銘表示民進黨團決議反對劉靜怡，理由包括她過去多次批評民進黨；事前曾向賴清德報告，賴表示尊重黨團自主。"
+      - "可證明第一輪全數未過不能完全歸因於在野黨，因其中一名被提名人遭提名總統所屬黨團反對。"
+
+  - id: S008
+    source_type: primary
+    publisher: "中華民國總統府"
+    title: "114年司法院院長、副院長及大法官提名咨文"
+    url: "https://www.president.gov.tw/News/39136"
+    published_at: "2025-03-21"
+    observed_at: "2026-10-22T04:32:50+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第二輪賴清德提名蔡秋明、蘇素娥、蕭文生、鄭純惠、林麗瑩、陳慈陽、詹鎮榮7人。"
+
+  - id: S009
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "大法官同意權案藍白不同意　7被提名人再遭全數封殺"
+    url: "https://www.cna.com.tw/news/aipl/202507250103.aspx"
+    published_at: "2025-07-25"
+    observed_at: "2026-10-22T04:32:50+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第二輪7名被提名人再度全數未過。"
+      - "國民黨與民眾黨均對7人投不同意。"
+      - "民進黨對5人投同意，但對陳慈陽、詹鎮榮開放投票，黨籍立委出現同意、不同意及棄權。"
+
+  - id: S010
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "翁曉玲促依憲法再提大法官　潘孟安：提名是總統職權"
+    url: "https://www.cna.com.tw/news/aipl/202605210137.aspx"
+    published_at: "2026-05-21"
+    observed_at: "2026-10-22T04:32:50+08:00"
+    retrieval_status: reachable
+    notes:
+      - "總統府秘書長潘孟安面對第三度提名問題時表示，總統已兩度提名14人全遭否決，並反問『還要再送嗎？』。"
+      - "潘孟安會後補充，是否再提名屬總統職權，他只是說明前兩次均遭否決的事實。"
+
+facts:
+  - id: F001
+    statement: "陳瑞敏2019年由蔡英文首次提名為審計長，2025年再由賴清德提名續任。"
+    status: verified
+    observed_at: "2026-10-22T04:32:50+08:00"
+    source_ids: [S001, S002]
+    evidence_summary: "總統府primary直接確認兩次提名的總統不同，第二次仍屬賴清德正式提名。"
+    tags: [陳瑞敏, 蔡英文, 賴清德, 提名]
+
+  - id: F002
+    statement: "2025年9月30日立法院以112票同意、0票不同意、0票無效，同意賴清德提名的陳瑞敏續任審計長。"
+    status: verified
+    observed_at: "2026-10-22T04:32:50+08:00"
+    source_ids: [S002, S003, S004]
+    evidence_summary: "總統府確認賴清德提名；立法院公報直接確認112比0投票結果。"
+    tags: [人事同意權, 112比0, 審計長, 反例]
+
+  - id: F003
+    statement: "第一輪7名大法官被提名人全數未過，但其中劉靜怡獲民眾黨8票同意，反而遭民進黨團投不同意。"
+    status: verified
+    observed_at: "2026-10-22T04:32:50+08:00"
+    source_ids: [S005, S006, S007]
+    evidence_summary: "第一輪全數未過的總體結果，至少有一名被提名人的失敗不能完整歸因於藍白共同反對。"
+    tags: [大法官, 劉靜怡, 民進黨, 民眾黨]
+
+  - id: F004
+    statement: "民進黨團公開說明反對劉靜怡的理由包含她過去對民進黨及其政治人物的強烈批評，且黨團總召事前曾向賴清德報告，賴表示尊重黨團自主。"
+    status: verified
+    observed_at: "2026-10-22T04:32:50+08:00"
+    source_ids: [S007]
+    evidence_summary: "此為民進黨團自身公開說法，可直接證明提名與執政黨團支持並非自動一致。"
+    tags: [劉靜怡, 民進黨團, 提名協調]
+
+  - id: F005
+    statement: "第二輪7名大法官被提名人全數未過；國民黨、民眾黨均整批反對，但民進黨自己對陳慈陽、詹鎮榮並未統一支持，而是開放投票。"
+    status: verified
+    observed_at: "2026-10-22T04:32:50+08:00"
+    source_ids: [S008, S009]
+    evidence_summary: "第二輪存在高度在野黨團一致反對，同時也存在執政黨對部分自家總統提名人未形成統一支持的事實。"
+    tags: [大法官, 第二輪提名, 黨團投票]
+
+  - id: F006
+    statement: "2026年5月，總統府秘書長潘孟安公開以前兩輪14名大法官人選均遭否決為背景，反問是否還要再送第三批提名。"
+    status: verified
+    observed_at: "2026-10-22T04:32:50+08:00"
+    source_ids: [S010]
+    evidence_summary: "可證明總統府方面確曾把前兩次全面否決結果拿來回應後續提名義務／必要性的質疑。"
+    tags: [潘孟安, 大法官, 第三度提名, 政府敘事]
+
+  - id: F007
+    statement: "同一屆立法院既曾對賴清德提名的陳瑞敏投出112比0，也曾兩度使賴清德提出的大法官名單全數未過。"
+    status: verified
+    observed_at: "2026-10-22T04:32:50+08:00"
+    source_ids: [S002, S003, S005, S006, S008, S009]
+    evidence_summary: "不同職位的同意權門檻與職務性質不同，但事實上同一政治結構並非對所有賴清德提名一律投反對。"
+    tags: [比較案例, 人事同意權, 同一立法院]
+
+claims:
+  - id: C001
+    statement: "在目前這一屆立法院，只要是賴清德提名的人，不論人選是誰，都不可能通過同意權。"
+    status: contradicted
+    contradicts: [F001, F002, F007]
+    reasoning_notes: "陳瑞敏是賴清德2025年正式續提的人選，最終獲112票同意、0票反對，足以直接反駁『任何賴清德提名都不可能通過』這個全稱命題。"
+
+  - id: C002
+    statement: "兩輪大法官提名全部失敗，可以完整且單一地歸因於藍白『逢賴必反』，總統府的選人、提名品質與政治協調無須納入原因。"
+    status: contradicted
+    contradicts: [F003, F004, F005, F007]
+    reasoning_notes: "第一輪劉靜怡由民進黨自己反對、民眾黨支持；第二輪民進黨對兩名自家總統提名人也未統一支持。這些事實足以否定『失敗原因只有在野黨』的單因敘事，但不能證明在野黨團沒有高度政治性整批反對。"
+
+  - id: C003
+    statement: "兩輪大法官提名失敗主要是因賴清德提名的人選品質普遍不佳。"
+    status: unresolved
+    related_facts: [F003, F004, F005, F007]
+    reasoning_notes: "目前證據可確定提名品質／適任性與協調必須進入原因模型，但無法由投票結果本身量化它在14人失敗中的權重；國民黨、民眾黨整批反對也是重要競爭解釋。"
+
+  - id: C004
+    statement: "陳瑞敏112比0足以證明大法官被提名人若夠優秀，也一定會獲相同票數通過。"
+    status: unsupported
+    related_facts: [F002, F007]
+    reasoning_notes: "審計長與大法官的職務性質、政治爭議、資格判斷與國會審查情境不同。陳瑞敏案例只能反駁『誰都不會過』，不能直接建立所有職位的充分條件。"
+
+  - id: C005
+    statement: "總統府後續以『前兩次都被否決』回應第三度提名質疑時，可以把前兩輪失敗直接當成國會不可能通過任何新人選的證據。"
+    status: contradicted
+    contradicts: [F002, F003, F004, F005, F006, F007]
+    reasoning_notes: "同一立法院後來對賴清德提名的陳瑞敏112比0同意，且前兩輪大法官中有執政黨自行反對／不統一支持的情況；因此『過去失敗→未來任何提名都無意義』不是由既有資料必然推出的結論。"
+
+  - id: C006
+    statement: "國民黨與民眾黨在人事同意權上沒有任何政黨性封殺或政治考量。"
+    status: contradicted
+    contradicts: [F003, F005]
+    reasoning_notes: "國民黨第一輪整批反對，第二輪國民黨與民眾黨均整批反對，顯示黨團政治考量是重要因素。陳瑞敏反例不能反過來洗掉這項事實。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-22T04:32:50+08:00"
+    platform: politics-db
+    query: "陳瑞敏 112票 大法官 提名 封殺 逢賴必反"
+    scope: "lichih/politics-db main"
+    result: partial
+    notes: "既有審計部制度信賴session收錄陳瑞敏112比0，但尚未以大法官人事僵局敘事為待證命題，因此另建本session。"
+
+  - id: Q002
+    observed_at: "2026-10-22T04:32:50+08:00"
+    platform: web
+    query: "陳瑞敏 112票；劉靜怡 民進黨反對 民眾黨支持；第二輪大法官 民進黨開放投票；潘孟安 還要再送嗎"
+    scope: "總統府、立法院、中央社"
+    result: found
+    notes: "取得兩輪總統正式提名、主要黨團投票行為、陳瑞敏續任投票及總統府後續說法。"
+
+promotion:
+  research:
+    - "人事同意權僵局中的『逢賴必反』與提名品質競爭解釋"
+  cases: []
+  comparators:
+    - "陳瑞敏審計長112比0 vs. 兩輪大法官全數未過"
+
+notes:
+  - "本session不替任何一輪大法官被提名人預先判定適任或不適任。核心是檢驗『無論提誰都不會過』這個全稱政治敘事。"
+  - "陳瑞敏案例的直接反證力只到：同一屆立法院並非對所有賴清德提名都必然否決。不能自行推出『大法官案失敗全因總統選人差』。"
+  - "第一輪劉靜怡是重要反例：她是賴清德正式提名人，卻由民進黨團反對、民眾黨支持，因此『14人全遭否決＝14人全被藍白共同封殺』不是精確描述。"
+  - "第二輪國民黨與民眾黨整批反對仍是強烈的政黨政治證據；不應因陳瑞敏112比0而假裝國會人事案沒有黨爭。"
+  - "較完整的因果模型應至少包含：在野黨團政治對抗、被提名人職位適配與爭議、總統府選人品質、執政黨內部支持程度、跨黨協調與被提名人既有公信力。"
