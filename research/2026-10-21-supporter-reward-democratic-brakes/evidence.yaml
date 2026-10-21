@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "支持者獎勵、陣營內規範執行與民主煞車：以2025大罷免為起始案例"
   started_at: "2026-10-21T19:18:52+08:00"
-  updated_at: "2026-10-21T20:42:42+08:00"
+  updated_at: "2026-10-21T21:38:00+08:00"
   status: active
 
 topics:
@@ -22,6 +22,10 @@ topics:
   - 查證要求懲罰
   - evidence-demand punishment
   - 黃逸豪
+  - 愛台灣
+  - identity bundling
+  - patriotic credential
+  - argument exemption
 
 sources:
   - id: S001
@@ -198,6 +202,65 @@ sources:
       - "這表示「5名國內被告已起訴」與「更上游幕後指揮／組織關聯已完全查明」是不同程序層級。"
       - "報導亦提醒5名被告是否構成犯罪仍待法院審理。"
 
+  - id: S016
+    source_type: commentary
+    publisher: "Threads / @yenyen33001____satan"
+    title: "「愛台灣不等於支持民進黨」"
+    url: "https://www.threads.com/@yenyen33001____satan/post/Det9JCsGGsp"
+    published_at: "2026-10-20"
+    observed_at: "2026-10-21T21:38:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "原文僅稱「冷知識 愛台灣不等於支持民進黨」。"
+      - "在Threads搜尋「愛台灣 民進黨」recent頁面觀察時，該貼文顯示5,857讚、778回覆、55轉發、20分享。互動數是當時快照，不代表每一互動者對完整命題的同意。"
+
+  - id: S017
+    source_type: commentary
+    publisher: "Threads / @iguodalarepublictaiwan"
+    title: "回覆「如果哪一天台灣的其他政黨也能愛台灣，那就不需要投民進黨了」"
+    url: "https://www.threads.com/@iguodalarepublictaiwan/post/DeuAPJbE-5g"
+    published_at: "2026-10-20"
+    observed_at: "2026-10-21T21:38:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "該文直接回覆S016，稱「如果哪一天台灣的其他政黨也能愛台灣，那就不需要投民進黨了，期待那天到來」。"
+      - "同一搜尋頁觀察時顯示7,231讚、26回覆、29轉發、35分享。"
+
+  - id: S018
+    source_type: commentary
+    publisher: "Threads / @tappan758"
+    title: "「愛台小黨不要分散選票」「民進黨必須大贏，才能救台灣」"
+    url: "https://www.threads.com/@tappan758/post/DewgEGYIAvS"
+    published_at: "2026-10-21"
+    observed_at: "2026-10-21T21:38:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "貼文將「國家是大家的」「台灣有難」與集中選票投民進黨直接連結，並稱「愛台小黨不要分散選票」「民進黨必須大贏，才能救台灣」。"
+      - "同帳號在搜尋結果中可見多篇高度重複文本；不可把重複貼文視為彼此獨立樣本。"
+
+  - id: S019
+    source_type: commentary
+    publisher: "Threads / @33graceharu"
+    title: "「台灣不是非得民進黨不可，但我們必須培養出愛台灣的政黨」"
+    url: "https://www.threads.com/@33graceharu/post/Dewb9HOmcWI"
+    published_at: "2026-10-21"
+    observed_at: "2026-10-21T21:38:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "此文把「愛台灣」保留為選黨標準，但明言台灣不是非民進黨不可，構成對「愛台灣＝永久支持民進黨」強命題的反例。"
+
+  - id: S020
+    source_type: search
+    publisher: "Threads"
+    title: "搜尋：愛台灣 民進黨（recent）"
+    url: "https://www.threads.com/search?q=%E6%84%9B%E5%8F%B0%E7%81%A3%20%E6%B0%91%E9%80%B2%E9%BB%A8&serp_type=default&filter=recent"
+    published_at: null
+    observed_at: "2026-10-21T21:38:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "這是平台搜尋結果快照，不是隨機抽樣或代表性民調。排序受平台檢索／推薦機制影響。"
+      - "同一帳號可能重複出現近似文本，因此樣本獨立性不可假設。"
+
 facts:
   - id: F001
     statement: "2025-01-04，民進黨立院黨團總召柯建銘以「藍白賣台」「救台灣」框架主張罷免41席國民黨區域立委。"
@@ -336,6 +399,45 @@ facts:
       - "若後續公開起訴書、判決或幕後指揮證據，應更新此fact與相關claim。"
     tags: ["2026", 黃逸豪, 新北地檢署, 起訴, K, 中國人士, 程序狀態, attribution]
 
+  - id: F016
+    statement: "2026-10-20至21日的Threads公開討論中，可直接觀察到「愛台灣不等於支持民進黨」的防禦性切割，以及反向把「其他政黨是否愛台灣」作為是否需要投民進黨理由的回覆。"
+    status: verified
+    observed_at: "2026-10-21T21:38:00+08:00"
+    source_ids: [S016, S017]
+    evidence_summary: "S016主動切割國家／共同體認同與政黨支持；S017則把其他政黨是否「愛台灣」直接放進支持民進黨的條件句。"
+    verification_notes:
+      - "這證明該等價／綁定關係本身已成為公開爭論命題，不證明任何一方代表整體人口。"
+    tags: ["2026", Threads, 愛台灣, 民進黨, identity-bundling, defensive-disclaimer]
+
+  - id: F017
+    statement: "同一Threads搜尋快照中，存在把「愛台灣／救台灣」直接轉換為集中投票給民進黨的公開論述，例如「愛台小黨不要分散選票」「民進黨必須大贏，才能救台灣」。"
+    status: verified
+    observed_at: "2026-10-21T21:38:00+08:00"
+    source_ids: [S018]
+    evidence_summary: "S018在同一文本內把共同體價值、國安風險與特定政黨投票結論直接連結。"
+    verification_notes:
+      - "同帳號有重複貼文，不把重複次數計為獨立支持者數。"
+    tags: ["2026", Threads, 愛台灣, 救台灣, 民進黨, vote-concentration, identity-bundling]
+
+  - id: F018
+    statement: "同一搜尋快照也存在保留政治競爭性的反例：有使用者稱「台灣不是非得民進黨不可，但我們必須培養出愛台灣的政黨」。"
+    status: verified
+    observed_at: "2026-10-21T21:38:00+08:00"
+    source_ids: [S019]
+    evidence_summary: "此樣本把「愛台灣」作為選黨價值條件，但沒有把該價值永久排他地歸屬民進黨。"
+    tags: ["2026", Threads, 愛台灣, 民進黨, counterexample, political-competition]
+
+  - id: F019
+    statement: "在2026-10-21觀察到的Threads「愛台灣 民進黨」recent搜尋頁面中，支持「愛台灣不等於支持民進黨」的單一貼文與反向把愛台灣條件連到支持民進黨的單一回覆，均取得數千次按讚。"
+    status: verified
+    observed_at: "2026-10-21T21:38:00+08:00"
+    source_ids: [S016, S017, S020]
+    evidence_summary: "S016當時5,857讚，S017當時7,231讚；這可證明兩種相反frame都有高度可見的正向互動。"
+    verification_notes:
+      - "互動數不是人口比例，也不保證按讚者理解或認同所有推論。"
+      - "搜尋結果有平台排序偏差，不能據此做 prevalence estimate。"
+    tags: ["2026", Threads, engagement, 愛台灣, 民進黨, bounded-sample]
+
 claims:
   - id: C001
     statement: "2025大罷免可作為一個已發生的案例，研究國安／敵我化框架、支持者動員與政黨組織投入如何在同一政治過程中相互連結。"
@@ -457,6 +559,62 @@ claims:
     related_facts: [F015]
     reasoning_notes: "如果一個陣營對接受官方歸因給正回饋、對要求證據給負回饋，這會直接影響可審計性與民主 feedback；本claim是研究操作化，不預設其群體普遍性。"
 
+  - id: C016
+    statement: "部分公開政治論述確實把「愛台灣／救台灣」這個公共價值與支持民進黨直接綁定，因此 identity bundling 並非研究者自行虛構的問題。"
+    status: supported
+    supports: [F016, F017]
+    contradicts: []
+    related_facts: [F018, F019]
+    reasoning_notes: "本claim只主張該論述型態存在。F018顯示『愛台灣』也可以作為可競爭的選黨標準，因此不能把所有愛台論述都分類成政黨獨占。"
+
+  - id: C017
+    statement: "「愛台灣不等於支持民進黨」這類 defensive disclaimer 的公開出現，顯示『台灣認同與特定政黨支持是否應綁定』本身已是實際爭論，而非純學術假設。"
+    status: supported
+    supports: [F016]
+    contradicts: []
+    related_facts: [F019]
+    reasoning_notes: "這是 discourse-existence claim，不等於證明發言者確實受到具體個人的強迫，也不證明此壓力在社會中的比例。"
+
+  - id: C018
+    statement: "目前證據已足以證明「愛台灣」在民進黨支持者論述中被系統性用來免除具體政策、事實或因果主張的舉證責任。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F016, F017]
+    reasoning_notes: "現有資料可證明credential-to-conclusion shortcut與identity bundling存在，但尚缺更直接的paired interaction：有人提出具體待證命題／被要求證據後，沒有補證據而改以愛台／抗中資格處理提問者。"
+
+  - id: C019
+    statement: "目前可確認的 identity bundling 與黃逸豪事件中的 evidence-demand punishment 已足以證明兩者由同一套因果機制造成。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F012, F013, F016, F017]
+    reasoning_notes: "兩者在理論上可形成『credential -> argument exemption -> evidence-demand punishment』鏈，但目前只有兩端現象的存在性證據，缺乏足以直接識別中介機制的跨案例或paired evidence。"
+
+  - id: C020
+    statement: "Threads近期搜尋結果足以證明民進黨支持者整體普遍把愛台灣與支持民進黨綁定。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F016, F017, F018, F019]
+    reasoning_notes: "搜尋頁不是隨機抽樣，存在演算法排序、重複帳號與互動自選偏差；只能作自然樣本與存在性證據。"
+
+  - id: C021
+    statement: "目前資料足以證明2024至2026年間台灣政治在『愛台灣作為政治credential』方面相較過去已顯著惡化。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F016, F017, F019]
+    reasoning_notes: "這是時間趨勢命題，需要歷史baseline、同類語料與可比較抽樣；current web state不能倒推出過去不存在同類現象。"
+
+  - id: C022
+    statement: "研究上應把『愛台灣作為選黨價值標準』與『愛台灣被排他綁定為特定政黨credential』分開，避免把所有國家認同訴求一律視為有問題。"
+    status: supported
+    supports: [F016, F017, F018]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "F018提供關鍵反例：可以重視愛台灣並據此選黨，同時保留未來更換政黨的可能；問題焦點是排他綁定、論證替代與異議成本，而不是價值本身。"
+
 searches:
   - id: Q001
     observed_at: "2026-10-21T19:18:52+08:00"
@@ -490,6 +648,17 @@ searches:
     result: found
     notes: "找到一個直接把「要求政府公布調查證據」納入負面譴責的支持者樣本；並找到傅崐萁同時譴責暴力與要求證據的反例，以及起訴5名被告／仍追查幕後指揮與資金流的程序分層資料。"
 
+  - id: Q005
+    observed_at: "2026-10-21T21:38:00+08:00"
+    platform: "Threads connected browser"
+    query: "愛台灣 民進黨"
+    scope: "recent搜尋頁面與頁面中可直接取得的公開貼文"
+    result: found
+    notes:
+      - "找到切割『愛台灣＝支持民進黨』的defensive disclaimer、把其他政黨是否愛台灣連到投民進黨的反向回覆、把救台灣直接連到集中投民進黨的樣本，以及保留政黨競爭性的反例。"
+      - "搜尋排序不是隨機樣本；同一帳號有重複文本，因此本輪不做比例估計。"
+      - "下一步若要檢驗argument exemption，優先找paired interaction：具體命題 -> 要求證據 -> 未補證據 -> 改以愛台／抗中credential處理提問者。"
+
 promotion:
   cases: []
   comparators:
@@ -508,3 +677,6 @@ notes:
   - "既有「中共同路人」語義擴張與支持者自然樣本，分別保存在 research/2026-10-20-ccp-fellow-traveler-label-diffusion/evidence.yaml 與 research/2026-10-19-dpp-supporter-deification-attitudes/evidence.yaml；本檔不宣稱群體代表性。"
   - "「綠共」「北韓法學」不作公開 evidence 定性；如需公開研究，轉換成敵我化、安全化、陣營規範失靈、公權力工具化風險等可檢驗命題。"
   - "新增 evidence-demand punishment 維度：研究支持者是否不只獎勵特定結論，還對要求政府提出證據、區分起訴與定罪、區分中國人士與國家指揮鏈等查證行為施加羞辱或忠誠壓力。"
+  - "新增 patriotic credential / identity-bundling 維度：區分『愛台灣是選黨價值標準』與『愛台灣被排他綁定為特定政黨資格』；後者已有存在性樣本，前者本身不是問題。"
+  - "argument exemption 暫不升格為已證實機制。需要paired interaction證明在具體待證命題被要求證據後，回應者以愛台／抗中credential替代原本舉證。"
+  - "不要用2026搜尋頁倒推『以前沒有』或直接宣稱2024-2026惡化；趨勢需要歷史baseline與可比較樣本。"
