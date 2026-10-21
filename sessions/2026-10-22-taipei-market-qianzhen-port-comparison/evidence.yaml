@@ -1,0 +1,245 @@
+session:
+  id: "2026-10-22-taipei-market-qianzhen-port-comparison"
+  project: Politics
+  title: "台北第一果菜市場與前鎮漁港經費／面積比較的口徑錯置"
+  started_at: "2026-10-22T03:32:11+08:00"
+  updated_at: "2026-10-22T03:32:11+08:00"
+  status: active
+
+topics:
+  - 第一果菜市場
+  - 萬大魚類批發市場
+  - 前鎮漁港
+  - 許智傑
+  - 吳沛憶
+  - 政治圖卡
+  - 偷換概念
+  - 比較基準
+  - 工程經費
+  - 面積口徑
+  - 政治傳播
+
+sources:
+  - id: S001
+    source_type: commentary
+    publisher: "Threads／a728728728"
+    title: "ㄅ好意思 我們沒去過台北 請問 台北的菜市場 柱子是黃金做的嗎？"
+    url: "https://www.threads.com/@a728728728/post/DevSNwNE_Ok"
+    published_at: "2026-10-20"
+    observed_at: "2026-10-22T03:32:11+08:00"
+    retrieval_status: reachable
+    notes:
+      - "貼文以『台北的菜市場柱子是黃金做的嗎？』作為文字框架，並附比較圖。"
+      - "回覆串中，作者面對『市場與漁港面積不能直接比較』質疑時回覆：『只計算時間施工面積喔 空地腹地不統計 看清楚文字』；此回覆僅記錄其公開主張，不視為工程面積的權威來源。"
+
+  - id: S002
+    source_type: secondary
+    publisher: "放言 Fount Media"
+    title: "前瞻計畫吵不停！前鎮漁港81億藍白合擊　許智傑嗆「看到黑影就開槍」列舉：台北市第一果菜市場改建163億、高雄81億就在「哀哀叫」"
+    url: "https://www.fountmedia.io/article/169891"
+    published_at: "2023-08-08"
+    observed_at: "2026-10-22T03:32:11+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導記錄民進黨立委許智傑在廣播節目《新聞放鞭炮》以台北第一果菜市場163億元與前鎮漁港81億元比較。"
+      - "報導直接引述許智傑稱高雄『花的錢是台北的一半』、『功能是台北的5倍，土地更是台北的10倍』。"
+
+  - id: S003
+    source_type: secondary
+    publisher: "FTNN 新聞網"
+    title: "前瞻前鎮漁港81億不合理？吳沛憶爆「台北果菜市場163億」"
+    url: "https://www.ftnn.com.tw/news/50192"
+    published_at: "2023-08-04"
+    observed_at: "2026-10-22T03:32:11+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導記錄當時民進黨立委參選人、台北市議員吳沛憶以台北果菜市場163億元與前鎮漁港81億元並列，作為回應前瞻預算不公指控的一部分。"
+      - "同篇亦記錄吳沛憶主張『預算合不合理，應該從內容來討論，不是拿個數字就來帶風向』；因此本來源只能證明其採用兩案金額對照，不能推成她主張單憑面積或總額即可判定工程效率。"
+
+  - id: S004
+    source_type: primary
+    publisher: "臺北市政府工務局新建工程處"
+    title: "第一果菜及萬大魚類批發市場改建工程－工程介紹"
+    url: "https://nco.gov.taipei/cp.aspx?n=BFB90B099635029C"
+    observed_at: "2026-10-22T03:32:11+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方工程概要列基地面積7.53公頃。"
+      - "第一果菜批發市場為地上6層、地下1層；魚類批發市場為地上8層、地下1層。"
+      - "官方說明改建包含增加營業面積、停車、低溫化市場、物流、自動化倉儲、觀光、智慧綠建築等，並搭配中繼市場。"
+
+  - id: S005
+    source_type: primary
+    publisher: "高雄市政府都市發展局"
+    title: "前鎮漁港都市計畫書－土地使用現況"
+    url: "https://urbangis.kcg.gov.tw/UBA/web_upload/PlanFile/09760/09760_%E9%9B%BB%E5%AD%90%E5%BB%BA%E6%AA%94_%E9%83%BD%E5%B8%82%E8%A8%88%E7%95%AB%E6%9B%B8.pdf"
+    observed_at: "2026-10-22T03:32:11+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方都市計畫資料列前鎮漁港總面積82.24公頃，其中水域26.63公頃、陸域55.61公頃。"
+      - "陸域面積明載包含碼頭、道路；另包含機關、公共設施及製冰、冷凍、加工、機械修理等產業設施。"
+
+  - id: S006
+    source_type: primary
+    publisher: "農業部漁業署"
+    title: "前鎮漁港建設專案計畫係漁業基礎建設整體提升功能"
+    url: "https://wm.moa.gov.tw/preview_fa/view.php?id=1949&subtheme=&theme=Press_release"
+    published_at: "2023-08-02"
+    observed_at: "2026-10-22T03:32:11+08:00"
+    retrieval_status: reachable
+    notes:
+      - "漁業署說明專案總經費81.37億元。"
+      - "經費範圍包括前鎮、旗津二港深水碼頭、船員中心、既有卸魚場、多功能水產品運銷中心、港區及周邊環境、下水道與交通等，不是單一市場建築造價。"
+
+  - id: S007
+    source_type: primary
+    publisher: "農業部漁業署"
+    title: "回應產業期盼 高雄前鎮漁港整體翻新功能服務大升級"
+    url: "https://wm.moa.gov.tw/preview_fa/view.php?font-size=s&id=1946&subtheme=&theme=Press_release"
+    observed_at: "2026-10-22T03:32:11+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方說明約25億元投入深水碼頭及港池浚深，改建長度1,600公尺。"
+      - "15億餘元投入港區及周邊社區雨污水下水道，保護面積約242公頃並改善約11,000公尺道路排水側溝。"
+      - "27億餘元投入既有卸魚場整建及新建3層、總樓地板面積3.9萬餘平方公尺的多功能水產品運銷中心。"
+
+facts:
+  - id: F001
+    statement: "2026年10月20日，Threads帳號a728728728以『台北的菜市場柱子是黃金做的嗎？』重新傳播台北市場與前鎮漁港的經費／規模比較框架。"
+    status: verified
+    observed_at: "2026-10-22T03:32:11+08:00"
+    source_ids: [S001]
+    evidence_summary: "可證明這套比較在2026年仍持續於社群流通；社群貼文只作傳播脈絡，不作工程數據authority。"
+    tags: [Threads, 再流通, 政治圖卡, 社群傳播]
+
+  - id: F002
+    statement: "2023年8月8日，民進黨立委許智傑公開將台北第一果菜市場163億元與前鎮漁港81億元直接對照，並主張高雄花費約為台北一半、功能是5倍、土地是10倍。"
+    status: verified
+    observed_at: "2026-10-22T03:32:11+08:00"
+    source_ids: [S002]
+    evidence_summary: "媒體對廣播節目發言的同期報導保留了明確比較句，可證明政治人物曾把『土地10倍』作為兩案經費攻防的論據。"
+    verification_notes:
+      - "本輪未取得廣播節目完整原始影音，因此發言事實以同期secondary記錄；若日後取得節目原檔可升級來源接近度。"
+    tags: [許智傑, 民進黨, 前鎮漁港, 第一果菜市場, 政治比較]
+
+  - id: F003
+    statement: "2023年8月4日，時任台北市議員吳沛憶也曾把台北市場163億元與前鎮漁港81億元並列作政治回應，但同時明確表示預算合理性應從工程內容討論，而非只拿數字帶風向。"
+    status: verified
+    observed_at: "2026-10-22T03:32:11+08:00"
+    source_ids: [S003]
+    evidence_summary: "可證明163億／81億對照不是2026社群臨時生成；至少2023年已進入政治人物公開論述。吳沛憶本人的附帶說明也限制了對其主張的過度解讀。"
+    tags: [吳沛憶, 民進黨, 政治比較, 來源沿革]
+
+  - id: F004
+    statement: "臺北市第一果菜及萬大魚類批發市場改建案官方所列7.53公頃，是改建工程的基地面積；其主體為地下1層、地上6層與8層的立體批發市場建築。"
+    status: verified
+    observed_at: "2026-10-22T03:32:11+08:00"
+    source_ids: [S004]
+    evidence_summary: "臺北市新工處工程介紹直接定義7.53公頃為『基地面積』，並列樓層與工程功能。"
+    tags: [台北, 基地面積, 第一果菜市場, 萬大魚市, 建築]
+
+  - id: F005
+    statement: "前鎮漁港82.24公頃官方口徑是整體漁港／都市計畫範圍，其中26.63公頃為水域、55.61公頃為陸域，且陸域明確包含碼頭與道路。"
+    status: verified
+    observed_at: "2026-10-22T03:32:11+08:00"
+    source_ids: [S005]
+    evidence_summary: "高雄市都市計畫primary直接拆分82.24公頃的構成；該數字不是單一市場建築基地或建築施工面積。"
+    tags: [前鎮漁港, 都市計畫, 水域, 陸域, 面積口徑]
+
+  - id: F006
+    statement: "前鎮漁港81.37億元專案涵蓋深水碼頭與浚深、下水道及周邊社區、卸魚場與多功能運銷中心、船員中心、交通與環境改善等多類工程，不是單一魚市場大樓造價。"
+    status: verified
+    observed_at: "2026-10-22T03:32:11+08:00"
+    source_ids: [S006, S007]
+    evidence_summary: "漁業署primary直接說明總預算範圍與主要分項；以『81億元／82.24公頃』當作單一建築每公頃造價會把大量非建築工程混入分子與分母。"
+    tags: [前鎮漁港, 工程範圍, 81億元, 深水碼頭, 下水道, 運銷中心]
+
+  - id: F007
+    statement: "前鎮漁港專案中約27億餘元用於既有卸魚場整建及新建約3.9萬平方公尺多功能水產品運銷中心；另約25億元為碼頭／浚深、15億餘元為下水道。"
+    status: verified
+    observed_at: "2026-10-22T03:32:11+08:00"
+    source_ids: [S007]
+    evidence_summary: "分項金額顯示81億元總額不能直接視為一棟市場建築的造價；不同工項需要分別找對應規模指標才有可比性。"
+    tags: [工程分項, 前鎮漁港, 運銷中心, 碼頭, 下水道]
+
+claims:
+  - id: C001
+    statement: "許智傑曾在政治攻防中採用『台北第一果菜市場163億 vs 前鎮漁港81億』，並以『土地10倍』強化高雄工程較便宜的比較。"
+    status: supported
+    supports: [F002]
+    reasoning_notes: "此命題只處理公開論述是否存在，不主張許智傑製作了最初圖表，也不推定其主觀上明知數據口徑有問題。"
+
+  - id: C002
+    statement: "把台北改建案的7.53公頃與前鎮漁港82.24公頃當作同一種類的施工／建築面積，據此稱前鎮土地規模約為台北10倍。"
+    status: contradicted
+    contradicts: [F004, F005]
+    reasoning_notes: "7.53公頃是台北市場改建基地面積；82.24公頃則是包含26.63公頃水域及碼頭、道路等的整體漁港都市計畫範圍。兩者定義不一致，不能直接作相同面積指標的倍數比較。"
+
+  - id: C003
+    statement: "前鎮漁港81億元可直接視為82.24公頃市場建築的改建成本，並與台北7.53公頃市場建築總經費作每公頃效率比較。"
+    status: contradicted
+    contradicts: [F005, F006, F007]
+    reasoning_notes: "81.37億元包含碼頭浚深、下水道、周邊社區、道路、運銷中心與船員中心等；82.24公頃又是整體港區規劃範圍。分子與分母都不是單一建築造價／建築面積口徑。"
+
+  - id: C004
+    statement: "僅由『台北163億、前鎮81億、前鎮面積約10倍』即可推出台北市場改建較浪費或前鎮工程效率顯著更高。"
+    status: unsupported
+    related_facts: [F004, F005, F006, F007]
+    reasoning_notes: "兩案工程類型、預算範圍與面積定義均不同。若要比較成本效率，至少需把相同工項、樓地板面積、工程規格、地下層／結構、機電冷鏈、中繼設施、碼頭與下水道等重新標準化。現有圖表式總額／土地面積並列不足以支持效率結論。"
+
+  - id: C005
+    statement: "這套比較可以描述為一個『比較基準／概念口徑偷換』案例：真實存在的個別數字被放入不同定義的欄位後，產生看似可直接比較的倍數結論。"
+    status: supported
+    supports: [F002, F004, F005, F006]
+    reasoning_notes: "此處『偷換概念』描述的是論證結構，不推定製圖者或轉傳者的主觀故意。核心問題是基地面積與整體港區面積、單一立體市場與複合港區建設被當成同質比較單位。"
+
+  - id: C006
+    statement: "最初製作這張比較圖的人就是許智傑、吳沛憶或特定媒體。"
+    status: unresolved
+    related_facts: [F001, F002, F003]
+    reasoning_notes: "目前證據足以證明2023年政治人物已公開採用相關對照，且2026年仍再流通；本session未建立最初圖表製作者的可驗證來源。原作者身分不影響比較口徑是否成立的判斷。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-22T03:32:11+08:00"
+    platform: politics-db
+    query: "前鎮漁港／第一果菜市場／台北果菜市場 163億 81億"
+    scope: "lichih/politics-db main"
+    result: not_found
+    notes: "本輪在既有evidence未找到專門處理此比較圖／比較口徑的session，因此新增本檔。"
+
+  - id: Q002
+    observed_at: "2026-10-22T03:32:11+08:00"
+    platform: web
+    query: "許智傑 前鎮漁港 台北第一果菜市場 163億 81億 土地10倍"
+    scope: "新聞與公開網頁"
+    result: found
+    notes: "找到2023-08-08放言同期報導，保留『功能5倍、土地10倍』發言。"
+
+  - id: Q003
+    observed_at: "2026-10-22T03:32:11+08:00"
+    platform: web
+    query: "吳沛憶 前鎮漁港 第一果菜市場 163億 81億"
+    scope: "新聞與公開網頁"
+    result: found
+    notes: "找到2023-08-04 FTNN報導，證明相關總額對照至少在2023年已由政治人物公開使用。"
+
+  - id: Q004
+    observed_at: "2026-10-22T03:32:11+08:00"
+    platform: web
+    query: "官方 第一果菜及萬大魚類批發市場 基地面積 7.53公頃；前鎮漁港 82.24公頃 水域 陸域"
+    scope: "臺北市政府、高雄市政府、農業部漁業署"
+    result: found
+    notes: "兩地primary足以確認7.53與82.24的面積定義不同，並確認81.37億元前鎮專案包含多類非市場建築工程。"
+
+promotion:
+  cases: []
+  comparators: []
+  research:
+    - "政治圖卡的分母／統計口徑錯置案例"
+    - "公共工程跨案比較的可比性檢查"
+
+notes:
+  - "本session不判斷台北市場改建163億元本身是否合理，也不判斷前鎮漁港81億元本身是否合理；只查核兩案能否按圖卡式總額／土地面積直接比較。"
+  - "政治人物採用比較可建立政治傳播責任，但不等於已證明其為圖表原作者或主觀故意誤導。"
+  - "若未來要進一步比較工程成本，應建立同工項comparator：建築主體以樓地板面積與規格比較；碼頭以長度／水深／浚挖量比較；下水道以管線長度、服務面積與工程難度比較；不得再用整個港區面積代替建築工程量。"
