@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "政治暴力言論的刑事界線：煽惑、恐嚇與現實可行性"
   started_at: "2026-10-21T11:28:00+08:00"
-  updated_at: "2026-10-21T11:28:00+08:00"
+  updated_at: "2026-10-21T12:10:34+08:00"
   status: active
 
 topics:
@@ -108,6 +108,138 @@ sources:
     notes:
       - "此來源記錄正在審理案件中辯方與檢方對『實施能力／實際維安效果是否重要』的對立主張；不是法院已採納的法律見解。"
 
+  - id: S009
+    source_type: primary
+    publisher: "U.S. Supreme Court / U.S. Government Publishing Office"
+    title: "Brandenburg v. Ohio, 395 U.S. 444 (1969)"
+    url: "https://www.govinfo.gov/app/details/USREPORTS-395/USREPORTS-395-444"
+    published_at: "1969-06-09"
+    observed_at: "2026-10-21T12:10:34+08:00"
+    retrieval_status: reachable
+    notes:
+      - "美國最高法院煽動非法行為的核心判例；官方United States Reports來源。"
+
+  - id: S010
+    source_type: primary
+    publisher: "U.S. Supreme Court / U.S. Government Publishing Office"
+    title: "Hess v. Indiana, 414 U.S. 105 (1973)"
+    url: "https://www.govinfo.gov/app/details/USREPORTS-414/USREPORTS-414-105"
+    published_at: "1973-11-19"
+    observed_at: "2026-10-21T12:10:34+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方United States Reports來源；處理不特定未來違法行動與imminence要求。"
+
+  - id: S011
+    source_type: primary
+    publisher: "U.S. Supreme Court / U.S. Government Publishing Office"
+    title: "Watts v. United States, 394 U.S. 705 (1969)"
+    url: "https://www.govinfo.gov/app/details/USREPORTS-394/USREPORTS-394-705"
+    published_at: "1969-04-21"
+    observed_at: "2026-10-21T12:10:34+08:00"
+    retrieval_status: reachable
+    notes:
+      - "直接涉及對美國總統的暴力語句與political hyperbole界線。"
+
+  - id: S012
+    source_type: primary
+    publisher: "U.S. Supreme Court / U.S. Government Publishing Office"
+    title: "NAACP v. Claiborne Hardware Co., 458 U.S. 886 (1982)"
+    url: "https://www.govinfo.gov/app/details/USREPORTS-458/USREPORTS-458-886"
+    published_at: "1982-07-02"
+    observed_at: "2026-10-21T12:10:34+08:00"
+    retrieval_status: reachable
+    notes:
+      - "政治動員演說中使用暴力修辭，但法院要求把演說與實際暴力、授權或煽動鏈結精確區分。"
+
+  - id: S013
+    source_type: primary
+    publisher: "U.S. Supreme Court / U.S. Government Publishing Office"
+    title: "Virginia v. Black, 538 U.S. 343 (2003)"
+    url: "https://www.govinfo.gov/app/details/USREPORTS-538/USREPORTS-538-343"
+    published_at: "2003-04-07"
+    observed_at: "2026-10-21T12:10:34+08:00"
+    retrieval_status: reachable
+    notes:
+      - "真實威脅（true threats）與intimidation的重要判例。"
+
+  - id: S014
+    source_type: primary
+    publisher: "U.S. Supreme Court"
+    title: "Counterman v. Colorado, 600 U.S. 66 (2023)"
+    url: "https://www.supremecourt.gov/opinions/22pdf/22-138_43j7.pdf"
+    published_at: "2023-06-27"
+    observed_at: "2026-10-21T12:10:34+08:00"
+    retrieval_status: reachable
+    notes:
+      - "美國最高法院明定true-threats案件須有主觀心態門檻，recklessness已足。"
+
+  - id: S015
+    source_type: primary
+    publisher: "European Court of Human Rights"
+    title: "Guide on Article 10 of the European Convention on Human Rights – Freedom of expression"
+    url: "https://ks.echr.coe.int/documents/d/echr-ks/guide_art_10_eng-pdf"
+    published_at: "2026-02-28"
+    observed_at: "2026-10-21T12:10:34+08:00"
+    retrieval_status: reachable
+    notes:
+      - "歐洲人權法院官方判例指南；整理暴力、仇恨、恐怖主義語境下的Article 10判準。"
+
+  - id: S016
+    source_type: primary
+    publisher: "European Court of Human Rights"
+    title: "Zana v. Turkey [GC], 25 November 1997"
+    url: "https://hudoc.echr.coe.int/eng?i=001-58115"
+    published_at: "1997-11-25"
+    observed_at: "2026-10-21T12:10:34+08:00"
+    retrieval_status: reachable
+    notes:
+      - "在高度暴力與緊張情勢下，政治人物支持使用暴力之組織的言論被認為可能加劇已爆炸性的局勢。"
+
+  - id: S017
+    source_type: primary
+    publisher: "European Court of Human Rights"
+    title: "Sürek v. Turkey (No. 1) [GC], 8 July 1999"
+    url: "https://hudoc.echr.coe.int/app/conversion/docx/pdf?filename=CASE+OF+SUREK+v.+TURKEY+&id=001-117696&library=ECHR"
+    published_at: "1999-07-08"
+    observed_at: "2026-10-21T12:10:34+08:00"
+    retrieval_status: reachable
+    notes:
+      - "多數意見接受對被視為鼓吹血腥報復、在暴力背景下可能強化暴力的文字施加限制；另有重要不同意見主張應限於直接挑動嚴重犯罪。"
+
+  - id: S018
+    source_type: primary
+    publisher: "European Court of Human Rights"
+    title: "Öztürk v. Turkey [GC], 28 September 1999"
+    url: "https://hudoc.echr.coe.int/eng?i=002-6600"
+    published_at: "1999-09-28"
+    observed_at: "2026-10-21T12:10:34+08:00"
+    retrieval_status: reachable
+    notes:
+      - "法院認為爭議出版物不構成煽動暴力；即使國內犯罪構成不要求具體效果，國家仍須依Article 10 §2證成干預必要性。"
+
+  - id: S019
+    source_type: primary
+    publisher: "European Court of Human Rights"
+    title: "Şener v. Turkey, 18 July 2000"
+    url: "https://hudoc.echr.coe.int/eng?i=001-58753"
+    published_at: "2000-07-18"
+    observed_at: "2026-10-21T12:10:34+08:00"
+    retrieval_status: reachable
+    notes:
+      - "法院重申：若言論不能被分類為煽動暴力，不能僅以國安、領土完整或防止犯罪為由讓刑法壓制公共資訊。"
+
+  - id: S020
+    source_type: primary
+    publisher: "European Court of Human Rights"
+    title: "Leroy v. France, 2 October 2008"
+    url: "https://hudoc.echr.coe.int/eng?i=001-88657"
+    published_at: "2008-10-02"
+    observed_at: "2026-10-21T12:10:34+08:00"
+    retrieval_status: reachable
+    notes:
+      - "恐怖攻擊後極短時間內發表肯定性圖文、且刊於對恐怖主義特別敏感地區，法院認定制裁未違反Article 10。"
+
 facts:
   - id: F001
     statement: "中央社報導，何姓男子於2026-10-13在Threads相關新聞串文下公開留言「煙蛋我出，吸一吸去殺賴清德比較屌」；北檢於10月19日指揮搜索、拘提，並於10月21日依刑法第151條恐嚇公眾、第153條第1款煽惑他人犯罪及第305條恐嚇危害安全等罪起訴，建請法院量處6月以上有期徒刑。"
@@ -201,6 +333,86 @@ facts:
       - "應與F005最高法院對第153條可行性的法律見解分開；第151、305與第153的要件不可混同。"
     tags: [比較案例, 實行能力, 維安效果, 訴訟主張]
 
+  - id: F010
+    statement: "Brandenburg v. Ohio建立美國煽動非法行為的核心標準：政府不得處罰僅僅倡議使用武力或違法的言論，除非該倡議是以促成『立即的違法行動』（imminent lawless action）為目的，且具有促成該行動的可能性。"
+    status: verified
+    observed_at: "2026-10-21T12:10:34+08:00"
+    source_ids: [S009]
+    evidence_summary: "美國對incitement採非常高的憲法門檻，將mere advocacy與可罰的imminent incitement明確區分。"
+    tags: [美國, Brandenburg, incitement, imminence, likelihood]
+
+  - id: F011
+    statement: "Hess v. Indiana認為，充其量只是在鼓吹未來某個不確定時間的違法行動，且未指向特定個人或群體的言論，不符合Brandenburg的立即性要求。"
+    status: verified
+    observed_at: "2026-10-21T12:10:34+08:00"
+    source_ids: [S010]
+    evidence_summary: "『未來再做』與『現在就去做』在美國incitement判準上有實質差異；言論是否 directed to 某個可行動受眾也重要。"
+    tags: [美國, Hess, incitement, audience, imminence]
+
+  - id: F012
+    statement: "Watts v. United States直接處理對總統的暴力語句。最高法院認為，被告在反戰集會所說若被徵召、第一個想瞄準的是總統LBJ，依其政治語境、條件式表達及現場聽眾反應，屬粗鄙的政治反對與political hyperbole，而非可罰的true threat。"
+    status: verified
+    observed_at: "2026-10-21T12:10:34+08:00"
+    source_ids: [S011]
+    evidence_summary: "這是『殺／射總統』語句不應只看字面，而應看完整語境、條件性及受眾反應的最直接美國比較案例。"
+    tags: [美國, Watts, true-threat, 總統, political-hyperbole, context]
+
+  - id: F013
+    statement: "NAACP v. Claiborne Hardware中，政治動員者曾使用『抓到你去那些店就打斷你的脖子』等暴力修辭；最高法院仍認為其演說未越過Brandenburg界線，並強調缺乏演說之外的證據證明其授權、批准或直接威脅暴力，且被辨識出的暴力事件與爭議演說在時間上並未形成足夠連結。"
+    status: verified
+    observed_at: "2026-10-21T12:10:34+08:00"
+    source_ids: [S012]
+    evidence_summary: "強烈甚至暴力的政治修辭本身不等同實質煽動；法院要求把言論與暴力行為的因果、授權、時間鏈結具體化。"
+    tags: [美國, Claiborne, political-speech, causation, authorization, violence]
+
+  - id: F014
+    statement: "Virginia v. Black將true threats概括為說話者意在傳達對特定個人或群體施以非法暴力之嚴肅表達；法院同時指出，構成true threat不要求說話者實際打算把威脅付諸實行。"
+    status: verified
+    observed_at: "2026-10-21T12:10:34+08:00"
+    source_ids: [S013]
+    evidence_summary: "對威脅罪而言，『是否真的有能力或打算親自執行』不是唯一或必要門檻；需與incitement問題區分。"
+    tags: [美國, Virginia-v-Black, true-threat, intent, intimidation]
+
+  - id: F015
+    statement: "Counterman v. Colorado進一步要求true-threats刑事責任至少具有recklessness的主觀門檻：政府須證明說話者有意識地忽視其言論會被理解為暴力威脅的重大風險，不必證明更高程度的特定恐嚇故意。"
+    status: verified
+    observed_at: "2026-10-21T12:10:34+08:00"
+    source_ids: [S014]
+    evidence_summary: "美國true-threat doctrine同時保留客觀脅迫性與主觀心態的緩衝區，以降低寒蟬效果。"
+    tags: [美國, Counterman, true-threat, recklessness, mens-rea, chilling-effect]
+
+  - id: F016
+    statement: "歐洲人權法院2026年Article 10官方指南整理其暴力言論判例時指出：核心問題是言論是否可能加劇或正當化暴力、仇恨或不寬容；判斷須同時考量用語、發布脈絡與潛在影響，並特別考量政治／社會背景、是否為直接或間接暴力呼籲或暴力正當化。"
+    status: verified
+    observed_at: "2026-10-21T12:10:34+08:00"
+    source_ids: [S015]
+    evidence_summary: "ECHR不是採美國式單一硬門檻，而是將內容、脈絡與potential impact放在同一個比例性框架內。"
+    tags: [歐洲, ECHR, Article-10, context, potential-impact, violence]
+
+  - id: F017
+    statement: "Zana v. Turkey中，歐洲人權法院認為前市長在當地高度緊張、且其訪談恰與PKK對平民的致命攻擊同時期發表支持PKK為『民族解放運動』的言論，可能加劇已經爆炸性的局勢，因此其定罪未違反Article 10。"
+    status: verified
+    observed_at: "2026-10-21T12:10:34+08:00"
+    source_ids: [S016, S015]
+    evidence_summary: "ECHR會把說話者身分／影響力、現實暴力背景、時間接近性及可能效果一起納入。"
+    tags: [歐洲, ECHR, Zana, context, speaker-influence, timing]
+
+  - id: F018
+    statement: "Öztürk v. Turkey與Şener v. Turkey反向顯示：即使處於反恐或國安背景，只要爭議言論本身不能被合理分類為煽動暴力，國家仍不能僅以國安、領土完整或防止犯罪等抽象理由動用刑法；國內法即使不要求實際具體效果，也不免除Article 10下對必要性與比例性的審查。"
+    status: verified
+    observed_at: "2026-10-21T12:10:34+08:00"
+    source_ids: [S018, S019, S015]
+    evidence_summary: "『社會很緊張／涉及恐怖主義』不是自動通行證；仍需證明該言論與暴力風險的關聯。"
+    tags: [歐洲, ECHR, necessity, proportionality, terrorism, no-incitement]
+
+  - id: F019
+    statement: "Leroy v. France中，歐洲人權法院接受對一則肯定911攻擊的諷刺圖文所為制裁，重點包括發表距攻擊僅兩天、刊登地區本身對恐怖主義高度敏感，以及該表達在當地可能激化暴力與公共秩序風險。"
+    status: verified
+    observed_at: "2026-10-21T12:10:34+08:00"
+    source_ids: [S020, S015]
+    evidence_summary: "此案顯示ECHR不像美國Brandenburg那樣要求嚴格imminence，但仍實質依賴時點、地區、背景與可能影響，而非只看字面冒犯性。"
+    tags: [歐洲, ECHR, Leroy, terrorism, timing, potential-impact]
+
 claims:
   - id: C001
     statement: "在刑法第153條煽惑他人犯罪的判斷中，『現實可行性／犯罪發生可能性』是法律上可忽略的因素。"
@@ -243,6 +455,33 @@ claims:
     related_facts: [F001, F009]
     reasoning_notes: "差異不等於雙標；需控制言論內容、發布次數、對象、公眾性、通知、實行能力、資源承諾、是否有人響應、實際維安效果與程序狀態後再比較。"
 
+  - id: C007
+    statement: "美國最高法院對『煽動第三人犯罪』與『對特定人形成真實威脅』採相同的一套標準。"
+    status: contradicted
+    contradicts: [F010, F011, F012, F014, F015]
+    reasoning_notes: "incitement以Brandenburg的目的、立即性與可能性為核心；true threat則看是否為真實暴力威脅及至少recklessness的主觀門檻。兩條doctrine不能混用。"
+
+  - id: C008
+    statement: "在美國incitement分析中，說話者本人是否具有親自完成目標犯罪的能力，是憲法判準的核心。"
+    status: contradicted
+    contradicts: [F010, F011]
+    related_facts: [F013]
+    reasoning_notes: "Brandenburg/Hess主要檢查言論是否directed to促成imminent lawless action，以及該行動是否likely發生；焦點是受眾與因果風險，而不是說話者本人能不能親手完成犯罪。資源承諾則可能作為提高可行性與likely effect的證據。"
+
+  - id: C009
+    statement: "歐洲人權法院採與Brandenburg相同的嚴格『立即性』必要條件，沒有立即違法行動就不能限制言論。"
+    status: contradicted
+    contradicts: [F016, F017, F019]
+    related_facts: [F018]
+    reasoning_notes: "ECHR採Article 10比例性與context/potential impact框架；imminence可影響判斷，但不是像美國Brandenburg那樣的獨立硬門檻。"
+
+  - id: C010
+    statement: "比較美國與ECHR判例後，『煙彈我出／我出錢』這類資源承諾的法律重要性，較精確地說不是證明說話者本人能親自殺人，而是可能把抽象政治暴言轉化為更可行的犯罪促成行為，增加受眾實行的可能性、言論的嚴肅性及潛在效果。"
+    status: supported
+    supports: [F010, F011, F013, F016]
+    related_facts: [F002, F003, F014, F015, F017, F019]
+    reasoning_notes: "這是比較法上的分析命題，不等於目前何男案已證明該資源承諾是真實的；仍須以個案證據確認其語意、資源、受眾與後續行為。"
+
 searches:
   - id: Q001
     observed_at: "2026-10-21T11:28:00+08:00"
@@ -276,6 +515,22 @@ searches:
     result: found
     notes: "找到中央社2017年報導基隆地檢署不起訴案例；尚缺原不起訴處分書。"
 
+  - id: Q005
+    observed_at: "2026-10-21T12:10:34+08:00"
+    platform: web
+    query: "US Supreme Court incitement true threat president political hyperbole Brandenburg Hess Watts Claiborne Counterman"
+    scope: "美國最高法院與U.S. Government Publishing Office官方判決資料"
+    result: found
+    notes: "建立兩條獨立doctrine：incitement（Brandenburg/Hess/Claiborne）與true threat（Watts/Virginia v. Black/Counterman）。"
+
+  - id: Q006
+    observed_at: "2026-10-21T12:10:34+08:00"
+    platform: web
+    query: "ECHR Article 10 incitement violence context potential impact Zana Surek Ozturk Sener Leroy"
+    scope: "European Court of Human Rights HUDOC與2026 Article 10官方判例指南"
+    result: found
+    notes: "ECHR採content/context/potential impact與比例性框架；Zana/Leroy為允許限制案例，Öztürk/Şener為保護言論案例。"
+
 promotion:
   cases:
     - "何男Threads『煙蛋我出』案"
@@ -284,6 +539,9 @@ promotion:
     - "2026彰化地院『要殺賴清德』一審無罪案"
     - "2017『要殺掉蔡總統』基隆地檢不起訴案"
     - "陳之漢『斬首總統』審理中案"
+    - "Brandenburg / Hess：美國incitement立即性與可能性基準"
+    - "Watts / Virginia v. Black / Counterman：美國true-threat基準"
+    - "Zana / Öztürk / Şener / Leroy：ECHR暴力政治言論Article 10基準"
   research:
     - "政治暴力言論：從惡劣表達到可罰威脅／煽惑的司法界線"
     - "實行能力、資源承諾與實際效果在政治言論刑事化中的角色"
@@ -293,3 +551,5 @@ notes:
   - "『要不要先確認他的實行能力』可改寫為可驗證問題：說話者是否具備或承諾提供使犯罪更可行的資源？是否有特定受煽惑者、聯絡、交付、計畫、響應或維安反應？"
   - "反向也不能把『沒有親自殺人的能力』當成一律免責。若說話者角色是出資、供應毒品、武器或其他犯罪資源，其相關能力應按該角色判斷。"
   - "『煙蛋我出』與假設語句『煙彈我出錢』不能混同；後者若有真實出資承諾，會明顯提高犯罪促成與客觀可行性的證據強度，但何男原句目前仍需依完整語境及外部行為判斷。"
+  - "比較法上應嚴格拆開incitement與true threat：前者主要問是否促成受眾立即且可能的違法行動；後者不要求說話者真的打算或有能力執行威脅，但須有足夠脅迫性及相應主觀心態。"
+  - "美國與ECHR可形成有用的兩端比較：美國Brandenburg提供高保護硬門檻；ECHR提供較彈性的context / speaker influence / medium / audience / potential impact比例性框架。"
