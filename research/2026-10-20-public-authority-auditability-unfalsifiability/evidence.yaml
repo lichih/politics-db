@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "公權力不可證偽性與可驗證性缺口：長期研究主軸"
   started_at: "2026-10-20T17:10:48+08:00"
-  updated_at: "2026-10-21T12:44:41+08:00"
+  updated_at: "2026-10-21T13:44:00+08:00"
   status: active
 
 topics:
@@ -23,6 +23,8 @@ topics:
   - 舉證責任
   - 權力不對稱
   - 台糖
+  - 逢甲辣椒水
+  - 警察證據保全
   - FMS
 
 sources:
@@ -418,6 +420,16 @@ facts:
       - "此案例的證明功能是反駁『一審有罪即可停止證據／程序質疑』的一般化規則，而不是替其他案件提供實體無罪證據。"
     tags: [高虹安, record-gap, appellate-reversal, inference-boundary]
 
+  - id: F016
+    statement: "2026年4月17日柯文哲逢甲掃街辣椒水事件中，臺中市警察局後續確認第六分局長周俊銘主動具領辣椒水、在不同時間共4次朝地面噴灑；發現噴罐異常後未依警方所述正確方式封裝停用，當晚將噴罐丟入夜市垃圾桶，並約24小時後才向警局長報告；警方另表示其偵辦過程中未第一時間坦承。"
+    status: verified
+    observed_at: "2026-10-21T13:44:00+08:00"
+    source_ids: []
+    evidence_summary: "本fact重用子session sessions/2026-10-21-huang-kuo-chang-public-claim-counterexamples/evidence.yaml 的F010-F011；父級只記錄其auditability mechanism，不重複建立來源權威。"
+    verification_notes:
+      - "這些行為支持證據保全／時序可驗證性缺口，但不能自行證明政治指示、滅證故意或陰謀。"
+    tags: [逢甲辣椒水, record-gap, evidence-lifecycle, police, auditability]
+
 claims:
   - id: C001
     statement: "『爭議因缺乏可獨立重建的原始紀錄而長期停在unresolved』與『已證明官方沒有問題』是同一件事。"
@@ -515,6 +527,12 @@ claims:
     related_facts: [F001, F014, F015]
     reasoning_notes: "目前可分別確認record-gap與後審反轉，但未取得足以建立兩者因果關係的裁判理由或其他證據；程序問題、證據／法律評價差異與後審結果必須分層。"
 
+  - id: C015
+    statement: "逢甲辣椒水事件可作為『涉事公權力人員的後續處置本身降低外部可驗證性』的比較案例：直接物理原因雖可確認，但動機層因未依正常證據保全、遲延報告與未即時坦承而難以由外部獨立重建。"
+    status: supported
+    supports: [F016]
+    reasoning_notes: "支持的是auditability gap，而非任何特定政治陰謀。它與北檢record-gap案例的共同結構在於：掌握或形成關鍵紀錄的公權力行為人／機關，同時也是被質疑的對象；當原始紀錄缺失或證據生命周期受損，後續官方說明不能自動把unresolved轉成exonerated。"
+
 searches:
   - id: Q001
     observed_at: "2026-10-20T17:10:48+08:00"
@@ -584,6 +602,7 @@ promotion:
   cases: []
   comparators:
     - "record gap：高虹安案16分鐘、沈慶京醫院2小時"
+    - "evidence-lifecycle gap：逢甲辣椒水事件中，涉事分局長未依正常程序封存涉事噴罐、遲延報告且未即時坦承；直接物理原因可確認，但動機層外部重建能力下降"
     - "judicial disagreement：高虹安助理費案一審貪污7年4月、二審貪污無罪改判偽造文書6月；作為『一審有罪不是證據審查終點』的反例，不類推其他案件實體結果"
     - "integrity gap：A1-37原始硬碟／映像檔爭議、北檢官網PDF形成疑點"
     - "record monopoly：法院官方錄音與私人自行錄音限制"
@@ -602,5 +621,6 @@ notes:
   - "本research是父級比較節點，不取代各個session/case的authoritative細節；新增個案應優先寫回原案件，再於此處引用其mechanism。"
   - "核心方法規則：unresolved != exonerated；同時 unresolved != guilty。不可證偽不能替任何一方預支結論。"
   - "本研究刻意不把『跨案存在相似結構』升格成『執政黨故意統一操作』；後者需要額外的決策與主觀故意證據。"
+  - "逢甲辣椒水子案：sessions/2026-10-21-huang-kuo-chang-public-claim-counterexamples/evidence.yaml。其用途限於比較auditability mechanism，不把政治動機升格為既成事實。"
   - "相關既有evidence：cases/2026-10-20-ko-wen-je-judicial-proceedings/evidence.yaml；sessions/2026-10-15-taipei-prosecutor-drug-case/evidence.yaml；sessions/2026-10-20-wu-nai-ren-taisugar-debt-enforcement/evidence.yaml；sessions/2026-10-20-renwu-taisugar-soil-yard-clearing/evidence.yaml；sessions/2026-10-09-defense-procurement-governance/evidence.yaml；research/2026-10-20-obligation-without-failure-state/evidence.yaml。"
   - "stopping rule：本節點不追求『收完所有案例』。只在新案例能增加新的mechanism、提供反例、或實質改變C002/C009判斷時再更新。"
