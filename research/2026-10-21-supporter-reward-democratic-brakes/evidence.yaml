@@ -1,0 +1,367 @@
+session:
+  id: 2026-10-21-supporter-reward-democratic-brakes
+  project: Politics
+  title: "支持者獎勵、陣營內規範執行與民主煞車：以2025大罷免為起始案例"
+  started_at: "2026-10-21T19:18:52+08:00"
+  updated_at: "2026-10-21T19:18:52+08:00"
+  status: active
+
+topics:
+  - 支持者獎勵
+  - 民主問責
+  - 大罷免
+  - 陣營規範
+  - 忠誠壓力
+  - 中共同路人
+  - 敵我化
+  - 政治生態
+  - revealed preference
+  - 民進黨
+  - 王世堅
+  - 沈伯洋
+
+sources:
+  - id: S001
+    source_type: secondary
+    publisher: "中央社"
+    title: "柯建銘提「雙罷」 改選立法院長、罷免41席國民黨立委"
+    url: "https://www.cna.com.tw/news/aipl/202501040079.aspx"
+    published_at: "2025-01-04"
+    observed_at: "2026-10-21T19:18:52+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導直接引述柯建銘稱民進黨席次無法撼動「藍白賣台行為」，必須喚起民意「救台灣」，並主張41席國民黨區域立委都要罷免。"
+
+  - id: S002
+    source_type: secondary
+    publisher: "中央社"
+    title: "柯建銘拋雙罷 王世堅：反對仇恨式罷免"
+    url: "https://www.cna.com.tw/news/aipl/202501080191.aspx"
+    published_at: "2025-01-08"
+    observed_at: "2026-10-21T19:18:52+08:00"
+    retrieval_status: reachable
+    notes:
+      - "王世堅公開表示個人反對「仇恨式罷免」，構成大罷免早期的黨內異議樣本。"
+
+  - id: S003
+    source_type: secondary
+    publisher: "中央社"
+    title: "凱道拒絕統戰大會 高喊挺罷免、清除中共同路人"
+    url: "https://www.cna.com.tw/news/aipl/202504190193.aspx"
+    published_at: "2025-04-19"
+    observed_at: "2026-10-21T19:18:52+08:00"
+    retrieval_status: reachable
+    notes:
+      - "活動現場高喊「挺罷免、清除中共同路人」；多位民進黨立委輪番上台宣講。"
+      - "民進黨立委參與同一活動不等於每一位個別背書該句口號。"
+
+  - id: S004
+    source_type: primary
+    publisher: "民主進步黨"
+    title: "民主進步黨第二十一屆第二次全代會開幕式賴清德主席致詞全文"
+    url: "https://www.dpp.org.tw/media/contents/11234"
+    published_at: "2025-06-28"
+    observed_at: "2026-10-21T19:18:52+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方致詞把2025公民自主浪潮描述為民主持續進化、揚善與「與公民同行」的力量。"
+
+  - id: S005
+    source_type: secondary
+    publisher: "中央社"
+    title: "726罷免25案全部沒過 傅崐萁等7案過門檻仍否決、平均投票率破5成"
+    url: "https://www.cna.com.tw/news/aipl/202507260216.aspx"
+    published_at: "2025-07-26"
+    observed_at: "2026-10-21T19:18:52+08:00"
+    retrieval_status: reachable
+    notes:
+      - "首波24名國民黨立委及新竹市長高虹安罷免案全數未通過。"
+
+  - id: S006
+    source_type: primary
+    publisher: "民主進步黨"
+    title: "民主進步黨第二十一屆第四十三次中常會新聞稿"
+    url: "https://www.dpp.org.tw/content_print/media/11266"
+    published_at: "2025-07-30"
+    observed_at: "2026-10-21T19:18:52+08:00"
+    retrieval_status: reachable
+    notes:
+      - "726後首次中常會；賴清德公開承擔批評、表達歉意並尊重投票結果，同時決定823繼續與公民同行。"
+
+  - id: S007
+    source_type: secondary
+    publisher: "中央社"
+    title: "籲823撤案遭黨內砲轟 王世堅：不會退黨"
+    url: "https://www.cna.com.tw/news/aipl/202507310140.aspx"
+    published_at: "2025-07-31"
+    observed_at: "2026-10-21T19:18:52+08:00"
+    retrieval_status: reachable
+    notes:
+      - "王世堅主張社會不應再撕裂、應請罷團撤案；王義川公開稱「不服從命令的，滾啦」，林楚茵稱「吃裡扒外就再見不送」。"
+      - "此來源證明公開忠誠／服從式批評存在，不足以單獨推估整個黨或支持者群體的態度比例。"
+
+  - id: S008
+    source_type: primary
+    publisher: "民主進步黨"
+    title: "民進黨：與公民並肩深入鄰里 完成神聖的民主深化任務"
+    url: "https://www.dpp.org.tw/content_print/media/11278"
+    published_at: "2025-08-09"
+    observed_at: "2026-10-21T19:18:52+08:00"
+    retrieval_status: reachable
+    notes:
+      - "民進黨官方在823前宣布黨公職持續協助罷團，並將任務描述為「神聖的民主深化任務」。"
+
+  - id: S009
+    source_type: secondary
+    publisher: "中央社"
+    title: "823立委罷免案開票結果一覽 7案全數不通過"
+    url: "https://www.cna.com.tw/news/aipl/202508225019.aspx"
+    published_at: "2025-08-23"
+    observed_at: "2026-10-21T19:18:52+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第二波7名國民黨立委罷免案全數未通過；加上726，共31名國民黨立委罷免案全數未通過。"
+
+  - id: S010
+    source_type: primary
+    publisher: "民主進步黨"
+    title: "民進黨提名台北市長候選人 賴清德：沈伯洋是一流人才、市長不二人選、有三度空間的治理能力"
+    url: "https://www.dpp.org.tw/content_print/media/11580"
+    published_at: "2026-05-13"
+    observed_at: "2026-10-21T19:18:52+08:00"
+    retrieval_status: reachable
+    notes:
+      - "民進黨正式提名沈伯洋參選2026台北市長；本來源可證明提名與高度正面評價，不證明提名原因是其2025大罷免立場。"
+
+  - id: S011
+    source_type: secondary
+    publisher: "中央社"
+    title: "民進黨團：絕無支持戒嚴 請在野黨適可而止"
+    url: "https://www.cna.com.tw/news/aipl/202412040034.aspx"
+    published_at: "2024-12-04"
+    observed_at: "2026-10-21T19:18:52+08:00"
+    retrieval_status: reachable
+    notes:
+      - "民進黨團2024-12-03韓國戒嚴後曾發文把尹錫悅「守護自由憲政體制」戒嚴敘事與台灣藍白政治行為對照，隨後刪文；翌日公開否認支持戒嚴。"
+      - "此案例同時保存初始安全化類比與後續正式導正，避免只保留其中一半。"
+
+facts:
+  - id: F001
+    statement: "2025-01-04，民進黨立院黨團總召柯建銘以「藍白賣台」「救台灣」框架主張罷免41席國民黨區域立委。"
+    status: verified
+    observed_at: "2026-10-21T19:18:52+08:00"
+    source_ids: [S001]
+    evidence_summary: "中央社直接引述柯建銘的罷免範圍與國安／賣台理由。"
+    tags: ["2025", 大罷免, 柯建銘, 賣台, 敵我化]
+
+  - id: F002
+    statement: "2025-01-08，王世堅公開表示個人反對「仇恨式罷免」，顯示大罷免路線在民進黨內從早期即存在可觀察異議。"
+    status: verified
+    observed_at: "2026-10-21T19:18:52+08:00"
+    source_ids: [S002]
+    evidence_summary: "中央社記錄王世堅直接反對該類罷免。"
+    tags: ["2025", 王世堅, 黨內異議, 大罷免]
+
+  - id: F003
+    statement: "2025-04-19「拒絕統戰，守護台灣」凱道活動公開高喊「挺罷免、清除中共同路人」，且多名民進黨立委在同一活動上台宣講。"
+    status: verified
+    observed_at: "2026-10-21T19:18:52+08:00"
+    source_ids: [S003]
+    evidence_summary: "罷免動員、反統戰與「清除中共同路人」在同一大型公開活動中並列出現。"
+    verification_notes:
+      - "不能由共同出席推論每一位民進黨立委都個別喊出或背書該句口號。"
+    tags: ["2025", 大罷免, 中共同路人, 反統戰, 民進黨]
+
+  - id: F004
+    statement: "2025-06-28，民進黨主席賴清德在全代會官方致詞中，將當年度公民自主浪潮描述為民主持續進化與「與公民同行」的力量。"
+    status: verified
+    observed_at: "2026-10-21T19:18:52+08:00"
+    source_ids: [S004]
+    evidence_summary: "民進黨官方文件對當時公民動員給予正面民主價值定位。"
+    tags: ["2025", 民進黨, 賴清德, 與公民同行, 民主深化]
+
+  - id: F005
+    statement: "2025-07-26，首波24名國民黨立委及新竹市長高虹安罷免案全數未通過。"
+    status: verified
+    observed_at: "2026-10-21T19:18:52+08:00"
+    source_ids: [S005]
+    evidence_summary: "中央社彙整首波開票結果。"
+    tags: ["2025", "726", 大罷免, 選舉結果]
+
+  - id: F006
+    statement: "726全敗後，賴清德一方面公開承擔批評、尊重投票結果並致歉，另一方面民進黨決定823罷免繼續「與公民同行」。"
+    status: verified
+    observed_at: "2026-10-21T19:18:52+08:00"
+    source_ids: [S006]
+    evidence_summary: "同一官方回應同時包含尊重／歉意與繼續投入下一波罷免兩種行為訊號。"
+    tags: ["2025", "726", "823", 民進黨, 賴清德, revealed-preference]
+
+  - id: F007
+    statement: "王世堅在726後主張823應請罷團撤案，隨後遭民進黨立委公開以「不服從命令的，滾啦」及「吃裡扒外」等語批評。"
+    status: verified
+    observed_at: "2026-10-21T19:18:52+08:00"
+    source_ids: [S007]
+    evidence_summary: "這是黨內異議出現後可直接觀察的公開忠誠／服從式負面反應。"
+    verification_notes:
+      - "此 fact 不等於民進黨中央正式黨紀，也不能代表所有黨員或支持者。"
+    tags: ["2025", 王世堅, 王義川, 林楚茵, 黨內異議, 忠誠壓力]
+
+  - id: F008
+    statement: "2025-08-09，民進黨官方宣布持續投入823罷免協助，並把與罷團同行描述為「神聖的民主深化任務」。"
+    status: verified
+    observed_at: "2026-10-21T19:18:52+08:00"
+    source_ids: [S008]
+    evidence_summary: "民進黨官方在726後仍對第二波罷免給予高度正面規範評價與組織投入。"
+    tags: ["2025", "823", 大罷免, 民進黨, 民主深化]
+
+  - id: F009
+    statement: "2025-08-23，第二波7名國民黨立委罷免案全數未通過；兩波合計31名國民黨立委罷免案全數未通過。"
+    status: verified
+    observed_at: "2026-10-21T19:18:52+08:00"
+    source_ids: [S009]
+    evidence_summary: "中央社彙整823與兩波合計結果。"
+    tags: ["2025", "823", 大罷免, 選舉結果]
+
+  - id: F010
+    statement: "2026-05-13，民進黨正式提名沈伯洋參選台北市長，賴清德稱其為台北市長「不二人選」。"
+    status: verified
+    observed_at: "2026-10-21T19:18:52+08:00"
+    source_ids: [S010]
+    evidence_summary: "提名與最高層級正面評價可直接由民進黨官方來源確認。"
+    verification_notes:
+      - "此 fact 只證明2026提名與評價，不證明提名是對2025大罷免立場的獎勵。"
+    tags: ["2026", 沈伯洋, 台北市長, 民進黨, 提名]
+
+  - id: F011
+    statement: "2024年韓國戒嚴事件中，民進黨團曾短暫發布把尹錫悅戒嚴的「守護自由憲政體制」理由與台灣藍白政治行為對照的貼文，隨後刪除並公開否認支持戒嚴。"
+    status: verified
+    observed_at: "2026-10-21T19:18:52+08:00"
+    source_ids: [S011]
+    evidence_summary: "同一案例同時存在安全化類比與後續正式澄清，兩者都需保留。"
+    verification_notes:
+      - "不能寫成「民進黨正式支持戒嚴」；也不能把原貼文降格成完全沒有政治類比內容的單純國際新聞轉貼。"
+    tags: ["2024", 韓國戒嚴, 民進黨團, 安全化, 反例]
+
+claims:
+  - id: C001
+    statement: "2025大罷免可作為一個已發生的案例，研究國安／敵我化框架、支持者動員與政黨組織投入如何在同一政治過程中相互連結。"
+    status: supported
+    supports: [F001, F003, F004, F006, F008]
+    contradicts: []
+    related_facts: [F005, F009]
+    reasoning_notes: "本 claim 只主張這些元素在同一政治過程中可觀察地共存並先後連結，不主張國安框架是每一位參與者的唯一動機，也不主張單一因果充分性。"
+
+  - id: C002
+    statement: "726首波全數未通過後，民進黨把該結果視為足以停止823罷免動員的煞車訊號。"
+    status: contradicted
+    supports: []
+    contradicts: [F006, F008]
+    related_facts: [F005]
+    reasoning_notes: "民進黨確實口頭尊重結果並致歉，但其後續組織行為是繼續投入823，不能把口頭尊重單獨解讀成停止該政治路線。"
+
+  - id: C003
+    statement: "726後民進黨完全沒有任何尊重結果、承擔責任或反省表態。"
+    status: contradicted
+    supports: []
+    contradicts: [F006]
+    related_facts: []
+    reasoning_notes: "官方表態確實存在；後續研究要區分 verbal response 與 revealed behavior，而不是刪除其中一邊。"
+
+  - id: C004
+    statement: "大罷免失敗後，曾積極參與／支持該路線本身成為民進黨日後重大選舉提名的必然政治禁區。"
+    status: contradicted
+    supports: []
+    contradicts: [F010]
+    related_facts: [F003, F008, F009]
+    reasoning_notes: "沈伯洋2026獲台北市長提名，至少反證「曾支持大罷免即喪失重大提名資格」這個強命題；但不能由此反推提名原因就是獎勵大罷免。"
+
+  - id: C005
+    statement: "沈伯洋獲2026台北市長提名，已足以證明民進黨因其2025大罷免立場而給予政治獎勵。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F010]
+    reasoning_notes: "提名是可觀察結果，但候選人選擇存在國安形象、專業、選戰條件、黨內人選等多重解釋；需要更直接的決策證據才能建立此因果箭頭。"
+
+  - id: C006
+    statement: "王世堅對大罷免踩煞車後，確實遭到至少部分民進黨公職以忠誠／服從語言公開施加負面壓力。"
+    status: supported
+    supports: [F007]
+    contradicts: []
+    related_facts: [F002]
+    reasoning_notes: "這是 existence claim，只證明公開 norm-enforcement signal 存在，不推估其在黨內或支持者中的比例與強度。"
+
+  - id: C007
+    statement: "王世堅沒有被逐出政壇或民進黨，本身即可證明民進黨對大罷免異議具有高度容忍。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F002, F007]
+    reasoning_notes: "survival != tolerance。要判斷體系容忍度，必須控制異議者的自主選票、地方組織、知名度、提名安全性、對黨資源依賴及懲罰成本；目前本 research 尚未完成這組政治生態基線。"
+
+  - id: C008
+    statement: "2025兩波31席罷免全數未通過，已足以證明所有參與者都否定大罷免的價值判斷。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F005, F009]
+    reasoning_notes: "投票結果可證明罷免未通過，不能單獨還原每一位投票者或未投票者的動機，也不能直接區分程序反對、候選人評價、政黨認同與其他因素。"
+
+  - id: C009
+    statement: "民進黨從未在韓國戒嚴爭議後正式導正「支持戒嚴」的解讀。"
+    status: contradicted
+    supports: []
+    contradicts: [F011]
+    related_facts: []
+    reasoning_notes: "民進黨團翌日明確否認支持戒嚴；較值得研究的問題是支持者生態中非常手段／內部敵人論述是否仍具有低羞恥成本，而不是抹除正式澄清。"
+
+  - id: C010
+    statement: "目前已足以證明民進黨支持者整體對敵我化、戒嚴或清除式政治沒有羞恥成本，並普遍給予正向獎勵。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F003, F007, F011]
+    reasoning_notes: "現有資料可建立存在性案例、黨公職反應與組織行為，但不能由自然樣本推估整體支持者比例。後續需要代表性民調、系統抽樣、社群反應量化或可重複分類資料。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-21T19:18:52+08:00"
+    platform: "GitHub politics-db"
+    query: "支持者／同路人／大罷免／黨內異議"
+    scope: "lichih/politics-db main"
+    result: found
+    notes: "找到既有 research/2026-10-19-dpp-supporter-deification-attitudes 與 research/2026-10-20-ccp-fellow-traveler-label-diffusion；本 research 作為上層 reward/norm/brake 節點，不取代既有詞彙與支持者自然樣本研究。"
+
+  - id: Q002
+    observed_at: "2026-10-21T19:18:52+08:00"
+    platform: "web"
+    query: "2025大罷免：41席、清除中共同路人、726結果、823續推、黨內異議、823結果"
+    scope: "中央社與民主進步黨官方來源"
+    result: found
+    notes: "建立從早期全面罷免主張、敵我化動員、首波失敗、續推第二波、黨內異議成本到31席全數未通過的基本時間線。"
+
+  - id: Q003
+    observed_at: "2026-10-21T19:18:52+08:00"
+    platform: "web"
+    query: "2026沈伯洋台北市長提名"
+    scope: "民主進步黨官方"
+    result: found
+    notes: "確認沈伯洋獲正式提名與高度正面評價；未找到足以證明提名因果直接來自其大罷免角色的決策文件。"
+
+promotion:
+  cases: []
+  comparators:
+    - proposed: "cross-party-dissent-cost-and-autonomous-political-capital"
+      rationale: "後續應跨政黨比較踩煞車者在自主票源／黨資源依賴不同條件下的成本，避免只用王世堅單案推論民進黨特殊性。"
+  research: []
+
+notes:
+  - "核心研究問題不是「哪個陣營有沒有瘋子」，而是：越界／激進行為在自己的陣營裡得到懲罰還是獎勵，以及政治人物會從這些回饋學到什麼。"
+  - "研究鏈：political framing -> supporter response -> intra-coalition norm enforcement -> party resource allocation -> electoral reward/punishment -> subsequent strategic update。"
+  - "必須區分 party-level reward、supporter-level reward、voter-level reward；三者不可互相代換。"
+  - "必須區分 performance feedback（換人、改善動員、調整話術）與 normative feedback（重新判斷原路線本身是否越界／不應再做）。"
+  - "survival != tolerance：異議者能存活，可能來自體系容忍，也可能來自自主選票、地方組織、名望或處理成本太高。政治生態變數必須進模型。"
+  - "下一步優先建立 actor-level panel：position -> deviation_from_line -> elite_reaction -> supporter_reaction -> formal_sanction -> informal_cost -> party_resource_dependency -> autonomous_electoral_base -> later_nomination/resource -> alternative_explanations。"
+  - "台北市長選舉可作 prospective test：若沈伯洋取得高票／當選，只能先證明其2025大罷免立場未使其失去競爭力；要證明選民「因大罷免而獎勵」仍需直接議題歸因證據。"
+  - "既有「中共同路人」語義擴張與支持者自然樣本，分別保存在 research/2026-10-20-ccp-fellow-traveler-label-diffusion/evidence.yaml 與 research/2026-10-19-dpp-supporter-deification-attitudes/evidence.yaml；本檔不宣稱群體代表性。"
+  - "「綠共」「北韓法學」不作公開 evidence 定性；如需公開研究，轉換成敵我化、安全化、陣營規範失靈、公權力工具化風險等可檢驗命題。"
