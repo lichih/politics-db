@@ -1,0 +1,335 @@
+session:
+  id: "2026-10-21-huang-kuo-chang-public-claim-counterexamples"
+  project: Politics
+  title: "黃國昌公開主張反例查核：事實翻車、法律敗訴與非反例邊界"
+  started_at: "2026-10-21T13:16:11+08:00"
+  updated_at: "2026-10-21T13:16:11+08:00"
+  status: active
+
+topics:
+  - 黃國昌
+  - 公開主張
+  - 事實查核
+  - 反例
+  - 翻車
+  - 辣椒水
+  - 萬里老宅
+  - 勞基法抗爭
+  - 國會改革
+  - evidence calibration
+
+sources:
+  - id: S001
+    source_type: secondary
+    publisher: "NOWnews今日新聞"
+    title: "烏龍警噴辣椒水　黃國昌上午狂罵賴清德扯綠找人鬧場"
+    url: "https://www.nownews.com/news/6809237"
+    published_at: "2026-04-20"
+    observed_at: "2026-10-21T13:16:11+08:00"
+    retrieval_status: reachable
+    notes:
+      - "轉述黃國昌2026-04-20上午接受中廣《千秋萬事》訪問時，將柯文哲逢甲夜市辣椒水事件連結到賴清德、民進黨與『找一些人特定行徑來鬧場，然後配合綠媒傳播』的SOP敘事。"
+
+  - id: S002
+    source_type: primary
+    publisher: "臺中市政府／臺中市政府警察局"
+    title: "辣椒水噴霧器處置不當 中市警：依規處置並移送法辦、加強勤務教育與裝備管理"
+    url: "https://www.taichung.gov.tw/8868/8872/9962/3258507/"
+    published_at: "2026-04-20"
+    observed_at: "2026-10-21T13:16:11+08:00"
+    retrieval_status: reachable
+    notes:
+      - "警方調閱監視器、密錄器並訪查後，排除報案人所稱共乘機車2人涉案，確認第六分局長周俊銘因辣椒水噴霧器異常而朝地面及下方噴灑，造成現場人員不適。"
+
+  - id: S003
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "柯文哲遭噴辣椒水事綠籲道歉　黃國昌：別轉移焦點"
+    url: "https://www.cna.com.tw/news/aipl/202604220133.aspx"
+    published_at: "2026-04-22"
+    observed_at: "2026-10-21T13:16:11+08:00"
+    retrieval_status: reachable
+    notes:
+      - "黃國昌在警方結果公布後表示，自己第一時間是說交由警方好好調查，並批評民進黨『扎稻草人』；此後續回應應與4月20日上午原始發言並列，不得只取其一。"
+
+  - id: S004
+    source_type: secondary
+    publisher: "台灣事實查核中心"
+    title: "〖藍白指控「賴皮寮」〗專家指「航照解讀錯誤」賴清德老宅荒廢20年原址重建"
+    url: "https://tfc-taiwan.org.tw/migration_article_105441_10050/"
+    published_at: "2023-12-28"
+    observed_at: "2026-10-21T13:16:11+08:00"
+    retrieval_status: reachable
+    notes:
+      - "查核中心比對1974至2022年共249張航照、地籍資料、現地訪談與遙測專家意見。"
+      - "結論同時修正黃國昌／新北市與賴陣營敘事：現宅確為2003年重建，但位於舊礦工工寮原址，不是工寮範圍外空地；賴陣營僅稱『修繕／整修』也不精確。"
+
+  - id: S005
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "黃國昌新書談2018年抗爭　時代力量：與事實不符"
+    url: "https://www.cna.com.tw/news/aipl/202606040205.aspx"
+    published_at: "2026-06-04"
+    observed_at: "2026-10-21T13:16:11+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記載《向光前行》對2018年反勞基法二修凱道抗爭的敘述，以及時代力量引用檢方不起訴處分書、當年新聞稿提出反證。"
+
+  - id: S006
+    source_type: commentary
+    publisher: "時代力量"
+    title: "不能竄改歷史來墊高自己！時代力量痛批黃國昌抹黑昔日戰友，嚴正要求道歉並下架新書"
+    url: "https://newpowerparty.tw/archives/29273"
+    published_at: "2026-06-04"
+    observed_at: "2026-10-21T13:16:11+08:00"
+    retrieval_status: reachable
+    notes:
+      - "政黨利害關係來源，但具體引用臺北地檢署107年度偵字第5663號不起訴處分書與2018-01-08時力新聞稿。"
+      - "稱04:18第七次舉牌清場時帶頭者仍列黃國昌、洪慈庸、林昶佐、徐永明四人；04:17起警方驅離，約04:30清場完畢。"
+
+  - id: S007
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "新書談2018年抗爭遭批評　黃國昌：呈現客觀事實"
+    url: "https://www.cna.com.tw/news/aipl/202606050083.aspx"
+    published_at: "2026-06-05"
+    observed_at: "2026-10-21T13:16:11+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記載黃國昌面對時代力量反證後仍稱書中內容『完全呈現客觀事實』。"
+
+  - id: S008
+    source_type: primary
+    publisher: "憲法法庭／司法院"
+    title: "113年憲判字第9號"
+    url: "https://cons.judicial.gov.tw/docdata.aspx?fid=5504&id=352966"
+    published_at: "2024-10-25"
+    observed_at: "2026-10-21T13:16:11+08:00"
+    retrieval_status: reachable
+    notes:
+      - "頁面收錄立法院代表黃國昌的答辯書、簡報與言詞辯論意旨書；判決對國會職權修法多項條文作違憲或限縮判斷。"
+      - "法律主張被終局憲法裁判否定，與可驗證事實陳述錯誤是不同類型，不應混稱為『事實翻車』。"
+
+  - id: S009
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "指蘇治芬替光電業者圍事 黃國昌獲不起訴"
+    url: "https://www.cna.com.tw/news/asoc/202412050046.aspx"
+    published_at: "2024-12-05"
+    observed_at: "2026-10-21T13:16:11+08:00"
+    retrieval_status: reachable
+    notes:
+      - "北檢認為黃國昌發文前取得一定資訊來源，客觀上可合理相信內容為真，符合合理查證要求，因此不起訴。"
+      - "可作反向baseline：高爭議政治指控不因被告或被批評就自動構成『翻車』。"
+
+  - id: S010
+    source_type: primary
+    publisher: "行政院公共工程委員會"
+    title: "大同醫護申訴案工程會依法合議審議 僅就新舊品爭議判斷 黃前委員指摘非事實"
+    url: "https://www.pcc.gov.tw/content/index?eid=14165&ltype=N&nn=51D3C0F86174334A&sms=A9CB76C7A9615306"
+    published_at: "2026-06-25"
+    observed_at: "2026-10-21T13:16:11+08:00"
+    retrieval_status: reachable
+    notes:
+      - "工程會稱申訴審議只處理新舊品／停權情節重大問題，未處理中國製品爭議，批評黃國昌把不同爭點拼接。"
+
+  - id: S011
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "標案遭指違規用中國製品　資安院：驗收人員沒注意到"
+    url: "https://www.cna.com.tw/news/aipl/202511050110.aspx"
+    published_at: "2025-11-05"
+    observed_at: "2026-10-21T13:16:11+08:00"
+    retrieval_status: reachable
+    notes:
+      - "資安院長公開承認設備有舊品問題，且網通設備為美國品牌、中國製、不符契約規格；因此工程會2026年的程序範圍澄清不能反向證明黃先前揭露的所有底層事實均錯。"
+
+facts:
+  - id: F001
+    statement: "2026年4月20日上午，在柯文哲逢甲夜市辣椒水事件真相尚未公布前，黃國昌把事件放進『賴清德嘴裡講團結、民進黨實際作為不同』以及『找一些人以特定行徑來鬧場、配合綠媒傳播』的民進黨SOP敘事。"
+    status: verified
+    observed_at: "2026-10-21T13:16:11+08:00"
+    source_ids: [S001]
+    evidence_summary: "媒體直接轉述當日上午中廣《千秋萬事》訪談內容，語意不只是要求警方調查，而已將事件原因與民進黨操作模式連結。"
+    verification_notes:
+      - "目前未把此言論升格為刑法上的故意造謠；重點只在其事實／因果歸因是否被後續資料支持。"
+    tags: [黃國昌, 辣椒水, 民進黨SOP, 事前歸因]
+
+  - id: F002
+    statement: "同日下午臺中市政府警察局公布調查：已排除報案人所稱共乘機車2人涉案，確認現場辣椒水係第六分局長周俊銘處置噴霧器異常時朝地面及下方噴灑所致。"
+    status: verified
+    observed_at: "2026-10-21T13:16:11+08:00"
+    source_ids: [S002]
+    evidence_summary: "官方說明載明警方調閱監視器、員警密錄器並訪查現場人士後所得結果，且對周俊銘記過、調職並函送偵辦。"
+    tags: [臺中市警察局, 辣椒水, 調查結果, 周俊銘]
+
+  - id: F003
+    statement: "2026年4月22日黃國昌面對要求道歉時表示，自己『第一時間』是說交由警方好好調查，並稱民進黨在扎稻草人、轉移焦點。"
+    status: verified
+    observed_at: "2026-10-21T13:16:11+08:00"
+    source_ids: [S003]
+    evidence_summary: "中央社記錄其事後回應；此說法應與4月20日上午已存在的民進黨SOP歸因並列解讀。"
+    verification_notes:
+      - "『曾要求警方調查』與『同時作出民進黨SOP歸因』可以同時成立，不以其中一句自動抹除另一句。"
+    tags: [黃國昌, 事後回應, 辣椒水]
+
+  - id: F004
+    statement: "2023年萬里老宅爭議中，黃國昌由1992、1996、2002、2004等航照判斷賴清德現宅為新建，並推論現址沒有老舊工寮可供改建；台灣事實查核中心擴大比對1974至2022年航照、地籍、現場訪談及遙測專家後，確認現宅確為2003年重建，但位置是在舊礦工工寮原址，而非工寮範圍外空地。"
+    status: verified
+    observed_at: "2026-10-21T13:16:11+08:00"
+    source_ids: [S004]
+    evidence_summary: "黃國昌對『2003年出現新建物』的判斷有基礎，但由較窄時間區間進一步推出『原址沒有工寮／空地新建』，被較完整的歷史航照與多源查核推翻。"
+    verification_notes:
+      - "同一查核也指出賴陣營只稱『修繕／整修』不精確，較符合事實的描述是舊址荒廢多年後『重建』。"
+    tags: [萬里老宅, 航照, 事實查核, 部分錯誤]
+
+  - id: F005
+    statement: "黃國昌2026年新書《向光前行》描述2018年反勞基法二修抗爭約凌晨4時醒來後『身邊空了』，最後凱道只剩他與徐永明；時代力量後以臺北地檢署107年度偵字第5663號不起訴處分書及2018年當日新聞稿反駁，稱04:18第七次舉牌清場時仍記載黃國昌、洪慈庸、林昶佐、徐永明四人為現場帶頭者，警方自04:17起驅離、約04:30清場完成。"
+    status: partial
+    observed_at: "2026-10-21T13:16:11+08:00"
+    source_ids: [S005, S006]
+    evidence_summary: "目前可確認新書敘述、時力提出的具體文件案號與當年新聞稿時序；本次尚未直接取得107年度偵字第5663號不起訴處分書全文逐字核對。"
+    verification_notes:
+      - "因此先保存為強反證而非完全終結爭議；尤其『最後只剩』究竟指哪一瞬間，仍可能有狹義時間語義辯解空間。"
+    tags: [向光前行, 2018勞基法, 時代力量, contemporaneous-record]
+
+  - id: F006
+    statement: "2026年6月5日黃國昌面對時代力量反駁時仍表示書中內容『完全呈現客觀事實』。"
+    status: verified
+    observed_at: "2026-10-21T13:16:11+08:00"
+    source_ids: [S007]
+    evidence_summary: "中央社直接記錄其回應。"
+    tags: [黃國昌, 向光前行, 回應]
+
+  - id: F007
+    statement: "113年憲判字第9號中，黃國昌以立法院代表身分提交答辯並參與言詞辯論；憲法法庭最終對國會職權修法多項規定作違憲或限縮判斷。"
+    status: verified
+    observed_at: "2026-10-21T13:16:11+08:00"
+    source_ids: [S008]
+    evidence_summary: "可證明其法律主張並非總能獲終局憲法裁判採納，但法律見解被法院否定不等於其事實陳述為假。"
+    tags: [國會改革, 憲法法庭, 法律爭議, 非事實翻車]
+
+  - id: F008
+    statement: "黃國昌2024年指蘇治芬替光電業者『圍事』遭提告加重誹謗後，北檢認定其發言前已有一定資訊來源、客觀上可合理相信言論內容為真並符合合理查證要求，予以不起訴。"
+    status: verified
+    observed_at: "2026-10-21T13:16:11+08:00"
+    source_ids: [S009]
+    evidence_summary: "此案可作反向baseline：爭議性、攻擊性高的指控也可能經司法程序確認具有合理查證基礎，因此不能把『被提告／被反駁』直接列為翻車。"
+    tags: [蘇治芬, 光電, 不起訴, reasonable-verification]
+
+  - id: F009
+    statement: "2026年大同醫護申訴案中，工程會稱其審議只處理舊品與停權『情節重大』問題，未審中國製品，因此批評黃國昌把不同爭點拼接；但2025年資安院長曾在立法院公開承認涉案設備有舊品問題，且部分網通設備為美國品牌中國製並不符契約規格。"
+    status: verified
+    observed_at: "2026-10-21T13:16:11+08:00"
+    source_ids: [S010, S011]
+    evidence_summary: "工程會反駁的是申訴審議範圍與黃的論述連接方式，不足以把黃先前揭露的『舊品／中國製不符規格』底層事實一併判為虛假。"
+    tags: [大同醫護, 工程會, 資安院, claim-scope]
+
+claims:
+  - id: C001
+    statement: "黃國昌從未在公開可驗證的事實／因果主張上出現被後續較強證據明確推翻的反例。"
+    status: contradicted
+    contradicts: [F001, F002, F004]
+    related_facts: [F005, F006]
+    reasoning_notes: "至少辣椒水事件提供乾淨反例：其事前政治歸因與同日警方具體調查結果不相容；萬里航照亦存在可辨識的過度推論。這足以否定『從未』，但不能據此推出『經常翻車』。"
+
+  - id: C002
+    statement: "柯文哲逢甲夜市辣椒水事件可合理作為黃國昌一次事實／因果歸因翻車的案例。"
+    status: supported
+    supports: [F001, F002]
+    related_facts: [F003]
+    reasoning_notes: "黃國昌在真相公布前把具體鬧場事件放入民進黨SOP與賴清德責任敘事；警方隨後排除原報案嫌疑人並確認原因為分局長處置辣椒水不當。其事後稱曾要求警方調查，不能消除先前已做出的因果／政治歸因。"
+
+  - id: C003
+    statement: "黃國昌在萬里老宅案所稱『2003年前現址沒有舊工寮、是在工寮外空地新建』的完整判讀是正確的。"
+    status: contradicted
+    contradicts: [F004]
+    reasoning_notes: "較完整航照與專家比對支持『2003年重建』，但否定『工寮外空地』；因此應拆成一真一錯，不能把整組主張一概判真或判假。"
+
+  - id: C004
+    statement: "《向光前行》所述2018年凌晨4時左右凱道最後只剩黃國昌與徐永明，已被目前取得的資料完全證實。"
+    status: unresolved
+    related_facts: [F005, F006]
+    reasoning_notes: "時代力量提出具體檢方處分書案號與當年新聞稿時序形成強反證，但本次尚未直接取得處分書全文，且『最後只剩』可能存在瞬間時序語義；因此不提前壓成確定錯誤。"
+
+  - id: C005
+    statement: "憲法法庭在113年憲判字第9號否定黃國昌等人部分法律主張，即可直接證明黃國昌在事實查證上不可靠。"
+    status: unsupported
+    related_facts: [F007]
+    reasoning_notes: "法律見解競爭與可驗證外部事實是不同問題類型；終局法律敗訴可以列為legal defeat，不能直接充當fact error。"
+
+  - id: C006
+    statement: "只要某人對黃國昌提告、政府機關發新聞稿反駁、或媒體稱其『翻車』，就足以列入黃國昌事實錯誤案例。"
+    status: contradicted
+    contradicts: [F008, F009]
+    reasoning_notes: "蘇治芬案顯示遭提告的高爭議言論仍可能具有合理查證基礎；大同醫護案則顯示機關反駁可能只針對程序範圍，底層事實仍另有官方承認。"
+
+  - id: C007
+    statement: "現有反例足以支持『黃國昌經常翻車』或量化其公開主張錯誤率。"
+    status: unsupported
+    supports: []
+    related_facts: [F001, F002, F004, F005, F007, F008, F009]
+    reasoning_notes: "本次研究是反例搜尋，不是對黃國昌全部公開主張建立完整分母的系統抽樣；找到反例只能推翻『從未』，不能估計頻率。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-21T13:16:11+08:00"
+    platform: politics-db
+    query: "黃國昌 翻車／錯誤指控／道歉更正／判決反駁"
+    scope: "lichih/politics-db main"
+    result: not_found
+    notes: "既有repo未找到專門整理黃國昌公開主張反例的evidence node，因此另開本session。"
+
+  - id: Q002
+    observed_at: "2026-10-21T13:16:11+08:00"
+    platform: web
+    query: "黃國昌 辣椒水 民進黨SOP／臺中市警調查"
+    scope: "臺中市政府、中央社、多家媒體"
+    result: found
+    notes: "找到事前具體政治歸因與同日官方調查結果，可構成高直接度反例。"
+
+  - id: Q003
+    observed_at: "2026-10-21T13:16:11+08:00"
+    platform: web
+    query: "黃國昌 萬里老宅 航照 事實查核"
+    scope: "台灣事實查核中心"
+    result: found
+    notes: "找到多源航照與專家分析，支持2003年重建但反駁『工寮外空地』推論；同時也修正賴陣營『只是修繕』說法。"
+
+  - id: Q004
+    observed_at: "2026-10-21T13:16:11+08:00"
+    platform: web
+    query: "黃國昌 向光前行 2018 勞基法 凱道 只剩徐永明"
+    scope: "中央社、時代力量公開聲明"
+    result: partial
+    notes: "取得檢方處分書案號與當年新聞稿的二手／政黨引用，但尚未直接取得107年度偵字第5663號處分書全文。"
+
+  - id: Q005
+    observed_at: "2026-10-21T13:16:11+08:00"
+    platform: web
+    query: "黃國昌 國會改革 憲法法庭113年憲判字第9號"
+    scope: "憲法法庭"
+    result: found
+    notes: "用於建立『法律敗訴 != 事實翻車』分類邊界。"
+
+  - id: Q006
+    observed_at: "2026-10-21T13:16:11+08:00"
+    platform: web
+    query: "黃國昌 蘇治芬 圍事 不起訴／大同醫護 工程會"
+    scope: "中央社、公共工程委員會"
+    result: found
+    notes: "用於反例校準：遭提告或遭機關反駁本身不等於翻車，必須檢查實際證據與反駁範圍。"
+
+promotion:
+  cases: []
+  comparators:
+    - "公開政治主張『翻車』判準：後續較高直接度／較高權威證據須實際否定原主張；被批評、被提告、法律見解敗訴、或機關自我澄清均不可自動計入。"
+  research:
+    - "若未來要評估『黃國昌是否特別少翻車』，需要建立有分母的系統抽樣：固定期間、固定種類公開主張、事前定義可驗證性與錯誤門檻，不能用只找反例的資料估算錯誤率。"
+
+notes:
+  - "本session的目的不是蒐集對黃國昌不利材料，而是主動測試『我沒看過他翻車／對手總先翻車』這個先驗印象是否存在可證偽反例。"
+  - "本研究將『翻車』操作化為：本人公開提出可驗證的事實或因果主張，後續被更直接、更完整或更高程序權威的證據明確否定。"
+  - "法律主張被法院否定、政治預測失準、修辭過頭、遭提告、遭政敵指控，不自動算fact-error。"
+  - "目前最乾淨反例為2026-04-20辣椒水事件；萬里航照屬部分判讀錯誤；2018抗爭新書爭議則保留unresolved直到直接取得檢方處分書全文。"
+  - "找到反例只足以推翻『從未翻車』；沒有建立全部公開主張的分母前，不支持『經常翻車』、『錯誤率高』或與其他政治人物比較的量化結論。"
