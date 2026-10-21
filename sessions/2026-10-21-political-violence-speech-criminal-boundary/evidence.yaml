@@ -247,7 +247,7 @@ searches:
   - id: Q001
     observed_at: "2026-10-21T11:28:00+08:00"
     platform: web
-    query: ""煙蛋我出" "吸一吸去殺賴清德比較屌""
+    query: '"煙蛋我出" "吸一吸去殺賴清德比較屌"'
     scope: "2026-10-21公開新聞及北檢相關報導"
     result: found
     notes: "找到中央社與壹蘋報導；未在本輪搜尋找到北檢官網起訴新聞稿或起訴書全文。"
@@ -255,7 +255,7 @@ searches:
   - id: Q002
     observed_at: "2026-10-21T11:28:00+08:00"
     platform: web
-    query: ""109年度台上字第3695號" 煽惑 可行性 立即性 可能性"
+    query: '"109年度台上字第3695號" 煽惑 可行性 立即性 可能性'
     scope: "最高法院判決與官方司法資料"
     result: found
     notes: "取得最高法院判決PDF；判決明示第153條限縮標準與欠缺可行性之排除。"
@@ -263,7 +263,7 @@ searches:
   - id: Q003
     observed_at: "2026-10-21T11:28:00+08:00"
     platform: web
-    query: ""殺賴清德" 恐嚇公眾 判決 無罪 有罪 2026"
+    query: '"殺賴清德" 恐嚇公眾 判決 無罪 有罪 2026'
     scope: "2026年台灣公開判決報導"
     result: found
     notes: "找到台北地院有罪案例、彰化地院一審無罪案例及陳之漢審理中案例，適合作為後續 comparator。"
@@ -271,7 +271,7 @@ searches:
   - id: Q004
     observed_at: "2026-10-21T11:28:00+08:00"
     platform: web
-    query: ""要殺掉蔡總統" 不起訴 2017"
+    query: '"要殺掉蔡總統" 不起訴 2017'
     scope: "蔡英文任期之跨政府比較"
     result: found
     notes: "找到中央社2017年報導基隆地檢署不起訴案例；尚缺原不起訴處分書。"
