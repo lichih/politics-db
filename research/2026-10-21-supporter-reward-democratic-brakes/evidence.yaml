@@ -249,17 +249,6 @@ sources:
     notes:
       - "此文把「愛台灣」保留為選黨標準，但明言台灣不是非民進黨不可，構成對「愛台灣＝永久支持民進黨」強命題的反例。"
 
-  - id: S020
-    source_type: search
-    publisher: "Threads"
-    title: "搜尋：愛台灣 民進黨（recent）"
-    url: "https://www.threads.com/search?q=%E6%84%9B%E5%8F%B0%E7%81%A3%20%E6%B0%91%E9%80%B2%E9%BB%A8&serp_type=default&filter=recent"
-    published_at: null
-    observed_at: "2026-10-21T21:38:00+08:00"
-    retrieval_status: reachable
-    notes:
-      - "這是平台搜尋結果快照，不是隨機抽樣或代表性民調。排序受平台檢索／推薦機制影響。"
-      - "同一帳號可能重複出現近似文本，因此樣本獨立性不可假設。"
 
 facts:
   - id: F001
@@ -431,7 +420,7 @@ facts:
     statement: "在2026-10-21觀察到的Threads「愛台灣 民進黨」recent搜尋頁面中，支持「愛台灣不等於支持民進黨」的單一貼文與反向把愛台灣條件連到支持民進黨的單一回覆，均取得數千次按讚。"
     status: verified
     observed_at: "2026-10-21T21:38:00+08:00"
-    source_ids: [S016, S017, S020]
+    source_ids: [S016, S017]
     evidence_summary: "S016當時5,857讚，S017當時7,231讚；這可證明兩種相反frame都有高度可見的正向互動。"
     verification_notes:
       - "互動數不是人口比例，也不保證按讚者理解或認同所有推論。"
@@ -654,10 +643,7 @@ searches:
     query: "愛台灣 民進黨"
     scope: "recent搜尋頁面與頁面中可直接取得的公開貼文"
     result: found
-    notes:
-      - "找到切割『愛台灣＝支持民進黨』的defensive disclaimer、把其他政黨是否愛台灣連到投民進黨的反向回覆、把救台灣直接連到集中投民進黨的樣本，以及保留政黨競爭性的反例。"
-      - "搜尋排序不是隨機樣本；同一帳號有重複文本，因此本輪不做比例估計。"
-      - "下一步若要檢驗argument exemption，優先找paired interaction：具體命題 -> 要求證據 -> 未補證據 -> 改以愛台／抗中credential處理提問者。"
+    notes: "找到切割『愛台灣＝支持民進黨』的defensive disclaimer、把其他政黨是否愛台灣連到投民進黨的反向回覆、把救台灣直接連到集中投民進黨的樣本，以及保留政黨競爭性的反例。搜尋排序不是隨機樣本；同一帳號有重複文本，因此本輪不做比例估計。下一步若要檢驗argument exemption，優先找paired interaction：具體命題 -> 要求證據 -> 未補證據 -> 改以愛台／抗中credential處理提問者。"
 
 promotion:
   cases: []
