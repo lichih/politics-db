@@ -774,7 +774,7 @@ claims:
 
   - id: C027
     statement: "在同一政治生態中同時存在黨級國安／反共動員獎勵，以及沈伯洋／黑熊公開強調敵我意識、心防與政府—公民社會連結，足以使『如何避免國安動員滑向對國內政治異議者的非正式標記或壓力』成為合理且需要制度回答的研究問題。"
-    status: partially_supported
+    status: unresolved
     supports: [F020, F021, F022, F023, F024]
     contradicts: []
     related_facts: [F025, F026]
