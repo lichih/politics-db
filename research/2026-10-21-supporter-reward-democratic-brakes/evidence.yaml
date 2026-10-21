@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "支持者獎勵、陣營內規範執行與民主煞車：以2025大罷免為起始案例"
   started_at: "2026-10-21T19:18:52+08:00"
-  updated_at: "2026-10-21T23:19:55+08:00"
+  updated_at: "2026-10-21T23:31:00+08:00"
   status: active
 
 topics:
@@ -31,6 +31,9 @@ topics:
   - 心防
   - 歷史比較
   - 紅衛兵比較
+  - Facebook政治留言
+  - 親中羞辱
+  - argument-demand punishment
 
 sources:
   - id: S001
@@ -325,6 +328,19 @@ sources:
       - "本來源僅用於界定歷史比較中的群眾動員、政治敵人辨識與暴力清洗特徵，不代表黑熊學院或民進黨與紅衛兵等同。"
 
 
+  - id: S026
+    source_type: commentary
+    publisher: "Facebook / 徐巧芯公開貼文留言串"
+    title: "「肖像權」爭點轉向人格與親中羞辱的公開留言互動"
+    url: "https://www.facebook.com/HsuChiaoHsin/posts/pfbid0gSHDejbqcinKUWJeyBSPo3Sn26ecFuP16vehWBdu6BoW8CEjSF4zezCsin8Pdz2xl?comment_id=1812561429678024&reply_comment_id=4505153343031573"
+    published_at: "2026-10-21"
+    observed_at: "2026-10-21T23:31:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "公開留言串中，帳號「龍龍」先以「你都這樣利用別人肖像權的嗎」提出規範性質疑；後續未補充肖像權侵害的具體構成，而改以「你沒資格」「垃圾」等人格攻擊，並出現「去舔習維尼屁眼」的親中／性羞辱語句。"
+      - "同一互動並非單向升級：另一方也先後以「法律只是開場道具」、「在床上大小便」及「維尼專用舔官」等語嘲諷回擊。保存此雙向脈絡，避免把自然互罵樣本誤寫成單方、無挑釁的攻擊。"
+      - "此來源能證明該公開互動與語言轉向存在；不能單獨證明發言者的政黨認同、實際投票選擇、智力／學歷／年齡，也不能證明其屬於任何支持者群體。"
+
 facts:
   - id: F001
     statement: "2025-01-04，民進黨立院黨團總召柯建銘以「藍白賣台」「救台灣」框架主張罷免41席國民黨區域立委。"
@@ -564,6 +580,25 @@ facts:
     tags: [紅衛兵, 文化大革命, 歷史比較, 群眾動員, 敵我分類]
 
 
+  - id: F027
+    statement: "2026-10-21，在徐巧芯一則公開Facebook貼文留言串中，一名留言者先以「肖像權」質疑圖片使用；在爭點遭挑戰後，其後續回覆轉為「你沒資格」「垃圾」及「去舔習維尼屁眼」等人格與親中羞辱語句，且未在該段互動中補充肖像權侵害的構成或論證。"
+    status: verified
+    observed_at: "2026-10-21T23:31:00+08:00"
+    source_ids: [S026]
+    evidence_summary: "直接觀察公開留言序列，可確認具體權利爭點未被續證，而互動轉向人格與親中／性羞辱。"
+    verification_notes:
+      - "這是單一自然樣本，只能證明該互動模式存在；不能推估任何政黨支持者的比例。"
+      - "「轉向」描述的是留言內容順序，不判定發言者主觀動機。"
+    tags: ["2026", Facebook, 肖像權, 親中羞辱, 身份攻擊, argument-demand]
+
+  - id: F028
+    statement: "同一Facebook留言串的低級化具有雙向性；被攻擊方亦以嘲諷與羞辱性語句回擊，因此不能把此案例表述成單向、無挑釁的攻擊。"
+    status: verified
+    observed_at: "2026-10-21T23:31:00+08:00"
+    source_ids: [S026]
+    evidence_summary: "公開留言序列同時保存雙方回覆，可直接確認互罵升級不是單方向。"
+    tags: ["2026", Facebook, reciprocal-escalation, 方法論, 自然樣本]
+
 claims:
   - id: C001
     statement: "2025大罷免可作為一個已發生的案例，研究國安／敵我化框架、支持者動員與政黨組織投入如何在同一政治過程中相互連結。"
@@ -789,6 +824,30 @@ claims:
     reasoning_notes: "目前可確認的是公開設計內容與政治安全方向；motive attribution需要直接文件、行為鏈或可排除正常國防／民防目的的證據，現階段走不到此結論。"
 
 
+  - id: C029
+    statement: "此Facebook留言串可作為一個存在性樣本：以具體權利概念開場的政治爭點，在被要求說明後，原論證未被補強，互動改以人格與親中羞辱繼續；因此『argument-demand -> identity/personal attack』值得作為支持者生態研究的獨立觀察維度。"
+    status: supported
+    supports: [F027]
+    contradicts: []
+    related_facts: [F028]
+    reasoning_notes: "本claim只確認互動序列與研究操作化價值，不推論發言者主觀惡意，也不主張此模式在特定政黨支持者中普遍存在。"
+
+  - id: C030
+    statement: "此Facebook留言串已足以證明該留言者是民進黨支持者、實際會投民進黨，並且是一張幾乎沒有治理問責成本的票。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F027, F028]
+    reasoning_notes: "留言內容可觀察政治羞辱語彙，但沒有直接的政黨自我認同、投票紀錄、投票意向或『什麼情況會轉票／棄權』資料；不能把語言風格直接升格成voter-level reward結論。"
+
+  - id: C031
+    statement: "若同類身份／羞辱性回應在一個政治陣營內持續獲得正向社交回饋，且相應選民對治理績效、程序違失或事實錯誤缺乏轉票／棄權條件，可能形成『低治理問責成本的一票』並強化支持者獎勵迴路。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F027, F028]
+    reasoning_notes: "這是可檢驗的機制假說。要升格需至少補兩類資料：同類言論在陣營內的reward／punishment分布，以及個體或群體的投票條件性（willingness to defect / abstain）。本樣本尚未測得這兩項。"
+
 searches:
   - id: Q001
     observed_at: "2026-10-21T19:18:52+08:00"
@@ -838,6 +897,14 @@ searches:
     notes: "補入黨級正向動員／資源支持、沈伯洋與黑熊的敵我意識／心防／政府—公民社會連結，以及『不是全民提槍』的反向證據。紅衛兵只作機制比較，不作等同性定性。後續優先查：國安動員對國內政治異議的制度邊界、具體safeguards、是否存在非正式標記／排斥案例，以及跨黨派 comparator。"
 
 
+  - id: Q007
+    observed_at: "2026-10-21T23:31:00+08:00"
+    platform: "connected browser / Facebook"
+    query: "徐巧芯公開貼文指定comment_id與reply_comment_id留言串"
+    scope: "公開貼文與指定回覆鏈；觀察肖像權爭點、後續人格／親中羞辱及雙向互罵升級"
+    result: found
+    notes: "直接取得指定公開留言鏈，確認『肖像權』質疑後未見構成要件補充，互動轉向人格與親中羞辱；同時保存另一方的反擊，避免單向截圖偏誤。此次觀察未取得可靠的政黨認同、投票意向或同溫層正向獎勵分布，因此不把本案直接算成voter-level reward證據。"
+
 promotion:
   cases: []
   comparators:
@@ -861,3 +928,5 @@ notes:
   - "不要用2026搜尋頁倒推『以前沒有』或直接宣稱2024-2026惡化；趨勢需要歷史baseline與可比較樣本。"
   - "紅衛兵比較只能作 mechanism-level comparator：關注上層政治正當化、敵我／純潔分類、群眾自發規範執行、忠誠競逐與對異議者的壓力；不得由部分結構相似直接推成歷史等同性。"
   - "對沈伯洋／黑熊的研究應區分 purpose、design、safeguard 與 observed effect。敵我意識／心防／政府—公民社會協作已是公開design；『壓制國內異議』仍需獨立證據。"
+  - "將『沒有成本的一票』操作化時，至少分開測量 party identification、vote intention、willingness to defect/abstain、面對治理或程序失誤時的更新條件，以及同陣營對特定語言／行為的social reward。單一互罵串只能提供互動機制樣本，不能直接證明投票條件性。"
+  - "研究者自身若參與公開互罵，evidence仍應保存雙向升級脈絡；不能只截取對方低級語句，再把自己造成的互動條件刪掉。"
