@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "黃國昌公開主張反例查核：事實翻車、法律敗訴與非反例邊界"
   started_at: "2026-10-21T13:16:11+08:00"
-  updated_at: "2026-10-21T13:31:00+08:00"
+  updated_at: "2026-10-21T13:44:00+08:00"
   status: active
 
 topics:
@@ -427,12 +427,14 @@ promotion:
   comparators:
     - "公開政治主張『翻車』判準：後續較高直接度／較高權威證據須實際否定原主張；被批評、被提告、法律見解敗訴、或機關自我澄清均不可自動計入。"
   research:
+    - "promote comparator mechanism to research/2026-10-20-public-authority-auditability-unfalsifiability/evidence.yaml: evidence-lifecycle gap / record control. Direct cause verified does not settle motive; unresolved cannot be converted into either guilt or exoneration."
     - "若未來要評估『黃國昌是否特別少翻車』，需要建立有分母的系統抽樣：固定期間、固定種類公開主張、事前定義可驗證性與錯誤門檻，不能用只找反例的資料估算錯誤率。"
 
 notes:
   - "本session的目的不是蒐集對黃國昌不利材料，而是主動測試『我沒看過他翻車／對手總先翻車』這個先驗印象是否存在可證偽反例。"
   - "本研究將『翻車』操作化為：本人公開提出可驗證的事實或因果主張，後續被更直接、更完整或更高程序權威的證據明確否定。"
   - "法律主張被法院否定、政治預測失準、修辭過頭、遭提告、遭政敵指控，不自動算fact-error。"
+  - "本案另已連結至公權力不可證偽性母題：重點不是證明政治指示，而是涉事公權力人員對關鍵物證與說明時序的處置本身降低外部重建能力。"
   - "2026-04-20辣椒水事件經補查後不再列為『最乾淨翻車反例』：黃國昌的政治歸因在當時缺乏足夠證據，屬premature attribution；但周俊銘後續已確認的異常行為使警方『直接物理來源』結論不能自動完成對所有動機假說的否證。萬里航照仍屬部分判讀錯誤；2018抗爭新書爭議維持unresolved。"
   - "2025父喪蓄鬍事件另作 opponent-overreach baseline：評論者由外觀推定『賣慘』，新事實公開後道歉；其證明功能是提醒不要由外觀直接推動機，不是替黃國昌其他主張預支正確性。"
   - "找到反例只足以推翻『從未翻車』；沒有建立全部公開主張的分母前，不支持『經常翻車』、『錯誤率高』或與其他政治人物比較的量化結論。"
