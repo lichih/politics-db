@@ -1,0 +1,510 @@
+session:
+  id: "2026-10-22-kuangshi-public-investment"
+  project: Politics
+  title: "曠世智能：國發基金、臺企銀創投投資與利益衝突爭議事實初查"
+  started_at: "2026-10-22T02:37:00+08:00"
+  updated_at: "2026-10-22T02:37:00+08:00"
+  status: active
+
+topics:
+  - 曠世智能股份有限公司
+  - 蘇巧純
+  - 蘇貞昌
+  - 蘇巧慧
+  - 行政院國家發展基金
+  - 創業天使投資方案
+  - 臺灣中小企業銀行
+  - 臺企銀創業投資
+  - 利益衝突
+  - 公股投資
+  - 新北市長選舉
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "經濟部商業發展署／商工登記公示資料查詢服務"
+    title: "曠世智能股份有限公司（統編55860334）公司登記資料"
+    url: "https://findbiz.nat.gov.tw/fts/company/55860334"
+    observed_at: "2026-10-22T02:37:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "目前公示董監事資料列劉韋男為董事長、蘇巧純為董事；蘇巧純持有4,991,846股。"
+      - "目前公示經理人資料查無符合結果；不能用目前狀態反推歷史上從未擔任營運長或其他職務。"
+
+  - id: S002
+    source_type: secondary
+    publisher: "Companys 台灣公司網"
+    title: "曠世智能股份有限公司－公司歷程"
+    url: "https://www.companys.com.tw/55860334"
+    observed_at: "2026-10-22T02:37:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "公司歷程列2021年8月新增董事蘇巧純；2022年7月蘇巧純持股由723,456股變更為4,991,846股。"
+      - "此為第三方彙整歷史資料；目前官方公示頁可確認現任董事身分，但本輪尚未取得2021年原始公司變更登記檔。"
+
+  - id: S003
+    source_type: primary
+    publisher: "行政院國家發展基金／國家發展委員會"
+    title: "有關創業天使投資方案投資曠世智能股份有限公司之說明"
+    url: "https://www.ndc.gov.tw/nc_27_40157"
+    published_at: "2026-05-26"
+    observed_at: "2026-10-22T02:37:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "國發基金說明曠世智能於2022年申請創業天使投資方案，申請金額1,999萬餘元，經審議會通過。"
+      - "國發基金表示與天使投資人搭配比例約0.96:1，基金只參與一次現金增資；2022年11月及2023年2月所述為同一輪增資，2024年增資基金未參與。"
+      - "來源可直接證明國發基金公開採取的說法與程序描述；不能單靠機關自述證明不存在不當介入。"
+
+  - id: S004
+    source_type: primary
+    publisher: "行政院國家發展基金"
+    title: "行政院國家發展基金113年第3季季報"
+    url: "https://ws.ndc.gov.tw/001/administrator/32/relfile/7031/38742/7035ad77-9880-450a-89c5-ed71e4cfa756.pdf"
+    published_at: "2024"
+    observed_at: "2026-10-22T02:37:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "季報投資明細表列『曠世智能公司』投資日期111.11、投資餘額19,999（千元）、持股比例8.55%。"
+      - "PDF搜尋結果外部標籤曾顯示113年第2季，但文件內頁標題為113年第3季，本session依文件內部標示記錄。"
+
+  - id: S005
+    source_type: primary
+    publisher: "行政院國家發展基金"
+    title: "行政院國家發展基金創業天使投資方案（110年3月3日修正）"
+    url: "https://www.angelinvestment.org.tw/uploads/download/%E8%A1%8C%E6%94%BF%E9%99%A2%E5%9C%8B%E5%AE%B6%E7%99%BC%E5%B1%95%E5%9F%BA%E9%87%91%E5%89%B5%E6%A5%AD%E5%A4%A9%E4%BD%BF%E6%8A%95%E8%B3%87%E6%96%B9%E6%A1%88_1100303.pdf?v1201="
+    published_at: "2021-03-03"
+    observed_at: "2026-10-22T02:37:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第六點規定國發基金對同一事業投資金額以不超過新臺幣2,000萬元為原則，並另定特定條件下的提高與後續增資額度。"
+      - "方案另要求共同投資之天使投資人應充分揭露與申請事業之利害關係。"
+      - "此版本早於2022年曠世智能投資；若要判定2022年決策當日的精確適用文字，仍應再取得當時最新版本比對。"
+
+  - id: S006
+    source_type: primary
+    publisher: "行政院國家發展基金／國家發展委員會"
+    title: "國發基金創業天使投資方案調整 投資上限由1,000萬元提高至2,000萬元"
+    url: "https://www.ndc.gov.tw/nc_27_32063"
+    published_at: "2019-01-30"
+    observed_at: "2026-10-22T02:37:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方新聞稿說明創業天使投資方案單一事業投資額度由1,000萬元提高為2,000萬元。"
+
+  - id: S007
+    source_type: primary
+    publisher: "法務部全國法規資料庫"
+    title: "公職人員利益衝突迴避法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0070008"
+    observed_at: "2026-10-22T02:37:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第2條將政務人員納入公職人員範圍。"
+      - "第3條將公職人員二親等以內親屬，以及該等親屬擔任負責人、董事、獨立董事、監察人、經理人或相類似職務之營利事業等，納入關係人範圍。"
+      - "第6條規範知有利益衝突之公職人員自行迴避；第12、13條分別規範利用職權圖利關係人及關係人不當請託關說。"
+      - "本法的具體違反與否仍須對照實際決策行為、職權、交易型態、揭露與迴避資料，不能由親屬與董事身分本身直接推出。"
+
+  - id: S008
+    source_type: primary
+    publisher: "法務部全國法規資料庫"
+    title: "行政院國家發展基金收支保管及運用辦法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030241"
+    observed_at: "2026-10-22T02:37:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第3條規定本基金主管機關為行政院，管理機關為國家發展委員會。"
+      - "第6條規定基金設管理會，置委員11至13人，召集人與副召集人由行政院院長就相關人員中派兼或聘兼；重大決議應報行政院核定。"
+      - "第7條列管理會掌理基金運用、投資案件審議及監督等事項。"
+      - "制度上的主管與任命關係不能直接證明行政院長介入某一個別投資案。"
+
+  - id: S009
+    source_type: primary
+    publisher: "行政院"
+    title: "歷任院長－蘇貞昌"
+    url: "https://history.ey.gov.tw/author/su-tseng-chang-1/"
+    observed_at: "2026-10-22T02:37:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "行政院歷史資料列蘇貞昌任期為2019-01-14至2023-01-31。"
+
+  - id: S010
+    source_type: primary
+    publisher: "臺灣中小企業銀行"
+    title: "關係企業－臺企銀創業投資股份有限公司"
+    url: "https://www.tbb.com.tw/zh-tw/about/intro/affiliate/tbb-venture-captial"
+    observed_at: "2026-10-22T02:37:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "臺企銀官網明載臺企銀創業投資股份有限公司為臺企銀100%持有之子公司，成立於2018-09-07。"
+
+  - id: S011
+    source_type: primary
+    publisher: "臺灣中小企業銀行"
+    title: "臺灣中小企業銀行及子公司114年前三季合併財務報告"
+    url: "https://www.tbb.com.tw/zh-tw/-/media/tbb/files/zh-tw/about/legal-disclaimers/financial-information/overview/114y-3s.pdf"
+    published_at: "2025"
+    observed_at: "2026-10-22T02:37:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "財務報告第10頁投資明細列臺企銀創投持有曠世智能1,600千股、帳面金額6,000千元、持股比例8.89%，分類為未上市櫃股票。"
+      - "此來源直接證明截至該報告期末臺企銀創投的持股與帳面金額，但不能直接證明2022年原始投資成本為2,500萬元。"
+
+  - id: S012
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "台企銀董事長黃博怡請辭 林謙浩將接任"
+    url: "https://www.cna.com.tw/news/firstnews/202104270329.aspx"
+    published_at: "2021-04-27"
+    observed_at: "2026-10-22T02:37:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導稱黃博怡於2021-04-01請辭；財政部官員表示林謙浩接任人事案已獲行政院正式核定，預計由董事會選任。"
+      - "此來源證明人事時序與公開說法，不證明人事異動與2022年曠世智能投資存在因果關係。"
+
+  - id: S013
+    source_type: primary
+    publisher: "臺灣中小企業銀行"
+    title: "2021年董事會重要決議"
+    url: "https://www.tbb.com.tw/zh-tw/-/media/tbb/files/zh-tw/about/intro/governance/board/resolutions/2021.pdf"
+    published_at: "2021"
+    observed_at: "2026-10-22T02:37:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "2021年資料列董事長為財政部代表人林謙浩，並呈現財政部與國發基金等公股代表之董事席次。"
+
+  - id: S014
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "民眾黨團質疑曠世智能補助案 經部：均依程序辦理"
+    url: "https://www.cna.com.tw/news/aipl/202605260258.aspx"
+    published_at: "2026-05-26"
+    observed_at: "2026-10-22T02:37:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導顯示曠世智能公股投資與蘇巧純身分的爭議至少在2026年5月已公開提出，並記錄國發基金與經濟部當時回應。"
+      - "報導亦稱民眾黨團指蘇巧純自2021年起擔任董事及營運長；營運長歷史身分本輪尚未取得公司原始人事文件核對。"
+
+  - id: S015
+    source_type: primary
+    publisher: "立法院議事轉播網際網路多媒體隨選視訊系統"
+    title: "2026-10-21 第11屆第6會期財政委員會第3次全體委員會議"
+    url: "https://ivod.ly.gov.tw/Demand/ListLgltVideo/6406"
+    published_at: "2026-10-21"
+    observed_at: "2026-10-22T02:37:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "IVOD頁面可確認2026-10-21財政委員會邀請審計長陳瑞敏列席業務報告並備質詢的會議存在。"
+      - "本輪搜尋結果尚未直接取得賴士葆完整質詢逐字稿，因此審計長就曠世智能的具體答覆另以多家同期媒體報導交叉記錄。"
+
+  - id: S016
+    source_type: secondary
+    publisher: "自由時報／財富自由"
+    title: "藍委質疑曠世智能獲投資 審計長承諾兩週內完成調查"
+    url: "https://stock.ltn.com.tw/article/cact50zrv2ge"
+    published_at: "2026-10-21"
+    observed_at: "2026-10-22T02:37:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導陳瑞敏表示審計部正調查創業天使投資方案之投資審議與投後管理，曠世智能屬其中之一，並同意兩週內提出結果。"
+      - "報導亦記載財政委員會通過臨時提案，要求審計部就近5年特定虧損公股投資與國發基金天使投資之投資前評估及投後管理於兩週內送交查核報告。"
+
+  - id: S017
+    source_type: secondary
+    publisher: "太報 TaiSounds"
+    title: "曠世智能投資案惹議！審計長陳瑞敏：半個月內提初步結果"
+    url: "https://www.taisounds.com/news/content/75/295319"
+    published_at: "2026-10-21"
+    observed_at: "2026-10-22T02:37:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導記載國發基金2022年投資約1,999萬元、臺企銀創投同年11月投資2,500萬元，並記載審計長將此案納入查核。"
+
+  - id: S018
+    source_type: secondary
+    publisher: "TVBS新聞網"
+    title: "蘇巧慧妹公司獲4500萬公股投資！審計部證實正在查：兩週給答案"
+    url: "https://news.tvbs.com.tw/politics/4039220"
+    published_at: "2026-10-21"
+    observed_at: "2026-10-22T02:37:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導記載賴士葆對國發基金與臺企銀創投投資、臺企銀董事長人事異動及是否揭露蘇巧純親屬關係提出質疑；這些為立委質疑內容，不因被報導即成為已證實事實。"
+
+  - id: S019
+    source_type: primary
+    publisher: "民主進步黨"
+    title: "民主進步黨第二十一屆第十次中執會新聞稿"
+    url: "https://www.dpp.org.tw/media/contents/11383"
+    published_at: "2025-11-26"
+    observed_at: "2026-10-22T02:37:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "新聞稿記錄民進黨中執會就2026年新北市長提名候選人進行議決，提名蘇巧慧。"
+      - "新聞稿同時明載蘇巧慧為蘇貞昌之女。"
+
+  - id: S020
+    source_type: secondary
+    publisher: "民視新聞網"
+    title: "冷飯熱炒？藍營質疑『蘇巧純企業受政府投資』 蘇巧慧：妹妹並非負責人 不怕查"
+    url: "https://www.ftvnews.com.tw/news/detail/2026A21P14M1"
+    published_at: "2026-10-21"
+    observed_at: "2026-10-22T02:37:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導引述蘇巧慧回應稱妹妹不是該公司負責人、相關應填文件依政府規定辦理，並稱合法的事情不怕查及此為舊案。"
+      - "此來源可證明候選人公開回應內容，不直接證明文件內容、程序或法律結論正確。"
+
+facts:
+  - id: F001
+    statement: "截至本次查詢，經濟部公司登記公示資料列蘇巧純為曠世智能股份有限公司董事，持有4,991,846股；公司負責人／董事長為劉韋男。"
+    status: verified
+    observed_at: "2026-10-22T02:37:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "現行官方公司登記直接確認董事身分、持股與負責人。"
+    verification_notes:
+      - "目前公示經理人欄查無資料，不能倒推歷史上從未擔任營運長。"
+    tags: [公司登記, 董事, 蘇巧純]
+
+  - id: F002
+    statement: "第三方公司歷史資料列蘇巧純於2021年8月新增為曠世智能董事；官方現行登記可確認她目前仍為董事。"
+    status: partial
+    observed_at: "2026-10-22T02:37:00+08:00"
+    source_ids: [S001, S002]
+    evidence_summary: "2021年8月的新增董事時點來自第三方歷史彙整，現任董事身分由官方公示確認；尚缺2021年原始變更登記檔作歷史時點的primary驗證。"
+    tags: [公司沿革, 董事, "2021"]
+
+  - id: F003
+    statement: "蘇貞昌於2019年1月14日至2023年1月31日擔任行政院院長。"
+    status: verified
+    observed_at: "2026-10-22T02:37:00+08:00"
+    source_ids: [S009]
+    evidence_summary: "行政院歷任院長官方資料直接列示任期。"
+    tags: [行政院長, 蘇貞昌, 時間線]
+
+  - id: F004
+    statement: "國發基金季報列曠世智能投資日期為2022年11月，投資餘額為19,999千元，持股比例8.55%；該投資發生於蘇貞昌2019-2023年行政院長任期內。"
+    status: verified
+    observed_at: "2026-10-22T02:37:00+08:00"
+    source_ids: [S003, S004, S009]
+    evidence_summary: "國發基金官方季報直接列出投資日期、金額與持股比例；行政院官方資料提供任期。時間重疊是可驗證事實，不等於介入或圖利。"
+    tags: [國發基金, 公股投資, 曠世智能, 時間線]
+
+  - id: F005
+    statement: "創業天使投資方案的單一事業投資原則上限至少自2019年已由1,000萬元提高為2,000萬元；2021年3月3日版本亦明定對同一事業投資以不超過2,000萬元為原則。"
+    status: verified
+    observed_at: "2026-10-22T02:37:00+08:00"
+    source_ids: [S005, S006]
+    evidence_summary: "2019官方新聞稿及2021方案本文一致把2,000萬元描述為投資額度上限／原則，而非本輪所查到的某個特別揭露門檻。"
+    verification_notes:
+      - "若要判斷2022年11月決策當日的精確條文版本，仍應補當時最新方案全文。"
+    tags: [創業天使投資方案, 投資上限, "2000萬元"]
+
+  - id: F006
+    statement: "國發基金2026年5月26日公開表示：曠世智能2022年申請投資1,999萬餘元，案件經外部專家審議及記名秘密投票；基金與天使投資人搭配比例約0.96:1；基金僅參與一次現金增資，2022年11月與2023年2月所稱為同一輪增資。"
+    status: verified
+    observed_at: "2026-10-22T02:37:00+08:00"
+    source_ids: [S003]
+    evidence_summary: "官方說明直接證明國發基金採取此程序與交易事實說法；對程序有無受到外力不當干預仍需其他文件獨立驗證。"
+    tags: [國發基金, 官方說法, 審議程序, 增資]
+
+  - id: F007
+    statement: "依國家發展基金收支保管及運用辦法，國發基金主管機關為行政院、管理機關為國發會；基金設管理會，並有投資案件審議與監督職權，部分重大決議須報行政院核定。"
+    status: verified
+    observed_at: "2026-10-22T02:37:00+08:00"
+    source_ids: [S008]
+    evidence_summary: "法規直接確認制度上的主管、管理與審議架構；這只證明制度關係，不證明行政院長參與曠世智能個案決策。"
+    tags: [國發基金, 行政院, 國發會, 制度架構]
+
+  - id: F008
+    statement: "公職人員利益衝突迴避法將政務人員納入適用公職人員，並將其二親等以內親屬及該等親屬擔任董事、經理人等職務之營利事業納入關係人定義；法律另規範自行迴避、利用職權圖利及不當請託關說。"
+    status: verified
+    observed_at: "2026-10-22T02:37:00+08:00"
+    source_ids: [S007]
+    evidence_summary: "這是規範內容本身；是否套用到本案並成立違法，仍須證明實際公職行為、利益衝突狀態、揭露／迴避及交易法律關係。"
+    tags: [利益衝突迴避法, 關係人, 規範]
+
+  - id: F009
+    statement: "臺企銀創業投資股份有限公司為臺灣中小企業銀行100%持有的子公司。"
+    status: verified
+    observed_at: "2026-10-22T02:37:00+08:00"
+    source_ids: [S010]
+    evidence_summary: "臺企銀官網關係企業頁直接確認持股關係。"
+    tags: [臺企銀創投, 臺企銀, 公股金融]
+
+  - id: F010
+    statement: "臺企銀114年前三季合併財務報告列臺企銀創投持有曠世智能1,600千股、帳面金額6,000千元、持股比例8.89%。"
+    status: verified
+    observed_at: "2026-10-22T02:37:00+08:00"
+    source_ids: [S011]
+    evidence_summary: "臺企銀官方財務報告直接證明該創投對曠世智能的持股存在及期末帳面金額。"
+    verification_notes:
+      - "該表不能單獨證明2022年原始投資成本。"
+    tags: [臺企銀創投, 曠世智能, 持股, 帳面價值]
+
+  - id: F011
+    statement: "多家2026年10月21日同期媒體報導臺企銀創投於2022年投資曠世智能2,500萬元；本輪已由臺企銀官方財報確認持股存在，但尚未找到2022年原始投資決議或當期財報直接驗證2,500萬元成本與精確日期。"
+    status: partial
+    observed_at: "2026-10-22T02:37:00+08:00"
+    source_ids: [S010, S011, S016, S017, S018]
+    evidence_summary: "投資關係本身有primary確認；2,500萬元原始成本與2022年日期目前主要來自多家同期新聞，故不把完整敘述升格為primary-verified。"
+    tags: [臺企銀創投, "2500萬元", 原始投資成本, 待補primary]
+
+  - id: F012
+    statement: "臺企銀前董事長黃博怡於2021年4月1日請辭；同月財政部官員對中央社表示林謙浩接任人事案已獲行政院核定，臺企銀2021年董事會資料之後列林謙浩為財政部代表人董事長。"
+    status: verified
+    observed_at: "2026-10-22T02:37:00+08:00"
+    source_ids: [S012, S013]
+    evidence_summary: "同期新聞與臺企銀官方董事會資料可確認請辭、接任及公股代表身分時序；不存在足以直接連結2022曠世智能投資的因果證據。"
+    tags: [臺企銀, 董事長, 林謙浩, 黃博怡, 時間線]
+
+  - id: F013
+    statement: "曠世智能公股投資與蘇巧純身分的政治質疑至少在2026年5月26日已公開出現；國發基金同日發布專文回應，因此不是2026年10月才第一次出現的爭議。"
+    status: verified
+    observed_at: "2026-10-22T02:37:00+08:00"
+    source_ids: [S003, S014]
+    evidence_summary: "2026年5月中央社報導質疑與國發基金同日正式回應，可建立公開爭議的最低已知時間點。"
+    tags: [爭議時間線, "2026-05-26", 舊案]
+
+  - id: F014
+    statement: "2026年10月21日立法院財政委員會質詢中，多家同期媒體一致報導審計長陳瑞敏表示審計部正查核創業天使投資方案的投資審議與投後管理，曠世智能相關資料將納入，並同意在約兩週內提出結果／初步結果。"
+    status: partial
+    observed_at: "2026-10-22T02:37:00+08:00"
+    source_ids: [S015, S016, S017, S018]
+    evidence_summary: "立法院IVOD可確認會議與審計長列席；自由時報、太報、TVBS對相關答覆核心內容一致。尚待該段完整IVOD／正式公報或審計部書面結果補成直接primary。"
+    tags: [審計部, 財政委員會, 查核, "2026-10-21"]
+
+  - id: F015
+    statement: "2026年10月21日財政委員會另據媒體報導通過臨時提案，要求審計部就近5年特定公股金融投資與國發基金創業天使投資中虧損超過三分之一的案件，於兩週內提供投資前評估與投後管理查核報告。"
+    status: partial
+    observed_at: "2026-10-22T02:37:00+08:00"
+    source_ids: [S016]
+    evidence_summary: "目前來源為同期媒體對臨時提案內容的轉述；正式委員會議事錄／提案文件尚待補入。"
+    tags: [財政委員會, 臨時提案, 審計部, 投後管理]
+
+  - id: F016
+    statement: "民主進步黨中執會於2025年11月26日議決提名蘇巧慧為2026年新北市長候選人。"
+    status: verified
+    observed_at: "2026-10-22T02:37:00+08:00"
+    source_ids: [S019]
+    evidence_summary: "民進黨官方中執會新聞稿直接記錄提名程序與人選。"
+    tags: [民進黨, 蘇巧慧, 新北市長選舉]
+
+  - id: F017
+    statement: "2026年10月21日蘇巧慧公開回應相關質疑時表示妹妹不是曠世智能負責人、相關應填文件依政府規定辦理，並稱『合法的事情不怕查』及此為舊案。"
+    status: verified
+    observed_at: "2026-10-22T02:37:00+08:00"
+    source_ids: [S020]
+    evidence_summary: "媒體現場報導可證明候選人公開說過這些內容；這不等於文件、程序或『合法』法律結論本身已被獨立證實。"
+    tags: [蘇巧慧, 候選人回應, 政治責任]
+
+  - id: F018
+    statement: "公開資料與同期報導一致將蘇巧慧列為蘇貞昌之女，並將蘇巧純列為蘇巧慧胞妹／蘇貞昌之女；本案親屬關係因此不是僅由姓氏推測。"
+    status: verified
+    observed_at: "2026-10-22T02:37:00+08:00"
+    source_ids: [S014, S018, S019, S020]
+    evidence_summary: "民進黨官方資料確認蘇巧慧與蘇貞昌父女關係；多家同期媒體及蘇巧慧本人的『我妹妹』回應交叉確認蘇巧純與蘇巧慧為姊妹。"
+    tags: [親屬關係, 蘇貞昌, 蘇巧慧, 蘇巧純]
+
+  - id: F019
+    statement: "以目前證據，國發基金1,999.9萬元投資為官方直接確認；臺企銀創投2,500萬元原始成本則仍待primary補強，因此『兩筆合計約4,500萬元』目前只能視為部分確認。"
+    status: partial
+    observed_at: "2026-10-22T02:37:00+08:00"
+    source_ids: [S003, S004, S011, S016, S017, S018]
+    evidence_summary: "國發基金金額已由官方季報確認；臺企銀創投持股已由官方財報確認，但原始2,500萬元成本仍主要依新聞報導。"
+    tags: [公股投資, "4500萬元", evidence-boundary]
+
+claims:
+  - id: C001
+    statement: "國發基金將投資額訂為1,999.9萬元，是為了規避一個『2,000萬元以上才須揭露』的法定或方案揭露門檻。"
+    status: unsupported
+    related_facts: [F004, F005]
+    reasoning_notes: "本輪查得的2019官方說明與2021方案本文均把2,000萬元描述為同一事業投資額度上限／原則；尚未找到『跨過2,000萬元才觸發特定揭露義務』的規範。接近上限本身不能證明規避揭露。"
+
+  - id: C002
+    statement: "國發基金在2022年11月與2023年2月分別對曠世智能做了兩次獨立投資。"
+    status: contradicted
+    contradicts: [F006]
+    reasoning_notes: "國發基金2026年5月官方說明明確稱兩個時間標示屬同一輪現金增資，基金只參與一次。若未來出現交易原始文件與此矛盾，應再更新。"
+
+  - id: C003
+    statement: "2021年臺企銀董事長由黃博怡更換為林謙浩，是因黃博怡不願投資曠世智能，或是為2022年投資曠世智能鋪路。"
+    status: unresolved
+    related_facts: [F011, F012]
+    reasoning_notes: "目前只能確認人事異動在2021年、媒體所稱投資在2022年；沒有取得黃博怡拒絕投資、行政院／財政部指示換人、投資案會議紀錄或其他能建立因果鏈的證據。時間先後不足以證明動機與因果。"
+
+  - id: C004
+    statement: "蘇貞昌或民進黨以政治權力不當介入國發基金或臺企銀創投對曠世智能的投資決策。"
+    status: unresolved
+    related_facts: [F003, F004, F007, F009, F011, F018]
+    reasoning_notes: "親屬關係、制度主管關係與任期重疊構成應查核的利益衝突結構，但本輪未取得指示、會議、金流、關說、程序例外或其他直接證據證明不當介入。"
+
+  - id: C005
+    statement: "曠世智能取得國發基金或臺企銀創投投資已可認定違反公職人員利益衝突迴避法。"
+    status: unresolved
+    related_facts: [F001, F002, F003, F004, F007, F008, F009, F011, F018]
+    reasoning_notes: "法律確有二親等親屬及其任董事／經理人企業的關係人規範，但是否構成違法仍需確認蘇貞昌或其他適用公職人員對個案的具體職權與行為、是否有利益衝突、揭露／迴避文件、交易型態及適用條款。不能由關係人身分直接跳到違法結論。"
+
+  - id: C006
+    statement: "曠世智能公股投資爭議直到2026年10月新北市長選舉期間才首次出現。"
+    status: contradicted
+    contradicts: [F013]
+    reasoning_notes: "至少2026年5月26日已有公開質疑、中央社報導與國發基金正式回應；10月是爭議再度進入立院查核與選舉攻防。"
+
+  - id: C007
+    statement: "臺企銀創投對曠世智能的投資關係不存在。"
+    status: contradicted
+    contradicts: [F009, F010]
+    reasoning_notes: "臺企銀官方財務報告直接列出臺企銀創投持有曠世智能8.89%股權。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-22T02:37:00+08:00"
+    platform: politics-db
+    query: "蘇巧慧 曠世智能／蘇巧純／台企銀 國發基金 曠世智能"
+    scope: "lichih/politics-db main"
+    result: not_found
+    notes: "既有authoritative evidence ledger未找到本案專門條目，因此建立新session。"
+
+  - id: Q002
+    observed_at: "2026-10-22T02:37:00+08:00"
+    platform: web
+    query: "創業天使投資方案 2,000萬元 揭露門檻／投資上限"
+    scope: "國發基金、法規與一般網頁"
+    result: partial
+    notes: "找到2019官方說明與2021方案本文，均將2,000萬元描述為投資額度上限／原則；本輪未找到跨過2,000萬元才觸發特定揭露義務的規範。not_found不等於從未存在。"
+
+  - id: Q003
+    observed_at: "2026-10-22T02:37:00+08:00"
+    platform: web
+    query: "site:tbb.com.tw 曠世智能 臺企銀創投 2022 2,500萬元／2500萬"
+    scope: "臺灣中小企業銀行官方網站及公開財務報告"
+    result: partial
+    notes: "找到官方2025年前三季財報確認持股8.89%與帳面600萬元；未找到2022年原始投資決議、認購價格或可直接驗證原始成本2,500萬元的臺企銀primary。"
+
+  - id: Q004
+    observed_at: "2026-10-22T02:37:00+08:00"
+    platform: web
+    query: "2026-10-21 曠世智能 審計部 兩週 賴士葆 立法院財政委員會"
+    scope: "立法院IVOD、審計部網站與同期媒體"
+    result: partial
+    notes: "找到立法院IVOD確認當日財委會與審計長列席；多家同期媒體一致報導查核與兩週結果，但本輪尚未直接取得賴士葆該段完整IVOD逐字稿、正式議事錄或審計部書面查核結果。"
+
+  - id: Q005
+    observed_at: "2026-10-22T02:37:00+08:00"
+    platform: web
+    query: "民主進步黨 曠世智能／蘇巧純 公股投資 2026"
+    scope: "民進黨官方網站與一般搜尋"
+    result: not_found
+    notes: "本輪找到民進黨官方對蘇巧慧的新北市長提名資料，及蘇巧慧個人就爭議的媒體回應；未找到民進黨中央針對曠世智能投資爭議的正式聲明。此次查詢未找到不等於不存在。"
+
+promotion:
+  cases: []
+  comparators: []
+  research:
+    - "曠世智能公股投資、利益衝突與投後管理時間線"
+
+notes:
+  - "本session先收外部可驗證事實。『是否具有政治責任』屬政治評價層，可建立於這些事實上，但不把政治評價冒充fact。"
+  - "目前最重要的未解資料：臺企銀創投2022年原始投資決議／認購價格／評估報告；國發基金投資申請文件中的利害關係揭露與審議紀錄；相關人員是否有迴避紀錄；審計部2026年10月承諾之兩週查核結果。"
+  - "『制度主管關係＋親屬關係＋任期重疊』可以支持提高查核強度，但不能自行填補『實際介入』『違法』『圖利』的證據缺口。"
+  - "同一把尺：若換成任何政黨或公職人員，對親屬任董事／經理人企業在其任內取得政府或公股資金，都應查同一組揭露、迴避、決策與投後管理資料。"
