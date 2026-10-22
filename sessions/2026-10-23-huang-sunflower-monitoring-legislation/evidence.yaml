@@ -583,6 +583,18 @@ sources:
     notes:
       - "3週臨時會結束時，民進黨所列議程除著作權法外，多項法律案均完成處理；完整兩岸協議監督專法不在該批清理議程。"
 
+  - id: S048
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "立院將審監督條例 時力擬提高與中國協議門檻"
+    url: "https://www.cna.com.tw/news/aipl/201904160078.aspx"
+    published_at: "2019-04-16"
+    observed_at: "2026-10-23T01:45:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "經民連在2019排審前公開指出，當時六個監督條例版本都沒有足以處理既有服貿的溯及／過渡條款，主張新法應明定退回服貿機制。"
+      - "時代力量同日表示將提出修正動議提高政治協商門檻；報導未顯示第9屆時力已正式納入經民連完整過渡條款。"
+
 facts:
   - id: F001
     statement: "2016年4月，民進黨立法院黨團正式提出《兩岸訂定協議監督條例草案》。"
@@ -730,8 +742,8 @@ facts:
     statement: "2016年時代力量原始版本雖設有『既往協議之處理』，但未納入經民連同年6月提出的完整過渡機制；2020年第10屆時代力量版本則加入詳細衝擊評估、終止談判、退回協議與既有協議檢討機制。"
     status: verified
     observed_at: "2026-10-23T01:28:00+08:00"
-    source_ids: [S016, S017, S019, S027]
-    evidence_summary: "2016與2020立法院原始草案可直接比較；經民連 contemporaneous statement 說明其2016要求內容，後來回顧指出納入時間。"
+    source_ids: [S016, S017, S019, S027, S048]
+    evidence_summary: "2016與2020立法院原始草案可直接比較；經民連2016 contemporaneous statement 說明其過渡要求；2019中央社又記錄經民連指出當時六版本均未納入完整過渡條款；後來回顧則指出直到2020時力版才納入。"
     verification_notes:
       - "因此不能把黃國昌參與的2016版本描述成已完整實現經民連對既有服貿/貨貿的全部過渡要求。"
       - "時力黨團2016曾表示願意在審查時提出修正動議，但本輪尚未找到第9屆最後實際提出並納入審查文本的官方修正動議紀錄。"
@@ -1277,6 +1289,14 @@ searches:
     scope: "2019 legislative agenda responsibility and later Executive/caucus reinterpretation"
     result: found
     notes: "找到2019排審、官方5月27黨團協商、陸委會兩套機制答詢、民進黨67人臨時會議程，以及2023柯建銘與陸委會『無另立必要』說法。可把『八年沒過』從結果層推進到具體優先順序與議程責任層。"
+
+  - id: Q014
+    observed_at: "2026-10-23T01:45:00+08:00"
+    platform: "web"
+    query: "2016 2019 時代力量 監督條例 過渡條款 修正動議 既有服貿"
+    scope: "adversarial check of Huang/NPP transition-clause gap"
+    result: found
+    notes: "2019 contemporaneous CNA reports civil-society criticism that all six existing versions lacked the full transition/retroactivity mechanism for the already-signed service-trade pact. No official record was found showing the 9th-term NPP/Huang bill had formally incorporated EDU's full transition mechanism; the 2020 NPP bill does contain it."
 
 promotion:
   cases: []
