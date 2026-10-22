@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "支持者獎勵、陣營內規範執行與民主煞車：以2025大罷免為起始案例"
   started_at: "2026-10-21T19:18:52+08:00"
-  updated_at: "2026-10-22T12:37:00+08:00"
+  updated_at: "2026-10-22T23:35:00+08:00"
   status: active
 
 topics:
@@ -385,6 +385,20 @@ sources:
       - "作者明確區分『支持民進黨』『認同青鳥運動』『認同個別支持者的發言』三件事，並表示不因政黨支持而替所有同陣營言論背書。"
       - "此來源可證明至少存在一名自我認同的民進黨支持者，在具體事件中拒絕以陣營立場取代事實查證；不能由單一貼文推定其在所有議題都維持同一標準，也不能推估此態度在民進黨支持者中的比例。"
 
+
+  - id: S030
+    source_type: commentary
+    publisher: "Threads / @liminqian109"
+    title: "以「藍白更貪」「光電貪，抓出來都國民黨」回應民進黨貪污批評之貼文與公開回覆"
+    url: "https://www.threads.com/@liminqian109/post/DeyUaAsmpN7"
+    observed_at: "2026-10-22T23:35:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "原貼文稱：「民進黨貪污，所以我們要投給更貪的藍白？？？」「現在執政的是民進黨，所以要換成更貪的藍白？」「而且藍白沒執政都可以貪成那樣了」「光電貪，抓出來都國民黨的」，最後以「可以告訴我，你的腦子怎了嗎？小草」收尾。"
+      - "本次頁面觀察快照顯示原貼文132讚、137回覆、19轉發、16分享、4,258次瀏覽；互動數會變動，也不能把每一個互動者都視為同意完整命題。"
+      - "可見公開回覆中，@blackcat77977留言「有腦子怎麼會當草」，當時顯示4讚。"
+      - "頁面可直接證明上述主張、稱呼與互動存在；不能單靠反藍白／稱呼「小草」推定作者或回覆者必然是民進黨支持者、實際投票者，亦不能證明「藍白更貪」或「光電貪抓出來都國民黨」為真。"
+
 facts:
   - id: F001
     statement: "2025-01-04，民進黨立院黨團總召柯建銘以「藍白賣台」「救台灣」框架主張罷免41席國民黨區域立委。"
@@ -668,6 +682,27 @@ facts:
     verification_notes:
       - "只能確認此貼文中的具體判斷與自我認同；不能由此推定作者跨議題、跨時間都維持相同獨立性。"
     tags: [Threads, 民進黨支持者, 反例, 條件式支持, 證據優先, supporter-autonomy]
+
+
+  - id: F032
+    statement: "Threads帳號@liminqian109公開以「藍白更貪」及「光電貪，抓出來都國民黨」作為回應民進黨貪污批評的核心命題，並以「你的腦子怎了嗎？小草」指向民眾黨支持者身分。"
+    status: verified
+    observed_at: "2026-10-22T23:35:00+08:00"
+    source_ids: [S030]
+    evidence_summary: "可直接確認比較性貪污主張、光電案件全稱主張與對「小草」的能力／身分嘲諷同時出現在原貼文；此fact只證明公開發言存在，不證明主張內容真實。"
+    verification_notes:
+      - "貼文可見文字未提供跨黨派共同分母、案件清單、金額／人數統計或其他可驗證資料來建立「更貪」比較。"
+      - "「光電貪，抓出來都國民黨」屬全稱命題；要成立必須處理反例、案件範圍、涉案與定罪層級、政黨身分及時間界線，不能由本貼文本身證成。"
+      - "反藍白與使用「小草」稱呼不足以單獨證明作者的政黨自我認同或實際投票選擇。"
+    tags: [Threads, 貪污比較, 光電, 小草, identity-framing, evidence-gap]
+
+  - id: F033
+    statement: "在2026-10-22T23:35:00+08:00的Threads頁面快照中，S030原貼文顯示132讚、137回覆、19轉發、16分享與4,258次瀏覽；同頁另有「有腦子怎麼會當草」的公開回覆，當時顯示4讚。"
+    status: verified
+    observed_at: "2026-10-22T23:35:00+08:00"
+    source_ids: [S030]
+    evidence_summary: "保存自然社群樣本中的可觀察互動量與直接身分／能力羞辱；互動只代表當時平台快照，不等於所有互動者都認同全部政治主張。"
+    tags: [Threads, engagement-snapshot, 身分羞辱, 小草, 自然樣本]
 
 claims:
   - id: C001
@@ -974,6 +1009,31 @@ claims:
     related_facts: [F012, F013, F027, F028, F029, F030]
     reasoning_notes: "F031證明支持身分與個案自主判斷可以分離；既有案例則保存evidence-demand punishment、argument-demand punishment與authority shielding等相反方向樣本。後續仍需用跨案例panel測量穩定性，而非直接把單次表現升格成人格定性。"
 
+
+  - id: C039
+    statement: "S030本身已足以證明「藍白整體比民進黨更貪」，以及「光電貪污被查獲者全部都是國民黨」。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F032]
+    reasoning_notes: "S030是政治評論來源，只能直接證明作者如此主張。比較性貪污命題需要一致案件定義、期間、分母、程序狀態與政黨歸屬；「都國民黨」另需排除任何反例。本輪未做該實體貪污比較查核，因此不能把貼文主張升格為外部事實。"
+
+  - id: C040
+    statement: "S030可作為一個存在性樣本，研究『以未在貼文中完成舉證的跨黨派比較命題，直接把當前執政黨貪污批評改寫成「對手更貪」的陣營選擇，再搭配「小草」身分／能力羞辱』的論證結構。"
+    status: supported
+    supports: [F032]
+    contradicts: []
+    related_facts: [F033]
+    reasoning_notes: "這是對公開文本結構的分類，不判定「藍白更貪」真假，也不把作者直接歸類為民進黨支持者。較精確的研究問題是：對具體治理批評，是否以陣營相對惡劣度取代對本身責任的檢驗，以及身份羞辱是否降低補證據的壓力。"
+
+  - id: C041
+    statement: "F033的132讚與公開羞辱回覆已足以證明民進黨支持者群體普遍獎勵『不舉證、只做人身攻擊』的政治論述。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F032, F033]
+    reasoning_notes: "互動數只能建立此自然樣本存在可觀察社交回饋；目前沒有每一互動者的政黨認同、按讚理由、代表性抽樣或跨陣營baseline，不能推估群體盛行率。"
+
 searches:
   - id: Q001
     observed_at: "2026-10-21T19:18:52+08:00"
@@ -1046,6 +1106,15 @@ searches:
     scope: "原貼文與其公開回覆脈絡"
     result: found
     notes: "找到一個自我認同民進黨支持者、但在對蔣萬安不利事件中主張先查原因、要求證據與邏輯、拒絕為同陣營個別言論背書的直接反例。用於區分party identification與supporter autonomy，不作群體比例推估。"
+
+
+  - id: Q010
+    observed_at: "2026-10-22T23:35:00+08:00"
+    platform: "connected browser / Threads"
+    query: "liminqian109 DeyUaAsmpN7"
+    scope: "原貼文、頁面可見公開回覆與當時互動數快照"
+    result: found
+    notes: "確認原作者公開主張「藍白更貪」「光電貪，抓出來都國民黨」，並以「小草」作身分／能力嘲諷；同頁可見「有腦子怎麼會當草」回覆及互動快照。此次只保存主張與論證／互動結構，未把政治評論當成貪污比較的實體證據，也未由語言立場推定作者或互動者的政黨身分。"
 
 promotion:
   cases: []
