@@ -1,0 +1,277 @@
+session:
+  id: "2026-10-23-state-security-attribution-judicial-coercion-partisan-instrumentalization-risk"
+  project: Politics
+  title: "國安歸因、司法強制作為與政黨工具化風險"
+  started_at: "2026-10-23T02:17:00+08:00"
+  updated_at: "2026-10-23T02:17:00+08:00"
+  status: active
+
+topics:
+  - 國家安全局
+  - 認知作戰
+  - 境外介選
+  - 情報歸因
+  - 司法移送
+  - 行政中立
+  - auditability
+  - partisan-instrumentalization-risk
+  - failure-state
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "國家情報工作法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0020041"
+    observed_at: "2026-10-23T02:17:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第4至6條要求立法院監督、督察機制、比例與行政中立。"
+
+  - id: S002
+    source_type: primary
+    publisher: "立法院議事轉播IVOD"
+    title: "異常帳號、爭議訊息定義與通報／溯源流程答詢"
+    url: "https://ivod.ly.gov.tw/Demand/Speech/167076"
+    observed_at: "2026-10-23T02:17:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "國安局官員稱異常帳號可能缺乏正常活動／互動、臨時註冊；爭議訊息包含與事實有出入且有其他帳號協力刻意炒作的內容。"
+      - "掌握訊息後會通報、溯源；涉及違法事證時請司法警察機關依法偵處。"
+
+  - id: S003
+    source_type: primary
+    publisher: "立法院議事轉播IVOD"
+    title: "231萬餘則認知作戰爭議訊息、平台下架與司法警察查察答詢"
+    url: "https://ivod.ly.gov.tw/Demand/Speech/167068"
+    observed_at: "2026-10-23T02:17:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "國安局官員稱2025年掌握231萬餘則認知作戰爭議訊息及4萬5千多筆假帳號，循專案機制通報並請平台下架；涉及其所稱「惡、假、害」時請調查局、刑事局查察。"
+
+  - id: S004
+    source_type: primary
+    publisher: "立法院議事轉播IVOD"
+    title: "中共介選資訊揭露標準與國安層級爭議訊息答詢"
+    url: "https://ivod.ly.gov.tw/Demand/Speech/168276"
+    published_at: "2026-04-08"
+    observed_at: "2026-10-23T02:17:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "蔡明彥稱國安局處理爭議訊息需達「國安層級」、不涉入選區候選人攻防；並列舉影響國家安全／社會秩序、傷害友盟合作或「誣衊我們的國家元首」等可能類型。"
+
+  - id: S005
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "蔡明彥：中共精準介選　廉價機票供鎖定對象返台投票"
+    url: "https://www.cna.com.tw/news/aipl/202610220066.aspx"
+    published_at: "2026-10-22"
+    observed_at: "2026-10-23T02:17:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "蔡明彥表示國安局會積極蒐集介選事證，儘量在選前移送司法單位偵辦。"
+
+  - id: S006
+    source_type: primary
+    publisher: "立法院議事轉播IVOD"
+    title: "2024選舉期間影片／錄音外流案之國安溯源與檢調移送答詢"
+    url: "https://ivod.ly.gov.tw/Demand/Speech/149623"
+    published_at: "2024-10-16"
+    observed_at: "2026-10-23T02:17:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "蔡明彥稱鄭文燦相關外流影片案由檢調立案，國安局掌握散布源頭IP位於上海並提供檢調；蔡英文／羅致政錄音案第一時間移送調查局，趙天麟事件相關資訊也提供檢調。"
+      - "這些案例包含對民進黨人物不利的內容，是單向工具化全稱假說的反向材料。"
+
+  - id: S007
+    source_type: primary
+    publisher: "臺灣花蓮地方檢察署"
+    title: "花檢偵辦境外勢力資助赴陸旅遊介選案件，嚴查選舉不法"
+    url: "https://www.hlc.moj.gov.tw/53445/53474/53475/1135513/post"
+    published_at: "2023-12-26"
+    observed_at: "2026-10-23T02:17:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "花檢稱2023-12-25搜索16處、傳喚22人；兩名被告分別5萬元、2萬元交保。"
+
+  - id: S008
+    source_type: primary
+    publisher: "臺灣花蓮地方檢察署"
+    title: "113年6月17日偵結公告"
+    url: "https://www.hlc.moj.gov.tw/media/362602/1130617%E5%81%B5%E7%B5%90%E5%85%AC%E5%91%8A.pdf?mediaDL=true"
+    published_at: "2024-06-17"
+    observed_at: "2026-10-23T02:17:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "公告列113選偵26之孔○吉、巫○華、陳○傑與113選偵29之孔○吉、陳○傑均為不起訴。"
+      - "不能由偵結表把2023-12-26被傳喚22人逐一對應，因此不寫成「22人全部不起訴」。"
+
+facts:
+  - id: F001
+    statement: "現行《國家情報工作法》明定立法院監督、督察、比例與行政中立要求。"
+    status: verified
+    observed_at: "2026-10-23T02:17:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "法定safeguards確實存在。"
+    verification_notes:
+      - "規範存在不等於實際執行足以排除誤判或選擇性處置。"
+    tags: [行政中立, safeguard]
+
+  - id: F002
+    statement: "國安局已公開部分異常帳號與爭議訊息操作特徵，但公開答詢不是完整技術規格或逐案decision rule。"
+    status: verified
+    observed_at: "2026-10-23T02:17:00+08:00"
+    source_ids: [S002]
+    evidence_summary: "至少存在帳號活動、內容真實性與協同行為等公開判斷特徵。"
+    verification_notes:
+      - "本次未取得完整threshold、false-positive rate或逐案decision log。"
+    tags: [classifier, 爭議訊息]
+
+  - id: F003
+    statement: "國安局爭議訊息工作存在從情報分析到行政與司法處置的handoff：通報機關、請平台下架，涉及違法事證或門檻時請司法警察機關查察。"
+    status: verified
+    observed_at: "2026-10-23T02:17:00+08:00"
+    source_ids: [S002, S003]
+    evidence_summary: "兩次公開答詢均說明此處理鏈。"
+    verification_notes:
+      - "handoff不代表下游必然搜索、起訴或有罪。"
+    tags: [handoff, 司法警察]
+
+  - id: F004
+    statement: "2026-04-08蔡明彥表示爭議訊息需達「國安層級」，並列「誣衊國家元首」等可能類型，同時承諾不涉入選區候選人攻防。"
+    status: verified
+    observed_at: "2026-10-23T02:17:00+08:00"
+    source_ids: [S004]
+    evidence_summary: "可確認國安局長公開描述的gate與自我設定邊界。"
+    verification_notes:
+      - "不能擴張成所有批評總統都會被國安處理。"
+    tags: [國安層級, election-boundary]
+
+  - id: F005
+    statement: "2026-10-22蔡明彥表示國安局會蒐集介選事證並儘量在選前移送司法單位偵辦。"
+    status: verified
+    observed_at: "2026-10-23T02:17:00+08:00"
+    source_ids: [S005]
+    evidence_summary: "國安判斷與選前司法程序有明示接口。"
+    verification_notes:
+      - "不證明移送標準偏頗或司法機關無獨立判斷。"
+    tags: [選前移送, handoff]
+
+  - id: F006
+    statement: "國安局在2024選舉相關外流素材爭議中，也曾就對民進黨人物不利的材料溯源、提供情資或移送檢調。"
+    status: verified
+    observed_at: "2026-10-23T02:17:00+08:00"
+    source_ids: [S006]
+    evidence_summary: "存在方向相反的操作案例。"
+    verification_notes:
+      - "反例不能證明跨陣營處理強度完全一致。"
+    tags: [counterevidence, cross-party]
+
+  - id: F007
+    statement: "2023年12月花蓮反滲透／介選案在選前發生搜索16處、傳喚22人及兩人交保；2024年6月偵結公告列出孔○吉、巫○華、陳○傑等相關反滲透案件不起訴。"
+    status: partial
+    observed_at: "2026-10-23T02:17:00+08:00"
+    source_ids: [S007, S008]
+    evidence_summary: "建立選前程序成本與其後相關不起訴兩個時間節點。"
+    verification_notes:
+      - "不寫成22人全部不起訴；不起訴也不能反推初期偵查必然違法或具政治動機。"
+    tags: [反滲透法, failure-state]
+
+claims:
+  - id: C001
+    statement: "國安局的認知作戰／介選判斷可進入行政通報、平台下架請求、司法警察查察與選前司法移送。"
+    status: supported
+    supports: [F003, F005]
+    contradicts: []
+    related_facts: [F002, F004]
+    reasoning_notes: "支持制度接口存在，不等於國安局可自行決定刑事有罪。"
+
+  - id: C002
+    statement: "因國安分類可能連接平台處置與刑事偵查，其classifier、揭露與移送決策屬高影響公權力節點，合理需要比例、行政中立、獨立監督、錯誤更正與可審計性。"
+    status: supported
+    supports: [F001, F003, F004, F005]
+    contradicts: []
+    related_facts: [F007]
+    reasoning_notes: "這是architecture risk，不以證明特定官員惡意為前提。"
+
+  - id: C003
+    statement: "「國安局完全沒有公開任何判準」不成立；但現有公開材料仍不足以讓外部逐案重建國安層級gate、個案threshold、false-positive控制與錯誤更正／救濟流程。"
+    status: partially_supported
+    supports: [F002, F004]
+    contradicts: [F002]
+    related_facts: [F001]
+    reasoning_notes: "公開資料不足不能反推內部不存在更完整規則。"
+
+  - id: C004
+    statement: "「國安局制度上完全沒有行政中立與監督約束」被現行法明文反駁；真正待查的是safeguards的實際有效性。"
+    status: contradicted
+    supports: []
+    contradicts: [F001]
+    related_facts: [F004, F005]
+    reasoning_notes: "規範存在與規範有效是不同命題。"
+
+  - id: C005
+    statement: "選前國安／反滲透相關程序可能先產生搜索、傳喚、交保與公開污名成本，而不起訴可能選後才出現；只看最終有無起訴／定罪不足以衡量時間結構。"
+    status: supported
+    supports: [F007]
+    contradicts: []
+    related_facts: [F005]
+    reasoning_notes: "是否改變選舉結果或有人主觀利用時間差仍需另證。"
+
+  - id: C006
+    statement: "國安局／司法反介選體系已被證明系統性地對在野黨採較低歸因門檻或更高強制程度，因而構成執政黨對政治對手的認知作戰工具。"
+    status: unresolved
+    supports: [F003, F004, F005, F007]
+    contradicts: [F006]
+    related_facts: [F001, F002]
+    reasoning_notes: "仍缺matched cases、移送分母、揭露決策、強制處分率、錯誤更正與終局結果。"
+
+  - id: C007
+    statement: "執政黨、國安局、檢調與法院存在統一指揮、以打擊政治對手為目的的協同命令鏈。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F001, F003, F005, F006, F007]
+    reasoning_notes: "未取得直接命令、決策鏈或可排除正常國安／司法職能的證據。"
+
+  - id: C008
+    statement: "「只要內容對執政黨不利，國安局就當成中國認知戰；對執政黨有利內容完全不處理」的全稱單向模型，被2024年反向案例削弱。"
+    status: contradicted
+    supports: []
+    contradicts: [F006]
+    related_facts: [F002, F004]
+    reasoning_notes: "反例不能證明整體公平，仍需matched cases。"
+
+  - id: C009
+    statement: "把「誣衊國家元首」列為可能達國安層級的爭訊類型，使其如何與一般政治批評／選舉攻防區隔成為具體制度審計問題；現有資料未證明此gate已用來壓制合法政治異議。"
+    status: supported
+    supports: [F004]
+    contradicts: []
+    related_facts: [F001, F002]
+    reasoning_notes: "支持審計問題合理性，不是濫權結論。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-23T02:17:00+08:00"
+    platform: "politics-db"
+    query: "國安局／爭議訊息／認知作戰／auditability"
+    scope: "lichih/politics-db main"
+    result: found
+    notes: "重用既有公權力auditability母題；本檔獨立處理classifier到司法coercion的串接。"
+  - id: Q002
+    observed_at: "2026-10-23T02:17:00+08:00"
+    platform: "立法院IVOD／中央社／花蓮地檢署"
+    query: "國安局 爭議訊息 定義 通報 下架 司法警察 選前移送 反滲透 不起訴"
+    scope: "官方答詢、法規、檢察署primary source與2026-10-22中央社"
+    result: found
+    notes: "找到分類特徵、handoff、法律safeguards、failure-state與跨政治方向反例。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "研究式：partially-auditable national-security attribution × downstream coercive process = compounded democratic risk；這是architecture risk，不等於已證明malicious coordination。"
+  - "下一步用matched cases比較政治方向不同但條件相近的訊息之國安歸因、揭露、移送、強制處分、終局結果與更正。"
+  - "時間軸拆開：政治效果、偵查／強制作為、不起訴／裁判；後來不起訴不能抹除較早程序成本，較早搜索也不能預支有罪。"
