@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "支持者獎勵、陣營內規範執行與民主煞車：以2025大罷免為起始案例"
   started_at: "2026-10-21T19:18:52+08:00"
-  updated_at: "2026-10-22T12:07:51+08:00"
+  updated_at: "2026-10-22T12:37:00+08:00"
   status: active
 
 topics:
@@ -39,6 +39,10 @@ topics:
   - supporter-mediated authority shielding
   - 程序質疑卸責
   - 民間複製
+  - 條件式支持
+  - brake-preserving supporter
+  - independent evaluator
+  - supporter autonomy
 
 sources:
   - id: S001
@@ -369,6 +373,18 @@ sources:
       - "翟本喬推測檢方可能因2026選舉時程而希望被告在選前認罪，並推測可能存在緩刑或一年以下刑期等量刑利益；完整查核已保存在 cases/2026-10-20-ko-wen-je-judicial-proceedings/evidence.yaml。"
       - "既有案件查核將『檢察官曾承諾緩刑或一年以下刑期作為認罪交換』列為 unsupported；本 research 僅使用該貼文來界定原待回應命題，不把推測升格為事實。"
 
+  - id: S029
+    source_type: commentary
+    publisher: "Threads / @nunu_.0709"
+    title: "民進黨支持者區分政黨支持、青鳥運動與個別支持者言論之貼文"
+    url: "https://www.threads.com/@nunu_.0709/post/DewJbEHEjGb"
+    observed_at: "2026-10-22T12:37:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "作者明確自述『我支持民進黨』，但同時批評在垃圾桶起火原因尚未查明前即拿事件攻擊蔣萬安的作法，並表示政治監督需要『證據和邏輯，不是情緒和立場』。"
+      - "作者明確區分『支持民進黨』『認同青鳥運動』『認同個別支持者的發言』三件事，並表示不因政黨支持而替所有同陣營言論背書。"
+      - "此來源可證明至少存在一名自我認同的民進黨支持者，在具體事件中拒絕以陣營立場取代事實查證；不能由單一貼文推定其在所有議題都維持同一標準，也不能推估此態度在民進黨支持者中的比例。"
+
 facts:
   - id: F001
     statement: "2025-01-04，民進黨立院黨團總召柯建銘以「藍白賣台」「救台灣」框架主張罷免41席國民黨區域立委。"
@@ -642,6 +658,16 @@ facts:
     source_ids: [S028]
     evidence_summary: "可確認原待回應命題包含認罪誘因／量刑利益推測；同時保留其未被證實的證據狀態，避免把研究支持者論證機制變成替原推測背書。"
     tags: [翟本喬, 認罪誘因, 量刑交換, unsupported, 待證命題]
+
+  - id: F031
+    statement: "Threads帳號@nunu_.0709明確自我認同為民進黨支持者，但在一則對蔣萬安不利的事件討論中，要求先確認事件原因，反對因立場不同而無條件攻擊，並明確區分政黨支持、青鳥運動認同與個別支持者言論。"
+    status: verified
+    observed_at: "2026-10-22T12:37:00+08:00"
+    source_ids: [S029]
+    evidence_summary: "此案例提供一個直接的存在性反例：政黨支持身分與個案事實判斷可以分離，支持者可在對己方有利的攻防情境中拒絕陣營捷徑。"
+    verification_notes:
+      - "只能確認此貼文中的具體判斷與自我認同；不能由此推定作者跨議題、跨時間都維持相同獨立性。"
+    tags: [Threads, 民進黨支持者, 反例, 條件式支持, 證據優先, supporter-autonomy]
 
 claims:
   - id: C001
@@ -924,6 +950,30 @@ claims:
     related_facts: [F012, F013, F027, F028]
     reasoning_notes: "目前已有evidence-demand punishment、argument-demand轉人格羞辱與本案adjacent-truth substitution等存在性樣本，但尚缺重複paired cases、社群reward分布、actor identity與跨陣營baseline，不能把完整因果機制升格為已證實。"
 
+  - id: C036
+    statement: "『民進黨支持者必然以政黨／青鳥身分取代個案查證，無法在對己方有利的政治攻防中維持獨立證據判斷』此種強命題，被F031提供直接反例。"
+    status: contradicted
+    supports: []
+    contradicts: [F031]
+    related_facts: []
+    reasoning_notes: "一個清楚的反例已足以推翻『必然如此』的全稱命題；但不能由此反推多數或整體支持者都具有同等自主性。"
+
+  - id: C037
+    statement: "F031單一案例已足以證明民進黨支持者整體具有健全的自我修正能力，或同溫層通常會獎勵證據優先、批評己方的行為。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F031]
+    reasoning_notes: "單一自我認同支持者只能建立存在性反例，不能推估群體比例、同溫層reward分布或實際投票條件性。"
+
+  - id: C038
+    statement: "研究支持者政治功能時，應把『支持某政黨』與『是否將個案判斷權交給政黨／陣營框架』分開；前者是party identification，後者才直接關聯其是否成為低成本、可預測的動員資源。"
+    status: supported
+    supports: [F031]
+    contradicts: []
+    related_facts: [F012, F013, F027, F028, F029, F030]
+    reasoning_notes: "F031證明支持身分與個案自主判斷可以分離；既有案例則保存evidence-demand punishment、argument-demand punishment與authority shielding等相反方向樣本。後續仍需用跨案例panel測量穩定性，而非直接把單次表現升格成人格定性。"
+
 searches:
   - id: Q001
     observed_at: "2026-10-21T19:18:52+08:00"
@@ -989,6 +1039,14 @@ searches:
     result: found
     notes: "新增一種不同於單純人身攻擊或evidence-demand punishment的paired mechanism：以相鄰真命題替換程序待證問題，再配合羞辱使原質疑失焦。保留秘密量刑交換unsupported、作者黨派身分unresolved、群體普遍性unsupported。"
 
+  - id: Q009
+    observed_at: "2026-10-22T12:37:00+08:00"
+    platform: "connected browser / Threads"
+    query: "nunu_.0709 DewJbEHEjGb；lichihwu DewrOJDj0i9"
+    scope: "原貼文與其公開回覆脈絡"
+    result: found
+    notes: "找到一個自我認同民進黨支持者、但在對蔣萬安不利事件中主張先查原因、要求證據與邏輯、拒絕為同陣營個別言論背書的直接反例。用於區分party identification與supporter autonomy，不作群體比例推估。"
+
 promotion:
   cases: []
   comparators:
@@ -1016,3 +1074,5 @@ notes:
   - "研究者自身若參與公開互罵，evidence仍應保存雙向升級脈絡；不能只截取對方低級語句，再把自己造成的互動條件刪掉。"
   - "新增 supporter-mediated authority shielding 候選機制：制度層的 auditability / unfalsifiability 問題與支持者層的 evidence-demand punishment 之間，可能存在『相鄰真命題替換 -> 羞辱質疑者 -> 替公權力降低回應成本』的中介層；目前只保存為可檢驗機制，不作群體定性。"
   - "此機制與 research/2026-10-20-public-authority-auditability-unfalsifiability/evidence.yaml 應交叉閱讀：前者研究民間政治論述如何複製／放大卸責結構，後者保存公權力自身可驗證性缺口；兩者不得因結構相似就自動推定有組織指揮或共同主觀目的。"
+  - "新增 brake-preserving supporter / supporter autonomy 反例維度：支持某政黨本身不等於把個案判斷權交給政黨。研究上應分開測量party identification、對己方不利資訊的更新、是否拒絕identity shortcut、是否要求個案證據，以及是否存在撤回支持／轉票／棄權條件。"
+  - "『可被政黨動員的資源』應操作化為低更新成本、高可預測、會沿陣營框架自動產生結論／擴散／規範執行等可觀察特徵；不能把政黨支持身分本身直接當成此分類。"
