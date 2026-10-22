@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "以『他人不求證』為前提的政治論述：老人健保示例、二元忠誠分類與中國—國民黨因果歸因"
   started_at: "2026-10-23T00:38:18+08:00"
-  updated_at: "2026-10-23T00:51:46+08:00"
+  updated_at: "2026-10-23T01:57:00+08:00"
   status: active
 
 topics:
@@ -170,6 +170,33 @@ sources:
       - "該報導所轉述的黃國昌貼文文字沒有呈現賴在同一段發言中緊接著追問屏東債務、得到『零舉債／還清債務』回答的脈絡。"
       - "這只能證明貼文文字層級的選擇性呈現；不能單靠新聞轉述判定黃國昌上傳影片本身的精確剪點或長度。"
 
+  - id: S013
+    source_type: commentary
+    publisher: "Threads / @yaubado537296"
+    title: "被要求指出黃國昌哪一項資訊錯誤後，改稱對方『根本沒看懂』"
+    url: "https://www.threads.com/@yaubado537296/post/Dezg57SkoxG"
+    published_at: "2026-10-23"
+    observed_at: "2026-10-23T01:53:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "在被要求具體指出黃國昌哪一項資訊錯誤後，作者沒有在此回覆列出錯誤命題，而回稱『那就代表你根本沒看懂黃國昌在幹嘛』，並要求對方回去多看幾次。"
+      - "作者另稱『看不懂就一直多看』，並把理解與否連回其原先『藍白一直在豢養著他的支持者』的群體判斷。"
+      - "此來源只能證明這一輪互動如何回應舉證要求；不能據此推定作者主觀惡意或故意逃避。"
+
+  - id: S014
+    source_type: commentary
+    publisher: "Threads / @yaubado537296"
+    title: "再次被要求指出錯誤資訊後，以G1~G3選民與預測投票選擇分類提問者"
+    url: "https://www.threads.com/@yaubado537296/post/DezoIzHErBU"
+    published_at: "2026-10-23"
+    observed_at: "2026-10-23T01:53:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "在對方再次要求回答『黃國昌到底哪一項資訊是錯的』後，作者仍未在此回覆列出具體錯誤資訊。"
+      - "作者改稱對方『只是用你主觀的角度去看那影片』、『根本不知道黃國昌在搞什麼』，並把對方歸為『覺得賴清德在雙標的G1~G3選民』。"
+      - "作者進一步預測對方1128的選擇不會因討論改變，並以『你就不是G4選民』說明自己沒有必要再解釋。"
+      - "此來源保存的是argument sequence與身份分類；不證明G分類本身有效，也不證明被分類者實際投票選擇。"
+
 facts:
   - id: F001
     statement: "@yaubado537296 明確把『黃國昌剪接賴清德長者健保影片』作為證明藍白餵食錯誤資訊、國民黨支持者不求證的具體示例。"
@@ -254,6 +281,24 @@ facts:
     source_ids: [S011]
     evidence_summary: "台視直播頁直接標示『完整公開』及活動名稱。"
     tags: ["2026", 台視, full-video, comparator, 周春米, 賴清德]
+
+  - id: F010
+    statement: "在同一老人健保爭論中，@yaubado537296 被要求具體指出黃國昌哪一項資訊錯誤後，第一次回覆沒有列出錯誤命題，而改以『你根本沒看懂黃國昌在幹嘛』與『看不懂就一直多看』回應。"
+    status: verified
+    observed_at: "2026-10-23T01:53:00+08:00"
+    source_ids: [S013]
+    evidence_summary: "原回覆可直接觀察到：evidence demand沒有得到同一回合的具體錯誤命題，而是先轉向對提問者理解能力的評價。"
+    tags: ["2026", Threads, evidence-demand, epistemic-disqualification, argument-sequence]
+
+  - id: F011
+    statement: "在對方再次要求指出『黃國昌到底哪一項資訊是錯的』後，@yaubado537296 第二次回覆仍未列出具體錯誤資訊，而改以G1~G3／G4選民分類、對1128投票選擇的預測及『沒必要浪費時間解釋』作為終止討論的理由。"
+    status: verified
+    observed_at: "2026-10-23T01:53:00+08:00"
+    source_ids: [S014]
+    evidence_summary: "原回覆直接把對命題的爭議轉成對提問者政治分類、主觀角度與可被說服性的判斷。"
+    verification_notes:
+      - "此fact不判斷作者是否之後在其他貼文補證據；只描述這兩輪指定互動的回應結構。"
+    tags: ["2026", Threads, identity-classification, G1-G3, G4, evidence-demand, exit-rationale]
 
 claims:
   - id: C001
@@ -352,6 +397,22 @@ claims:
     related_facts: [F002, F003, F007, F008]
     reasoning_notes: "兩方案確有共同政策效果：公共財源替長者支付健保自付保費，因此政治人物可以主張兩者具有可比較性；但其財源層級、預算責任、法律拘束與規模又有重要差異。是否構成『雙標』屬政治／規範評價，需要說明比較標準；不能只因比較省略重要差異，就自動升格成可驗證的『假資訊』。因此S001拿此案作為藍白『餵食不正確資訊』的示範，仍未完成必要舉證。"
 
+  - id: C013
+    statement: "S013與S014可作為『evidence-demand -> epistemic disqualification -> identity substitution』的存在性樣本：當具體可驗證命題被要求指出錯誤資訊時，回應沒有先補上該錯誤，而改以提問者『沒看懂』、政治選民分類與預測其不會改變選擇來解釋分歧。"
+    status: supported
+    supports: [F010, F011]
+    contradicts: []
+    related_facts: [F001, F002, F007, F008]
+    reasoning_notes: "本claim分類的是可觀察論證序列，不推定作者動機。身份／認知分類可以作為另外的社會心理命題研究，但不能替代『黃國昌哪一項資訊錯誤』這個原始事實命題的證明。"
+
+  - id: C014
+    statement: "只要一個人不同意作者對黃國昌的判斷，就足以證明該人屬於G1~G3、缺乏理解能力，且其未來投票選擇不可能被證據改變。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F011]
+    reasoning_notes: "不同意特定政治判斷本身不足以推出完整選民類型、理解能力或未來投票不可更新。若G分類另有正式操作化定義，應依其量測條件獨立判定，不能把當前分歧本身當作分類證據。"
+
 searches:
   - id: Q001
     observed_at: "2026-10-23"
@@ -393,12 +454,22 @@ searches:
     result: partial
     notes: "已取得賴清德完整相關逐段發言脈絡，確認『這樣就妥當了』後立即出現債務問答；也確認台視有完整公開直播。已取得媒體對黃國昌臉書文字的轉述，但尚未取得黃實際上傳影片檔的逐秒可檢視版本，因此影片剪點本身仍不作造假定性。"
 
+  - id: Q006
+    observed_at: "2026-10-23T01:53:00+08:00"
+    platform: "connected browser / Threads"
+    query: "yaubado537296 Dezg57SkoxG；DezoIzHErBU"
+    scope: "同一老人健保爭論中，兩輪被要求指出『錯誤資訊』後的公開回覆"
+    result: found
+    notes: "兩輪指定回覆均未在當回合列出黃國昌的具體錯誤資訊；第一輪先轉為『沒看懂』，第二輪再加入G1~G3／G4選民分類、投票預測與終止解釋。保存為論證機制樣本，不作群體比例推估。"
+
 promotion:
   cases: []
   comparators: []
   research:
     - proposed: "epistemic-asymmetry-and-binary-loyalty-framing"
       rationale: "可與既有 supporter-reward、同一把尺、identity bundling 研究交叉：追蹤『要求對手查證』與『對己方重大因果歸因的舉證門檻』是否在同一作者／同一群體中出現穩定不對稱。"
+    - proposed: "identity-substitution-after-evidence-demand"
+      rationale: "追蹤具體命題遭要求舉證後，是否從fact claim轉成『你是哪一類人／你不會被說服／你沒資格理解』的身份或認知分類；需要跨陣營paired cases與反例，不能由本案直接推估盛行率。"
 
 notes:
   - "本 session 的首要價值不是證明作者『很蠢』，而是保存一個可拆解的公開論證鏈：群體不理性結論 -> 示範案例 -> 二元忠誠分類 -> 高強度中國—國民黨因果歸因。"
@@ -406,3 +477,5 @@ notes:
   - "對賴清德立場的描述必須區分『支持屏東地方方案』與『支持中央法定全國補助版本』；one true premise != valid conclusion。"
   - "對八炯／閩南狼亦使用同一把尺：政府後續確認部分中國身分證個案，足以提高其揭露的證據價值；但不能因此替『10萬人』『地下管道全被端掉』『唯一投誠機會』等更強命題預支正確性。"
   - "2026-10-23後續已取得賴清德相關發言的完整逐段脈絡與台視完整公開直播頁，C002因此由unresolved更新為unsupported：目前不能把『剪輯本身造假／欺騙』視為已證實；可支持的是貼文文字去脈絡化與跨制度比較不完整。若未來取得黃國昌實際影片檔，再做逐秒剪點核對。"
+
+  - "2026-10-23新增互動pattern：原作者在兩輪被要求指出可驗證的『錯誤資訊』後，當回合均未提供具體錯誤命題，回應依序轉向『你沒看懂』與G類型／投票不可改變的身份分類。此pattern只作存在性樣本，不把沉默或拒答本身當成原主張為假的證據。"
