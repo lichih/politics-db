@@ -23,7 +23,7 @@ sources:
     published_at: "2018-06-20"
     observed_at: "2026-10-22T21:10:00+08:00"
     retrieval_status: reachable
-    notes: "現行頁面顯示修正日期為民國107年6月20日；本次使用第20條、第21條及第22條。"
+    notes:\n      - "現行頁面顯示修正日期為民國107年6月20日；本次使用第20條、第21條及第22條。"
   - id: S002
     source_type: primary
     publisher: "監察院主管法規共用系統"
@@ -32,7 +32,7 @@ sources:
     published_at: "2020-07-23"
     observed_at: "2026-10-22T21:10:00+08:00"
     retrieval_status: reachable
-    notes: "頁面顯示修正日期為民國109年7月23日；本次使用第21條及第31條。"
+    notes:\n      - "頁面顯示修正日期為民國109年7月23日；本次使用第21條及第31條。"
 
 facts:
   - id: F001
