@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "黃國昌與太陽花監督條例主線：2014訴求、2016提案、八年未三讀與2024再提案"
   started_at: "2026-10-23T00:50:00+08:00"
-  updated_at: "2026-10-23T01:36:00+08:00"
+  updated_at: "2026-10-23T01:42:00+08:00"
   status: active
 
 topics:
@@ -465,6 +465,124 @@ sources:
     notes:
       - "公視同時期報導記錄學生宣布退場時，仍將『先立法、再審查』列為四大訴求之一，並稱已取得初步成果。"
 
+  - id: S038
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "立院內政委員會 藍委下週排審兩岸協議監督條例"
+    url: "https://www.cna.com.tw/news/aipl/201904110137.aspx"
+    published_at: "2019-04-11"
+    observed_at: "2026-10-23T01:42:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "國民黨召委林為洲宣布排審監督條例；民進黨團幹事長管碧玲表示尊重排案權、不會阻擋，但認為兩岸人民關係條例政治協議修法更迫切。"
+      - "這可證明當時民進黨公開排序為政治協議第5條之3優先於完整監督條例；不能據此推成其反對所有監督條例審議。"
+
+  - id: S039
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網"
+    title: "立法院第9屆第7會期2019-05-27黨團協商會議紀錄"
+    url: "https://ppg.ly.gov.tw/ppg/SittingAttachmentCapp/download/2019052429_1.pdf"
+    published_at: "2019-05-27"
+    observed_at: "2026-10-23T01:42:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "原通知列7項協商主題；第4項由民進黨黨團提議處理兩岸人民關係條例第5條之3等案，原議程未列已較早送協商的兩岸協議監督條例。"
+      - "江啟臣代表國民黨要求把監督條例納入；主席蘇嘉全同意增列為第8案，柯建銘表示到第4案時再討論是否併案。"
+      - "會議最終因前案討論耗時而散會，未進入原第4案與新增第8案的實質協商。"
+
+  - id: S040
+    source_type: primary
+    publisher: "立法院議事轉播／隨選視訊"
+    title: "2019-04-17陳明通答詢：政治協議第5條之3與一般兩岸協議監督為兩套機制"
+    url: "https://ivod.ly.gov.tw/Demand/Speech/113553"
+    published_at: "2019-04-17"
+    observed_at: "2026-10-23T01:42:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "陸委會主委陳明通答詢明確表示行政部門立場是『兩套機制』、相互為用；政治協議第5條之3在先後次序上優先，但一般談判監督仍是另一套機制。"
+
+  - id: S041
+    source_type: primary
+    publisher: "立法院公報"
+    title: "立法院公報第108卷第42期委員會紀錄"
+    url: "https://ppg.ly.gov.tw/ppg/PublicationBulletinDetail/download/communique1/final/pdf/108/42/LCIDC01_1084201.pdf"
+    published_at: "2019"
+    observed_at: "2026-10-23T01:42:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "陳明通在尤美女質詢時說，第5條之3是補足政治議題高門檻監督，而六個監督條例版本處理一般協議；兩者『並行不悖，相互為用，是互補的』，並表示希望談判監督機制也能通過。"
+      - "這是2019 contemporaneous Executive interpretation：第5條之3不是完整監督條例的替代品。"
+
+  - id: S042
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "綠委提請立院17日起開臨時會 處理公投法等案"
+    url: "https://www.cna.com.tw/news/aipl/201906140053.aspx"
+    published_at: "2019-06-14"
+    observed_at: "2026-10-23T01:42:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "柯建銘、管碧玲、鄭運鵬等67名民進黨立委提請召開3週臨時會，列5大類17項議案，包括公投法、兩岸人民關係條例、國安法等，但未列兩岸協議監督專法。"
+
+  - id: S043
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "確保臨時會議程安排 綠委議場前排班3天"
+    url: "https://www.cna.com.tw/news/aipl/201906140169.aspx"
+    published_at: "2019-06-14"
+    observed_at: "2026-10-23T01:42:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "民進黨團幹事長管碧玲表示綠委排班是為確保黨團所列議程能優先處理。"
+      - "國民黨同時指控在野提案遭封殺；該指控本身屬政黨主張，但民進黨確保自列議程優先的公開說法可獨立使用。"
+
+  - id: S044
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網"
+    title: "第9屆第7會期第1次臨時會第1次會議"
+    url: "https://ppg.ly.gov.tw/ppg/sittings/2019061703/details?meetingDate=108%2F06%2F17"
+    published_at: "2019-06-17"
+    observed_at: "2026-10-23T01:42:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方議事頁記錄臨時會最初處理公投法、國安法等民進黨列定議程，並保存相關決議。"
+      - "可與S042、S043交叉驗證當時執政多數對臨時會議程的實際控制與優先順序。"
+
+  - id: S045
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "柯文哲籲速通過兩岸監督條例 柯建銘批外行裝內行"
+    url: "https://www.cna.com.tw/news/aipl/202306210144.aspx"
+    published_at: "2023-06-21"
+    observed_at: "2026-10-23T01:42:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "民進黨團總召柯建銘表示，2019通過第5條之3框架後，『就沒有修兩岸協議監督處理條例的空間』。"
+      - "這是2023民進黨團總召公開立場，與2019陸委會所述『兩套機制、並行不悖』存在明顯張力。"
+
+  - id: S046
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "兩岸談服貿貨貿 陸委會：時空背景不同"
+    url: "https://www.cna.com.tw/news/acn/202306290362.aspx"
+    published_at: "2023-06-29"
+    observed_at: "2026-10-23T01:42:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "陸委會副主委詹志宏表示第5條之3已完備監督意涵，因此沒有另訂兩岸監督條例的必要。"
+      - "這顯示2023 Executive public position也曾轉向『不另立專法』，與2019兩套機制說及2026現行陸委會歷史頁仍稱『儘速推動完成立法』不一致。"
+
+  - id: S047
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "立院臨時會法案清倉 管碧玲：提前清理戰場"
+    url: "https://www.cna.com.tw/news/aipl/201907040294.aspx"
+    published_at: "2019-07-04"
+    observed_at: "2026-10-23T01:42:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "3週臨時會結束時，民進黨所列議程除著作權法外，多項法律案均完成處理；完整兩岸協議監督專法不在該批清理議程。"
+
 facts:
   - id: F001
     statement: "2016年4月，民進黨立法院黨團正式提出《兩岸訂定協議監督條例草案》。"
@@ -774,6 +892,78 @@ facts:
       - "此延續性只處理『監督立法先於協商/審查』，不等於證明黃國昌對中國風險、產業衝擊或任何具體未來協議內容的實質評價完全未變。"
     tags: ["黃國昌", "2014", "2023", "程序延續", "ECFA"]
 
+  - id: F031
+    statement: "2019年4月監督條例由國民黨籍內政委員會召委林為洲排審時，民進黨團公開表示不阻擋，但同時明確把兩岸人民關係條例政治協議修法視為更迫切。"
+    status: verified
+    observed_at: "2026-10-23T01:42:00+08:00"
+    source_ids: [S038]
+    evidence_summary: "中央社 contemporaneous report 同時記錄排案者與民進黨團幹事長說法。"
+    verification_notes:
+      - "這支持『優先順序差異』，不支持『民進黨在委員會直接封殺排審』。"
+    tags: ["民進黨", "2019", "優先順序", "第5條之3", "監督條例"]
+
+  - id: F032
+    statement: "2019年5月27日立法院黨團協商的原始7項議程中，民進黨黨團提議處理兩岸人民關係條例第5條之3，但未列較早已送協商的兩岸協議監督條例；監督條例是經國民黨要求後才被增列為第8案。"
+    status: verified
+    observed_at: "2026-10-23T01:42:00+08:00"
+    source_ids: [S039]
+    evidence_summary: "立法院官方黨團協商逐字紀錄直接記錄議程來源、江啟臣要求及蘇嘉全增列第8案。"
+    verification_notes:
+      - "這是可觀察的議程優先順序，而非由最終未立法結果反推動機。"
+      - "增列後當天因前案耗時，會議散會前未進入第4或第8案的實質協商。"
+    tags: ["2019", "黨團協商", "議程設定", "民進黨", "國民黨"]
+
+  - id: F033
+    statement: "2019年陸委會主委陳明通在監督條例審查時明確表示，第5條之3與完整兩岸協議監督條例是『兩套機制』、『並行不悖、相互為用』；第5條之3主要補強政治性協議，而一般經濟、文化等協議仍屬完整監督機制範圍。"
+    status: verified
+    observed_at: "2026-10-23T01:42:00+08:00"
+    source_ids: [S040, S041]
+    evidence_summary: "官方iVOD與立法院公報互相印證行政部門當時對兩套制度的 contemporaneous interpretation。"
+    verification_notes:
+      - "因此不能用2019第5條之3的通過，倒推『當時政府已認為完整監督條例完全不再需要』。"
+    tags: ["陸委會", "陳明通", "2019", "兩套機制", "第5條之3"]
+
+  - id: F034
+    statement: "2019年6月，民進黨67名立委主導提出3週臨時會議程，納入公投法、兩岸人民關係條例、國安法等多項兩岸／國安及其他法案，但未把已送協商的完整兩岸協議監督專法列入。"
+    status: verified
+    observed_at: "2026-10-23T01:42:00+08:00"
+    source_ids: [S042, S043, S044, S047]
+    evidence_summary: "中央社 contemporaneous reports 與立法院正式會議頁共同顯示民進黨所提臨時會優先議程及後續實際處理。"
+    verification_notes:
+      - "民進黨團並公開表示排班是為確保自列議程優先；故此處可談『議程選擇』，但仍不等於證明主觀故意要讓監督條例死亡。"
+    tags: ["民進黨", "2019臨時會", "議程選擇", "國會多數"]
+
+  - id: F035
+    statement: "2023年民進黨團總召柯建銘公開主張，2019第5條之3通過後已沒有另修兩岸協議監督條例的空間；同月陸委會副主委也表示沒有另訂監督條例的必要。"
+    status: verified
+    observed_at: "2026-10-23T01:42:00+08:00"
+    source_ids: [S045, S046]
+    evidence_summary: "兩則2023 contemporaneous reports 分別保存民進黨團與陸委會公開立場。"
+    verification_notes:
+      - "這與2019陸委會『兩套機制、並行不悖』立場存在實質差異。"
+      - "此為2023時點的公開政策說法；不可倒推2019當時已採同一解釋。"
+    tags: ["柯建銘", "陸委會", "2023", "政策轉變", "第5條之3"]
+
+  - id: F036
+    statement: "陸委會2026年現行『兩岸協議監督條例（歷史資料）』頁又明列政府基本立場為積極配合立法院、儘速推動完整監督條例完成立法，並稱完成後再依其規定處理服貿審議與貨貿後續協商。"
+    status: verified
+    observed_at: "2026-10-23T01:42:00+08:00"
+    source_ids: [S009]
+    evidence_summary: "陸委會現行官方頁直接如此表述。"
+    verification_notes:
+      - "與2023『沒有另訂必要』之公開說法形成跨時點不一致；目前尚未確認這是政策正式再變更、網站歷史頁維護未同步，或其他行政解釋差異。"
+    tags: ["陸委會", "2026", "政策一致性", "unresolved"]
+
+  - id: F037
+    statement: "從2015蔡英文『全力推動完成』、2017至2018降低急迫性、2019優先推第5條之3與其他臨時會議程、2023主張無另立專法空間，可觀察到民進黨／政府對完整兩岸協議監督專法的公開優先順序與必要性評價逐步下降。"
+    status: verified
+    observed_at: "2026-10-23T01:42:00+08:00"
+    source_ids: [S011, S012, S013, S014, S038, S039, S042, S043, S045, S046]
+    evidence_summary: "跨時點公開文件與 contemporaneous statements 可建立政策優先度變化的時間線。"
+    verification_notes:
+      - "這是對公開立場與議程行為的描述，不等於證明2015原始承諾即具有欺騙意圖，也不等於後續所有立委個人均持完全相同立場。"
+    tags: ["民進黨", "承諾", "政策優先順序", "2015-2023", "時間線"]
+
 claims:
   - id: C001
     statement: "『民進黨2016後根本沒有提出兩岸協議監督條例』。"
@@ -935,6 +1125,54 @@ claims:
     related_facts: [F027]
     reasoning_notes: "2014運動正式要求法制先行，黃國昌2013-2014個人文本也保留實質審議後修正/重談可能；2023他仍主張無監督法即無ECFA相關協商談判的法治基礎。若要批評其『背叛』，較可爭論的是對中國風險或未來服貿實質內容的評價，而不是簡單聲稱他已放棄『先立法再談/審』。"
 
+  - id: C021
+    statement: "『2019完整監督條例未完成只能歸因於抽象的朝野沒共識，沒有任何可觀察的執政多數議程選擇。』"
+    status: contradicted
+    supports: []
+    contradicts: [F031, F032, F034]
+    related_facts: [F003]
+    reasoning_notes: "朝野對六版本確有重大分歧，不能抹掉；但5月協商原議程先列第5條之3、完整監督條例需由國民黨要求才增列，6月民進黨多數主導的臨時會又未納入完整專法。故『只有抽象沒共識、沒有議程選擇』不成立。"
+
+  - id: C022
+    statement: "『2019第5條之3通過時，行政部門就已明確認定它完整取代兩岸協議監督條例，所以後者不再有立法必要。』"
+    status: contradicted
+    supports: []
+    contradicts: [F033]
+    related_facts: [F017]
+    reasoning_notes: "2019陸委會 contemporaneous position 明確稱兩者為兩套機制、並行不悖、相互為用；政治性協議與一般經濟/事務性協議分屬不同監督設計。"
+
+  - id: C023
+    statement: "『民進黨執政後對完整兩岸協議監督專法的政治優先順序沒有改變，一直維持2015「全力推動完成」的同等強度。』"
+    status: contradicted
+    supports: []
+    contradicts: [F011, F012, F031, F032, F034, F035, F037]
+    related_facts: [F010]
+    reasoning_notes: "公開語言從『全力推動完成』轉為『沒有急迫性』『急迫性應重新檢討』，2019議程又優先處理第5條之3及其他法案，2023更出現『沒有另修空間／沒有另訂必要』。這是可驗證的優先順序與政策必要性評價改變。"
+
+  - id: C024
+    statement: "『上述議程選擇已足以證明民進黨2015就是故意欺騙太陽花支持者，執政後蓄意封殺監督條例。』"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F032, F034, F037]
+    reasoning_notes: "現有證據已足以支持承諾未完成、優先順序下降、2019存在具體議程選擇；但把這些客觀行為再推成2015起即存在欺騙故意或蓄意封殺，需要更直接的內部決策或動機證據。"
+
+  - id: C025
+    statement: "『民進黨八年未完成完整監督條例，主要是因為在野黨阻擋，執政黨本身沒有可歸責的議程責任。』"
+    status: contradicted
+    supports: []
+    contradicts: [F032, F034, F037]
+    related_facts: [F003, F004]
+    reasoning_notes: "六版本分歧與朝野協商困難是真實存在的反方因素；但執政多數在2019可觀察地把第5條之3與其他法案置於完整監督條例之前，且主導的臨時會未納入該案，因此『執政黨沒有議程責任』不成立。較精確結論是：未完成有跨黨分歧背景，但民進黨也有獨立可辨識的優先順序與議程責任。"
+
+  - id: C026
+    statement: "『民進黨／政府對完整監督條例是否仍有必要，2019到2026之間存在一致且清楚的單一公開立場。』"
+    status: contradicted
+    supports: []
+    contradicts: [F033, F035, F036]
+    related_facts: []
+    reasoning_notes: "2019陸委會稱兩套機制並行；2023柯建銘與陸委會副主委說第5條之3後沒有另修/另訂必要；2026陸委會現行歷史頁又寫『儘速推動完成立法』。這些至少構成公開文本層次的不一致，原因與正式政策變更時間目前 unresolved。"
+
 searches:
   - id: Q001
     observed_at: "2026-10-23T00:50:00+08:00"
@@ -1032,6 +1270,14 @@ searches:
     result: found
     notes: "找到330行動主辦單位原始聲明、運動方4月13日行動方案，以及公視3月31日、4月8日同時期報導。確認『先立法再審查』與『退回服貿』同時是正式訴求，且330聲明要求監督專法完成前不得洽談或簽署新兩岸協議。"
 
+  - id: Q013
+    observed_at: "2026-10-23T01:42:00+08:00"
+    platform: "web"
+    query: "2019 兩岸協議監督條例 4月排審 5月27黨團協商 6月臨時會；陳明通 兩套機制 並行不悖；2023 柯建銘 沒有修法空間"
+    scope: "2019 legislative agenda responsibility and later Executive/caucus reinterpretation"
+    result: found
+    notes: "找到2019排審、官方5月27黨團協商、陸委會兩套機制答詢、民進黨67人臨時會議程，以及2023柯建銘與陸委會『無另立必要』說法。可把『八年沒過』從結果層推進到具體優先順序與議程責任層。"
+
 promotion:
   cases: []
   comparators: []
@@ -1041,5 +1287,6 @@ notes:
   - "本 session 先保存可驗證的立法史與公開主張，不把『背叛太陽花』直接寫成事實結論。"
   - "本輪已補2015蔡英文 contemporaneous 承諾、2016/2020/2024條文比較、2017黃國昌官方發言、2017/2018民進黨團優先順序變化、2019第5條之3、2023黃國昌與民眾黨服貿順序立場。"
   - "本輪再補黃國昌2013與2014本人文本：其當時不只批判程序，也批判服貿實質風險；但制度主張明確允許國會否決、修正並要求重啟談判，未找到『所有未來服貿永久不得談』的個人絕對主張。"
-  - "下一輪優先補：2014太陽花四大訴求的 contemporaneous primary sources；第9屆2016後時力是否正式提出經民連完整過渡條款修正動議；2019全案送協商後未續推的議程/協商責任；2024版對2013既有服貿的時間適用；2024國會職權修法是否構成與太陽花可比的程序背離。"
+  - "本輪已補2014正式四項訴求與2019議程責任：5月協商原議程先列第5條之3、完整監督條例經國民黨要求才增列；6月民進黨67人主導臨時會議程未納入完整專法。"
+  - "下一輪優先補：第9屆時力是否正式提出經民連完整過渡條款修正動議；2024版對2013既有服貿的時間適用；2019送協商後除5月27外是否還有其他正式協商；2023『不另立必要』與2026陸委會現行頁面的政策變更原因。"
   - "黃國昌主線要區分：制度主張是否延續、具體條文是否變化、政治結盟是否改變、其他太陽花價值判準是否一致。這些不可互相代替。"
