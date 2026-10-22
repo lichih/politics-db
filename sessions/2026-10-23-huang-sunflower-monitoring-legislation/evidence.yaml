@@ -1,0 +1,334 @@
+session:
+  id: "2026-10-23-huang-sunflower-monitoring-legislation"
+  project: Politics
+  title: "黃國昌與太陽花監督條例主線：2014訴求、2016提案、八年未三讀與2024再提案"
+  started_at: "2026-10-23T00:50:00+08:00"
+  updated_at: "2026-10-23T00:50:00+08:00"
+  status: active
+
+topics:
+  - 黃國昌
+  - 太陽花學運
+  - 兩岸協議監督條例
+  - 先立法再審查
+  - 民進黨
+  - 時代力量
+  - 台灣民眾黨
+  - 立法紀錄
+  - 政治承諾
+  - 政治評價
+  - 背叛太陽花
+
+sources:
+  - id: S001
+    source_type: commentary
+    publisher: "Threads / @richardlo_tw"
+    title: "2014太陽花監督條例訴求、民進黨八年未完成立法與黃國昌2016/2024提案對照貼文"
+    url: "https://www.threads.com/@richardlo_tw/post/DeyJ8PWk84h"
+    published_at: "2026-10-22"
+    observed_at: "2026-10-23T00:50:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "貼文主張2014太陽花有『先立法、再審查』訴求；2016民進黨全面執政後提出監督條例草案但八年未完成立法；黃國昌2016在時代力量、2024在民眾黨均參與相關提案。"
+      - "最後以『誰背叛太陽花』作政治評價；此評價需與可驗證立法史分層處理。"
+
+  - id: S002
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網"
+    title: "「兩岸訂定協議監督條例草案」，請審議案。"
+    url: "https://ppg.ly.gov.tw/ppg/bills/1050411070200700/details"
+    published_at: "2016-04-15"
+    observed_at: "2026-10-23T00:50:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "提案人為民主進步黨立法院黨團。"
+      - "頁面列有2016-04-15排入院會、2017-03-22及03-23委員會審查、2019-04-22委員會發文等流程。"
+
+  - id: S003
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網"
+    title: "「我國與中華人民共和國締結協議處理條例草案」，請審議案。"
+    url: "https://ppg.ly.gov.tw/ppg/bills/1050301070200600/details"
+    published_at: "2016-03-04"
+    observed_at: "2026-10-23T00:50:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "提案人為時代力量黨團。"
+      - "頁面列有2016-03-04排入院會、2017-03-22及03-23委員會審查、2019-04-22委員會發文等流程。"
+
+  - id: S004
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "立院初審兩岸協議監督條例 全案保留送協商"
+    url: "https://www.cna.com.tw/news/aipl/201904170245.aspx"
+    published_at: "2019-04-17"
+    observed_at: "2026-10-23T00:50:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導當日內政委員會併案審查六版本；名稱即有高度歧異。"
+      - "召委林為洲宣布併案審查完竣，各提案名稱、各條文及各修正動議均保留，提報院會並須黨團協商。"
+
+  - id: S005
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網"
+    title: "「兩岸締結協議處理及監督條例草案」，請審議案。"
+    url: "https://ppg.ly.gov.tw/ppg/bills/202110025220000/details"
+    published_at: "2024-03-29"
+    observed_at: "2026-10-23T00:50:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "提案人列台灣民眾黨立法院黨團、黃國昌、黃珊珊、吳春城。"
+      - "2024-03-29排入院會，2024-04-02交付內政委員會審查。"
+
+  - id: S006
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "挨批背棄太陽花 黃國昌反問兩岸協議監督條例何時過"
+    url: "https://www.cna.com.tw/news/aipl/202403190075.aspx"
+    published_at: "2024-03-19"
+    observed_at: "2026-10-23T00:50:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "黃國昌面對『背棄太陽花』批評時，公開把兩岸協議監督條例稱為太陽花結束後最重要的制度訴求，並批評民進黨八年未完成。"
+      - "這可證明黃國昌2024年的公開自我定位與論述，不因此自動證明『誰背叛太陽花』這個總體政治評價。"
+
+  - id: S007
+    source_type: secondary
+    publisher: "立法院全球資訊網"
+    title: "藍綠消長 民進黨68席取得國會過半"
+    url: "https://www.ly.gov.tw/EngPages/Detail.aspx?nodeid=4989&pid=30924"
+    published_at: "2016-01-18"
+    observed_at: "2026-10-23T00:50:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "頁面記載第9屆113席中民進黨取得68席，單獨過半。"
+      - "該頁內容來源標示為自立晚報並引用中選會資料，故證明力主要用於席次背景，不取代中選會原始選舉資料。"
+
+  - id: S008
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "民進黨確定單獨過半 繼續完全執政"
+    url: "https://www.cna.com.tw/news/firstnews/202001115031.aspx"
+    published_at: "2020-01-11"
+    observed_at: "2026-10-23T00:50:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導引述中選會公布結果：第10屆113席中民進黨取得61席，維持單獨過半。"
+
+  - id: S009
+    source_type: primary
+    publisher: "大陸委員會"
+    title: "兩岸協議監督條例（歷史資料）"
+    url: "https://www.mac.gov.tw/CSASR/"
+    published_at: "2026-09-02"
+    observed_at: "2026-10-23T00:50:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "現行歷史資料頁記載：行政院2016-06-23函請撤回行政院版草案，立法院2016-07-01同意撤回。"
+      - "同頁目前仍宣示政府將積極配合立法院、儘速完成兩岸協議監督條例立法，並稱將先完成監督條例再進行服貿審議及貨貿後續協商。"
+      - "此為2026年可觀察的政府當前/歷史整理頁面；不能單憑現在頁面倒推每一歷史時點均採完全相同立場。"
+
+  - id: S010
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網／大陸委員會書面說明"
+    title: "立法院第11屆第3會期第11次會議議案關係文書：兩岸締結協議處理及監督條例草案研擬進度相關說明"
+    url: "https://ppg.ly.gov.tw/ppg/download/agenda1/02/pdf/11/03/11/LCEWA01_110311_00379.pdf"
+    observed_at: "2026-10-23T00:50:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "文件中的陸委會說明記載：蔡英文於2015年4月、時任民進黨主席時曾指示民進黨全力推動完成兩岸協議監督條例立法，之後民進黨立院黨團亦提出草案。"
+      - "陸委會並說明2016政黨輪替後，政府認為當時民進黨團版草案可適度代表政府政策意見，因此行政院撤回馬政府版草案。"
+      - "此來源可證明政府後來在立法院文件中如何陳述其歷史政策脈絡；仍需另找2015當時蔡英文原始發言以完成 contemporaneous verification。"
+
+facts:
+  - id: F001
+    statement: "2016年4月，民進黨立法院黨團正式提出《兩岸訂定協議監督條例草案》。"
+    status: verified
+    observed_at: "2026-10-23T00:50:00+08:00"
+    source_ids: [S002]
+    evidence_summary: "立法院議案頁直接列民主進步黨立法院黨團為提案人，並保存完整審議流程。"
+    verification_notes:
+      - "可反駁『民進黨因反對服貿所以根本沒有提出監督條例』之說法。"
+    tags: ["民進黨", "兩岸協議監督條例", "2016"]
+
+  - id: F002
+    statement: "2016年3月，時代力量黨團提出《我國與中華人民共和國締結協議處理條例草案》，並進入後續併案審查。"
+    status: verified
+    observed_at: "2026-10-23T00:50:00+08:00"
+    source_ids: [S003]
+    evidence_summary: "立法院議案頁直接列時代力量黨團提案及2017、2019審議流程。"
+    verification_notes:
+      - "本筆先證明黨團提案與程序，不單靠議案首頁推定黃國昌個人對全部條文的具體主張；個人角色應再由關係文書與發言紀錄補強。"
+    tags: ["時代力量", "黃國昌主線", "兩岸協議監督條例", "2016"]
+
+  - id: F003
+    statement: "2019年4月17日，立法院內政委員會完成六版本兩岸協議監督條例併案審查，但名稱、各條文與修正動議均保留，送院會並須黨團協商。"
+    status: verified
+    observed_at: "2026-10-23T00:50:00+08:00"
+    source_ids: [S002, S003, S004]
+    evidence_summary: "立法院議案頁顯示審查完成；中央社 contemporaneous report 記錄全案保留送協商的具體程序狀態。"
+    verification_notes:
+      - "『審查完畢』不等於完成三讀立法。"
+      - "全案保留表示當時沒有形成可直接通過的共識文本。"
+    tags: ["2019", "內政委員會", "黨團協商", "程序狀態"]
+
+  - id: F004
+    statement: "2016年第9屆立法院成立時，民進黨取得68席；2020年第10屆立法院成立時，民進黨取得61席，兩屆均超過113席立法院的過半門檻。"
+    status: verified
+    observed_at: "2026-10-23T00:50:00+08:00"
+    source_ids: [S007, S008]
+    evidence_summary: "2016為68席、2020為61席，均達單獨過半。"
+    verification_notes:
+      - "席次過半可支持政治責任與議程能力的討論，但不等於任何單一法案都可無視程序、黨內分歧、院際關係或其他政治成本自動通過。"
+    tags: ["國會過半", "第9屆", "第10屆", "民進黨"]
+
+  - id: F005
+    statement: "截至第10屆立法院任期結束，2016年提出並於2019年送協商的兩岸協議監督專法並未完成三讀立法。"
+    status: verified
+    observed_at: "2026-10-23T00:50:00+08:00"
+    source_ids: [S002, S004, S005, S009]
+    evidence_summary: "第9屆舊案停留於審查完畢/協商狀態；2024年第11屆仍需重新提出監督條例草案，陸委會2026歷史頁亦仍以『儘速推動完成立法』描述未竟工作。"
+    verification_notes:
+      - "此筆證明『未完成立法』，不單獨證明是哪一方故意阻擋或主觀背棄。"
+    tags: ["未完成立法", "2016-2024", "程序結果"]
+
+  - id: F006
+    statement: "2024年3月，台灣民眾黨立法院黨團提出《兩岸締結協議處理及監督條例草案》，立法院頁面列黃國昌為提案人之一。"
+    status: verified
+    observed_at: "2026-10-23T00:50:00+08:00"
+    source_ids: [S005]
+    evidence_summary: "立法院第11屆議案頁直接列台灣民眾黨黨團、黃國昌、黃珊珊、吳春城為提案人。"
+    verification_notes:
+      - "這可直接支持『黃國昌2024重返立院後仍參與推動兩岸協議監督立法』。"
+      - "是否與2014民間版、2016時力版內容完全一致，需另做條文比較，不由提案名稱自行推定。"
+    tags: ["黃國昌", "民眾黨", "2024", "兩岸協議監督條例"]
+
+  - id: F007
+    statement: "2024年黃國昌遭批『背棄太陽花』時，公開以兩岸協議監督條例未完成立法作為反駁，並稱其為太陽花結束後最重要的制度訴求。"
+    status: verified
+    observed_at: "2026-10-23T00:50:00+08:00"
+    source_ids: [S006]
+    evidence_summary: "中央社保存黃國昌2024-03-19受訪說法。"
+    verification_notes:
+      - "此筆證明黃國昌的公開主張與自我定位，而不是替該政治評價本身背書。"
+    tags: ["黃國昌", "背棄太陽花", "公開主張", "2024"]
+
+  - id: F008
+    statement: "陸委會2026年現行歷史頁仍把『儘速推動兩岸協議監督條例完成立法』列為政府基本立場，並稱監督條例完成後再依其規定處理服貿審議與貨貿後續協商。"
+    status: verified
+    observed_at: "2026-10-23T00:50:00+08:00"
+    source_ids: [S009]
+    evidence_summary: "陸委會官方歷史資料頁的現行文字直接如此表述。"
+    verification_notes:
+      - "只證明2026觀察時點的官方頁面狀態；不得倒推所有歷史時點。"
+    tags: ["陸委會", "政府立場", "2026", "時間語意"]
+
+  - id: F009
+    statement: "陸委會在第11屆第3會期立法院文件中回顧，蔡英文2015年4月曾指示民進黨全力推動完成兩岸協議監督條例立法；2016政黨輪替後，政府認為民進黨團版可適度代表政府政策意見。"
+    status: verified
+    observed_at: "2026-10-23T00:50:00+08:00"
+    source_ids: [S010]
+    evidence_summary: "立法院收錄的陸委會書面說明明確做出上述歷史陳述。"
+    verification_notes:
+      - "這是後來官方對歷史的陳述；2015當時的蔡英文原始發言仍應另行尋找，避免只有 retrospective source。"
+    tags: ["蔡英文", "民進黨", "監督條例", "政治承諾", "待補原始來源"]
+
+claims:
+  - id: C001
+    statement: "『民進黨2016後根本沒有提出兩岸協議監督條例』。"
+    status: contradicted
+    supports: []
+    contradicts: [F001, F003]
+    related_facts: []
+    reasoning_notes: "立法院官方議案頁直接證明民進黨黨團2016有正式提案，且後續進入委員會審查。"
+
+  - id: C002
+    statement: "『民進黨在2016至2024兩屆國會單獨過半期間，仍未完成兩岸協議監督專法三讀』。"
+    status: supported
+    supports: [F004, F005]
+    contradicts: []
+    related_facts: [F001, F003, F009]
+    reasoning_notes: "席次與最終程序結果可直接支持此描述。這是一項政治責任的重要事實基礎，但不自動等於故意封殺、欺騙或背叛等動機判斷。"
+
+  - id: C003
+    statement: "『黃國昌2016進入國會後參與推動監督條例，2024重返國會後又參與提出監督條例，因此在兩岸協議監督法制化這一具體制度訴求上存在跨時期延續性』。"
+    status: supported
+    supports: [F002, F006, F007]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "現有證據足以支持『制度方向的延續性』；若要主張2016與2024版本條文實質完全一致，仍需逐條比較。"
+
+  - id: C004
+    statement: "『2024民眾黨版與2014太陽花民間版或2016時代力量版完全相同，因此黃國昌在所有太陽花議題上都沒有改變』。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F002, F006]
+    reasoning_notes: "目前只確認都屬兩岸協議監督法制化，尚未做條文層級比較；且『所有太陽花議題』遠超過本 evidence 的範圍。"
+
+  - id: C005
+    statement: "『兩岸協議監督條例八年未三讀，本身即可證明民進黨主觀上故意封殺或欺騙太陽花支持者』。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F003, F004, F005, F009]
+    reasoning_notes: "未完成立法與過半席次可建立強烈政治責任問題，但從結果直接跳到主觀故意、欺騙動機仍缺少議程控制、黨團決策、協商紀錄與 contemporaneous internal/public statements 等證據。"
+
+  - id: C006
+    statement: "『誰背叛太陽花』可以單靠是否完成兩岸協議監督條例立法得到唯一客觀答案。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F005, F006, F007]
+    reasoning_notes: "『背叛太陽花』是總體政治評價，必須先定義評價範圍。若判準限縮為兩岸協議監督法制化，現有證據對民進黨未履行承諾的質疑很強；若擴及程序民主、兩岸政策、國會改革等其他面向，需加入其他證據後再評價。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-23T00:50:00+08:00"
+    platform: "GitHub politics-db"
+    query: "兩岸協議監督條例 / 太陽花 先立法 再審查 / 黃國昌 2016 2024 監督條例 / 民進黨 監督條例"
+    scope: "lichih/politics-db default branch"
+    result: not_found
+    notes: "本輪開始時未找到既有專門 evidence，故建立新 session；not_found 不代表 repo 中絕無任何間接相關材料。"
+
+  - id: Q002
+    observed_at: "2026-10-23T00:50:00+08:00"
+    platform: "web"
+    query: "site:ppg.ly.gov.tw 2016 民進黨 兩岸訂定協議監督條例；時代力量 我國與中華人民共和國締結協議處理條例；2024 民眾黨 兩岸締結協議處理及監督條例"
+    scope: "立法院官方議案資料"
+    result: found
+    notes: "找到2016民進黨版、2016時代力量版及2024民眾黨版官方議案頁。"
+
+  - id: Q003
+    observed_at: "2026-10-23T00:50:00+08:00"
+    platform: "web"
+    query: "2019 兩岸協議監督條例 全案保留送協商"
+    scope: "中央社 contemporaneous reporting"
+    result: found
+    notes: "找到2019-04-17內政委員會完成併案審查、名稱與條文等均保留送協商的報導。"
+
+  - id: Q004
+    observed_at: "2026-10-23T00:50:00+08:00"
+    platform: "web"
+    query: "2016 68席 2020 61席 民進黨 國會過半"
+    scope: "立法院與中央社選舉結果"
+    result: found
+    notes: "確認第9屆68席、第10屆61席，均為單獨過半。"
+
+  - id: Q005
+    observed_at: "2026-10-23T00:50:00+08:00"
+    platform: "web"
+    query: "陸委會 兩岸協議監督條例 蔡英文 全力推動完成 2015 民進黨團版代表政府政策"
+    scope: "陸委會與立法院文件"
+    result: found
+    notes: "找到陸委會現行歷史資料頁及第11屆第3會期立法院文件中的官方歷史說明；2015蔡英文 contemporaneous 原始來源尚待補。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "本 session 先保存可驗證的立法史與公開主張，不把『背叛太陽花』直接寫成事實結論。"
+  - "下一輪優先補：2014太陽花正式/主要訴求的 contemporaneous primary sources、2015蔡英文原始承諾、2016時力版與2024民眾黨版逐條比較、2017與2019委員會逐字/影音發言、2019後為何未排入院會或協商的議程責任。"
+  - "黃國昌主線要區分：制度主張是否延續、具體條文是否變化、政治結盟是否改變、其他太陽花價值判準是否一致。這些不可互相代替。"
