@@ -196,7 +196,7 @@ claims:
 
   - id: C003
     statement: "「國安局完全沒有公開任何判準」不成立；但現有公開材料仍不足以讓外部逐案重建國安層級gate、個案threshold、false-positive控制與錯誤更正／救濟流程。"
-    status: partially_supported
+    status: unresolved
     supports: [F002, F004]
     contradicts: [F002]
     related_facts: [F001]
