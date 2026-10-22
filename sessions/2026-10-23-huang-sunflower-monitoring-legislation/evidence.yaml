@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "黃國昌與太陽花監督條例主線：2014訴求、2016提案、八年未三讀與2024再提案"
   started_at: "2026-10-23T00:50:00+08:00"
-  updated_at: "2026-10-23T00:50:00+08:00"
+  updated_at: "2026-10-23T01:28:00+08:00"
   status: active
 
 topics:
@@ -140,6 +140,221 @@ sources:
       - "陸委會並說明2016政黨輪替後，政府認為當時民進黨團版草案可適度代表政府政策意見，因此行政院撤回馬政府版草案。"
       - "此來源可證明政府後來在立法院文件中如何陳述其歷史政策脈絡；仍需另找2015當時蔡英文原始發言以完成 contemporaneous verification。"
 
+  - id: S011
+    source_type: primary
+    publisher: "民主進步黨"
+    title: "蔡英文：積極與社會合作，落實兩岸協議監督機制"
+    url: "https://www.dpp.org.tw/media/contents/6472"
+    published_at: "2015-04-20"
+    observed_at: "2026-10-23T01:28:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "蔡英文以民進黨主席身分明確裁示：民進黨將全力推動完成兩岸協議監督條例立法，並強化公民參與、資訊透明、國會實質監督。"
+      - "此為 contemporaneous party primary source，可補強 S010 的後來官方回顧。"
+
+  - id: S012
+    source_type: primary
+    publisher: "民主進步黨"
+    title: "蔡英文於CSIS演說：台灣迎向挑戰—打造亞洲新價值的典範"
+    url: "https://www.dpp.org.tw/media/contents/6559"
+    published_at: "2015-06-03"
+    observed_at: "2026-10-23T01:28:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "蔡英文表示將推動完成兩岸協議監督條例立法，並稱當時仍在協商或立法院審議中的兩岸協議，也將依新監督規則逐案檢視、繼續協商。"
+      - "這使2015承諾範圍不只限於未來政治性協議，也涉及既有/進行中的協議。"
+
+  - id: S013
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "318三週年 立院排審兩岸協議監督條例"
+    url: "https://www.cna.com.tw/news/aipl/201703170403.aspx"
+    published_at: "2017-03-17"
+    observed_at: "2026-10-23T01:28:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "民進黨團書記長李俊俋表示短期內沒有簽署協議可能，法案『沒有急迫性』，黨團尚未討論，面對排審將『見招拆招』。"
+      - "這可證明當時黨團公開優先順序，不足以單獨證明故意封殺。"
+
+  - id: S014
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "兩岸協議監督條例 柯建銘：重新檢討急迫性"
+    url: "https://www.cna.com.tw/news/aipl/201803170211.aspx"
+    published_at: "2018-03-17"
+    observed_at: "2026-10-23T01:28:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "民進黨團總召柯建銘表示因兩岸情勢變化，監督條例的急迫性應重新檢討、審慎看待。"
+
+  - id: S015
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "完成監督條例 林飛帆：現是最好時間點"
+    url: "https://www.cna.com.tw/news/aipl/201703180319.aspx"
+    published_at: "2017-03-18"
+    observed_at: "2026-10-23T01:28:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "林飛帆公開要求民進黨政府記得當時對監督條例的承諾，並認為兩岸低潮反而是完成民主法治規範的最好時間。"
+      - "同場黃國昌支持擴大聯席審查，顯示當時不是單純『不想審』與『想審』的二分，還存在審查程序爭議。"
+
+  - id: S016
+    source_type: primary
+    publisher: "台灣經濟民主連合"
+    title: "監督條例溯及既往、服貿貨貿重新檢討－監督條例修正動議記者會"
+    url: "https://www.edunion.org.tw/newsrelease/%E3%80%90%E6%96%B0%E8%81%9E%E7%A8%BF%E3%80%91%E7%9B%A3%E7%9D%A3%E6%A2%9D%E4%BE%8B%E6%BA%AF%E5%8F%8A%E6%97%A2%E5%BE%80%E3%80%81%E6%9C%8D%E8%B2%BF%E8%B2%A8%E8%B2%BF%E9%87%8D%E6%96%B0%E6%AA%A2%E8%A8%8E-2/"
+    published_at: "2016-06-23"
+    observed_at: "2026-10-23T01:28:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "經民連等團體提出更強的過渡條款修正動議，要求對談判中的貨貿、審議中的服貿及既有協議補做衝擊評估、公民參與與國會監督。"
+      - "新聞稿記載時代力量黨團主任陳惠敏表示願以黨團名義在審查時提出修正動議。"
+      - "此來源可證明經民連的主張與時力黨團當時公開回應，不可直接當作黃國昌個人承諾。"
+
+  - id: S017
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網"
+    title: "2016時代力量《我國與中華人民共和國締結協議處理條例草案》關係文書"
+    url: "https://ppg.ly.gov.tw/ppg/download/agenda1/02/pdf/09/01/03/LCEWA01_090103_00090.pdf"
+    published_at: "2016-03-02"
+    observed_at: "2026-10-23T01:28:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "提案人明列時代力量黨團及黃國昌、洪慈庸、林昶佐、徐永明、高潞・以用。"
+      - "草案自述承續太陽花民間版五大原則，包含人權保障、民間諮詢、影響評估、政治性協議公投。"
+      - "原始第26條已有『既往協議之處理』，但主要是把本法施行前已簽署且尚未經立院議決的協議彙整送議決；未包含經民連2016年6月後要求的完整兩階段衝擊評估、行政院撤回/立法院退回等過渡機制。"
+
+  - id: S018
+    source_type: primary
+    publisher: "立法院議事轉播／隨選視訊"
+    title: "黃國昌2017-03-22兩岸協議監督條例審查發言"
+    url: "https://ivod.ly.gov.tw/Demand/Speech/96603"
+    published_at: "2017-03-22"
+    observed_at: "2026-10-23T01:28:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "黃國昌表示時代力量前一年已提監督條例，並持續要求交付審查；主張擴大外交國防、經濟等委員會聯席審查，以回應民間擴大參與要求。"
+
+  - id: S019
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網"
+    title: "2020時代力量《我國與中華人民共和國締結協議處理條例草案》關係文書"
+    url: "https://ppg.ly.gov.tw/ppg/download/agenda1/02/pdf/10/01/06/LCEWA01_100106_00063.pdf"
+    published_at: "2020-03-25"
+    observed_at: "2026-10-23T01:28:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第10屆時代力量版本由陳椒華、邱顯智、王婉諭提出。"
+      - "第26條『既往協議之處理』加入詳細衝擊影響評估、終止談判、退回協議及既有生效協議重新檢討等機制，內容顯著強於2016原始版本。"
+
+  - id: S020
+    source_type: secondary
+    publisher: "NOWnews今日新聞"
+    title: "太陽花戰神說話了！柯文哲要重啟服貿談判 黃國昌：先立法再審查"
+    url: "https://www.nownews.com/news/6180185"
+    published_at: "2023-06-26"
+    observed_at: "2026-10-23T01:28:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "黃國昌在加入民眾黨之前、服貿爭議重新升高時表示，『先立法再審查』與完成監督條例的立場從未改變。"
+      - "他進一步表示，在沒有監督條例前，任何ECFA相關協商談判都欠缺法治基礎。"
+
+  - id: S021
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "柯文哲：通過兩岸協議監督條例 貨貿先於服貿"
+    url: "https://www.cna.com.tw/news/aipl/202306260172.aspx"
+    published_at: "2023-06-26"
+    observed_at: "2026-10-23T01:28:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "柯文哲公開主張先通過兩岸協議監督條例，之後才處理貨貿、服貿。"
+      - "此事實削弱『加入民眾黨本身就必然等於接受無監督重啟服貿』的推論，但不能回答是否應實質反對服貿。"
+
+  - id: S022
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "兩岸監督條例列為優先法案 民眾黨團籲盡快排審"
+    url: "https://www.cna.com.tw/news/aipl/202309010064.aspx"
+    published_at: "2023-09-01"
+    observed_at: "2026-10-23T01:28:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第10屆民眾黨團在黃國昌加入民眾黨之前，即把兩岸協議監督條例列為新會期22項優先法案之一。"
+
+  - id: S023
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網"
+    title: "2024民眾黨《兩岸締結協議處理及監督條例草案》關係文書"
+    url: "https://ppg.ly.gov.tw/ppg/download/agenda1/02/pdf/11/01/07/LCEWA01_110107_00175.pdf"
+    published_at: "2024-03-27"
+    observed_at: "2026-10-23T01:28:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "草案明文稱參酌2014年318公民運動訴求，採『事前監督、事中參與、事後審議』，並列資訊公開、公民參與、國會監督。"
+      - "第8條設兩個月以上公眾諮商期、公聽會、利害關係人調查、與NGO/消費者/勞工/產業溝通及國安、經濟、社會衝擊評估。"
+      - "第9條要求完成正式協商後，先向立法院提出協議草案並取得同意，才得正式簽署。"
+      - "政治議題協議直接依兩岸人民關係條例第5條之3處理。"
+      - "全案17條，未見2016時力版的獨立人權救濟條款、民間諮詢委員會或針對既往/審議中協議的明文過渡條款。"
+
+  - id: S024
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "臺灣地區與大陸地區人民關係條例第5條之3"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=Q0010001"
+    observed_at: "2026-10-23T01:28:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "現行第5條之3只針對政治議題協議，要求協商前與協商後高門檻國會審議，後續並辦理全國性公民投票。"
+      - "因此2024民眾黨版未重寫政治協議公投條款，不能直接解讀為取消2016版的政治協議公投保障；需結合2019後已生效的第5條之3理解。"
+
+  - id: S025
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "兩岸簽署政治協議 須經國會雙審議加全民公投"
+    url: "https://www.cna.com.tw/news/firstnews/201905310150.aspx"
+    published_at: "2019-05-31"
+    observed_at: "2026-10-23T01:28:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "立法院三讀通過兩岸人民關係條例第5條之3，採民進黨團版再修正動議。"
+      - "這是民進黨執政期間確實完成的一項兩岸協議民主監督制度成果，但範圍限於政治性協議，不能等同涵蓋經濟性與一般事務性協議的完整監督專法。"
+
+  - id: S026
+    source_type: primary
+    publisher: "台灣經濟民主連合"
+    title: "太陽花運動發起人與參與者呼籲堅持太陽花精神 反對重啟服貿貨貿"
+    url: "https://www.edunion.org.tw/our-statements/%E5%A4%AA%E9%99%BD%E8%8A%B1%E9%81%8B%E5%8B%95%E7%99%BC%E8%B5%B7%E4%BA%BA%E8%88%87%E5%8F%83%E8%88%87%E8%80%85%E5%91%BC%E7%B1%B2%E5%A0%85%E6%8C%81%E5%A4%AA%E9%99%BD%E8%8A%B1%E7%B2%BE%E7%A5%9E-%E5%8F%8D/"
+    published_at: "2024-01-08"
+    observed_at: "2026-10-23T01:28:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "經民連與多名太陽花參與者將『反對重啟服貿貨貿』與對中國經濟脅迫/政治依賴的警戒納入其太陽花精神定義，並以黃國昌加入民眾黨作為『背離初衷』的政治評價。"
+      - "這是批評方自身判準的 primary source；其動機歸因『為了自身政治利益』仍屬主張，不能直接當成已證事實。"
+
+  - id: S027
+    source_type: primary
+    publisher: "台灣經濟民主連合"
+    title: "太陽花七十五分 公民憲政向前行"
+    url: "https://www.edunion.org.tw/edutw/%E5%A4%AA%E9%99%BD%E8%8A%B1%E4%B8%83%E5%8D%81%E4%BA%94%E5%88%86-%E5%85%AC%E6%B0%91%E6%86%B2%E6%94%BF%E5%90%91%E5%89%8D%E8%A1%8C/"
+    observed_at: "2026-10-23T01:28:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "經民連回顧其2016提出過渡條款、2019再次要求各黨納入；並指出2016第9屆時力版本沒有納入該團體主張的完整過渡條款，直到2020第10屆時力版本才納入。"
+      - "此為經民連後來的歷史回顧，已用2016與2020立法院原始草案交叉核對條文差異。"
+
+  - id: S028
+    source_type: primary
+    publisher: "立法院議事轉播／隨選視訊"
+    title: "黃國昌2024年質詢陸委會：兩岸協議監督條例與第5條之3範圍"
+    url: "https://ivod.ly.gov.tw/Demand/Speech/157802"
+    published_at: "2024-12-04"
+    observed_at: "2026-10-23T01:28:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "黃國昌質詢時區分第5條之3的政治性協議與一般經濟性、事務性協議，追問陸委會是否仍認為需要完整監督條例。"
+
 facts:
   - id: F001
     statement: "2016年4月，民進黨立法院黨團正式提出《兩岸訂定協議監督條例草案》。"
@@ -152,13 +367,13 @@ facts:
     tags: ["民進黨", "兩岸協議監督條例", "2016"]
 
   - id: F002
-    statement: "2016年3月，時代力量黨團提出《我國與中華人民共和國締結協議處理條例草案》，並進入後續併案審查。"
+    statement: "2016年3月，時代力量黨團提出《我國與中華人民共和國締結協議處理條例草案》，黃國昌列名提案人，並進入後續併案審查。"
     status: verified
-    observed_at: "2026-10-23T00:50:00+08:00"
-    source_ids: [S003]
-    evidence_summary: "立法院議案頁直接列時代力量黨團提案及2017、2019審議流程。"
+    observed_at: "2026-10-23T01:28:00+08:00"
+    source_ids: [S003, S017]
+    evidence_summary: "立法院議案頁與原始關係文書直接列時代力量黨團、黃國昌等提案人及後續審議流程。"
     verification_notes:
-      - "本筆先證明黨團提案與程序，不單靠議案首頁推定黃國昌個人對全部條文的具體主張；個人角色應再由關係文書與發言紀錄補強。"
+      - "黃國昌個人列名提案人已由原始文件直接確認；至於其對每一條文的個人意見仍應以發言或修正動議分別驗證。"
     tags: ["時代力量", "黃國昌主線", "兩岸協議監督條例", "2016"]
 
   - id: F003
@@ -227,11 +442,146 @@ facts:
     statement: "陸委會在第11屆第3會期立法院文件中回顧，蔡英文2015年4月曾指示民進黨全力推動完成兩岸協議監督條例立法；2016政黨輪替後，政府認為民進黨團版可適度代表政府政策意見。"
     status: verified
     observed_at: "2026-10-23T00:50:00+08:00"
-    source_ids: [S010]
-    evidence_summary: "立法院收錄的陸委會書面說明明確做出上述歷史陳述。"
+    source_ids: [S010, S011, S012]
+    evidence_summary: "立法院收錄的陸委會書面說明與2015民進黨 contemporaneous primary sources 相互印證。"
     verification_notes:
-      - "這是後來官方對歷史的陳述；2015當時的蔡英文原始發言仍應另行尋找，避免只有 retrospective source。"
+      - "2015當時的蔡英文原始發言已找到，不再只有 retrospective source；S012並進一步確認她曾承諾當時進行中的協議將依新規則檢視。"
     tags: ["蔡英文", "民進黨", "監督條例", "政治承諾", "待補原始來源"]
+
+  - id: F010
+    statement: "蔡英文在2015年4月以民進黨主席身分明確裁示『全力推動完成』兩岸協議監督條例，2015年6月又表示當時仍在協商或立法院審議中的兩岸協議，也將依新監督規則逐案檢視。"
+    status: verified
+    observed_at: "2026-10-23T01:28:00+08:00"
+    source_ids: [S011, S012]
+    evidence_summary: "兩份民進黨 contemporaneous primary sources 直接記錄蔡英文的承諾範圍與優先性。"
+    verification_notes:
+      - "這比後來陸委會回顧更直接，且承諾範圍明顯不限於政治性協議。"
+    tags: ["蔡英文", "民進黨", "2015", "政治承諾", "監督條例"]
+
+  - id: F011
+    statement: "2017年3月監督條例再度排審前，民進黨團書記長李俊俋公開表示法案『沒有急迫性』、黨團尚未討論，面對排審將『見招拆招』。"
+    status: verified
+    observed_at: "2026-10-23T01:28:00+08:00"
+    source_ids: [S013]
+    evidence_summary: "中央社 contemporaneous report 保存黨團幹部公開說法。"
+    verification_notes:
+      - "這證明執政後至少在該時點的黨團優先順序下降；不能單獨證明主觀故意封殺。"
+    tags: ["民進黨", "李俊俋", "2017", "政策優先順序"]
+
+  - id: F012
+    statement: "2018年3月，民進黨團總召柯建銘表示兩岸情勢已變，兩岸協議監督條例的急迫性應重新檢討、審慎看待。"
+    status: verified
+    observed_at: "2026-10-23T01:28:00+08:00"
+    source_ids: [S014]
+    evidence_summary: "中央社 contemporaneous report 保存柯建銘公開說法。"
+    verification_notes:
+      - "與2015『全力推動完成』的公開優先表述形成可觀察的時間差異。"
+    tags: ["民進黨", "柯建銘", "2018", "政策優先順序"]
+
+  - id: F013
+    statement: "2017年太陽花三週年前後，林飛帆公開要求民進黨政府記得監督條例承諾，並主張當時正是完成民主法治規範的好時機。"
+    status: verified
+    observed_at: "2026-10-23T01:28:00+08:00"
+    source_ids: [S015]
+    evidence_summary: "這是太陽花重要參與者在民進黨執政早期即提出的 contemporaneous accountability criticism。"
+    verification_notes:
+      - "可證明批評當時即存在，而非後來為黃國昌辯護才出現。"
+    tags: ["林飛帆", "太陽花", "2017", "承諾"]
+
+  - id: F014
+    statement: "2016年時代力量監督條例原始提案明列黃國昌為提案人，並自述承續太陽花民間版五大原則及『事前監督、事中評估、事後審議』程序。"
+    status: verified
+    observed_at: "2026-10-23T01:28:00+08:00"
+    source_ids: [S017]
+    evidence_summary: "立法院原始關係文書直接列黃國昌及草案設計理念。"
+    verification_notes:
+      - "這補強 F002，不再只由黨團名義推定黃國昌個人參與。"
+    tags: ["黃國昌", "時代力量", "2016", "民間版"]
+
+  - id: F015
+    statement: "2016年時代力量原始版本雖設有『既往協議之處理』，但未納入經民連同年6月提出的完整過渡機制；2020年第10屆時代力量版本則加入詳細衝擊評估、終止談判、退回協議與既有協議檢討機制。"
+    status: verified
+    observed_at: "2026-10-23T01:28:00+08:00"
+    source_ids: [S016, S017, S019, S027]
+    evidence_summary: "2016與2020立法院原始草案可直接比較；經民連 contemporaneous statement 說明其2016要求內容，後來回顧指出納入時間。"
+    verification_notes:
+      - "因此不能把黃國昌參與的2016版本描述成已完整實現經民連對既有服貿/貨貿的全部過渡要求。"
+      - "時力黨團2016曾表示願意在審查時提出修正動議，但本輪尚未找到第9屆最後實際提出並納入審查文本的官方修正動議紀錄。"
+    tags: ["黃國昌", "時代力量", "經民連", "過渡條款", "反證"]
+
+  - id: F016
+    statement: "2017年3月黃國昌在立法院監督條例審查時表示，時代力量已持續要求法案交付審查，並主張外交國防、經濟等委員會聯席審查，以擴大參與。"
+    status: verified
+    observed_at: "2026-10-23T01:28:00+08:00"
+    source_ids: [S018]
+    evidence_summary: "立法院官方發言紀錄直接保存黃國昌當時說法。"
+    verification_notes:
+      - "這也表示2017審查卡住的原因之一涉及是否聯席審查的程序爭議；不宜把全部停滯單因果歸責於一黨。"
+    tags: ["黃國昌", "2017", "聯席審查", "程序"]
+
+  - id: F017
+    statement: "2019年民進黨執政期間，立法院完成兩岸人民關係條例第5條之3修法，對『政治議題協議』建立協商前後高門檻國會審議及全國性公投。"
+    status: verified
+    observed_at: "2026-10-23T01:28:00+08:00"
+    source_ids: [S024, S025]
+    evidence_summary: "現行法條與三讀 contemporaneous report 相互印證。"
+    verification_notes:
+      - "這是實質制度成果，故『民進黨八年完全沒有做任何兩岸協議監督立法』不成立。"
+      - "但第5條之3文字明確限於政治議題協議，不能自動視為已完成涵蓋經濟性與一般事務性協議的監督專法。"
+    tags: ["民進黨", "2019", "第5條之3", "政治協議", "部分履行"]
+
+  - id: F018
+    statement: "2023年6月、黃國昌加入民眾黨前，面對柯文哲服貿爭議時仍公開主張『先立法再審查』，並稱在沒有兩岸協議監督條例前，任何ECFA相關協商談判都沒有法治基礎。"
+    status: verified
+    observed_at: "2026-10-23T01:28:00+08:00"
+    source_ids: [S020]
+    evidence_summary: "多家媒體 contemporaneous reporting 保存其同日公開受訪內容；本 session 以 NOWnews 為主要引用。"
+    verification_notes:
+      - "這是檢驗『黃國昌因靠近/加入民眾黨便放棄先立法再審查』的直接反證。"
+    tags: ["黃國昌", "2023", "先立法再審查", "服貿", "反證"]
+
+  - id: F019
+    statement: "2023年民眾黨自身公開主張先通過兩岸協議監督條例，再處理貨貿、服貿；同年9月民眾黨團並將監督條例列為優先法案，時間早於黃國昌加入民眾黨。"
+    status: verified
+    observed_at: "2026-10-23T01:28:00+08:00"
+    source_ids: [S021, S022]
+    evidence_summary: "中央社分別記錄柯文哲公開政策順序與第10屆民眾黨團優先法案清單。"
+    verification_notes:
+      - "因此不能只因黃國昌加入民眾黨，就推定他接受『無監督條例先重啟服貿』。"
+      - "是否實質贊成或反對服貿本身，是另一層政策判斷。"
+    tags: ["民眾黨", "2023", "服貿", "監督條例", "時間線"]
+
+  - id: F020
+    statement: "2024年民眾黨與黃國昌等提出的監督條例明文參酌318公民運動，保留事前監督、公眾參與、衝擊評估、簽署前立院同意等核心監督方向，但其17條架構與2016時代力量30條版本並不相同。"
+    status: verified
+    observed_at: "2026-10-23T01:28:00+08:00"
+    source_ids: [S017, S023, S024]
+    evidence_summary: "兩份立法院原始草案及現行第5條之3可直接比較。"
+    verification_notes:
+      - "2024版把政治議題協議直接交由2019已生效的第5條之3處理，因此不能把沒有重寫政治協議公投條款視為取消公投保障。"
+      - "但2024版本未見2016版的獨立人權保障/行政救濟、民間諮詢委員會及既往協議明文過渡條款，故也不能描述為『完全相同』。"
+    tags: ["黃國昌", "民眾黨", "2024", "條文比較", "延續與差異"]
+
+  - id: F021
+    statement: "2024年12月黃國昌在立法院質詢陸委會時，仍明確區分政治性協議的第5條之3與一般經濟性、事務性協議的完整監督條例，並追問政府是否仍要立法。"
+    status: verified
+    observed_at: "2026-10-23T01:28:00+08:00"
+    source_ids: [S028]
+    evidence_summary: "立法院官方逐字發言紀錄直接保存其質詢。"
+    verification_notes:
+      - "這把黃國昌在此一具體制度主張的可觀察延續性拉到2024年底。"
+    tags: ["黃國昌", "2024", "陸委會", "監督條例"]
+
+  - id: F022
+    statement: "2024年經民連與多名太陽花參與者公開將『反對重啟服貿貨貿』、對中國經濟脅迫與政治依賴的警戒，納入其太陽花精神判準，並據此批評黃國昌加入民眾黨是背離初衷。"
+    status: verified
+    observed_at: "2026-10-23T01:28:00+08:00"
+    source_ids: [S026]
+    evidence_summary: "經民連公開聲明可直接證明批評方使用的判準與主張內容。"
+    verification_notes:
+      - "這不等於其『背叛』結論已被客觀證實；它說明爭議的判準不只有程序性監督條例。"
+      - "聲明中的個人動機歸因不可由此直接升格為事實。"
+    tags: ["經民連", "太陽花", "2024", "反服貿", "政治評價"]
 
 claims:
   - id: C001
@@ -253,26 +603,26 @@ claims:
   - id: C003
     statement: "『黃國昌2016進入國會後參與推動監督條例，2024重返國會後又參與提出監督條例，因此在兩岸協議監督法制化這一具體制度訴求上存在跨時期延續性』。"
     status: supported
-    supports: [F002, F006, F007]
+    supports: [F002, F006, F007, F014, F016, F018, F020, F021]
     contradicts: []
-    related_facts: []
-    reasoning_notes: "現有證據足以支持『制度方向的延續性』；若要主張2016與2024版本條文實質完全一致，仍需逐條比較。"
+    related_facts: [F015, F019]
+    reasoning_notes: "從2016列名提案、2017要求推進審查、2023服貿爭議時仍要求先立法、2024再提案與年底質詢，足以支持這一具體制度主張的跨期延續性。條文架構並非完全一致，且2016過渡條款仍有經民連指出的缺口。"
 
   - id: C004
     statement: "『2024民眾黨版與2014太陽花民間版或2016時代力量版完全相同，因此黃國昌在所有太陽花議題上都沒有改變』。"
-    status: unresolved
+    status: contradicted
     supports: []
-    contradicts: []
-    related_facts: [F002, F006]
-    reasoning_notes: "目前只確認都屬兩岸協議監督法制化，尚未做條文層級比較；且『所有太陽花議題』遠超過本 evidence 的範圍。"
+    contradicts: [F015, F020, F022]
+    related_facts: [F014, F017]
+    reasoning_notes: "2016與2024草案在條文數、獨立人權救濟、民間諮詢、既往協議處理等均有差異；政治協議部分又因2019第5條之3的法律基線改變而改採交叉引用。『所有太陽花議題』更超出監督條例單一證據線。"
 
   - id: C005
     statement: "『兩岸協議監督條例八年未三讀，本身即可證明民進黨主觀上故意封殺或欺騙太陽花支持者』。"
     status: unsupported
     supports: []
     contradicts: []
-    related_facts: [F003, F004, F005, F009]
-    reasoning_notes: "未完成立法與過半席次可建立強烈政治責任問題，但從結果直接跳到主觀故意、欺騙動機仍缺少議程控制、黨團決策、協商紀錄與 contemporaneous internal/public statements 等證據。"
+    related_facts: [F003, F004, F005, F009, F010, F011, F012, F017]
+    reasoning_notes: "2015高強度承諾與2017、2018公開降低急迫性的落差，已強化政治責任與『優先順序改變』判斷；但從此直接跳到主觀欺騙、故意封殺仍需更直接的決策與動機證據。2019第5條之3亦是不能忽略的部分履行。"
 
   - id: C006
     statement: "『誰背叛太陽花』可以單靠是否完成兩岸協議監督條例立法得到唯一客觀答案。"
@@ -281,6 +631,70 @@ claims:
     contradicts: []
     related_facts: [F005, F006, F007]
     reasoning_notes: "『背叛太陽花』是總體政治評價，必須先定義評價範圍。若判準限縮為兩岸協議監督法制化，現有證據對民進黨未履行承諾的質疑很強；若擴及程序民主、兩岸政策、國會改革等其他面向，需加入其他證據後再評價。"
+
+  - id: C007
+    statement: "『民進黨對兩岸協議監督條例的公開優先順序，在取得政權後出現明顯下降』。"
+    status: supported
+    supports: [F010, F011, F012, F013]
+    contradicts: []
+    related_facts: [F001, F003, F005]
+    reasoning_notes: "2015蔡英文以『全力推動完成』表述，2017黨團書記長稱『沒有急迫性』，2018總召稱急迫性應重新檢討。這足以支持公開優先順序改變；仍不能單靠此證明欺騙或惡意封殺動機。"
+
+  - id: C008
+    statement: "『民進黨執政八年對兩岸協議民主監督完全沒有任何立法成果』。"
+    status: contradicted
+    supports: []
+    contradicts: [F017]
+    related_facts: [F005]
+    reasoning_notes: "2019第5條之3確實對政治性協議建立高門檻國會雙審議與公投制度。批評應精確寫成『未完成涵蓋一般/經濟性協議的完整監督專法』，而非『什麼都沒做』。"
+
+  - id: C009
+    statement: "『2019年兩岸人民關係條例第5條之3已完整履行蔡英文2015年對兩岸協議監督條例的承諾』。"
+    status: contradicted
+    supports: []
+    contradicts: [F010, F017]
+    related_facts: [F005, F008, F021]
+    reasoning_notes: "2015承諾明確涵蓋持續交流協商及當時仍在協商/審議中的協議；第5條之3文字只規範政治議題協議。政府現行資料與2024陸委會答詢仍承認一般經濟性、事務性協議是另一範圍。"
+
+  - id: C010
+    statement: "『黃國昌因為靠近並加入民眾黨，就放棄了太陽花的「先立法再審查」程序主張，接受先重啟服貿再立法』。"
+    status: contradicted
+    supports: []
+    contradicts: [F018, F019, F020, F021]
+    related_facts: [F014, F016]
+    reasoning_notes: "截至本輪找到的公開紀錄，黃國昌在2023服貿爭議時明確要求監督條例先行，民眾黨本身也公開採『監督條例→貨貿→服貿』順序；2024黃再度參與提案。若要成立此指控，需要找到他後來明確支持『未立法即先談』的相反紀錄，目前未找到。"
+
+  - id: C011
+    statement: "『2024民眾黨／黃國昌版本延續2014太陽花的核心程序監督方向，但並非2016時代力量版本的逐條複製或完整等同。』"
+    status: supported
+    supports: [F014, F020]
+    contradicts: []
+    related_facts: [F017]
+    reasoning_notes: "2024案由直接引用318並保留資訊公開、公眾參與、國會監督及事前/事中/事後程序；但條文數量與機制有實質變化。政治協議部分應考慮2019第5條之3已成現行法，而人權救濟、民間諮詢、既往協議過渡等設計則確有差異。"
+
+  - id: C012
+    statement: "『黃國昌2016版本已完整納入太陽花公民團體對既有服貿、貨貿的所有過渡監督要求，因此在這一點完全沒有缺口。』"
+    status: contradicted
+    supports: []
+    contradicts: [F015]
+    related_facts: [F014]
+    reasoning_notes: "2016原始版本有較簡單的既往協議處理條款，但經民連同年提出更完整的衝擊評估、撤回/退回、談判終止等過渡要求；2020時力版本才可見完整納入。這是黃國昌主線中的真實反證，不能省略。"
+
+  - id: C013
+    statement: "『2024民眾黨／黃國昌版本若通過，2013已簽署但未生效的服貿協議必然會依新法完整重做所有事前、事中程序。』"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F015, F020]
+    reasoning_notes: "2024版本未見針對既往或審議中協議的明文過渡條款。是否以及如何適用於2013既有服貿，涉及法律時間適用與可能的行政/立法解釋，不能自行補出效果；需再找提案說明、修正動議或權威法律分析。"
+
+  - id: C014
+    statement: "『黃國昌背叛太陽花』作為整體政治評價，已被兩岸協議監督條例這一條證據線完全推翻。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F018, F020, F022]
+    reasoning_notes: "在『先立法再審查／兩岸協議監督法制化』這個窄判準上，現有紀錄強烈支持黃國昌具有跨期延續性；但批評方採用更廣判準，包括實質反服貿貨貿、對中經濟依賴、民主程序與其他太陽花訴求。因此只能分項檢驗，不能用單一制度線替整體評價作終局判定。"
 
 searches:
   - id: Q001
@@ -323,6 +737,46 @@ searches:
     result: found
     notes: "找到陸委會現行歷史資料頁及第11屆第3會期立法院文件中的官方歷史說明；2015蔡英文 contemporaneous 原始來源尚待補。"
 
+  - id: Q006
+    observed_at: "2026-10-23T01:28:00+08:00"
+    platform: "web"
+    query: "蔡英文 2015 全力推動完成 兩岸協議監督條例；CSIS 仍在協商或審議協議依新規則檢視"
+    scope: "民主進步黨 contemporaneous primary sources"
+    result: found
+    notes: "找到2015-04-20與2015-06-03兩份民進黨原始發布，確認承諾的強度與範圍。"
+
+  - id: Q007
+    observed_at: "2026-10-23T01:28:00+08:00"
+    platform: "web"
+    query: "2017 李俊俋 沒有急迫性；2018 柯建銘 急迫性重新檢討；林飛帆 監督條例承諾"
+    scope: "執政後優先順序與公民社會 contemporaneous response"
+    result: found
+    notes: "找到民進黨團幹部公開降級急迫性及林飛帆同期要求履行承諾的紀錄。"
+
+  - id: Q008
+    observed_at: "2026-10-23T01:28:00+08:00"
+    platform: "web"
+    query: "2016 時代力量 監督條例 過渡條款；2020 邱顯智 王婉諭 既往協議"
+    scope: "立法院原始草案＋經民連 primary statements"
+    result: found
+    notes: "2016原案有較簡略既往協議處理；經民連2016提出更強過渡條款；2020時力版第26條可見詳細納入。尚未找到第9屆時力是否曾正式提出同內容修正動議的官方紀錄。"
+
+  - id: Q009
+    observed_at: "2026-10-23T01:28:00+08:00"
+    platform: "web"
+    query: "黃國昌 2023 服貿 先立法再審查；民眾黨 監督條例先行；2024 民眾黨監督條例"
+    scope: "adversarial test：黃國昌是否在靠近/加入民眾黨後放棄程序主張"
+    result: found
+    notes: "找到的直接紀錄反而顯示2023黃國昌與民眾黨均公開要求監督條例先行；2024黃列名提案。尚未找到他支持『未立法先談』的相反紀錄。"
+
+  - id: Q010
+    observed_at: "2026-10-23T01:28:00+08:00"
+    platform: "web"
+    query: "經濟民主連合 黃國昌 背叛太陽花 反服貿貨貿；過渡條款"
+    scope: "最強反方判準與黃國昌自身版本缺口"
+    result: found
+    notes: "找到經民連2024對『太陽花精神』的廣義判準與2016過渡條款歷史。這些材料顯示監督條例的跨期延續不能自動解決『整體背叛』評價。"
+
 promotion:
   cases: []
   comparators: []
@@ -330,5 +784,6 @@ promotion:
 
 notes:
   - "本 session 先保存可驗證的立法史與公開主張，不把『背叛太陽花』直接寫成事實結論。"
-  - "下一輪優先補：2014太陽花正式/主要訴求的 contemporaneous primary sources、2015蔡英文原始承諾、2016時力版與2024民眾黨版逐條比較、2017與2019委員會逐字/影音發言、2019後為何未排入院會或協商的議程責任。"
+  - "本輪已補2015蔡英文 contemporaneous 承諾、2016/2020/2024條文比較、2017黃國昌官方發言、2017/2018民進黨團優先順序變化、2019第5條之3、2023黃國昌與民眾黨服貿順序立場。"
+  - "下一輪優先補：2014太陽花四大訴求的 contemporaneous primary sources；第9屆2016後時力是否正式提出經民連完整過渡條款修正動議；2019全案送協商後未續推的議程/協商責任；2024版對2013既有服貿的時間適用；黃國昌在『實質反服貿』而非『程序監督』面向是否存在可驗證立場改變。"
   - "黃國昌主線要區分：制度主張是否延續、具體條文是否變化、政治結盟是否改變、其他太陽花價值判準是否一致。這些不可互相代替。"
