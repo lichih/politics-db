@@ -1,0 +1,309 @@
+session:
+  id: 2026-10-23-yaubado-verification-binary-loyalty
+  project: Politics
+  title: "以『他人不求證』為前提的政治論述：老人健保示例、二元忠誠分類與中國—國民黨因果歸因"
+  started_at: "2026-10-23T00:38:18+08:00"
+  updated_at: "2026-10-23T00:38:18+08:00"
+  status: active
+
+topics:
+  - 支持者理性
+  - 查證
+  - evidence-demand
+  - 老人福利法
+  - 長者健保費
+  - 黃國昌
+  - 賴清德
+  - 二元忠誠分類
+  - 敵我化
+  - 中國身分證
+  - 八炯
+  - 閩南狼
+  - 因果歸因
+  - Threads
+
+sources:
+  - id: S001
+    source_type: commentary
+    publisher: "Threads / @yaubado537296"
+    title: "『國民黨支持者非常不理性、被藍白餵食不正確資訊』貼文第1段"
+    url: "https://www.threads.com/@yaubado537296/post/Dex2ol3EmRF"
+    published_at: "2026-10-22"
+    observed_at: "2026-10-23T00:38:18+08:00"
+    retrieval_status: reachable
+    notes:
+      - "作者稱國民黨支持者建立在對民進黨與台派人士的仇恨上，長期被藍白兩黨『豢養』、餵食不正確的簡短圖文與短影音。"
+      - "作者以『黃國昌剪接出來罵賴清德明明支持65歲以上健保免費的那部影片』作為上述主張的具體示例，並進一步稱這些支持者越來越不想求證、拒絕接收任何正確資訊。"
+      - "當次頁面快照顯示主串約557次瀏覽、40讚、15回覆、3轉發；互動數只作觀察時點紀錄，不代表群體比例或對完整命題的同意。"
+
+  - id: S002
+    source_type: commentary
+    publisher: "Threads / @yaubado537296"
+    title: "『台灣人沒本錢成為中間選民』貼文第2段"
+    url: "https://www.threads.com/@yaubado537296/post/Dex2q7zkmAP"
+    published_at: "2026-10-22"
+    observed_at: "2026-10-23T00:38:18+08:00"
+    retrieval_status: reachable
+    notes:
+      - "作者稱台灣人沒有本錢成為其所稱G4至G6的『中間選民』，並將政治選擇表述為『支持跟中國來往、相信藍白兩黨』或『想要獨立出去成為新的國家』。"
+      - "作者另以『忠誠不絕對，就是絕對的不忠誠』描述若中國統一後的中共忠誠要求。"
+
+  - id: S003
+    source_type: commentary
+    publisher: "Threads / @yaubado537296"
+    title: "『八炯閩南狼端掉中國身分地下管道，因此中國加大國民黨破壞憲政力道』貼文第3段"
+    url: "https://www.threads.com/@yaubado537296/post/Dex2tzpEueP"
+    published_at: "2026-10-22"
+    observed_at: "2026-10-23T00:38:18+08:00"
+    retrieval_status: reachable
+    notes:
+      - "作者主張罷免期間八炯與閩南狼『端掉了臺灣人申辦中國身份的地下管道』，並稱這『切斷了臺灣人唯一投誠中國的機會』。"
+      - "作者進一步以『所以』連接因果，主張中國在國民黨罷免安全通關後，加大國民黨對台『破壞法制憲政』的力道。"
+
+  - id: S004
+    source_type: secondary
+    publisher: "聯合報"
+    title: "貼賴總統競選場宣傳65歲以上長者免健保費 黃國昌：在玩哪招？"
+    url: "https://udn.com/news/story/6656/9820885"
+    published_at: "2026-10-17"
+    observed_at: "2026-10-23"
+    retrieval_status: reachable
+    notes:
+      - "報導確認黃國昌曾在社群貼出賴清德於周春米屏東競總成立大會談長者健保費的片段，並據此質疑民進黨一方面反對立院修法、一方面支持長者健保補助。"
+      - "報導引述黃國昌將賴清德對屏東方案的『那這樣就妥當了』與立法院《老人福利法》修正案放在同一政治比較中。"
+
+  - id: S005
+    source_type: primary
+    publisher: "民主進步黨"
+    title: "讚周春米『五星縣長』實至名歸　賴清德盼周春米連任"
+    url: "https://www.dpp.org.tw/media/contents/11815"
+    published_at: "2026-10-17"
+    observed_at: "2026-10-23"
+    retrieval_status: reachable
+    notes:
+      - "民進黨官方活動稿把賴清德當日發言置於支持屏東縣長周春米競選與評價屏東施政的脈絡中，並強調屏東在零舉債且還清債務下推動多項社會福利。"
+      - "此來源可證明官方呈現的完整活動脈絡；不因其為政黨官方來源而自動證明所有政策評價正確。"
+
+  - id: S006
+    source_type: primary
+    publisher: "民主進步黨"
+    title: "藍白扭曲總統談話、混淆財政責任 民進黨：別只會政治操作，卻不敢面對財源問題"
+    url: "https://www.dpp.org.tw/media/contents/11816"
+    published_at: "2026-10-18"
+    observed_at: "2026-10-23"
+    retrieval_status: reachable
+    notes:
+      - "民進黨官方明確主張賴清德肯定的是屏東縣政府在不舉債、不排擠其他政策前提下推動長者健保費補助，並將地方政府自行編列預算與立法院修法要求中央增加支出區分為不同制度問題。"
+      - "此來源證明民進黨的正式回應與其所主張的制度區分；不能單靠政黨自我陳述決定爭議的全部法律結論。"
+
+  - id: S007
+    source_type: primary
+    publisher: "法務部調查局"
+    title: "法務部調查局積極查察國人持有中國大陸身分證以維國家安全"
+    url: "https://www.mjib.gov.tw/news/Details/1/1062"
+    published_at: "2025-01-09"
+    observed_at: "2026-10-23"
+    retrieval_status: reachable
+    notes:
+      - "調查局稱，網傳『中國統戰紀錄片』談及中國以補助、貸款等手段引誘國人申辦中華人民共和國居民身分證後，該局召開會議瞭解並採取對應作為。"
+      - "此來源可證明相關紀錄片揭露後政府機關確實啟動查察；不能由此自行推出某一『地下管道』已被完全端掉。"
+
+  - id: S008
+    source_type: secondary
+    publisher: "中央社"
+    title: "跆拳道選手李東憲等3人持中國大陸身分證 陸委會：已註銷台灣身分"
+    url: "https://www.cna.com.tw/news/acn/202501230251.aspx"
+    published_at: "2025-01-23"
+    observed_at: "2026-10-23"
+    retrieval_status: reachable
+    notes:
+      - "報導引述陸委會表示，八炯影片揭露後的查證中，李東憲、蘇士恩等個案經主管機關確認持有中國大陸身分證，已有3人被註銷台灣身分。"
+      - "此來源證明部分個案揭露後產生實際行政查處結果；不證明所有影片中的數量主張或所有申辦管道均已查清。"
+
+  - id: S009
+    source_type: secondary
+    publisher: "中央社"
+    title: "逾30台灣人疑持中國身分證 內政部約談後廢止10人戶籍"
+    url: "https://www.cna.com.tw/news/aipl/202502200279.aspx"
+    published_at: "2025-02-20"
+    observed_at: "2026-10-23"
+    retrieval_status: reachable
+    notes:
+      - "報導記載移民署當時收到30多個案例並調查，已有10人被廢止台灣戶籍；另提及八炯與閩南狼的影片揭露有台灣人持中國身分證及台灣申辦據點。"
+      - "政府持續查辦的描述，與『相關地下管道已被完全端掉』是不同命題。"
+
+facts:
+  - id: F001
+    statement: "@yaubado537296 明確把『黃國昌剪接賴清德長者健保影片』作為證明藍白餵食錯誤資訊、國民黨支持者不求證的具體示例。"
+    status: verified
+    observed_at: "2026-10-23T00:38:18+08:00"
+    source_ids: [S001]
+    evidence_summary: "原貼文直接把此案例放在『餵食錯誤資訊／拒絕求證』論述中，具有示範證據角色。"
+    tags: ["2026", Threads, 黃國昌, 賴清德, 長者健保, 不求證, example-premise]
+
+  - id: F002
+    statement: "黃國昌確曾公開使用賴清德在屏東為周春米站台時談『65歲以上長者免健保費／這樣就妥當了』的影片片段，並把該發言與立法院《老人福利法》中央補助版本並列，質疑民進黨雙重標準。"
+    status: verified
+    observed_at: "2026-10-23"
+    source_ids: [S004]
+    evidence_summary: "新聞報導直接記錄黃國昌貼片與其政治比較。"
+    verification_notes:
+      - "此 fact 只證明黃國昌的公開使用方式與主張，不判定該剪輯是否構成失真。"
+    tags: ["2026", 黃國昌, 賴清德, 老人福利法, 影片]
+
+  - id: F003
+    statement: "賴清德相關發言發生在屏東縣長周春米競選活動、評價屏東地方施政與福利的脈絡；民進黨後續官方回應也明確把屏東地方自行編列預算的方案，與立法院修法要求中央增加全國性支出區分。"
+    status: verified
+    observed_at: "2026-10-23"
+    source_ids: [S005, S006]
+    evidence_summary: "兩份民進黨官方資料分別保存活動脈絡與後續制度區分立場。"
+    verification_notes:
+      - "政黨官方來源對其自身活動脈絡具有高來源接近性；對法律與財政效果的規範評價仍須與既有老人健保 research 的其他來源交叉閱讀。"
+      - "既有 authoritative 查核另存於 sessions/2026-10-17-elderly-nhi-subsidy/evidence.yaml，本 session 不重複完整法制分析。"
+    tags: ["2026", 屏東, 周春米, 地方補助, 中央補助, context]
+
+  - id: F004
+    statement: "八炯／閩南狼相關『中國統戰紀錄片』揭露中國身分證問題後，調查局明確表示已召開會議並採取對應作為；其後主管機關至少確認部分個案確實持有中國大陸身分證，並出現註銷台灣身分／戶籍的行政處置。"
+    status: verified
+    observed_at: "2026-10-23"
+    source_ids: [S007, S008, S009]
+    evidence_summary: "調查局官方說明與後續中央社報導可建立『揭露 -> 政府查察 -> 部分個案確認／處置』的可觀察程序鏈。"
+    verification_notes:
+      - "此 fact 不等同證明影片所稱全部人數、所有中介管道或統戰因果均已查證。"
+    tags: ["2024", "2025", 八炯, 閩南狼, 中國身分證, 調查局, 移民署]
+
+  - id: F005
+    statement: "@yaubado537296 在同一串文第2段把台灣人的政治選擇表述為『支持跟中國來往、相信藍白兩黨』與『想要獨立出去成為新的國家』兩端，並據此否定中間選民位置。"
+    status: verified
+    observed_at: "2026-10-23T00:38:18+08:00"
+    source_ids: [S002]
+    evidence_summary: "原文直接以二分選項構造政治選擇空間。"
+    tags: ["2026", binary-framing, 中間選民, 藍白, 獨立, 忠誠分類]
+
+  - id: F006
+    statement: "@yaubado537296 在第3段以『所以』建立因果鏈：八炯／閩南狼端掉中國身分申辦地下管道、切斷唯一投誠機會，因此中國在國民黨罷免安全通關後加大國民黨破壞台灣法制憲政的力道。"
+    status: verified
+    observed_at: "2026-10-23T00:38:18+08:00"
+    source_ids: [S003]
+    evidence_summary: "此 fact 只保存作者明示的因果結構，不把因果內容升格為外部事實。"
+    tags: ["2026", causation-claim, 中國, 國民黨, 大罷免, 憲政]
+
+claims:
+  - id: C001
+    statement: "現有公開資料足以把賴清德對屏東地方長者健保補助方案的肯定，直接等同為其支持2026-10-16立法院三讀的中央全國性法定補助版本。"
+    status: unsupported
+    supports: []
+    contradicts: [F003]
+    related_facts: [F002]
+    reasoning_notes: "目前可直接確認的是賴在屏東地方福利脈絡中的正面評價；地方自行編列預算與中央法定給付在責任層級、財源與法律拘束上不同。不能用較窄的地方方案支持，自動證明其支持中央版本。"
+
+  - id: C002
+    statement: "黃國昌使用的賴清德影片片段已可確認因剪輯而構成事實失真或欺騙。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F002, F003]
+    reasoning_notes: "目前確認黃國昌使用片段並進行跨制度比較，也確認完整活動脈絡是屏東地方施政；但本輪尚未取得黃國昌實際上傳片段的逐秒內容與賴清德完整原始影音做剪點比較，因此『剪輯本身是否失真』不能只靠政治雙方互控定案。"
+
+  - id: C003
+    statement: "S001所舉的黃國昌／賴清德案例，已足以證明國民黨支持者整體長期被藍白餵食錯誤資訊、越來越不求證並拒絕任何正確資訊。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F001, F002, F003]
+    reasoning_notes: "單一政治傳播案例無法推估整體支持者的認知行為或時間趨勢；且該示例本身至少包含『地方方案支持是否等同中央版本支持』與『剪輯是否失真』兩個需分開查核的問題。群體普遍性另需代表性抽樣、panel或可重複分類資料。"
+
+  - id: C004
+    statement: "八炯／閩南狼的中國身分證揭露確實具有外部查核價值，不能因其政治立場而直接視為純粹造謠。"
+    status: supported
+    supports: [F004]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "政府後續查察確認至少部分個案存在並作成行政處置，足以證明揭露題材有真實問題基礎；這不等於其影片每個數量、人物、動機與因果主張都已被官方證實。"
+
+  - id: C005
+    statement: "八炯／閩南狼已『端掉臺灣人申辦中國身份的地下管道』。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F004]
+    reasoning_notes: "現有資料可證明政府展開調查、查獲部分持證個案並持續清查；尚未找到可證明某一特定地下申辦網絡已被完整識別、關閉，或所有同類管道均失效的官方資料。not_found != never_existed。"
+
+  - id: C006
+    statement: "被稱為『地下管道』的中國身分申辦安排，是臺灣人『唯一投誠中國的機會』。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F004]
+    reasoning_notes: "『投誠中國』不是已操作化的法律或行政分類，『唯一』又是排他性全稱命題；現有來源只處理中國身分證申領與查處，沒有資料證明不存在其他取得中國身分、政治效忠、移居或合作路徑。"
+
+  - id: C007
+    statement: "八炯／閩南狼揭露或政府查處中國身分證管道，造成中國在2025大罷免後加大透過國民黨破壞台灣法制憲政的力道。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F004, F006]
+    reasoning_notes: "本輪搜尋未找到能建立『身分證管道被查處 -> 中國決策 -> 國民黨行動增強』的直接文件、指揮鏈、時間序列識別或排除替代解釋的證據。即使個別國民黨行動可被批評為破壞憲政，也不能因此自動證明中國因前述事件而加大指揮力道。"
+
+  - id: C008
+    statement: "S002可作為『先以外部敵對威脅為前提，再把國內政治選項壓縮成二元忠誠分類』的存在性樣本。"
+    status: supported
+    supports: [F005]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "本claim分類的是公開論述結構：作者先主張中國迫使台灣選邊，再把『相信藍白／與中國往來』和『獨立成新國家』設為兩端，並否定中間位置。它不判定任何政黨實際對中政策或國家忠誠。"
+
+  - id: C009
+    statement: "一篇以『對手支持者不求證』為核心批評的論述，如果其示範案例本身存在命題層級混淆、且後續重大因果鏈未附直接證據，具有研究『epistemic asymmetry：要求對手查證、但對己方敘事採較低舉證門檻』的價值。"
+    status: supported
+    supports: [F001, F005, F006]
+    contradicts: []
+    related_facts: [F002, F003, F004]
+    reasoning_notes: "此處只主張研究價值與可操作化方向，不先判定作者所有具體主張皆為錯誤。最有辨識力的後續工作是逐項核對同一作者在對手與己方命題上接受何種證據門檻。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-23"
+    platform: "GitHub politics-db"
+    query: "老人健保補助 / 賴清德 / 同一把尺 / supporter reward / evidence-demand"
+    scope: "lichih/politics-db main"
+    result: found
+    notes: "找到 sessions/2026-10-17-elderly-nhi-subsidy/evidence.yaml 與 research/2026-10-21-supporter-reward-democratic-brakes/evidence.yaml；前者已區分屏東地方方案與中央法定補助，後者已有支持者查證要求與敵我化研究。"
+
+  - id: Q002
+    observed_at: "2026-10-23"
+    platform: web
+    query: "黃國昌 賴清德 65歲 健保 免費 影片 剪接；屏東 周春米 妥當了"
+    scope: "2026-10-17至2026-10-20公開新聞與民進黨官方資料"
+    result: found
+    notes: "確認黃國昌確實使用賴清德屏東站台片段做雙標批評，也確認民進黨官方將賴的肯定限定在屏東地方財政脈絡。尚未完成黃國昌實際剪輯片段與完整原始影音的逐秒比較。"
+
+  - id: Q003
+    observed_at: "2026-10-23"
+    platform: web
+    query: "八炯 閩南狼 中國身分證 地下管道 調查局 移民署 註銷戶籍"
+    scope: "2024-12至2026-10政府官方與主要新聞"
+    result: partial
+    notes: "確認紀錄片揭露後調查局、移民署介入，且後續至少部分持證個案被確認並註銷台灣身分／戶籍；未找到足以證明某一地下管道已被完整『端掉』或所有同類路徑均被切斷的資料。"
+
+  - id: Q004
+    observed_at: "2026-10-23"
+    platform: web
+    query: "八炯 閩南狼 中國身分證管道 被切斷 -> 中國 -> 國民黨 -> 大罷免後加大破壞憲政力道"
+    scope: "公開新聞、政府資料與可索引評論"
+    result: not_found
+    notes: "本輪未找到建立該完整因果鏈的直接證據。可找到大罷免期間『親中／紅色滲透／破壞憲政』等政治主張與反方否認，但這些不能替代『因身分證管道被查處而由中國加大國民黨行動』的因果證明。not_found != never_existed。"
+
+promotion:
+  cases: []
+  comparators: []
+  research:
+    - proposed: "epistemic-asymmetry-and-binary-loyalty-framing"
+      rationale: "可與既有 supporter-reward、同一把尺、identity bundling 研究交叉：追蹤『要求對手查證』與『對己方重大因果歸因的舉證門檻』是否在同一作者／同一群體中出現穩定不對稱。"
+
+notes:
+  - "本 session 的首要價值不是證明作者『很蠢』，而是保存一個可拆解的公開論證鏈：群體不理性結論 -> 示範案例 -> 二元忠誠分類 -> 高強度中國—國民黨因果歸因。"
+  - "對黃國昌影片的查核必須把『他確實剪輯／擷取片段』與『剪輯是否造成實質誤導』分開；前者可觀察，後者需完整影音比較。"
+  - "對賴清德立場的描述必須區分『支持屏東地方方案』與『支持中央法定全國補助版本』；one true premise != valid conclusion。"
+  - "對八炯／閩南狼亦使用同一把尺：政府後續確認部分中國身分證個案，足以提高其揭露的證據價值；但不能因此替『10萬人』『地下管道全被端掉』『唯一投誠機會』等更強命題預支正確性。"
+  - "若後續取得黃國昌原始貼文／影片與賴清德完整活動影音，優先做逐段對照，更新C002。"
