@@ -1,0 +1,119 @@
+session:
+  id: 2026-10-22-campaign-expense-receipts
+  project: Politics
+  title: "政治獻金競選宣傳支出的帳簿、憑證與查核規則"
+  started_at: "2026-10-22T21:10:00+08:00"
+  updated_at: "2026-10-22T21:10:00+08:00"
+  status: active
+
+topics:
+  - 政治獻金
+  - 競選支出
+  - 宣傳支出
+  - 支出憑證
+  - 監察院查核
+  - 競選物品
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "政治獻金法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0020049"
+    published_at: "2018-06-20"
+    observed_at: "2026-10-22T21:10:00+08:00"
+    retrieval_status: reachable
+    notes: "現行頁面顯示修正日期為民國107年6月20日；本次使用第20條、第21條及第22條。"
+  - id: S002
+    source_type: primary
+    publisher: "監察院主管法規共用系統"
+    title: "政治獻金查核準則"
+    url: "https://multimedia.cy.gov.tw/law/LawContent.aspx?id=FL033219"
+    published_at: "2020-07-23"
+    observed_at: "2026-10-22T21:10:00+08:00"
+    retrieval_status: reachable
+    notes: "頁面顯示修正日期為民國109年7月23日；本次使用第21條及第31條。"
+
+facts:
+  - id: F001
+    statement: "政治獻金法第20條要求政黨、政治團體及擬參選人設置收支帳簿，按日逐筆記載政治獻金收支的時間、對象及地址、用途、金額或金錢以外經濟利益價額等明細，並據以製作會計報告書。"
+    status: verified
+    observed_at: "2026-10-22T21:10:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "政治獻金收支不是只需保存總額；法律要求逐筆帳簿，包含交易對象與用途等欄位。"
+    excerpt: "按日逐筆記載政治獻金之收支時間、對象及其地址、用途、金額"
+    verification_notes:
+      - "第20條另規定新臺幣二千元以下之實物政治獻金得免記載。"
+    tags: [政治獻金法, 收支帳簿, 逐筆記載]
+  - id: F002
+    statement: "政治獻金法第20條要求擬參選人會計報告書列有宣傳支出；超過新臺幣三萬元之收支對象，須記載詳細資料，包括對象姓名或名稱、識別資料、地址、金額及用途。"
+    status: verified
+    observed_at: "2026-10-22T21:10:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "擬參選人的宣傳支出屬法定會計報告項目，且超過三萬元之收支對象須有更完整的對象資料。"
+    excerpt: "二、支出部分：（二）宣傳支出。"
+    verification_notes:
+      - "此處證明法定會計報告內容要求，不等於每張底層發票或收據均須直接公開給一般民眾。"
+    tags: [擬參選人, 會計報告書, 宣傳支出, 三萬元]
+  - id: F003
+    statement: "政治獻金查核準則第21條規定，政黨、政治團體及擬參選人申報之支出若未取得支出憑證，該支出不予認定；支出憑證及相關證明文件並應黏貼於支出傳票並裝訂成冊。"
+    status: verified
+    observed_at: "2026-10-22T21:10:00+08:00"
+    source_ids: [S002]
+    evidence_summary: "支出憑證是政治獻金支出被認定的必要條件之一。"
+    excerpt: "未取得支出憑證。支出憑證及相關證明文件，應黏貼於支出傳票並裝訂成冊。"
+    verification_notes: []
+    tags: [政治獻金查核準則, 支出憑證, 不予認定]
+  - id: F004
+    statement: "政治獻金查核準則第31條明定，擬參選人的宣傳支出包括製作競選物品或宣傳廣告費用；其支出憑證原則上為統一發票、免用統一發票之普通收據或其他支出證明。"
+    status: verified
+    observed_at: "2026-10-22T21:10:00+08:00"
+    source_ids: [S002]
+    evidence_summary: "競選物品的製作費用屬擬參選人宣傳支出，並有明確的支出憑證類型要求。"
+    excerpt: "一、製作競選物品或宣傳廣告費用。"
+    verification_notes:
+      - "如屬服務酬勞支出，準則另規定以收款人簽名或蓋章之收據或領冊作為支出憑證。"
+    tags: [競選物品, 宣傳支出, 發票, 收據]
+  - id: F005
+    statement: "政治獻金法第22條授權監察院就政治獻金收支要求檢送收支憑證或證明文件並進行查核；必要時可向相關營利事業、廠商、團體、機關（構）、法人或個人查詢並要求說明或提供證明文件。政治獻金收支憑證及證明文件原則上應於申報後保管五年。"
+    status: verified
+    observed_at: "2026-10-22T21:10:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "底層憑證不只是候選人內部保存資料；監察院依法有權調取並可向交易相關廠商交叉查詢。"
+    excerpt: "必要時，並得向相關營利事業、廠商、團體、機關（構）、法人或個人查詢"
+    verification_notes:
+      - "發生訴訟時，保管期限延長至裁判確定後三個月。"
+    tags: [監察院, 查核權, 廠商查詢, 保存五年]
+
+claims:
+  - id: C001
+    statement: "若某批競選飄帶是擬參選人以政治獻金購買或製作的競選物品，其支出依法應進入政治獻金帳務，並應有可供查核的支出憑證。"
+    status: supported
+    supports: [F001, F003, F004, F005]
+    contradicts: []
+    related_facts: [F002]
+    reasoning_notes: "這是條件命題。仍須先確認該批物品是否由擬參選人政治獻金專戶支出；若由政黨、第三人自費、實物捐贈或其他法律關係提供，應另依相應規則判斷。"
+  - id: C002
+    statement: "僅憑上述政治獻金法規，即可證明特定競選飄帶的實際供應商、製造地或是否來自中國電商。"
+    status: unsupported
+    supports: []
+    contradicts: [F001, F003, F004, F005]
+    related_facts: [F002]
+    reasoning_notes: "法規證明的是帳務與憑證義務及監察院查核權，不直接證明任何特定交易的實際供應商或產地；仍須取得該筆帳務、憑證、供應商資料或其他直接證據。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-22T21:10:00+08:00"
+    platform: web
+    query: "政治獻金法 第20條 第21條 第22條；政治獻金查核準則 第21條 第31條"
+    scope: "全國法規資料庫、監察院主管法規共用系統"
+    result: found
+    notes: "確認現行公開法規頁面可直接支持帳簿、會計報告、支出憑證、競選物品宣傳支出及監察院查核權等命題。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "本 session 建立的是後續查核競選宣傳品來源時可重用的法律／帳務 baseline，不對任何特定飄帶的供應商或產地作事實認定。"
