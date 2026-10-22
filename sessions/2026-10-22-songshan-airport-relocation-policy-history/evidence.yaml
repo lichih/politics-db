@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "松山機場遷建：歷史主張、2026政策位置與既存功能爭點"
   started_at: "2026-10-22T18:54:14+08:00"
-  updated_at: "2026-10-22T20:59:19+08:00"
+  updated_at: "2026-10-22T21:38:58+08:00"
   status: active
 
 topics:
@@ -286,6 +286,19 @@ sources:
     notes:
       - "衛福部長石崇良表示，若醫療後送交通規劃或動線調整，衛福部會基於醫療照護量能與人員輸運需求積極參與評估。"
       - "同時指出現行後送由空中轉診審核中心進行專業評估，替代地點、交通工具與環境條件均須審慎考量。"
+
+  - id: S022
+    source_type: commentary
+    publisher: "Facebook"
+    title: "黃揚明（剝雞）貼文下黃小海與吳立志的松機遷建公開留言串"
+    url: "https://www.facebook.com/PokiiHuang/posts/pfbid02KpKWXLEqT5WYzJGBa4F8296Sv8a18v5YdoUvAmRKHencLdYq4prvYefWLq48bHVWl?comment_id=1616855143217203&notif_id=1792670050238450&notif_t=feedback_reaction_generic&ref=notif"
+    observed_at: "2026-10-22T21:38:58+08:00"
+    retrieval_status: reachable
+    notes:
+      - "以已登入的 connected browser tab context 擷取當時公開可見頁面狀態；保存黃小海自『這裡真是好厚的同溫層^_^』起的留言串與其後可見回覆。"
+      - "完整 browser raw snapshot 保存於 source-snapshots/2026-10-22-facebook-huang-xiaohai-thread.raw.txt；可讀版保存於 source-snapshots/2026-10-22-facebook-huang-xiaohai-thread.txt。"
+      - "此來源可證明當時公開頁面上有哪些留言、時間與部分編輯標記；不能單靠留言內容證明其中政策或事實主張為真。"
+      - "Facebook 留言可能日後遭編輯、刪除、隱藏、排序變更或因帳號封鎖而不可見，因此此 snapshot 的證據意義是 query-as-of 的 contemporaneous page state。"
 
 facts:
   - id: F001
@@ -581,6 +594,22 @@ facts:
       - 中央地方
       - "2026"
 
+  - id: F023
+    statement: "截至2026年10月22日晚間的公開Facebook留言串中，黃小海先以『這裡真是好厚的同溫層^_^』評論該貼文留言區，之後把對蔣萬安『準備不足』的門檻具體化為：主張遷松機前應先盤點既有任務，並提出初步看來可行的替代方向；他同時以醫療後送、高鐵接續轉送與軍事跑道／無人機等說法作為批評例子。"
+    status: verified
+    observed_at: "2026-10-22T21:38:58+08:00"
+    source_ids: [S022]
+    evidence_summary: "connected browser 擷取的同一公開留言串保留黃小海從同溫層評語、急就章／準備程度爭論，到最後明確陳述『至少先盤點任務並提出初步可行替代方案』的完整可見脈絡。"
+    verification_notes:
+      - "此fact只證明黃小海曾公開採取並具體化這套論述標準，不判定該標準本身是否正確。"
+      - "他對蔣萬安三項說法的轉述與評價仍須分別回到原始發言及政策資料查核，不應直接視為已證事實。"
+    tags:
+      - Facebook
+      - 黃小海
+      - 公開論述
+      - 準備程度
+      - 同一標準
+
 claims:
   - id: C001
     statement: "「民進黨二十多年來一直有單一、正式且一致的遷松機黨政策。」"
@@ -705,6 +734,14 @@ searches:
     scope: "本session既有歷史來源及本次公開網頁查詢"
     result: not_found
     notes: "本次未找到足以證明上述歷年遷建主張在提出前，已先完成軍事、空勤與醫療後送『完整替代方案』的公開資料。此結果只代表目前查詢未找到，不得寫成『中央近三十年從未做過』。"
+
+  - id: Q010
+    observed_at: "2026-10-22T21:38:58+08:00"
+    platform: browser
+    query: "黃揚明（剝雞）Facebook貼文 comment_id=1616855143217203；擷取黃小海『這裡真是好厚的同溫層^_^』留言串完整可見回覆"
+    scope: "使用者已開啟且登入的Facebook頁面，connected browser tab context"
+    result: found
+    notes: "截圖因頁面高度無法完整涵蓋留言串；改以browser tab context保存同一時點的完整可見文字與comment/reply identifiers，另產生可讀transcript。"
 
 promotion:
   cases: []
