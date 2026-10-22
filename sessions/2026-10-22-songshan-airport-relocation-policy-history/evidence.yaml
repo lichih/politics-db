@@ -1,0 +1,466 @@
+session:
+  id: 2026-10-22-songshan-airport-relocation-policy-history
+  project: Politics
+  title: "松山機場遷建：歷史主張、2026政策位置與既存功能爭點"
+  started_at: "2026-10-22T18:54:14+08:00"
+  updated_at: "2026-10-22T18:54:14+08:00"
+  status: active
+
+topics:
+  - 松山機場
+  - 松機遷建
+  - 台北市長
+  - 民進黨
+  - 顧立雄
+  - 姚文智
+  - 蔡英文
+  - 張景森
+  - 吳怡農
+  - 沈伯洋
+  - 蔣萬安
+  - 國防韌性
+  - 醫療後送
+  - 桃園機場第三跑道
+  - 都市發展
+  - 政策時間線
+
+sources:
+  - id: S001
+    source_type: secondary
+    publisher: "聯合報"
+    title: "松山機場存廢成選戰話題 歷任台北市長立場看法"
+    url: "https://udn.com/news/story/124652/9802722?from=searchresult"
+    published_at: "2026-10-08"
+    observed_at: "2026-10-22T18:54:14+08:00"
+    retrieval_status: reachable
+    notes:
+      - "整理歷年台北市長與候選人對松山機場存廢的公開主張。"
+      - "記錄陳水扁1995年任內成立遷建研究小組；李應元2002年、謝長廷2006年均提出遷建相關政見。"
+      - "此為2026年回顧性二手整理，不等同各年份原始政見文件。"
+
+  - id: S002
+    source_type: secondary
+    publisher: "中央社（大紀元轉載）"
+    title: "都市機場遷建 藍綠各有看法"
+    url: "https://www.epochtimes.com/b5/12/8/18/n3662539.htm"
+    published_at: "2012-08-18"
+    observed_at: "2026-10-22T18:54:14+08:00"
+    retrieval_status: reachable
+    notes:
+      - " contemporaneous 報導記錄姚文智提出《都市舊機場遷建特別條例草案》，涵蓋松山等都市舊機場。"
+      - "姚文智當時以噪音、都市更新、安全與土地利用等理由支持遷建。"
+
+  - id: S003
+    source_type: secondary
+    publisher: "聯合報"
+    title: "昔選市長指「台北為松機犧牲太大」被翻出 顧立雄：我現在是國防部長"
+    url: "https://udn.com/news/story/6656/9813933"
+    published_at: "2026-10-14"
+    observed_at: "2026-10-22T18:54:14+08:00"
+    retrieval_status: reachable
+    notes:
+      - "立法院質詢時，羅智強引述顧立雄2014年爭取民進黨台北市長提名時的遷建政見。"
+      - "顧立雄當場回應松機確實造成地區發展限制，存廢可討論；但以現任國防部長身分會把軍事任務與防衛韌性列為首要考量。"
+      - "2014原始政見目前尚未直接取得，故歷史部分仍屬以2026年質詢與報導回溯確認。"
+
+  - id: S004
+    source_type: primary
+    publisher: "國防部軍事新聞通訊社"
+    title: "顧部長赴立院專案報告　兼顧軍民需求評估機場功能重塑"
+    url: "https://mna.mnd.gov.tw/news/detail/?UserKey=a5f43e01-e02d-43ce-a1e0-216f9d1d026c"
+    published_at: "2026-10-14"
+    observed_at: "2026-10-22T18:54:14+08:00"
+    retrieval_status: reachable
+    notes:
+      - "國防部官方紀錄顧立雄表示，軍民合用機場功能調整應將國家防衛韌性與軍事任務列入首要考量。"
+      - "官方文字說明國防部會就遷建及功能重塑提供專業意見，確保整體防衛量能不受影響。"
+      - "此來源未表示松山機場『不可能遷移』。"
+
+  - id: S005
+    source_type: secondary
+    publisher: "公視新聞網"
+    title: "北市府規劃 2020年底松山機場將遷建"
+    url: "https://news.pts.org.tw/article/310689"
+    published_at: "2015-11-17"
+    observed_at: "2026-10-22T18:54:14+08:00"
+    retrieval_status: reachable
+    notes:
+      - "當時報導姚文智代表民進黨總統參選人蔡英文出席松山機場遷建論壇。"
+      - "姚文智提出2020年底遷建目標，並以桃園機場航廈擴充後總容量作為承接松機旅運的論據之一。"
+      - "同篇也記錄民航局對第三航廈容量、第三跑道與松機承接問題的不同評估。"
+
+  - id: S006
+    source_type: primary
+    publisher: "張景森 Facebook"
+    title: "白頭宮女話松山機場遷建"
+    url: "https://www.facebook.com/100069051015432/posts/1424343213210699/"
+    published_at: "2026-10-08"
+    observed_at: "2026-10-22T18:54:14+08:00"
+    retrieval_status: blocked
+    notes:
+      - "公開搜尋索引可定位此原始貼文，但本次直接開啟受限。"
+      - "內容另由S007可完整取得並交叉記錄。"
+
+  - id: S007
+    source_type: secondary
+    publisher: "Newtalk新聞"
+    title: "張景森爆料：蔡英文不挺松機遷建、他2015年奉命拜託姚文智別講"
+    url: "https://newtalk.tw/news/view/2026-10-08/1064485"
+    published_at: "2026-10-08"
+    observed_at: "2026-10-22T18:54:14+08:00"
+    retrieval_status: reachable
+    notes:
+      - "完整轉述張景森2026年回顧：2015年蔡英文團隊對遷建時程有顧慮，他曾受命勸姚文智暫緩宣布。"
+      - "張景森同時確認姚文智最後仍以代表蔡英文身分在論壇提出2020年底遷建目標。"
+      - "張景森稱隔日曾以蔡英文政策辦公室執行長身分澄清，仍須研究機場容量、交通配套及國安需求。"
+      - "張景森另稱歷史上軍方早已以國安與軍事功能反對遷建，顯示國防爭點不是2026才出現。"
+      - "張景森也指出2010年蘇貞昌參選台北市長時並未主張遷建，顯示民進黨內部歷來並非單一一致立場。"
+
+  - id: S008
+    source_type: secondary
+    publisher: "TVBS"
+    title: "松山機場遷建挨批空話　吳怡農：侯友宜支持、蔣萬安也不反對"
+    url: "https://news.tvbs.com.tw/politics/1986264"
+    published_at: "2022-12-10"
+    observed_at: "2026-10-22T18:54:14+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記錄吳怡農提出配合桃園機場第三跑道完工時程遷建松機、2024年前政策定案、周邊3000多公頃禁限建區規劃、213公頃原址公園等主張。"
+      - "王鴻薇當時已以軍用問題質疑；吳怡農承認松指部任務存在，並回應公共政策需取捨。"
+      - "吳怡農留下『不願意遷，什麼都是理由；願意遷，到處都有方法』的公開說法。"
+
+  - id: S009
+    source_type: secondary
+    publisher: "中央社"
+    title: "松機遷建　沈伯洋：北市回函未涵蓋醫療後送等配套"
+    url: "https://www.cna.com.tw/news/aipl/202610160079.aspx"
+    published_at: "2026-10-16"
+    observed_at: "2026-10-22T18:54:14+08:00"
+    retrieval_status: reachable
+    notes:
+      - "沈伯洋表示松機遷移不分政黨都討論過，並明確說『不是不能討論』。"
+      - "他列出國防、國安、商務、醫療後送、救災等功能與配套問題。"
+      - "他以『量能不是功能』區分桃機旅運容量與松機功能替代。"
+
+  - id: S010
+    source_type: primary
+    publisher: "蔣萬安 Facebook"
+    title: "為台北打開未來，為台灣布局下一個世代"
+    url: "https://www.facebook.com/chiangwanan/posts/pfbid0hpf1MFcG1zFuYpKFCuT3LZoKaf4Nm9pbzrvzGgNXe7EuPB5jr1XN4fW5MDM6V7uYl"
+    published_at: "2026-10-15"
+    observed_at: "2026-10-22T18:54:14+08:00"
+    retrieval_status: blocked
+    notes:
+      - "原文直連本次網頁工具受限；S011保留其公開貼文內容的可檢索鏡像。"
+
+  - id: S011
+    source_type: secondary
+    publisher: "2026市長官方來源觀測站"
+    title: "蔣萬安（臺北市）官方來源觀測站"
+    url: "https://mayor2026.observe.tw/taipei/chiang-wanan/"
+    observed_at: "2026-10-22T18:54:14+08:00"
+    retrieval_status: reachable
+    notes:
+      - "鏡像保存蔣萬安2026-10-15公開貼文。"
+      - "貼文稱松機遷移是『願景』，目標絕非一蹴可及，需要中央與地方充分完整討論與規劃，並希望當天成為重要起點。"
+      - "貼文另稱台北市2023年已行文中央，希望將松機遷建納入整體規劃。"
+
+  - id: S012
+    source_type: commentary
+    publisher: "Threads 使用者 @shyou349"
+    title: "空安說要遷移松機，國防部馬上回應現有防務不可能遷移..."
+    url: "https://www.threads.com/@shyou349/post/DeyxFhmAR5h"
+    published_at: "2026-10-22"
+    observed_at: "2026-10-22T18:54:14+08:00"
+    retrieval_status: reachable
+    notes:
+      - "該公開貼文主張『國防部馬上回應現有防務不可能遷移』，並進一步以中國指令框架攻擊蔣萬安。"
+      - "本項只保存該社群主張本身，不把其內容當作國防部立場的證據。"
+
+facts:
+  - id: F001
+    statement: "至少自1995年起，民進黨政治人物曾反覆提出松山機場遷建或存廢主張；陳水扁任台北市長時成立遷建研究小組，之後李應元、謝長廷、姚文智、顧立雄、吳怡農等不同時期政治人物亦曾提出遷建相關主張。"
+    status: verified
+    observed_at: "2026-10-22T18:54:14+08:00"
+    source_ids: [S001, S002, S003, S005, S007, S008]
+    evidence_summary: "跨1995、2002、2006、2012、2014/2015、2022的公開紀錄足以支持『民進黨陣營長期反覆有人主張遷建』。"
+    verification_notes:
+      - "此事實不等於『民進黨二十多年來一直有單一、連續、正式黨政策』。"
+    tags:
+      - 歷史時間線
+      - 民進黨
+      - 遷建主張
+
+  - id: F002
+    statement: "2002年民進黨台北市長候選人李應元提出松山機場改變功能／遷移構想，並將原址規劃為中央首都公園。"
+    status: verified
+    observed_at: "2026-10-22T18:54:14+08:00"
+    source_ids: [S001]
+    evidence_summary: "2026年歷史回顧報導明確記錄該政見。"
+    verification_notes:
+      - "尚未取得2002年原始競選白皮書或逐字政見文件。"
+    tags:
+      - 李應元
+      - "2002"
+
+  - id: F003
+    statement: "2006年民進黨台北市長候選人謝長廷主張遷建松山機場，並提出原址公園、住宅與經貿複合利用構想。"
+    status: verified
+    observed_at: "2026-10-22T18:54:14+08:00"
+    source_ids: [S001]
+    evidence_summary: "2026年歷史回顧報導明確記錄該政見。"
+    verification_notes:
+      - "尚未取得2006年原始競選政見文件。"
+    tags:
+      - 謝長廷
+      - "2006"
+
+  - id: F004
+    statement: "2012年民進黨立委姚文智提出《都市舊機場遷建特別條例草案》，主張建立機制推動松山等都市舊機場遷建。"
+    status: verified
+    observed_at: "2026-10-22T18:54:14+08:00"
+    source_ids: [S002]
+    evidence_summary: "2012年當時的中央社報導記錄其草案內容與理由。"
+    tags:
+      - 姚文智
+      - "2012"
+      - 立法提案
+
+  - id: F005
+    statement: "顧立雄在2013年底至2014年爭取民進黨台北市長提名時曾主張松山機場遷建，並以限建、限高、噪音及都市發展限制作為理由。"
+    status: verified
+    observed_at: "2026-10-22T18:54:14+08:00"
+    source_ids: [S003]
+    evidence_summary: "2026年立法院公開質詢中再次具體引述其當年政見，顧立雄並未否認其歷史立場，且再次承認松機造成地區發展限制。"
+    verification_notes:
+      - "仍應持續尋找2013/2014原始政見或 contemporaneous 報導，以提升 source proximity。"
+    tags:
+      - 顧立雄
+      - "2014"
+      - 都市發展
+
+  - id: F006
+    statement: "2015年11月17日，姚文智在松山機場遷建論壇上以代表蔡英文身分提出2020年底遷建目標，並以桃園機場航廈擴充後容量作為可承接松機旅運的論據之一。"
+    status: verified
+    observed_at: "2026-10-22T18:54:14+08:00"
+    source_ids: [S005, S007]
+    evidence_summary: "2015 contemporaneous 公視報導與2026張景森回顧均確認姚文智當天的公開角色與主張。"
+    verification_notes:
+      - "此事實只證明公開場合的代表身分與發言，不自動等於蔡英文本人已完成政策定案。"
+    tags:
+      - 姚文智
+      - 蔡英文
+      - "2015"
+      - 桃機容量
+
+  - id: F007
+    statement: "依張景森2026年公開回憶，2015年蔡英文團隊對松機遷建時程有疑慮，張景森曾受命勸姚文智暫緩宣布；姚仍於論壇提出2020目標，隔日張景森再以政策辦公室執行長身分說明仍需研究容量、交通及國安需求。"
+    status: verified
+    observed_at: "2026-10-22T18:54:14+08:00"
+    source_ids: [S006, S007]
+    evidence_summary: "這是張景森本人對2015內部政策協調的事後第一人稱回憶，並由新聞完整轉述。"
+    verification_notes:
+      - "這可證明張景森2026年的公開說法；對2015內部實際決策狀態，仍屬事後證詞，應與2015 contemporaneous 公開資料並列。"
+    tags:
+      - 張景森
+      - 蔡英文
+      - "2015"
+      - 內部政策協調
+
+  - id: F008
+    statement: "民進黨內部歷史上並非始終採單一遷建立場；張景森2026年指出蘇貞昌2010年參選台北市長時並未主張遷建，2015蔡英文團隊也對遷建時程有所顧慮。"
+    status: verified
+    observed_at: "2026-10-22T18:54:14+08:00"
+    source_ids: [S007]
+    evidence_summary: "張景森以長期參與者身分公開說明民進黨內部歷史並不一致。"
+    verification_notes:
+      - "蘇貞昌2010立場尚待 contemporaneous source 交叉驗證。"
+    tags:
+      - 民進黨
+      - 內部分歧
+      - 證據邊界
+
+  - id: F009
+    statement: "2022年吳怡農主張配合桃園機場第三跑道完工時程遷建松機，原址213公頃作公園，並啟動周邊3000多公頃禁限建區都市計畫研擬。"
+    status: verified
+    observed_at: "2026-10-22T18:54:14+08:00"
+    source_ids: [S008]
+    evidence_summary: "TVBS contemporaneous 報導列出吳怡農五項具體主張。"
+    tags:
+      - 吳怡農
+      - "2022"
+      - 第三跑道
+      - 公園
+      - 禁限建
+
+  - id: F010
+    statement: "2022年吳怡農提出遷建時，軍用功能已被公開提出作為質疑；吳怡農並未否認軍用任務存在，而是主張公共政策應做取捨並尋找解法。"
+    status: verified
+    observed_at: "2026-10-22T18:54:14+08:00"
+    source_ids: [S008]
+    evidence_summary: "王鴻薇當時已提出軍用問題，吳怡農公開回應『不願意遷，什麼都是理由；願意遷，到處都有方法』。"
+    verification_notes:
+      - "此事實證明軍用功能爭點至少在2022年已存在於公共討論；不證明當時已有完整替代方案。"
+    tags:
+      - 吳怡農
+      - 軍用功能
+      - "2022"
+
+  - id: F011
+    statement: "2026年國防部正式立場是要求把軍事任務與防衛韌性列入首要考量並審慎評估功能替代；國防部表示會參與評估、提供專業意見，以確保防衛量能不受影響。"
+    status: verified
+    observed_at: "2026-10-22T18:54:14+08:00"
+    source_ids: [S004]
+    evidence_summary: "國防部軍事新聞通訊社保存官方專案報告內容。"
+    verification_notes:
+      - "官方資料未說『現有防務不可能遷移』。"
+    tags:
+      - 國防部
+      - 顧立雄
+      - 國防韌性
+      - "2026"
+
+  - id: F012
+    statement: "2026年沈伯洋公開表示松機遷移『不分政黨都討論過』且『不是不能討論』，但要求處理國防、國安、商務、醫療後送、救災等替代功能，並以『量能不是功能』區分桃機容量與松機功能。"
+    status: verified
+    observed_at: "2026-10-22T18:54:14+08:00"
+    source_ids: [S009]
+    evidence_summary: "中央社逐項記錄沈伯洋公開說法。"
+    tags:
+      - 沈伯洋
+      - "2026"
+      - 量能不是功能
+      - 配套
+
+  - id: F013
+    statement: "蔣萬安2026年的公開表述將松機遷移定位為需中央與地方長期討論、評估與規劃的願景與起點，而非已核定、立即執行的搬遷命令。"
+    status: verified
+    observed_at: "2026-10-22T18:54:14+08:00"
+    source_ids: [S010, S011]
+    evidence_summary: "10月15日公開貼文稱目標『絕非一蹴可及』，需充分完整討論與規劃，並將當日定位為重要起點。"
+    verification_notes:
+      - "這不代表其具體方案已完整，也不代表遷建一定可行；只界定目前政策程序狀態。"
+    tags:
+      - 蔣萬安
+      - 規劃階段
+      - 程序狀態
+      - "2026"
+
+  - id: F014
+    statement: "張景森2026年回顧稱，軍方以國安與軍事功能反對松機遷建的爭點早已存在於過去的遷建討論中。"
+    status: verified
+    observed_at: "2026-10-22T18:54:14+08:00"
+    source_ids: [S006, S007]
+    evidence_summary: "張景森明確將國安問題列為歷史上長期存在的遷建障礙之一。"
+    verification_notes:
+      - "此項首先證明張景森的長期參與者證詞；若要精確定位最早年份與軍方正式文件，仍需另查 contemporaneous primary source。"
+    tags:
+      - 國安
+      - 軍事功能
+      - 歷史爭點
+
+  - id: F015
+    statement: "2026年10月22日Threads使用者@shyou349公開主張『國防部馬上回應現有防務不可能遷移』。"
+    status: verified
+    observed_at: "2026-10-22T18:54:14+08:00"
+    source_ids: [S012]
+    evidence_summary: "原始Threads貼文可直接定位。"
+    verification_notes:
+      - "此fact只證明該使用者做過此主張，不證明該主張內容為真。"
+    tags:
+      - Threads
+      - 社群主張
+      - 國防部
+
+claims:
+  - id: C001
+    statement: "「民進黨二十多年來一直有單一、正式且一致的遷松機黨政策。」"
+    status: contradicted
+    contradicts: [F007, F008]
+    related_facts: [F001, F002, F003, F004, F005, F006, F009]
+    reasoning_notes: "可證明的是民進黨陣營長期反覆有多位政治人物主張遷建；但張景森的歷史回顧顯示黨內不同時期並非一致，2015蔡英文團隊亦對時程有疑慮。"
+
+  - id: C002
+    statement: "「2015年蔡英文本人已明確定案支持2020年底遷建松山機場。」"
+    status: unresolved
+    related_facts: [F006, F007]
+    reasoning_notes: "contemporaneous 公開場合中姚文智以代表蔡英文身分提出2020目標；但張景森2026年第一人稱回憶稱蔡英文團隊當時有疑慮並曾試圖阻止宣布。現有證據不足以把兩者壓成單一結論。"
+
+  - id: C003
+    statement: "「國防部2026年已表示現有防務不可能遷移，因此松山機場不能遷。」"
+    status: contradicted
+    contradicts: [F011]
+    related_facts: [F015]
+    reasoning_notes: "國防部官方文字是要求審慎評估替代、願意提供專業意見並確保防衛量能；沒有作出『不可能遷』的絕對結論。"
+
+  - id: C004
+    statement: "「蔣萬安2026年的松機主張是已經決定立即搬遷，現在就要執行。」"
+    status: contradicted
+    contradicts: [F013]
+    reasoning_notes: "其公開表述把方案定位為願景、起點與後續中央地方共同討論規劃，尚未形成已核定的立即搬遷程序狀態。"
+
+  - id: C005
+    statement: "「松機的軍事／國防功能問題是2026年蔣萬安提案後才第一次出現。」"
+    status: contradicted
+    contradicts: [F010, F014]
+    reasoning_notes: "2022吳怡農遷建主張已遭軍用功能質疑；張景森也回顧軍方國安與軍事功能疑慮是歷史長期爭點。"
+
+  - id: C006
+    statement: "「沈伯洋2026年的立場是反對討論或主張松機絕對不能遷。」"
+    status: contradicted
+    contradicts: [F012]
+    reasoning_notes: "沈伯洋明確說『不是不能討論』，其公開立場是要求先處理功能替代與配套。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-22T18:54:14+08:00"
+    platform: github
+    query: "松山機場 遷建 民進黨 沈伯洋"
+    scope: "lichih/politics-db default branch"
+    result: not_found
+    notes: "本次repo-first搜尋未找到既有同題 evidence session；not_found不代表repo歷史上從未有相關字詞或其他命名資料。"
+
+  - id: Q002
+    observed_at: "2026-10-22T18:54:14+08:00"
+    platform: web
+    query: "陳水扁／李應元／謝長廷／姚文智／顧立雄／吳怡農 松山機場 遷建"
+    scope: "公開新聞、歷史回顧、當年報導"
+    result: found
+    notes: "找到1995至2022跨年代多位政治人物的遷建主張；部分早期項目目前仍以後來歷史回顧為主要可取來源，需繼續補 contemporaneous primary/secondary source。"
+
+  - id: Q003
+    observed_at: "2026-10-22T18:54:14+08:00"
+    platform: web
+    query: "2015 蔡英文 姚文智 松山機場 2020 第三航廈"
+    scope: "2015 contemporaneous 新聞與2026張景森回顧"
+    result: found
+    notes: "找到公開代表身分與2020目標，也找到張景森對當時內部保留與勸阻的相反脈絡；因此對『蔡英文本人定案支持』保留unresolved。"
+
+  - id: Q004
+    observed_at: "2026-10-22T18:54:14+08:00"
+    platform: web
+    query: "顧立雄 松山機場 國防韌性 2014 2026"
+    scope: "立法院報導、國防部官方資料"
+    result: found
+    notes: "可確認歷史上顧立雄曾主張遷建；現任國防部長立場則為審慎評估並確保防衛量能，非官方宣告『不可能遷』。"
+
+  - id: Q005
+    observed_at: "2026-10-22T18:54:14+08:00"
+    platform: web
+    query: "吳怡農 2022 松機 軍用問題 第三跑道"
+    scope: "2022 contemporaneous 新聞"
+    result: found
+    notes: "可確認2022提出遷建時軍用功能已是公開爭點，且吳怡農直接回應過該問題。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "本session只建立外部可驗證的政策時間線、公開說法與目前程序狀態；不判定任何政治人物是否雙標，也不推定選舉動機。"
+  - "『民進黨陣營長期有人主張遷建』與『民進黨長期有一致正式黨政策』必須分開；現有證據支持前者、反駁後者。"
+  - "2015年蔡英文／姚文智關係必須保留雙重證據：當時公開場合的代表身分與2020目標，以及張景森2026年所述的內部疑慮與勸阻。"
+  - "2026國防部立場應以官方文字為準：審慎評估替代與確保防衛量能，不得轉寫成『已宣布不可能遷移』。"
+  - "蔣萬安2026主張目前屬規劃／願景／評估起點；這不等於方案成熟，也不等於已決定立即搬遷。"
+  - "後續可再補：1995陳水扁原始市議會紀錄、2002李應元與2006謝長廷原始政見、2013/2014顧立雄原始受訪或競選文件、2015蔡英文政策辦公室隔日正式說明、歷年國防部對松機軍事功能的 contemporaneous 正式文件、離島醫療後送的制度與數據。"
