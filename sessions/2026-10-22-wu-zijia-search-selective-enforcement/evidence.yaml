@@ -1,0 +1,290 @@
+session:
+  id: 2026-10-22-wu-zijia-search-selective-enforcement
+  project: Politics
+  title: "吳子嘉遭搜索案：搜索程序、前置偵查與選擇性執法主張"
+  started_at: "2026-10-22T18:09:00+08:00"
+  updated_at: "2026-10-22T18:09:00+08:00"
+  status: active
+
+topics:
+  - 司法信任
+  - 選罷法
+  - 搜索
+  - 強制處分
+  - 選擇性執法
+  - 言論自由
+  - 新竹縣長選舉
+  - 吳子嘉
+  - 鄭朝方
+  - 徐巧芯
+
+sources:
+  - id: S001
+    source_type: commentary
+    publisher: "Facebook / 徐巧芯"
+    title: "徐巧芯 2026-10-22 就吳子嘉遭搜索案之公開貼文"
+    url: "https://www.facebook.com/HsuChiaoHsin/posts/pfbid09JGoeTBw1NVxRk7s2iFVawGueE3uVRb5CJ1Exrcujkepq9VVJCuKZPWDQpDG3sTpl"
+    published_at: "2026-10-22"
+    observed_at: "2026-10-22T18:09:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "此來源可直接證明徐巧芯公開提出何種比較與政治定性；不能單獨證明『辦藍不辦綠』、『司法鷹犬』或政治介入司法等結論為真。"
+
+  - id: S002
+    source_type: secondary
+    publisher: "聯合報"
+    title: "竹北街頭「猛攻鄭朝方」文宣署名吳子嘉 檢調今搜索吳辦公室、住處"
+    url: "https://udn.com/news/story/7321/9831273"
+    published_at: "2026-10-22"
+    observed_at: "2026-10-22T18:09:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導引述新竹地檢署稱，吳姓被告涉嫌違反選舉罷免法案件仍在偵辦中，基於偵查不公開不便說明，待告一段落再統一發布新聞稿。"
+
+  - id: S003
+    source_type: secondary
+    publisher: "FTNN新聞網"
+    title: "收押一人！吳子嘉控鄭朝方家族炒地皮　挨告違反選罷法今遭搜索"
+    url: "https://www.ftnn.com.tw/news/589467"
+    published_at: "2026-10-22T16:38:00+08:00"
+    observed_at: "2026-10-22T18:09:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導稱檢方先傳喚街頭發文宣者並聲押獲准，之後綜合相關證據與供詞溯源，再向新竹地院聲請搜索吳子嘉辦公室及住居所獲准。"
+      - "此處為新聞報導之偵查程序敘述；竹檢尚未以正式新聞稿公開確認全部細節，因此相關 fact 標記 partial。"
+
+  - id: S004
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "刑事訴訟法第122條、第128條、第128-1條"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+    observed_at: "2026-10-22T18:09:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第122條規定搜索被告或犯罪嫌疑人之身體、物件、電磁紀錄及住宅或其他處所以必要時為限。"
+      - "第128條原則要求搜索使用搜索票，搜索票由法官簽名；第128-1條規定偵查中檢察官認有搜索必要時，原則上應敘明理由向法院聲請核發搜索票。"
+
+  - id: S005
+    source_type: secondary
+    publisher: "聯合報"
+    title: "遭嗆「用命去跟你們拼」 吳子嘉今提告鄭朝方胞弟恐嚇"
+    url: "https://udn.com/news/story/124652/9797747"
+    published_at: "2026-10-06T13:06:00+08:00"
+    observed_at: "2026-10-22T18:09:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導記載吳子嘉於2026-10-06針對鄭朝名臉書文字提出恐嚇告訴，並轉述告訴內容及鄭朝名相關公開文字。"
+
+  - id: S006
+    source_type: secondary
+    publisher: "中央社"
+    title: "吳子嘉稱遭鄭朝方胞弟發文恐嚇　徐欣瑩籲鄭公開說明"
+    url: "https://www.cna.com.tw/news/aipl/202610080173.aspx"
+    published_at: "2026-10-08T14:22:00+08:00"
+    observed_at: "2026-10-22T18:09:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "中央社記錄吳子嘉公開表示已就鄭朝名言論提告，由司法機關調查。"
+
+  - id: S007
+    source_type: secondary
+    publisher: "中央社"
+    title: "無良公關指跟拍陳時中遭藍營提告 檢方不起訴"
+    url: "https://www.cna.com.tw/news/asoc/202307050200.aspx"
+    published_at: "2023-07-05T15:35:00+08:00"
+    observed_at: "2026-10-22T18:09:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記錄2022年選舉期間『無良公關』網軍企畫書爭議及台北地檢署2023年第一次不起訴處分。"
+
+  - id: S008
+    source_type: secondary
+    publisher: "Yahoo新聞 / 中國時報"
+    title: "遭指找狗仔偷拍陳時中 徐巧芯怒告「無良公關」失敗！ 北檢二度不起訴"
+    url: "https://tw.news.yahoo.com/%E9%81%AD%E6%8C%87%E6%89%BE%E7%8B%97%E4%BB%94%E5%81%B7%E6%8B%8D%E9%99%B3%E6%99%82%E4%B8%AD-%E5%BE%90%E5%B7%A7%E8%8A%AF%E6%80%92%E5%91%8A-%E7%84%A1%E8%89%AF%E5%85%AC%E9%97%9C-%E5%A4%B1%E6%95%97-%E5%8C%97%E6%AA%A2%E4%BA%8C%E5%BA%A6%E4%B8%8D%E8%B5%B7%E8%A8%B4-040753303.html"
+    published_at: "2024-11-13"
+    observed_at: "2026-10-22T18:09:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導稱案件經再議發回續查後，北檢再次對相關被告作不起訴處分。"
+
+  - id: S009
+    source_type: secondary
+    publisher: "聯合報"
+    title: "徐巧芯控「無良公關」抹黑組建網軍 粉專管理員查證不足起訴"
+    url: "https://udn.com/news/story/7321/9005502"
+    published_at: "2025-09-15T10:32:00+08:00"
+    observed_at: "2026-10-22T18:09:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導稱台北地檢署此前兩度不起訴，案件經再議發回續查後，第三次偵查認定陳姓管理員查證程度不足，依選罷法意圖使人不當選等罪起訴。"
+
+  - id: S010
+    source_type: secondary
+    publisher: "中央社"
+    title: "貼文指藍營要跟拍陳時中　無良公關管理員判6月"
+    url: "https://www.cna.com.tw/news/asoc/202602250176.aspx"
+    published_at: "2026-02-25T14:54:00+08:00"
+    observed_at: "2026-10-22T18:09:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記錄台北地院2026-02-25一審依違反選罷法判陳姓管理員有期徒刑6月、褫奪公權2年；報導明示可上訴。"
+
+facts:
+  - id: F001
+    statement: "2026-10-22，新竹地檢署指揮調查局人員搜索美麗島電子報董事長吳子嘉位於台北市的辦公室及住處；竹檢對外表示吳姓被告涉嫌違反選舉罷免法案件仍在偵辦，基於偵查不公開暫不說明案情。"
+    status: verified
+    observed_at: "2026-10-22T18:09:00+08:00"
+    source_ids: [S002, S003]
+    evidence_summary: "搜索行動本身及竹檢『案件偵辦中、暫不說明』的公開立場可由多家報導交叉確認。"
+    verification_notes:
+      - "截至本次觀察，竹檢尚未發布完整案件新聞稿說明搜索原因、搜索票聲請內容與扣押物。"
+    tags: [吳子嘉, 搜索, 新竹地檢署, 選罷法]
+
+  - id: F002
+    statement: "FTNN 2026-10-22報導稱，檢方在搜索吳子嘉之前，已先傳喚一名街頭發放相關文宣者，訊後向新竹地院聲請羈押獲准；之後再依相關證據與供詞溯源，向新竹地院聲請搜索吳子嘉辦公室及住居所並獲准。"
+    status: partial
+    observed_at: "2026-10-22T18:09:00+08:00"
+    source_ids: [S003]
+    evidence_summary: "此報導若正確，表示搜索前存在中間偵查步驟，並非僅憑鄭朝方提出告訴即直接搜索吳子嘉。"
+    verification_notes:
+      - "目前為單一具體新聞來源對偵查程序的描述，尚缺竹檢正式新聞稿、法院裁定或搜索票等 primary source 獨立確認。"
+      - "不得由『羈押獲准／搜索票獲准』反推吳子嘉犯罪成立。"
+    tags: [前置偵查, 羈押, 搜索票, partial]
+
+  - id: F003
+    statement: "依現行刑事訴訟法，搜索原則上應使用搜索票；偵查中檢察官認有搜索必要時，原則上應以書面敘明理由向法院聲請核發，搜索票由法官簽名。"
+    status: verified
+    observed_at: "2026-10-22T18:09:00+08:00"
+    source_ids: [S004]
+    evidence_summary: "刑事訴訟法第128條、第128-1條直接規範一般偵查搜索之搜索票與法院審查程序。"
+    verification_notes:
+      - "法律另有無票搜索等例外；本 fact 僅表述一般原則。"
+    tags: [刑事訴訟法, 搜索票, 法官保留]
+
+  - id: F004
+    statement: "2026-10-06，吳子嘉就鄭朝方胞弟鄭朝名公開發文中的『用命去跟你們拼』、『到了陰間，你會被割舌頭好幾次』等言詞提出恐嚇告訴。"
+    status: verified
+    observed_at: "2026-10-22T18:09:00+08:00"
+    source_ids: [S005, S006]
+    evidence_summary: "聯合報與中央社均記錄吳子嘉已提出告訴及其所指涉的公開言詞。"
+    verification_notes:
+      - "此 fact 只證明提出告訴，不證明恐嚇罪成立。"
+      - "截至本次查詢，尚未找到檢警就該告訴偵辦進度所作的公開 primary-source 說明。"
+    tags: [吳子嘉, 鄭朝名, 恐嚇告訴]
+
+  - id: F005
+    statement: "2022年選舉期間，臉書粉專『無良公關』發布一份指稱國民黨組建網軍、跟拍陳時中的企畫書，內容出現蔣萬安、徐巧芯等人簽名；徐巧芯等人提告後，台北地檢署於2023-07第一次作不起訴處分。"
+    status: verified
+    observed_at: "2026-10-22T18:09:00+08:00"
+    source_ids: [S007]
+    evidence_summary: "中央社報導記錄貼文內容、告訴罪名及北檢第一次不起訴處分。"
+    tags: [無良公關, 徐巧芯, 選罷法, 不起訴]
+
+  - id: F006
+    statement: "『無良公關』案經再議發回後，北檢於2024-11再次作不起訴處分；其後案件再經發回續查，北檢於2025-09對其中陳姓管理員依選罷法意圖使人不當選等罪起訴。"
+    status: verified
+    observed_at: "2026-10-22T18:09:00+08:00"
+    source_ids: [S008, S009]
+    evidence_summary: "公開報導可確認同一核心爭議至少歷經兩次不起訴，之後第三次偵查才對一名管理員起訴。"
+    verification_notes:
+      - "不同被告的最終處理可能不同；此處僅就報導可確認的陳姓管理員與相關被告程序沿革概括。"
+    tags: [無良公關, 再議, 起訴, 程序時間線]
+
+  - id: F007
+    statement: "台北地方法院於2026-02-25就『無良公關』陳姓管理員案件一審判處有期徒刑6月、褫奪公權2年，當時仍可上訴。"
+    status: verified
+    observed_at: "2026-10-22T18:09:00+08:00"
+    source_ids: [S010]
+    evidence_summary: "中央社記錄一審判決結果及尚可上訴之程序狀態。"
+    verification_notes:
+      - "不得把一審判決寫成已確定有罪。"
+    tags: [無良公關, 一審, 選罷法]
+
+  - id: F008
+    statement: "徐巧芯於2026-10-22公開將吳子嘉遭搜索、自己『無良公關』舊案處理時程、以及吳子嘉對鄭朝名提出恐嚇告訴三者並列，進而主張『辦藍，不辦綠』、『司法早就淪為當權者的選舉鷹犬』。"
+    status: verified
+    observed_at: "2026-10-22T18:09:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "可確認的是徐巧芯確實提出此政治主張與比較框架；其因果與制度定性需另行驗證。"
+    tags: [徐巧芯, 政治主張, 選擇性執法]
+
+claims:
+  - id: C001
+    statement: "吳子嘉此次遭搜索足以證明司法存在『辦藍、不辦綠』的選擇性執法，或已淪為執政者的選舉工具。"
+    status: unresolved
+    related_facts: [F001, F002, F003, F004, F005, F006, F007, F008]
+    reasoning_notes: "目前可確認不同案件的程序速度與強制處分表面上存在差異，但案件結構、證據保全需求、涉嫌行為持續性、被告身分與已掌握證據均可能不同。F002還提供搜索前已有發文宣者遭偵辦與羈押、再向上溯源的 competing explanation。現有資料不足以從速度差直接推出政治選擇性或執政黨介入。"
+
+  - id: C002
+    statement: "鄭朝方一提出告訴，檢方即未經其他偵查步驟而直接跨縣市搜索吳子嘉。"
+    status: unresolved
+    contradicts: [F002]
+    related_facts: [F001]
+    reasoning_notes: "目前具體報導稱搜索前已有發文宣者遭傳喚、羈押及證據溯源，與『一告就直接搜索』敘事衝突；但因該程序細節尚缺 primary source 完整確認，暫保留 unresolved。"
+
+  - id: C003
+    statement: "吳子嘉2026-10-06提出的恐嚇告訴遭司法『置若罔聞』、完全沒有偵辦。"
+    status: unresolved
+    related_facts: [F004]
+    reasoning_notes: "目前只能確認告訴已提出，以及本次公開查詢未找到後續偵辦進度。偵查可能未公開；not_found 不等於沒有偵辦，不能據此把『未見公開進度』升格為『司法置若罔聞』。"
+
+  - id: C004
+    statement: "吳子嘉案與徐巧芯『無良公關』舊案在公開可見的偵查／處分時間線上存在明顯速度差，值得進一步做同類案件比較。"
+    status: supported
+    supports: [F001, F005, F006, F007]
+    related_facts: [F002, F003]
+    reasoning_notes: "『時間線差異存在』可由公開程序紀錄支持；但『差異由政治選擇性造成』是另一個需要控制案件結構、證據狀態與強制處分必要性的因果命題。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-22T18:09:00+08:00"
+    platform: "GitHub / politics-db"
+    query: "吳子嘉；鄭朝方"
+    scope: "lichih/politics-db code search"
+    result: not_found
+    notes: "本次查詢未找到既有吳子嘉／鄭朝方同案 evidence；因此建立新 session。not_found 不代表 repo 其他語義不同的資料不存在。"
+
+  - id: Q002
+    observed_at: "2026-10-22T18:09:00+08:00"
+    platform: web
+    query: '\"吳子嘉\" 搜索 鄭朝方 新竹地檢署 2026-10-22'
+    scope: "當日公開新聞、竹檢公開回應"
+    result: found
+    notes: "找到聯合報、FTNN等報導；可確認搜索發生及竹檢『偵辦中、偵查不公開』回應。"
+
+  - id: Q003
+    observed_at: "2026-10-22T18:09:00+08:00"
+    platform: web
+    query: "site:scp.moj.gov.tw 吳子嘉 2026-10-22 搜索"
+    scope: "新竹地檢署官方網站／公開新聞稿"
+    result: not_found
+    notes: "此次查詢未找到竹檢已發布的完整案件新聞稿；新聞報導均稱竹檢表示待偵辦告一段落再統一說明。"
+
+  - id: Q004
+    observed_at: "2026-10-22T18:09:00+08:00"
+    platform: web
+    query: '\"吳子嘉\" 鄭朝名 恐嚇 提告 2026-10-06'
+    scope: "公開新聞與當事人告訴資訊"
+    result: found
+    notes: "找到聯合報、中央社等資料，可確認吳子嘉已提出恐嚇告訴；未找到截至2026-10-22的官方偵辦進度說明。"
+
+  - id: Q005
+    observed_at: "2026-10-22T18:09:00+08:00"
+    platform: web
+    query: '\"無良公關\" 徐巧芯 不起訴 再議 起訴 判刑'
+    scope: "2023至2026公開司法新聞"
+    result: found
+    notes: "可重建2023第一次不起訴、2024第二次不起訴、2025起訴、2026一審判刑的公開時間線。"
+
+promotion:
+  cases: []
+  comparators:
+    - "選罷法意圖使人不當選案件：偵查速度與強制處分比較"
+  research:
+    - "司法信任：選擇性執法需區分時間差與因果證明"
+
+notes:
+  - "本 session 先保存可驗證事實與待證主張，不先採納『司法鷹犬／政治迫害』定性。"
+  - "後續若要判斷搜索是否異常，核心需補：實際文宣內容、涉嫌不實之具體句子、文宣發放規模與持續性、搜索票待證事項、扣押物類型、發文宣者羈押裁定，以及同類選罷法案件通常何時使用搜索。"
+  - "『搜索票由法院核發』只能證明存在司法審查程序，不代表搜索必然合比例或實體上正確；反之，搜索發生也不能直接證明政治迫害。"
