@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "支持者獎勵、陣營內規範執行與民主煞車：以2025大罷免為起始案例"
   started_at: "2026-10-21T19:18:52+08:00"
-  updated_at: "2026-10-22T23:35:00+08:00"
+  updated_at: "2026-10-23T01:57:00+08:00"
   status: active
 
 topics:
@@ -43,6 +43,9 @@ topics:
   - brake-preserving supporter
   - independent evaluator
   - supporter autonomy
+  - identity substitution
+  - epistemic disqualification
+  - evidence-demand substitution
 
 sources:
   - id: S001
@@ -399,6 +402,20 @@ sources:
       - "可見公開回覆中，@blackcat77977留言「有腦子怎麼會當草」，當時顯示4讚。"
       - "頁面可直接證明上述主張、稱呼與互動存在；不能單靠反藍白／稱呼「小草」推定作者或回覆者必然是民進黨支持者、實際投票者，亦不能證明「藍白更貪」或「光電貪抓出來都國民黨」為真。"
 
+  - id: S031
+    source_type: commentary
+    publisher: "Threads / @yaubado537296"
+    title: "老人健保爭論中，兩輪舉證要求後轉向『沒看懂』與G類型身份分類"
+    url: "https://www.threads.com/@yaubado537296/post/DezoIzHErBU"
+    published_at: "2026-10-23"
+    observed_at: "2026-10-23T01:53:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "上下文起於作者主張藍白以錯誤資訊豢養支持者，並以黃國昌轉貼賴清德長者健保影片為示例。"
+      - "被要求具體指出『黃國昌哪一項資訊錯誤』後，作者前一輪回覆（Dezg57SkoxG）先稱提問者『根本沒看懂黃國昌在幹嘛』並要求多看；下一輪回覆（DezoIzHErBU）再稱對方屬『覺得賴清德在雙標的G1~G3選民』，預測其1128選擇不會改變，並以其『不是G4選民』說明沒有必要繼續解釋。"
+      - "兩輪回覆在當回合均未列出被要求指出的具體錯誤資訊。"
+      - "此來源用於研究argument sequence，不證明作者政黨身分、G分類有效性或任何支持者群體的普遍行為。"
+
 facts:
   - id: F001
     statement: "2025-01-04，民進黨立院黨團總召柯建銘以「藍白賣台」「救台灣」框架主張罷免41席國民黨區域立委。"
@@ -703,6 +720,17 @@ facts:
     source_ids: [S030]
     evidence_summary: "保存自然社群樣本中的可觀察互動量與直接身分／能力羞辱；互動只代表當時平台快照，不等於所有互動者都認同全部政治主張。"
     tags: [Threads, engagement-snapshot, 身分羞辱, 小草, 自然樣本]
+
+  - id: F034
+    statement: "在S031的paired interaction中，具體的fact-level evidence demand（指出黃國昌哪一項資訊錯誤）連續兩輪沒有得到具體錯誤命題；回應先轉為提問者『沒看懂』，再轉為G1~G3／G4身份分類、投票不可改變的預測與停止解釋的理由。"
+    status: verified
+    observed_at: "2026-10-23T01:53:00+08:00"
+    source_ids: [S031]
+    evidence_summary: "公開回覆鏈提供同一議題、同一作者、連續evidence demand與回應的直接序列，可用於分類回應機制。"
+    verification_notes:
+      - "沒有回答不等於原始主張已被反證；它只表示此兩輪回覆沒有完成其先前『錯誤資訊』命題的舉證。"
+      - "後續若作者補出具體錯誤命題，應另行查核並更新，不得以本次拒答封死未來證據。"
+    tags: [evidence-demand, identity-substitution, epistemic-disqualification, G1-G3, G4, argument-sequence]
 
 claims:
   - id: C001
@@ -1034,6 +1062,30 @@ claims:
     related_facts: [F032, F033]
     reasoning_notes: "互動數只能建立此自然樣本存在可觀察社交回饋；目前沒有每一互動者的政黨認同、按讚理由、代表性抽樣或跨陣營baseline，不能推估群體盛行率。"
 
+  - id: C042
+    statement: "S031可作為『identity substitution after evidence demand』的存在性樣本：當原始爭點是可驗證的事實命題，回應者沒有先補事實證據，而以提問者的理解能力、政治類型與 presumed immovability 解釋其不接受結論，從而把爭點由claim validity轉成claimant/evaluator identity。"
+    status: supported
+    supports: [F034]
+    contradicts: []
+    related_facts: [F012, F013, F027, F029, F030]
+    reasoning_notes: "這是對公開互動結構的分類，不推定主觀惡意。它與既有evidence-demand punishment、argument-demand -> personal attack、adjacent-truth substitution不同：本案的主要替代物是對提問者的政治／認知分類。"
+
+  - id: C043
+    statement: "S031單一互動已足以證明民進黨支持者或特定政治陣營普遍會在無法舉證時，用選民身份分類逃避事實查核。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F034]
+    reasoning_notes: "單一自然互動只能證明此機制存在；尚缺作者可靠政黨認同、代表性樣本、跨陣營baseline與反例。後續應比較不同陣營在相同evidence-demand下的回應分布。"
+
+  - id: C044
+    statement: "若政治分類被用成自我封閉規則——『你不同意我的結論，正好證明你屬於那個不會被說服的類型』——會降低外部反證對原主張的更新能力，因此值得獨立追蹤為self-sealing identity classification風險。"
+    status: unresolved
+    supports: [F034]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "本案具有此方向的語言特徵，但尚未確認G分類的正式定義、作者是否把任何反例都吸收進分類、以及其在後續證據出現時是否真的拒絕更新，因此保持unresolved。"
+
 searches:
   - id: Q001
     observed_at: "2026-10-21T19:18:52+08:00"
@@ -1116,6 +1168,14 @@ searches:
     result: found
     notes: "確認原作者公開主張「藍白更貪」「光電貪，抓出來都國民黨」，並以「小草」作身分／能力嘲諷；同頁可見「有腦子怎麼會當草」回覆及互動快照。此次只保存主張與論證／互動結構，未把政治評論當成貪污比較的實體證據，也未由語言立場推定作者或互動者的政黨身分。"
 
+  - id: Q011
+    observed_at: "2026-10-23T01:53:00+08:00"
+    platform: "connected browser / Threads"
+    query: "yaubado537296 Dex2ol3EmRF -> Dezg57SkoxG -> DezoIzHErBU"
+    scope: "原始『錯誤資訊／支持者不求證』主張與兩輪後續舉證要求回覆"
+    result: found
+    notes: "建立完整paired sequence：作者先以黃國昌老人健保影片作『錯誤資訊』示例；遭兩輪fact-level evidence demand後，回應依序轉為理解能力評價與G類型／投票預測。此結果新增identity-substitution研究維度，並保留『拒答不等於反證』界線。"
+
 promotion:
   cases: []
   comparators:
@@ -1144,4 +1204,5 @@ notes:
   - "新增 supporter-mediated authority shielding 候選機制：制度層的 auditability / unfalsifiability 問題與支持者層的 evidence-demand punishment 之間，可能存在『相鄰真命題替換 -> 羞辱質疑者 -> 替公權力降低回應成本』的中介層；目前只保存為可檢驗機制，不作群體定性。"
   - "此機制與 research/2026-10-20-public-authority-auditability-unfalsifiability/evidence.yaml 應交叉閱讀：前者研究民間政治論述如何複製／放大卸責結構，後者保存公權力自身可驗證性缺口；兩者不得因結構相似就自動推定有組織指揮或共同主觀目的。"
   - "新增 brake-preserving supporter / supporter autonomy 反例維度：支持某政黨本身不等於把個案判斷權交給政黨。研究上應分開測量party identification、對己方不利資訊的更新、是否拒絕identity shortcut、是否要求個案證據，以及是否存在撤回支持／轉票／棄權條件。"
+  - "新增 identity substitution after evidence demand 維度：當可驗證命題被要求指出證據時，觀察回應是否從 claim validity 轉向『你是哪一類人／你沒看懂／你本來就不會改變』。此類身份分類若形成self-sealing規則，可能降低反證造成更新的能力；目前只有存在性樣本，尚不能做陣營普遍性判斷。"
   - "『可被政黨動員的資源』應操作化為低更新成本、高可預測、會沿陣營框架自動產生結論／擴散／規範執行等可觀察特徵；不能把政黨支持身分本身直接當成此分類。"
