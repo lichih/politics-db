@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "支持者獎勵、陣營內規範執行與民主煞車：以2025大罷免為起始案例"
   started_at: "2026-10-21T19:18:52+08:00"
-  updated_at: "2026-10-21T23:31:00+08:00"
+  updated_at: "2026-10-22T12:07:51+08:00"
   status: active
 
 topics:
@@ -34,6 +34,11 @@ topics:
   - Facebook政治留言
   - 親中羞辱
   - argument-demand punishment
+  - adjacent-truth substitution
+  - authority shielding
+  - supporter-mediated authority shielding
+  - 程序質疑卸責
+  - 民間複製
 
 sources:
   - id: S001
@@ -341,6 +346,29 @@ sources:
       - "同一互動並非單向升級：另一方也先後以「法律只是開場道具」、「在床上大小便」及「維尼專用舔官」等語嘲諷回擊。保存此雙向脈絡，避免把自然互罵樣本誤寫成單方、無挑釁的攻擊。"
       - "此來源能證明該公開互動與語言轉向存在；不能單獨證明發言者的政黨認同、實際投票選擇、智力／學歷／年齡，也不能證明其屬於任何支持者群體。"
 
+  - id: S027
+    source_type: commentary
+    publisher: "Threads / @thorhsu"
+    title: "以「檢察官不能給緩刑」「羈押期間本來可以抵刑期」回應翟本喬認罪誘因質疑之貼文"
+    url: "https://www.threads.com/@thorhsu/post/Dex7H-Ugd1w"
+    observed_at: "2026-10-22T12:07:51+08:00"
+    retrieval_status: reachable
+    notes:
+      - "公開貼文以「不會Google、不會問AI、也不懂基本法學ABC的傳說中智商超過200的法盲」描述翟本喬，並列出兩點：『檢察官不能給緩刑，檢察官只能緩起訴，緩刑是法官的事』與『不用條件交換，羈押期間本來就可以抵刑期』。"
+      - "此來源可證明發言內容、回應結構與人格／能力羞辱存在；不能單獨證明原始量刑交換推測為真，也不能單獨證明發言者的政黨認同、投票選擇或與任何政黨／機關存在指揮協調。"
+
+  - id: S028
+    source_type: commentary
+    publisher: "翟本喬（Facebook）"
+    title: "2026-10-21對李文宗、李文娟二審認罪時點與原因之評論"
+    url: "https://www.facebook.com/ben.jai/posts/pfbid0RgHsEDzK486DrgTWDqzCn5uszrSDUyQf1FirZVgv8R1wbmdLq7D3MoatcsLkHzcwl"
+    published_at: "2026-10-21"
+    observed_at: "2026-10-22T12:07:51+08:00"
+    retrieval_status: reachable
+    notes:
+      - "翟本喬推測檢方可能因2026選舉時程而希望被告在選前認罪，並推測可能存在緩刑或一年以下刑期等量刑利益；完整查核已保存在 cases/2026-10-20-ko-wen-je-judicial-proceedings/evidence.yaml。"
+      - "既有案件查核將『檢察官曾承諾緩刑或一年以下刑期作為認罪交換』列為 unsupported；本 research 僅使用該貼文來界定原待回應命題，不把推測升格為事實。"
+
 facts:
   - id: F001
     statement: "2025-01-04，民進黨立院黨團總召柯建銘以「藍白賣台」「救台灣」框架主張罷免41席國民黨區域立委。"
@@ -599,6 +627,22 @@ facts:
     evidence_summary: "公開留言序列同時保存雙方回覆，可直接確認互罵升級不是單方向。"
     tags: ["2026", Facebook, reciprocal-escalation, 方法論, 自然樣本]
 
+  - id: F029
+    statement: "Threads帳號@thorhsu公開以『法盲』『智商超過200』等能力／人格羞辱語彙評論翟本喬，並以『檢察官不能給緩刑』及『羈押期間本來可以抵刑期』兩個命題作為主要反駁。"
+    status: verified
+    observed_at: "2026-10-22T12:07:51+08:00"
+    source_ids: [S027]
+    evidence_summary: "可直接確認貼文的兩個反駁命題與羞辱語彙；不由此推定作者黨派身分或主觀動機。"
+    tags: [Threads, 翟本喬, 人格羞辱, adjacent-truth, 程序正義]
+
+  - id: F030
+    statement: "翟本喬原貼文把『檢方可能提供緩刑或一年以下刑期等利益以促成認罪』作為推測，而既有案件查核已將秘密量刑交換判定為unsupported。"
+    status: verified
+    observed_at: "2026-10-22T12:07:51+08:00"
+    source_ids: [S028]
+    evidence_summary: "可確認原待回應命題包含認罪誘因／量刑利益推測；同時保留其未被證實的證據狀態，避免把研究支持者論證機制變成替原推測背書。"
+    tags: [翟本喬, 認罪誘因, 量刑交換, unsupported, 待證命題]
+
 claims:
   - id: C001
     statement: "2025大罷免可作為一個已發生的案例，研究國安／敵我化框架、支持者動員與政黨組織投入如何在同一政治過程中相互連結。"
@@ -848,6 +892,38 @@ claims:
     related_facts: [F027, F028]
     reasoning_notes: "這是可檢驗的機制假說。要升格需至少補兩類資料：同類言論在陣營內的reward／punishment分布，以及個體或群體的投票條件性（willingness to defect / abstain）。本樣本尚未測得這兩項。"
 
+  - id: C032
+    statement: "在S027與S028這組paired discourse中，『檢察官不能自己宣告緩刑』與『羈押原則上可折抵刑期』即使成立，也不足以單獨回答『檢方所能影響的量刑／程序利益是否可能形成認罪誘因』及『一年以下刑期與既有羈押結合後有何實際效果』；因此可將此回應結構分類為adjacent-truth substitution，而非對原待證命題的完整反駁。"
+    status: supported
+    supports: [F029, F030]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "本claim判斷的是命題對應關係，不主張秘密交換實際存在。若要否定原推測，仍可直接指出缺乏交換證據；但『某法律常識為真』與『原質疑已被回答』是兩個不同問題。"
+
+  - id: C033
+    statement: "此案例可作為一個存在性樣本，研究『adjacent-truth substitution -> ridicule -> authority shielding』：先以相鄰真命題移開程序質疑，再以能力／人格羞辱降低提問者資格，客觀上減少公權力回應原問題的論證壓力。"
+    status: supported
+    supports: [F029, F030]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "這是對公開論證結構及其可觀察功能的分類，不推定發言者受政府指揮，也不把主觀惡意或政黨忠誠當成已證事實。"
+
+  - id: C034
+    statement: "S027單一貼文已足以證明民進黨支持者整體普遍使用偷換概念替司法或執政者拒絕監督。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F029, F030]
+    reasoning_notes: "本次尚未建立@thorhsu的可靠政黨自我認同／投票資料，也沒有代表性樣本或跨陣營比較；單一自然樣本只能證明此論證機制存在，不能推估群體盛行率。"
+
+  - id: C035
+    statement: "若後續跨案例反覆觀察到公權力以不可證偽／相鄰回答卸除程序質疑，而同陣營民間論述又複製同一結構並獲得正向社交回饋，則可能形成『制度卸責的支持者代理化／supporter-mediated authority shielding』，降低公權力接受外部檢驗的政治成本。"
+    status: unresolved
+    supports: [F029, F030]
+    contradicts: []
+    related_facts: [F012, F013, F027, F028]
+    reasoning_notes: "目前已有evidence-demand punishment、argument-demand轉人格羞辱與本案adjacent-truth substitution等存在性樣本，但尚缺重複paired cases、社群reward分布、actor identity與跨陣營baseline，不能把完整因果機制升格為已證實。"
+
 searches:
   - id: Q001
     observed_at: "2026-10-21T19:18:52+08:00"
@@ -905,6 +981,14 @@ searches:
     result: found
     notes: "直接取得指定公開留言鏈，確認『肖像權』質疑後未見構成要件補充，互動轉向人格與親中羞辱；同時保存另一方的反擊，避免單向截圖偏誤。此次觀察未取得可靠的政黨認同、投票意向或同溫層正向獎勵分布，因此不把本案直接算成voter-level reward證據。"
 
+  - id: Q008
+    observed_at: "2026-10-22T12:07:51+08:00"
+    platform: "connected browser context + politics-db"
+    query: "thorhsu Dex7H-Ugd1w；翟本喬量刑交換推測；supporter reward / auditability既有研究"
+    scope: "Threads公開貼文、翟本喬原貼文、cases/2026-10-20-ko-wen-je-judicial-proceedings與既有supporter-reward research"
+    result: found
+    notes: "新增一種不同於單純人身攻擊或evidence-demand punishment的paired mechanism：以相鄰真命題替換程序待證問題，再配合羞辱使原質疑失焦。保留秘密量刑交換unsupported、作者黨派身分unresolved、群體普遍性unsupported。"
+
 promotion:
   cases: []
   comparators:
@@ -930,3 +1014,5 @@ notes:
   - "對沈伯洋／黑熊的研究應區分 purpose、design、safeguard 與 observed effect。敵我意識／心防／政府—公民社會協作已是公開design；『壓制國內異議』仍需獨立證據。"
   - "將『沒有成本的一票』操作化時，至少分開測量 party identification、vote intention、willingness to defect/abstain、面對治理或程序失誤時的更新條件，以及同陣營對特定語言／行為的social reward。單一互罵串只能提供互動機制樣本，不能直接證明投票條件性。"
   - "研究者自身若參與公開互罵，evidence仍應保存雙向升級脈絡；不能只截取對方低級語句，再把自己造成的互動條件刪掉。"
+  - "新增 supporter-mediated authority shielding 候選機制：制度層的 auditability / unfalsifiability 問題與支持者層的 evidence-demand punishment 之間，可能存在『相鄰真命題替換 -> 羞辱質疑者 -> 替公權力降低回應成本』的中介層；目前只保存為可檢驗機制，不作群體定性。"
+  - "此機制與 research/2026-10-20-public-authority-auditability-unfalsifiability/evidence.yaml 應交叉閱讀：前者研究民間政治論述如何複製／放大卸責結構，後者保存公權力自身可驗證性缺口；兩者不得因結構相似就自動推定有組織指揮或共同主觀目的。"
