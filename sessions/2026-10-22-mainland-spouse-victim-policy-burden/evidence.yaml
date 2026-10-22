@@ -1,0 +1,284 @@
+session:
+  id: "2026-10-22-mainland-spouse-victim-policy-burden"
+  project: Politics
+  title: "陸配『受害者』論述與身分／參政限制：風險承認、補證負擔與政治責任"
+  started_at: "2026-10-22T13:23:28+08:00"
+  updated_at: "2026-10-22T13:23:28+08:00"
+  status: active
+
+topics:
+  - 陸配
+  - 中國配偶
+  - 沈伯洋
+  - 喪失原籍證明
+  - 兩岸單一戶籍
+  - 參政權
+  - 被選舉權
+  - 身分證明
+  - 具結替代
+  - 人身安全風險
+  - 民進黨
+  - 大陸委員會
+  - 移民署
+  - 行政核釋
+  - 公權力
+  - burden inversion
+  - 政治責任
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "立法院影音隨選系統"
+    title: "沈伯洋質詢移民署：補繳喪失原籍證明與返陸風險"
+    url: "https://ivod.ly.gov.tw/Demand/Speech/159970"
+    published_at: "2025-04-09"
+    observed_at: "2026-10-22T13:23:28+08:00"
+    retrieval_status: reachable
+    notes:
+      - "逐字稿記錄沈伯洋向移民署長鐘景琨詢問2004年前設籍者補繳喪失原籍證明的配套。"
+      - "沈伯洋明確指出，部分受通知者如果返陸辦理文件可能有危險；移民署長答稱會納入考量。"
+
+  - id: S002
+    source_type: primary
+    publisher: "中華民國大陸委員會"
+    title: "政府兼顧執法公平性及人道實務需求，提出補繳證件替代方案以及各項便民協助措施"
+    url: "https://www.mac.gov.tw/News_Content.aspx?n=9223A12B5B31CB37&s=510A81BC2E076981&sms=35FA2C4073CF4DFB"
+    published_at: "2025-04-16"
+    observed_at: "2026-10-22T13:23:28+08:00"
+    retrieval_status: reachable
+    notes:
+      - "政府公布六類可申請以具結方式替代喪失原籍證明的情形。"
+      - "其中包括赴陸恐有人身安全疑慮者，以及在中國大陸出生、學齡前返臺定居、主張從未在陸設籍並經主管機關審核確認者。"
+
+  - id: S003
+    source_type: primary
+    publisher: "內政部移民署"
+    title: "移民署呼籲通知對象儘速補繳喪失原籍證明 遭遇困難也請立即反映，以保障個人權益"
+    url: "https://www.immigration.gov.tw/5385/7229/7238/392094/"
+    published_at: "2025-05-21"
+    observed_at: "2026-10-22T13:23:28+08:00"
+    retrieval_status: reachable
+    notes:
+      - "移民署重申可申請具結替代或延後赴陸辦理。"
+      - "移民署同時表示，已接獲通知但消極不配合辦理者，將依兩岸條例相關規定註銷其臺灣戶籍。"
+
+  - id: S004
+    source_type: primary
+    publisher: "立法院"
+    title: "黃捷、許智傑等16人：公職人員選舉罷免法第二十四條及第二十九條條文修正草案"
+    url: "https://ppg.ly.gov.tw/ppg/download/agenda1/02/pdf/11/02/15/LCEWA01_110215_00011.pdf"
+    published_at: "2024-12-25"
+    observed_at: "2026-10-22T13:23:28+08:00"
+    retrieval_status: reachable
+    notes:
+      - "草案主張大陸地區及港澳地區人民參選時，應辦理放棄原有國籍並提出喪失國籍證明，否則不得登記為候選人。"
+      - "草案設有非可歸責於當事人而無法取得證明時，可提出書面佐證並由陸委會查證的例外。"
+      - "沈伯洋列名連署人。"
+
+  - id: S005
+    source_type: primary
+    publisher: "立法院"
+    title: "沈伯洋、吳思瑤、林楚茵、莊瑞雄等19人：國籍法第二十條條文修正草案"
+    url: "https://ppg.ly.gov.tw/ppg/download/agenda1/02/pdf/11/03/09/LCEWA01_110309_00121.pdf"
+    published_at: "2025-04-23"
+    observed_at: "2026-10-22T13:23:28+08:00"
+    retrieval_status: reachable
+    notes:
+      - "沈伯洋為提案人之一。"
+      - "草案主張受國籍限制之公職人員，應於就職前完成喪失外國國籍或境外政治實體公民身分並提出證明文件。"
+
+  - id: S006
+    source_type: primary
+    publisher: "立法院"
+    title: "王定宇、王美惠等18人：臺灣地區與大陸地區人民關係條例第十七條條文修正草案"
+    url: "https://ppg.ly.gov.tw/ppg/download/agenda1/02/pdf/11/03/08/LCEWA01_110308_00011.pdf"
+    published_at: "2025-04-16"
+    observed_at: "2026-10-22T13:23:28+08:00"
+    retrieval_status: reachable
+    notes:
+      - "草案主張大陸地區配偶定居設籍後，如欲取得我國國民身分，仍應依國籍法歸化相關規定放棄原國籍並出具證明。"
+      - "提案理由同時主張大陸地區人民可能受境外敵對勢力脅迫而協助滲透。"
+      - "沈伯洋列名連署人。"
+
+  - id: S007
+    source_type: secondary
+    publisher: "Newtalk新聞"
+    title: "統戰爭議？沈伯洋：我們要保護受害者里長、廟宇跟中國配偶"
+    url: "https://newtalk.tw/news/view/2026-05-16/1035537"
+    published_at: "2026-05-16"
+    observed_at: "2026-10-22T13:23:28+08:00"
+    retrieval_status: reachable
+    notes:
+      - "現場採訪報導記錄沈伯洋稱里長、宮廟與可能被威脅的中國配偶是應受保護的被害者。"
+      - "同一報導記錄沈伯洋表示其政策重點在保護被害者與透明化。"
+      - "本次未取得該段完整原始影音，故把來源層級列為secondary。"
+
+  - id: S008
+    source_type: primary
+    publisher: "行政院公報／大陸委員會"
+    title: "陸法字第1150400418號令：核釋兩岸條例第21條設籍滿十年起算"
+    url: "https://gazette.nat.gov.tw/egFront/eguploadpubWrapper?file=%2FEG_FileManager%2Feguploadpub%2Feg032067%2Fch01%2Ftype2%2Fgov04%2Fnum1%2FEg.htm&metaid=164900"
+    published_at: "2026-04-16"
+    observed_at: "2026-10-22T13:23:28+08:00"
+    retrieval_status: reachable
+    notes:
+      - "陸委會核釋兩岸條例第21條所稱在臺設籍滿十年，應自當事人向主管機關完成繳附喪失中國大陸戶籍證明之日起算。"
+      - "此核釋直接影響原大陸地區人民登記公職候選人的十年資格計算。"
+
+facts:
+  - id: F001
+    statement: "2025年4月9日，沈伯洋在立法院就補繳喪失原籍證明政策質詢移民署時，明確指出部分對象返陸辦理文件可能有人身安全風險，並要求政府儘速提出配套。"
+    status: verified
+    observed_at: "2026-10-22T13:23:28+08:00"
+    source_ids: [S001]
+    evidence_summary: "立法院IVOD逐字稿直接記錄沈伯洋與移民署長的問答。"
+    tags: [沈伯洋, 陸配, 返陸風險, 補證, 配套]
+
+  - id: F002
+    statement: "2025年4月16日，陸委會正式承認部分補證對象可能無法安全赴陸或可能從未在陸設籍，因此設置具結替代方案；適用類型明列『赴陸恐有人身安全疑慮』及『在中國出生、學齡前返臺、主張從未在陸設籍並經審核確認』。"
+    status: verified
+    observed_at: "2026-10-22T13:23:28+08:00"
+    source_ids: [S002]
+    evidence_summary: "陸委會官方新聞稿直接列出具結替代類型，證明政府制度上承認安全風險與『原本就沒有大陸戶籍』兩種可能。"
+    tags: [具結替代, 人身安全, 從未設籍, 陸委會]
+
+  - id: F003
+    statement: "移民署2025年5月21日表示，對已接獲補繳通知但消極不配合辦理者，將依兩岸條例相關規定註銷其臺灣戶籍。"
+    status: verified
+    observed_at: "2026-10-22T13:23:28+08:00"
+    source_ids: [S003]
+    evidence_summary: "移民署官方新聞稿明確將補證程序與註銷臺灣戶籍的法律不利益連結。"
+    verification_notes:
+      - "這是行政機關公開宣示的執行後果；個案是否符合註銷要件仍須依具體處分與救濟程序判斷。"
+    tags: [移民署, 戶籍, 權利不利益, 補證]
+
+  - id: F004
+    statement: "2024年12月的選罷法修正草案主張，大陸地區及港澳地區人民參選時應辦理放棄原有國籍並提出喪失國籍證明，否則不得登記為候選人；草案另設非可歸責於當事人而無法取得證明的例外，沈伯洋為連署人。"
+    status: verified
+    observed_at: "2026-10-22T13:23:28+08:00"
+    source_ids: [S004]
+    evidence_summary: "立法院議案關係文書直接記載修法內容、例外及提案／連署名單。"
+    tags: [選罷法, 參政權, 喪失國籍證明, 沈伯洋, 修法草案]
+
+  - id: F005
+    statement: "2025年4月，沈伯洋為國籍法第20條修正草案提案人之一；草案主張受國籍限制的公職人員應於就職前完成喪失外國國籍或境外政治實體公民身分，並提出證明文件。"
+    status: verified
+    observed_at: "2026-10-22T13:23:28+08:00"
+    source_ids: [S005]
+    evidence_summary: "立法院議案關係文書直接確認沈伯洋提案身分及證明文件要求。"
+    verification_notes:
+      - "本草案適用對象不限於陸配，不能單獨當成專門針對陸配的措施。"
+    tags: [國籍法, 公職, 身分證明, 沈伯洋]
+
+  - id: F006
+    statement: "2025年4月的兩岸條例第17條修正草案主張，大陸地區配偶定居設籍後若欲取得我國國民身分，仍應放棄原國籍並出具證明；草案理由同時以其可能受境外敵對勢力脅迫為政策理由之一，沈伯洋為連署人。"
+    status: verified
+    observed_at: "2026-10-22T13:23:28+08:00"
+    source_ids: [S006]
+    evidence_summary: "同一份立法院議案文書同時呈現『可能被脅迫』風險判斷與更嚴格身分／證明要求。"
+    verification_notes:
+      - "這是立委提案，不能描述為已通過或已生效法律。"
+    tags: [兩岸條例第17條, 陸配, 脅迫風險, 放棄原國籍, 沈伯洋]
+
+  - id: F007
+    statement: "2026年5月16日，沈伯洋公開把里長、宮廟及『可能被威脅的中國配偶』描述為應受法治保護的被害者，並表示政府政策應保護這些對象。"
+    status: verified
+    observed_at: "2026-10-22T13:23:28+08:00"
+    source_ids: [S007]
+    evidence_summary: "現場採訪報導直接記錄其公開說法；目前來源層級為secondary。"
+    verification_notes:
+      - "此fact只證明沈伯洋的公開政治主張，不證明所有陸配客觀上均為受害者。"
+    tags: [沈伯洋, 被害者, 中國配偶, 政策論述]
+
+  - id: F008
+    statement: "2026年4月16日，陸委會以行政核釋把兩岸條例第21條『在臺灣地區設有戶籍滿十年』解釋為自完成繳附喪失中國大陸戶籍證明之日起算。"
+    status: verified
+    observed_at: "2026-10-22T13:23:28+08:00"
+    source_ids: [S008]
+    evidence_summary: "行政院公報刊載之陸委會令直接載明起算規則。"
+    verification_notes:
+      - "此fact證明行政機關採取的解釋與其法律效果；是否逾越法律解釋界線，屬另行法律評價。"
+    tags: [第21條, 十年起算, 行政核釋, 被選舉權]
+
+claims:
+  - id: C001
+    statement: "沈伯洋一方面明確承認部分陸配／原陸籍人士可能因赴陸辦理身分文件而遭遇危險，並在政治論述中把可能被威脅的中國配偶定位為應受保護的被害者；另一方面，他本人也曾提案或連署要求更嚴格的身分消除、證明文件與參政資格條件。"
+    status: supported
+    supports: [F001, F004, F005, F006, F007]
+    reasoning_notes: "這是可直接由其質詢、公開說法及立法院議案交叉確認的政策張力；不因此自動證明主觀惡意或法律違法。"
+
+  - id: C002
+    statement: "在2025至2026年的喪失原籍證明與參政資格制度中，陸配／原陸籍人士承受的臺灣端權利不利益，不只是中國政府可能造成的風險；臺灣政府自己的補證、戶籍處理與第21條起算核釋也是直接制度來源。"
+    status: supported
+    supports: [F002, F003, F008]
+    related_facts: [F001, F007]
+    reasoning_notes: "政府一方面承認赴陸風險與從未設籍情形，另一方面將補證不配合連結至臺灣戶籍不利益，並以繳附證明日決定部分參政資格起算。此處『直接制度來源』描述的是行政措施與法律效果，不等於刑法上的加害者概念。"
+
+  - id: C003
+    statement: "把『民進黨是加害者』限定解釋為『民進黨執政下的公權力，在這一具體制度爭議中是第二層身分／參政權不利益的政治責任主體』，具有事實基礎。"
+    status: supported
+    supports: [F003, F008]
+    related_facts: [F001, F002, F004, F005, F006, F007]
+    reasoning_notes: "支持範圍限於政治責任與公權力措施造成的臺灣端不利益；不把『加害者』提升為犯罪、違法或故意迫害的法律結論。執政黨政治責任仍屬政治評價，不等於各機關行為皆由黨中央直接指揮。"
+
+  - id: C004
+    statement: "沈伯洋所支持的相關制度方向『都只跟透明化有關係』，不包含實質身分或參政資格限制。"
+    status: contradicted
+    contradicts: [F004, F005, F006]
+    related_facts: [F007]
+    reasoning_notes: "可確認的立法提案包括放棄原國籍／境外政治實體公民身分、提出證明、不得登記候選人或不得擔任特定公職等實質資格條件；這不代表法律上一定屬『處罰』，但不能精確描述為只有資訊透明化。"
+
+  - id: C005
+    statement: "政府在補繳喪失原籍證明政策中完全不承認赴陸安全風險、文件取得困難或『從未在陸設籍』的可能，也完全沒有替代程序。"
+    status: contradicted
+    contradicts: [F002]
+    related_facts: [F001, F003]
+    reasoning_notes: "2025年4月16日陸委會已正式設置具結替代與延期類型，因此批評政策時不能忽略這項反證。"
+
+  - id: C006
+    statement: "上述證據已足以證明民進黨或沈伯洋主觀上就是要迫害陸配，或相關措施必然違憲、違法。"
+    status: unsupported
+    related_facts: [F001, F002, F003, F004, F005, F006, F007, F008]
+    reasoning_notes: "現有資料可證明政策設計、權利效果與政治責任張力，但主觀迫害目的需要額外決策鏈或意圖證據；違法或違憲則需進一步處理法律保留、授權範圍、比例原則、時間適用及個案程序。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-22T13:23:28+08:00"
+    platform: politics-db
+    query: "陸配／沈伯洋／喪失原籍證明／參政資格／行政核釋"
+    scope: "lichih/politics-db main"
+    result: partial
+    notes: "既有游智彬參選資格session已收錄2026年第21條十年起算核釋；本次另建session聚焦『受害者風險承認 vs 身分／參政限制』的跨證據關係。"
+
+  - id: Q002
+    observed_at: "2026-10-22T13:23:28+08:00"
+    platform: web
+    query: "沈伯洋 2025陸配返陸危險；陸委會具結替代；移民署戶籍後果；沈伯洋相關修法提案；2026第21條核釋"
+    scope: "立法院IVOD、立法院議案關係文書、陸委會、移民署、行政院公報"
+    result: found
+    notes: "取得多份primary source，可直接支持風險承認、替代程序、權利不利益及修法主張。"
+
+  - id: Q003
+    observed_at: "2026-10-22T13:23:28+08:00"
+    platform: web
+    query: "沈伯洋 2026-05-16 中國配偶 被害者 原始影音"
+    scope: "公開網頁與影音搜尋"
+    result: partial
+    notes: "找到現場採訪的逐句報導，但本次未取得該段完整原始影音；因此S007保留為secondary，不提升為primary。"
+
+promotion:
+  cases: []
+  comparators:
+    - "政府承認赴陸取證風險／從未設籍可能 vs 補證不配合的臺灣戶籍不利益"
+    - "沈伯洋『被害者保護』論述 vs 身分／參政資格限制提案"
+  research:
+    - "公權力自行解釋與burden inversion：證明文件要求如何轉化為身分及參政權限制"
+    - "與sessions/2026-10-17-you-zhibin-candidacy-ten-year-rule/evidence.yaml交叉比較第21條行政核釋與法律保留問題"
+    - "與research/2026-10-20-public-authority-auditability-unfalsifiability/evidence.yaml比較burden inversion機制"
+
+notes:
+  - "本session刻意區分三層：中國端可能造成的人身安全／脅迫風險；臺灣行政制度造成的身分或參政權不利益；是否存在主觀迫害目的。前兩層已有直接證據，第三層目前沒有。"
+  - "『受害者』是沈伯洋的政治描述，不把所有中國配偶客觀分類為受害者；『加害者』若使用，只能在公開論述中明確限定為造成臺灣端制度性不利益的政治責任描述，不能偷換成犯罪或故意迫害。"
+  - "重要反證：政府不是完全要求所有人赴陸取得單一形式文件；2025年已設具結替代與展延制度。後續若批評制度，應集中檢驗替代程序是否實際可用、個案是否獲通知與補正、以及2026年第21條核釋如何處理具結替代者。"
+  - "F004至F006均為修法提案／連署事實，不得描述成已通過生效的法律。"
+  - "後續關鍵未解問題：2025年以具結方式完成替代程序者，在2026年陸委會第21條核釋下，十年起算日如何認定；目前本session未取得主管機關明確公開規則。"
