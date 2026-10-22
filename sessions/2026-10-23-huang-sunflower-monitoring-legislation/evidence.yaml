@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "黃國昌與太陽花監督條例主線：2014訴求、2016提案、八年未三讀與2024再提案"
   started_at: "2026-10-23T00:50:00+08:00"
-  updated_at: "2026-10-23T01:45:00+08:00"
+  updated_at: "2026-10-23T01:36:00+08:00"
   status: active
 
 topics:
@@ -418,6 +418,53 @@ sources:
       - "新聞稿列黃國昌為參與者之一。"
       - "這可證明當時重要公民社會路線包含『重談』而非只能從運動標語推出『所有未來服貿均永久禁止』。"
 
+  - id: S034
+    source_type: primary
+    publisher: "台灣人權促進會／330行動主辦單位"
+    title: "人民站出來 台灣有未來！330行動主辦單位聲明稿"
+    url: "https://www.tahr.org.tw/news/1376/"
+    published_at: "2014-03-30"
+    observed_at: "2026-10-23T01:36:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "主辦單位明稱『先立法，再審查』是共同堅持，並向馬英九提出四項訴求。"
+      - "四項依序為：退回服貿；兩岸協議監督專法法制化、先立法再審服貿，且立法完成前不得與中國洽談或簽定新協定或協議；召開公民憲政會議；朝野立委支持民間版並儘速立法。"
+
+  - id: S035
+    source_type: primary
+    publisher: "台灣經濟民主連合／反黑箱服貿運動"
+    title: "轉守為攻，遍地開花：行動方案與訴求"
+    url: "https://www.edunion.org.tw/dfactsa/%E3%80%90%E8%A1%8C%E5%8B%95%E6%96%B9%E6%A1%88%E8%88%87%E8%A8%B4%E6%B1%82%E3%80%91%E8%BD%89%E5%AE%88%E7%82%BA%E6%94%BB%EF%BC%8C%E9%81%8D%E5%9C%B0%E9%96%8B%E8%8A%B1/"
+    published_at: "2014-04-13"
+    observed_at: "2026-10-23T01:36:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "運動方回顧四項訴求為：兩岸協議監督機制法制化、先立法再審查、召開公民憲政會議、退回服貿。"
+      - "同文重申民間版監督條例五大原則：公民要參與、資訊要公開、人權有保障、政府有責任、國會要監督。"
+      - "文章也明確說明『先立法再審查』是監督條例完成前，不應強行進行服貿審查。"
+
+  - id: S036
+    source_type: secondary
+    publisher: "公視新聞網"
+    title: "聲援太陽花學運 黑衫群眾占滿凱道"
+    url: "https://news.pts.org.tw/article/265580"
+    published_at: "2014-03-31"
+    observed_at: "2026-10-23T01:36:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "同時期報導記錄陳為廷在330凱道稱『先立法、再審查』是政府未回應到的核心訴求。"
+
+  - id: S037
+    source_type: secondary
+    publisher: "公視新聞網"
+    title: "立院抗議學生 10日18:00撤出議場"
+    url: "https://news.pts.org.tw/article/266237"
+    published_at: "2014-04-08"
+    observed_at: "2026-10-23T01:36:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "公視同時期報導記錄學生宣布退場時，仍將『先立法、再審查』列為四大訴求之一，並稱已取得初步成果。"
+
 facts:
   - id: F001
     statement: "2016年4月，民進黨立法院黨團正式提出《兩岸訂定協議監督條例草案》。"
@@ -686,6 +733,47 @@ facts:
       - "這不能自動推論所有參與者各自承諾『永久反對任何未來版本的服務貿易協議』。"
     tags: ["太陽花", "反黑箱", "服貿", "重談", "運動訴求"]
 
+  - id: F027
+    statement: "2014年3月30日330行動主辦單位正式公開四項訴求，其中明列『退回服貿』與『兩岸協議監督專法法制化，先立法、再審服貿』，且要求專法完成前不得與中國洽談或簽定新協定或協議。"
+    status: verified
+    observed_at: "2026-10-23T01:36:00+08:00"
+    source_ids: [S034]
+    evidence_summary: "330行動主辦單位 contemporaneous primary statement 直接列出四項訴求及監督法完成前的談判/簽署限制。"
+    verification_notes:
+      - "因此『先立法再審查』不是事後附會或邊緣口號，而是運動正式公開訴求。"
+      - "同一份聲明也明列『退回服貿』，故不能把太陽花縮成純粹程序運動。"
+    tags: ["太陽花", "330", "四項訴求", "先立法再審查", "退回服貿"]
+
+  - id: F028
+    statement: "太陽花運動方在2014年4月13日回顧四項訴求時，仍列為監督法制化、先立法再審查、公民憲政會議與退回服貿，並重申民間版五大原則：公民參與、資訊公開、人權保障、政府責任、國會監督。"
+    status: verified
+    observed_at: "2026-10-23T01:36:00+08:00"
+    source_ids: [S035]
+    evidence_summary: "運動方自身公開文件同時固定了四項訴求與監督條例的五項制度原則。"
+    verification_notes:
+      - "這提供檢驗後續各黨監督條例版本的 contemporaneous benchmark。"
+    tags: ["太陽花", "民間版", "五大原則", "監督條例"]
+
+  - id: F029
+    statement: "2014年3月底至4月退場前，學生代表公開說法持續把『先立法、再審查』稱為核心或四大訴求之一，而非只在學運初期短暫出現。"
+    status: verified
+    observed_at: "2026-10-23T01:36:00+08:00"
+    source_ids: [S036, S037]
+    evidence_summary: "公視3月31日與4月8日同時期報導分別記錄330凱道與退場決策時的公開說法。"
+    verification_notes:
+      - "可用於反駁『太陽花真正唯一訴求只是反30秒，監督條例是後來加的』。"
+    tags: ["太陽花", "陳為廷", "退場", "核心訴求"]
+
+  - id: F030
+    statement: "2023年黃國昌面對重啟服貿爭議時公開表示，在兩岸協議監督條例完成前，任何ECFA相關協商協議談判都沒有法治基礎；這與330主辦單位2014要求監督法完成前不得與中國洽談或簽署新協議，在『法制先於談判』這一程序順序上具有可觀察延續性。"
+    status: verified
+    observed_at: "2026-10-23T01:36:00+08:00"
+    source_ids: [S034, S020]
+    evidence_summary: "2014主辦單位原始聲明與2023黃國昌公開受訪可直接比較程序先後順序。"
+    verification_notes:
+      - "此延續性只處理『監督立法先於協商/審查』，不等於證明黃國昌對中國風險、產業衝擊或任何具體未來協議內容的實質評價完全未變。"
+    tags: ["黃國昌", "2014", "2023", "程序延續", "ECFA"]
+
 claims:
   - id: C001
     statement: "『民進黨2016後根本沒有提出兩岸協議監督條例』。"
@@ -823,6 +911,30 @@ claims:
     related_facts: [F023, F025, F026, F022]
     reasoning_notes: "反對2013特定協議、要求退回與重談是可驗證歷史；但把集體運動要求轉成每位參與者永久、無條件、適用所有未來版本的個人政策承諾，需要各自個人來源。黃國昌本人 contemporaneous material 反而明確保留依法監督後重啟談判的可能。批評者仍可採『反對重啟服貿貨貿／降低對中依賴』作為較廣義的太陽花精神政治判準，但那是另一層 normative judgment。"
 
+  - id: C018
+    statement: "『太陽花運動真正的核心只是反對張慶忠30秒程序，先立法再審查不是正式核心訴求。』"
+    status: contradicted
+    supports: []
+    contradicts: [F027, F028, F029]
+    related_facts: []
+    reasoning_notes: "330主辦單位聲明、運動方4月回顧與學生代表 contemporaneous statements 都明確把『先立法、再審查』列為正式、核心或四大訴求之一。30秒事件是直接導火線，但不能代表運動完整訴求。"
+
+  - id: C019
+    statement: "『太陽花只是程序運動，並沒有要求退回當時的服貿協議。』"
+    status: contradicted
+    supports: []
+    contradicts: [F027, F028]
+    related_facts: []
+    reasoning_notes: "四項正式訴求明列『退回服貿』。因此準確描述必須同時容納程序改革與對2013既有服貿協議的實質拒絕/退回要求。"
+
+  - id: C020
+    statement: "『黃國昌2023接受可以在監督法完成後討論兩岸經貿協議，已違反2014太陽花對程序順序的要求。』"
+    status: contradicted
+    supports: []
+    contradicts: [F030, F023, F025]
+    related_facts: [F027]
+    reasoning_notes: "2014運動正式要求法制先行，黃國昌2013-2014個人文本也保留實質審議後修正/重談可能；2023他仍主張無監督法即無ECFA相關協商談判的法治基礎。若要批評其『背叛』，較可爭論的是對中國風險或未來服貿實質內容的評價，而不是簡單聲稱他已放棄『先立法再談/審』。"
+
 searches:
   - id: Q001
     observed_at: "2026-10-23T00:50:00+08:00"
@@ -911,6 +1023,14 @@ searches:
     scope: "黃國昌太陽花前與運動期間的個人文本，對照2023服貿爭議立場"
     result: found
     notes: "找到2013本人學術文章、2014-03-10署名評論、2014-04-13 contemporaneous逐字稿，以及公視與公民團體材料。找到的直接個人材料支持『實質監督後可否決／修正／重談』，尚未找到黃國昌本人曾主張所有未來服貿協議都應永久、無條件禁止。"
+
+  - id: Q012
+    observed_at: "2026-10-23T01:36:00+08:00"
+    platform: "web"
+    query: "2014 太陽花 330 四項訴求 先立法再審查 退回服貿；運動方 轉守為攻 遍地開花；公視 陳為廷 核心訴求"
+    scope: "2014 contemporaneous primary movement statements and contemporaneous reporting"
+    result: found
+    notes: "找到330行動主辦單位原始聲明、運動方4月13日行動方案，以及公視3月31日、4月8日同時期報導。確認『先立法再審查』與『退回服貿』同時是正式訴求，且330聲明要求監督專法完成前不得洽談或簽署新兩岸協議。"
 
 promotion:
   cases: []
