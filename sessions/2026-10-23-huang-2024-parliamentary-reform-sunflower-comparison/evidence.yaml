@@ -1,0 +1,293 @@
+session:
+  id: "2026-10-23-huang-2024-parliamentary-reform-sunflower-comparison"
+  project: Politics
+  title: "黃國昌2024國會職權修法與太陽花程序比較：程序瑕疵、實質違憲與『30秒翻版』"
+  started_at: "2026-10-23T01:55:00+08:00"
+  updated_at: "2026-10-23T01:55:00+08:00"
+  status: active
+
+topics:
+  - 黃國昌
+  - 國會改革
+  - 立法院職權行使法
+  - 113年憲判字第9號
+  - 太陽花學運
+  - 張慶忠
+  - 30秒服貿
+  - 立法程序
+  - 公開透明
+  - 討論原則
+  - 違憲
+
+sources:
+  - id: S001
+    source_type: commentary
+    publisher: "Threads / @qweer74418"
+    title: "以2024國會職權修法『違憲擴權』類比2014太陽花30秒服貿的留言"
+    url: "https://www.threads.com/@qweer74418/post/DeyO5FUHaZL"
+    published_at: "2026-10-22"
+    observed_at: "2026-10-23T01:55:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "留言核心主張為：太陽花重點在『30秒沒有溝通的通過』，黃國昌2024國會改革違憲擴權，等同太陽花翻版。"
+      - "此留言是待查 claim source，不作事實 authority。"
+
+  - id: S002
+    source_type: primary
+    publisher: "憲法法庭"
+    title: "113年憲判字第9號判決"
+    url: "https://cons.judicial.gov.tw/docdata.aspx?fid=52&id=352966"
+    published_at: "2024-10-25"
+    observed_at: "2026-10-23T01:55:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "判決主文認定系爭修法之立法程序『雖存有瑕疵』，但整體尚難謂已完全悖離憲法公開透明與討論原則，故法律不因程序瑕疵而違憲失效。"
+      - "判決理由第70至73段記錄：委員會曾聽取提案與機關報告、詢答並召開公聽會；二讀形式上有廣泛討論與逐條討論，但實質討論時間極其有限、議場常處混亂，且部分表決方式違反議事規則。"
+      - "判決另就總統國情報告、質詢、調查權、聽證與刑事處罰等多項實體規定宣告違憲、失效或作限縮合憲解釋。"
+
+  - id: S003
+    source_type: primary
+    publisher: "憲法法庭"
+    title: "113年憲判字第9號判決摘要"
+    url: "https://cons.judicial.gov.tw/docdata.aspx?fid=77&id=354002"
+    published_at: "2024-10-25"
+    observed_at: "2026-10-23T01:55:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方摘要明示：立法過程實質討論時間極其有限、議場常處混亂，程序實難謂無瑕疵；但主要議題曾於委員會由相關機關表示意見並召開公聽會，因此不屬完全欠缺公開透明。"
+      - "摘要亦整理多項實體條文違憲或失效的結論。"
+
+  - id: S004
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網"
+    title: "第11屆第1會期第14次會議：立法院職權行使法等15案併案審查報告"
+    url: "https://ppg.ly.gov.tw/ppg/download/agenda1/02/pdf/11/01/14/LCEWA01_110114_00275.pdf"
+    published_at: "2024-05"
+    observed_at: "2026-10-23T01:55:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "審查報告記錄司法及法制委員會於2024-04-01及04-15召開兩次全體委員會審查，邀請提案委員、黨團與相關機關說明並答詢。"
+      - "可證明案件並非完全未進入委員會程序。"
+
+  - id: S005
+    source_type: primary
+    publisher: "立法院議事轉播 iVOD"
+    title: "2024-04-03 啟動國會改革—立法院職權行使法相關法案公聽會：黃國昌發言"
+    url: "https://ivod.ly.gov.tw/Play/Clip/1M/150853"
+    published_at: "2024-04-03"
+    observed_at: "2026-10-23T01:55:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方影音頁記錄司法及法制委員會公聽會及黃國昌發言時段。"
+      - "可直接反駁『2024案完全沒有公聽會或公開討論』的絕對命題。"
+
+  - id: S006
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "國會改革法案藍綠擬公聽會先行 白籲勿技術性拖延"
+    url: "https://www.cna.com.tw/news/aipl/202403160174.aspx"
+    published_at: "2024-03-16"
+    observed_at: "2026-10-23T01:55:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "黃國昌當時表示2016已有公聽會，若民進黨要再開可由其召委排程，反對以公聽會為由延後3月21日排審。"
+      - "這是黃國昌本人在程序充分性上的公開態度，不能因後來確有公聽會而抹去。"
+
+  - id: S007
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "立院15日審國會改革法案 黃國昌：務必送出委員會"
+    url: "https://www.cna.com.tw/news/aipl/202404150080.aspx"
+    published_at: "2024-04-15"
+    observed_at: "2026-10-23T01:55:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "黃國昌表示當時已召開3次公聽會，民眾黨團將提程序動議，要求當日完成委員會審議並送出委員會。"
+      - "這可證明公聽會數量，也證明黃國昌主張加速結束委員會階段。"
+
+  - id: S008
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "張慶忠：服貿協議視為已審查"
+    url: "https://www.cna.com.tw/news/firstnews/201403175006.aspx"
+    published_at: "2014-03-17"
+    observed_at: "2026-10-23T01:55:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "同時期報導記錄張慶忠在內政委員會主張服貿付委超過3個月，視為已審查並送院會存查。"
+
+  - id: S009
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "太陽花學運10週年重回現場 30秒審完服貿、行政院驅離濺血"
+    url: "https://www.cna.com.tw/news/aipl/202403165004.aspx"
+    published_at: "2024-03-17"
+    observed_at: "2026-10-23T01:55:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "中央社回顧記錄2014-03-17張慶忠在推擠混亂中，以約30秒宣告中止審查、服貿逕送院會存查，成為太陽花直接導火線。"
+      - "此來源用於與2024程序做 baseline comparison。"
+
+  - id: S010
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "服貿送院會存查 公報初稿未錄"
+    url: "https://www.cna.com.tw/news/firstnews/201403250262.aspx"
+    published_at: "2014-03-25"
+    observed_at: "2026-10-23T01:55:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導指出立法院議事公報初稿未記錄張慶忠3月17日宣讀『視為已審查、送院會存查』的那一段，顯示2014事件另有正式紀錄層面的爭議。"
+
+facts:
+  - id: F001
+    statement: "2024年國會職權修法並非完全未經委員會、機關報告或公聽會；相關提案曾進入司法及法制委員會，相關機關曾說明答詢，且至少召開多場公聽會。"
+    status: verified
+    observed_at: "2026-10-23T01:55:00+08:00"
+    source_ids: [S002, S004, S005, S007]
+    evidence_summary: "憲法法庭判決、立法院審查報告與iVOD均直接記錄相關程序。"
+    verification_notes:
+      - "這不等於程序品質充分，也不等於最後院會處理沒有問題。"
+    tags: ["2024", "國會改革", "委員會", "公聽會", "程序"]
+
+  - id: F002
+    statement: "憲法法庭認定2024國會職權修法的實質討論時間極其有限、二讀期間議場常處混亂，且表決方式存在議事規則上的瑕疵。"
+    status: verified
+    observed_at: "2026-10-23T01:55:00+08:00"
+    source_ids: [S002, S003]
+    evidence_summary: "113年憲判字第9號理由第70至73段與官方摘要明確如此認定。"
+    verification_notes:
+      - "因此『程序完全沒有問題』同樣不符合官方判決。"
+    tags: ["程序瑕疵", "實質討論", "二讀", "表決"]
+
+  - id: F003
+    statement: "憲法法庭最終判定2024國會職權修法整體立法程序雖有瑕疵，但尚未嚴重到完全悖離憲法公開透明與討論原則，因此法律不因立法程序本身而違憲失效。"
+    status: verified
+    observed_at: "2026-10-23T01:55:00+08:00"
+    source_ids: [S002, S003]
+    evidence_summary: "此為113年憲判字第9號主文第一項的直接法律結論。"
+    verification_notes:
+      - "法院同時保留政治問責空間，明示程序是否符合民意期待仍可由人民評價。"
+    tags: ["憲法法庭", "程序違憲", "公開透明", "討論原則"]
+
+  - id: F004
+    statement: "2024國會職權修法雖未因整體立法程序被宣告違憲，但多項實體規定被憲法法庭宣告違憲、失效，或必須依判決作限縮解釋才合憲。"
+    status: verified
+    observed_at: "2026-10-23T01:55:00+08:00"
+    source_ids: [S002, S003]
+    evidence_summary: "113年憲判字第9號分別處理總統國情報告、質詢、調查權、聽證等規定；例如部分強制總統義務、調查專案小組權限、要求人民提供證言資料及部分裁罰規定均遭判違憲或失效。"
+    verification_notes:
+      - "因此『違憲擴權』若指部分具體條文逾越憲法權限，有相當事實基礎；若指整部修法或整個程序均已被判違憲，則不精確。"
+    tags: ["實體違憲", "權力分立", "調查權", "聽證", "國情報告"]
+
+  - id: F005
+    statement: "2014年3月17日服貿事件的直接程序爭議，是召委張慶忠在委員會混亂中以極短時間宣告服貿『視為已審查』並送院會存查；該宣告甚至未出現在當時立法院議事公報初稿。"
+    status: verified
+    observed_at: "2026-10-23T01:55:00+08:00"
+    source_ids: [S008, S009, S010]
+    evidence_summary: "中央社同時期報導與十週年回顧相互印證2014事件核心程序事實。"
+    verification_notes:
+      - "常見『30秒通過服貿』是政治與媒體簡稱；更精確的程序描述是宣告視為已審查、送院會存查，並非當場完成整個協議最終三讀。"
+    tags: ["2014", "張慶忠", "30秒", "服貿", "太陽花"]
+
+  - id: F006
+    statement: "黃國昌在2024年國會改革排審初期曾反對以重新召開公聽會為由延後審查，之後在已舉行3次公聽會的情況下，又主張4月15日當天務必完成委員會階段並送出委員會。"
+    status: verified
+    observed_at: "2026-10-23T01:55:00+08:00"
+    source_ids: [S006, S007]
+    evidence_summary: "中央社 contemporaneous reports 記錄黃國昌兩個時間點的公開程序主張。"
+    verification_notes:
+      - "這可用來評價他對重大法案程序充分性的標準，但不能單獨證明他主觀上追求黑箱或故意排除討論。"
+    tags: ["黃國昌", "公聽會", "程序標準", "2024"]
+
+claims:
+  - id: C001
+    statement: "『2024國會職權修法就是2014張慶忠30秒服貿的程序翻版，兩者在公開、審查與討論程序上沒有實質差別。』"
+    status: contradicted
+    supports: []
+    contradicts: [F001, F003, F005]
+    related_facts: [F002]
+    reasoning_notes: "2024程序確有實質討論極少與表決瑕疵，但存在委員會審查、機關報告、多場公聽會及形式上的二讀廣泛/逐條討論；2014直接導火線則是委員會中約30秒宣告『視為已審查』送院會存查，且正式紀錄亦有爭議。兩者可在『程序品質遭強烈質疑』層次類比，不能說程序事實完全相同。"
+
+  - id: C002
+    statement: "『2024國會職權修法的程序完全合法、充分，沒有值得批評的程序問題。』"
+    status: contradicted
+    supports: []
+    contradicts: [F002]
+    related_facts: [F001, F003]
+    reasoning_notes: "憲法法庭自己認定實質討論時間極其有限、議場混亂且表決方式有瑕疵；只是瑕疵未達整體程序違憲失效門檻。"
+
+  - id: C003
+    statement: "『憲法法庭已判2024國會職權修法整部因黑箱程序違憲。』"
+    status: contradicted
+    supports: []
+    contradicts: [F003]
+    related_facts: [F002]
+    reasoning_notes: "判決主文相反：程序有瑕疵，但整體未完全悖離公開透明與討論原則，不因程序而違憲。"
+
+  - id: C004
+    statement: "『2024國會職權修法中完全沒有任何違憲擴張立法院權限的內容。』"
+    status: contradicted
+    supports: []
+    contradicts: [F004]
+    related_facts: []
+    reasoning_notes: "多項實體規範因逾越立法院憲法職權、違反權力分立等理由被宣告違憲或失效。"
+
+  - id: C005
+    statement: "『把黃國昌2024國會職權修法批評為程序品質低落，完全沒有證據基礎。』"
+    status: contradicted
+    supports: []
+    contradicts: [F002, F006]
+    related_facts: [F003]
+    reasoning_notes: "官方判決承認討論極其有限與議事瑕疵；黃國昌本人亦主張加速送出委員會。因此程序品質可作政治問責，但不能偷換成『法院已判整個程序違憲』。"
+
+  - id: C006
+    statement: "『因為2024有部分條文被判違憲，所以可直接推出黃國昌背叛太陽花。』"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F002, F003, F004, F006]
+    reasoning_notes: "部分實體違憲可以支持對黃國昌法律判斷、權力邊界或修法品質的批評；『背叛太陽花』仍是需先定義判準的政治評價。若判準是程序民主，應比較2014與2024具體程序；若判準是憲政權力邊界，則應逐條處理被判違憲內容，而非把所有層次合併成一句標籤。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-23T01:55:00+08:00"
+    platform: "GitHub politics-db"
+    query: "國會改革 黃國昌 太陽花 程序 / 國會職權修法 黃國昌 黑箱 / 113年憲判字第9號 黃國昌"
+    scope: "lichih/politics-db default branch"
+    result: not_found
+    notes: "未找到既有專門 evidence；not_found 不代表 repo 內絕無其他國會改革相關背景材料。"
+
+  - id: Q002
+    observed_at: "2026-10-23T01:55:00+08:00"
+    platform: "web"
+    query: "113年憲判字第9號 國會職權修法 立法程序 公開透明 討論 公聽會"
+    scope: "憲法法庭官方判決與摘要"
+    result: found
+    notes: "找到主文及第70至73段程序判斷：有瑕疵但未達程序違憲失效；並有多項實體規定違憲。"
+
+  - id: Q003
+    observed_at: "2026-10-23T01:55:00+08:00"
+    platform: "web"
+    query: "2024 國會改革 司法法制委員會 公聽會 黃國昌 4月15日"
+    scope: "立法院官方資料與 contemporaneous reporting"
+    result: found
+    notes: "確認委員會審查、官方公聽會影音與黃國昌『3次公聽會後務必送出委員會』說法。"
+
+  - id: Q004
+    observed_at: "2026-10-23T01:55:00+08:00"
+    platform: "web"
+    query: "2014 張慶忠 30秒 服貿 視為已審查 送院會存查 公報"
+    scope: "2014 contemporaneous reporting + historical baseline"
+    result: found
+    notes: "確認2014約30秒宣告『視為已審查』送院會存查，並找到議事公報初稿未記錄宣告的同時期報導。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "本案刻意把『程序是否合法/品質如何』與『法條內容是否違憲』分開；113年憲判字第9號的結論正是兩者不對稱：程序有瑕疵但未整體違憲，多項實體規範則被宣告違憲或限縮。"
+  - "對太陽花類比，最安全的結論不是『完全一樣』或『完全不同』：兩者皆有程序品質爭議，但2014的直接導火線是委員會極短宣告視為已審查；2024則已有委員會、公聽會與形式討論，只是後段實質討論非常有限。"
+  - "下一輪可再細分黃國昌本人提出的民眾黨版本、國民黨再修正動議與最終三讀文本，確認哪些後來被判違憲的條文可直接歸責於黃國昌個人提案、哪些是藍白協商後文本，避免把整部三讀法案所有問題無差別算到單一立委。"
