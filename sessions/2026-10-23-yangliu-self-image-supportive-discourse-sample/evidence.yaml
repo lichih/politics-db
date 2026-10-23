@@ -1,0 +1,278 @@
+session:
+  id: "2026-10-23-yangliu-self-image-supportive-discourse-sample"
+  project: Politics
+  title: "洋流自我宣稱與支持性論述樣本：反例出現後的修正、舉證與跨黨比較"
+  started_at: "2026-10-23T14:36:49+08:00"
+  updated_at: "2026-10-23T14:36:49+08:00"
+  status: active
+
+topics:
+  - "洋流"
+  - "沈伯洋"
+  - "品牌自我宣稱"
+  - "批判性"
+  - "持續修正"
+  - "跨黨比較"
+  - "證據門檻"
+  - "支持性論述"
+  - "Threads"
+  - "存在性樣本"
+
+sources:
+  - id: S001
+    source_type: secondary
+    publisher: "中央社"
+    title: "綠營大咖齊聚　沈伯洋競總成立盼溫暖「洋流」進北市府"
+    url: "https://www.cna.com.tw/news/aipl/202610040174.aspx"
+    published_at: "2026-10-04"
+    observed_at: "2026-10-23T14:36:49+08:00"
+    retrieval_status: reachable
+    notes:
+      - "沈伯洋在競總成立大會表示，洋流是『傾聽的、獨立的，具備批判性、進步和包容』，並稱要尋求共識、匯聚後不斷修正往前。"
+      - "同場亦表示選戰之初決定採取討論政策、不選擇負面選舉方式。"
+
+  - id: S002
+    source_type: secondary
+    publisher: "天下雜誌"
+    title: "2026九合一選舉》沈伯洋如何造「洋流」？一場198天的台北市長品牌戰"
+    url: "https://www.cw.com.tw/article/5143220"
+    published_at: "2026-10-08"
+    observed_at: "2026-10-23T14:36:49+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導引述競辦發言人稱選戰策略為理念先行、論述政策為主軸，並形容沈伯洋『理性、正向與論述清楚』。"
+      - "報導並稱團隊評估北市選民不喜歡污名化對手、互潑髒水，因此採淡化藍綠對決的品牌策略。"
+
+  - id: S003
+    source_type: commentary
+    publisher: "Threads / @wssr0927"
+    title: "以『一個談願景，一個拚動員』比較洋流與國民黨的原始貼文"
+    url: "https://www.threads.com/@wssr0927/post/De0P5Bkn5f_"
+    published_at: "2026-10-23"
+    observed_at: "2026-10-23T14:36:49+08:00"
+    retrieval_status: reachable
+    notes:
+      - "原文以普發三千、餐會、麵包、炒米粉、片面訊息、假消息與資訊操作等素材描寫國民黨選舉方式。"
+      - "結尾明示『一個談願景，一個拚動員』『一個希望選民思考未來，一個只需要選民在投票當天做出選擇』。"
+      - "本來源只能證明作者做出上述比較，不證明任何一方實際更依賴動員或更重政策。"
+
+  - id: S004
+    source_type: commentary
+    publisher: "Threads / @lichihwu"
+    title: "指出跨黨比較需要同一把尺並提出民進黨地方黨部動員反例"
+    url: "https://www.threads.com/@lichihwu/post/De0eM4Tj2gk"
+    published_at: "2026-10-23"
+    observed_at: "2026-10-23T14:36:49+08:00"
+    retrieval_status: reachable
+    notes:
+      - "回覆指出若要成立『一個談願景，一個拚動員』，需比較雙方動員依賴與政策內容，而不能只列其中一方素材。"
+      - "並提出洋流相關活動亦有民進黨地方黨部動員公文作為反例方向。"
+
+  - id: S005
+    source_type: commentary
+    publisher: "Threads / @wssr0927"
+    title: "要求提出民進黨地方動員公文"
+    url: "https://www.threads.com/@wssr0927/post/De02T_sEcFo"
+    published_at: "2026-10-23"
+    observed_at: "2026-10-23T14:36:49+08:00"
+    retrieval_status: reachable
+    notes:
+      - "作者回覆『那我也要看你所謂民進黨地方動員的公文』。"
+
+  - id: S006
+    source_type: commentary
+    publisher: "Threads / @lichihwu"
+    title: "提供動員公文主旨、5300人責任額及吳沛憶公開證實資訊"
+    url: "https://www.threads.com/@lichihwu/post/De02uanjzOq"
+    published_at: "2026-10-23"
+    observed_at: "2026-10-23T14:36:49+08:00"
+    retrieval_status: reachable
+    notes:
+      - "回覆稱民進黨台北市黨部公文主旨為協助動員支持者參加沈伯洋競總成立大會，附件為『動員責任額』，總計5300人。"
+      - "並指出台北市黨部主委吳沛憶已公開證實公文存在，表示這是黨部過往競總活動的形式。"
+
+  - id: S007
+    source_type: commentary
+    publisher: "Threads / @wssr0927"
+    title: "在取得上述回覆後要求『公文本人』"
+    url: "https://www.threads.com/@wssr0927/post/De03IqekTLV"
+    published_at: "2026-10-23"
+    observed_at: "2026-10-23T14:36:49+08:00"
+    retrieval_status: reachable
+    notes:
+      - "作者回覆『拿這個出來當證據害我很失望耶，我相信你一定可以拿到公文本人的』。"
+      - "該回覆沒有在同一回合重新處理原先『一個談願景，一個拚動員』的跨黨比較命題。"
+
+  - id: S008
+    source_type: secondary
+    publisher: "TVBS"
+    title: "沈伯洋「洋流」靠動員？許甫爆綠5300人責任額　吳沛憶解釋了"
+    url: "https://news.tvbs.com.tw/politics/4029861"
+    published_at: "2026-09-30"
+    observed_at: "2026-10-23T14:36:49+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導稱許甫公布一張沈伯洋競總成立大會動員責任額公文，總額5300人。"
+      - "吳沛憶受訪明確表示『該公文就是發給黨公職的公文』，並稱這是台北市黨部過往競總活動的形式。"
+
+  - id: S009
+    source_type: secondary
+    publisher: "聯合報"
+    title: "沈伯洋競總大會動員遭酸「人造洋流」 吳沛憶認支持度還不夠：盼民眾多宣傳"
+    url: "https://udn.com/news/story/124652/9786689"
+    published_at: "2026-09-30"
+    observed_at: "2026-10-23T14:36:49+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導稱民進黨北市黨部發公文給基層動員逾5千人。"
+      - "吳沛憶表示公文就是廣發周知，並說未來也會更加扎實動員支持者出來投票。"
+
+facts:
+  - id: F001
+    statement: "沈伯洋在2026年10月4日公開把『洋流』描述為傾聽、獨立、具批判性、進步、包容，並強調尋求共識與匯聚後持續修正。"
+    status: verified
+    observed_at: "2026-10-23T14:36:49+08:00"
+    source_ids: [S001]
+    evidence_summary: "中央社對競總成立大會致詞的逐段報導直接記錄上述自我定義。"
+    tags: ["2026", "洋流", "沈伯洋", "self-definition", "critical-thinking", "revision"]
+
+  - id: F002
+    statement: "沈伯洋競選團隊公開將其品牌策略描述為理念先行、以政策論述為主軸、理性正向且淡化藍綠對決。"
+    status: verified
+    observed_at: "2026-10-23T14:36:49+08:00"
+    source_ids: [S002]
+    evidence_summary: "天下雜誌引述競辦發言人及團隊策略說明，可證明競辦曾公開採用這組品牌描述。"
+    tags: ["2026", "洋流", "campaign-branding", "policy-first", "depolarization"]
+
+  - id: F003
+    statement: "@wssr0927 原始貼文以多項國民黨負面選舉素材為基礎，最後做出『一個談願景，一個拚動員』的跨黨比較結論。"
+    status: verified
+    observed_at: "2026-10-23T14:36:49+08:00"
+    source_ids: [S003]
+    evidence_summary: "原文可直接觀察其素材選擇與最後跨黨角色分配。"
+    verification_notes:
+      - "本fact不判定該比較結論真假，只保存文本結構與作者實際提出的命題。"
+    tags: ["2026", "Threads", "cross-party-comparison", "mobilization", "vision"]
+
+  - id: F004
+    statement: "在被指出民進黨／洋流相關活動也存在地方黨部動員的反例後，@wssr0927 要求提出該動員公文。"
+    status: verified
+    observed_at: "2026-10-23T14:36:49+08:00"
+    source_ids: [S004, S005]
+    evidence_summary: "回覆鏈顯示反例提出後，作者將討論聚焦到是否能提出民進黨地方動員公文。"
+    tags: ["2026", "Threads", "counterexample", "evidence-demand"]
+
+  - id: F005
+    statement: "公開報導已記錄民進黨台北市黨部主委吳沛憶承認該黨部曾就沈伯洋競總成立大會發出公文給黨公職，並將此說明為過往競總活動的黨部形式；相關報導亦記錄動員責任額總計5300人。"
+    status: verified
+    observed_at: "2026-10-23T14:36:49+08:00"
+    source_ids: [S008, S009]
+    evidence_summary: "TVBS直接引述吳沛憶表示『該公文就是發給黨公職的公文』；聯合報亦記錄其對公文與後續動員的說明。"
+    verification_notes:
+      - "本fact證明公文存在與黨部動員行為有當事黨部主委公開承認及媒體交叉記錄；本次查核未取得黨部原始電子公文檔案作數位鑑識。"
+      - "『5300人』來源仍包括許甫公布的責任額資料與媒體轉述；吳沛憶公開回應足以支持公文存在，不等同逐欄驗證附件每一數字。"
+    tags: ["2026", "沈伯洋", "民進黨台北市黨部", "mobilization", "document", "5300"]
+
+  - id: F006
+    statement: "在收到包含公文主旨、5300人責任額與吳沛憶公開證實資訊的回覆後，@wssr0927 改要求『公文本人』，且在該回合沒有回頭修正或補強原先『一個談願景，一個拚動員』的跨黨比較。"
+    status: verified
+    observed_at: "2026-10-23T14:36:49+08:00"
+    source_ids: [S006, S007, S008, S009]
+    evidence_summary: "可直接觀察到證據要求由『看民進黨地方動員的公文』進一步轉為要求『公文本人』；同一回覆未處理原始跨黨比較的量化或對稱證據。"
+    verification_notes:
+      - "要求原始文件本身可以是合理的更高證據標準；本fact不推定作者是惡意換門檻。"
+    tags: ["2026", "Threads", "evidence-threshold", "argument-sequence", "non-revision"]
+
+claims:
+  - id: C001
+    statement: "本串可作為『遇到不利反例後，原跨黨比較未被立即修正，而討論轉向提高對反例文件的證據要求』的存在性樣本。"
+    status: supported
+    supports: [F003, F004, F005, F006]
+    contradicts: []
+    related_facts: [F001, F002]
+    reasoning_notes: "這是對可觀察互動序列的分類，不判定作者主觀動機。原始文件當然比媒體轉述更直接，但在公文存在已獲當事黨部主委公開承認後，要求原件不能使先前證據退回到零。"
+
+  - id: C002
+    statement: "若把本串視為與『洋流』品牌敘事同方向的支持性論述樣本，則其在『批判性／持續修正／理性論述／淡化藍綠對決』等洋流自我宣稱特質上存在可觀察張力。"
+    status: supported
+    supports: [F001, F002, F003, F006]
+    contradicts: []
+    related_facts: [F004, F005]
+    reasoning_notes: "張力來自：洋流品牌強調批判性、持續修正、政策論述與淡化藍綠，而本樣本在反例出現後未於觀察回合修正跨黨角色分配，且原文自身即採強烈的『一邊願景／一邊動員』陣營二分。這不等於證明作者正式屬於洋流，也不等於證明整體洋流違反品牌宣稱。"
+
+  - id: C003
+    statement: "要求查看原始公文本身是不正當或必然代表惡意換門檻。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F005, F006]
+    reasoning_notes: "原始文件是更高直接性的證據，要求查看可以出於正常核實需求。可批評的是：較高證據要求不能抹除已存在的獨立承認與媒體交叉記錄，也不能替代原先跨黨比較命題本身的舉證。"
+
+  - id: C004
+    statement: "缺少原始公文影像或電子檔，就足以把『民進黨台北市黨部曾發動員公文』重新判為沒有證據。"
+    status: contradicted
+    supports: []
+    contradicts: [F005]
+    related_facts: [F006]
+    reasoning_notes: "吳沛憶以台北市黨部主委身分公開承認公文是發給黨公職的公文，並說明其用途與黨部慣例；因此即使原始檔仍值得取得，公文存在並非無證據狀態。"
+
+  - id: C005
+    statement: "此單一互動樣本足以證明洋流支持者普遍缺乏批判性、不能接受反例，或整體洋流品牌虛假。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F001, F002, F003, F006]
+    reasoning_notes: "單一帳號、單一爭論只能作存在性樣本；缺乏代表性抽樣、作者自我身份確認、跨帳號baseline與反例，不能外推群體普遍性。"
+
+  - id: C006
+    statement: "@wssr0927 已被公開資料充分證明是『洋流』成員或正式支持者。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F003]
+    reasoning_notes: "本串可確認其論述把一方描寫為『談願景』並正面對照國民黨，但目前未保存作者自我認同為『洋流』成員的直接證據，因此不得把品牌一致性分析升格為身份認定。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-23T14:36:49+08:00"
+    platform: "GitHub politics-db"
+    query: "洋流 / 沈伯洋 / 理性 / 批判性 / 支持性論述 / wssr0927"
+    scope: "lichih/politics-db main"
+    result: not_found
+    notes: "未找到已以『洋流自我宣稱 vs 支持性論述樣本』為主題保存的 evidence；因此建立新 session。not_found 不代表 repo 沒有相鄰的 supporter-reward、asymmetric-standards 研究。"
+
+  - id: Q002
+    observed_at: "2026-10-23T14:36:49+08:00"
+    platform: "connected browser / Threads"
+    query: "wssr0927 De0P5Bkn5f_ -> De02T_sEcFo -> De03IqekTLV；lichihwu De0eM4Tj2gk -> De02uanjzOq"
+    scope: "原始比較命題、反例、證據要求、提供證據與後續提高證據要求的完整公開互動鏈"
+    result: found
+    notes: "保存可觀察的 argument sequence；不以語氣或表情符號推定主觀惡意。"
+
+  - id: Q003
+    observed_at: "2026-10-23T14:36:49+08:00"
+    platform: "public web"
+    query: "沈伯洋 洋流 傾聽 獨立 批判性 進步 包容；理性 正向 論述清楚；淡化藍綠"
+    scope: "中央社2026-10-04競總成立大會報導、天下雜誌2026-10-08品牌戰報導"
+    result: found
+    notes: "取得洋流／競辦自己的品牌定義與策略描述，用作外部檢驗標準，不判斷其是否普遍落實。"
+
+  - id: Q004
+    observed_at: "2026-10-23T14:36:49+08:00"
+    platform: "public web"
+    query: "吳沛憶 動員責任額 5300 沈伯洋 競總 公文"
+    scope: "2026-09-30 TVBS、聯合報及其他公開報導"
+    result: found
+    notes: "確認吳沛憶公開承認台北市黨部有發給黨公職的公文，並說明是過往競總活動形式；媒體另記錄5300人責任額。原始電子公文檔案仍未取得。"
+
+promotion:
+  cases: []
+  comparators: []
+  research:
+    - proposed: "movement-self-image-vs-adverse-evidence-response"
+      rationale: "後續若蒐集更多不同帳號、不同陣營的 paired cases，可研究政治運動自我宣稱的批判性／包容／理性，在遇到不利反例時是否仍能觀察到一致的更新行為。"
+
+notes:
+  - "本 session 的用途是保存一個存在性樣本，不是對洋流群體作心理或道德總結。"
+  - "最有辨識力的後續觀察不是作者語氣，而是作者之後是否回到原始比較命題、承認反例、修正『一個談願景，一個拚動員』，或提出雙邊可比較資料。"
+  - "若作者之後補出原始公文核實結果、雙邊動員資料或政策內容比較，應新增 evidence 並更新 claims，不因目前 pattern 預支其後續仍不修正。"
