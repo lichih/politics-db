@@ -1,0 +1,196 @@
+session:
+  id: 2026-10-23-asymmetric-political-evaluation-standards
+  project: Politics
+  title: "表面平衡與不對稱政治評價判準：跨陣營同表格比較的存在性樣本"
+  started_at: "2026-10-23T00:20:00+08:00"
+  updated_at: "2026-10-23T09:04:00+08:00"
+  status: active
+
+topics:
+  - 表面平衡
+  - 不對稱判準
+  - pseudo-balance
+  - asymmetric standards
+  - 政治評價
+  - 同一把尺
+  - 支持者論述
+  - Threads
+  - 藍白
+  - 綠營
+  - 存在性樣本
+  - authorial-intent gatekeeping
+  - conditional admissibility of criticism
+  - interpretive gatekeeping
+
+sources:
+  - id: S001
+    source_type: commentary
+    publisher: "Threads / @luxienen"
+    title: "以同一格式比較藍白與綠營當局者、支持者之公開貼文"
+    url: "https://www.threads.com/@luxienen/post/Dexv0pZky8k"
+    published_at: "2026-10-22"
+    observed_at: "2026-10-23T00:20:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "原文依序列出：『藍白當局者:邏輯死亡、滋事擺態、獨斷獨裁、製造對立、利益親共』；『藍白支持者:邏輯死亡、盲目盲從、是非不分、裝瞎裝死、貪財怕死、維持統一』；『綠營當局者:邏輯清晰、無所作為、養癱成患、利益親美』；『綠營支持者:邏輯清晰、盲目盲從、中華台灣』。"
+      - "本來源只能直接證明作者公開採用上述分類與形容詞；各形容詞所指涉的外部事實真假需另案查證。"
+      - "當次頁面快照顯示原貼文約151次瀏覽、5則回覆；互動數只作觀察時點紀錄，不代表任何群體比例或同意程度。"
+
+  - id: S002
+    source_type: commentary
+    publisher: "Threads / @asd0123po、@luxienen"
+    title: "『反串的不錯』與作者『反串？』之公開回覆"
+    url: "https://www.threads.com/@asd0123po/post/DeyvVGZmFZZ"
+    published_at: "2026-10-22"
+    observed_at: "2026-10-23T00:20:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "可見回覆者留言『反串的不錯』；原作者隨後以『反串？』回覆。"
+      - "此互動可用來限制『原貼文顯然是刻意反諷』的解讀，但不足以單獨證明作者所有文字皆為完全字面、無幽默或無修辭。"
+      - "作者回覆網址在同一頁面可見為 https://www.threads.com/@luxienen/post/DeyybAAk375 。"
+
+  - id: S003
+    source_type: commentary
+    publisher: "Threads / @luxienen"
+    title: "要求批評者『依照我的原意』觀察，否則視為曲解並請其離開"
+    url: "https://www.threads.com/@luxienen/post/De0V_tME7b8"
+    published_at: "2026-10-23"
+    observed_at: "2026-10-23T09:04:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "作者回覆稱對方『把一個人的原意曲解成這樣』，並批評對方『故意拿AI去片面證實你的言語』。"
+      - "作者再次稱對方『只是一直用你的思維去解讀我，而非我原文的含意』。"
+      - "作者明示互動條件：若對方『只是為了反我的言論而論述』則『不歡迎、還請你離開』；若『可以依照我的原意，看到你所觀察到的政治面』則『我歡迎你』。"
+      - "本回覆沒有在該回合具體指出先前對方究竟曲解了原文哪一句、替代性的原意命題是什麼、或『盲目盲從』在藍白與綠營兩列中搭配相反邏輯評價的判準差異。"
+      - "此來源可證明作者對可接受解讀所設的公開條件；不能直接證明作者主觀目的就是排除異議。"
+
+facts:
+  - id: F001
+    statement: "@luxienen 在同一篇公開貼文中，以四列相同版式分別評價藍白當局者、藍白支持者、綠營當局者與綠營支持者；其中藍白兩列包含『邏輯死亡』及獨裁、是非不分、裝瞎裝死、貪財怕死、親共／維持統一等負面描述，而綠營兩列均包含『邏輯清晰』，其負面描述主要包括無所作為、養癱成患與盲目盲從。"
+    status: verified
+    observed_at: "2026-10-23T00:20:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "原貼文四列文字可直接確認不同陣營被套用的形容詞集合並不相同。"
+    verification_notes:
+      - "此 fact 描述的是文本內容與分類差異，不判斷『邏輯死亡』『獨裁』『親共』『邏輯清晰』等評價是否符合外部事實。"
+      - "『主要包括』是對原文形容詞類型的摘要，不等於已完成心理、道德或政策成效的實體查核。"
+    tags: ["2026", Threads, 藍白, 綠營, asymmetric-standards, text-structure]
+
+  - id: F002
+    statement: "在同一公開串文中，有回覆者將原貼文理解為『反串』，原作者以『反串？』回覆，未直接接受該反串定位。"
+    status: verified
+    observed_at: "2026-10-23T00:20:00+08:00"
+    source_ids: [S002]
+    evidence_summary: "頁面可直接觀察『反串的不錯』與作者『反串？』的相鄰互動。"
+    verification_notes:
+      - "作者反問並不等於完成心理狀態證明；只足以使『這明顯是作者自認的反諷文本』失去直接文本支持。"
+    tags: ["2026", Threads, satire-interpretation, context]
+
+  - id: F003
+    statement: "@luxienen 在後續回覆中，將『依照我的原意』作為歡迎對方繼續觀察政治面的條件；對不符合其原意的解讀，則定性為曲解、為反對而論述，並請對方離開。"
+    status: verified
+    observed_at: "2026-10-23T09:04:00+08:00"
+    source_ids: [S003]
+    evidence_summary: "原回覆直接以『如果你可以依照我的原意...我歡迎你』與『如果你只是為了反我的言論...還請你離開』建立條件式互動規則。"
+    verification_notes:
+      - "作者有權停止或限制個人帳號上的互動；本fact只描述其公開設定的論述條件，不把社群互動選擇升格為言論壓制。"
+      - "『曲解』可以是合理指控，但若要形成可檢驗反駁，仍需指出被曲解命題與替代解讀。"
+    tags: ["2026", Threads, authorial-intent, interpretive-gatekeeping, criticism-admissibility]
+
+  - id: F004
+    statement: "截至S003所在回合，@luxienen 已主張對方曲解原意，但仍未在該回合具體提供『哪一句被曲解、正確原意是什麼、跨陣營評價判準如何區分』的可檢驗說明。"
+    status: verified
+    observed_at: "2026-10-23T09:04:00+08:00"
+    source_ids: [S003]
+    evidence_summary: "S003包含『曲解』『不是原文含意』等指控與互動條件，但沒有列出具體命題對照或判準。"
+    verification_notes:
+      - "not_answered_in_this_reply != incapable_of_answering；若作者後續補出具體判準，應另行新增並更新claims。"
+    tags: ["2026", Threads, unresolved-criteria, evidence-demand, interpretive-dispute]
+
+claims:
+  - id: C001
+    statement: "S001可作為『表面採用對稱比較格式，但實際評價維度與負面強度跨陣營不對稱』的存在性樣本。"
+    status: supported
+    supports: [F001]
+    contradicts: []
+    related_facts: [F002]
+    reasoning_notes: "四個政治群體被放入同一格式中，但原文並未使用同一組可對照指標：藍白側被賦予認知、道德、民主程序與國家忠誠等負面判斷，綠營側同時保留『邏輯清晰』的正面前提，負面詞主要落在治理績效與盲從。此 claim 僅分類文本結構，不判定任何一側實體評價真假。"
+
+  - id: C002
+    statement: "單靠『兩邊都有批評』或把不同陣營排成相同版式，不能證明比較使用了同一把尺。"
+    status: supported
+    supports: [F001]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "是否同一把尺取決於評價維度、證據門檻與可比較標準是否一致，而不是每一側是否都出現負面形容詞。F001本身即提供一個形式對稱但指標集合不同的反例。"
+
+  - id: C003
+    statement: "S001已足以證明綠營支持者整體、民進黨支持者整體或台灣某一政治陣營普遍採用不對稱判準。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F001, F002]
+    reasoning_notes: "單一自然樣本只能證明此論述型態存在；沒有代表性抽樣、帳號政黨認同驗證、跨陣營baseline或群體比例資料，不能升格成群體普遍性結論。"
+
+  - id: C004
+    statement: "『表面平衡／兩邊都罵』可能在政治論述中充當一種可信度或中立感訊號，同時保留實質不對稱的舉證門檻與評價標準。"
+    status: unresolved
+    supports: [F001]
+    contradicts: []
+    related_facts: [F002]
+    reasoning_notes: "S001證明形式對稱與實質指標差異可以同時出現，但作者並未明言自己藉由『兩邊都罵』主張中立，因此目前只能把這個修辭功能保存為可檢驗 hypothesis。要升格需蒐集更多 paired cases：作者先以『我兩邊都罵／我很中立』建立credential，再在具體案件對不同陣營使用不同證據門檻。"
+
+  - id: C005
+    statement: "S001與S003共同構成『authorial-intent gatekeeping / conditional admissibility of criticism』的存在性樣本：作者公開邀請他人『說說你觀察到的』，但在批評性觀察指向其自身比較判準後，進一步要求對方必須『依照我的原意』觀察，否則視為曲解或為反對而論述。"
+    status: supported
+    supports: [F001, F003]
+    contradicts: []
+    related_facts: [F004]
+    reasoning_notes: "本claim分類的是公開互動規則，不推定作者惡意。作者當然可以主張自己被誤解；關鍵差異在於是否把『原意』轉化為可檢驗的文本／判準說明，還是只把符合作者期待的解讀視為合格觀察。"
+
+  - id: C006
+    statement: "只要作者宣稱某批評不符合『我的原意』，就足以證明批評者的文本解讀無效，而無需指出具體被曲解的命題與替代解讀。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F003, F004]
+    reasoning_notes: "authorial intent是解釋文本的重要證據之一，但不是不可檢驗的豁免權。若原文存在明示分類與評價，作者要反駁他人解讀，至少應指出文字、語境或判準如何支持其主張的原意。"
+
+  - id: C007
+    statement: "本案已足以證明作者有意排除所有不同意見，只接受政治同溫層。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F003]
+    reasoning_notes: "作者明確排斥其認為是『為反而反／曲解原意』的互動，但這不等於所有不同意見都被排除；仍需觀察作者是否接受有具體證據、但與其結論不同的反例或批評。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-23T00:20:00+08:00"
+    platform: "GitHub politics-db"
+    query: "同一把尺 / supporter-reward / identity bundling / asymmetric standards / pseudo-balance"
+    scope: "lichih/politics-db main，檢視既有 research tree 與相關 evidence"
+    result: partial
+    notes: "既有 research 已有『同一把尺』、identity bundling、evidence-demand punishment、支持者獎勵與政治身份標籤等相鄰研究；未見以『形式平衡但評價判準不對稱』為獨立主題的 evidence 檔，因此建立本 research 作為新方向起點。"
+
+  - id: Q002
+    observed_at: "2026-10-23T09:04:00+08:00"
+    platform: "connected browser / Threads"
+    query: "luxienen Dexv0pZky8k -> DeziwU3k3P4 -> De0OkhnkynT -> De0V_tME7b8"
+    scope: "原始跨陣營觀察貼文與後續被要求說明判準／舉證後的公開回覆鏈"
+    result: found
+    notes: "新增互動機制：原作者先邀請『說說你觀察到的』，後續對批評性觀察要求『依照我的原意』才歡迎繼續；同回合仍未將『曲解』具體化為被曲解命題、正確原意與跨陣營判準。保存為authorial-intent gatekeeping存在性樣本，不推定惡意或群體普遍性。"
+
+promotion:
+  cases: []
+  comparators: []
+  research:
+    - proposed: "cross-camp-asymmetric-evaluation-standards"
+      rationale: "後續蒐集跨陣營、跨帳號的 paired cases，區分單純立場不對稱、證據不對稱、評價維度不對稱與以『兩邊都罵』建立中立credential的修辭。"
+
+notes:
+  - "本 research 與 research/2026-10-19-dpp-supporter-deification-attitudes/evidence.yaml 的『同一把尺』問題相鄰，但本檔專注於比較架構本身是否對稱，不重複保存既有樣本。"
+  - "本 research 與 research/2026-10-21-supporter-reward-democratic-brakes/evidence.yaml 的 identity bundling、evidence-demand punishment、argument-demand punishment 等機制相鄰；目前不預設它們與本案由同一因果機制造成。"
+  - "後續優先蒐集最有辨識力的 paired evidence：同一作者明示『兩邊都一樣／我都罵』，但在同類事實、程序或證據門檻上對不同陣營採用不同標準。"
+
+  - "2026-10-23新增 authorial-intent gatekeeping：作者可合理主張自己被誤解，但『我的原意』不能自動成為不可審計的解釋權。最有辨識力的後續證據是：作者是否能指出具體被曲解句子、替代命題與一致判準；若能，應更新，不因既有pattern預支其後續仍會拒絕舉證。"
