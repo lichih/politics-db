@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "以『他人不求證』為前提的政治論述：老人健保示例、二元忠誠分類與中國—國民黨因果歸因"
   started_at: "2026-10-23T00:38:18+08:00"
-  updated_at: "2026-10-23T01:57:00+08:00"
+  updated_at: "2026-10-23T08:58:00+08:00"
   status: active
 
 topics:
@@ -197,6 +197,20 @@ sources:
       - "作者進一步預測對方1128的選擇不會因討論改變，並以『你就不是G4選民』說明自己沒有必要再解釋。"
       - "此來源保存的是argument sequence與身份分類；不證明G分類本身有效，也不證明被分類者實際投票選擇。"
 
+  - id: S015
+    source_type: commentary
+    publisher: "Threads / @yaubado537296"
+    title: "明示拒絕回答事實問題，並以『非藍即白／來找碴』作為理由"
+    url: "https://www.threads.com/@yaubado537296/post/DezpTWQkrxZ"
+    published_at: "2026-10-23"
+    observed_at: "2026-10-23T08:58:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "作者明確表示『我本來就沒有要回答你的問題啊』。"
+      - "作者將拒絕回答的理由連結到對提問者的先驗分類，包括『你本身就已經有了先入為主的觀念』、『我光看你的貼文就知道你非藍即白』、『你就是來找碴的』。"
+      - "此回覆仍未指出先前被要求說明的『黃國昌到底哪一項資訊是錯的』。"
+      - "此來源可直接證明明示拒答與身份／動機分類的回應結構；不能證明作者主觀上完全不在乎事實，也不能推估任何陣營的普遍性。"
+
 facts:
   - id: F001
     statement: "@yaubado537296 明確把『黃國昌剪接賴清德長者健保影片』作為證明藍白餵食錯誤資訊、國民黨支持者不求證的具體示例。"
@@ -299,6 +313,14 @@ facts:
     verification_notes:
       - "此fact不判斷作者是否之後在其他貼文補證據；只描述這兩輪指定互動的回應結構。"
     tags: ["2026", Threads, identity-classification, G1-G3, G4, evidence-demand, exit-rationale]
+
+  - id: F012
+    statement: "在第三輪回覆中，@yaubado537296 明確承認『本來就沒有要回答』對方要求指出黃國昌哪一項資訊錯誤的問題，並以提問者被其判定為『先入為主』『非藍即白』『來找碴』作為不回答的理由。"
+    status: verified
+    observed_at: "2026-10-23T08:58:00+08:00"
+    source_ids: [S015]
+    evidence_summary: "此輪不再只是未回答，而是公開明示拒絕回答，且把拒答理由建立在對提問者政治身份與動機的判斷上。"
+    tags: ["2026", Threads, explicit-refusal, evidence-demand, identity-substitution, motive-attribution]
 
 claims:
   - id: C001
@@ -413,6 +435,22 @@ claims:
     related_facts: [F011]
     reasoning_notes: "不同意特定政治判斷本身不足以推出完整選民類型、理解能力或未來投票不可更新。若G分類另有正式操作化定義，應依其量測條件獨立判定，不能把當前分歧本身當作分類證據。"
 
+  - id: C015
+    statement: "S015強化了本案的『identity substitution after evidence demand』分類：原作者不是單純尚未補證據，而是明示其不回答fact-level問題，並以對提問者的政治身份與動機分類作為拒答正當化。"
+    status: supported
+    supports: [F012]
+    contradicts: []
+    related_facts: [F010, F011]
+    reasoning_notes: "這仍不反證作者原始『錯誤資訊』主張；但它直接證明在本次互動中，作者選擇以對提問者的分類處理舉證要求，而不是在該回合完成原命題的證明。"
+
+  - id: C016
+    statement: "『對方被我判定為先入為主／非藍即白／來找碴』足以構成不需要回答其可驗證事實問題的認知正當性。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F012]
+    reasoning_notes: "提問者的政治偏好或動機即使可被合理懷疑，也不改變原始事實命題的真假。身份／動機判斷可影響是否值得投入對話時間，但不能替代對公開提出之事實指控的證據。"
+
 searches:
   - id: Q001
     observed_at: "2026-10-23"
@@ -462,6 +500,14 @@ searches:
     result: found
     notes: "兩輪指定回覆均未在當回合列出黃國昌的具體錯誤資訊；第一輪先轉為『沒看懂』，第二輪再加入G1~G3／G4選民分類、投票預測與終止解釋。保存為論證機制樣本，不作群體比例推估。"
 
+  - id: Q007
+    observed_at: "2026-10-23T08:58:00+08:00"
+    platform: "connected browser / Threads"
+    query: "yaubado537296 DezpTWQkrxZ"
+    scope: "同一老人健保爭論的第三輪回覆"
+    result: found
+    notes: "新增更強的paired evidence：作者明示『本來就沒有要回答你的問題』，並以『先入為主／非藍即白／來找碴』作為拒答理由。此資料將前兩輪的identity substitution由推論結構補強為明示拒答樣本。"
+
 promotion:
   cases: []
   comparators: []
@@ -479,3 +525,5 @@ notes:
   - "2026-10-23後續已取得賴清德相關發言的完整逐段脈絡與台視完整公開直播頁，C002因此由unresolved更新為unsupported：目前不能把『剪輯本身造假／欺騙』視為已證實；可支持的是貼文文字去脈絡化與跨制度比較不完整。若未來取得黃國昌實際影片檔，再做逐秒剪點核對。"
 
   - "2026-10-23新增互動pattern：原作者在兩輪被要求指出可驗證的『錯誤資訊』後，當回合均未提供具體錯誤命題，回應依序轉向『你沒看懂』與G類型／投票不可改變的身份分類。此pattern只作存在性樣本，不把沉默或拒答本身當成原主張為假的證據。"
+
+  - "2026-10-23後續S015比前兩輪更具辨識力：作者明示『本來就沒有要回答』fact-level問題，並以『先入為主／非藍即白／來找碴』作拒答理由。這可以支持互動機制分類，但仍不應寫成『因為拒答，所以原始錯誤資訊主張必然為假』。"
