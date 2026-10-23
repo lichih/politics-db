@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "支持者獎勵、陣營內規範執行與民主煞車：以2025大罷免為起始案例"
   started_at: "2026-10-21T19:18:52+08:00"
-  updated_at: "2026-10-23T01:57:00+08:00"
+  updated_at: "2026-10-23T08:58:00+08:00"
   status: active
 
 topics:
@@ -416,6 +416,19 @@ sources:
       - "兩輪回覆在當回合均未列出被要求指出的具體錯誤資訊。"
       - "此來源用於研究argument sequence，不證明作者政黨身分、G分類有效性或任何支持者群體的普遍行為。"
 
+  - id: S032
+    source_type: commentary
+    publisher: "Threads / @yaubado537296"
+    title: "明示不回答fact-level問題，並以對方『非藍即白／來找碴』作為理由"
+    url: "https://www.threads.com/@yaubado537296/post/DezpTWQkrxZ"
+    published_at: "2026-10-23"
+    observed_at: "2026-10-23T08:58:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "在先前兩輪被要求指出黃國昌哪一項資訊錯誤後，作者本輪明確表示『我本來就沒有要回答你的問題啊』。"
+      - "作者把不回答的理由連結到對提問者的分類：『先入為主』『非藍即白』『來找碴』，並稱不想浪費時間在『你們這種人』身上。"
+      - "此來源可用於研究明示拒答與身份／動機分類如何結合；不能單獨證明某陣營普遍如此。"
+
 facts:
   - id: F001
     statement: "2025-01-04，民進黨立院黨團總召柯建銘以「藍白賣台」「救台灣」框架主張罷免41席國民黨區域立委。"
@@ -731,6 +744,14 @@ facts:
       - "沒有回答不等於原始主張已被反證；它只表示此兩輪回覆沒有完成其先前『錯誤資訊』命題的舉證。"
       - "後續若作者補出具體錯誤命題，應另行查核並更新，不得以本次拒答封死未來證據。"
     tags: [evidence-demand, identity-substitution, epistemic-disqualification, G1-G3, G4, argument-sequence]
+
+  - id: F035
+    statement: "S032中，回應者明示其不打算回答原本的可驗證事實問題，並以對提問者的政治身份與動機分類作為拒答理由。"
+    status: verified
+    observed_at: "2026-10-23T08:58:00+08:00"
+    source_ids: [S032]
+    evidence_summary: "這使先前『identity substitution after evidence demand』從單純回應轉向，進一步出現公開明示的拒答理由。"
+    tags: [explicit-refusal, evidence-demand, identity-substitution, motive-attribution, epistemic-disqualification]
 
 claims:
   - id: C001
@@ -1086,6 +1107,22 @@ claims:
     related_facts: []
     reasoning_notes: "本案具有此方向的語言特徵，但尚未確認G分類的正式定義、作者是否把任何反例都吸收進分類、以及其在後續證據出現時是否真的拒絕更新，因此保持unresolved。"
 
+  - id: C045
+    statement: "S032可作為『identity-based refusal after evidence demand』的存在性樣本：回應者明示不回答fact-level問題，且把對提問者的政治身份／動機分類當作不回答的理由。"
+    status: supported
+    supports: [F035]
+    contradicts: []
+    related_facts: [F034]
+    reasoning_notes: "本claim只分類公開互動機制。是否停止對話可以是個人時間配置選擇，但身份／動機分類本身不能替代原公開事實主張的證據。"
+
+  - id: C046
+    statement: "只要提問者被認定為特定政治陣營、先入為主或來找碴，其提出的可驗證事實問題就失去被回答的認知價值。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F035]
+    reasoning_notes: "提問者的可能偏誤會影響互動成本，不會改變命題真假。若原作者已公開提出可驗證指控，該指控仍需以對應證據評估；不能由發問者身份替代。"
+
 searches:
   - id: Q001
     observed_at: "2026-10-21T19:18:52+08:00"
@@ -1176,6 +1213,14 @@ searches:
     result: found
     notes: "建立完整paired sequence：作者先以黃國昌老人健保影片作『錯誤資訊』示例；遭兩輪fact-level evidence demand後，回應依序轉為理解能力評價與G類型／投票預測。此結果新增identity-substitution研究維度，並保留『拒答不等於反證』界線。"
 
+  - id: Q012
+    observed_at: "2026-10-23T08:58:00+08:00"
+    platform: "connected browser / Threads"
+    query: "yaubado537296 DezpTWQkrxZ"
+    scope: "同一老人健保爭論後續，觀察evidence-demand之後是否明示拒答及其理由"
+    result: found
+    notes: "確認比S031更強的樣本：回應者明示『本來就沒有要回答』，並以『先入為主／非藍即白／來找碴』作理由。新增 identity-based refusal after evidence demand 子型。"
+
 promotion:
   cases: []
   comparators:
@@ -1205,4 +1250,5 @@ notes:
   - "此機制與 research/2026-10-20-public-authority-auditability-unfalsifiability/evidence.yaml 應交叉閱讀：前者研究民間政治論述如何複製／放大卸責結構，後者保存公權力自身可驗證性缺口；兩者不得因結構相似就自動推定有組織指揮或共同主觀目的。"
   - "新增 brake-preserving supporter / supporter autonomy 反例維度：支持某政黨本身不等於把個案判斷權交給政黨。研究上應分開測量party identification、對己方不利資訊的更新、是否拒絕identity shortcut、是否要求個案證據，以及是否存在撤回支持／轉票／棄權條件。"
   - "新增 identity substitution after evidence demand 維度：當可驗證命題被要求指出證據時，觀察回應是否從 claim validity 轉向『你是哪一類人／你沒看懂／你本來就不會改變』。此類身份分類若形成self-sealing規則，可能降低反證造成更新的能力；目前只有存在性樣本，尚不能做陣營普遍性判斷。"
+  - "新增 identity-based refusal after evidence demand 子型：不只轉移至身份分類，而是明示『不回答』，並把提問者的陣營、偏誤或動機分類當成拒答理由。研究上應區分『合理停止低價值對話』與『把對方身份當成免除原公開主張舉證責任』兩件事。"
   - "『可被政黨動員的資源』應操作化為低更新成本、高可預測、會沿陣營框架自動產生結論／擴散／規範執行等可觀察特徵；不能把政黨支持身分本身直接當成此分類。"
