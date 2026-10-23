@@ -1,0 +1,447 @@
+session:
+  id: "2026-10-23-chen-chih-han-shooting-china-dpp-claims"
+  project: Politics
+  title: "館長槍擊案：中國跨境鎮壓推測、寶和會、陳明文增見與民進黨關聯查核"
+  started_at: "2026-10-23T14:23:00+08:00"
+  updated_at: "2026-10-23T14:23:00+08:00"
+  status: active
+
+topics:
+  - 陳之漢
+  - 館長槍擊案
+  - 竹聯幫
+  - 寶和會
+  - 施俊吉
+  - 劉丞浩
+  - 陳明文
+  - 黃國昌
+  - 增加接見
+  - 特別事由接見
+  - 跨境鎮壓
+  - 中國
+  - 中共
+  - 民進黨
+  - 梁文傑
+  - 黃逸豪
+
+sources:
+  - id: S001
+    source_type: commentary
+    publisher: "Facebook / 鬼針鑑(聯隊) / KY Li"
+    title: "主張館長槍擊非中國策動、並以陳明文辦公室協助寶和會成員增見連結民進黨之貼文"
+    url: "https://www.facebook.com/groups/3646359149017245/?multi_permalinks=4606309786355505&hoisted_section_header_type=recently_seen"
+    published_at: "2026-10-23"
+    observed_at: "2026-10-23T14:23:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "貼文主張『事後證明寶和會的關係政黨叫做民進黨』，並以陳明文辦公室曾協助寶和會成員辦理接見，進一步暗示民進黨與館長槍擊案有關。"
+      - "貼文另稱黃國昌遭告後獲『法院認證不起訴』；此說法需區分法院裁判與檢察官不起訴處分。"
+      - "此來源只證明社群主張內容，不作外部事實 authority。"
+
+  - id: S002
+    source_type: primary
+    publisher: "臺灣新北地方法院 / 司法院"
+    title: "臺灣新北地方法院109年度重訴字第39號擄人勒贖等案件新聞稿"
+    url: "https://www.judicial.gov.tw/tw/cp-1888-453059-4809d-1.html"
+    published_at: "2021-07-07"
+    observed_at: "2026-10-23T14:23:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "法院認定竹聯幫和堂寶和會為犯罪組織，持續受託從事槍擊等暴力犯罪。"
+      - "館長案部分，法院以『寶和會因不詳原因，受託槍擊C1』描述上游委託，認定施俊吉籌劃、劉丞浩執行槍擊，並事前製造假衝突作為表面犯案動機。"
+
+  - id: S003
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "館長槍擊等案 寶和會主謀判16年、槍手15年半定讞"
+    url: "https://www.cna.com.tw/news/asoc/202301130062.aspx"
+    published_at: "2023-01-13"
+    observed_at: "2026-10-23T14:23:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "最高法院駁回上訴，全案定讞。"
+      - "二審維持館長槍擊案殺人未遂部分，並記載施俊吉、劉丞浩未供出幕後委託人等細節。"
+
+  - id: S004
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "館長遭槍擊求償案二審 槍手及籌劃者判賠327萬"
+    url: "https://www.cna.com.tw/news/asoc/202306270251.aspx"
+    published_at: "2023-06-27"
+    observed_at: "2026-10-23T14:23:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "民事求償程序延續確認劉丞浩、施俊吉在館長槍擊案中的執行／籌劃責任。"
+      - "本來源用於確認刑事定讞後仍未出現公開可核實的最上游委託人認定。"
+
+  - id: S005
+    source_type: secondary
+    publisher: "太報"
+    title: "爆料陳明文幫槍手辦增見挨告 黃國昌反控誣告最終結果出爐"
+    url: "https://www.taisounds.com/news/content/97/117632"
+    published_at: "2024-04-01"
+    observed_at: "2026-10-23T14:23:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導整理北檢偵查：增見人員稱由邵柏傑、劉志強安排；陳明文稱由助理處理，助理證稱案件由地方服務處轉來、相關業務不需請示陳明文。"
+      - "檢方未查到陳明文認識寶和會相關人士的事證，陳明文被控誣告部分亦獲不起訴。"
+      - "另報導黃國昌先前因相關發文遭告妨害名譽後獲不起訴。"
+
+  - id: S006
+    source_type: secondary
+    publisher: "TVBS"
+    title: "控陳明文替槍手辦接見 黃國昌獲不起訴"
+    url: "https://news.tvbs.com.tw/life/2232262"
+    published_at: "2023-09-05"
+    observed_at: "2026-10-23T14:23:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導引述檢方調查文件，陳明文辦公室確曾協助寶和會槍手陶彥誠、黃啟文辦理增加接見／特別事由接見相關申請。"
+      - "黃國昌被告妨害名譽後，由台北地檢署作成不起訴處分。"
+
+  - id: S007
+    source_type: secondary
+    publisher: "報導者觀測站"
+    title: "2021-05-12 陳明文立法院質詢逐字稿"
+    url: "https://lawmaker.twreporter.org/congress/a/131020"
+    published_at: "2021-05-12"
+    observed_at: "2026-10-23T14:23:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "陳明文於質詢中表示，矯正署回函證明其本人、國會辦公室與服務處未替館長案槍手劉丞浩辦理增見或特見。"
+      - "此來源可區分『曾協助其他寶和會槍手』與『曾協助館長案槍手劉丞浩』兩個不同命題。"
+
+  - id: S008
+    source_type: primary
+    publisher: "監察院"
+    title: "矯正署暨所屬臺北監獄辦理收容人與幫派成員接見次數過多且涉有違失，損及矯正機關形象及法務部聲譽，經監察院提案糾正—重大案件改善與處理結果"
+    url: "https://www-ws.cy.gov.tw/Download.ashx?icon=.pdf&n=MTEx5LiKNC3nn6%2FmraPnvbLmmqjmiYDlsazoh7rljJfnm6PnjYTovqbnkIbmlLblrrnkurroiIfluavmtL7miJDlk6HmjqXopovmrKHmlbjpgY7lpJrkuJTmtonmnInpgZXlpLHvvIzmkI3lj4rnn6%2FmraPmqZ%2Fpl5zlvaLosaHlj4rms5Xli5npg6jogbLorb3vvIzntpPnm6Plr5%2FpmaLmj5DmoYjns77mraMucGRm&u=LzAwMS9VcGxvYWQvMy9yZWxmaWxlLzg5MTUvMjQxNDYvNjJhYzI5ZTgtMDI4OS00ZDE4LWI3YTEtNGQxNGVjZGZhODI3LnBkZg%3D%3D"
+    observed_at: "2026-10-23T14:23:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "監察院認定矯正署制度與北監處理均有違失，陶姓受刑人的彈性調整接見核准失當。"
+      - "法務部查處認定前典獄長因私人情誼協處且未辦請託關說登錄，涉及行政違失；法務部考績會決議記過一次。"
+      - "但同一文件亦記載：臺北地檢署查無前典獄長涉犯貪污事證；法務部後續清查其在桃園女子監獄及臺北監獄核准接見案件『尚屬適法』。"
+
+  - id: S009
+    source_type: primary
+    publisher: "法務部全國法規資料"
+    title: "監獄行刑法（2020-01-15修正版）"
+    url: "https://mojlaw.moj.gov.tw/LawContent.aspx?LSID=FL010327"
+    published_at: "2020-01-15"
+    observed_at: "2026-10-23T14:23:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第68條規定一般接見每週一次，但監獄長官認有必要時得增加或延長。"
+      - "第70條允許基於管理、教化輔導、受刑人重大事故或其他必要事由，調整接見場所、時間、次數及人數。"
+      - "本法版本不得未經論證倒推適用於修法前之個別接見；本案具體歷史合法性仍以監察院、法務部實際清查結果為優先。"
+
+  - id: S010
+    source_type: secondary
+    publisher: "民視新聞網"
+    title: "館長槍擊案也是中共跨境鎮壓？梁文傑回應『這個推測我不能說完全不合理』"
+    url: "https://www.ftvnews.com.tw/news/detail/2026A22W0771"
+    published_at: "2026-10-22"
+    observed_at: "2026-10-23T14:23:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導記錄呱吉由黃逸豪案聯想到2020館長槍擊案，提出跨境鎮壓可能性。"
+      - "梁文傑回應該推測不能說完全不合理，但同時指出當年偵辦未往此方向，若有新證據可提供，陸委會也不是偵查機關。"
+
+  - id: S011
+    source_type: primary
+    publisher: "大陸委員會"
+    title: "陸委會嚴厲譴責中共涉嫌以『假車禍』對台進行跨國鎮壓，傷害台灣人民"
+    url: "https://www.mac.gov.tw/News_Content.aspx?n=05B73310C5C3A632&s=4844BECB3FF803DC&sms=1A40B00E4C745211"
+    published_at: "2026-10-21"
+    observed_at: "2026-10-23T14:23:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "陸委會依新北地檢署偵查結果，就黃逸豪遭假車禍案譴責中共涉嫌跨國鎮壓。"
+      - "這是另一案件的官方立場，不是館長2020槍擊案的偵查認定。"
+
+  - id: S012
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "黃逸豪演出前遭車撞 新北檢查出中共涉跨境鎮壓起訴5人"
+    url: "https://www.cna.com.tw/news/asoc/202610210090.aspx"
+    published_at: "2026-10-21"
+    observed_at: "2026-10-23T14:23:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "新北檢調查認為中國人士K出資45萬元，委託台灣人士跟監並策劃假車禍傷害黃逸豪，5人遭起訴。"
+      - "此案提供『中國境外人士出資、台灣在地協力者執行暴力』的已起訴案例，但不能直接移植成館長案的上游委託人證據。"
+
+  - id: S013
+    source_type: secondary
+    publisher: "Yahoo奇摩新聞"
+    title: "未替館長案槍手辦增見、特見！陳明文秀矯正署公文"
+    url: "https://tw.news.yahoo.com/%E6%9C%AA%E6%9B%BF%E9%A4%A8%E9%95%B7%E6%A1%88%E6%A7%8D%E6%89%8B%E8%BE%A6%E5%A2%9E%E8%A6%8B-%E7%89%B9%E8%A6%8B-%E9%99%B3%E6%98%8E%E6%96%87%E7%A7%80%E7%9F%AF%E6%AD%A3%E7%BD%B2%E5%85%AC%E6%96%87-%E5%86%8D%E8%A9%86%E6%AF%80%E6%9C%83%E8%BF%BD%E7%A9%B6-105319235.html"
+    published_at: "2021-05-04"
+    observed_at: "2026-10-23T14:23:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導描述陳明文公開矯正署回函；回函資料顯示未以陳明文個人、國會辦公室或服務處名義協助劉丞浩辦理彈性調整接見或增加接見。"
+
+facts:
+  - id: F001
+    statement: "法院認定竹聯幫和堂寶和會受託槍擊館長陳之漢，由施俊吉負責籌劃、劉丞浩執行；劉丞浩並事先在健身房製造衝突，以利日後向檢警虛構表面犯案動機。"
+    status: verified
+    observed_at: "2026-10-23T14:23:00+08:00"
+    source_ids: [S002]
+    evidence_summary: "新北地院109年度重訴字第39號新聞稿直接記載『寶和會因不詳原因，受託槍擊C1』，並具體記載施俊吉籌劃、劉丞浩勘查與製造事端、執行槍擊的過程。"
+    tags: ["館長槍擊案", "寶和會", "施俊吉", "劉丞浩", "受託槍擊"]
+
+  - id: F002
+    statement: "館長槍擊案中施俊吉、劉丞浩的殺人未遂等刑責已於2023年最高法院駁回上訴後定讞；公開判決脈絡仍未確認最上游幕後委託人，二審並記載兩人未供出幕後委託人等細節。"
+    status: verified
+    observed_at: "2026-10-23T14:23:00+08:00"
+    source_ids: [S002, S003, S004]
+    evidence_summary: "一審以『不詳原因、受託槍擊』描述上游；中央社2023年定讞報導記載二審指出施、劉未供出幕後委託人等細節。"
+    verification_notes:
+      - "此結論限於截至2026-10-23可核實的公開司法與報導資料；不等於證明執法機關內部從未掌握其他線索。"
+    tags: ["幕後委託人", "定讞", "unresolved"]
+
+  - id: F003
+    statement: "寶和會在本案法院判決中被明確認定為『竹聯幫和堂寶和會』犯罪組織；這能證明其竹聯幫組織隸屬背景，但本身不能證明館長槍擊案的委託人來自中國、中共或任何特定政黨。"
+    status: verified
+    observed_at: "2026-10-23T14:23:00+08:00"
+    source_ids: [S002]
+    evidence_summary: "法院直接記載寶和會的組織名稱與犯罪活動；判決對館長案上游仍使用『不詳原因，受託槍擊』。"
+    tags: ["竹聯幫", "寶和會", "推論邊界"]
+
+  - id: F004
+    statement: "陳明文辦公室確曾協助寶和會成員黃啟文、陶彥誠辦理增加接見／特別事由接見相關申請；兩人均是寶和會在其他槍擊案件中的槍手。"
+    status: verified
+    observed_at: "2026-10-23T14:23:00+08:00"
+    source_ids: [S002, S005, S006]
+    evidence_summary: "法院新聞稿確認黃啟文、陶彥誠為寶和會槍手；檢方不起訴案件的媒體報導記載調閱文件後確認陳明文辦公室確有協助相關接見申請。"
+    verification_notes:
+      - "這是可支持黃國昌當年質疑的核心事實，但不能直接推出陳明文本人認識寶和會成員或參與館長槍擊案。"
+    tags: ["陳明文", "增見", "黃啟文", "陶彥誠", "寶和會"]
+
+  - id: F005
+    statement: "目前所查資料顯示，陳明文本人、國會辦公室與服務處並未替館長案實際槍手劉丞浩辦理增見或特見；陳明文2021年公開的矯正署回函及其立院質詢均如此表示。"
+    status: verified
+    observed_at: "2026-10-23T14:23:00+08:00"
+    source_ids: [S007, S013]
+    evidence_summary: "兩個來源均指向矯正署資料庫查詢／回函結果，區分劉丞浩與另案槍手黃啟文、陶彥誠。"
+    verification_notes:
+      - "本輪未直接取得該紙本回函原件，故來源接近程度低於直接公開的矯正署公文；但兩個獨立公開來源對回函內容一致。"
+    tags: ["劉丞浩", "陳明文", "增見", "特見"]
+
+  - id: F006
+    statement: "黃國昌因公開指控陳明文辦公室協助寶和會槍手接見而遭提告妨害名譽後，台北地檢署作成不起訴處分；這是檢察機關的不起訴處分，不是法院作成的判決。"
+    status: verified
+    observed_at: "2026-10-23T14:23:00+08:00"
+    source_ids: [S005, S006]
+    evidence_summary: "報導均明確指出作成處分者是台北地方檢察署，理由包括相關發文有事實依據且屬可受公評事項。"
+    verification_notes:
+      - "不同媒體對後續是否曾提再議的敘述存在差異，本輪不以再議程序作核心事實；『不是法院判決』不受該差異影響。"
+    tags: ["黃國昌", "陳明文", "不起訴", "妨害名譽", "程序狀態"]
+
+  - id: F007
+    statement: "黃國昌後來反控陳明文誣告時，北檢調查未找到陳明文認識寶和會相關人士的事證；陳明文助理並證稱增見案件由地方服務處轉來，相關業務不需要逐案請示陳明文。"
+    status: verified
+    observed_at: "2026-10-23T14:23:00+08:00"
+    source_ids: [S005]
+    evidence_summary: "太報引述北檢偵查內容，記錄增見人員、陳明文與助理的證詞及檢方查證結果。"
+    verification_notes:
+      - "『查無事證』不能提升成『絕對不存在任何私人關係』，但足以限制把辦公室協助直接寫成陳明文本人與寶和會有已證實關係。"
+    tags: ["陳明文", "寶和會", "誣告", "查無事證"]
+
+  - id: F008
+    statement: "北監寶和會接見爭議並非『完全沒有問題』：監察院認定矯正署制度與北監辦理均有違失，陶姓受刑人的彈性調整接見核准失當；前典獄長因私人情誼協處且未辦請託關說登錄，被認定有行政違失並記過一次。"
+    status: verified
+    observed_at: "2026-10-23T14:23:00+08:00"
+    source_ids: [S008]
+    evidence_summary: "監察院重大案件改善與處理結果直接記載糾正理由、行政違失與法務部考績會記過一次。"
+    tags: ["北監", "特別事由接見", "行政違失", "監察院", "謝琨琦"]
+
+  - id: F009
+    statement: "同一監察院文件亦記載，北檢查無前典獄長涉犯貪污事證，法務部後續清查其在桃園女子監獄及臺北監獄核准接見案件『尚屬適法』；因此不能把整批增見／特別事由接見簡化為已被官方認定『違法接見』。"
+    status: verified
+    observed_at: "2026-10-23T14:23:00+08:00"
+    source_ids: [S008]
+    evidence_summary: "官方處理結果同時存在『行政程序／裁量失當』與『核准接見案件尚屬適法、未查得貪污』兩層結論。"
+    verification_notes:
+      - "這不否定F008的行政違失；應把『適法性』、『行政程序與廉政義務』及『是否構成刑事不法』分開。"
+    tags: ["適法", "行政違失", "貪污", "接見"]
+
+  - id: F010
+    statement: "2020年修正的監獄行刑法本身允許監獄長官在認有必要時增加接見，並可因管理、教化輔導、受刑人重大事故或其他必要事由調整接見場所、時間、次數與人數。"
+    status: verified
+    observed_at: "2026-10-23T14:23:00+08:00"
+    source_ids: [S009]
+    evidence_summary: "監獄行刑法第68條、第70條明文授權監獄長官在法定條件下增加或調整接見。"
+    verification_notes:
+      - "此法規只能說明『增見並非概念上當然違法』；個案是否符合當時有效規範仍須依事件時間與具體審核理由判定。"
+    tags: ["監獄行刑法", "增加接見", "法律依據", "時間適用"]
+
+  - id: F011
+    statement: "2026年10月22日館長案『中共跨境鎮壓』說法仍是推測層次：呱吉由黃逸豪案提出聯想，梁文傑僅表示『這個推測我不能說完全不合理』，並指出當年偵辦未往此方向、若有新證據可提供，陸委會不是偵查機關。"
+    status: verified
+    observed_at: "2026-10-23T14:23:00+08:00"
+    source_ids: [S010]
+    evidence_summary: "梁文傑的公開回應並非宣布館長案已查明為中共策動，而是對一個假說評估其『非完全不合理』。"
+    tags: ["梁文傑", "跨境鎮壓", "中國", "推測", "館長槍擊案"]
+
+  - id: F012
+    statement: "黃逸豪2026年遭假車禍案有獨立的偵查證據鏈：新北檢查出中國人士K出資45萬元，台灣在地人士跟監並策劃衝撞，5人遭起訴；陸委會據此譴責中共涉嫌跨國鎮壓。"
+    status: verified
+    observed_at: "2026-10-23T14:23:00+08:00"
+    source_ids: [S011, S012]
+    evidence_summary: "新北檢偵查結果經中央社報導，陸委會亦發布正式新聞稿；此案是2026年館長案類比出現的直接背景。"
+    verification_notes:
+      - "起訴不是有罪定讞；本 fact 僅記錄檢方偵查與起訴狀態，以及陸委會依該偵查結果所採立場。"
+      - "此案的證據不能直接移植為2020館長案上游委託人的證明。"
+    tags: ["黃逸豪", "跨境鎮壓", "起訴", "中國", "比較案例"]
+
+claims:
+  - id: C001
+    statement: "『館長2020年槍擊案已被證明是中國或中共策動的跨境鎮壓。』"
+    status: contradicted
+    supports: []
+    contradicts: [F002, F011]
+    related_facts: [F001, F012]
+    reasoning_notes: "目前公開司法認定停在寶和會受託、施俊吉籌劃、劉丞浩執行；最上游委託人未被確認。2026年梁文傑回應也明確停在『推測不能說完全不合理』而非偵查結論。"
+
+  - id: C002
+    statement: "『梁文傑或陸委會已正式認定館長槍擊案就是中共跨境鎮壓。』"
+    status: contradicted
+    supports: []
+    contradicts: [F011]
+    related_facts: [F012]
+    reasoning_notes: "陸委會對黃逸豪案有正式譴責新聞稿；館長案則是梁文傑對呱吉推測的口頭評價，並提醒有新證據應交由偵查機關處理。兩案程序狀態不能互換。"
+
+  - id: C003
+    statement: "『陳明文辦公室曾協助寶和會槍手辦理增加接見／特別事由接見相關申請。』"
+    status: supported
+    supports: [F004]
+    contradicts: []
+    related_facts: [F008, F009]
+    reasoning_notes: "這一核心事實有檢方不起訴案件調查結果的多家報導支持，也與後續監察院對北監接見制度與個案處理的調查相容。"
+
+  - id: C004
+    statement: "『陳明文辦公室曾替館長槍擊案槍手劉丞浩辦理增見或特見。』"
+    status: contradicted
+    supports: []
+    contradicts: [F005]
+    related_facts: [F004]
+    reasoning_notes: "目前資料顯示陳明文辦公室協助的是另案寶和會槍手黃啟文、陶彥誠；矯正署回函的公開描述則顯示沒有替劉丞浩辦理。"
+
+  - id: C005
+    statement: "『黃國昌被陳明文提告後，是法院認證他不起訴。』"
+    status: contradicted
+    supports: []
+    contradicts: [F006]
+    related_facts: []
+    reasoning_notes: "不起訴處分是台北地方檢察署作成的檢察處分，不是法院判決。這不否定不起訴本身，也不否定檢方認為黃國昌發文有事實依據。"
+
+  - id: C006
+    statement: "『陳明文辦公室曾協助寶和會成員接見，因此已證明陳明文本人／民進黨與寶和會有組織性關係，並可進一步推出民進黨策動館長槍擊。』"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F002, F004, F007]
+    reasoning_notes: "辦公室協助增見是已證實事實，但檢方後續未查到陳明文認識寶和會人士的事證，上游槍擊委託人亦未確認。從『辦公室曾辦增見』跨到『政黨與犯罪組織有組織關係／策動槍擊』缺少關鍵證據鏈。"
+
+  - id: C007
+    statement: "『陳明文辦公室協助的那些增見／特別事由接見，已被官方認定為違法接見。』"
+    status: contradicted
+    supports: []
+    contradicts: [F009, F010]
+    related_facts: [F008]
+    reasoning_notes: "官方結論較細：監察院認定制度與個案核准有失當、前典獄長有行政違失；但北檢查無貪污，法務部後續清查核准接見案件尚屬適法。應批評行政裁量／廉政程序問題，而不能直接把所有接見定性為已認證違法。"
+
+  - id: C008
+    statement: "『因寶和會屬竹聯幫，就能由此推出館長槍擊案是中國或中共委託。』"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F002, F003]
+    reasoning_notes: "組織隸屬背景與個案委託來源是兩個不同命題。法院已確認寶和會的竹聯幫背景，但對館長案上游仍記為不詳原因受託；缺少從組織背景連到特定境外委託者的證據。"
+
+  - id: C009
+    statement: "『事後已證明寶和會的關係政黨就是民進黨。』"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F004, F007]
+    reasoning_notes: "可證實的是陳明文辦公室曾協助部分寶和會槍手增見；目前沒有足以把『關係政黨』具體化為政黨層級組織關係的證據，且檢方未查得陳明文本人認識寶和會相關人士。此語句把一個具體辦公室行為擴張成政黨層級關係。"
+
+  - id: C010
+    statement: "『黃逸豪案已查到中國境外出資，因此同樣模式足以證明2020館長案也是中共跨境鎮壓。』"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F002, F011, F012]
+    reasoning_notes: "黃逸豪案可以讓『境外委託台灣在地暴力』成為合理 competing hypothesis，卻不能取代館長案本身缺少的上游委託證據。類比提高假說值得查的程度，不等於完成個案證明。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-23T14:23:00+08:00"
+    platform: "GitHub politics-db"
+    query: "館長 寶和會 / 陳明文 特見 增見 / 黃國昌 館長 槍擊 / 寶和會 竹聯幫 / 館長 中槍 中國"
+    scope: "lichih/politics-db default branch"
+    result: not_found
+    notes: "未找到既有專門 evidence；not_found 不代表 repo 內絕無可間接關聯的黑金、司法或公權力背景資料。"
+
+  - id: Q002
+    observed_at: "2026-10-23T14:23:00+08:00"
+    platform: "web"
+    query: "109年度重訴字第39號 館長 寶和會 受託槍擊 / 最高法院 定讞 幕後委託人"
+    scope: "司法院、新北地院、中央社司法報導"
+    result: found
+    notes: "確認寶和會受託、施俊吉籌劃、劉丞浩執行與製造假動機；定讞資料仍未公開確認最上游委託人。"
+
+  - id: Q003
+    observed_at: "2026-10-23T14:23:00+08:00"
+    platform: "web"
+    query: "陳明文 寶和會 增見 特見 黃啟文 陶彥誠 黃國昌 不起訴 誣告"
+    scope: "2021-2024 contemporaneous reporting and prosecution-result reporting"
+    result: found
+    notes: "確認陳明文辦公室確曾協助兩名另案寶和會槍手接見；黃國昌妨害名譽案為北檢不起訴；後續誣告案未查得陳明文本人認識寶和會人士。"
+
+  - id: Q004
+    observed_at: "2026-10-23T14:23:00+08:00"
+    platform: "web"
+    query: "北監 寶和會 特別事由接見 監察院 糾正 謝琨琦 調查結果"
+    scope: "監察院重大案件改善與處理結果、法務部相關報導"
+    result: found
+    notes: "找到監察院官方最終處理摘要：有行政違失與記過，但後續核准接見案件清查尚屬適法、北檢查無貪污事證。"
+
+  - id: Q005
+    observed_at: "2026-10-23T14:23:00+08:00"
+    platform: "web"
+    query: "監獄行刑法 2020 第68條 第70條 增加接見 彈性調整接見"
+    scope: "法務部法規資料"
+    result: found
+    notes: "確認2020修正版法律本身容許符合必要性要件時增加或調整接見；不將此規則未經分析倒灌至更早個案。"
+
+  - id: Q006
+    observed_at: "2026-10-23T14:23:00+08:00"
+    platform: "web"
+    query: "2026-10-22 梁文傑 館長 槍擊 中共 跨境鎮壓 推測 / 2026-10-21 黃逸豪 假車禍 中國"
+    scope: "陸委會官方新聞稿、中央社、民視"
+    result: found
+    notes: "確認黃逸豪案有獨立起訴證據鏈；館長案則只是由此延伸出的推測，梁文傑未宣告為既成偵查事實。"
+
+  - id: Q007
+    observed_at: "2026-10-23T14:23:00+08:00"
+    platform: "web"
+    query: "寶和會 竹聯幫 張安樂 白狼 統促黨 中國 關係 館長槍擊"
+    scope: "公開新聞與司法資料"
+    result: partial
+    notes: "可確認寶和會屬竹聯幫和堂；另可找到其他竹聯背景人物與統促黨／親中活動的公開資料，但本輪未找到把2020館長槍擊案之寶和會上游委託鏈直接連到張安樂、統促黨、中共或中國機關的證據。組織背景不能取代個案因果證據。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "本案核心應拆成三條彼此不能互相代替的證據鏈：① 2020館長槍擊的實際犯罪鏈（寶和會→施俊吉→劉丞浩）；② 陳明文辦公室與部分寶和會槍手增見的行政／政治關係；③ 2026黃逸豪案引發的中國跨境鎮壓類比。"
+  - "對Facebook原貼最精確的判定是：『陳明文辦公室曾協助寶和會槍手增見』有事實基礎；『法院認證不起訴』的程序描述錯誤；『因此證明民進黨與寶和會為關係政黨、甚至民進黨策動館長槍擊』超出證據。"
+  - "對反方『館長就是中共跨境鎮壓』同樣不能提前定性：黃逸豪案證明這種操作模式現實存在，足以使假說值得查，但館長案目前公開證據仍缺上游委託人連結。"
+  - "北監接見爭議不能扁平化成『合法所以沒問題』或『有違失所以全部違法』：監察院文件同時留下行政失當／廉政程序違失、記過處分，以及刑事貪污查無事證與核准接見案件尚屬適法等不同層次結論。"
