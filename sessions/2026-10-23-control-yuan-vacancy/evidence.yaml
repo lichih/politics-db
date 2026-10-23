@@ -1,0 +1,275 @@
+session:
+  id: "2026-10-23-control-yuan-vacancy"
+  project: Politics
+  title: "第7屆監察委員提名、全數未通過與監察院空窗職權影響"
+  started_at: "2026-10-23T15:26:00+08:00"
+  updated_at: "2026-10-23T15:26:00+08:00"
+  status: active
+
+topics:
+  - 監察院
+  - 第7屆監察委員
+  - 人事同意權
+  - 陳永興
+  - 王榮璋
+  - 廖婉汝
+  - 謝政達
+  - 監委空窗
+  - 政治獻金
+  - 財產申報
+  - 彈劾
+  - 糾舉
+  - 糾正
+  - 修憲
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "中華民國總統府"
+    title: "總統府送交總統咨文請立法院行使監察院第七屆院長、副院長及監察委員提名案之同意權"
+    url: "https://www.president.gov.tw/News/40126"
+    published_at: "2026-06-11"
+    observed_at: "2026-10-23T15:26:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "賴清德於2026-06-11提名29人為第7屆監察委員，其中陳永興為院長、王榮璋為副院長。"
+      - "咨文明載第6屆監察委員任期於2026-07-31屆滿。"
+
+  - id: S002
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "謝政達聲明支持廢除監察院　婉拒監委提名"
+    url: "https://www.cna.com.tw/news/aipl/202606160109.aspx"
+    published_at: "2026-06-16"
+    observed_at: "2026-10-23T15:26:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "謝政達於2026-06-16公開婉拒監委提名，並稱此舉是對立法院提出廢除監察院憲法修正案的具體支持。"
+
+  - id: S003
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "繼謝政達後　國民黨前立委廖婉汝婉拒監委提名"
+    url: "https://www.cna.com.tw/news/aipl/202606160333.aspx"
+    published_at: "2026-06-16"
+    observed_at: "2026-10-23T15:26:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "廖婉汝於同日公開婉拒監委提名，並稱支持廢除監察院的修憲主張。"
+      - "因此原29名被提名人中有2人撤回／婉拒，後續實際表決27人。"
+
+  - id: S004
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網"
+    title: "第11屆第6會期第1次會議－監察院人事同意權案"
+    url: "https://ppg.ly.gov.tw/ppg/sittings/2026092356/details?meetingDate=115%2F09%2F29"
+    published_at: "2026-09-29"
+    observed_at: "2026-10-23T15:26:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "立法院院會議程列出原29人名單，其中廖婉汝、謝政達註明撤回。"
+      - "2026-09-29進行監察院人事同意權記名投票。"
+
+  - id: S005
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網"
+    title: "第11屆第6會期第01期公報初稿－監察院人事同意權案"
+    url: "https://ppg.ly.gov.tw/ppg/publications/official-gazettes-draft/11/06/01/01/details"
+    published_at: "2026-09-29"
+    observed_at: "2026-10-23T15:26:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "院會紀錄將監察院第7屆人事同意案記為『不同意』。"
+
+  - id: S006
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "監察院人事同意權案　27位被提名人全遭立院否決"
+    url: "https://www.cna.com.tw/news/aipl/202609290186.aspx"
+    published_at: "2026-09-29"
+    observed_at: "2026-10-23T15:26:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "27位被提名人均未獲超過全體立委二分之一的57票門檻。"
+      - "國民黨與民眾黨對監委被提名人皆投不同意。"
+      - "陳永興、王榮璋各獲50票同意、60票不同意；其餘人選同意票約49至50票。"
+
+  - id: S007
+    source_type: primary
+    publisher: "監察院"
+    title: "立法院尚未行使監委同意權前 監察院及國家人權委員會法定職權無法踐履 惟陳情、檢舉案件及廉政業務仍持續受理"
+    url: "https://multimedia.cy.gov.tw/News_Content.aspx?n=796&s=37854"
+    published_at: "2026-08-03"
+    observed_at: "2026-10-23T15:26:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第6屆監委任期於7月31日屆滿，第7屆尚未到任。"
+      - "陳情仍可收件、登記、研析；但監委接見、立案調查及相關審議程序暫無法進行。"
+      - "陽光四法之申報受理、資訊公開、檢舉、法令諮詢、查閱等一般行政服務仍維持；但由監委組成之廉政委員會無法組成，相關案件審議、裁罰及行政處分暫無法進行。"
+
+  - id: S008
+    source_type: primary
+    publisher: "監察院"
+    title: "第7屆監察委員人事案未獲立法院通過導致職權空轉，衝擊人民權益保障"
+    url: "https://www.cy.gov.tw/News_Content.aspx?n=795&s=38081"
+    published_at: "2026-09-29"
+    observed_at: "2026-10-23T15:26:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "監察院表示第6屆任期7月31日屆滿、第7屆未能就任，彈劾、糾舉、糾正等重要監察職權無從行使。"
+
+  - id: S009
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "中華民國憲法增修條文"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002"
+    observed_at: "2026-10-23T15:26:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第7條：監察院設監察委員29人，任期6年，由總統提名、立法院同意任命；監委須超出黨派依法獨立行使職權。"
+      - "第12條：修憲須經立法院特別高門檻通過後，再經自由地區選舉人複決。"
+
+  - id: S010
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "監察法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030199"
+    observed_at: "2026-10-23T15:26:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "監察院以監察委員行使彈劾權、糾舉權，並以各委員會提出糾正案。"
+      - "彈劾需監委提議與其他監委審查決定，因此監委空缺會直接影響此類權限行使。"
+
+facts:
+  - id: F001
+    statement: "賴清德於2026年6月11日提名29人為第7屆監察委員，其中陳永興為院長被提名人、王榮璋為副院長被提名人。"
+    status: verified
+    observed_at: "2026-10-23T15:26:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "總統府咨文直接確認29人名單與正副院長安排。"
+    tags: [第7屆監委, 提名, 29人]
+
+  - id: F002
+    statement: "謝政達與廖婉汝在2026年6月16日先後婉拒監委提名，兩人均公開把支持廢除監察院的修憲主張列為理由，因此後續實際進入立法院表決者為27人。"
+    status: verified
+    observed_at: "2026-10-23T15:26:00+08:00"
+    source_ids: [S002, S003, S004]
+    evidence_summary: "兩人公開聲明與立法院議程上的『撤回』記載可交叉確認。"
+    tags: [謝政達, 廖婉汝, 撤回, 廢除監察院]
+
+  - id: F003
+    statement: "第6屆監察委員任期於2026年7月31日屆滿；第7屆未於8月1日就任，監察院自8月起進入無監委的職權空窗。"
+    status: verified
+    observed_at: "2026-10-23T15:26:00+08:00"
+    source_ids: [S001, S007, S008]
+    evidence_summary: "總統咨文與監察院官方新聞稿均確認任期屆滿與新任未到任。"
+    tags: [監委空窗, 7月31日, 8月1日]
+
+  - id: F004
+    statement: "2026年9月29日立法院就27名第7屆監委被提名人行使同意權，27人全部未達57票門檻，均未獲同意。"
+    status: verified
+    observed_at: "2026-10-23T15:26:00+08:00"
+    source_ids: [S004, S005, S006]
+    evidence_summary: "立法院會議紀錄與中央社投票結果一致。"
+    tags: [9月29日, 人事同意權, 27人, 全數未過]
+
+  - id: F005
+    statement: "監委空窗期間，監察院仍可受理、登記與研析人民陳情，陽光四法的申報受理、資訊公開、檢舉、法令諮詢與查閱等一般行政服務也仍維持。"
+    status: verified
+    observed_at: "2026-10-23T15:26:00+08:00"
+    source_ids: [S007]
+    evidence_summary: "監察院官方明確區分仍可持續的一般行政與陳情服務。"
+    tags: [陳情, 陽光四法, 持續運作]
+
+  - id: F006
+    statement: "監委空窗期間，監察委員接見、立案調查及相關審議程序無法進行；彈劾、糾舉、糾正等核心監察職權亦無法行使。"
+    status: verified
+    observed_at: "2026-10-23T15:26:00+08:00"
+    source_ids: [S007, S008, S010]
+    evidence_summary: "監察院官方與監察法規範可直接建立監委缺位與核心職權中斷的連結。"
+    tags: [彈劾, 糾舉, 糾正, 立案調查, 職權空轉]
+
+  - id: F007
+    statement: "監委空窗期間，由監察委員組成的廉政委員會無法組成，相關陽光法案案件的審議、裁罰、行政處分及部分裁罰資訊公告暫無法辦理。"
+    status: verified
+    observed_at: "2026-10-23T15:26:00+08:00"
+    source_ids: [S007]
+    evidence_summary: "監察院官方明確指出停擺的是需要廉政委員會決定的審議、裁罰與行政處分，不是全部申報或公開業務。"
+    tags: [政治獻金, 財產申報, 廉政委員會, 裁罰]
+
+  - id: F008
+    statement: "現行憲法增修條文仍明定監察院及29名監察委員制度；若要廢除監察院，須透過憲法修正程序，而非單以普通法律或人事否決即可完成。"
+    status: verified
+    observed_at: "2026-10-23T15:26:00+08:00"
+    source_ids: [S009]
+    evidence_summary: "憲法增修條文第7條直接設置監察院及監委，第12條規定修憲程序。"
+    tags: [修憲, 廢除監察院, 憲法]
+
+claims:
+  - id: C001
+    statement: "2026年8月起監察院完全停止所有業務，連人民陳情、政治獻金申報、財產申報與資訊公開都無法受理。"
+    status: contradicted
+    contradicts: [F005, F007]
+    reasoning_notes: "監察院官方資料顯示陳情、檢舉與陽光四法一般行政服務仍持續；停擺的是需要監委或廉政委員會決定的調查、審議、裁罰與行政處分等。"
+
+  - id: C002
+    statement: "監委空窗不會影響彈劾、糾舉、糾正或立案調查等核心監察職權。"
+    status: contradicted
+    contradicts: [F006]
+    reasoning_notes: "監察院官方與監察法均顯示這些職權依賴監察委員，空窗期間無法正常行使。"
+
+  - id: C003
+    statement: "2026年9月29日遭表決否決的是原始29名被提名人全部。"
+    status: contradicted
+    contradicts: [F002, F004]
+    reasoning_notes: "原始名單29人，但謝政達與廖婉汝已先撤回／婉拒，實際表決為27人。"
+
+  - id: C004
+    statement: "謝政達與廖婉汝只是被國民黨施壓後被迫撤回，兩人本人沒有公開說明支持廢除監察院。"
+    status: contradicted
+    contradicts: [F002]
+    reasoning_notes: "兩人都公開以支持廢除監察院修憲主張作為婉拒提名的理由；是否另受黨內溝通或壓力，需另以直接證據處理。"
+
+  - id: C005
+    statement: "監察院是憲法明定的機關，所以立法院依法不能不同意總統提出的監委人選。"
+    status: contradicted
+    contradicts: [F004, F008]
+    reasoning_notes: "憲法增修條文第7條本身即規定監委由總統提名、經立法院同意任命；立法院同意權包含不同意的制度可能性。"
+
+  - id: C006
+    statement: "監察院空窗造成實際監督成本。"
+    status: supported
+    supports: [F006, F007]
+    reasoning_notes: "核心調查、彈劾、糾舉、糾正及部分廉政案件裁罰確實受阻；此結論只處理空窗的功能效果，不回答27名人選是否適任、立法院是否應同意或責任應如何分配。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-23T15:26:00+08:00"
+    platform: politics-db
+    query: "監察委員 29人 27人 9月29日 空窗 8月1日"
+    scope: "lichih/politics-db main"
+    result: partial
+    notes: "既有監委可問責性與人事同意權比較session有相關背景，但尚未建立第7屆提名、撤回、空窗與職權影響的專門時間線。"
+
+  - id: Q002
+    observed_at: "2026-10-23T15:26:00+08:00"
+    platform: web
+    query: "2026第7屆監察委員提名、謝政達廖婉汝撤回、9月29日同意權、8月空窗職權"
+    scope: "總統府、立法院、監察院、全國法規資料庫、中央社"
+    result: found
+    notes: "primary可建立29人提名、2人撤回、27人表決、任期空窗與職權影響；中央社補足具體投票數與兩人公開婉拒理由。"
+
+promotion:
+  research:
+    - "第7屆監察委員人事同意權與監察院空窗"
+  cases:
+    - "2026-09-29監察院人事同意權全數未過"
+  comparators:
+    - "sessions/2026-10-22-nomination-gridlock-counterexample/evidence.yaml"
+    - "sessions/2026-10-22-control-yuan-commissioner-accountability/evidence.yaml"
+
+notes:
+  - "本session只處理可驗證時間線與空窗效果，不把『空窗有成本』直接推成『27人應被同意』。"
+  - "同樣地，27人全數未過本身也不能自動證明每一名被提名人都不適任；若要評估立法院是否逐一合理審查，需另建候選人別理由與投票紀錄。"
+  - "政治獻金／財產申報應精確區分：一般申報、公開與檢舉行政仍持續；需要廉政委員會的審議、裁罰、行政處分則停擺。"
+  - "『監察院是憲法機關』只能證明現制仍應依憲法運作與廢除需修憲，不能消滅立法院對個別被提名人的同意權。"
