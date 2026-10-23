@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "公權力不可證偽性與可驗證性缺口：長期研究主軸"
   started_at: "2026-10-20T17:10:48+08:00"
-  updated_at: "2026-10-21T13:48:00+08:00"
+  updated_at: "2026-10-23T15:32:00+08:00"
   status: active
 
 topics:
@@ -26,6 +26,11 @@ topics:
   - 逢甲辣椒水
   - 警察證據保全
   - FMS
+  - 行政解釋
+  - 參政權
+  - 被選舉權
+  - burden inversion
+  - normative-gap
 
 sources:
   - id: S001
@@ -302,6 +307,63 @@ sources:
       - "臺中市警察局長說周俊銘身為分局長原可不攜帶辣椒水卻主動具領；事發後未第一時間坦承，並涉及其他嚴重違反紀律行為。"
       - "報導亦記載周當晚將辣椒水罐丟入逢甲夜市垃圾桶，後由警方查扣。"
 
+
+  - id: S025
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "臺灣地區與大陸地區人民關係條例"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=Q0010001"
+    observed_at: "2026-10-23T15:32:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "現行第21條文字仍以『在臺灣地區設有戶籍滿十年』作為原大陸地區人民登記公職候選人的限制條件，條文本身未寫明『自繳附喪失原籍證明日起算』。"
+
+  - id: S026
+    source_type: primary
+    publisher: "中華民國大陸委員會"
+    title: "政府兼顧執法公平性及人道實務需求，提出補繳證件替代方案以及各項便民協助措施"
+    url: "https://www.mac.gov.tw/News_Content.aspx?n=9223A12B5B31CB37&s=510A81BC2E076981&sms=35FA2C4073CF4DFB"
+    published_at: "2025-04-16"
+    observed_at: "2026-10-23T15:32:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "陸委會公布具結替代方案，明列『在中國大陸出生、學齡前返臺定居、主張從未在陸設籍並經主管機關審核確認』之類型。"
+      - "此來源證明政府制度上承認『中國出生但可能從未在大陸設籍』，因此出生地或欠缺喪失原籍證明都不能單獨完成歷史戶籍事實判定。"
+
+  - id: S027
+    source_type: primary
+    publisher: "行政院公報／大陸委員會"
+    title: "陸法字第1150400418號令：核釋兩岸條例第21條設籍滿十年起算"
+    url: "https://gazette.nat.gov.tw/egFront/eguploadpubWrapper?file=%2FEG_FileManager%2Feguploadpub%2Feg032067%2Fch01%2Ftype2%2Fgov04%2Fnum1%2FEg.htm&metaid=164900"
+    published_at: "2026-04-16"
+    observed_at: "2026-10-23T15:32:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "陸委會將第21條所稱在臺設籍滿十年，核釋為自當事人向主管機關完成繳附喪失中國大陸戶籍證明之日起算。"
+
+  - id: S028
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "花蓮中配村長鄧萬華兒接棒參選　遭撤銷資格"
+    url: "https://www.cna.com.tw/news/aloc/202610210338.aspx"
+    published_at: "2026-10-21"
+    observed_at: "2026-10-23T15:32:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導引述花蓮縣選委會：中選會以賴汶佑未完成繳附喪失中國大陸戶籍證明為由，撤銷原准予登記之決議。"
+      - "賴汶佑則主張自己出生6個月即返臺並在臺設籍，從未在中國大陸設戶籍、領身分證或護照。"
+
+  - id: S029
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "花蓮陸配村長之子未能參選　陸委會：尊重提救濟權益"
+    url: "https://www.cna.com.tw/news/acn/202610220363.aspx"
+    published_at: "2026-10-22"
+    observed_at: "2026-10-23T15:32:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "陸委會副主委梁文傑表示，原籍大陸人士來臺設籍時政府會有資料，但同時保留『除非當時在大陸沒有設籍』的情況；當事人有疑義可向移民署查詢。"
+
 facts:
   - id: F001
     statement: "高虹安助理費案中，王郁文2023年4月12日偵訊影音存在約16分鐘中斷；公訴檢察官並未否認中斷，而主張該段未就犯罪事實訊問、屬與律師溝通及交換法律意見。"
@@ -453,6 +515,35 @@ facts:
       - "這些行為支持證據保全／時序可驗證性缺口，但不能自行證明政治指示、滅證故意或陰謀。"
     tags: [逢甲辣椒水, record-gap, evidence-lifecycle, police, auditability]
 
+
+  - id: F017
+    statement: "政府2025年補繳喪失原籍證明的替代制度，明確承認存在『在中國大陸出生、學齡前返臺定居、主張從未在大陸設籍』的類型，並允許經主管機關審核後以具結方式處理。"
+    status: verified
+    observed_at: "2026-10-23T15:32:00+08:00"
+    source_ids: [S026]
+    evidence_summary: "這提供一個重要baseline：中國出生、原陸籍標記或欠缺喪失原籍證明，不必然等同於歷史上確實曾設有中國大陸戶籍。"
+    tags: [陸配, 從未設籍, 具結替代, burden-inversion, baseline]
+
+  - id: F018
+    statement: "兩岸條例第21條法律本文寫的是『在臺灣地區設有戶籍滿十年』；2026年4月16日陸委會行政核釋則進一步把十年起算點定為『向主管機關完成繳附喪失中國大陸戶籍證明之日』。"
+    status: verified
+    observed_at: "2026-10-23T15:32:00+08:00"
+    source_ids: [S025, S027]
+    evidence_summary: "法條與核釋可直接文本比較，確認明確起算基準出現在行政核釋而非第21條本文。"
+    verification_notes:
+      - "這是規範文字來源的比較，不等於已判定該核釋逾越法律授權或違憲。"
+    tags: [第21條, 行政核釋, 被選舉權, normative-gap, 法律保留]
+
+  - id: F019
+    statement: "賴汶佑2026年村長候選資格案中，地方選委會原准予登記後，中選會以未完成繳附喪失中國大陸戶籍證明為由要求撤銷；賴汶佑主張自己從未在中國大陸設籍，而陸委會後續公開回應亦承認制度上存在『當時在大陸沒有設籍』的可能。"
+    status: partial
+    observed_at: "2026-10-23T15:32:00+08:00"
+    source_ids: [S028, S029]
+    evidence_summary: "可確認行政處理結果、公開理由、當事人反方主張與主管機關對『從未設籍』可能性的公開承認；但本次尚未取得中選會第628次會議完整紀錄、個案處分全文與原始移民／戶籍案卷。"
+    verification_notes:
+      - "因此目前不能確認賴汶佑實際是否曾有中國大陸戶籍，也不能把處分存在本身當成處分合法性的證明。"
+    tags: [賴汶佑, 候選人資格, burden-inversion, 參政權, unresolved]
+
 claims:
   - id: C001
     statement: "『爭議因缺乏可獨立重建的原始紀錄而長期停在unresolved』與『已證明官方沒有問題』是同一件事。"
@@ -556,6 +647,26 @@ claims:
     supports: [F016]
     reasoning_notes: "支持的是auditability gap，而非任何特定政治陰謀。它與北檢record-gap案例的共同結構在於：掌握或形成關鍵紀錄的公權力行為人／機關，同時也是被質疑的對象；當原始紀錄缺失或證據生命周期受損，後續官方說明不能自動把unresolved轉成exonerated。"
 
+
+  - id: C016
+    statement: "公權力auditability不只涉及『有沒有留下紀錄』，也包括『限制人民權利的規範效果如何形成』：當行政解釋、證明文件要求與身分認定共同決定被選舉權時，應分開檢查母法文字、後來核釋、歷史事實前提、舉證責任及救濟機制。"
+    status: supported
+    supports: [F017, F018, F019]
+    related_facts: [F011, F012, F013]
+    reasoning_notes: "這是本母題新增的normative-audit維度。它不預設行政核釋違法，而是要求能追溯『法律原文→行政解釋→個案事實認定→權利效果』每一跳的authority與證據。"
+
+  - id: C017
+    statement: "『未繳附喪失中國大陸戶籍證明』本身足以證明當事人歷史上一定曾在中國大陸設有戶籍。"
+    status: contradicted
+    contradicts: [F017, F019]
+    reasoning_notes: "政府自己的制度已承認『中國出生但從未在陸設籍』類型，陸委會在賴案回應也明確保留此可能。未繳證明可以是程序／資格判斷中的一項資料，但不能單獨完成『曾設籍』這個歷史正面事實的證明。"
+
+  - id: C018
+    statement: "2026年4月16日陸委會核釋把『繳附喪失原籍證明日』作為第21條十年起算點，依法當然只是既有法意的單純說明，因此不涉及法律保留、時間適用、信賴保護或比例原則問題。"
+    status: unresolved
+    related_facts: [F018, F019]
+    reasoning_notes: "法條本文與核釋文字確有差異；是否屬合法解釋或實質新增被選舉權限制，必須進一步處理授權範圍、歷史規範、適用時點及司法救濟，不能由行政機關自我定性即結案。"
+
 searches:
   - id: Q001
     observed_at: "2026-10-20T17:10:48+08:00"
@@ -621,6 +732,15 @@ searches:
     result: partial
     notes: "找到一審與二審官方新聞稿及2026-01-05高檢署上訴報導；本次查詢未找到截至2026-10-21最高法院就本案作成終局判決的公開資料。not_found不等於不存在。"
 
+
+  - id: Q009
+    observed_at: "2026-10-23T15:32:00+08:00"
+    platform: "politics-db + web"
+    query: "賴汶佑／從未設籍／第21條十年起算／行政核釋／喪失原籍證明"
+    scope: "既有陸配政策session、游智彬候選資格session、兩岸條例、行政院公報、陸委會與中央社"
+    result: partial
+    notes: "確認母法文字、2026核釋新增的明確起算基準、政府既有『從未設籍』替代類型及賴汶佑個案的公開處分理由。原始個案案卷與中選會第628次會議完整紀錄仍待取得。"
+
 promotion:
   cases: []
   comparators:
@@ -631,10 +751,12 @@ promotion:
     - "record monopoly：法院官方錄音與私人自行錄音限制"
     - "movable failure state：FMS estimated delivery、台糖再次管收trigger"
     - "claim inflation：一般國安威脅模型→特定帳號群→特定政治情緒因果"
+    - "normative / burden gap：第21條母法文字→2026行政核釋十年起算→個案是否曾有陸籍→未繳證明的資格效果；以賴汶佑、游智彬案比較行政規範與歷史事實的分層"
   research:
     - "將本檔維持為『公權力不可證偽性』母題；子案不重複重建全部世界，只回填各自authoritative evidence，再於本檔引用其mechanism。"
     - "建立反例集：同樣受到重大質疑，但後續以完整原始資料、獨立調查或明確failure state成功證偽的公權力案例。"
     - "把auditability gap與制度信任變化做社會科學層級驗證，避免由案例直接推定因果效果。"
+    - "追蹤賴汶佑行政救濟、中選會第628次委員會議、115年8月12日函及移民署歷史案卷，檢驗『曾設籍』事實前提與第21條適用鏈。"
 
 notes:
   - "本檔自2026-10-21起升格為長期母題。分類維度至少包括：record gap（關鍵紀錄缺失）、record monopoly（紀錄只掌握在被質疑機關）、document integrity（公開文件形成／完整性爭議）、attribution opacity（敵對勢力／認知作戰歸因不可外部重建）、movable failure state（義務終點可持續後移）、adjacent answer（回答相鄰命題但未回答核心質疑）、burden inversion（把應由公權力證明之事項倒給被標記者自證）、external audit/remedy（是否有獨立覆核、錯誤更正與救濟）。"
@@ -647,3 +769,5 @@ notes:
   - "逢甲辣椒水子案：sessions/2026-10-21-huang-kuo-chang-public-claim-counterexamples/evidence.yaml。其用途限於比較auditability mechanism，不把政治動機升格為既成事實。"
   - "相關既有evidence：cases/2026-10-20-ko-wen-je-judicial-proceedings/evidence.yaml；sessions/2026-10-15-taipei-prosecutor-drug-case/evidence.yaml；sessions/2026-10-20-wu-nai-ren-taisugar-debt-enforcement/evidence.yaml；sessions/2026-10-20-renwu-taisugar-soil-yard-clearing/evidence.yaml；sessions/2026-10-09-defense-procurement-governance/evidence.yaml；research/2026-10-20-obligation-without-failure-state/evidence.yaml。"
   - "stopping rule：本節點不追求『收完所有案例』。只在新案例能增加新的mechanism、提供反例、或實質改變C002/C009判斷時再更新。"
+  - "2026-10-23新增normative-audit維度：公權力可驗證性不只問『事實紀錄能否重建』，也問『權利限制的規範鏈能否逐層追溯』。行政機關的新聞稿或核釋可以證明機關採取何種立場，但不能自行完成母法授權、歷史事實前提與憲法正當性的證明。"
+  - "賴汶佑子題詳見sessions/2026-10-22-mainland-spouse-victim-policy-burden/evidence.yaml；第21條十年起算的歷史法源與法律保留問題詳見sessions/2026-10-17-you-zhibin-candidacy-ten-year-rule/evidence.yaml。母題只抽取mechanism，不用案例數量替違法或政黨動機結論加權。"
