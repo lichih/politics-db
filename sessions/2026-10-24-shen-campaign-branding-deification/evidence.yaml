@@ -1,0 +1,437 @@
+session:
+  id: 2026-10-24-shen-campaign-branding-deification
+  project: Politics
+  title: 沈伯洋競辦／民進黨官方「洋流」品牌的人格與能力拔高：造神指控的可驗證證據與基準
+  started_at: '2026-10-24T21:33:09+08:00'
+  updated_at: '2026-10-24T21:33:09+08:00'
+  status: active
+topics:
+- 沈伯洋
+- 洋流
+- 競選品牌
+- 競選辦公室
+- 民進黨
+- 造神
+- 人格品牌
+- 能力品牌
+- 選戰策略
+- 支持者符號
+- 比較基準
+sources:
+- id: S001
+  source_type: secondary
+  publisher: 天下雜誌
+  title: 2026九合一選舉》沈伯洋如何造「洋流」？一場198天的台北市長品牌戰
+  url: https://www.cw.com.tw/article/5143220
+  published_at: '2026-10-08'
+  observed_at: '2026-10-24T21:33:09+08:00'
+  retrieval_status: reachable
+  notes:
+  - 報導直接描述『洋流』為沈伯洋競選團隊主打的品牌戰。
+  - 引述綠營幕僚稱這是『從提名開始就啟動，198天的大型行銷活動』，目的為打出品牌差異化。
+  - 報導稱團隊利用沈伯洋知名度仍可塑的狀態重塑品牌形象，從抗中保台先鋒轉向陽光／暖男／乖孫形象。
+  - 競辦發言人蔡一愷表示選戰以理念與政策論述為主軸，並把沈伯洋描述為理性、正向、論述清楚。
+- id: S002
+  source_type: primary
+  publisher: 民主進步黨
+  title: 台北競總「洋流號」啟航　賴清德：盼「洋流匯聚」送沈伯洋進市府
+  url: https://www.dpp.org.tw/media/contents/11790
+  published_at: '2026-09-30'
+  observed_at: '2026-10-24T21:33:09+08:00'
+  retrieval_status: reachable
+  notes:
+  - 民進黨官方新聞稿記錄沈伯洋競總『洋流號』與『大台北洋流』選戰符號。
+  - 賴清德把『洋流』描述為溫暖、豐盛、有方向且充滿力量，並稱其能照顧各族群與家庭、帶領台北走向世界、改變選舉風氣。
+  - 官方敘事邀請市民透過數位參與成為『船員』與『造浪者』。
+- id: S003
+  source_type: secondary
+  publisher: 中央社
+  title: 賴清德開箱沈伯洋競總　大洋流計畫10月啟動
+  url: https://www.cna.com.tw/news/aloc/202609300119.aspx
+  published_at: '2026-09-30'
+  observed_at: '2026-10-24T21:33:09+08:00'
+  retrieval_status: reachable
+  notes:
+  - 記錄競總正式啟動『大洋流計畫』，包括洋流號車隊掃街、宣講與數位互動。
+  - 記錄官方LINE綁定、船員證、洋流望遠鏡／雷達／未來航線等參與機制。
+  - 可證明『洋流』已進入正式競選組織與活動設計，不只是鬆散支持者自稱。
+- id: S004
+  source_type: primary
+  publisher: 民主進步黨
+  title: 沈伯洋台北競選總部成立　賴清德：將對手攻擊視為有機會展開對話的起點，這就是沈伯洋的高度
+  url: https://www.dpp.org.tw/content_print/media/11797
+  published_at: '2026-10-04'
+  observed_at: '2026-10-24T21:33:09+08:00'
+  retrieval_status: reachable
+  notes:
+  - 民進黨官方新聞稿記錄賴清德稱沈伯洋始終把市民放第一、展現謙卑、不走負面攻擊捷徑，並以『這就是沈伯洋的高度』作人格評價。
+  - 同文把支持者比喻為萬千水滴，匯聚成『不可或缺的力量』，承載首都期待與願景送沈伯洋進市府。
+  - 同文稱台灣值得擁有一個更好的首都市長。
+- id: S005
+  source_type: secondary
+  publisher: 中央社
+  title: 蕭美琴讚沈伯洋是行動知識庫　盼洋流帶動北市溫暖希望
+  url: https://www.cna.com.tw/news/aipl/202610040139.aspx
+  published_at: '2026-10-04'
+  observed_at: '2026-10-24T21:33:09+08:00'
+  retrieval_status: reachable
+  notes:
+  - 記錄副總統蕭美琴在沈伯洋競總成立大會稱沈伯洋是『行動知識庫』且『無比謙卑』。
+  - 並稱華府朋友與官員來台時多人點名想見沈伯洋，描述其有深度、知識及跨域能力。
+  - 此來源是公開站台敘事的二手記錄，不等於競辦自行撰寫每一句稱讚。
+- id: S006
+  source_type: primary
+  publisher: 民主進步黨
+  title: 民進黨創黨40週年　賴清德：承接前輩勇氣　鞏固主權、捍衛民主　讓民進黨成為保護台灣第一品牌
+  url: https://www.dpp.org.tw/media/contents/11789
+  published_at: '2026-09-29'
+  observed_at: '2026-10-24T21:33:09+08:00'
+  retrieval_status: reachable
+  notes:
+  - 官方新聞稿記錄沈伯洋把『洋流』連結溫暖、勇氣、明確方向、民主世代傳承與守護台灣。
+  - 可證明候選人本人也把競選品牌提升為超出單一市政議題的價值／使命敘事。
+- id: S007
+  source_type: secondary
+  publisher: 中央社
+  title: 「洋流」現象 沈伯洋：代表整個台灣和渴求新治理方式
+  url: https://www.cna.com.tw/news/aipl/202609280148.aspx
+  published_at: '2026-09-28'
+  observed_at: '2026-10-24T21:33:09+08:00'
+  retrieval_status: reachable
+  notes:
+  - 記錄沈伯洋稱『洋流』不是他一個人，而是代表整個台灣、代表大家對新治理方式的渴求。
+  - 此說法把競選品牌連結到全台灣與新治理方式的象徵性意義。
+- id: S008
+  source_type: secondary
+  publisher: 中央社
+  title: 沈伯洋推8款競選小物　公布2名年輕發言人
+  url: https://www.cna.com.tw/news/aloc/202608250080.aspx
+  published_at: '2026-08-25'
+  observed_at: '2026-10-24T21:33:09+08:00'
+  retrieval_status: reachable
+  notes:
+  - 記錄競辦『洋流好物』與官方發言人發布記者會。
+  - 沈伯洋稱『洋流』代表溫柔與想改變的力量，希望市民感受到他對台北的愛與勇氣並『流進北市府』。
+- id: S009
+  source_type: secondary
+  publisher: 中央社
+  title: 競選小物拚創意　參選人推帽子、布偶掛飾搶人氣
+  url: https://www.cna.com.tw/news/aipl/202610180101.aspx
+  published_at: '2026-10-18'
+  observed_at: '2026-10-24T21:33:09+08:00'
+  retrieval_status: reachable
+  notes:
+  - 記錄競辦官方競選小物把『奔奔』設定為向前奔跑的勇氣、『抱抱』設定為接住市民的溫暖。
+  - 同時記錄競辦承認大量海報、貼紙、胸章、飄帶、布旗等來自支持者自發創作，保留民間自主發展空間。
+- id: S010
+  source_type: secondary
+  publisher: 中央社
+  title: 沈伯洋競辦：未委託私人募款　視冒名情節依法處置
+  url: https://www.cna.com.tw/news/aloc/202610030121.aspx
+  published_at: '2026-10-03'
+  observed_at: '2026-10-24T21:33:09+08:00'
+  retrieval_status: reachable
+  notes:
+  - 競辦明確劃定授權邊界：除競辦發布或提供的文宣及小物外，其餘支持者作品均未授權、非指示或委託。
+  - 此來源防止把所有『洋流』支持者內容自動歸因於競辦。
+- id: S011
+  source_type: primary
+  publisher: 民主進步黨
+  title: 民進黨提名台北市長候選人　賴清德：沈伯洋是一流人才、市長不二人選、有三度空間的治理能力
+  url: https://www.dpp.org.tw/content_print/media/11580
+  published_at: '2026-05-13'
+  observed_at: '2026-10-24T21:33:09+08:00'
+  retrieval_status: reachable
+  notes:
+  - 記錄提名時以『一流人才』『不二人選』『高度、廣度、溫度』等語言推薦沈伯洋。
+  - 但這類超級詞必須與其他候選人的常規提名話術比較，不能單獨當作造神證據。
+- id: S012
+  source_type: primary
+  publisher: 民主進步黨
+  title: 黃世杰南桃園競總成立　賴清德：桃園條件得天獨厚，需要一流人才帶領
+  url: https://www.dpp.org.tw/media/contents/11796
+  published_at: '2026-10-03'
+  observed_at: '2026-10-24T21:33:09+08:00'
+  retrieval_status: reachable
+  notes:
+  - 對照樣本：民進黨也稱黃世杰為『一流人才』，證明此詞屬可重複使用的常規候選人讚語之一。
+- id: S013
+  source_type: primary
+  publisher: 民主進步黨
+  title: 蘇巧慧競總全台率先成立！賴清德大讚蘇巧慧：不僅有效率、更多一份溫柔，帶領新北開創新時代
+  url: https://www.dpp.org.tw/content_print/media/11750
+  published_at: '2026-09-05'
+  observed_at: '2026-10-24T21:33:09+08:00'
+  retrieval_status: reachable
+  notes:
+  - 對照樣本：賴清德稱蘇巧慧是新北市長『不二人選』，並使用效率、溫柔、溫暖、即戰力等人格／能力讚語。
+  - 顯示『不二人選』與部分人格讚語並非沈伯洋獨有。
+- id: S014
+  source_type: secondary
+  publisher: 中央社
+  title: 民進黨13日開選對會　預計徵召沈伯洋戰北市
+  url: https://www.cna.com.tw/news/aipl/202605110288.aspx
+  published_at: '2026-05-11'
+  observed_at: '2026-10-24T21:33:09+08:00'
+  retrieval_status: reachable
+  notes:
+  - 報導沈伯洋團隊在正式提名前已低調展開運作，規劃吳思瑤任總幹事、吳沛憶負責地方組織整合，政策由陳培瑜、范雲操刀。
+  - 也記錄沈伯洋在提名前已開始調整髮型、與市議員參選人合體造勢、走訪基層，作為選戰形象部署背景。
+facts:
+- id: F001
+  statement: 沈伯洋競選團隊把『洋流』明確作為長期品牌戰操作；綠營幕僚稱其為從提名起啟動的198天大型行銷活動，目的在打出品牌差異化並重塑候選人形象。
+  status: verified
+  observed_at: '2026-10-24T21:33:09+08:00'
+  source_ids:
+  - S001
+  - S014
+  evidence_summary: 《天下》直接以競選團隊主導品牌戰描述，並引述幕僚說明行銷與品牌差異化目的；中央社另記錄正式提名前團隊即已部署組織與形象活動。
+  verification_notes:
+  - 可證明品牌塑造是有意識的競選策略；不能僅由『有品牌戰』推出『造神』。
+  - 《天下》中的『綠營幕僚』非具名 primary source，因此策略細節仍屬高接近度二手來源。
+  tags:
+  - '2026'
+  - 沈伯洋
+  - 洋流
+  - campaign-branding
+  - image-reframing
+  - 198-days
+- id: F002
+  statement: 『洋流』已被正式整合進競總組織與參與機制，包括洋流號、台北大洋流計畫、車掃、市政開講、官方LINE船員證、洋流望遠鏡／雷達／未來航線，以及『船員』『造浪者』等角色符號。
+  status: verified
+  observed_at: '2026-10-24T21:33:09+08:00'
+  source_ids:
+  - S002
+  - S003
+  evidence_summary: 民進黨官方新聞稿與中央社對競總開箱活動的記錄互相支持，證明『洋流』不是僅存在於支持者自發用語，而是正式競選品牌與活動設計。
+  verification_notes:
+  - 這些符號可證明身份與參與設計的存在；是否構成領袖崇拜仍需比較一般競選品牌與支持者社群的常態。
+  tags:
+  - '2026'
+  - 洋流
+  - campaign-organization
+  - symbol-system
+  - supporter-identity
+- id: F003
+  statement: 民進黨主席在沈伯洋競總官方場合把『洋流』賦予溫暖、豐盛、方向、力量、照顧各族群、帶領台北走向世界及改變選舉風氣等多重正面價值。
+  status: verified
+  observed_at: '2026-10-24T21:33:09+08:00'
+  source_ids:
+  - S002
+  evidence_summary: 民進黨官方新聞稿直接保存賴清德對競選品牌的價值化描述。
+  tags:
+  - '2026'
+  - 洋流
+  - value-branding
+  - mission-framing
+  - DPP
+- id: F004
+  statement: 民進黨官方競總成立敘事反覆把沈伯洋描述為始終把市民放第一、謙卑、不走負面捷徑、願替對手解圍，並以『這就是沈伯洋的高度』作總結；同文稱台灣值得擁有一個更好的首都市長。
+  status: verified
+  observed_at: '2026-10-24T21:33:09+08:00'
+  source_ids:
+  - S004
+  evidence_summary: 官方新聞稿把多項行為上升為穩定人格與道德高度的候選人品牌。
+  verification_notes:
+  - 這比單純『政策正確』更接近人格拔高，但仍需與一般候選人站台讚語比較，不能單獨完成『造神』定性。
+  tags:
+  - '2026'
+  - 沈伯洋
+  - moral-elevation
+  - humility
+  - height
+  - campaign-rhetoric
+- id: F005
+  statement: 在沈伯洋競總成立大會上，副總統蕭美琴把沈伯洋描述為『行動知識庫』且『無比謙卑』，並以華府官員與友人常點名想見沈伯洋、其跨域知識與行動力等作能力與外部認可背書。
+  status: verified
+  observed_at: '2026-10-24T21:33:09+08:00'
+  source_ids:
+  - S005
+  evidence_summary: 中央社對公開站台致詞的記錄直接保存能力、謙卑與外部聲望三種人格／能力敘事。
+  verification_notes:
+  - 這是站台者的公開政治推薦，不等於競辦自行撰寫；但發生於競總成立大會，屬正式競選舞台的品牌敘事樣本。
+  tags:
+  - '2026'
+  - 沈伯洋
+  - action-knowledge-base
+  - humility
+  - external-validation
+- id: F006
+  statement: 沈伯洋本人把『洋流』連結到溫暖、勇氣、明確方向、民主世代傳承、守護台灣，並另稱『洋流』代表整個台灣及對新治理方式的渴求。
+  status: verified
+  observed_at: '2026-10-24T21:33:09+08:00'
+  source_ids:
+  - S006
+  - S007
+  - S008
+  evidence_summary: 民進黨官方與中央社分別記錄候選人把競選品牌從個人支持符號延伸到民主使命、國家守護及全台治理渴求。
+  verification_notes:
+  - 這可證明使命化與價值擴張；同時也可被解讀為把品牌去個人化、強調群體與治理理念，因此對『個人造神』具有雙向解讀，需要保留。
+  tags:
+  - '2026'
+  - 洋流
+  - mission-framing
+  - democracy
+  - Taiwan
+  - governance
+- id: F007
+  statement: 競辦把『洋流』品牌延伸到競選小物與吉祥物，將『奔奔』設定為勇氣、『抱抱』設定為接住市民的溫暖，形成可攜帶、可識別、可參與的支持者符號系統。
+  status: verified
+  observed_at: '2026-10-24T21:33:09+08:00'
+  source_ids:
+  - S008
+  - S009
+  evidence_summary: 中央社記錄官方競選小物、角色設定與品牌意義。
+  verification_notes:
+  - 政治品牌使用吉祥物與周邊十分常見；此 fact 只證明符號系統存在，不把周邊商品本身當作造神證據。
+  tags:
+  - '2026'
+  - campaign-merchandise
+  - mascot
+  - supporter-symbol
+  - 洋流
+- id: F008
+  statement: 沈伯洋競辦明確表示，除競辦發布或提供的文宣及小物外，其他支持者創作未經授權、非競辦指示或委託；因此『洋流』支持者生態不能全部歸因於競辦。
+  status: verified
+  observed_at: '2026-10-24T21:33:09+08:00'
+  source_ids:
+  - S009
+  - S010
+  evidence_summary: 競辦公開聲明與中央社後續報導都清楚劃分官方與自發支持者行為的責任邊界。
+  tags:
+  - '2026'
+  - attribution-boundary
+  - supporters
+  - campaign-office
+  - 洋流
+- id: F009
+  statement: 『一流人才』『不二人選』及效率、溫柔、溫暖等正面人格／能力讚語並非沈伯洋獨有；民進黨同樣以『一流人才』稱黃世杰、以『不二人選』及溫柔／效率稱蘇巧慧。
+  status: verified
+  observed_at: '2026-10-24T21:33:09+08:00'
+  source_ids:
+  - S011
+  - S012
+  - S013
+  evidence_summary: 民進黨官方候選人新聞稿提供直接 baseline，顯示部分超級詞屬一般選舉推薦語。
+  verification_notes:
+  - 因此不能把單一『一流人才』『不二人選』字樣直接計為沈伯洋特有的造神證據。
+  tags:
+  - '2026'
+  - baseline
+  - campaign-rhetoric
+  - comparison
+  - DPP
+claims:
+- id: C001
+  statement: 沈伯洋競選團隊與民進黨官方不是被動接受『洋流』現象，而是主動把『洋流』納入長期品牌塑造、正式競選組織、活動設計與支持者身份系統。
+  status: supported
+  supports:
+  - F001
+  - F002
+  - F003
+  - F007
+  contradicts: []
+  related_facts:
+  - F008
+  reasoning_notes: 『洋流』最初可由支持者發明，但後續競辦已正式吸收、設計與操作。F008 同時要求保留官方與民間自發行為邊界。
+- id: C002
+  statement: 官方競選敘事存在超出單純政策推介的候選人人格／能力拔高，包括道德高度、無比謙卑、行動知識庫、跨域能力、外部菁英認可，以及把品牌連結到民主使命與全台治理渴求。
+  status: supported
+  supports:
+  - F003
+  - F004
+  - F005
+  - F006
+  contradicts: []
+  related_facts:
+  - F009
+  reasoning_notes: 這一 claim 只描述可觀察的『人格／能力／使命』品牌結構，不直接等同『造神』。
+- id: C003
+  statement: 目前已蒐集的競辦／政黨官方材料足以直接證明沈伯洋競辦在『造神』。
+  status: unresolved
+  supports: []
+  contradicts: []
+  related_facts:
+  - F001
+  - F002
+  - F003
+  - F004
+  - F005
+  - F006
+  - F007
+  - F009
+  reasoning_notes: 證據已明確支持『主動品牌塑造＋人格能力拔高＋使命化＋支持者符號系統』，但『造神』仍是政治評價詞。部分元素屬一般競選常態，且尚未完成跨候選人頻率、強度、中心化程度與反例的系統 baseline；目前宜判為待比較，而非把標籤當事實。
+- id: C004
+  statement: 只要競辦或站台者使用『一流人才』『不二人選』等超級詞，就足以視為造神證據。
+  status: contradicted
+  supports: []
+  contradicts:
+  - F009
+  related_facts: []
+  reasoning_notes: 同黨對其他候選人也廣泛使用相似超級詞；這些詞單獨的鑑別力低。
+- id: C005
+  statement: 所有『洋流』支持者的文宣、貼文、募款與二創都能歸責於沈伯洋競辦。
+  status: contradicted
+  supports: []
+  contradicts:
+  - F008
+  related_facts:
+  - F002
+  - F007
+  reasoning_notes: 競辦已公開劃分官方授權與自發支持者作品；研究必須把競辦／政黨官方、自發支持者、媒體敘事分層。
+- id: C006
+  statement: 媒體自行使用『超強能力』『難怪中共害怕』等標題，可在沒有其他連結證據時直接歸因為競辦造神。
+  status: unsupported
+  supports: []
+  contradicts: []
+  related_facts:
+  - F001
+  - F008
+  reasoning_notes: 媒體敘事本身可以作『外部英雄化敘事』樣本，但除非能建立競辦授權、供稿、協同操作或轉載放大等連結，不能直接算成競辦行為。
+searches:
+- id: Q001
+  observed_at: '2026-10-24T21:33:09+08:00'
+  platform: GitHub politics-db
+  query: 沈伯洋／洋流／競辦／選戰策略／造神／人格品牌
+  scope: lichih/politics-db main
+  result: found
+  notes: 重用 sessions/2026-10-19-shen-branding-ko-methodology-contrast 與 sessions/2026-10-23-yangliu-self-image-supportive-discourse-sample；新 session 聚焦『競辦／政黨官方能否被指為造神』。
+- id: Q002
+  observed_at: '2026-10-24T21:33:09+08:00'
+  platform: public web
+  query: 沈伯洋 洋流 198天 大型行銷活動／競辦 品牌戰
+  scope: 天下雜誌與中央社
+  result: found
+  notes: 找到競選團隊主導品牌戰、198天行銷、提名前組織部署與形象轉換描述。
+- id: Q003
+  observed_at: '2026-10-24T21:33:09+08:00'
+  platform: public web
+  query: site:dpp.org.tw 沈伯洋 洋流 高度 行動知識庫 不二人選；黃世杰 一流人才；蘇巧慧 不二人選
+  scope: 民進黨官方新聞稿與中央社公開站台報導
+  result: found
+  notes: 取得沈伯洋的官方人格／能力／使命敘事，也取得同黨其他候選人的常規超級詞 baseline。
+- id: Q004
+  observed_at: '2026-10-24T21:33:09+08:00'
+  platform: public web
+  query: 沈伯洋競辦 洋流號 船員證 洋流雷達 造浪者 競選小物
+  scope: 民進黨官方、中央社、競總公開活動
+  result: found
+  notes: 確認『洋流』已被正式整合至競總活動、數位參與、支持者身份與周邊符號系統。
+- id: Q005
+  observed_at: '2026-10-24T21:33:09+08:00'
+  platform: public web
+  query: 沈伯洋競辦 未授權 支持者 文宣 小物 私人募款
+  scope: 競辦公開聲明與中央社
+  result: found
+  notes: 取得官方／自發支持者責任邊界，避免把所有洋流內容歸因競辦。
+promotion:
+  cases: []
+  comparators: []
+  research:
+  - proposed: political-campaign-deification-operational-criteria
+    rationale: 若後續完成蔣萬安、蘇巧慧、黃世杰等候選人的同型品牌資料，可把『造神』從修辭爭議轉成可比較的操作指標：人格／能力拔高、使命化、唯一性、敵人恐懼背書、支持者領袖中心化、對批評與反例的處理。
+notes:
+- 本 session 先證明競辦／政黨官方實際做了哪些品牌與人格敘事，不先把『造神』當既定結論。
+- 目前最有辨識力的不是『一流人才／不二人選』等常規讚語，而是多項能力、道德人格、外部菁英認可、使命敘事與支持者符號系統是否長期、集中地綁定在同一候選人身上。
+- 後續需建立跨候選人 baseline，尤其比較蔣萬安與同黨其他縣市長候選人的品牌強度、人格中心化與支持者身份設計。
+- 媒體自行英雄化沈伯洋可另列外部敘事層；在未建立競辦授權或協同連結前，不得直接計為競辦證據。
