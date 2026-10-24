@@ -804,7 +804,7 @@ claims:
   reasoning_notes: 這些是候選人本人與競辦可直接歸屬的材料，足以構成對沈伯洋案例的有效 comparator。
 - id: C012
   statement: 就目前已蒐集的高強度樣本，蔣萬安的人格光環化主要集中於溫暖、魄力、善良、正直、高度與城市使命；尚未在本次搜尋中找到與沈伯洋『還有什麼不會』『行動知識庫』『百年難得一見的練武奇才』同型、同密度的整體能力無上限化／稀有化語句。
-  status: partially_supported
+  status: supported
   supports:
   - F017
   - F018
