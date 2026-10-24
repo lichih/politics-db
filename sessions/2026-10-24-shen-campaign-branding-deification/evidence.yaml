@@ -3,7 +3,7 @@ session:
   project: Politics
   title: 沈伯洋競辦／民進黨官方「洋流」品牌的人格與能力拔高：造神指控的可驗證證據與基準
   started_at: '2026-10-24T21:33:09+08:00'
-  updated_at: '2026-10-24T21:36:46+08:00'
+  updated_at: '2026-10-24T22:24:12+08:00'
   status: active
 topics:
 - 沈伯洋
@@ -191,6 +191,73 @@ sources:
   - 頁面可見多首以候選人為中心的強烈情感／能力／奇蹟敘事，例如『跌破眼鏡 伯洋創天下奇蹟』『拔刀相助沈伯洋』『台北的光』『你是城市的光』『我好像戀愛了』等。
   - 五位音樂導師各自選一首再製；其中導師評語可見『聰明又善良的候選人』等人格描述，同時也有明確『不造神』的選民智慧文字。
   - 因官方規則是符合募集即收錄，所以不能把每一首歌的內容視為競辦創作或逐首背書；較準確的是競辦建立官方平台吸納、展示並部分策展支持者文化。
+- id: S016
+  source_type: secondary
+  publisher: 民視新聞
+  title: 大讚沈伯洋是「行動知識庫」　蕭美琴：每天還持續的在學習
+  url: https://www.ftvnews.com.tw/video/detail/LAYc_Lfgd-M
+  published_at: '2026-10-04'
+  observed_at: '2026-10-24T22:24:12+08:00'
+  retrieval_status: reachable
+  notes:
+  - 蕭美琴在沈伯洋競總成立大會稱沈伯洋是『行動知識庫』，不需要背誦或朗讀，並稱其聰明、專業且每天持續學習。
+  - 此為正式競總舞台上的高層站台發言；發言者不是競辦幕僚，但屬民進黨／競選支持體系的重要公開背書者。
+- id: S017
+  source_type: secondary
+  publisher: 民視新聞
+  title: 沈伯洋站台秀繞口令還飆英文　馬郁雯驚：還有什麼不會的
+  url: https://www.ftvnews.com.tw/video/detail/pYMDLie5R48
+  published_at: '2026-09-06'
+  observed_at: '2026-10-24T22:24:12+08:00'
+  retrieval_status: reachable
+  notes:
+  - 民進黨台北市議員參選人馬郁雯在自身活動中，看到沈伯洋完成繞口令並以英文介紹艋舺後，直接說『沈伯洋還有什麼不會的！』
+  - 發言者屬同黨候選人／選戰盟友，不是沈伯洋競辦正式幕僚；但原話本身是典型由有限表現外推到無上限整體能力的全能化語句。
+- id: S018
+  source_type: secondary
+  publisher: 民視新聞
+  title: 快新聞／數月前沈伯洋被藍營小看　中職會長妙喻：如同職棒第一年的徐若熙
+  url: https://sport.ftvnews.com.tw/news/detail/2026A09W0437
+  published_at: '2026-10-09'
+  observed_at: '2026-10-24T22:24:12+08:00'
+  retrieval_status: reachable
+  notes:
+  - 民進黨立委蔡其昌稱沈伯洋『能力超強、為人溫和謙卑、很有底子，很有內涵』，並說直覺上是『百年難得一見的練武奇才』、是『寶』。
+  - 發言者屬同黨重量級政治盟友，不是沈伯洋競辦正式幕僚；語句同時包含能力本質化、人格本質化與唯一／稀有化。
+- id: S019
+  source_type: secondary
+  publisher: 民視新聞
+  title: 快新聞／「洋流」們快看！沈伯洋競選小物出爐　今日中午12時準時開賣
+  url: https://www.ftvnews.com.tw/news/detail/2026825w0254
+  published_at: '2026-08-25'
+  observed_at: '2026-10-24T22:24:12+08:00'
+  retrieval_status: reachable
+  notes:
+  - 在沈伯洋競選小物正式發布活動上，立委范雲介紹『洋流好物』時稱其四個堅持之一是『人人都可以成為沈伯洋的替身』。
+  - 此語句不是能力造神，而是支持者身份與候選人形象的高度融合；需與一般競選身份動員比較後再判斷其領袖中心化程度。
+- id: S020
+  source_type: secondary
+  publisher: 民視新聞
+  title: 快新聞／民眾黨曝公文諷「人造洋流」　吳沛憶回應了
+  url: https://www.ftvnews.com.tw/news/detail/2026930w0700
+  published_at: '2026-09-30'
+  observed_at: '2026-10-24T22:24:12+08:00'
+  retrieval_status: reachable
+  notes:
+  - 民進黨台北市黨部主委吳沛憶在說明競總動員時表示，希望『每一位民眾都是我們沈伯洋市長的主任委員』，並呼籲把Facebook或LINE當公文向親友宣傳。
+  - 此語句可證明正式黨組織把支持者角色制度化／擴張化，但本身偏向分散式動員，不能單獨當能力或人格造神證據。
+- id: S021
+  source_type: secondary
+  publisher: 民視新聞
+  title: 快新聞／沈伯洋專訪破「200萬」觀看！侯漢廷酸都是看王偉忠　吳思瑤霸氣回應
+  url: https://www.ftvnews.com.tw/news/detail/2026917W0243/
+  published_at: '2026-09-17'
+  observed_at: '2026-10-24T22:24:12+08:00'
+  retrieval_status: reachable
+  notes:
+  - 沈伯洋競選總幹事吳思瑤表示『沈伯洋就是沈伯洋』，希望洋流成為一股暖流，慢慢擴散、感動更多人。
+  - 此為正式競辦人物的情緒／品牌語言，但沒有直接把沈伯洋能力或人格推到不可證偽程度，宜列低權重加權項而非核心造神證據。
+
 facts:
 - id: F001
   statement: 沈伯洋競選團隊把『洋流』明確作為長期品牌戰操作；綠營幕僚稱其為從提名起啟動的198天大型行銷活動，目的在打出品牌差異化並重塑候選人形象。
@@ -352,6 +419,96 @@ facts:
   - official-platform
   - curation
   - candidate-centered
+- id: F011
+  statement: 民進黨高層在沈伯洋正式競總舞台上，不只推薦政策或資格，也直接把沈伯洋描述為『行動知識庫』、聰明、專業、持續學習；與既有『無比謙卑』『這就是沈伯洋的高度』等敘事形成可重複的人格／能力本質化語彙。
+  status: verified
+  observed_at: '2026-10-24T22:24:12+08:00'
+  source_ids:
+  - S004
+  - S005
+  - S016
+  evidence_summary: 賴清德與蕭美琴在正式競總成立場合分別使用『高度』『行動知識庫』『無比謙卑』等語句，已超出單一政策績效描述，進入穩定人格與整體能力評價。
+  verification_notes:
+  - 發言發生於正式競總活動且由黨政高層站台，但不能因此把每句話都改寫成『競辦自己撰稿』。
+  tags:
+  - '2026'
+  - official-campaign-stage
+  - personality-essentialization
+  - ability-essentialization
+  - 行動知識庫
+  - 高度
+- id: F012
+  statement: 民進黨同黨候選人馬郁雯在沈伯洋完成繞口令與英文介紹後，直接以『沈伯洋還有什麼不會的』評價，將兩個有限表現外推為缺乏明確上限的整體能力。
+  status: verified
+  observed_at: '2026-10-24T22:24:12+08:00'
+  source_ids:
+  - S017
+  evidence_summary: 民視影音保留馬郁雯原話與事件背景，符合『局部能力→全能化』的高辨識文本結構。
+  verification_notes:
+  - 馬郁雯屬同黨選戰盟友，不是沈伯洋競辦正式幕僚，actor attribution必須保留。
+  tags:
+  - '2026'
+  - 馬郁雯
+  - all-round-ability
+  - unfalsifiable-trait
+  - political-ally
+- id: F013
+  statement: 民進黨立委蔡其昌公開把沈伯洋描述為『能力超強、為人溫和謙卑、很有底子、很有內涵』，並進一步稱其為『百年難得一見的練武奇才』與『寶』。
+  status: verified
+  observed_at: '2026-10-24T22:24:12+08:00'
+  source_ids:
+  - S018
+  evidence_summary: 同一段發言同時疊加能力、本質人格與稀有／唯一化，屬高強度候選人英雄化語句。
+  verification_notes:
+  - 蔡其昌是同黨重要政治盟友，不是競辦正式幕僚；此fact證明選戰／政黨生態中的高強度背書，不證明競辦直接指示發言。
+  tags:
+  - '2026'
+  - 蔡其昌
+  - uniqueness
+  - ability-essentialization
+  - 百年難得一見
+  - political-ally
+- id: F014
+  statement: 沈伯洋競選小物正式發布活動中，范雲以『人人都可以成為沈伯洋的替身』描述洋流好物的參與理念，將支持者身份與候選人形象直接連結。
+  status: verified
+  observed_at: '2026-10-24T22:24:12+08:00'
+  source_ids:
+  - S019
+  evidence_summary: 這是正式競選品牌活動中的支持者身份設計語句，可觀察候選人中心化／身份融合，但不屬全能化本身。
+  verification_notes:
+  - 需以其他候選人應援文化作baseline，不能單憑『替身』一詞判定造神。
+  tags:
+  - '2026'
+  - supporter-identity
+  - identity-fusion
+  - campaign-merchandise
+- id: F015
+  statement: 民進黨台北市黨部主委吳沛憶在競總動員脈絡中稱希望『每一位民眾都是我們沈伯洋市長的主任委員』，並鼓勵支持者以自身社群向親友宣傳。
+  status: verified
+  observed_at: '2026-10-24T22:24:12+08:00'
+  source_ids:
+  - S020
+  evidence_summary: 可直接證明正式黨組織把支持者納入候選人動員身份，但其結構是分散化動員而不是把候選人置於不可質疑位置。
+  tags:
+  - '2026'
+  - DPP-Taipei
+  - mobilization
+  - supporter-role
+  - counterweight
+- id: F016
+  statement: 沈伯洋競選總幹事吳思瑤公開把『洋流』描述為希望成為暖流、慢慢擴散並感動更多人，屬競辦正式情緒品牌語言。
+  status: verified
+  observed_at: '2026-10-24T22:24:12+08:00'
+  source_ids:
+  - S021
+  evidence_summary: 這是競辦直接可歸屬的情緒化品牌話語；依目前操作準則，情緒本身只作加權，沒有不可證偽人格／能力核心時不單獨構成造神。
+  tags:
+  - '2026'
+  - 吳思瑤
+  - campaign-office
+  - emotion-weighting
+  - 洋流
+
 claims:
 - id: C001
   statement: 沈伯洋競選團隊與民進黨官方不是被動接受『洋流』現象，而是主動把『洋流』納入長期品牌塑造、正式競選組織、活動設計與支持者身份系統。
@@ -433,6 +590,40 @@ claims:
   related_facts:
   - F008
   reasoning_notes: 官方網站集中展示293首歌曲並由導師選曲再製，和官方船員／造浪者／小物系統共同構成支持者文化平台；但因歌曲採符合規則即收錄，不應把全部歌詞視為競辦授意。
+- id: C008
+  statement: 洋流相關的正式競選／政黨支持生態中，已可找到不是媒體自行創作的高強度人格／能力本質化原話，包括『這就是沈伯洋的高度』『行動知識庫／無比謙卑』『還有什麼不會的』『百年難得一見的練武奇才』。
+  status: supported
+  supports:
+  - F011
+  - F012
+  - F013
+  contradicts: []
+  related_facts:
+  - F014
+  - F015
+  - F016
+  reasoning_notes: 這些語句的actor層級不同：賴清德／蕭美琴出現在正式競總舞台；馬郁雯、蔡其昌屬同黨選戰盟友。不能全部改稱『競辦發言』，但可以證明高強度人格／能力敘事確實存在於洋流的政黨／選戰支持體系，不只是媒體自己下標。
+- id: C009
+  statement: 『還有什麼不會的』『百年難得一見的練武奇才』可直接歸因為沈伯洋競選辦公室官方發言。
+  status: contradicted
+  supports: []
+  contradicts:
+  - F012
+  - F013
+  related_facts: []
+  reasoning_notes: 兩句分別來自馬郁雯與蔡其昌；可列為同黨／選戰盟友的造神式背書，但不能為了論證方便抹掉actor attribution。
+- id: C010
+  statement: 依『不可證偽人格／整體能力為核心門檻，情緒、權威、全能化、唯一化等加權』的操作準則，本session已取得多個可以進入高權重造神文本樣本池的組織／政治盟友原話。
+  status: supported
+  supports:
+  - F011
+  - F012
+  - F013
+  contradicts: []
+  related_facts:
+  - F016
+  reasoning_notes: 『高度／無比謙卑』屬人格本質化，『行動知識庫』屬整體能力本質化，『還有什麼不會』屬全能化，『百年難得一見的練武奇才』屬能力本質化加唯一化。這是文本coding結論，不等於已完成整體競選造神工程的因果歸責。
+
 searches:
 - id: Q001
   observed_at: '2026-10-24T21:33:09+08:00'
@@ -476,6 +667,28 @@ searches:
   scope: 沈伯洋台北市長競選官方網站
   result: found
   notes: 找到293首市民競選歌曲的官方收錄／策展平台；其中有候選人中心的奇蹟、光、愛慕等敘事，但官方規則為符合募集即收錄，因此只記為平台化／部分策展，不視為逐首背書。
+- id: Q007
+  observed_at: '2026-10-24T22:24:12+08:00'
+  platform: public web
+  query: site:ftvnews.com.tw 沈伯洋 行動知識庫／還有什麼不會／練武奇才／替身／主任委員／暖流
+  scope: 民視對沈伯洋競總、同黨候選人與政治盟友公開發言的報導
+  result: found
+  notes: 取得蕭美琴、馬郁雯、蔡其昌、范雲、吳沛憶、吳思瑤等可明確歸屬actor的原話；以媒體作取證入口，不把媒體下標本身混作發言者原話。
+- id: Q008
+  observed_at: '2026-10-24T22:24:12+08:00'
+  platform: public web
+  query: site:ltn.com.tw 沈伯洋 競總／吳思瑤／洋流 感動／組織
+  scope: 自由時報對正式競辦與洋流活動的報導
+  result: found
+  notes: 找到吳思瑤『洋流就是洋流／暖流／感動更多人』與競總活動脈絡，並用於交叉確認正式競辦品牌語言。
+- id: Q009
+  observed_at: '2026-10-24T22:24:12+08:00'
+  platform: public web
+  query: site:setn.com 沈伯洋 百年難得一見／能力超強／行動知識庫／還有什麼不會
+  scope: 三立相關公開報導
+  result: partial
+  notes: 搜尋結果索引不完整；既有跨媒體資料可確認蔡其昌等原話，但本次不因三立索引缺漏把『未搜到』寫成不存在。
+
 promotion:
   cases: []
   comparators: []
