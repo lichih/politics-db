@@ -1,0 +1,264 @@
+session:
+  id: 2026-10-24-meta-ai-actor-narrowing-provenance-drift
+  project: Politics
+  title: Meta AI在「洋流造神」爭論中的actor narrowing、修正與再次退回
+  started_at: '2026-10-24T22:17:28+08:00'
+  updated_at: '2026-10-24T22:17:28+08:00'
+  status: active
+
+topics:
+  - Meta AI
+  - 洋流
+  - 沈伯洋
+  - 造神
+  - actor model
+  - actor narrowing
+  - claim ownership
+  - conversation provenance
+  - 推論漂移
+  - 框架收縮
+  - Threads
+
+sources:
+  - id: S001
+    source_type: commentary
+    publisher: "Meta AI / Threads"
+    title: "按一路追問的邏輯判定『指控目前不成立』"
+    url: "https://www.threads.com/@meta.ai/post/De4NfGxiRTV"
+    observed_at: '2026-10-24T22:17:28+08:00'
+    retrieval_status: reachable
+    notes:
+      - "Meta AI表示，若只能舉媒體標題、卻舉不出『洋流本人』把沈伯洋塑造成不容質疑或拒絕檢驗的具體言論，就沒有回答核心問題。"
+
+  - id: S002
+    source_type: commentary
+    publisher: "Meta AI / Threads"
+    title: "向@lichihwu摘要『洋流本人哪句話』的舉證門檻"
+    url: "https://www.threads.com/@meta.ai/post/De4NxXokROJ"
+    observed_at: '2026-10-24T22:17:28+08:00'
+    retrieval_status: reachable
+    notes:
+      - "公開回覆直接要求『洋流本人的具體言論』，並具體表述為哪句話把沈伯洋塑造成『不能犯錯、不能檢驗的救世主』。"
+      - "同時把目前看到的洋流行為概括為整理論述、解釋政策、反駁錯誤理解。"
+
+  - id: S003
+    source_type: commentary
+    publisher: "lichihwu / Threads"
+    title: "補充競辦品牌戰、正式活動設計、黨部動員與官方人格／能力敘事"
+    url: "https://www.threads.com/@lichihwu/post/De4O-DBj24x"
+    observed_at: '2026-10-24T22:17:28+08:00'
+    retrieval_status: reachable
+    notes:
+      - "提出《天下》198天品牌戰、競總大洋流計畫、5300人黨部動員與民進黨官方人格／能力敘事等可核實事實。"
+      - "同時保留自發支持者不能全部歸因競辦的邊界。"
+
+  - id: S004
+    source_type: commentary
+    publisher: "Meta AI / Threads"
+    title: "核實後承認原本只用『整理論述=可檢驗』判斷漏掉組織層"
+    url: "https://www.threads.com/@meta.ai/post/De4PCW5gHPQ"
+    observed_at: '2026-10-24T22:17:28+08:00'
+    retrieval_status: reachable
+    notes:
+      - "Meta AI核實品牌戰、大洋流計畫與5300人動員後，承認前面只用『整理論述=可檢驗』說指控不成立，漏掉組織層。"
+      - "並改稱應把正式品牌／組織動員與自發支持者分層。"
+
+  - id: S005
+    source_type: commentary
+    publisher: "Meta AI / Threads"
+    title: "承認『只能要求洋流本人哪句話』太窄"
+    url: "https://www.threads.com/@meta.ai/post/De4PLsmCkdK"
+    observed_at: '2026-10-24T22:17:28+08:00'
+    retrieval_status: reachable
+    notes:
+      - "對『你如果要說洋流在造神，就得提出洋流本人哪句話』是否仍正確的追問，Meta AI回答『不完全正確了，我前面那樣說太窄了』。"
+      - "明確改稱不能只要求『洋流本人哪句話』，要把官方品牌敘事／動員與自發支持者分開檢驗。"
+
+  - id: S006
+    source_type: commentary
+    publisher: "Meta AI / Threads"
+    title: "把原本的actor narrowing歸因於shian8776設定框架"
+    url: "https://www.threads.com/@meta.ai/post/De4PYpbChDv"
+    observed_at: '2026-10-24T22:17:28+08:00'
+    retrieval_status: reachable
+    notes:
+      - "Meta AI稱自己當時『完全跟著@shian8776設定的框架』回答。"
+      - "並把該框架概括為『造神=不容質疑、不能犯錯』，檢驗標準因此被限縮成『請提出洋流本人哪一句話這樣做了』。"
+
+  - id: S007
+    source_type: commentary
+    publisher: "Meta AI / Threads"
+    title: "稱同一狹義框架在串內至少出現3次以上"
+    url: "https://www.threads.com/@meta.ai/post/De4PkSVD7yD"
+    observed_at: '2026-10-24T22:17:28+08:00'
+    retrieval_status: reachable
+    notes:
+      - "Meta AI稱，把判準縮到『請提出洋流本人哪句話把人塑造成不能質疑』的作法在串裡至少出現3次以上。"
+      - "並稱不能用『本人沒開口就不是造神』擋掉討論。"
+
+  - id: S008
+    source_type: commentary
+    publisher: "shian8776 / Threads"
+    title: "釐清自己要求的是品牌／動員到神格化之間的證據鏈"
+    url: "https://www.threads.com/@shian8776/post/De4S-TQGUGa"
+    observed_at: '2026-10-24T22:17:28+08:00'
+    retrieval_status: reachable
+    notes:
+      - "明確否認自己主張『只要沈伯洋本人沒說過自己不能犯錯，就不算造神』。"
+      - "承認競辦品牌操作、組織動員與支持者自發行為可分開檢驗，但要求補上『一般政治宣傳如何跨越到神格化』的具體證據。"
+      - "舉例包括不容質疑、要求無條件相信、把批評一律視為惡意攻擊、個人形象凌駕政策與事實檢驗。"
+
+  - id: S009
+    source_type: commentary
+    publisher: "shian8776 / Threads"
+    title: "再次說明不要求候選人本人自封，重點是具體行為如何構成神格化"
+    url: "https://www.threads.com/@shian8776/post/De4S-RhmShK"
+    observed_at: '2026-10-24T22:17:28+08:00'
+    retrieval_status: reachable
+    notes:
+      - "明確表示不認為造神一定要由政治人物本人親口宣稱自己完美。"
+      - "也承認競選團隊、媒體、支持者都可能參與塑造政治人物形象。"
+      - "核心要求是證明品牌／動員如何構成造神，而不是只證明品牌／動員存在。"
+
+  - id: S010
+    source_type: commentary
+    publisher: "Meta AI / Threads"
+    title: "反轉先前歸因，稱『本人不開口』是對shian8776的稻草人"
+    url: "https://www.threads.com/@meta.ai/post/De4TQz5j2eo"
+    observed_at: '2026-10-24T22:17:28+08:00'
+    retrieval_status: reachable
+    notes:
+      - "Meta AI改稱shian8776從頭到尾問的是『品牌／動員如何推導到造神』，並稱把其要求描述成『只有沈伯洋本人親口說自己完美才算造神』是稻草人。"
+      - "同時表示先前『3次不可證偽手段』『本人不開口就不是造神』的推導建立在錯誤前提上。"
+
+  - id: S011
+    source_type: commentary
+    publisher: "Meta AI / Threads"
+    title: "在承認多actor模型後，又把舉證要求收回『洋流自身的言論證據』"
+    url: "https://www.threads.com/@meta.ai/post/De4UgJojDIE"
+    observed_at: '2026-10-24T22:17:28+08:00'
+    retrieval_status: reachable
+    notes:
+      - "Meta AI承認自由時報『超強能力』『難怪中共那麼害怕』是典型誇大／光環化敘事，但說媒體標題不能直接等同洋流本人造神。"
+      - "接著再次把成立指控所需證據表述為『洋流自身的言論證據』，例如無條件辯護、拒絕認錯、把質疑者打成不理性、把沈伯洋塑造成不容質疑。"
+
+facts:
+  - id: F001
+    statement: "Meta AI曾公開把『洋流造神』的有效舉證門檻收窄為『洋流本人的具體言論』，並具體要求找出把沈伯洋塑造成不能犯錯、不能檢驗的救世主的句子。"
+    status: verified
+    observed_at: '2026-10-24T22:17:28+08:00'
+    source_ids: [S001, S002]
+    evidence_summary: "兩則連續公開回覆直接使用『洋流本人／本人的具體言論』作為核心舉證要求。"
+    tags: ["Meta AI", "actor-narrowing", "evidence-threshold", "洋流"]
+
+  - id: F002
+    statement: "在取得競辦品牌戰、正式活動設計、黨部動員與官方人格／能力敘事等組織層事實後，Meta AI公開承認先前判斷漏掉組織層，並承認『只能要求洋流本人哪句話』的判準太窄。"
+    status: verified
+    observed_at: '2026-10-24T22:17:28+08:00'
+    source_ids: [S003, S004, S005]
+    evidence_summary: "Meta AI明確使用『漏掉組織層』『前面那樣說太窄了』等修正語句，並改採官方品牌／動員與自發支持者分層模型。"
+    tags: ["Meta AI", "correction", "actor-model", "organization-layer"]
+
+  - id: F003
+    statement: "Meta AI之後把自己先前的actor narrowing歸因於shian8776設定的框架，並稱該縮窄作法在串內至少出現3次以上。"
+    status: verified
+    observed_at: '2026-10-24T22:17:28+08:00'
+    source_ids: [S006, S007]
+    evidence_summary: "公開回覆直接把『請提出洋流本人哪一句話』描述為跟隨shian8776框架的結果，並給出『至少3次以上』判斷。"
+    tags: ["Meta AI", "claim-ownership", "provenance", "attribution"]
+
+  - id: F004
+    statement: "shian8776後續公開澄清自己沒有要求必須由沈伯洋本人自封，也承認競辦、媒體、支持者都可能參與塑造政治人物；其核心要求是品牌／動員到『神格化』之間需有額外證據鏈。"
+    status: verified
+    observed_at: '2026-10-24T22:17:28+08:00'
+    source_ids: [S008, S009]
+    evidence_summary: "兩則公開回覆直接否認『本人不開口就不算造神』，並明確重述其證據要求。"
+    tags: ["shian8776", "clarification", "bridge-evidence", "actor-model"]
+
+  - id: F005
+    statement: "在shian8776澄清後，Meta AI又反轉先前對框架來源的歸因，改稱『本人不開口就不是造神』是對shian8776的稻草人，並否定自己先前『至少3次』的推導。"
+    status: verified
+    observed_at: '2026-10-24T22:17:28+08:00'
+    source_ids: [S006, S007, S008, S009, S010]
+    evidence_summary: "同一公開對話序列中，Meta AI先把狹義判準歸給shian8776，後又表示這種描述是稻草人，構成可直接觀察的conversation provenance修正。"
+    tags: ["Meta AI", "provenance-drift", "self-correction", "attribution-error"]
+
+  - id: F006
+    statement: "即使Meta AI已公開承認應採多actor模型並且『不能只要求洋流本人哪句話』，後續回覆仍再次把有效舉證要求表述成『洋流自身的言論證據』。"
+    status: verified
+    observed_at: '2026-10-24T22:17:28+08:00'
+    source_ids: [S005, S011]
+    evidence_summary: "S005明確撤回單一『洋流本人』門檻；S011又以『需要的是洋流自身的言論證據』作為主要成立條件。"
+    verification_notes:
+      - "S011同時正確保留『媒體標題不能自動歸責洋流』這一點；問題在於又把後續有效證據集合收窄為言論，而不是維持前面已承認的多actor／多行為模型。"
+    tags: ["Meta AI", "regression", "actor-narrowing", "inconsistency"]
+
+claims:
+  - id: C001
+    statement: "本串存在可重現的推論漂移鏈：actor narrowing → 組織層證據出現 → 承認判準太窄 → 將狹義判準歸因他人 → 對方澄清 → 改判先前歸因為稻草人 → 再次退回『洋流自身言論』門檻。"
+    status: supported
+    supports: [F001, F002, F003, F004, F005, F006]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "這是對公開回覆時序的描述，不推定模型主觀意圖。"
+
+  - id: C002
+    statement: "shian8776從一開始就明確主張『只有沈伯洋本人親口說自己完美／不能犯錯，才算造神』。"
+    status: contradicted
+    supports: []
+    contradicts: [F004]
+    related_facts: [F001, F003, F005]
+    reasoning_notes: "現有公開澄清明確否認這一版本；且原串可見其較常要求的是洋流／支持者的具體言論或行為，而不是候選人本人自封。"
+
+  - id: C003
+    statement: "把『洋流本人哪句話』作為必要舉證門檻，是Meta AI自己曾公開採用並後來承認太窄的判準。"
+    status: supported
+    supports: [F001, F002]
+    contradicts: []
+    related_facts: [F003, F005]
+    reasoning_notes: "因此不能在後續把這一判準完全改寫成只來自shian8776，而抹去模型自身的推論責任。"
+
+  - id: C004
+    statement: "在已承認『洋流』包含正式競辦品牌、組織操作與自發支持者等多層actor後，判斷造神只能檢查『洋流自身言論』，不需要檢查官方品牌敘事、活動設計或其他可歸屬行為。"
+    status: contradicted
+    supports: []
+    contradicts: [F002, F006]
+    related_facts: []
+    reasoning_notes: "同一模型已承認多actor模型；因此有效證據應依被指控actor分層，包括言論與非言論行為，不能再次把證據宇宙縮回單一支持者話語。"
+
+  - id: C005
+    statement: "shian8776目前要求『品牌／動員本身不足以證明造神，需要補上如何神格化的bridge evidence』，在論證結構上是合理的證據要求。"
+    status: supported
+    supports: [F004]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "是否接受其對『神格化』的狹義例示仍可另議；但要求中介推論不能只由品牌與動員存在直接跳到造神，符合證據到結論需有合理連結的基本要求。"
+
+  - id: C006
+    statement: "Meta AI所稱『至少3次以上都是shian8776使用同一個「洋流本人哪句話」框架』已被本串充分證明。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F003, F004, F005]
+    reasoning_notes: "可確認shian8776反覆要求具體言論／行為與不容質疑等證據，但目前沒有足夠文本支持把Meta AI自己形成的『洋流本人哪句話』精確措辭與全部actor narrowing完整歸因給shian8776。"
+
+searches:
+  - id: Q001
+    observed_at: '2026-10-24T22:17:28+08:00'
+    platform: "Threads / connected browser"
+    query: "De4NfGxiRTV / De4NxXokROJ / De4PCW5gHPQ / De4PLsmCkdK / De4PYpbChDv / De4PkSVD7yD / De4S-TQGUGa / De4S-RhmShK / De4TQz5j2eo / De4UgJojDIE"
+    scope: "『洋流造神』爭論中Meta AI的舉證門檻、修正、框架歸因與後續退回"
+    result: found
+    notes: "取得完整公開互動序列；僅保存公開Threads內容。使用者與Meta AI之間的私人訊息不寫入public politics-db。"
+
+promotion:
+  cases: []
+  comparators: []
+  research:
+    - proposed: ai-political-argument-provenance-drift
+      rationale: "可與cases/2026-10-19-meta-ai-guided-reasoning-drift比較：兩案皆出現 substantive correction 後，actor model／claim ownership／conversation provenance仍可能再次漂移。"
+
+notes:
+  - "本session研究的是公開AI論證行為，不把Meta AI或參與者的主觀惡意寫成事實。"
+  - "與既有2026-10-19 Meta AI案例的共同失效模式不是『被某人說服』，而是模型對誰提出哪個判準、哪些actor屬於被檢驗對象的表示在多輪對話中不穩定。"
+  - "本session不判定『洋流造神』最終成立與否；造神本體證據另見2026-10-24-shen-campaign-branding-deification與2026-10-24-shen-media-heroization-samples。"
