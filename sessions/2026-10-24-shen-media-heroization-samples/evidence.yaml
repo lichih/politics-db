@@ -3,7 +3,7 @@ session:
   project: Politics
   title: 沈伯洋媒體英雄化／人格本質化敘事樣本：從單次事件到格局、高EQ、學霸與全才
   started_at: '2026-10-24T21:49:09+08:00'
-  updated_at: '2026-10-24T21:49:09+08:00'
+  updated_at: '2026-10-24T22:10:25+08:00'
   status: active
 
 topics:
@@ -187,6 +187,31 @@ sources:
       - "同媒體對蔣萬安也報導支持者以『平凡、沉穩、踏實』作人格評價。"
       - "但該篇標題與內文隨即以重修／學霸形象破滅等角度反打，顯示單一正面人格故事不等於媒體一致英雄化。"
 
+  - id: S015
+    source_type: secondary
+    publisher: 民視新聞
+    title: 攤商「突拋1難題」沈伯洋當場秒答！超神片段震撼網：台北多久沒這種政治人物了
+    url: https://www.ftvnews.com.tw/news/detail/2026920W01371
+    published_at: '2026-09-20'
+    observed_at: '2026-10-24T22:10:25+08:00'
+    retrieval_status: reachable
+    notes:
+      - "媒體標題自行使用『超神片段』，把一次市場政策問答從可檢驗的具體解方提升成超常表現框架。"
+      - "正文再集中選錄『台北市已經多久沒有這種政治人物了』『是真的有準備、有規劃』等比較性讚語。"
+      - "這一例的辨識力高於單純引用網友『太強』，因『超神片段』是媒體自己的標題 framing。"
+
+  - id: S016
+    source_type: secondary
+    publisher: 民視新聞
+    title: 伊朗電影中譯變「換我吹了沒？」　沈伯洋：翻譯應講究信達雅
+    url: https://www.ftvnews.com.tw/news/detail/2026614W0315
+    published_at: '2026-06-14'
+    observed_at: '2026-10-24T22:10:25+08:00'
+    retrieval_status: reachable
+    notes:
+      - "一次電影片名翻譯問題的回答，被報導集中呈現『依然有問必答』『知識也太廣了』等跨領域能力評價。"
+      - "單篇權重不高，但與學霸、全才、行動知識庫等材料合看，可觀察不同領域事件持續被吸收到『廣博知識／什麼都能答』的人格模板。"
+
 facts:
   - id: F001
     statement: "民視在至少4個彼此無直接關聯的沈伯洋事件中，反覆以『格局』作為標題或正文核心人格評價：店家簽名爭議、滷肉飯盲測、爭取黃珊珊／蔣萬安支持者、以及路人比中指事件。"
@@ -252,11 +277,22 @@ facts:
     evidence_summary: "蔣萬安學弟稱其『平凡、沉穩、踏實』，但報導主軸轉為重修／學霸形象破滅及帳號背景質疑。"
     tags: ["2026", "baseline", "蔣萬安", "民視"]
 
+  - id: F008
+    statement: "民視曾直接以『超神片段』框架沈伯洋一次市場政策即席回答；另在與市政無關的電影翻譯題材中，也集中呈現『有問必答』『知識太廣』的反應，顯示『廣博／隨問即答』能力人格被跨領域事件重複強化。"
+    status: verified
+    observed_at: '2026-10-24T22:10:25+08:00'
+    source_ids: [S015, S016]
+    evidence_summary: "S015是媒體自身標題使用『超神片段』；S016則是另一領域事件被接入『有問必答／知識廣』模板。"
+    verification_notes:
+      - "市場政策回答本身具有可檢驗資訊，不能因『答得具體』本身判為造神；高權重部分是媒體進一步使用『超神』以及把跨領域事件反覆接到總體能力人格。"
+    tags: ["2026", "沈伯洋", "民視", "超神", "knowledge-breadth", "cross-domain-essentialization"]
+
+
 claims:
   - id: C001
     statement: "在已蒐集的民視樣本中，存在跨多種互不相干事件反覆把沈伯洋吸收到『格局』『高EQ』『學霸／全能』等穩定人格／能力標籤的敘事 pattern。"
     status: supported
-    supports: [F001, F002]
+    supports: [F001, F002, F008]
     contradicts: []
     related_facts: [F006]
     reasoning_notes: "鑑別力不在單一『格局』或『學霸』字詞，而在跨事件重複以同一不可量化人格標籤整合不同事實。"
@@ -272,7 +308,7 @@ claims:
   - id: C003
     statement: "若把『造神敘事』操作化為：將有限事件外推成難以由明確反例推翻的人格／整體能力本質，並由情緒、權威、全能化、唯一化或敵人恐懼背書加權，則本 session 已找到多個符合其中兩項以上的媒體／媒體放大樣本。"
     status: supported
-    supports: [F001, F002, F003, F004, F005]
+    supports: [F001, F002, F003, F004, F005, F008]
     contradicts: []
     related_facts: [F006]
     reasoning_notes: "這是依明示操作定義做文本分類，不宣稱『造神』在所有政治語境只有此一定義。"
@@ -333,6 +369,15 @@ searches:
     scope: "同媒體初步 control 搜尋"
     result: partial
     notes: "初步未浮現與沈伯洋同密度的『格局／高EQ／學霸／全才』正向群聚；找到一篇學弟稱蔣萬安平凡沉穩踏實，但報導主軸隨即轉為重修與帳號質疑。此為非窮盡搜尋，不能推論同型內容不存在。"
+
+  - id: Q005
+    observed_at: '2026-10-24T22:10:25+08:00'
+    platform: public web
+    query: "沈伯洋 超神／天才／知識太廣／有問必答 2026"
+    scope: "跨媒體高強度人格／能力外推樣本"
+    result: found
+    notes: "新增民視自行使用『超神片段』的高辨識樣本，以及與市政無關題材仍被接入『有問必答／知識廣』模板的跨領域樣本。"
+
 
 promotion:
   cases: []
