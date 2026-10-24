@@ -1,0 +1,275 @@
+session:
+  id: 2026-10-25-threads-selective-amplification
+  project: Politics
+  title: "Threads 洋流互動異常：投票落差、低基線帳號 selective burst 與 bot／推薦機制競爭假說"
+  started_at: "2026-10-25T00:50:56+08:00"
+  updated_at: "2026-10-25T00:50:56+08:00"
+  status: active
+
+topics:
+  - Threads
+  - 洋流
+  - 沈伯洋
+  - 蔣萬安
+  - 社群互動
+  - like amplification
+  - selective burst
+  - bot hypothesis
+  - recommendation algorithm
+  - poll
+  - Meta AI
+  - measurement error
+  - search sampling
+  - author watchlist
+  - polling cache
+
+sources:
+  - id: S001
+    source_type: commentary
+    publisher: "Threads / @linkousapien"
+    title: "「挺洋流／挺安安」Threads 內建投票"
+    url: "https://www.threads.com/@linkousapien/post/De1siVnE_DP"
+    published_at: "2026-10-23"
+    observed_at: "2026-10-24T16:25:25+08:00"
+    retrieval_status: reachable
+    notes:
+      - "公開頁面快照顯示投票已結束，共11,683票；挺洋流15%、挺安安85%。"
+      - "同一快照約顯示550讚、111回覆、7轉發、98分享；互動數會隨時間變動，只作觀察時點紀錄。"
+      - "此投票為Threads上的自選線上投票，不具代表性抽樣設計；不能直接當作台北市選民母體民調。"
+
+  - id: S002
+    source_type: commentary
+    publisher: "Threads / @robinhoodspirit"
+    title: "「我是外省三代 家庭深/鐵藍…我支持沈伯洋」"
+    url: "https://www.threads.com/@robinhoodspirit/post/DexsHUkDT3K"
+    published_at: "2026-10-21"
+    observed_at: "2026-10-25T00:50:56+08:00"
+    retrieval_status: reachable
+    notes:
+      - "Meta AI 的Threads fetch_posts觀察回報約6,400 likes。"
+      - "後續以fetch_comments重新校驗，media_id=18099062090212622，total_count=380，實際回傳347筆，has_next_page=False。"
+      - "先前曾因三個media_id手動對應錯誤，把380錯配到另一篇貼文；後續已按post ID / media_id重新校正。"
+
+  - id: S003
+    source_type: commentary
+    publisher: "Threads / @robinhoodspirit"
+    title: "「女性安全審計 光這一點所有台北女性都該投沈伯洋」"
+    url: "https://www.threads.com/@robinhoodspirit/post/Deyh1gnlqs7"
+    published_at: "2026-10-22"
+    observed_at: "2026-10-25T00:50:56+08:00"
+    retrieval_status: reachable
+    notes:
+      - "Meta AI 的Threads fetch_posts觀察回報約4,700 likes。"
+      - "fetch_comments校驗：media_id=18132580906690685，total_count=55，實際回傳54筆，has_next_page=False。"
+      - "content_search 曾回傳 comment_count=40；同一輪校驗指出該欄位可能是較舊索引，不採作最新回覆總數。"
+
+  - id: S004
+    source_type: commentary
+    publisher: "Threads / @robinhoodspirit"
+    title: "「我一點也不擔心沈伯洋上任會像蔣萬安一樣不做事…」"
+    url: "https://www.threads.com/@robinhoodspirit/post/DeypXucFv4q"
+    published_at: "2026-10-22"
+    observed_at: "2026-10-25T00:50:56+08:00"
+    retrieval_status: reachable
+    notes:
+      - "Meta AI 的Threads fetch_posts觀察回報約3,800 likes。"
+      - "fetch_comments校驗：media_id=17927057331431194，total_count=140，實際回傳137筆，has_next_page=False。"
+      - "先前曾有137與380錯配；後續按post ID / media_id重新校正為本篇total_count=140。"
+
+  - id: S005
+    source_type: commentary
+    publisher: "Threads / @williamtantwm"
+    title: "女性安全審計同素材平行高互動貼文"
+    url: "https://www.threads.com/@williamtantwm/post/Dey-0c_j64Y"
+    published_at: "2026-10-22"
+    observed_at: "2026-10-25T00:50:56+08:00"
+    retrieval_status: reachable
+    notes:
+      - "Meta AI 搜尋結果記錄時間為2026-10-22 12:27:28，約15,000 likes，作者約15K followers。"
+      - "與S003使用相同HEART政策島／女性安全審計素材，但不是S003的直接quote。"
+      - "此來源支持「同素材當日另有高互動」；不能單獨證明S003的流量來源。"
+
+  - id: S006
+    source_type: commentary
+    publisher: "Threads / @trista__bear"
+    title: "「沈伯洋比蔣萬安更會做事」近似 framing 高互動貼文"
+    url: "https://www.threads.com/@trista__bear/post/DewKODSgkVX"
+    published_at: "2026-10-21"
+    observed_at: "2026-10-25T00:50:56+08:00"
+    retrieval_status: reachable
+    notes:
+      - "Meta AI 搜尋結果記錄時間為2026-10-21 10:09:22，約4,800 likes，作者約18K followers。"
+      - "內容不是S004相同文字，但核心 framing 同樣是以沈伯洋的能力／政見對比蔣萬安。"
+      - "此來源支持該 framing 在相近時間另有高互動案例；不能單獨證明S004的流量來源。"
+
+facts:
+  - id: F001
+    statement: "S001的Threads內建投票於觀察時已結束，共11,683票；結果為挺洋流15%、挺安安85%。"
+    status: verified
+    observed_at: "2026-10-24T16:25:25+08:00"
+    source_ids: [S001]
+    evidence_summary: "Threads公開頁面直接顯示投票票數與15%／85%結果。"
+    verification_notes:
+      - "此fact只記錄該線上投票結果，不把它升格為代表性民意調查。"
+      - "投票參與者是自選且受平台曝光路徑影響；缺乏抽樣框與母體校正。"
+    tags: ["2026", Threads, poll, 洋流, 沈伯洋, 蔣萬安]
+
+  - id: F002
+    statement: "@robinhoodspirit在2026-10-21 16:12至2026-10-22 02:20的連續11篇原始貼文，Meta AI fetch_posts所回報likes依序為17、9、33、11、170、6400、8、12、2、4700、3800；三篇>=3800的貼文集中在約9小時內，中間仍穿插8、12、2等低互動貼文。"
+    status: verified
+    observed_at: "2026-10-25T00:50:56+08:00"
+    source_ids: [S002, S003, S004]
+    evidence_summary: "同一作者極低baseline窗口中出現多次高讚貼文，而高讚之間並非整體帳號所有貼文同步抬升。"
+    verification_notes:
+      - "本序列來自Meta AI對Threads fetch_posts的逐篇整理；低讚貼文URL與內容曾在同一DM查核過程逐篇列出。"
+      - "此fact描述的是觀察序列，不判斷是平台推薦、真人轉傳、人工動員或自動化帳號造成。"
+      - "T0前最近4篇17、9、33、11的median為14；先前Meta AI曾誤算為22，公開evidence採校正值14。"
+    tags: ["2026", Threads, selective-burst, author-baseline, 沈伯洋]
+
+  - id: F003
+    statement: "經post ID／media_id重新校驗後，S002、S003、S004的fetch_comments total_count分別為380、55、140；三篇高讚貼文的可見回覆量均明顯高於同作者同窗口多數低讚貼文的0至3則回覆。"
+    status: verified
+    observed_at: "2026-10-25T00:50:56+08:00"
+    source_ids: [S002, S003, S004]
+    evidence_summary: "高讚三篇不只是likes增加；可見回覆亦同步從作者低基線的0–3升至55–380。"
+    verification_notes:
+      - "曾發生一次手動media_id對應錯誤：380與137／140被配到錯誤post；本fact使用後續按post ID與media_id重新校正的數值。"
+      - "fetch_comments回傳筆數略低於total_count：S002 347/380、S003 54/55、S004 137/140；工具回報has_next_page=False，差額可能來自刪除／權限等不可見record。"
+      - "此fact不把回覆者一律視為支持者，也不推論所有回覆均為真人；只記錄可見互動總量。"
+    tags: ["2026", Threads, comments, measurement, correction, interaction]
+
+  - id: F004
+    statement: "在針對S002、S003、S004所做的公開傳播路徑搜尋中，未找到可確認的大型帳號、候選人、媒體或組織直接quote／repost三篇原文的鏈條；此結果僅代表該次搜尋未找到，不等於不存在任何轉傳或推薦來源。"
+    status: verified
+    observed_at: "2026-10-25T00:50:56+08:00"
+    source_ids: [S002, S003, S004]
+    evidence_summary: "bounded search未找到直接大型公開擴散鏈。"
+    verification_notes:
+      - "not_found != never_existed；Threads搜尋工具本身有結果數與排序限制。"
+      - "repost／quote總數欄位在該工具中 unavailable，因此不能由未找到search result推成零轉貼。"
+    tags: ["2026", Threads, search-limit, propagation, not-found]
+
+  - id: F005
+    statement: "S003的女性安全審計素材在約11小時後另有S005取得約15,000 likes；S004相近的『沈伯洋相較蔣萬安更會做事』framing，在約16小時前另有S006取得約4,800 likes。"
+    status: verified
+    observed_at: "2026-10-25T00:50:56+08:00"
+    source_ids: [S003, S004, S005, S006]
+    evidence_summary: "至少兩篇@robinhoodspirit高互動內容存在相近時間的獨立高互動同素材／近似framing案例。"
+    verification_notes:
+      - "S005與S003為相同政策素材但非直接quote；S006與S004為近似framing而非相同文字。"
+      - "此fact削弱『只有原作者單篇異常、題材本身完全沒有其他高互動』的強命題，但不能決定因果機制。"
+    tags: ["2026", Threads, parallel-virality, matched-content, competing-explanation]
+
+claims:
+  - id: C001
+    statement: "S001的15%／85%線上投票結果本身足以證明一般洋流／沈伯洋貼文的高likes是機器帳號灌出的。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F001]
+    reasoning_notes: "單一Threads poll是自選且非代表性樣本；即使投票行為與like的操作成本不同，也只能形成值得解釋的channel differential，不能單靠該結果完成bot因果歸因。"
+
+  - id: C002
+    statement: "@robinhoodspirit在該窗口存在post-level selective burst／selective virality：少數貼文從低baseline跳到數千likes，但同一時間附近其他貼文仍維持個位數至百餘likes。"
+    status: supported
+    supports: [F002]
+    contradicts: []
+    related_facts: [F003]
+    reasoning_notes: "這是cause-neutral的描述性結論；『被選擇性放大』只表示互動結果集中於個別貼文，不指定是平台演算法、真人擴散、人工動員或外部自動化。"
+
+  - id: C003
+    statement: "該窗口是author-wide boost：作者一旦進入某種推薦或目標名單，所有後續貼文整體baseline都同步上升。"
+    status: contradicted
+    supports: []
+    contradicts: [F002]
+    related_facts: []
+    reasoning_notes: "6400之後仍出現8、12、2，再出現4700、3800；T0後多數貼文未同步抬升，與『所有新文一起被加權』不符。"
+
+  - id: C004
+    statement: "三篇高讚貼文只是likes單獨暴增，沒有同步的人類可見互動增加。"
+    status: contradicted
+    supports: []
+    contradicts: [F003]
+    related_facts: []
+    reasoning_notes: "校正後三篇fetch_comments total_count為380、55、140，相較同作者低baseline貼文0–3則回覆均明顯增加。這不排除likes中另有非自然成分，但排除『只有like counter上升、其他互動完全不動』的強命題。"
+
+  - id: C005
+    statement: "存在外部自動化流程『discovery -> author cache/watchlist -> periodic polling -> post-level selection -> account-pool like dispatch』，且它是F002 selective burst的實際原因。"
+    status: unresolved
+    supports: [F002]
+    contradicts: [F003, F005]
+    related_facts: [F004]
+    reasoning_notes: "此工程模型可以產生『高讚間穿插低讚』的觀察形狀，因此仍是可反證hypothesis；但目前缺liker identity、like timestamps、views/impressions與直接帳號池證據。F003顯示高讚同時伴隨大量回覆，F005則提供至少部分內容的自然／演算法virality替代解釋。"
+
+  - id: C006
+    statement: "Threads自身推薦機制、真人轉傳／人工動員足以完整解釋F002，外部自動化可被排除。"
+    status: unresolved
+    supports: [F003, F005]
+    contradicts: []
+    related_facts: [F002, F004]
+    reasoning_notes: "F003與F005提高自然／平台擴散解釋的可信度，但缺曝光曲線、推薦來源、views與liker資料，尚不能證明它們已解釋全部異常或排除混合模型。"
+
+  - id: C007
+    statement: "目前Meta AI Threads content_search結果可以用來估計pro-沈與pro-蔣／反沈小帳號發生selective burst的盛行率差異。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "多輪測試中，content_search即使要求50筆，每個時間切片實際僅回傳2–3筆；中性人名16次搜尋合併30位作者，排除媒體／官方／大帳號後只剩9位且全被分類為pro-沈，與已知可另外找到的反沈小帳號不相容於代表性母體假設。工具適合case discovery，不足以建立prevalence denominator。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-25T00:50:56+08:00"
+    platform: "GitHub politics-db"
+    query: "洋流 Threads / 沈伯洋 洋流 / Threads 投票 / robinhoodspirit"
+    scope: "lichih/politics-db main"
+    result: not_found
+    notes: "未找到既有同主題evidence；因此建立新session。此次repo搜尋未找到 != 過去從未研究或沒有相鄰研究。"
+
+  - id: Q002
+    observed_at: "2026-10-25T00:50:56+08:00"
+    platform: "Threads Meta AI / fetch_posts"
+    query: "@robinhoodspirit 2026-10-21 16:12 至 2026-10-22 02:20 原始貼文時間序列"
+    scope: "同作者連續11篇可取得likes之原始貼文"
+    result: found
+    notes: "likes依序17、9、33、11、170、6400、8、12、2、4700、3800。此序列支持post-level selective burst存在，但不含views、liker IDs、like timestamps。"
+
+  - id: Q003
+    observed_at: "2026-10-25T00:50:56+08:00"
+    platform: "Threads Meta AI / fetch_comments"
+    query: "DexsHUkDT3K / Deyh1gnlqs7 / DeypXucFv4q"
+    scope: "三篇高讚貼文的post ID、media_id、total_count、record count、pagination"
+    result: found
+    notes: "校正後total_count依序380、55、140；實際records 347、54、137；三篇has_next_page=False。先前曾因三個media_id未按URL順序回傳而手動錯配，後續已按post ID與media_id修正。"
+
+  - id: Q004
+    observed_at: "2026-10-25T00:50:56+08:00"
+    platform: "Threads Meta AI / content_search + fetch_comments"
+    query: "三篇高讚文公開quote/repost、大帳號引用、近似文字／同素材／同framing"
+    scope: "各貼文前後約24小時的公開Threads搜尋結果"
+    result: partial
+    notes: "未找到可確認的直接大型quote/repost鏈；S003找到同素材S005約15K likes，S004找到近似framing S006約4.8K likes。未找到 != 不存在；工具無完整repost/quote欄位。"
+
+  - id: Q005
+    observed_at: "2026-10-25T00:50:56+08:00"
+    platform: "Threads Meta AI / content_search"
+    query: "8個時間切片，各以中性詞『沈伯洋』『蔣萬安』、recency排序、每次要求50筆"
+    scope: "2026-09-01至2026-10-24，共16次搜尋"
+    result: partial
+    notes: "每次實際只回傳2–3筆；合併後30位不同作者，排除新聞、官方、組織、>=20K followers大帳號後剩9位且均被分類為pro-沈／洋流。此結果顯示工具回傳集合不適合作為跨陣營盛行率denominator，不能把B組0例解讀為反沈小帳號不存在或沒有高互動案例。"
+
+promotion:
+  cases: []
+  comparators: []
+  research:
+    - proposed: "threads-political-engagement-amplification"
+      rationale: "若後續取得liker identity、like growth curve、views/impressions、推薦來源或prospective out-of-sample觀察，可升格研究平台推薦、人工動員與自動化互動放大的可辨識特徵。"
+
+notes:
+  - "目前最穩健的描述是：@robinhoodspirit出現post-level selective burst，但原因unresolved。"
+  - "『selective amplification』在本檔是描述結果集中於少數貼文的cause-neutral用語，不等於已證實外部操弄。"
+  - "最簡單的keyword trigger模型已被同作者多篇沈伯洋相關低讚貼文削弱；若存在外部自動化，至少需要post-level selector或其他挑選條件。"
+  - "author-wide boost模型被F002直接反駁；若使用author cache/watchlist假說，cache只能解釋『被持續發現』，不能解釋為何只有部分貼文爆量。"
+  - "liker overlap是區分固定帳號池最直接的觀測之一，但目前公開／Meta AI可用工具未提供liker list；因此本輪無法檢驗。"
+  - "回覆文字沒有明顯AI痕跡並不能反證『只負責likes的帳號池』，因為該hypothesis本來就不要求bot留言；但F003證明高讚文同時獲得大量可見回覆，會降低『只有likes被孤立灌高』模型的必要性。"
+  - "下一步證據價值最高的是prospective test：事前固定作者與判準，完整記錄未來貼文，不依結果挑樣本；若再次out-of-sample出現『低基線 -> 特定政治文數千讚 -> 低基線 -> 特定政治文數千讚』，證據力高於事後案例搜尋。"
