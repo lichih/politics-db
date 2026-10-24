@@ -3,7 +3,7 @@ session:
   project: Politics
   title: 沈伯洋競辦／民進黨官方「洋流」品牌的人格與能力拔高：造神指控的可驗證證據與基準
   started_at: '2026-10-24T21:33:09+08:00'
-  updated_at: '2026-10-24T22:24:12+08:00'
+  updated_at: '2026-10-24T22:40:28+08:00'
   status: active
 topics:
 - 沈伯洋
@@ -258,6 +258,93 @@ sources:
   - 沈伯洋競選總幹事吳思瑤表示『沈伯洋就是沈伯洋』，希望洋流成為一股暖流，慢慢擴散、感動更多人。
   - 此為正式競辦人物的情緒／品牌語言，但沒有直接把沈伯洋能力或人格推到不可證偽程度，宜列低權重加權項而非核心造神證據。
 
+- id: S022
+  source_type: secondary
+  publisher: 公視新聞網
+  title: 2022台北市長候選人辯論會完整記錄
+  url: https://news.pts.org.tw/live/22
+  published_at: '2022-11-05'
+  observed_at: '2026-10-24T22:40:28+08:00'
+  retrieval_status: reachable
+  notes:
+  - 公視完整記錄蔣萬安結論：身分從矽谷律師、立委到三個孩子的父親會變，但『個性始終如一』，並以自己的年輕、創新、家的愛與責任連結台北未來。
+  - 可作候選人本人穩定人格自我敘事樣本。
+- id: S023
+  source_type: secondary
+  publisher: TVBS新聞網
+  title: 北市長辯論／追討疫苗採購真相　蔣萬安：我不怕國家機器追殺
+  url: https://news.tvbs.com.tw/politics/1954094
+  published_at: '2022-11-05'
+  observed_at: '2026-10-24T22:40:28+08:00'
+  retrieval_status: reachable
+  notes:
+  - 記錄蔣萬安稱自己『溫暖又有魄力』，且擔任立委如此、擔任市長也是。
+  - 同段把『個性始終如一』與過去工作／家庭／政治身分串連，形成穩定人格品牌。
+- id: S024
+  source_type: primary
+  publisher: 蔣萬安官方YouTube
+  title: 蔣萬安給市民的真心話：我是那個全力以赴的蔣萬安，一起把善良與正直帶進台北
+  url: https://www.youtube.com/watch?v=jLTGRjqFAQ8
+  published_at: '2022-11-07'
+  observed_at: '2026-10-24T22:40:28+08:00'
+  retrieval_status: reachable
+  notes:
+  - 候選人官方影片自稱『全力以赴的蔣萬安』『撐起台北的蔣萬安』，並稱自己能把正向力量、善良與正直帶進城市。
+  - 這不是政策績效本身，而是候選人與道德人格／城市使命的綁定。
+- id: S025
+  source_type: secondary
+  publisher: 中央社
+  title: 蔣萬安合體侯友宜、盧秀燕 「最讚約定」廣告發布
+  url: https://www.cna.com.tw/news/aipl/202211170306.aspx
+  published_at: '2022-11-17'
+  observed_at: '2026-10-24T22:40:28+08:00'
+  retrieval_status: reachable
+  notes:
+  - 記錄蔣萬安競辦副發言人說明廣告核心是三名候選人的『陽光力量』，其中蔣萬安被描述為具有『國際觀的首都市長高度』。
+  - 這是蔣萬安競辦可直接歸屬的候選人人格／能力品牌語言。
+- id: S026
+  source_type: secondary
+  publisher: 自由時報
+  title: 蔣萬安合體漢子、燕子推廣告 3人打勾勾喊讓台灣充滿陽光
+  url: https://election.ltn.com.tw/2022/news/breakingnews/4126805
+  published_at: '2022-11-17'
+  observed_at: '2026-10-24T22:40:28+08:00'
+  retrieval_status: reachable
+  notes:
+  - 交叉確認蔣辦稱廣告凝聚『陽光力量』，並以盧秀燕的溫暖堅定、侯友宜人民優先、蔣萬安『國際觀的首都市長高度』作三人品牌定位。
+- id: S027
+  source_type: secondary
+  publisher: 中央社
+  title: 蔣萬安：相信選民可用選票打敗不適格候選人
+  url: https://www.cna.com.tw/news/aipl/202211230056.aspx
+  published_at: '2022-11-23'
+  observed_at: '2026-10-24T22:40:28+08:00'
+  retrieval_status: reachable
+  notes:
+  - 蔣萬安稱選舉是價值對抗，相信『光明可以戰勝黑暗、善良可以戰勝側翼、正直可以戰勝謊言、民主可以戰勝黑箱』。
+  - 屬高強度道德二元與使命化敘事，但對象是陣營／選戰價值，不完全等於候選人本人全能化。
+- id: S028
+  source_type: secondary
+  publisher: 自由時報
+  title: 勝選台北市長 蔣萬安：陳時中、黃珊珊是可敬對手
+  url: https://election.ltn.com.tw/2022/news/breakingnews/4136638
+  published_at: '2022-11-26'
+  observed_at: '2026-10-24T22:40:28+08:00'
+  retrieval_status: reachable
+  notes:
+  - 勝選感言再次稱這場選戰是『價值的聖戰』，並重複善良／正直／民主／光明戰勝對應負面價值的二元敘事。
+- id: S029
+  source_type: secondary
+  publisher: TVBS新聞網
+  title: 蔣萬安光復台北！人生勝利組似馬英九　想當藍營儲君還有挑戰
+  url: https://news.tvbs.com.tw/politics/1967028
+  published_at: '2022-11-27'
+  observed_at: '2026-10-24T22:40:28+08:00'
+  retrieval_status: reachable
+  notes:
+  - 媒體以『人生勝利組』、學歷好、形象佳等方式塑造人物光環，但同篇也列出行事過於泥、遇事不決等負面評價。
+  - 因此可作媒體光環化 baseline，卻不是單向、不可更新的英雄化敘事。
+
 facts:
 - id: F001
   statement: 沈伯洋競選團隊把『洋流』明確作為長期品牌戰操作；綠營幕僚稱其為從提名起啟動的198天大型行銷活動，目的在打出品牌差異化並重塑候選人形象。
@@ -509,6 +596,86 @@ facts:
   - emotion-weighting
   - 洋流
 
+- id: F017
+  statement: 蔣萬安在2022台北市長辯論中把自己描述為『溫暖又有魄力』，並稱身分會變但『個性始終如一』，屬候選人本人對穩定人格特質的明確自我品牌化。
+  status: verified
+  observed_at: '2026-10-24T22:40:28+08:00'
+  source_ids:
+  - S022
+  - S023
+  evidence_summary: 公視與TVBS對同場辯論的記錄互相支持；『溫暖又有魄力』『個性始終如一』均超出單一政策成敗，直接描述穩定人格。
+  verification_notes:
+  - 此類人格自我描述可進入人格光環化比較，但不能僅憑一兩句直接判定整體『造神』。
+  tags:
+  - '2022'
+  - 蔣萬安
+  - personality-branding
+  - warmth
+  - decisiveness
+  - comparator
+- id: F018
+  statement: 蔣萬安官方競選影片把候選人本人與『全力以赴』『撐起台北』『善良與正直』綁定，形成候選人中心的道德人格與城市使命敘事。
+  status: verified
+  observed_at: '2026-10-24T22:40:28+08:00'
+  source_ids:
+  - S024
+  evidence_summary: 官方YouTube是候選人自身一手宣傳材料，可直接證明競選團隊以道德人格與城市使命包裝候選人。
+  verification_notes:
+  - 『善良與正直』屬道德人格／價值品牌；『撐起台北』屬使命化修辭，兩者仍需與一般競選廣告 baseline 比較。
+  tags:
+  - '2022'
+  - 蔣萬安
+  - campaign-ad
+  - moral-branding
+  - mission-framing
+  - comparator
+- id: F019
+  statement: 蔣萬安競辦在官方競選廣告說明中把蔣萬安定位為具有『國際觀的首都市長高度』，並將其與侯友宜『人民優先』、盧秀燕『溫暖堅定』共同包入『陽光力量』品牌。
+  status: verified
+  observed_at: '2026-10-24T22:40:28+08:00'
+  source_ids:
+  - S025
+  - S026
+  evidence_summary: 中央社與自由時報均記錄蔣辦副發言人對廣告理念的相同說明，且明確標示為競辦提供／發布。
+  verification_notes:
+  - 『高度』雖屬人格／能力拔高，但此處被『國際觀』限定，較『這就是沈伯洋的高度』具有更明確的能力指涉；仍屬可比較樣本。
+  tags:
+  - '2022'
+  - 蔣萬安
+  - campaign-office
+  - 高度
+  - sunshine-brand
+  - comparator
+- id: F020
+  statement: 蔣萬安在選前與勝選時反覆以『光明戰勝黑暗、善良戰勝側翼、正直戰勝謊言、民主戰勝黑箱』描述選戰，並稱其為價值對抗／價值的聖戰。
+  status: verified
+  observed_at: '2026-10-24T22:40:28+08:00'
+  source_ids:
+  - S027
+  - S028
+  evidence_summary: 中央社與自由時報分別記錄選前與勝選後相近語句，顯示此道德二元／使命化框架不是單次口誤。
+  verification_notes:
+  - 這主要神聖化己方價值／陣營與選戰使命，不等於把蔣萬安本人描述成全能或不可犯錯；在比較模型中宜列使命化加權而非核心全能化。
+  tags:
+  - '2022'
+  - 蔣萬安
+  - moral-binary
+  - mission-framing
+  - comparator
+- id: F021
+  statement: 媒體曾以『人生勝利組』等語言替蔣萬安加人物光環，但同篇也明確列出其行事風格過於泥、遇事不決等缺點，因此不是單向的不可更新人格敘事。
+  status: verified
+  observed_at: '2026-10-24T22:40:28+08:00'
+  source_ids:
+  - S029
+  evidence_summary: 同一TVBS文章同時有高光與負評，可作『有人物光環但保留反例更新』的媒體 baseline。
+  tags:
+  - '2022'
+  - 蔣萬安
+  - media-halo
+  - counterexample
+  - comparator
+
 claims:
 - id: C001
   statement: 沈伯洋競選團隊與民進黨官方不是被動接受『洋流』現象，而是主動把『洋流』納入長期品牌塑造、正式競選組織、活動設計與支持者身份系統。
@@ -624,6 +791,57 @@ claims:
   - F016
   reasoning_notes: 『高度／無比謙卑』屬人格本質化，『行動知識庫』屬整體能力本質化，『還有什麼不會』屬全能化，『百年難得一見的練武奇才』屬能力本質化加唯一化。這是文本coding結論，不等於已完成整體競選造神工程的因果歸責。
 
+- id: C011
+  statement: 蔣萬安2022競選也存在可觀察的人格光環化與使命化，包括『溫暖又有魄力』『個性始終如一』『善良與正直』『撐起台北』『國際觀的首都市長高度』等，因此不能把『人格光環化』描述成沈伯洋陣營獨有。
+  status: supported
+  supports:
+  - F017
+  - F018
+  - F019
+  contradicts: []
+  related_facts:
+  - F020
+  reasoning_notes: 這些是候選人本人與競辦可直接歸屬的材料，足以構成對沈伯洋案例的有效 comparator。
+- id: C012
+  statement: 就目前已蒐集的高強度樣本，蔣萬安的人格光環化主要集中於溫暖、魄力、善良、正直、高度與城市使命；尚未在本次搜尋中找到與沈伯洋『還有什麼不會』『行動知識庫』『百年難得一見的練武奇才』同型、同密度的整體能力無上限化／稀有化語句。
+  status: supported
+  supports:
+  - F017
+  - F018
+  - F019
+  - F020
+  contradicts: []
+  related_facts:
+  - F011
+  - F012
+  - F013
+  reasoning_notes: 目前方向差異可由已找到樣本支持，但搜尋尚非完整2022／2026全量corpus，因此不能把『未找到同型語句』升格成『不存在』；需要同期間／同媒體／同actor層級的系統抽樣才能比較密度。
+- id: C013
+  statement: 『蔣萬安完全沒有造神式／人格光環化宣傳，只有沈伯洋有』。
+  status: contradicted
+  supports: []
+  contradicts:
+  - F017
+  - F018
+  - F019
+  - F020
+  related_facts: []
+  reasoning_notes: 蔣本人與競辦均留下明確人格與使命品牌材料；合理比較應改成類型、強度、密度與跨事件重複度，而不是有／無二分。
+- id: C014
+  statement: 目前證據已足以定量證明『沈伯洋比蔣萬安更造神』。
+  status: unresolved
+  supports: []
+  contradicts: []
+  related_facts:
+  - F011
+  - F012
+  - F013
+  - F017
+  - F018
+  - F019
+  - F020
+  reasoning_notes: 已建立雙方可比較的高強度樣本，但仍欠缺固定操作指標、相同期間與相同取樣規則的完整或代表性corpus。現階段可說沈的已知樣本多出全能化／稀有化維度；不能把目的性搜尋樣本直接當頻率統計。
+
 searches:
 - id: Q001
   observed_at: '2026-10-24T21:33:09+08:00'
@@ -689,9 +907,26 @@ searches:
   result: partial
   notes: 搜尋結果索引不完整；既有跨媒體資料可確認蔡其昌等原話，但本次不因三立索引缺漏把『未搜到』寫成不存在。
 
+- id: Q010
+  observed_at: '2026-10-24T22:40:28+08:00'
+  platform: public web
+  query: 蔣萬安 溫暖又有魄力／個性始終如一／善良正直／撐起台北／首都市長高度／陽光力量
+  scope: 2022台北市長選舉候選人本人、競辦與主流媒體
+  result: found
+  notes: 找到候選人辯論、官方YouTube、競辦廣告與中央社／自由／TVBS交叉紀錄，可建立蔣萬安的人格光環化 comparator。
+- id: Q011
+  observed_at: '2026-10-24T22:40:28+08:00'
+  platform: public web
+  query: 蔣萬安 人生勝利組／全才／天才／什麼都會／百年難得一見／瑰寶
+  scope: 2022與2026公開報導初步反例搜尋
+  result: partial
+  notes: 找到『人生勝利組』媒體光環，但同篇保留缺點；本次未找到與沈伯洋『還有什麼不會』『百年難得一見的練武奇才』同型的候選人整體能力無上限化語句。僅記為此次搜尋未找到，不推論從未存在。
+
 promotion:
   cases: []
-  comparators: []
+  comparators:
+  - proposed: chiang-wanan-personality-halo-comparator
+    rationale: 已取得蔣萬安候選人本人與競辦的人格／使命品牌樣本，可升格為正式comparators，用同一套人格本質化、全能化、唯一化、使命化、情緒／權威加權與跨事件重複指標，與沈伯洋比較。
   research:
   - proposed: political-campaign-deification-operational-criteria
     rationale: 若後續完成蔣萬安、蘇巧慧、黃世杰等候選人的同型品牌資料，可把『造神』從修辭爭議轉成可比較的操作指標：人格／能力拔高、使命化、唯一性、敵人恐懼背書、支持者領袖中心化、對批評與反例的處理。
