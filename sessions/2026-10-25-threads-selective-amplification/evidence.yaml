@@ -424,7 +424,7 @@ claims:
 
   - id: C011
     statement: "就目前已取得資料，內容特性、Threads推薦與真人擴散是比『已證實固定bot帳號池灌讚』更強的工作解釋。"
-    status: partially_supported
+    status: supported
     supports: [F005, F007, F008, F009, F010, F011]
     contradicts: []
     related_facts: [F002, F006]
