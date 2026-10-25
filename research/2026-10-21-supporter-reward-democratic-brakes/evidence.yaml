@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "支持者獎勵、陣營內規範執行與民主煞車：以2025大罷免為起始案例"
   started_at: "2026-10-21T19:18:52+08:00"
-  updated_at: "2026-10-23T08:58:00+08:00"
+  updated_at: "2026-10-25T14:08:26+08:00"
   status: active
 
 topics:
@@ -46,6 +46,10 @@ topics:
   - identity substitution
   - epistemic disqualification
   - evidence-demand substitution
+  - status substitution
+  - critic class degradation
+  - motive attribution
+  - public-office accountability
 
 sources:
   - id: S001
@@ -429,6 +433,21 @@ sources:
       - "作者把不回答的理由連結到對提問者的分類：『先入為主』『非藍即白』『來找碴』，並稱不想浪費時間在『你們這種人』身上。"
       - "此來源可用於研究明示拒答與身份／動機分類如何結合；不能單獨證明某陣營普遍如此。"
 
+
+  - id: S033
+    source_type: commentary
+    publisher: "Facebook / 鬼針鑑(聯隊)公開社團 / 羅比特"
+    title: "以沈伯洋學歷、收入與社經地位回應立委薪資／職務批評，並稱批評者為社會底層與社會亂源"
+    url: "https://www.facebook.com/groups/caltropsquadron/posts/4605267316459752/"
+    published_at: "2026-10-22"
+    observed_at: "2026-10-25T14:08:26+08:00"
+    retrieval_status: reachable
+    notes:
+      - "原文在回應『沈伯洋領立委薪水／又占高官』類批評時，沒有就立委職務表現或是否應辭職本身提出績效資料，而改稱即使沈伯洋落選，薪水仍是批評者很多倍，並以『台大法律系第一，博士教授』『出國靠自己賺得比高官多』等語句強調其能力與社經地位。"
+      - "同文直接稱『雜草就是社會底層』『你們這些雜草，就是社會的亂源』，並把批評描述為『仇富』及仇恨有實力、靠自己的人。"
+      - "本來源可直接證明上述文本與論證轉向存在；不能單獨證明作者的正式政黨身分、是否屬『洋流』組織、沈伯洋實際收入高於高官，或作者發文是因台北市長選情惡化而焦慮。"
+      - "頁面觀察時可見大量反對與嘲諷回覆，因此互動量不能直接解讀為對原文的正向支持或同溫層獎勵。"
+
 facts:
   - id: F001
     statement: "2025-01-04，民進黨立院黨團總召柯建銘以「藍白賣台」「救台灣」框架主張罷免41席國民黨區域立委。"
@@ -752,6 +771,19 @@ facts:
     source_ids: [S032]
     evidence_summary: "這使先前『identity substitution after evidence demand』從單純回應轉向，進一步出現公開明示的拒答理由。"
     tags: [explicit-refusal, evidence-demand, identity-substitution, motive-attribution, epistemic-disqualification]
+
+
+  - id: F036
+    statement: "2026-10-22，Facebook公開社團貼文在面對沈伯洋領立委薪資、是否占據公職與是否有實績的批評時，改以沈伯洋的學歷、收入與社經地位作回應，並以『社會底層』『社會亂源』『仇富』等語句貶抑批評者及歸因其動機。"
+    status: verified
+    observed_at: "2026-10-25T14:08:26+08:00"
+    source_ids: [S033]
+    evidence_summary: "公開貼文可直接觀察到三個相連步驟：以候選人／公職者的地位與能力光環替代職務問責、以階級／身份語言降低批評者資格、再把批評動機歸因為仇富或仇恨成功者。"
+    verification_notes:
+      - "本fact只保存公開文本與論證結構，不判定原先對沈伯洋立委表現的批評一定成立。"
+      - "『台大法律系第一』『博士教授』『出國收入高於高官』等內含事實命題，本筆沒有逐一升格為已驗證外部事實；它們在此只作為作者實際使用的辯護素材。"
+      - "作者是否因選情壓力而發文屬動機與因果問題，不能從人身攻擊本身倒推。"
+    tags: ["2026", Facebook, 沈伯洋, public-office-accountability, status-substitution, critic-class-degradation, motive-attribution, personal-attack]
 
 claims:
   - id: C001
@@ -1123,6 +1155,31 @@ claims:
     related_facts: [F035]
     reasoning_notes: "提問者的可能偏誤會影響互動成本，不會改變命題真假。若原作者已公開提出可驗證指控，該指控仍需以對應證據評估；不能由發問者身份替代。"
 
+
+  - id: C047
+    statement: "S033可作為『public-office accountability -> status substitution -> critic class degradation -> motive attribution』的存在性樣本：對公職責任／績效的批評沒有在同一文本中以職務證據回答，而被候選人的學歷、收入與社經地位取代；隨後又以批評者階級身分與嫉妒動機降低其批評資格。"
+    status: supported
+    supports: [F036]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "這是對文本論證結構的分類，不判定沈伯洋的學歷或收入沒有價值，也不判定所有對其支持都使用同一機制。學歷／收入可以證明某些個人能力或經歷，但不能自行回答立委是否履職、是否應辭職或具體政治表現。"
+
+  - id: C048
+    statement: "S033已足以證明作者是因沈伯洋台北市長選情惡化、感到焦急，才轉而對批評者進行人身／階級攻擊。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F036]
+    reasoning_notes: "目前只直接觀察到攻擊語言與論證轉向，沒有作者自述、競選內部資訊、時間序列比較或其他能把攻擊行為連結到選情焦慮的證據。『選情差到急』可作後續可檢驗hypothesis，但不能先寫成動機事實。"
+
+  - id: C049
+    statement: "S033單一貼文已足以代表『洋流』或民進黨支持者整體對異議者採取階級羞辱與人身攻擊。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F036]
+    reasoning_notes: "目前未確認作者正式『洋流』身分，也沒有代表性抽樣、跨帳號分布或群體比例資料；單一公開貼文只能建立此論證型態存在。"
+
 searches:
   - id: Q001
     observed_at: "2026-10-21T19:18:52+08:00"
@@ -1221,6 +1278,15 @@ searches:
     result: found
     notes: "確認比S031更強的樣本：回應者明示『本來就沒有要回答』，並以『先入為主／非藍即白／來找碴』作理由。新增 identity-based refusal after evidence demand 子型。"
 
+
+  - id: Q013
+    observed_at: "2026-10-25T14:08:26+08:00"
+    platform: "connected browser / Facebook + GitHub politics-db"
+    query: "Facebook group post 4605267316459752；沈伯洋 社會底層 社會亂源 仇富；既有 supporter-reward / shen campaign branding evidence"
+    scope: "指定公開貼文、頁面可見留言脈絡，以及 politics-db 既有支持者獎勵與沈伯洋品牌研究"
+    result: found
+    notes: "指定貼文可直接取得，並與既有 supporter-reward 研究中的 identity substitution / personal attack 維度相鄰；本次新增 status substitution、critic class degradation、motive attribution 三個可觀察維度。未把『選情差所以急』升格為已證實因果。"
+
 promotion:
   cases: []
   comparators:
@@ -1252,3 +1318,4 @@ notes:
   - "新增 identity substitution after evidence demand 維度：當可驗證命題被要求指出證據時，觀察回應是否從 claim validity 轉向『你是哪一類人／你沒看懂／你本來就不會改變』。此類身份分類若形成self-sealing規則，可能降低反證造成更新的能力；目前只有存在性樣本，尚不能做陣營普遍性判斷。"
   - "新增 identity-based refusal after evidence demand 子型：不只轉移至身份分類，而是明示『不回答』，並把提問者的陣營、偏誤或動機分類當成拒答理由。研究上應區分『合理停止低價值對話』與『把對方身份當成免除原公開主張舉證責任』兩件事。"
   - "『可被政黨動員的資源』應操作化為低更新成本、高可預測、會沿陣營框架自動產生結論／擴散／規範執行等可觀察特徵；不能把政黨支持身分本身直接當成此分類。"
+  - "新增 status substitution / critic class degradation / motive attribution 維度：當政治人物的公職績效或責任被質疑時，區分回應是否提供職務相關證據，或改以學歷、收入、社經地位替代，再以批評者的階級／能力／嫉妒動機降低其發言資格。此結構可被觀察，不代表被批評的原始命題必然為真，也不能單靠攻擊語言倒推出選情焦慮。"
