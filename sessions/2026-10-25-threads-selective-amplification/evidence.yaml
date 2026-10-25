@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "Threads 洋流互動異常：投票落差、低基線帳號 selective burst 與 bot／推薦機制競爭假說"
   started_at: "2026-10-25T00:50:56+08:00"
-  updated_at: "2026-10-25T00:50:56+08:00"
+  updated_at: "2026-10-25T13:55:00+08:00"
   status: active
 
 topics:
@@ -102,6 +102,119 @@ sources:
       - "內容不是S004相同文字，但核心 framing 同樣是以沈伯洋的能力／政見對比蔣萬安。"
       - "此來源支持該 framing 在相近時間另有高互動案例；不能單獨證明S004的流量來源。"
 
+
+  - id: S007
+    source_type: commentary
+    publisher: "Threads / @fredrickliu"
+    title: "台北大洋流第二次車掃，永吉路的洋流大旗隊"
+    url: "https://www.threads.com/@fredrickliu/post/DeoV5jSkSQA"
+    published_at: "2026-10-18"
+    observed_at: "2026-10-25T13:55:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "Threads DM shared-post card觀察約21K likes、355留言、569轉發、610分享；數字為當時UI current state。"
+      - "Meta AI fetch_comments實際抓到312筆records；total_count曾回310，工具計數與records存在小幅不一致。"
+      - "以同一timestamp source計算，發文後30/60/90/120/150/163分鐘累積direct replies分別為29、78、114、149、186、194。"
+      - "163分鐘約對應@eczht_tw quote發生時點；194/312=62.2%。"
+
+  - id: S008
+    source_type: commentary
+    publisher: "Threads / @eczht_tw"
+    title: "「嚴重懷疑這批水滴受過訓練…洋流樂旗隊」"
+    url: "https://www.threads.com/@eczht_tw/post/DeoonuzEm3H"
+    published_at: "2026-10-18"
+    observed_at: "2026-10-25T13:55:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "Threads DM shared-post card直接顯示約27K likes、176留言、494轉發、345分享。"
+      - "fetch_comments實際抓到163筆records，total_count曾回160。"
+      - "發文後30/60/120/180/360分鐘累積direct replies為4、16、40、57、81；24小時144；163分鐘56。"
+      - "163分鐘累積56/163=34.4%，reply growth較S007明顯更慢且更長尾。"
+
+  - id: S009
+    source_type: commentary
+    publisher: "Threads / @eczht_tw"
+    title: "quote @pumashen 政策島"
+    url: "https://www.threads.com/@eczht_tw/post/DezNGE2koQO"
+    published_at: "2026-10-22"
+    observed_at: "2026-10-25T13:55:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "current likes約2.7K；被quote原文current likes約160K。"
+      - "fetch_comments records_count=25，total_count=26。"
+      - "30/60/120/180/360分鐘direct replies為4、7、8、9、9；24小時25。"
+
+  - id: S010
+    source_type: commentary
+    publisher: "Threads / @eczht_tw"
+    title: "quote @louis_kphung 颱風感謝文"
+    url: "https://www.threads.com/@eczht_tw/post/De3KXznkhtr"
+    published_at: "2026-10-23"
+    observed_at: "2026-10-25T13:55:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "current likes約13K。"
+      - "fetch_comments records_count=787，total_count=800。"
+      - "30/60/120/180/360分鐘direct replies為15、34、84、135、386；24小時782。"
+      - "與S008、S009同為@eczht_tw高量quote，但reply growth形狀明顯不同。"
+
+  - id: S011
+    source_type: commentary
+    publisher: "Threads / @eczht_tw"
+    title: "低量quote對照：@johnlee2500"
+    url: "https://www.threads.com/@eczht_tw/post/DeytNpHEqPx"
+    published_at: "2026-10-22"
+    observed_at: "2026-10-25T13:55:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "current likes約16；被quote原文current likes約1.1K；fetch_comments records_count=1。"
+
+  - id: S012
+    source_type: commentary
+    publisher: "Threads / @eczht_tw"
+    title: "低量quote對照：@luminana66"
+    url: "https://www.threads.com/@eczht_tw/post/De1lr3EEpIA"
+    published_at: "2026-10-23"
+    observed_at: "2026-10-25T13:55:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "current likes約34；被quote原文current likes約4.1K；fetch_comments records_count=0。"
+
+  - id: S013
+    source_type: commentary
+    publisher: "Threads / @eczht_tw"
+    title: "低量quote對照：@victor31429"
+    url: "https://www.threads.com/@eczht_tw/post/De4TPNBkkxe"
+    published_at: "2026-10-24"
+    observed_at: "2026-10-25T13:55:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "Threads shared-post card顯示11 likes；被quote原文current likes約1.9K；fetch_comments records_count=3。"
+
+  - id: S014
+    source_type: commentary
+    publisher: "Threads / @eczht_tw"
+    title: "低量quote對照：@sousenchadogakuen"
+    url: "https://www.threads.com/@eczht_tw/post/De5oVC4ku6j"
+    published_at: "2026-10-24"
+    observed_at: "2026-10-25T13:55:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "Threads shared-post card顯示67 likes；fetch_posts較早回62；被quote原文current likes約4.3K；fetch_comments records_count=1。"
+      - "current UI與fetch_posts數字不同，保留retrieval surface差異，不靜默合併。"
+
+  - id: S015
+    source_type: commentary
+    publisher: "Threads / @eczht_tw"
+    title: "@eczht_tw profile / 2026-10-15至10-24貼文時間序列"
+    url: "https://www.threads.com/@eczht_tw"
+    observed_at: "2026-10-25T13:55:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "Meta AI fetch_posts整理19篇likes依序為180、48、27000、2100、12、16、43、10、110、55、340、16、2700、1200、34、48、13000、11、62。"
+      - "全序列median=55；>=1000共5篇；<300共13篇。"
+      - "此時間序列顯示高量貼文之間持續穿插低量貼文，與author-wide sustained boost不符。"
+
 facts:
   - id: F001
     statement: "S001的Threads內建投票於觀察時已結束，共11,683票；結果為挺洋流15%、挺安安85%。"
@@ -160,6 +273,73 @@ facts:
       - "此fact削弱『只有原作者單篇異常、題材本身完全沒有其他高互動』的強命題，但不能決定因果機制。"
     tags: ["2026", Threads, parallel-virality, matched-content, competing-explanation]
 
+
+  - id: F006
+    statement: "@eczht_tw在2026-10-15至10-24可取得的19篇貼文likes序列為180、48、27000、2100、12、16、43、10、110、55、340、16、2700、1200、34、48、13000、11、62；median為55，>=1000共5篇，<300共13篇。"
+    status: verified
+    observed_at: "2026-10-25T13:55:00+08:00"
+    source_ids: [S015]
+    evidence_summary: "同一作者在多次高量貼文之間仍持續出現個位數至百餘likes，形成反覆post-level selective burst，而非整體帳號baseline持續上移。"
+    verification_notes:
+      - "likes序列由Meta AI fetch_posts逐篇整理；median與門檻計數由本專案重新計算。"
+      - "此fact不指定cause。"
+    tags: ["2026", Threads, eczht_tw, selective-burst, author-baseline]
+
+  - id: F007
+    statement: "S007在@eczht_tw S008 quote發生前約163分鐘內已累積194則direct replies，約佔目前可取得312則records的62.2%；reply growth主要發生在quote之前。"
+    status: verified
+    observed_at: "2026-10-25T13:55:00+08:00"
+    source_ids: [S007, S008]
+    evidence_summary: "S007在30/60/90/120/150/163分鐘分別累積29、78、114、149、186、194則direct replies；quote前已處於明顯高互動成長。"
+    verification_notes:
+      - "時間比較只使用同一timestamp source計算相對間隔，不依賴有爭議的UTC／Asia-Taipei絕對時間換算。"
+      - "reply growth不能換算成同期likes或views；本fact只處理可觀察reply時序。"
+      - "fetch_comments total_count與records_count曾有310/312差異，不影響主要趨勢。"
+    tags: ["2026", Threads, reply-timeline, propagation, fredrickliu, eczht_tw]
+
+  - id: F008
+    statement: "S008目前Threads shared-post card顯示約27K likes、176留言、494轉發、345分享；其reply growth較S007慢，30/60/120/180/360分鐘累積direct replies為4、16、40、57、81，24小時144。"
+    status: verified
+    observed_at: "2026-10-25T13:55:00+08:00"
+    source_ids: [S008]
+    evidence_summary: "S008不是『只有likes上升』；目前UI可見轉發與分享亦達數百，但其早期reply curve相對平緩且長尾。"
+    verification_notes:
+      - "shared-post card為Threads UI observation surface；Meta AI retrieval tool曾把reposts/shares標為unavailable，不能用工具欄位缺失覆蓋UI可見值。"
+      - "fetch_comments total_count=160、records=163，與UI留言176不同，需保留surface差異。"
+    tags: ["2026", Threads, interaction-mix, replies, reposts, shares, measurement]
+
+  - id: F009
+    statement: "@eczht_tw三篇高量quote的reply propagation shape並不一致：S008約27K likes但180分鐘57則direct replies；S009約2.7K likes但180分鐘9則；S010約13K likes且180分鐘135則、360分鐘386則。"
+    status: verified
+    observed_at: "2026-10-25T13:55:00+08:00"
+    source_ids: [S008, S009, S010]
+    evidence_summary: "同帳號高量quote可分成至少低reply慢熱型與高reply快速成長型，並無單一共同reply curve。"
+    verification_notes:
+      - "不把reply數量直接換算likes或views。"
+      - "S010 current fetch_comments total_count=800、records=787；S009為26/25；工具計數存在小幅差異。"
+    tags: ["2026", Threads, matched-comparison, propagation-shape, eczht_tw]
+
+  - id: F010
+    statement: "@eczht_tw四篇低量quote對照S011至S014目前likes約11至67，fetch_comments records_count為0至3；被quote原文current likes約1.1K至4.3K，顯示『quote到已有一定互動的原文』本身不足以讓quote文起量。"
+    status: verified
+    observed_at: "2026-10-25T13:55:00+08:00"
+    source_ids: [S011, S012, S013, S014]
+    evidence_summary: "同作者存在多個quote來源本身已有1K至4K likes、但quote文僅11至67 likes的反例。"
+    verification_notes:
+      - "source current likes不是quote當下的歷史likes；本fact只反駁『目前可見source熱度必然對應quote高量』的簡單模型。"
+      - "repost/share在這四篇尚未完整取得，不能寫成所有不可見互動皆低。"
+    tags: ["2026", Threads, quote-post, matched-control, source-popularity]
+
+  - id: F011
+    statement: "S007目前Threads shared-post card顯示約21K likes、355留言、569轉發、610分享；S007與S008皆呈現多維互動，而不是只有like counter單獨升高。"
+    status: verified
+    observed_at: "2026-10-25T13:55:00+08:00"
+    source_ids: [S007, S008]
+    evidence_summary: "兩個核心高量節點在目前UI皆同時有大量留言、轉發與分享。"
+    verification_notes:
+      - "這只能反駁『likes alone』強命題；不能單獨排除likes中存在自動化或人工放大成分。"
+    tags: ["2026", Threads, interaction-mix, viral, likes-only]
+
 claims:
   - id: C001
     statement: "S001的15%／85%線上投票結果本身足以證明一般洋流／沈伯洋貼文的高likes是機器帳號灌出的。"
@@ -194,20 +374,20 @@ claims:
     reasoning_notes: "校正後三篇fetch_comments total_count為380、55、140，相較同作者低baseline貼文0–3則回覆均明顯增加。這不排除likes中另有非自然成分，但排除『只有like counter上升、其他互動完全不動』的強命題。"
 
   - id: C005
-    statement: "存在外部自動化流程『discovery -> author cache/watchlist -> periodic polling -> post-level selection -> account-pool like dispatch』，且它是F002 selective burst的實際原因。"
+    statement: "存在外部自動化流程『discovery -> author cache/watchlist -> periodic polling -> post-level selection -> account-pool like dispatch』，且它是F002／F006 selective burst的實際原因。"
     status: unresolved
-    supports: [F002]
-    contradicts: [F003, F005]
-    related_facts: [F004]
-    reasoning_notes: "此工程模型可以產生『高讚間穿插低讚』的觀察形狀，因此仍是可反證hypothesis；但目前缺liker identity、like timestamps、views/impressions與直接帳號池證據。F003顯示高讚同時伴隨大量回覆，F005則提供至少部分內容的自然／演算法virality替代解釋。"
+    supports: [F002, F006]
+    contradicts: [F003, F005, F007, F008, F009, F011]
+    related_facts: [F004, F010]
+    reasoning_notes: "此工程模型仍能產生『高讚間穿插低讚』的形狀，因此不能由目前資料排除；但現有資料沒有liker identity、like timestamps或直接帳號池證據。F007顯示核心source在quote前已先快速累積大量replies，F008／F011顯示高量節點同時有大量可見轉發／分享／留言，F009則顯示同帳號高量quote沒有固定reply propagation recipe。這些資料降低『固定帳號池是必要解釋』的權重，但不排除hybrid或只操作likes的模型。"
 
   - id: C006
-    statement: "Threads自身推薦機制、真人轉傳／人工動員足以完整解釋F002，外部自動化可被排除。"
+    statement: "Threads自身推薦機制、真人轉傳／人工動員足以完整解釋F002／F006，外部自動化可被排除。"
     status: unresolved
-    supports: [F003, F005]
+    supports: [F003, F005, F007, F008, F009, F010, F011]
     contradicts: []
-    related_facts: [F002, F004]
-    reasoning_notes: "F003與F005提高自然／平台擴散解釋的可信度，但缺曝光曲線、推薦來源、views與liker資料，尚不能證明它們已解釋全部異常或排除混合模型。"
+    related_facts: [F002, F004, F006]
+    reasoning_notes: "新資料明顯提高內容／推薦／真人擴散作為正常解釋的可信度：核心source在quote前已先快速累積大量replies，高量節點有多維互動，且同帳號高量quote呈不同propagation shape；但缺平台推薦日志、views/impressions、liker資料與完整share graph，仍不能證明自然／平台機制已解釋全部異常或排除hybrid。"
 
   - id: C007
     statement: "目前Meta AI Threads content_search結果可以用來估計pro-沈與pro-蔣／反沈小帳號發生selective burst的盛行率差異。"
@@ -216,6 +396,39 @@ claims:
     contradicts: []
     related_facts: []
     reasoning_notes: "多輪測試中，content_search即使要求50筆，每個時間切片實際僅回傳2–3筆；中性人名16次搜尋合併30位作者，排除媒體／官方／大帳號後只剩9位且全被分類為pro-沈，與已知可另外找到的反沈小帳號不相容於代表性母體假設。工具適合case discovery，不足以建立prevalence denominator。"
+
+
+  - id: C008
+    statement: "@eczht_tw高量quote由同一固定engagement generator以近似互動配方放大，因此應呈現相近的reply propagation shape。"
+    status: contradicted
+    supports: []
+    contradicts: [F009]
+    related_facts: [F008]
+    reasoning_notes: "S008與S009屬低reply慢熱型，S010則為高reply快速成長型；同一作者的高量quote沒有單一共同reply curve。這反駁『所有互動維度由同一固定recipe同步生成』的強模型，但不反駁只操作likes、其餘互動自然形成的較弱模型。"
+
+  - id: C009
+    statement: "S007是在@eczht_tw S008 quote發生後才進入主要viral growth，兩篇可能主要由quote後的共同放大才一起起量。"
+    status: contradicted
+    supports: []
+    contradicts: [F007]
+    related_facts: [F008]
+    reasoning_notes: "S007在quote前163分鐘已累積194則direct replies，約佔目前records的62.2%，主要reply growth明顯早於quote。這不告訴我們當時likes數，但足以反駁『source主要在quote後才開始高互動』的強命題。"
+
+  - id: C010
+    statement: "目前已取得的Threads證據足以把post-level selective burst歸因為bot／網軍灌讚。"
+    status: unsupported
+    supports: []
+    contradicts: [F003, F005, F007, F008, F009, F010, F011]
+    related_facts: [F002, F006]
+    reasoning_notes: "selective burst本身已被重複觀察，但attribution仍缺liker-level network、like timestamps、帳號建立／同步行為、完整曝光曲線與可重現母體sampling。現有多維互動與不同propagation shape提供強替代解釋，因此不能由burst形狀直接升格成bot／網軍結論。"
+
+  - id: C011
+    statement: "就目前已取得資料，內容特性、Threads推薦與真人擴散是比『已證實固定bot帳號池灌讚』更強的工作解釋。"
+    status: partially_supported
+    supports: [F005, F007, F008, F009, F010, F011]
+    contradicts: []
+    related_facts: [F002, F006]
+    reasoning_notes: "這是相對解釋力判斷，不是已證實因果。核心source在quote前已先高互動、同素材／近似framing存在其他viral案例、高量quote的互動結構多樣，且高量節點有大量可見repost/share/reply；因此正常virality/recommendation目前比bot attribution需要較少額外假設。但沒有平台內部推薦日志，不能把它升格為fully supported。"
 
 searches:
   - id: Q001
@@ -258,6 +471,39 @@ searches:
     result: partial
     notes: "每次實際只回傳2–3筆；合併後30位不同作者，排除新聞、官方、組織、>=20K followers大帳號後剩9位且均被分類為pro-沈／洋流。此結果顯示工具回傳集合不適合作為跨陣營盛行率denominator，不能把B組0例解讀為反沈小帳號不存在或沒有高互動案例。"
 
+
+  - id: Q006
+    observed_at: "2026-10-25T13:55:00+08:00"
+    platform: "Threads Meta AI / fetch_posts"
+    query: "@eczht_tw 2026-10-15至10-24完整可取得貼文時間序列"
+    scope: "19篇貼文likes序列"
+    result: found
+    notes: "likes為180、48、27000、2100、12、16、43、10、110、55、340、16、2700、1200、34、48、13000、11、62；重新計算median=55、>=1000共5、<300共13。支持同帳號反覆post-level selective burst，但不決定cause。"
+
+  - id: Q007
+    observed_at: "2026-10-25T13:55:00+08:00"
+    platform: "Threads Meta AI / fetch_comments"
+    query: "S007與S008 early reply timeline"
+    scope: "以同一timestamp source計算發文後30至360分鐘與24小時累積direct replies"
+    result: found
+    notes: "S007在quote前163分鐘194/312 records=62.2%，主要reply growth早於quote；S008同時點56/163=34.4%，較慢且更長尾。reply timeline不能換算likes或views。"
+
+  - id: Q008
+    observed_at: "2026-10-25T13:55:00+08:00"
+    platform: "Threads Meta AI / fetch_comments + shared-post card"
+    query: "@eczht_tw 7篇quote posts同帳號matched comparison"
+    scope: "高量S008/S009/S010與低量S011-S014"
+    result: found
+    notes: "高量三篇reply shape不同：27K與2.7K較慢，13K快速大量累積；低量四篇目前likes僅11至67、records 0至3。27K shared-post card另直接顯示176留言、494轉發、345分享。"
+
+  - id: Q009
+    observed_at: "2026-10-25T13:55:00+08:00"
+    platform: "Threads Meta AI / content_search + fetch_posts"
+    query: "高低量quote之被quote原文current likes比較"
+    scope: "@fredrickliu、@pumashen與4篇低量quote來源"
+    result: partial
+    notes: "低量quote來源current likes約1.1K、4.1K、1.9K、4.3K，但quote文僅16、34、11、67；顯示『source現在看起來熱門』不足以單獨預測quote起量。current source likes不得倒推quote當時歷史likes。"
+
 promotion:
   cases: []
   comparators: []
@@ -266,7 +512,11 @@ promotion:
       rationale: "若後續取得liker identity、like growth curve、views/impressions、推薦來源或prospective out-of-sample觀察，可升格研究平台推薦、人工動員與自動化互動放大的可辨識特徵。"
 
 notes:
-  - "目前最穩健的描述是：@robinhoodspirit出現post-level selective burst，但原因unresolved。"
+  - "目前最穩健的總結是：@robinhoodspirit與@eczht_tw皆出現post-level selective burst；異常形狀成立，但bot／網軍attribution目前不成立，cause仍unresolved。"
+  - "就現有證據的相對解釋力，內容特性、平台推薦與真人擴散比『已證實固定bot帳號池』更強；但沒有平台內部推薦日志，因此仍只屬工作解釋，不是已證實因果。"
+  - "S007在S008 quote前已完成主要reply growth，削弱『quote後兩篇才一起被放大』；S008自身則呈較慢長尾reply growth。"
+  - "同帳號高量quote沒有固定interaction recipe：S010為高reply快速成長型，S008／S009為低reply慢熱型。這削弱固定engagement-generator強模型，但不排除只操作likes的弱模型或hybrid。"
+  - "真正能顯著提升attribution強度的新資料主要剩兩類：liker-level identity／timestamp／同步行為網路，或事前定義、可重現的prospective sampling用來估計不同陣營／內容類型selective burst prevalence。"
   - "『selective amplification』在本檔是描述結果集中於少數貼文的cause-neutral用語，不等於已證實外部操弄。"
   - "最簡單的keyword trigger模型已被同作者多篇沈伯洋相關低讚貼文削弱；若存在外部自動化，至少需要post-level selector或其他挑選條件。"
   - "author-wide boost模型被F002直接反駁；若使用author cache/watchlist假說，cache只能解釋『被持續發現』，不能解釋為何只有部分貼文爆量。"
