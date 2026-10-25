@@ -1,0 +1,377 @@
+session:
+  id: 2026-10-26-wuliang-pr-judicial-proceedings
+  project: Politics
+  title: 2022「無良公關」假國民黨網軍企畫書案：不起訴、起訴與二審證據評價
+  started_at: '2026-10-26T03:52:32+08:00'
+  updated_at: '2026-10-26T03:52:32+08:00'
+  status: active
+
+topics:
+- 無良公關
+- 陳冠宇
+- 徐巧芯
+- 蔣萬安
+- 公職人員選舉罷免法第104條
+- 真正惡意
+- 合理查證
+- 私德
+- 公共利益
+- 不起訴
+- 再議
+- 選舉假訊息
+- 司法證據評價一致性
+
+sources:
+- id: S001
+  source_type: primary
+  publisher: 臺灣高等法院／司法院裁判書系統
+  title: 臺灣高等法院115年度上訴字第2173號刑事判決
+  url: https://judgment.judicial.gov.tw/FJUD/data.aspx?ty=JD&id=TPHM%2C115%2C%E4%B8%8A%E8%A8%B4%2C2173%2C20260820%2C1
+  published_at: '2026-08-20'
+  observed_at: '2026-10-26T03:52:32+08:00'
+  retrieval_status: reachable
+  notes:
+  - 以司法院JID TPHM,115,上訴,2173,20260820,1定位；taiwan-judgment-tools live integration 已成功取得全文與歷審。
+  - 本案二審為目前公開可取得之最高審級裁判；歷審清單沒有更高審級裁判不等於案件已確定。
+- id: S002
+  source_type: primary
+  publisher: 臺灣臺北地方法院／司法院裁判書系統
+  title: 臺灣臺北地方法院114年度訴字第1248號刑事判決
+  url: https://judgment.judicial.gov.tw/FJUD/data.aspx?ty=JD&id=TPDM%2C114%2C%E8%A8%B4%2C1248%2C20260225%2C1
+  published_at: '2026-02-25'
+  observed_at: '2026-10-26T03:52:32+08:00'
+  retrieval_status: reachable
+  notes:
+  - 由二審官方歷審關係取得之一審裁判。
+- id: S003
+  source_type: primary
+  publisher: 最高法院／司法院裁判書系統
+  title: 最高法院111年度台上字第4362號刑事判決
+  url: https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TPSM%2C111%2C%E5%8F%B0%E4%B8%8A%2C4362%2C20230218%2C1
+  published_at: '2023-02-18'
+  observed_at: '2026-10-26T03:52:32+08:00'
+  retrieval_status: reachable
+  notes:
+  - 涉選罷法第104條之政治言論案件；判決說明真正惡意、合理查證與檢方舉證責任。
+- id: S004
+  source_type: primary
+  publisher: 憲法法庭
+  title: 112年憲判字第8號判決（誹謗罪案（二））
+  url: https://cons.judicial.gov.tw/docdata.aspx?fid=97&id=340775
+  published_at: '2023-06-09'
+  observed_at: '2026-10-26T03:52:32+08:00'
+  retrieval_status: reachable
+  notes:
+  - 說明刑法第310條第3項之公共利益、合理查證、明知或重大輕率惡意，以及「私德」通常與個人私生活、隱私權領域密切相關。
+- id: S005
+  source_type: secondary
+  publisher: 太報
+  title: 徐巧芯告無良公關公司潑髒水　北檢再次不起訴
+  url: https://www.taisounds.com/news/content/97/157490
+  published_at: '2024-11-14'
+  observed_at: '2026-10-26T03:52:32+08:00'
+  retrieval_status: reachable
+  notes:
+  - 報導本案第一次不起訴後再議發回，北檢續查仍第二次不起訴。
+- id: S006
+  source_type: secondary
+  publisher: TVBS
+  title: 「無良公關」控藍營找狗仔跟拍抹黑陳時中　管理員遭逆轉起訴
+  url: https://news.tvbs.com.tw/local/2989149
+  published_at: '2025-09-15'
+  observed_at: '2026-10-26T03:52:32+08:00'
+  retrieval_status: reachable
+  notes:
+  - 報導第二次再議發回後，北檢第三次偵查改依選罷法起訴陳冠宇，其他轉貼者仍不起訴。
+- id: S007
+  source_type: secondary
+  publisher: 中央通訊社
+  title: 貼文指藍營要跟拍陳時中　無良公關管理員判6月
+  url: https://www.cna.com.tw/news/asoc/202602250176.aspx
+  published_at: '2026-02-25'
+  observed_at: '2026-10-26T03:52:32+08:00'
+  retrieval_status: reachable
+  notes:
+  - 報導一審判決結果，並回顧北檢兩度不起訴、再議發回、第三次起訴之程序。
+- id: S008
+  source_type: commentary
+  publisher: PTT轉載／Disp BBS
+  title: 臺灣高等法院115年度上訴字第2173號判決全文轉載
+  url: https://disp.cc/b/Gossiping/idar
+  published_at: '2026-08-27'
+  observed_at: '2026-10-26T03:52:32+08:00'
+  retrieval_status: reachable
+  notes:
+  - 第三方轉載二審全文，僅作為可搜尋文字索引；裁判內容 authority 仍以S001司法院官方來源為準。
+
+facts:
+- id: F001
+  statement: 2022年11月選舉期間，「無良公關」粉專張貼一份自稱國民黨內部「網軍建置計畫企劃書」的文件，內容涉及操作社群、攻擊候選人及找狗仔跟拍，並出現蔣萬安、徐巧芯等人的簽名。
+  status: verified
+  observed_at: '2026-10-26T03:52:32+08:00'
+  source_ids:
+  - S001
+  - S007
+  evidence_summary: 二審判決與中央社均記載該貼文及文件之主要內容；二審並記載文件及其上簽名事後被證實為偽造。
+  tags:
+  - '2022'
+  - 網軍建置計畫企劃書
+  - 選舉
+- id: F002
+  statement: 截至2024年11月14日，臺北地檢署對陳冠宇等人就本案已兩度作成不起訴處分；第一次不起訴經再議發回後，北檢續查仍再次不起訴。
+  status: verified
+  observed_at: '2026-10-26T03:52:32+08:00'
+  source_ids:
+  - S005
+  - S007
+  evidence_summary: 太報與中央社均確認兩度不起訴及再議發回之程序歷程。
+  tags:
+  - 不起訴
+  - 再議
+  - 北檢
+- id: F003
+  statement: 2024年第二次不起訴時，公開報導所載北檢理由包括：被告等人並非文件或簽名真偽鑑定專業者，因簽名外觀相符而誤信文件為真並非違常，難以認定具有虛構、捏造、誹謗或使候選人不當選之主觀犯意。
+  status: verified
+  observed_at: '2026-10-26T03:52:32+08:00'
+  source_ids:
+  - S005
+  evidence_summary: 太報報導具體轉述第二次不起訴處分的證據評價與主觀犯意判斷。
+  verification_notes:
+  - 尚未取得該次不起訴處分書原文；此fact只記錄可信媒體所報導的處分理由，不把媒體轉述當成原始處分書。
+  tags:
+  - 第二次不起訴
+  - 簽名辨識
+  - 主觀犯意
+- id: F004
+  statement: 第二次再議發回後，北檢於2025年9月第三次偵查改依選罷法起訴陳冠宇，公開報導所載核心理由是其作為政治粉專管理者對重大選舉指控的查證程度明顯不足；其他轉貼、評論者仍獲不起訴。
+  status: verified
+  observed_at: '2026-10-26T03:52:32+08:00'
+  source_ids:
+  - S006
+  - S007
+  evidence_summary: TVBS與中央社一致記載第三次偵查的起訴結果及陳冠宇與其他轉貼者之處理差異。
+  tags:
+  - 第三次偵查
+  - 起訴
+  - 查證義務
+- id: F005
+  statement: 臺北地院114年度訴字第1248號於2026年2月25日依選罷法第104條判陳冠宇有期徒刑6月、得易科罰金，褫奪公權2年。
+  status: verified
+  observed_at: '2026-10-26T03:52:32+08:00'
+  source_ids:
+  - S002
+  - S007
+  evidence_summary: 一審官方裁判與中央社報導一致確認判決結果。
+  tags:
+  - 一審
+  - 有罪
+  - 選罷法104條
+- id: F006
+  statement: 臺灣高院115年度上訴字第2173號於2026年8月20日撤銷原判決，但仍認定陳冠宇犯意圖使候選人不當選而以文字傳播不實之事罪，量處有期徒刑6月、得易科罰金、褫奪公權2年；撤銷理由包括原判決漏論同一行為同時侵害徐巧芯與蔣萬安之品行、人格及社會評價的想像競合。
+  status: verified
+  observed_at: '2026-10-26T03:52:32+08:00'
+  source_ids:
+  - S001
+  - S008
+  evidence_summary: 二審官方裁判及全文轉載一致記載撤銷改判理由與相同刑度。
+  tags:
+  - 二審
+  - 撤銷改判
+  - 想像競合
+- id: F007
+  statement: 二審判決認定，陳冠宇發文前對陌生網友僅詢問消息來源與真實性，另自行目視比對徐巧芯簽名，沒有向候選人或政黨進一步查證；法院據此認為未盡合理查證義務，並認定具有真正惡意。
+  status: verified
+  observed_at: '2026-10-26T03:52:32+08:00'
+  source_ids:
+  - S001
+  - S008
+  evidence_summary: 二審判決具體列出Messenger對話、簽名比對及未進一步查證等事實後，作成真正惡意之認定。
+  tags:
+  - 真正惡意
+  - 合理查證
+  - Messenger
+- id: F008
+  statement: 二審判決就文件可辨識程度採取高度不利於陳冠宇的評價，明載本案文件「客觀上一望即知係偽造」，並以其學經歷及長期經營政治粉專的經驗，認為其應可合理判斷文件不實。
+  status: verified
+  observed_at: '2026-10-26T03:52:32+08:00'
+  source_ids:
+  - S001
+  - S008
+  evidence_summary: 二審判決以文件內容、來源、被告經驗及查證方式綜合認定其應能識別文件高度可疑。
+  tags:
+  - 文件可辨識程度
+  - 一望即知
+  - 證據評價
+- id: F009
+  statement: 二審判決將文件中「網軍攻擊、側翼攻防、狗仔跟拍、黑金賄選桃色議題潑髒水」等內容，定性為對徐巧芯、蔣萬安個人品行、人格等私德領域的攻訐，認為逾越公眾團體事務及一般公共利益範疇，與公益無關。
+  status: verified
+  observed_at: '2026-10-26T03:52:32+08:00'
+  source_ids:
+  - S001
+  - S008
+  evidence_summary: 二審判決在私德／公共利益分析中逐項引述文件內容後作成上述分類。
+  tags:
+  - 私德
+  - 公共利益
+  - 言論自由
+- id: F010
+  statement: 二審判決明確區分陳冠宇與其他同案轉貼者：陳冠宇以「收到獨家爆料、內部流出」等肯定式文字發布；其他人則有以詢問澄清或單純評論方式發布，法院據此認為行為態樣並不相同。
+  status: verified
+  observed_at: '2026-10-26T03:52:32+08:00'
+  source_ids:
+  - S001
+  - S008
+  evidence_summary: 二審判決直接比較陳冠宇與張朝龍、杜承哲、謝立聖等人的貼文用語與處理方式。
+  tags:
+  - 同案比較
+  - 發文語氣
+  - 差異處理
+- id: F011
+  statement: 最高法院111年度台上字第4362號就選罷法第104條表示，散布或傳播虛構具體事實為客觀構成要件，真正惡意為主觀構成要件；即使被告未能自行證明真實或已盡查證，檢察官或自訴人仍負有證明真正惡意的舉證責任。
+  status: verified
+  observed_at: '2026-10-26T03:52:32+08:00'
+  source_ids:
+  - S003
+  evidence_summary: 最高法院明確說明真正惡意、合理查證、無罪推定及檢方舉證責任的關係。
+  tags:
+  - 最高法院
+  - 真正惡意
+  - 舉證責任
+- id: F012
+  statement: 憲法法庭112年憲判字第8號將「私德」描述為通常涉及個人生活習性、修養、價值觀、人格特質並與私生活及隱私權密切相關；同時指出涉及公共利益的事實性言論，在合理查證且無明知或重大輕率惡意時，受較高言論自由保障。
+  status: verified
+  observed_at: '2026-10-26T03:52:32+08:00'
+  source_ids:
+  - S004
+  evidence_summary: 憲法法庭對私德／公共利益及合理查證的憲法界線提供一般性判準。
+  tags:
+  - 憲法法庭
+  - 私德
+  - 公共利益
+  - 重大輕率
+
+claims:
+- id: C001
+  statement: 本案已形成可實質檢驗的「證據評價一致性」問題：北檢第二次不起訴認為一般人因簽名外觀而誤信並不違常，二審則認為文件客觀上一望即知係偽造；兩者對文件可辨識程度及由此推導的主觀犯意有明顯方向差異。
+  status: supported
+  supports:
+  - F003
+  - F008
+  related_facts:
+  - F002
+  - F004
+  - F006
+  reasoning_notes: 這是對公開理由差異的描述，不等同認定任何一方違法。若要判斷是否屬不合理翻案，仍須取得兩次不起訴處分、兩次再議發回理由及第三次偵查新增證據。
+- id: C002
+  statement: 第二次不起訴到第三次起訴之間，存在一項已公開可識別的關鍵新增證據，足以完整解釋北檢由「主觀犯意不足」改為「重大輕率惡意」。
+  status: unresolved
+  supports: []
+  contradicts: []
+  related_facts:
+  - F003
+  - F004
+  - F007
+  - F008
+  reasoning_notes: 目前公開裁判大量引用111、112年間早期偵查卷證；本次尚未取得兩次不起訴處分書與兩次再議發回理由，不能由「未在公開資料看到新增關鍵證據」推成「沒有新增證據」。
+- id: C003
+  statement: 二審將「候選人是否參與政黨網軍、側翼攻防、狗仔跟拍與選舉攻擊計畫」歸為與公益無關的私德，與憲法法庭對私德通常涉及個人私生活／隱私，以及政治人物行為可能因公共信任而具有公共利益的判準之間，存在值得進一步法律檢驗的實質張力。
+  status: supported
+  supports:
+  - F009
+  - F012
+  reasoning_notes: 此claim只指出法理分類張力，不直接宣告二審適用法律違法。仍需進一步分析選罷法第104條與刑法誹謗罪真實性抗辯在本案的具體關係，以及上級審若有裁判將如何處理。
+- id: C004
+  statement: 因二審以「未盡查證義務」等事實推論真正惡意，所以該判決在法律方法上必然違反最高法院111年度台上字第4362號。
+  status: unsupported
+  related_facts:
+  - F007
+  - F011
+  reasoning_notes: 最高法院本身允許以資料來源、查證程度與整體情狀判斷真正惡意；問題在於檢方是否證明到排除合理懷疑，而不是法院一使用查證因素就當然違法。
+- id: C005
+  statement: 最高法院111年度台上字第4362號允許把「被告沒有完成查證」本身直接視為選罷法第104條主觀犯意的充分證明，並把舉證責任轉由被告負擔。
+  status: contradicted
+  contradicts:
+  - F011
+  reasoning_notes: 最高法院明確保留檢察官或自訴人對真正惡意的舉證責任；被告無法自證真實或合理查證，不等於檢方當然完成主觀犯意證明。
+- id: C006
+  statement: 其他轉貼者獲不起訴、只有陳冠宇被起訴並判刑，本身即可證明同案同事實被選擇性追訴。
+  status: contradicted
+  contradicts:
+  - F010
+  related_facts:
+  - F004
+  reasoning_notes: 二審判決辨識出肯定式「獨家爆料／內部流出」與詢問澄清、單純評論等行為差異；是否仍存在選擇性執法須另以相似行為、相似主觀證據及處理基準比較，不能只看處分結果不同。
+- id: C007
+  statement: 本案目前證據足以證明檢察、法院處理受到政治指示或政治目的介入，構成司法迫害或政治迫害。
+  status: unsupported
+  related_facts:
+  - F002
+  - F004
+  - F006
+  - F008
+  - F009
+  reasoning_notes: 現有材料可支持程序與法律評價上的質疑，但尚無指令、協調、決策鏈、選舉目的或其他能把異常連到政治介入的證據。
+- id: C008
+  statement: 本案適合作為選舉假訊息執法一致性的 comparator，但比較時應拆分「是否明確造假」「消息來源與查證」「發文語氣」「是否主動澄清／下架」「檢警強制處分」「起訴與不起訴門檻」等維度，而不能只比較最後有罪或不起訴。
+  status: supported
+  supports:
+  - F002
+  - F004
+  - F007
+  - F010
+  - F011
+  reasoning_notes: 本案內部即存在不同發文態樣與不同處理結果，顯示若不控制行為與證據差異，容易把結果差異誤寫成執法雙標。
+
+searches:
+- id: Q001
+  observed_at: '2026-10-26T03:52:32+08:00'
+  platform: politics-db
+  query: 無良公關 / 公關案 / 2022 公關 / 陳冠宇 / 網軍建置計畫
+  scope: main branch既有evidence
+  result: found
+  notes: 找到legacy comparator comparators/2022/wuliang-pr-fake-kmt-cyberwar-plan.md，但沒有符合現行authoritative YAML schema的case evidence；本次保留舊檔並新增YAML，不以舊Markdown取代新證據。
+- id: Q002
+  observed_at: '2026-10-26T03:52:32+08:00'
+  platform: 司法院裁判書系統 / taiwan-judgment-tools
+  query: 臺灣高等法院 115年度上訴字第2173號
+  scope: 精確案號搜尋、全文、歷審
+  result: found
+  notes: 找到JID TPHM,115,上訴,2173,20260820,1；全文取得成功；直接歷審查詢成功，共2筆，包含臺北地院114年度訴字第1248號與臺灣高院115年度上訴字第2173號。歷審沒有更高審裁判不等於案件已確定。
+- id: Q003
+  observed_at: '2026-10-26T03:52:32+08:00'
+  platform: web / 太報 / 中央社 / TVBS
+  query: 無良公關 第二次不起訴 再議 第三次起訴 陳冠宇
+  scope: 2022至2026案件程序與檢方公開理由
+  result: found
+  notes: 找到兩度不起訴、兩次再議後第三次偵查起訴，以及一審有罪的公開程序資料；第二次不起訴理由有媒體具體轉述。
+- id: Q004
+  observed_at: '2026-10-26T03:52:32+08:00'
+  platform: web / 司法院 / 公開判決索引
+  query: 最高法院111年度台上字第4362號 選罷法104 真正惡意；112年憲判字第8號 私德 公共利益
+  scope: 選罷法第104條、誹謗法理、言論自由與查證義務
+  result: found
+  notes: 找到最高法院對真正惡意及舉證責任的判準，以及憲法法庭對私德／公共利益與合理查證的判準。
+- id: Q005
+  observed_at: '2026-10-26T03:52:32+08:00'
+  platform: web / 公開檢索
+  query: 無良公關 不起訴處分書；111年度選偵字第38號；114年度選偵續一字第1號
+  scope: 第一次、第二次不起訴處分原文與兩次再議發回理由
+  result: partial
+  notes: 找到媒體對不起訴理由與第三次起訴案號的轉述，也找到二審判決引用早期選偵卷證；本次未取得兩次不起訴處分書全文及兩次再議發回理由原文，因此「第三次偵查新增何種關鍵證據」維持unresolved。
+
+promotion:
+  comparators:
+  - 2022「無良公關」假國民黨網軍企畫書案
+  research:
+  - 取得兩次不起訴處分書與兩次高檢署再議發回理由，逐項比較證據、待查事項與法律評價。
+  - 比對第三次起訴書114年度選偵續一字第1號與前兩次不起訴之卷證新增項目，回答翻案是否來自新證據或同證據之重新評價。
+  - 追蹤115年度上訴字第2173號是否上訴最高法院；目前歷審僅有兩筆不得推論已確定。
+  - 將二審「網軍／狗仔選舉計畫屬私德且與公益無關」之分類，與最高法院選舉政治言論及憲法法庭私德／公共利益判準作完整法律分析。
+  - 建立跨陣營選舉假訊息第104條案件baseline，控制發文肯定程度、查證來源、候選人身分、散布規模及強制處分等差異。
+
+notes:
+- 本case升級自既有legacy comparator；legacy檔保留歷史研究脈絡，不再作authoritative evidence source。
+- 「兩度不起訴、第三次起訴、兩審有罪」是程序事實；「為何翻案」必須回到不起訴處分、再議理由與新增卷證，不能只由結果倒推。
+- 「程序／證據評價一致性值得質疑」與「司法迫害／政治介入已證明」是不同命題；後者目前沒有足夠證據。
+- 二審以真正惡意定罪的方法不能簡化成「查證不足＝犯罪」；最高法院仍要求檢方對真正惡意負舉證責任。
+- 二審對私德／公共利益的分類是目前最值得持續法律查核的爭點之一，但在上級審或更完整法律分析前，不寫成「判決違法」。
