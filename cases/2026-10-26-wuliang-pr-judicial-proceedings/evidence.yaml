@@ -3,7 +3,7 @@ session:
   project: Politics
   title: 2022「無良公關」假國民黨網軍企畫書案：不起訴、起訴與二審證據評價
   started_at: '2026-10-26T03:52:32+08:00'
-  updated_at: '2026-10-26T03:52:32+08:00'
+  updated_at: '2026-10-26T04:15:25+08:00'
   status: active
 
 topics:
@@ -103,6 +103,92 @@ sources:
   retrieval_status: reachable
   notes:
   - 第三方轉載二審全文，僅作為可搜尋文字索引；裁判內容 authority 仍以S001司法院官方來源為準。
+
+- id: S009
+  source_type: secondary
+  publisher: 中央通訊社
+  title: 無良公關公司貼文指跟拍陳時中遭藍營控告 蔡清祥：秉公處理
+  url: https://www.cna.com.tw/news/asoc/202211100048.aspx
+  published_at: '2022-11-10'
+  observed_at: '2026-10-26T04:15:25+08:00'
+  retrieval_status: reachable
+  notes:
+  - 記載11月9日晚間貼文、蔣萬安競辦否認、3名民代已報警；法務部長並表示檢警調接獲檢舉會積極蒐證。
+- id: S010
+  source_type: secondary
+  publisher: 中央通訊社
+  title: 無良公關指跟拍陳時中遭藍營提告 檢方不起訴
+  url: https://www.cna.com.tw/news/asoc/202307050200.aspx
+  published_at: '2023-07-05'
+  observed_at: '2026-10-26T04:15:25+08:00'
+  retrieval_status: reachable
+  notes:
+  - 記載第一次不起訴公開理由，包括文件在陳冠宇發文前已於社群流傳、難認其偽造，以及檢方當時對公共利益與主觀犯意的判斷。
+- id: S011
+  source_type: primary
+  publisher: 中央選舉委員會
+  title: 111年地方公職人員選舉及憲法修正案公民複決常見問答
+  url: https://2022.cec.gov.tw/question/
+  observed_at: '2026-10-26T04:15:25+08:00'
+  retrieval_status: reachable
+  notes:
+  - 中選會確認111年地方公職人員選舉投票日為2022年11月26日。
+- id: S012
+  source_type: primary
+  publisher: 全國法規資料庫
+  title: 刑事訴訟法
+  url: https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001
+  observed_at: '2026-10-26T04:15:25+08:00'
+  retrieval_status: reachable
+  notes:
+  - 第256至258條規範不起訴／緩起訴再議；第258-1條規範再議駁回後聲請法院准許提起自訴。
+- id: S013
+  source_type: primary
+  publisher: 全國法規資料庫
+  title: 法院組織法
+  url: https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0010053
+  observed_at: '2026-10-26T04:15:25+08:00'
+  retrieval_status: reachable
+  notes:
+  - 第63條規定檢察總長、檢察長的指揮監督；第64條允許親自處理或移轉所監督檢察官事務。
+- id: S014
+  source_type: primary
+  publisher: 全國法規資料庫
+  title: 法官法
+  url: https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030243
+  observed_at: '2026-10-26T04:15:25+08:00'
+  retrieval_status: reachable
+  notes:
+  - 第89條規定檢察官個案評鑑事由，包括重大程序違反與無正當理由遲延案件致影響當事人權益。
+- id: S015
+  source_type: primary
+  publisher: 全國法規資料庫
+  title: 檢察官評鑑實施辦法
+  url: https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030031
+  observed_at: '2026-10-26T04:15:25+08:00'
+  retrieval_status: reachable
+  notes:
+  - 第7條明定，評鑑事件牽涉檢察官承辦個案尚未終結者，於該案終結前停止進行評鑑程序。
+- id: S016
+  source_type: secondary
+  publisher: 中央通訊社
+  title: 無良公關公司指藍營找狗仔跟拍參選人 徐巧芯：造謠抹黑不放過
+  url: https://www.cna.com.tw/news/aipl/202211100053.aspx
+  published_at: '2022-11-10'
+  observed_at: '2026-10-26T04:15:25+08:00'
+  retrieval_status: reachable
+  notes:
+  - 記載蔣萬安競辦稱文件偽造；徐巧芯稱文件上的其簽名取自四大公投連署書，並已報警。
+- id: S017
+  source_type: secondary
+  publisher: 中央通訊社
+  title: 無良公關公司指藍營找狗仔跟拍參選人 洪孟楷：簽名遭P圖已報警
+  url: https://www.cna.com.tw/news/aipl/202211100167.aspx
+  published_at: '2022-11-10'
+  observed_at: '2026-10-26T04:15:25+08:00'
+  retrieval_status: reachable
+  notes:
+  - 記載洪孟楷稱簽名遭P圖並已報警，且公開要求檢警盡速展開約談。
 
 facts:
 - id: F001
@@ -250,6 +336,88 @@ facts:
   - 公共利益
   - 重大輕率
 
+- id: F013
+  statement: 2022年11月9日晚間「無良公關」相關粉專發布爭議文件；至11月10日，蔣萬安競選辦公室已否認文件真實性，徐巧芯、洪孟楷、李德維等3名民代已報警；法務部長蔡清祥同日表示，選舉期間相關案件只要檢警調接獲檢舉，會依法處理並積極蒐集證據。
+  status: verified
+  observed_at: '2026-10-26T04:15:25+08:00'
+  source_ids:
+  - S009
+  evidence_summary:  contemporaneous中央社報導確認事件在貼文隔日即進入公開否認、報警與法務部回應階段。
+  tags:
+  - '2022-11-10'
+  - 報警
+  - 選舉窗口
+- id: F014
+  statement: 2022年地方公職人員選舉投票日為11月26日；爭議貼文發布於11月9日晚間，距投票日17個日曆日。
+  status: verified
+  observed_at: '2026-10-26T04:15:25+08:00'
+  source_ids:
+  - S009
+  - S011
+  evidence_summary: 中央社確認貼文日期，中選會確認投票日期；兩日期相差17日。
+  tags:
+  - '2022-11-09'
+  - '2022-11-26'
+  - temporal-window
+- id: F015
+  statement: 北檢第一次不起訴於2023年7月5日公開；當時公開理由包括陳冠宇發文前文件已在Facebook、Dcard等處流傳，因此難認其為偽造者，並認為相關內容具公共利益、被告主觀認定文件為真，難認有虛構謠言、故意捏造或使候選人不當選之意圖。
+  status: verified
+  observed_at: '2026-10-26T04:15:25+08:00'
+  source_ids:
+  - S010
+  evidence_summary: 中央社具體轉述第一次不起訴處分的公開理由；此fact不把「非偽造者」等同「散布行為合法」。
+  tags:
+  - 第一次不起訴
+  - 主觀犯意
+  - 文件來源
+- id: F016
+  statement: 現行刑事訴訟法的不起訴救濟中，告訴人須先接受不起訴或緩起訴處分，才能依第256條聲請再議；再議遭上級檢察署駁回後，始得依第258-1條向第一審法院聲請准許提起自訴。
+  status: verified
+  observed_at: '2026-10-26T04:15:25+08:00'
+  source_ids:
+  - S012
+  evidence_summary: 第256至258-1條的程序觸發順序均以檢察官已作成處分及／或上級檢察署已作成再議決定為前提。
+  tags:
+  - 再議
+  - 准許自訴
+  - 救濟時點
+- id: F017
+  statement: 現行法院組織法第63、64條使檢察總長與檢察長得指揮監督所屬檢察官，並得親自處理或將案件移轉其他受其監督的檢察官。
+  status: verified
+  observed_at: '2026-10-26T04:15:25+08:00'
+  source_ids:
+  - S013
+  evidence_summary: 現行法明文存在檢察體系內部的層級指揮監督與事務移轉機制。
+  tags:
+  - 檢察體系
+  - 指揮監督
+  - 內部監督
+- id: F018
+  statement: 現行法官法第89條將重大辦案程序違反及無正當理由遲延案件、致影響當事人權益且情節重大列為檢察官個案評鑑事由；但檢察官評鑑實施辦法第7條規定，若評鑑事件牽涉該檢察官承辦且尚未終結的個案，評鑑程序於案件終結前停止。
+  status: verified
+  observed_at: '2026-10-26T04:15:25+08:00'
+  source_ids:
+  - S014
+  - S015
+  evidence_summary: 現行制度同時存在事後評鑑責任機制與尚未終結個案的停止規則。
+  tags:
+  - 檢察官評鑑
+  - 遲延
+  - 程序違反
+  - pending-case
+- id: F019
+  statement: 在爭議貼文發布隔日，已有可供偵查驗證的具體真偽線索公開出現：蔣萬安競辦稱文件偽造；徐巧芯稱其簽名取自四大公投連署書；洪孟楷稱其簽名遭P圖。
+  status: verified
+  observed_at: '2026-10-26T04:15:25+08:00'
+  source_ids:
+  - S016
+  - S017
+  evidence_summary: 這些是當事人 contemporaneous 的具體主張，可證明當時已有可查證線索；它們本身仍不取代鑑定或其他獨立證據。
+  tags:
+  - 真偽線索
+  - 簽名
+  - '2022-11-10'
+
 claims:
 - id: C001
   statement: 本案已形成可實質檢驗的「證據評價一致性」問題：北檢第二次不起訴認為一般人因簽名外觀而誤信並不違常，二審則認為文件客觀上一望即知係偽造；兩者對文件可辨識程度及由此推導的主觀犯意有明顯方向差異。
@@ -322,6 +490,43 @@ claims:
   - F011
   reasoning_notes: 本案內部即存在不同發文態樣與不同處理結果，顯示若不控制行為與證據差異，容易把結果差異誤寫成執法雙標。
 
+- id: C009
+  statement: 本案的即時救濟問題具有明確的有限時間窗：貼文在投票前17日發布，隔日已有否認、報警與具體真偽線索，因此若要評估檢警調是否在政治效果仍可避免時採取與風險相稱的措施，核心查核區間應至少包括2022年11月10日至11月26日。
+  status: supported
+  supports:
+  - F013
+  - F014
+  - F019
+  reasoning_notes: 這只界定應查的時間窗，不預設北檢在該期間沒有作為或存在故意拖延。
+- id: C010
+  statement: 刑事訴訟法現行再議與准許提起自訴制度，都是以檢察官先作成不起訴／緩起訴處分或上級檢察署先駁回再議為觸發前提，因此它們本身不能提供與「偵查尚未終結時，由外部法院即時命令檢方在選舉窗口內完成特定偵查」相同的功能。
+  status: supported
+  supports:
+  - F016
+  reasoning_notes: 此claim只比較法定程序的觸發時點與功能，不主張台灣制度不存在任何其他行政、政治或內部監督工具。
+- id: C011
+  statement: 檢察官個案評鑑可處理重大程序違反或無正當理由遲延，但依現行評鑑辦法，牽涉尚未終結承辦個案時須停止進行，因此不能作為該承辦案件進行中的即時外部糾正工具。
+  status: supported
+  supports:
+  - F018
+  reasoning_notes: 這不否定評鑑的事後究責功能；只指出其依法不具有在同一尚未終結案件中即時完成評鑑的功能。
+- id: C012
+  statement: 北檢在2022年11月10日至投票日11月26日之間完全沒有採取任何具體偵查措施。
+  status: unresolved
+  related_facts:
+  - F013
+  - F014
+  reasoning_notes: 本次針對選前約談、鑑定、調卷、平台資料調取等公開資訊進行多組查詢，未找到足以重建該17日窗口具體偵查行為的可靠公開資料；依not_found != never_existed原則，不能由此推論北檢當時完全沒有作為。
+- id: C013
+  statement: 北檢前兩次偵查從未對爭議文件或簽名進行任何獨立的筆跡、數位或其他真偽驗證。
+  status: unresolved
+  related_facts:
+  - F003
+  - F008
+  - F015
+  - F019
+  reasoning_notes: 公開不起訴理由著重被告是否具辨識真偽能力、文件先前流傳及主觀犯意；本次尚未取得兩次不起訴處分書全文及完整偵查卷，亦未找到公開資料足以證明曾做或未做正式筆跡／數位鑑定，因此只能保存為待查問題。
+
 searches:
 - id: Q001
   observed_at: '2026-10-26T03:52:32+08:00'
@@ -358,6 +563,28 @@ searches:
   scope: 第一次、第二次不起訴處分原文與兩次再議發回理由
   result: partial
   notes: 找到媒體對不起訴理由與第三次起訴案號的轉述，也找到二審判決引用早期選偵卷證；本次未取得兩次不起訴處分書全文及兩次再議發回理由原文，因此「第三次偵查新增何種關鍵證據」維持unresolved。
+
+- id: Q006
+  observed_at: '2026-10-26T04:15:25+08:00'
+  platform: web / 中央社 / 中選會
+  query: 無良公關 2022-11-09；2022-11-10 報警；111年地方公職人員選舉投票日
+  scope: 爭議貼文至2022-11-26投票日的事件時間窗
+  result: found
+  notes: 確認11/9晚間貼文、11/10已有競辦否認與3名民代報警、法務部長公開稱接獲檢舉將積極蒐證；中選會確認11/26投票。
+- id: Q007
+  observed_at: '2026-10-26T04:15:25+08:00'
+  platform: web / 公開新聞檢索
+  query: 無良公關 北檢 傳喚 2022 11月；無良公關 11月11日至25日 約談；網軍建置計畫企劃書 北檢 2022
+  scope: 2022-11-10至2022-11-26選前具體偵查行為
+  result: not_found
+  notes: 本次未找到足以確認北檢在該17日窗口內何時傳喚、是否筆跡／數位鑑定、是否調取平台資料或進行其他具體偵查步驟的可靠公開資料；此結果只表示本次公開檢索未找到，不代表當時未進行。
+- id: Q008
+  observed_at: '2026-10-26T04:15:25+08:00'
+  platform: 全國法規資料庫
+  query: 刑訴法256-258-1；法院組織法63-64；法官法89；檢察官評鑑實施辦法7
+  scope: 不起訴救濟、檢察體系監督、檢察官評鑑與尚未終結案件
+  result: found
+  notes: 確認再議／准許自訴屬處分後救濟；檢察體系存在內部指揮監督；檢評可處理重大違失或遲延，但涉及尚未終結承辦個案時停止進行。
 
 promotion:
   comparators:
