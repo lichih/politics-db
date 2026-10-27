@@ -1,0 +1,184 @@
+session:
+  id: "2026-10-27-chinese-identity-poll-definition-sample"
+  project: Politics
+  title: "社群投票定義與結果詮釋樣本：「中國人」操作定義缺失與分母讀法"
+  started_at: "2026-10-27T19:51:00+08:00"
+  updated_at: "2026-10-27T19:51:00+08:00"
+  status: active
+
+topics:
+  - "存在性樣本"
+  - "社群投票"
+  - "中國人認同"
+  - "台灣人認同"
+  - "操作定義"
+  - "construct validity"
+  - "分母"
+  - "Facebook"
+  - "論證回應"
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "Facebook / 邏輯思考x有一說一"
+    title: "【台灣人，你為何也是/不是中國人？】社群投票貼文與投票圖"
+    url: "https://www.facebook.com/photo?fbid=122216385314472942&set=gm.4611547195831764&idorvanity=3646359149017245"
+    published_at: "2026-10-27"
+    observed_at: "2026-10-27T19:51:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "原文稱其 YouTube 投票約有1.9萬人作答，並把結果描述為：29%的小草覺得自己是台灣人、也是中國人；20%覺得自己不是中國人，作者表示這個比例讓自己與幾位小草朋友『嚇得不輕』。"
+      - "投票圖四個選項及畫面百分比分別為：『我是台灣人，支持藍，我也是中國人』45%；『我是台灣人，支持藍，我不是中國人』6%；『我是台灣人，支持白，我也是中國人』29%；『我是台灣人，支持白，我不是中國人』20%。四項合計100%。"
+      - "同一公開留言區可見受訪者／留言者對『中國人』至少出現不同理解框架，例如『我是中華民國人，不是中華人民共和國人』、以祖籍／來自大陸說明『中國人』，以及把中國、台灣、台北、大安視為可同時成立的多層地域認同。"
+
+  - id: S002
+    source_type: primary
+    publisher: "Facebook / 鬼針鑑(聯隊)公開社團"
+    title: "對『你的中國是中華民國還是中華人民共和國』的作者回覆"
+    url: "https://www.facebook.com/groups/caltropsquadron/posts/4611547195831764/?comment_id=4611561512496999&reply_comment_id=4611562552496895"
+    published_at: "2026-10-27"
+    observed_at: "2026-10-27T19:51:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "吳立志留言詢問『你的「中國」是中華民國還是中華人民共和國。』"
+      - "作者回覆要求先弄清楚『政權和國家的差別』，並稱1970年代以前中華民國才是代表『中國』的，另以『搶贏／搶輸』說明中國與台灣認同。"
+      - "該回覆處理的是國家、政權與中國代表權的框架，未直接說明投票選項中的『中國人』究竟操作化為國籍、文化、民族、祖籍或政治／國族認同。"
+
+  - id: S003
+    source_type: primary
+    publisher: "Facebook / 鬼針鑑(聯隊)公開社團"
+    title: "對『中華民國人／非中華人民共和國人』留言的作者回覆"
+    url: "https://www.facebook.com/groups/caltropsquadron/posts/4611547195831764/?comment_id=4611552082497942&reply_comment_id=4611553772497773"
+    published_at: "2026-10-27"
+    observed_at: "2026-10-27T19:51:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "Mani Mani 留言『我也是“中華民國人”／不是“中華人民共和國人”』。"
+      - "作者回覆『我跟你談「國家」，你跟我談「政權」？你知道清朝人，跟中國人的差別嗎？』"
+      - "該回覆再次呈現作者把『中國』放在跨政權的國家／歷史概念中討論，但仍未對投票中的『中國人』提供可供受訪者一致理解的操作定義。"
+
+facts:
+  - id: F001
+    statement: "該投票以『支持藍／支持白』與『也是中國人／不是中國人』交叉成四個選項；畫面百分比分別為45%、6%、29%、20%，合計100%。"
+    status: verified
+    observed_at: "2026-10-27T19:51:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "Facebook 原貼與投票圖直接顯示四個選項及百分比。"
+    tags: ["2026", "Facebook", "poll", "identity", "blue-white"]
+
+  - id: F002
+    statement: "作者把29%描述為『29%的小草』覺得自己是台灣人、也是中國人，並表示對此比例感到非常驚訝。"
+    status: verified
+    observed_at: "2026-10-27T19:51:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "原貼文字直接出現『竟然29%的小草』與『真的讓我和幾個小草朋友都被嚇得不輕』。"
+    tags: ["2026", "interpretation", "surprise", "denominator"]
+
+  - id: F003
+    statement: "依投票圖顯示百分比計算，白營兩個選項合計49%；其中『也是中國人』為29個百分點，因此在白營選項作答者中的顯示比例約為29/(29+20)=59.2%，而非29%。"
+    status: verified
+    observed_at: "2026-10-27T19:51:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "四個畫面百分比以全體作答者為共同分母；29%與20%均為全體百分點。按顯示百分比換算，白營內部『也是中國人』約占59.2%。"
+    verification_notes:
+      - "此為依畫面四捨五入後百分比計算的近似值；若要得到精確比例需原始票數。"
+      - "這不推翻方向性觀察：在該自選樣本中，白營『也是中國人』的畫面占比高於『不是中國人』。"
+    tags: ["2026", "denominator", "arithmetic", "poll-reading"]
+
+  - id: F004
+    statement: "在被直接詢問投票中的『中國』是中華民國還是中華人民共和國後，作者回覆聚焦於政權與國家的差別及1970年代以前的中國代表權，而未直接定義投票中的『中國人』。"
+    status: verified
+    observed_at: "2026-10-27T19:51:00+08:00"
+    source_ids: [S002]
+    evidence_summary: "公開留言與回覆可直接比對問題與回答所處理的命題。"
+    verification_notes:
+      - "本fact只記錄可觀察的問答落差，不判定作者是否故意迴避。"
+    tags: ["2026", "operational-definition", "argument-sequence", "non-answer"]
+
+  - id: F005
+    statement: "在另一名留言者把『中華民國人』與『中華人民共和國人』區分後，作者仍以國家／政權及『清朝人 vs 中國人』框架回應。"
+    status: verified
+    observed_at: "2026-10-27T19:51:00+08:00"
+    source_ids: [S003]
+    evidence_summary: "公開留言鏈直接記錄留言者的ROC/PRC區分與作者的國家／政權回覆。"
+    tags: ["2026", "ROC", "PRC", "identity", "argument-sequence"]
+
+  - id: F006
+    statement: "同一留言區至少可觀察到『中國人』被用來指涉不同概念，包括ROC/PRC政治身分區分、祖籍／來源敘事，以及可與台灣／地方認同同時成立的多層地域身分。"
+    status: verified
+    observed_at: "2026-10-27T19:51:00+08:00"
+    source_ids: [S001, S003]
+    evidence_summary: "公開留言的自然語言用法直接顯示『中國人』並非所有參與者都以同一語義框架表達。"
+    verification_notes:
+      - "留言者如何理解原投票選項與其最終投票選擇未必一一可對應；本fact只證明公開互動中存在多種語義框架。"
+    tags: ["2026", "construct-validity", "identity", "semantic-ambiguity"]
+
+claims:
+  - id: C001
+    statement: "本串可作為『未先明確操作化身分概念，卻對投票結果作單一政治／國族詮釋』的存在性樣本。"
+    status: supported
+    supports: [F001, F002, F004, F005, F006]
+    contradicts: []
+    related_facts: [F003]
+    reasoning_notes: "原投票只使用『也是／不是中國人』，而公開互動中可觀察到至少多種不同語義框架；作者在被要求定義時改以國家／政權與歷史代表權回答，未建立受訪者共同的操作定義。"
+
+  - id: C002
+    statement: "原文『29%的小草』若被理解為『白營作答者中有29%選也是中國人』，與投票圖顯示的分母不一致。"
+    status: contradicted
+    supports: []
+    contradicts: [F001, F003]
+    related_facts: [F002]
+    reasoning_notes: "29%是全體投票的百分點；按畫面百分比，白營作答者內部約59.2%選『也是中國人』。若作者只是想說『全體作答中有29個百分點屬於白營＋也是中國人』，則需明確如此表述。"
+
+  - id: C003
+    statement: "即使存在定義與分母問題，該投票仍顯示在這個自選樣本中，白營『也是中國人』的作答量高於白營『不是中國人』。"
+    status: supported
+    supports: [F001, F003]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "29個百分點高於20個百分點；此方向性結果成立，但不能單靠投票知道受訪者各自所稱『中國人』是何種認同，也不能外推整體白營。"
+
+  - id: C004
+    statement: "作者持續以國家／政權與歷史代表權回答，就足以證明其明知定義問題而故意迴避、惡意操弄或缺乏理解能力。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F004, F005]
+    reasoning_notes: "可觀察的是問答未對準與操作定義未提供；主觀動機、理解能力與惡意均需額外證據，不能由單一留言串直接推定。"
+
+  - id: C005
+    statement: "此單一互動足以證明白營支持者、該粉專受眾或某政治陣營普遍存在相同推理問題。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F001, F004, F005, F006]
+    reasoning_notes: "這只是單一帳號與單一互動的存在性樣本；沒有代表性抽樣、跨帳號編碼與對照組，不能推群體比例。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-27T19:51:00+08:00"
+    platform: "GitHub politics-db"
+    query: "青鳥 / 洋流 / 樣本 / supporter samples"
+    scope: "lichih/politics-db main"
+    result: partial
+    notes: "找到既有『洋流自我宣稱與支持性論述樣本』與『支持者對政黨、人物、造神與同一把尺的公開態度』等自然／存在性樣本，據此沿用『只保存可觀察行為、不外推群體、不推定動機』的寫法。"
+
+  - id: Q002
+    observed_at: "2026-10-27T19:51:00+08:00"
+    platform: "connected browser / Facebook"
+    query: "post 4611547195831764；comment 4611561512496999；comment 4611552082497942"
+    scope: "原貼、投票圖、公開留言與作者回覆鏈"
+    result: found
+    notes: "連接瀏覽器可直接讀取原貼與指定留言鏈，並確認公開社團頁面當下可達。"
+
+promotion:
+  cases: []
+  comparators: []
+  research:
+    - proposed: "political-discourse-natural-samples"
+      rationale: "若後續持續蒐集不同陣營、不同議題的『異常結果→檢查自己題目／前提』或相反樣本，可比較政治論述者在遇到反直覺結果時是否優先檢查 measurement、baseline 與 competing explanations。"
+
+notes:
+  - "本 session 的用途是保存論證／測量行為的存在性樣本，不是建立人物負面檔案。"
+  - "最有辨識力的後續觀察是：作者是否會重新定義投票選項、承認分母讀法問題、區分ROC國家認同／PRC政治身分／文化或民族認同，或重做投票。"
+  - "若作者之後正面回答『中國人』操作定義、修正原文數字或重新設計題目，應追加 evidence 並更新 claims；不得用本樣本預支其後續仍不修正。"
