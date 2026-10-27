@@ -229,7 +229,7 @@ claims:
 
   - id: C004
     statement: "就本 session 的有限樣本而言，兩人的公開回應結構存在可觀察差異：黃國昌較直接把自己／家人的爭議交回外部制度處理；沈伯洋父親案則主要以『是否赴中、是否可遠端採購、交易如何定性』等分類回應，而尚未找到其直接用自己既有的『對中依賴』判準評估父親企業。"
-    status: partially_supported
+    status: supported
     supports: [F001, F002, F003, F004, F005, F006, F007]
     contradicts: []
     related_facts: []
