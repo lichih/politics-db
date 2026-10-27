@@ -1,0 +1,201 @@
+session:
+  id: "2026-10-27-dunhua-junior-high-allegation-propagation"
+  project: Politics
+  title: "敦化國中學生打掃爭議：社群未證實指控擴散樣本"
+  started_at: "2026-10-27T09:49:00+08:00"
+  updated_at: "2026-10-27T09:49:00+08:00"
+  status: active
+
+topics:
+  - "2026台北市長選舉"
+  - "敦化國中"
+  - "蔣萬安"
+  - "沈伯洋"
+  - "洋流"
+  - "政治傳播"
+  - "事實查核"
+
+sources:
+  - id: S001
+    source_type: commentary
+    publisher: "Facebook"
+    title: "Facebook 搜尋「敦化國中」公開結果"
+    url: "https://www.facebook.com/search/top?q=%E6%95%A6%E5%8C%96%E5%9C%8B%E4%B8%AD"
+    observed_at: "2026-10-27T09:49:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "搜尋結果頁可見多則公開貼文；本 session 只記錄當時可見文字，不把搜尋結果排序當成代表性抽樣。"
+      - "可見結果中包含 Lucky Lee 與楊家宇的不同公開貼文；未確認兩人的正式組織身分或是否為『洋流』成員。"
+
+  - id: S002
+    source_type: secondary
+    publisher: "中央社"
+    title: "網傳學生為競總大會掃校園　蔣萬安競辦駁斥"
+    url: "https://www.cna.com.tw/news/aloc/202610250182.aspx"
+    published_at: "2026-10-25T21:22:00+08:00"
+    observed_at: "2026-10-27T09:49:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "中央社轉述原始 Threads 貼文、台北市教育局說明與蔣萬安競辦說法；可證明各方當時公開說法，不單獨證明爭議事實最終真偽。"
+
+  - id: S003
+    source_type: secondary
+    publisher: "鏡報"
+    title: "蔣萬安競總成立辦在敦化國中挨批行政不中立　沈伯洋回應了"
+    url: "https://www.mirrordaily.news/story/93796"
+    published_at: "2026-10-26T11:19:00+08:00"
+    observed_at: "2026-10-27T09:49:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記錄沈伯洋對學生打掃爭議及學校假日場地租借的公開回應。"
+
+  - id: S004
+    source_type: secondary
+    publisher: "中央社"
+    title: "綠營大咖齊聚　沈伯洋競總成立盼溫暖「洋流」進北市府"
+    url: "https://www.cna.com.tw/news/aipl/202610040174.aspx"
+    published_at: "2026-10-04T18:47:00+08:00"
+    observed_at: "2026-10-27T09:49:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記錄沈伯洋在競總成立大會對『洋流』精神的公開操作型定義。"
+
+facts:
+  - id: F001
+    statement: "2026-10-27 觀察 Facebook『敦化國中』搜尋結果時，Lucky Lee 的公開貼文以『兒子聽說了』為資訊起點，進一步寫出『不管學校或老師怎麼威脅』及『是否因為蔣市長要辦造勢，而叫學生連假掃地？大家心裡有數』等陳述；在當時可見的搜尋結果文字中，未見支持『威脅』或『因造勢而叫學生返校』的文件、訊息截圖或其他來源。"
+    status: verified
+    observed_at: "2026-10-27T09:49:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "可驗證的是該公開貼文當時可見的文字與其公開展示的證據範圍；不能由此推論發文者私下從未持有其他資料。"
+    excerpt: "「敦化國中的事情兒子聽說了」；「不管學校或老師怎麼威脅」；「是否因為蔣市長要辦造勢，而叫學生連假掃地？大家心裡有數。」"
+    verification_notes:
+      - "只判斷公開可見內容是否提出證據，不推定發文者的私人 knowledge state。"
+      - "搜尋結果頁可能截斷貼文，因此結論限定為『當時可見的搜尋結果文字未見』。"
+    tags:
+      - "社群貼文"
+      - "未證實指控"
+      - "敦化國中"
+
+  - id: F002
+    statement: "同一搜尋結果頁另有楊家宇的不同公開貼文寫道『為了這種活動颱風後還被叫回來打掃的學弟妹辛苦了』，把『被叫回來打掃』以較確定的語氣陳述；當時可見文字未列出此因果主張的來源。"
+    status: verified
+    observed_at: "2026-10-27T09:49:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "這是第二個不同公開帳號在同一事件中重述較確定版本的可觀察樣本；不代表兩帳號彼此獨立取得資訊。"
+    excerpt: "「為了這種活動颱風後還被叫回來打掃的學弟妹辛苦了」"
+    verification_notes:
+      - "同一事件內多帳號重述不等於多個獨立事件，也不等於多個獨立消息來源。"
+      - "未確認該帳號是否屬於或自我認同為『洋流』。"
+    tags:
+      - "社群貼文"
+      - "敘事擴散"
+      - "敦化國中"
+
+  - id: F003
+    statement: "中央社 2026-10-25 報導指出，原始社群貼文使用的是『學生今疑因此被叫回掃地』的疑問式說法；台北市教育局則公開說明，棒球隊學生原本就到校訓練，於訓練前協助約 30 分鐘環境整理，沒有另行通知學生專程返校打掃。"
+    status: disputed
+    observed_at: "2026-10-27T09:49:00+08:00"
+    source_ids: [S002]
+    evidence_summary: "來源同時呈現原始質疑與教育局反方說明；教育局說法具有機關來源性，但本 session 未取得可獨立驗證所有細節的原始訓練紀錄或通知。"
+    verification_notes:
+      - "不能把教育局說法自動升格為爭議事實已被最終證明。"
+      - "可用來確認：至少公開紀錄中的早期說法帶有『疑』，後續部分社群貼文採取更確定語氣。"
+    tags:
+      - "官方說明"
+      - "爭議事實"
+      - "時間線"
+
+  - id: F004
+    statement: "沈伯洋 2026-10-26 公開表示，學生是否返校、打掃位置及是否與颱風有關都需要先釐清，事實未釐清前不多評論；對學校假日出租作政治活動場地，他表示在非上課時間租借聽起來合理。"
+    status: verified
+    observed_at: "2026-10-27T09:49:00+08:00"
+    source_ids: [S003]
+    evidence_summary: "此回應是本事件的重要反例：候選人本人沒有把學生因競總被叫回打掃的爭議說成已確認事實。"
+    verification_notes:
+      - "此 fact 只描述沈伯洋的公開立場，不證明其他支持者或周邊帳號的行為。"
+    tags:
+      - "沈伯洋"
+      - "反例"
+      - "事實未釐清"
+
+  - id: F005
+    statement: "沈伯洋 2026-10-04 公開將『洋流』定義為傾聽、獨立、具批判性、進步、包容，並表示要尋求共識、在匯聚後持續修正往前。"
+    status: verified
+    observed_at: "2026-10-27T09:49:00+08:00"
+    source_ids: [S004]
+    evidence_summary: "這是檢驗後續『洋流』自我宣稱與實際行為是否一致時可重用的公開 benchmark。"
+    verification_notes:
+      - "自我定義可作一致性比較基準，但不能單獨證明所有支持者均受此定義拘束或屬於正式組織成員。"
+    tags:
+      - "洋流"
+      - "自我定義"
+      - "一致性檢驗"
+
+claims:
+  - id: C001
+    statement: "敦化國中事件中，『學生因蔣萬安競總而被叫回打掃』的敘事至少在兩個不同公開社群帳號中出現較原始『疑因此』更確定的版本，且當時可見貼文文字未提出相應證據。"
+    status: supported
+    supports: [F001, F002, F003]
+    contradicts: []
+    related_facts: [F004]
+    reasoning_notes: "這支持的是『同一事件內的敘事擴散／確定化』，不是多個獨立事件，也不證明帳號彼此獨立取材。"
+
+  - id: C002
+    statement: "單憑敦化國中事件即可證明『洋流整體』或『沈伯洋本人』存在跨事件反覆造謠的穩定 pattern。"
+    status: unsupported
+    supports: []
+    contradicts: [F004]
+    related_facts: [F001, F002, F003, F005]
+    reasoning_notes: "目前未確認每個社群帳號的洋流成員身分；同一事件中的多次轉述也不能替代跨事件樣本。沈伯洋本人在本案反而要求先釐清事實，構成候選人層級的反例。"
+
+  - id: C003
+    statement: "敦化國中事件可作為後續檢驗『洋流周邊是否反覆出現未先建立證據、即把政治上有利的懷疑升格為較確定事實性指控』之跨事件 pattern 的一個樣本。"
+    status: supported
+    supports: [F001, F002, F003]
+    contradicts: []
+    related_facts: [F004, F005]
+    reasoning_notes: "這是樣本資格判定，不是 pattern 已成立的最終判定。後續必須加入不同事件、確認帳號與洋流的關係、記錄反證出現後是否修正，並保留不符合 pattern 的反例。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-27T09:49:00+08:00"
+    platform: "GitHub politics-db"
+    query: "敦化國中；蔣萬安 敦化國中；競總 敦化國中；教育基本法 第6條 行政中立"
+    scope: "lichih/politics-db default branch"
+    result: not_found
+    notes: "本次 repo-first 搜尋未找到既有相關 evidence；not_found 不代表 repo 歷史上從未存在或其他關鍵字一定找不到。"
+
+  - id: Q002
+    observed_at: "2026-10-27T09:49:00+08:00"
+    platform: "Facebook browser tab"
+    query: "敦化國中"
+    scope: "Facebook 公開搜尋結果頁，使用者已登入環境"
+    result: found
+    notes: "觀察到不同公開帳號對學生返校打掃的敘事；搜尋排序不視為母體抽樣。"
+
+  - id: Q003
+    observed_at: "2026-10-27T09:49:00+08:00"
+    platform: "web"
+    query: "敦化國中 學生 打掃 蔣萬安 競總 棒球隊 教練 24人；沈伯洋 敦化國中 放假 租借 很合理"
+    scope: "近期公開新聞"
+    result: found
+    notes: "找到中央社對原始質疑與教育局說明的報導，以及沈伯洋要求先釐清事實、認為假日租借合理的報導。"
+
+  - id: Q004
+    observed_at: "2026-10-27T09:49:00+08:00"
+    platform: "web"
+    query: "沈伯洋 洋流 傾聽 獨立 批判性 進步 包容"
+    scope: "2026-10-04 競總成立大會相關公開新聞"
+    result: found
+    notes: "找到中央社等來源記錄沈伯洋對『洋流』精神的公開定義。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "本 session 刻意區分『同一事件內反覆出現／擴散』與『跨事件穩定 pattern』。前者已有可觀察樣本；後者需更多彼此獨立事件。"
+  - "本 session 不把『洋流』當成有明確會員名冊的正式組織；除非有外部證據，不把個別發文帳號自動標記為洋流成員。"
+  - "pattern test 必須同時保存反例。沈伯洋本人在本案要求先釐清事實，是重要反例，不能因與假說不符而省略。"
+  - "『造謠』若作政治傳播行為描述，仍應至少先固定可觀察行為：未證實內容是否被當成事實傳播、是否在反證出現後修正；若涉及法律責任或主觀故意，須另行檢驗構成要件與 knowledge state。"
