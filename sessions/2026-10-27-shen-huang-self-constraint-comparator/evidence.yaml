@@ -1,0 +1,272 @@
+session:
+  id: "2026-10-27-shen-huang-self-constraint-comparator"
+  project: Politics
+  title: "沈伯洋與黃國昌：自己人爭議中的既有判準與外部約束比較"
+  started_at: "2026-10-27T11:49:37+08:00"
+  updated_at: "2026-10-27T11:49:37+08:00"
+  status: active
+
+topics:
+  - "沈伯洋"
+  - "黃國昌"
+  - "中國風險"
+  - "經濟依賴"
+  - "利益衝突"
+  - "政治一致性"
+  - "制度約束"
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "U.S.-China Economic and Security Review Commission"
+    title: "March 23, 2023 Hearing Transcript: China's Global Influence and Interference Activities"
+    url: "https://www.uscc.gov/sites/default/files/2023-05/March_23_2023_Hearing_Transcript.pdf"
+    published_at: "2023-03-23T00:00:00-04:00"
+    observed_at: "2026-10-27T11:49:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "沈伯洋的證詞部分位於 hearing transcript 前段；頁面文字與 PDF 畫面均確認其將『building dependence』列為中國對台影響方式，並明列 Taiwanese businesspeople 為可能被建立對中依賴的群體。"
+      - "此來源可證明沈伯洋在父親爭議前已存在『依賴』風險框架；不能單獨證明任何特定企業已達到依賴程度。"
+
+  - id: S002
+    source_type: secondary
+    publisher: "中央社"
+    title: "藍質疑兩岸問題雙標 沈伯洋：赴中都是高風險"
+    url: "https://www.cna.com.tw/news/aipl/202506060192.aspx"
+    published_at: "2025-06-06T00:00:00+08:00"
+    observed_at: "2026-10-27T11:49:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記錄沈伯洋在父親與中國企業往來爭議中的公開回應，包括父親主要在厄瓜多、秘魯經商、向多國採購，以及 2019 年後未再赴中等說法。"
+      - "來源可證明公開回應內容，不單獨驗證所有企業交易細節。"
+
+  - id: S003
+    source_type: secondary
+    publisher: "中央社"
+    title: "藍提數據質疑沈父曾赴陸 沈伯洋反駁：不懂國際貿易"
+    url: "https://www.cna.com.tw/news/aipl/202506110173.aspx"
+    published_at: "2025-06-11T14:49:00+08:00"
+    observed_at: "2026-10-27T11:49:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記錄沈伯洋明確區分『赴中』與『透過網路或電話向中國下訂單』：他表示因赴中有風險，所以請父親不要赴中，但仍可遠端下訂單。"
+
+  - id: S004
+    source_type: secondary
+    publisher: "中央社"
+    title: "陸懲戒沈伯洋父親另家公司 陸委會：介選幫倒忙"
+    url: "https://www.cna.com.tw/news/acn/202610150298.aspx"
+    published_at: "2026-10-15T18:42:00+08:00"
+    observed_at: "2026-10-27T11:49:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "陸委會副主委梁文傑公開表示，沈父向中國大陸下訂單、把貨出口到中南美洲並賺取價差；陸委會將此與其所稱的『賺紅錢』區分。"
+      - "此來源可確認陸委會公開承認中國供應端交易存在；陸委會的『不算賺紅錢』是機關政治／政策性評價，不自動回答依賴程度。"
+
+  - id: S005
+    source_type: secondary
+    publisher: "中央社"
+    title: "黃國昌透天厝占國有地 相鄰共9建物違建限改排拆"
+    url: "https://www.cna.com.tw/news/aloc/202307240284.aspx"
+    published_at: "2023-07-24T18:36:00+08:00"
+    observed_at: "2026-10-27T11:49:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "中央社記錄國產署及新北市府處理黃國昌住宅占用國有地爭議；黃國昌公開表示『依法該怎麼處理，就怎麼處理，正面積極面對，不會迴避』。"
+
+  - id: S006
+    source_type: secondary
+    publisher: "中央社"
+    title: "黃國昌汐止透天厝占國有地 違建已開始拆除"
+    url: "https://www.cna.com.tw/news/aloc/202308250321.aspx"
+    published_at: "2023-08-25T22:24:00+08:00"
+    observed_at: "2026-10-27T11:49:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "新北市地政局表示會勘確認占用範圍後，黃國昌代理人轉述願意雇工拆除；附近居民亦證實已開始拆除。"
+      - "可證明其在主管機關確認範圍後進入恢復原狀程序。"
+
+  - id: S007
+    source_type: secondary
+    publisher: "中央社"
+    title: "黃國昌批鏡傳媒潑糞 證實已提告"
+    url: "https://www.cna.com.tw/news/aipl/202510220212.aspx"
+    published_at: "2025-10-22T14:19:00+08:00"
+    observed_at: "2026-10-27T11:49:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "岳父建設公司違規爭議尚在查處時，黃國昌表示毫無所悉、『一切依法辦理』；同時另就媒體報導提告。"
+      - "此來源可觀察其將『主管機關依法處理』與『媒體報導是否侵權／失實』分開處理。"
+
+  - id: S008
+    source_type: secondary
+    publisher: "TVBS"
+    title: "北市府證實岳父建案違建 黃國昌：依法辦理我不會施壓"
+    url: "https://news.tvbs.com.tw/politics/3028354"
+    published_at: "2025-10-28T10:54:00+08:00"
+    observed_at: "2026-10-27T11:49:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導北市建管處認定岳父建設公司建案有違規並要求限期改善後，黃國昌仍公開表示『一切依法辦理』，並稱不會違法施壓。"
+      - "發布日期晚於本 session 的 query-as-of 2026-10-27 僅表示歷史資料；事件本身發生於 2025-10-28。"
+
+facts:
+  - id: F001
+    statement: "沈伯洋在 2023 年美中經濟暨安全審查委員會聽證證詞中，把『建立依賴（building dependence）』列為中國對台影響方式之一，並明確寫到中國試圖使台灣商人、地方官員、宗教團體與政治人物依賴中國；他也指出台灣商人的脆弱程度會因個別條件而不同。"
+    status: verified
+    observed_at: "2026-10-27T11:49:37+08:00"
+    source_ids: [S001]
+    evidence_summary: "這是父親爭議前的原始論述，可確認沈伯洋既有中國風險模型包含『依賴』，而非只包含是否親自赴中。"
+    verification_notes:
+      - "未把『存在中國交易』直接等同於『已形成依賴』；依賴程度仍需個案資料。"
+    tags:
+      - "沈伯洋"
+      - "經濟依賴"
+      - "爭議前判準"
+
+  - id: F002
+    statement: "2025-06-06 父親爭議中，沈伯洋公開表示其父親主要在厄瓜多、秘魯等地經商，生意所需設備可能向日本、台灣、中國、新加坡等地採購；他並稱 2019 年後父親不再赴中，理由是『到中國都是高風險』。"
+    status: verified
+    observed_at: "2026-10-27T11:49:37+08:00"
+    source_ids: [S002]
+    evidence_summary: "此回應把『赴中』列為主要風險軸，也以營運基地及多國採購描述父親企業。"
+    verification_notes:
+      - "來源未量化各國供應比重，因此不能由此判定中國供應鏈依賴程度。"
+    tags:
+      - "沈伯洋"
+      - "父親爭議"
+      - "赴中風險"
+
+  - id: F003
+    statement: "2025-06-11 沈伯洋進一步表示，因『赴中是風險』而請父親不要去中國，但仍可透過網路或電話向中國下訂單。"
+    status: verified
+    observed_at: "2026-10-27T11:49:37+08:00"
+    source_ids: [S003]
+    evidence_summary: "此說法明確把『親自赴中』與『遠端向中國採購』區分為不同情境。"
+    verification_notes:
+      - "這句話本身沒有評估父親企業對中國供應鏈的依賴程度，也沒有說明遠端採購在何種比例下會構成其 2023 年所稱的依賴風險。"
+    tags:
+      - "沈伯洋"
+      - "父親爭議"
+      - "遠端採購"
+
+  - id: F004
+    statement: "2026-10-15 陸委會副主委梁文傑公開表示，沈父會向中國大陸下訂單，再把貨出口至中南美洲並賺取價差；陸委會據此主張此類交易不應稱為『賺紅錢』。"
+    status: verified
+    observed_at: "2026-10-27T11:49:37+08:00"
+    source_ids: [S004]
+    evidence_summary: "可確認陸委會公開承認沈父企業存在以中國為供應端的交易；『是否賺紅錢』與『是否形成中國供應鏈依賴』是不同命題。"
+    verification_notes:
+      - "本 session 不採陸委會的政治用語評價作為依賴程度的證明。"
+    tags:
+      - "沈土城"
+      - "中國供應鏈"
+      - "陸委會"
+
+  - id: F005
+    statement: "2023 年黃國昌自己住宅被國產署認定占用國有地時，他公開表示『依法該怎麼處理，就怎麼處理，正面積極面對，不會迴避』；主管機關確認占用範圍後，其代理人表示願雇工拆除，並在期限前開始拆除。"
+    status: verified
+    observed_at: "2026-10-27T11:49:37+08:00"
+    source_ids: [S005, S006]
+    evidence_summary: "可觀察到其自有財產爭議中，公開表態接受主管機關依規處理，之後亦進入恢復原狀程序。"
+    verification_notes:
+      - "此 fact 不評價其最初是否知情，也不把事後配合自動等同於不存在其他政治爭議。"
+    tags:
+      - "黃國昌"
+      - "國有地"
+      - "依法處理"
+
+  - id: F006
+    statement: "2025-10-22 岳父建設公司被媒體指控違規時，黃國昌表示自己毫無所悉、『一切依法辦理』；同時，他另外針對媒體報導提告。"
+    status: verified
+    observed_at: "2026-10-27T11:49:37+08:00"
+    source_ids: [S007]
+    evidence_summary: "其公開回應把『建案是否違規由主管機關依法處理』與『媒體報導是否涉及侵權／失實』分成兩條處理路徑。"
+    verification_notes:
+      - "提告本身不證明媒體報導失實；僅記錄其採取的回應結構。"
+    tags:
+      - "黃國昌"
+      - "岳父建案"
+      - "依法處理"
+
+  - id: F007
+    statement: "北市建管處後續認定黃國昌岳父建設公司的建案存在違規並要求限期改善後，黃國昌仍公開表示『一切依法辦理』，並稱自己不會違法對主管機關施壓。"
+    status: verified
+    observed_at: "2026-10-27T11:49:37+08:00"
+    source_ids: [S008]
+    evidence_summary: "在不利的主管機關查處結果出現後，其公開處理原則未改為否認主管機關適用規則，而是維持依法辦理並另行爭執媒體面向。"
+    verification_notes:
+      - "此處記錄的是公開反應，不推論其私人動機。"
+    tags:
+      - "黃國昌"
+      - "岳父建案"
+      - "外部約束"
+
+claims:
+  - id: C001
+    statement: "沈伯洋在父親爭議前的中國風險框架已包含『台灣商人對中國形成依賴』，因此他的既有判準不能被簡化成只有『人是否親自赴中』。"
+    status: supported
+    supports: [F001]
+    contradicts: []
+    related_facts: [F002, F003]
+    reasoning_notes: "2023 原始證詞直接把 building dependence 與 Taiwanese businesspeople 放入中國影響模型；這足以證明『依賴』是一條獨立風險軸，但不證明任何特定企業已達依賴門檻。"
+
+  - id: C002
+    statement: "沈伯洋 2025 年父親案的公開回應確實區分『赴中』與『遠端採購』，但目前找到的這些回應沒有正面評估父親企業對中國供應鏈的依賴程度，也沒有把該依賴程度明確套回其 2023 年既有風險框架。"
+    status: supported
+    supports: [F001, F002, F003, F004]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "這是對已找到公開回應內容範圍的判定，不等於沈伯洋從未在其他場合回答；若日後找到直接評估依賴程度的舊資料，應更新。"
+
+  - id: C003
+    statement: "黃國昌在已查得的『自己住宅占用國有地』與『岳父建案違規』兩組樣本中，都公開把違規判定與處置交回主管機關既有規則；即使他另行批評或提告媒體，也沒有以媒體爭議取代主管機關處理。"
+    status: supported
+    supports: [F005, F006, F007]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "此結論限定於這兩組已查得樣本，不推廣為黃國昌所有政治事件均一致。"
+
+  - id: C004
+    statement: "就本 session 的有限樣本而言，兩人的公開回應結構存在可觀察差異：黃國昌較直接把自己／家人的爭議交回外部制度處理；沈伯洋父親案則主要以『是否赴中、是否可遠端採購、交易如何定性』等分類回應，而尚未找到其直接用自己既有的『對中依賴』判準評估父親企業。"
+    status: supported
+    supports: [F001, F002, F003, F004, F005, F006, F007]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "這是行為與論證結構比較，不是人格、道德或主觀動機判定。樣本數有限，且兩案法律性質不同：黃案有明確主管機關違規處理程序；沈父案目前核心較偏政治一致性與風險判準。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-27T11:49:37+08:00"
+    platform: "GitHub politics-db"
+    query: "黃國昌 汐止 國有地；黃國昌 岳父 建案 依法辦理；沈伯洋 父親 中國 依賴；沈伯洋 2023 dependence Taiwanese businesspeople"
+    scope: "lichih/politics-db default branch"
+    result: not_found
+    notes: "本次 repo-first 搜尋未找到既有相同 evidence；not_found 不代表歷史上不存在相關檔案或其他關鍵字一定找不到。"
+
+  - id: Q002
+    observed_at: "2026-10-27T11:49:37+08:00"
+    platform: "web"
+    query: "沈伯洋 網路 下訂單 中國 2024；沈伯洋 電話 下訂單 中國 2024；沈伯洋 一般商品 中國 採購 2024；沈伯洋 螺絲釘 中國 2024"
+    scope: "公開網頁；目標為父親爭議前（2025-06 前）是否已有『遠端採購一般中國商品不屬依賴風險』的明確判準"
+    result: not_found
+    notes: "此次查詢只找到 2025-06-11 父親爭議後的遠端下單說法，未找到 2025-06 前同一明確判準。這只能記為此次查詢未找到，不能寫成『從未說過』。"
+
+  - id: Q003
+    observed_at: "2026-10-27T11:49:37+08:00"
+    platform: "web"
+    query: "Puma Shen testimony 2023 economic dependence Taiwan business China USCC；沈伯洋 父親 2019 中國 採購 2025；黃國昌 岳父 違建 一切依法辦理；黃國昌 汐止 國有地 恢復原狀"
+    scope: "公開 primary/secondary sources"
+    result: found
+    notes: "找到 2023 USCC 原始聽證 transcript、中央社對沈父案與黃國昌自宅／岳父建案的報導，以及後續建管處認定違規後的公開回應。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "本 session 的核心不是判定誰『比較善良』，而是保存可觀察的 self-constraint / external-constraint 行為樣本。"
+  - "政治風險分析可以使用可觀察行為，不必先證明主觀惡意；但『高 IQ、低道德』屬人格／動機評價，不作為 public evidence 的事實結論。"
+  - "兩組 comparator 並非完全同型：黃國昌案例有明確主管機關與法規處置；沈伯洋父親案例目前主要是政治一致性與中國風險分類。比較只能落在『面對自己人爭議時如何使用既有判準／外部約束』，不能偷換成兩案法律責任相同。"
+  - "後續最值得補的資料，是沈伯洋在 2025-06 父親爭議前是否曾明確界定：一般商品遠端採購在何種程度下不構成其所稱的對中依賴風險；若找到，C002/C004 應重新評估。"
