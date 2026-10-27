@@ -1,0 +1,253 @@
+session:
+  id: "2026-10-27-hsinchu-baseball-stadium-investigation-audit"
+  project: Politics
+  title: "新竹市立棒球場刑事偵查可稽核性：不起訴、工程重大違失與偵查缺口主張"
+  started_at: "2026-10-27T16:35:23+08:00"
+  updated_at: "2026-10-27T16:35:23+08:00"
+  status: active
+
+topics:
+  - 新竹市立棒球場
+  - 新竹地檢署
+  - 林智堅
+  - 高虹安
+  - 不起訴
+  - 圖利
+  - 政府採購
+  - 工程違失
+  - 偵查遲延
+  - 證據保全
+  - 數位鑑識
+  - auditability
+  - lost-investigative-opportunity
+
+sources:
+  - id: S001
+    source_type: secondary
+    publisher: "TVBS新聞網"
+    title: "拆彈新竹棒球場／高虹安市府告發後2年「檢方才拍照」引爭議　法界這樣看"
+    url: "https://news.tvbs.com.tw/local/4041220"
+    published_at: "2026-10-27"
+    observed_at: "2026-10-27T16:35:23+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導以新竹市政府紀錄、工務處長陳明錚說法及不具名法界人士分析，提出偵查時間線、現場證據保全、取樣分母、下包傳喚、採購單據及縮時影像數位鑑識等問題。"
+      - "其中多項屬市府或不具名法界人士主張，尚未取得完整不起訴處分書、偵查卷證或傳喚／鑑識紀錄獨立驗證。"
+      - "報導中的『未強制處分所以沒積極偵辦』及『羈押即可突破』屬評論性推論，不作為本 evidence 的事實基礎。"
+
+  - id: S002
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "新竹棒球場案林智堅不起訴　營造、監造4人緩起訴"
+    url: "https://www.cna.com.tw/news/asoc/202608280335.aspx"
+    published_at: "2026-08-28"
+    observed_at: "2026-10-27T16:35:23+08:00"
+    retrieval_status: reachable
+    notes:
+      - "轉述新竹地檢署偵結新聞資料：林智堅等遭告發圖利等罪嫌不足不起訴；營造、監造4人因施工日誌、監造紀錄及抽查紀錄登載不實而緩起訴。"
+      - "轉述竹檢稱曾進行通訊監察、金流比對、搜索及帳務分析，未發現林智堅或市府人員與營造、監造公司間有不法金流、收賄或圖利事證。"
+      - "亦轉述竹檢稱球場發現部分不符規範石塊、木材等，但數量有限，查無業者自外運入廢棄物、外運土壤變賣或詐領工程款等證據。"
+
+  - id: S003
+    source_type: primary
+    publisher: "臺灣新竹地方檢察署"
+    title: "新竹地檢署1150828本署偵結新竹棒球場案件新聞稿"
+    url: "https://www.scc.moj.gov.tw/295217/295253/295254/Lpsimplelist"
+    published_at: "2026-08-30"
+    observed_at: "2026-10-27T16:35:23+08:00"
+    retrieval_status: reachable
+    notes:
+      - "新竹地檢署官方新聞稿列表可確認該偵結新聞稿存在及發布日期；本次網頁索引未穩定取得新聞稿全文。"
+      - "偵結內容細節目前由S002中央社轉述竹檢新聞資料補足，不把S003列表頁本身當作全文證據。"
+
+  - id: S004
+    source_type: primary
+    publisher: "監察院"
+    title: "新竹市政府辦理市立棒球場統包工程未驗收即先使用等重大違失，監察院通過糾正新竹市政府、運動部"
+    url: "https://www.cy.gov.tw/News_Content.aspx?n=125&s=37720&sms=8912"
+    published_at: "2026-07-17"
+    observed_at: "2026-10-27T16:35:23+08:00"
+    retrieval_status: reachable
+    notes:
+      - "監察院確認未踐行部分驗收或分段查驗即啟用、設計施工未達契約效能標準且有安全疑慮、專案管理與監造督導缺失、技術服務廠商資格問題，以及契約變更增購原招標減項內容衍生政府採購法執行錯誤態樣等重大違失。"
+      - "此行政／監督調查結果不自動等於刑事圖利、貪污或詐欺構成要件已成立。"
+
+  - id: S005
+    source_type: secondary
+    publisher: "TVBS新聞網"
+    title: "棒球場案不起訴！林智堅嗆「造謠一張嘴」　竹市府說話了"
+    url: "https://news.tvbs.com.tw/politics/4030969"
+    published_at: "2026-10-03"
+    observed_at: "2026-10-27T16:35:23+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記載新竹市政府提出再議後，高檢署於2026-10-02駁回再議，林智堅等不起訴確定。"
+      - "同篇再次區分刑事責任與監察院已確認之行政、工程及採購重大違失。"
+
+  - id: S006
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "新竹棒球場案林智堅不起訴 竹市府：將提再議並追責"
+    url: "https://www.cna.com.tw/news/aloc/202608290166.aspx"
+    published_at: "2026-08-29"
+    observed_at: "2026-10-27T16:35:23+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記載竹市府對不起訴處分表示部分事實認定及法律評價仍有釐清必要，並將提出再議。"
+      - "市府並表示處分書記載植床材料、混凝土塊裂解及地下施工平台等施工問題，且營造、監造人員有紀錄不實之緩起訴處分。"
+
+facts:
+  - id: F001
+    statement: "2026年8月，新竹地檢署就新竹市立棒球場工程案，對林智堅等遭告發圖利等部分以犯罪嫌疑不足為由不起訴；另有4名營造、監造相關人員因施工日誌、監造紀錄及施工抽查紀錄登載不實而獲緩起訴。"
+    status: verified
+    observed_at: "2026-10-27T16:35:23+08:00"
+    source_ids: [S002, S003]
+    evidence_summary: "竹檢官方新聞稿列表與中央社對竹檢新聞資料的轉述一致確認不起訴及4人緩起訴兩種處分同時存在。"
+    verification_notes:
+      - "不起訴只處理刑事構成要件與現有偵查證據，不等於工程不存在履約、行政或採購違失。"
+    tags: [新竹棒球場, 不起訴, 緩起訴, 林智堅, 文書不實]
+
+  - id: F002
+    statement: "竹檢公開說法包括：曾以通訊監察、金流比對、搜索及帳務分析等方式偵查，未發現林智堅或其他竹市府人員與營造、監造公司間有不法金流、收賄或圖利事證；並認為所發現部分不符規範石塊、木材等數量有限，查無自外運入廢棄物、外運土壤變賣或詐領工程款等證據。"
+    status: verified
+    observed_at: "2026-10-27T16:35:23+08:00"
+    source_ids: [S002]
+    evidence_summary: "中央社直接轉述竹檢偵結新聞資料，可確認檢方公開提出的偵查方法與結論範圍。"
+    verification_notes:
+      - "此fact證明『竹檢公開表示做過哪些偵查並得到何種結論』，不單獨證明每一偵查步驟的範圍、深度與完整性。"
+    tags: [竹檢, 金流, 通訊監察, 搜索, 帳務分析, source-scope]
+
+  - id: F003
+    statement: "監察院2026年7月正式認定新竹市立棒球場工程存在多項重大違失，包括未依法完成部分驗收或分段查驗即啟用、設計施工未達契約效能標準且有安全疑慮，以及專案管理、監造與契約變更採購程序等問題。"
+    status: verified
+    observed_at: "2026-10-27T16:35:23+08:00"
+    source_ids: [S004]
+    evidence_summary: "監察院糾正新聞稿與調查結果直接確認行政、工程與採購層面的重大違失。"
+    verification_notes:
+      - "監察院糾正不等於刑事犯罪成立；不得由重大違失直接跳到圖利或收賄。"
+    tags: [監察院, 糾正, 重大違失, 政府採購, 工程品質]
+
+  - id: F004
+    statement: "2026年10月2日，高檢署駁回新竹市政府就棒球場案不起訴處分所提再議，林智堅等人的不起訴處分因而確定。"
+    status: verified
+    observed_at: "2026-10-27T16:35:23+08:00"
+    source_ids: [S005]
+    evidence_summary: "TVBS於10月3日報導高檢署駁回再議及不起訴確定的程序結果。"
+    tags: [再議, 高檢署, 不起訴確定]
+
+  - id: F005
+    statement: "TVBS 2026年10月27日報導稱，依新竹市政府紀錄，市府告發後約兩年內檢方未赴現場；直到2025年2月市府全面開挖外野並發現混凝土塊、廢電線與廢鋼筋後，檢調才首度到場拍照，2026年5月才派調查官到現場。"
+    status: partial
+    observed_at: "2026-10-27T16:35:23+08:00"
+    source_ids: [S001]
+    evidence_summary: "可確認TVBS如此報導並將來源歸於『市府紀錄』；目前尚未取得市府原始告發時間線、竹檢偵查紀錄、現場會勘紀錄或其他primary record交叉驗證。"
+    verification_notes:
+      - "『約兩年按兵不動』是報導採用的市府觀點，不能在取得偵查卷證前升格為已確認的偵查怠惰。"
+      - "仍需區分『未赴現場』與『期間完全沒有其他偵查行為』。"
+    tags: [偵查時間線, 現場會勘, partial, lost-investigative-opportunity]
+
+  - id: F006
+    statement: "TVBS報導稱，市府在改善工程中保全32包經分篩太空包及5,000多立方公尺未分篩廢土；2026年7月檢方、市府及新舊廠商就32包太空包三方會勘，市府工務處長並稱後續5,081立方公尺廢土未見檢方深入調查。"
+    status: partial
+    observed_at: "2026-10-27T16:35:23+08:00"
+    source_ids: [S001]
+    evidence_summary: "報導具體提供證據保全數量、三方會勘與市府官員主張，但尚缺會勘紀錄、採樣表、送驗結果與不起訴處分書原文驗證各數字及其證明意義。"
+    verification_notes:
+      - "『未見深入調查』目前只記錄為市府官員觀察，不等於已證明檢方沒有以其他方式調查。"
+    tags: [證據保全, 太空包, 廢土, 三方會勘, partial]
+
+  - id: F007
+    statement: "TVBS報導引述不具名法界人士稱，檢方在偷工減料爭點上未傳喚下包人員、未核實採購單據，且對關鍵時段無法開啟的縮時攝影未做數位鑑識。"
+    status: partial
+    observed_at: "2026-10-27T16:35:23+08:00"
+    source_ids: [S001]
+    evidence_summary: "目前只有二手報導與不具名分析，尚無傳喚名單、採購卷證調取清單、數位鑑識委託或不起訴處分書全文可核對。"
+    verification_notes:
+      - "此項應列為優先查證問題，而非既成偵查缺失。"
+    tags: [下包, 採購單據, 縮時攝影, 數位鑑識, unresolved-evidence]
+
+  - id: F008
+    statement: "TVBS報導提出取樣方法爭議：市府官員稱特定開挖範圍先分篩出大量混凝土塊與32包廢棄物，三方會勘後僅11包被認定不合格；報導中的法界人士質疑檢方若以全外野面積或總拆除量作分母、以局部抽樣作分子，可能稀釋廢棄物比例。"
+    status: partial
+    observed_at: "2026-10-27T16:35:23+08:00"
+    source_ids: [S001]
+    evidence_summary: "可確認報導提出具體的分子／分母方法學爭議，但尚未取得不起訴處分書計算式、採樣母體定義、工程數量表與鑑定資料，無法判定檢方實際方法是否如報導描述。"
+    tags: [sampling, denominator, evidence-methodology, partial]
+
+  - id: F009
+    statement: "截至2026年10月，『刑事不起訴確定』與『監察院正式認定重大行政、工程及採購違失』兩項程序結果同時存在，兩者處理的責任層次不同。"
+    status: verified
+    observed_at: "2026-10-27T16:35:23+08:00"
+    source_ids: [S003, S004, S005]
+    evidence_summary: "刑事程序與監察／行政監督程序各有正式結果；任何一方都不能在沒有額外論證時吞掉另一方的證明範圍。"
+    verification_notes:
+      - "不得把不起訴改寫成『工程沒有問題』。"
+      - "也不得把監察院重大違失改寫成『刑事圖利已成立』。"
+    tags: [責任分層, 刑事責任, 行政責任, inference-boundary]
+
+claims:
+  - id: C001
+    statement: "林智堅等人的不起訴確定，可以證明新竹棒球場工程不存在重大工程、行政或採購違失。"
+    status: contradicted
+    contradicts: [F003, F009]
+    related_facts: [F001, F004]
+    reasoning_notes: "監察院已正式認定多項重大違失；刑事不起訴僅表示檢方就特定犯罪構成要件與偵查所得證據未達起訴門檻，不能外推成工程全面合格。"
+
+  - id: C002
+    statement: "監察院已認定新竹棒球場有重大違失，因此林智堅或相關公務員的圖利、貪污等刑事犯罪已被證明。"
+    status: contradicted
+    contradicts: [F001, F002, F009]
+    reasoning_notes: "行政／採購違失與刑事犯罪構成要件不同；仍需證明違背法令、主觀明知、不法利益等各該罪名要件。"
+
+  - id: C003
+    statement: "本案存在值得進一步查核的『lost investigative opportunity』問題：若檢方在關鍵現場仍保有原始狀態時未及時勘驗，而後續改善工程使現場改變，則後來『查無證據』的排除力可能受偵查時序影響。"
+    status: unresolved
+    related_facts: [F005, F006]
+    reasoning_notes: "目前只有市府紀錄經媒體轉述，尚不能確認檢方何時取得線索、期間做過哪些替代偵查、現場變更具體消失了哪些可證明事項。須取得告發書、偵查時間線、會勘紀錄與處分書後評估。"
+
+  - id: C004
+    statement: "竹檢確實沒有傳喚關鍵下包、沒有核實採購單據，也沒有對無法開啟的縮時影像做數位鑑識，因此偵查明顯不完備。"
+    status: unresolved
+    related_facts: [F007]
+    reasoning_notes: "目前來源為TVBS引述不具名法界人士；欠缺卷證清單與處分書全文，不能將『報導未見』或『受訪者稱未做』直接升格為偵查紀錄事實。"
+
+  - id: C005
+    statement: "竹檢以全外野或總拆除量為分母、局部開挖廢棄物為分子，使用了會系統性稀釋廢棄物比例的不當統計方法。"
+    status: unresolved
+    related_facts: [F008]
+    reasoning_notes: "報導提出具體可檢驗的數學／取樣爭議，但需先取得不起訴處分書原文、母體定義與採樣資料，確認檢方是否真的採用該算法，以及該比例在法律判斷中扮演何種角色。"
+
+  - id: C006
+    statement: "因本案已不起訴確定，所以後續對偵查完整性、證據取得時序與方法學的查核沒有實質價值。"
+    status: contradicted
+    contradicts: [F005, F006, F007, F008]
+    related_facts: [F004]
+    reasoning_notes: "不起訴確定終結特定刑事程序，不會使偵查過程本身失去可稽核性；尤其當外部出現可驗證的時間線、證據保全與方法學爭議時，仍可獨立研究『處分結論的證據基礎有多可重建』。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-27T16:35:23+08:00"
+    platform: politics-db
+    query: "新竹棒球場／棒球場／林智堅／高虹安／竹檢"
+    scope: "lichih/politics-db main；sessions、cases、research、comparators"
+    result: partial
+    notes: "未找到既有的新竹棒球場獨立 evidence session；找到可重用的公權力可稽核性研究框架及高虹安助理費案16分鐘record-gap comparator。not_found不等於過去從未討論或存在於未索引內容。"
+
+  - id: Q002
+    observed_at: "2026-10-27T16:35:23+08:00"
+    platform: web
+    query: "新竹棒球場 不起訴／新竹地檢署新聞稿／監察院糾正／2026-10-27 TVBS偵查缺口"
+    scope: "TVBS、中央社、新竹地檢署、監察院"
+    result: found
+    notes: "確認不起訴與緩起訴公開結果、監察院重大違失，以及TVBS提出的偵查時間線與方法學爭議。後者多項仍需處分書與偵查primary record驗證。"
+
+promotion:
+  cases: []
+  comparators: []
+  research:
+    - "research/2026-10-20-public-authority-auditability-unfalsifiability"
+
+notes:
+  - "本 session 的核心不是預設『竹檢放水』或『林智堅有罪』，而是把偵查完整性拆成可驗證問題：何時取得線索、何時現勘、哪些人被傳喚、哪些文件被核實、數位影像是否鑑識、採樣母體與分母如何定義。"
+  - "與既有無良公關案 comparator 的共同方法論是：不起訴是程序結果，不自動證明所有重要線索均已充分調查；但也不能因後來出現爭議就反推檢方必然怠惰或惡意。"
+  - "下一步最高價值資料為完整不起訴處分書、高檢署駁回再議理由、市府2023告發書及附件、竹檢現場會勘／傳喚／鑑識紀錄。"
