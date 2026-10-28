@@ -1,0 +1,257 @@
+session:
+  id: "2026-10-28-chiang-ai-site-reference-and-response"
+  project: Politics
+  title: "蔣萬安競總 AI 互動網站參考沈伯洋政策島爭議：來源、回應與能力評價邊界"
+  started_at: "2026-10-28T22:28:29+08:00"
+  updated_at: "2026-10-28T22:28:29+08:00"
+  status: active
+
+topics:
+  - "蔣萬安"
+  - "葛如鈞"
+  - "沈伯洋"
+  - "AI協作"
+  - "網站設計"
+  - "著作權"
+  - "選戰溝通"
+  - "競選團隊治理"
+
+sources:
+  - id: S001
+    source_type: secondary
+    publisher: "中央社"
+    title: "蔣萬安競總創「台北安可大舞台」 邀市民想像未來"
+    url: "https://www.cna.com.tw/news/aloc/202610280292.aspx"
+    published_at: "2026-10-28T18:54:00+08:00"
+    observed_at: "2026-10-28T22:28:29+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記載競總發布台北安可大舞台，葛如鈞為競總 SI 總幹事，平台運用 AI 與 3D 技術並收錄市民創作。"
+
+  - id: S002
+    source_type: secondary
+    publisher: "NOWNEWS 今日新聞"
+    title: "蔣萬安互動網站爆抄沈伯洋！藍委：網友創的"
+    url: "https://news.m.pchome.com.tw/politics/nownews/20261028/index-79319210994486207001.html"
+    published_at: "2026-10-28"
+    observed_at: "2026-10-28T22:28:29+08:00"
+    retrieval_status: reachable
+    notes:
+      - "搜尋取得報導全文摘要；報導稱某網友自稱政策島島主，指出蔣陣營上架作品敘述寫有『互動手感參考 puma.taipei/heart-island』。"
+      - "報導亦記載葛如鈞以開源世界相互學習、網友與 AI 共創、競總只匯聚作品回應。"
+      - "報導將『複製原始碼』作為指控；本次未取得涉案版本的程式碼快照，不應把媒體標題或指控當成已證實侵權。"
+
+  - id: S003
+    source_type: secondary
+    publisher: "自由時報（Yahoo 新聞轉載）"
+    title: "蔣萬安「台北安可大舞台」網站抄襲沈伯洋？葛如鈞秀時間軸打臉"
+    url: "https://tw.news.yahoo.com/%E8%94%A3%E8%90%AC%E5%AE%89-%E5%8F%B0%E5%8C%97%E5%AE%89%E5%8F%AF%E5%A4%A7%E8%88%9E%E5%8F%B0-%E7%B6%B2%E7%AB%99%E6%8A%84%E8%A5%B2%E6%B2%88%E4%BC%AF%E6%B4%8B-%E8%91%9B%E5%A6%82%E9%88%9E%E7%A7%80%E6%99%82%E9%96%93%E6%89%93%E8%87%89-085334822.html"
+    published_at: "2026-10-28"
+    observed_at: "2026-10-28T22:28:29+08:00"
+    retrieval_status: reachable
+    notes:
+      - "葛如鈞自述 10 月 9 日開始 AI 協作、10 月 10 日首版網站上線、11 日臉書公開；此為當事人說法，尚未獨立查驗原始發布紀錄。"
+      - "報導指出投稿作品需經審核通過才能上架；技術平台與具體投稿作品的建立日期應分別查核。"
+
+  - id: S004
+    source_type: secondary
+    publisher: "民視"
+    title: "「市民也上台」抄襲沈伯洋肥皂箱？蔣競辦這人急喊：不要有北韓氣息"
+    url: "https://www.ftvnews.com.tw/news/detail/2026A28W0548"
+    published_at: "2026-10-28"
+    observed_at: "2026-10-28T22:28:29+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記載葛如鈞對『肥皂箱／互動活動形式模仿』質疑以多元競選方式不屬誰的專利、以及『北韓習氣』用語反駁。"
+      - "同文記錄沈伯洋對模仿活動的回應為歡迎學習；不可把活動形式之爭與特定網站的著作權指控混為一談。"
+
+  - id: S005
+    source_type: primary
+    publisher: "立法院質詢逐字稿（報導者觀測站轉錄）"
+    title: "逐字稿｜葛如鈞：報告文化部業務概況"
+    url: "https://lawmaker.twreporter.org/congress/a/152769"
+    published_at: "2024-05-22"
+    observed_at: "2026-10-28T22:28:29+08:00"
+    retrieval_status: reachable
+    notes:
+      - "2024 年 5 月 22 日質詢，葛如鈞對巴黎文化奧運台灣館主視覺與 Apple Emoji 的相似性、是否使用及授權提出問題。"
+      - "其說法為若實際使用或參考 Apple Emoji，應向 Apple 諮詢並申請授權；這是葛如鈞的法律主張，不等於法院或著作權主管機關已採納該判斷。"
+
+  - id: S006
+    source_type: secondary
+    publisher: "公視新聞網"
+    title: "巴黎文化奧運台灣館遭疑抄襲蘋果 文化部：已重新設計"
+    url: "https://news.pts.org.tw/article/698975"
+    published_at: "2024-06-07"
+    observed_at: "2026-10-28T22:28:29+08:00"
+    retrieval_status: reachable
+    notes:
+      - "文化部表示圖樣為重新繪製而不須授權；設計者否認抄襲，惟為避免誤解已重新設計。"
+
+  - id: S007
+    source_type: secondary
+    publisher: "ETtoday"
+    title: "被爆抄襲！蔣萬安網站竟是下AI指令「參考」沈伯洋 蔣團隊急切割"
+    url: "https://www.ettoday.net/news/20261028/3262486.htm"
+    published_at: "2026-10-28"
+    observed_at: "2026-10-28T22:28:29+08:00"
+    retrieval_status: blocked
+    notes:
+      - "瀏覽器分頁可確認標題及網址，但頁面讀取受限制；另一網頁擷取也未取得內文。只保存追查線索，不把未讀到的文章細節當直接證據。"
+
+facts:
+  - id: F001
+    statement: "中央社 2026-10-28 報導，蔣萬安競選總部公開發布『台北安可大舞台－市民也上台』，由 SI 總幹事葛如鈞說明 AI、3D 互動創作與作品匯集方式。"
+    status: verified
+    observed_at: "2026-10-28T22:28:29+08:00"
+    source_ids: [S001]
+    evidence_summary: "可以確認正式競選平台存在，葛如鈞以競總職務代表團隊對外說明。"
+    verification_notes:
+      - "不據此推斷平台內所有作品均為競總自行製作。"
+    tags: ["葛如鈞", "蔣萬安", "競選平台"]
+
+  - id: F002
+    statement: "2026-10-28 報導記載『台北安可大舞台』收集網友作品，投稿需經審核後上架。"
+    status: verified
+    observed_at: "2026-10-28T22:28:29+08:00"
+    source_ids: [S001, S003]
+    evidence_summary: "有公開的作品選擇與審核流程描述，可作為評估競總平台治理與對外說明責任的起點。"
+    verification_notes:
+      - "尚未掌握實際審核標準、作品提交日期、審核人員或逐件審核紀錄。"
+    tags: ["競選平台", "內容審核"]
+
+  - id: F003
+    statement: "NOWNEWS 2026-10-28 報導，一位自稱沈伯洋政策島島主的網友指出，蔣陣營平台上的某件作品敘述有『互動手感參考 puma.taipei/heart-island』字樣。"
+    status: partial
+    observed_at: "2026-10-28T22:28:29+08:00"
+    source_ids: [S002]
+    evidence_summary: "有具體可追查的參考對象與敘述文字，但目前只有新聞轉述，尚未保存該作品頁面的原始版本。"
+    verification_notes:
+      - "尚未獨立核對自稱島主者身份、作品原始頁面或完整 AI 提示詞。"
+      - "該敘述即使存在，也不能單獨證明著作權侵害或原始碼實際複製。"
+    tags: ["參考", "AI協作", "待核實"]
+
+  - id: F004
+    statement: "同日 NOWNEWS 記載葛如鈞以開源世界相互學習、網友與 AI 共創、競總只是匯聚作品為主要回應。"
+    status: verified
+    observed_at: "2026-10-28T22:28:29+08:00"
+    source_ids: [S002]
+    evidence_summary: "記錄其對特定網站作品爭議的公開回應架構。"
+    verification_notes:
+      - "『開源』是當事人說法；沒有實際查到兩方程式碼授權條款，不可反推出兩方作品均採開源授權。"
+    tags: ["葛如鈞", "公開回應", "開源"]
+
+  - id: F005
+    statement: "葛如鈞稱蔣陣營 10 月 9 日開始 AI 協作、10 月 10 日第一版網站上線、10 月 11 日在臉書公開。"
+    status: partial
+    observed_at: "2026-10-28T22:28:29+08:00"
+    source_ids: [S003]
+    evidence_summary: "已找到具體的當事人時間主張，尚未獨立取得相應時點的上線快照、Git 記錄或社群發布原件。"
+    verification_notes:
+      - "團隊較早有網站，不足以推斷後續每件作品均早於競爭對手作品。"
+    tags: ["時間線", "葛如鈞", "競選網站"]
+
+  - id: F006
+    statement: "2024 年 5 月 22 日葛如鈞質詢文化部時，以 Apple Emoji 與巴黎文化奧運台灣館主視覺高度相似為由，要求說明是否使用、參考及取得授權。"
+    status: verified
+    observed_at: "2026-10-28T22:28:29+08:00"
+    source_ids: [S005]
+    evidence_summary: "國會質詢逐字稿保存其對受保護圖像使用、設計相似性與授權的公開關切。"
+    verification_notes:
+      - "其當時法律理解不等於實際侵權已成立；也不能直接套用到網站互動設計的一般參考。"
+    tags: ["葛如鈞", "2024", "智慧財產權", "判準"]
+
+  - id: F007
+    statement: "針對巴黎文化奧運台灣館主視覺，文化部 2024 年回應圖樣為重新繪製、不須向 Apple 取得授權，設計師否認抄襲，但為免誤解已重新設計。"
+    status: verified
+    observed_at: "2026-10-28T22:28:29+08:00"
+    source_ids: [S006]
+    evidence_summary: "保留葛如鈞質詢案的反向說法，不能把當時質疑當成既定侵權事實。"
+    tags: ["反證", "2024", "智慧財產權"]
+
+  - id: F008
+    statement: "2026-10-28 葛如鈞以『北韓習氣』回應時，新聞主要描述的提問涉及競選肥皂箱與互動活動形式是否模仿，而另有網站個別作品參考政策島的指控。"
+    status: verified
+    observed_at: "2026-10-28T22:28:29+08:00"
+    source_ids: [S004, S002]
+    evidence_summary: "區分至少兩條不完全相同的爭議，避免把特定回答錯配到另一個不同問題。"
+    verification_notes:
+      - "無完整記者會逐字稿，不能排除當事人其他場合也以相同修辭處理網站指控。"
+    tags: ["問題分類", "選戰溝通"]
+
+claims:
+  - id: C001
+    statement: "研究對手互動設計並在 AI 開發中提及參考對象，本身不足以證明違法或不正當；需要證明被複製的是什麼、是否屬受保護表達，以及授權情況。"
+    status: supported
+    supports: [F003, F006, F007]
+    contradicts: []
+    related_facts: [F004]
+    reasoning_notes: "這是證據門檻與評價框架，不是宣告涉案作品合法。使用者立場是競選團隊本來就應研究對手；該政治評價不同於著作權構成要件。"
+
+  - id: C002
+    statement: "即使團隊首版互動網站早於對手作品，也不能單憑首版時間否定後來特定投稿作品可能參考對手。"
+    status: supported
+    supports: [F002, F003, F005]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "需分開查『平台最初建立』及『爭議作品建立／修改／上架』時間。"
+
+  - id: C003
+    statement: "競總有作品審核及展示環節；不論著作權指控最終成立與否，平台對作品來源與對外溝通的審查程度仍有公共評價意義。"
+    status: supported
+    supports: [F001, F002, F004]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "屬組織治理與政治能力判準，不等於主張競總對每件投稿負當然侵權責任，具體流程尚待補查。"
+
+  - id: C004
+    statement: "不能僅憑葛如鈞 2024 年追問 Apple Emoji 授權、2026 年主張網站相互學習，就認定存在雙重標準。"
+    status: supported
+    supports: [F004, F006, F007]
+    contradicts: []
+    related_facts: [F003]
+    reasoning_notes: "直接使用具體受保護圖像、重繪圖像，以及借鑑互動體驗可能涉及不同權利標的；仍需核實 2026 年具體使用內容才可比較一致性。"
+
+  - id: C005
+    statement: "爭議作品有無實際複製沈方原始碼或侵害著作權、原始版本及授權條款為何。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F003, F004]
+    reasoning_notes: "新聞有指控，尚未完成兩方程式碼、素材、授權與時間戳比對；不得先稱已抄襲，亦不得先判定全部合法。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-28T22:28:29+08:00"
+    platform: "GitHub politics-db"
+    query: "葛如鈞；蔣萬安；政策島（repo code search）與 sessions/cases 目錄檢視"
+    scope: "lichih/politics-db main branch"
+    result: not_found
+    notes: "本次檢索未找到此 2026-10-28 網站爭議既有 session；not_found 不代表其他名稱或尚未索引的檔案絕不存在。"
+
+  - id: Q002
+    observed_at: "2026-10-28T22:28:29+08:00"
+    platform: "web"
+    query: "葛如鈞 蔣萬安 網站 參考 沈伯洋 AI 2026 10 28；葛如鈞 2024 Apple emoji 授權"
+    scope: "公開新聞與立法院質詢逐字稿"
+    result: found
+    notes: "找到中央社、NOWNEWS、自由時報轉載、民視、公視、立法院質詢逐字稿。"
+
+  - id: Q003
+    observed_at: "2026-10-28T22:28:29+08:00"
+    platform: "browser / web"
+    query: "https://www.ettoday.net/news/20261028/3262486.htm"
+    scope: "使用者提供的 ETtoday 原新聞"
+    result: partial
+    notes: "已確認 URL 與標題，但內文擷取受限制；其詳細敘述未用作獨立直接證據。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "此 session 核心是把『參考對手網站』、『是否侵權』、『平台審核能力』及『應對論述是否對題』拆開；不可因政治立場把它們合併。"
+  - "使用者明確表示不認為研究、參考對手網站是問題，反認為競選團隊不研究對手才不稱職；但這不代表不能批評蔣團隊的審核與回應能力。這是使用者的政治評價，不是 sources 所證明的客觀事實。"
+  - "不可把『北韓習氣』回答直接定性為針對特定 AI 提示詞指控；已查得報導顯示它至少也涉及活動形式模仿之爭。"
+  - "下一步：保存爭議作品的實際頁面、AI 提示詞完整內容、時間序及程式碼／素材授權，並確定『島主』身分與競總審核流程。"
