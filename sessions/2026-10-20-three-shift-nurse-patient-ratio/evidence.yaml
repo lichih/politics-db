@@ -3,7 +3,7 @@ session:
   project: Politics
   title: 三班護病比：政策沿革、2026入法責任、院級改善與代表性爭議
   started_at: '2026-10-20T17:21:00+08:00'
-  updated_at: '2026-10-20T17:21:00+08:00'
+  updated_at: '2026-10-29T15:32:00+08:00'
   status: active
 topics:
 - 三班護病比
@@ -20,6 +20,10 @@ topics:
 - 護病比獎勵
 - 諮詢委員會
 - 護理代表比例
+- 護理薪資結構
+- AI護理紀錄
+- 跨專業代表發言
+- 指標定義與誤讀
 sources:
 - id: S001
   source_type: primary
@@ -226,6 +230,81 @@ sources:
   notes:
   - 官方計畫回顧108年2月1日公告增訂《醫療機構設置標準》第12條之1，全日平均護病比自108年5月1日施行。
   - 亦回顧112年8月起啟動每月健保VPN三班護病比填報。
+
+- id: S023
+  source_type: primary
+  publisher: 博音／Firstory
+  title: "EP248｜需要被補助的，不是這些人 ft. 中華民國醫師公會全國聯合會理事長陳相國"
+  url: https://open.firstory.fm/story/cmvkd6lcn00ss01xve3c1czce
+  published_at: '2026-10-26'
+  observed_at: '2026-10-29T15:32:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - "節目官方頁證明10/21錄製、10/26發布及受訪者身分；頁面沒有逐字稿，本次未獨立逐秒聆聽校對爭議語句。"
+- id: S024
+  source_type: secondary
+  publisher: 中央社
+  title: "醫師公會稱已加薪3至5萬 護理師公會要求清楚交代"
+  url: https://www.cna.com.tw/news/ahel/202610280108.aspx
+  published_at: '2026-10-28'
+  observed_at: '2026-10-29T15:32:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - "具名轉述陳相國主張『平均加薪3至5萬元』『很多醫學中心12時交班、12時6分下班』，並記錄護理師護士公會全聯會回應與衛福部長石崇良回應。"
+  - "屬受訪語句和護理團體Facebook聲明的二手報導；不是獨立薪資或交班工時實測。"
+- id: S025
+  source_type: primary
+  publisher: 衛生福利部
+  title: 醫院護理薪資資訊補充說明
+  url: https://www.mohw.gov.tw/cp-16-81767-1.html
+  published_at: '2025-03-08'
+  observed_at: '2026-10-29T15:32:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - "衛福部明載護助e起來月薪是各院全年經常性及非經常性薪資總額除以12，包含本薪、津貼、獎金等，但按該平台統計口徑不含加班費。"
+  - "該值不是個人每月實際固定薪資或本薪增幅，更不能當成2024-2026同一批人調薪差額。"
+- id: S026
+  source_type: primary
+  publisher: 立法院
+  title: 近年我國實施分級醫療、醫護留任與減緩急診壅塞成效之初探：護理薪資揭露問題
+  url: https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=56059&pid=252809
+  published_at: '2025-07'
+  observed_at: '2026-10-29T15:32:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - "立法院114年7月研究報告直接指出：衛福部揭露的平均月薪包含年終、留任、夜班津貼等分攤計算，高於經常性實領月薪，易生誤解。"
+  - "報告另可作護理人力、執業率與三班護病比政策成效之比較資料，但數值與口徑須分開查核。"
+- id: S027
+  source_type: secondary
+  publisher: 聯合報
+  title: 護理師加薪3至5萬？石崇良：待求證
+  url: https://udn.com/news/story/7266/9843490
+  published_at: '2026-10-29'
+  observed_at: '2026-10-29T15:32:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - "記錄2026-10-28邱慧洳立院質詢要求舉出加薪3至5萬的醫院，石崇良未能當場舉例並表示將向陳相國求證。"
+  - "本次未取得該段ivod官方片段逐字原始紀錄；媒體為secondary。"
+- id: S028
+  source_type: secondary
+  publisher: 財訊雙週刊
+  title: "醫師公會全聯會理事長：一場飯局，陳相國走進健康台灣政策核心"
+  url: https://www.wealth.com.tw/articles/25cf1347-7993-4f24-ba7f-f21270147007
+  published_at: '2026-09-09'
+  observed_at: '2026-10-29T15:32:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - "專訪報導載陳相國自述參與2023年賴清德健康台灣政策早期討論；這能支持政策與政治關係背景，但不能證明此次發言受政府授意。"
+- id: S029
+  source_type: secondary
+  publisher: 台灣事實查核中心
+  title: 護理師起薪6萬元？拆解勞動部、衛福部護理師薪資調查數字
+  url: https://tfc-taiwan.org.tw/analysis-nurse-salary-survey-mol-mohw/
+  published_at: '2025-03-18'
+  observed_at: '2026-10-29T15:32:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - "記錄2025年護助e起來月均薪資遭多個護理團體與工會質疑，拆解年薪攤算及個人固定月薪差別；不是2026陳相國加薪增量的直接反證。"
 facts:
 - id: F001
   statement: 賴清德於2023年9月21日競選政見明確承諾「三班護病比入法，上任2年內完成入法，任內完成配套措施實施」。
@@ -388,6 +467,49 @@ facts:
   source_ids: [S021]
   evidence_summary: 只確認原始公共主張存在；「沒有兌現」必須拆成正式入法、施行、實際達標與政治歸責等不同命題查核。
   tags: [Threads, 原始主張, 語義分層]
+
+- id: F025
+  statement: "2026-10-26播出的《博音》EP248邀醫師公會全聯會理事長陳相國受訪；中央社等媒體引述他稱賴政府上任後醫院護理師平均加薪約3至5萬元、部分醫學中心在AI輔助下可午夜交班並於12時6分下班。"
+  status: verified
+  observed_at: '2026-10-29T15:32:00+08:00'
+  source_ids: [S023, S024]
+  evidence_summary: "官方節目頁可確認訪談存在與時間，中央社可確認具名公開主張；節目官方頁無爭議語句逐字稿，尚未獨立聆聽校對。只證明主張被提出，不證明3至5萬元及6分鐘成果為事實。"
+  tags: [陳相國, 博音, 薪資, AI, 公共主張]
+- id: F026
+  statement: "護理師護士公會全聯會2026-10-28公開要求釐清陳相國加薪3至5萬元說法的計算期間、是否本薪或包含夜班津貼／加班費／獎勵金及適用院所；並指出AI生成紀錄不等於已完成臨床評估、安全確認、交接與查核。"
+  status: verified
+  observed_at: '2026-10-29T15:32:00+08:00'
+  source_ids: [S024]
+  evidence_summary: "由中央社轉述護理全聯會公開聲明；證明護理專業團體提出明確可驗證要求，不直接證明所有醫院皆未加薪或AI沒有成效。"
+  tags: [護理全聯會, 薪資構成, 加班, AI, 反證要求]
+- id: F027
+  statement: "2026-10-28立委邱慧洳在立法院質詢要求衛福部長石崇良舉出加薪3至5萬元醫院；石崇良表示各院情況不同、並非全面現況，且當場未舉出醫院，表示將向陳相國求證。"
+  status: verified
+  observed_at: '2026-10-29T15:32:00+08:00'
+  source_ids: [S024, S027]
+  evidence_summary: "兩家新聞記錄相同程序結果；目前未取得官方ivod逐字來源，故以公開報導層級保存，不把『當場未舉』升格為『世界上沒有任何一家』。"
+  tags: [邱慧洳, 石崇良, 質詢, 待求證]
+- id: F028
+  statement: "衛福部2025年已公開說明，其護助e起來平台的護理薪資月平均，是各院全年經常性與非經常性薪資除以12，包含津貼獎金但不含加班費，不能等同個人每月固定本薪；立法院114年7月專題研究另明確指出這種呈現高於實領經常薪資、容易造成誤解。"
+  status: verified
+  observed_at: '2026-10-29T15:32:00+08:00'
+  source_ids: [S025, S026]
+  evidence_summary: "主管機關自行確認指標定義，立院研究機關獨立指出月均與固定實領口徑錯位的風險；不代表全年薪資／12為數學造假。"
+  tags: [衛福部, 立法院, 平均月薪, 統計口徑, metric-opacity]
+- id: F029
+  statement: "2025年3月衛福部護理月薪平台資料曾遭護理專業團體與工會質疑與實領薪水不同；台灣事實查核中心當時即專文整理此薪資定義差異。"
+  status: verified
+  observed_at: '2026-10-29T15:32:00+08:00'
+  source_ids: [S029, S025]
+  evidence_summary: "在2026年陳相國發言前，已存在具名團體質疑薪資披露方式的公開研究紀錄，不能把2026爭議視為第一次出現。"
+  tags: [前例, 統計口徑, 護理薪資]
+- id: F030
+  statement: "2026年9月《財訊》專訪記錄陳相國自述曾參與2023年賴清德『健康台灣』政策早期討論；這與他擔任醫師公會全聯會理事長的身分不同於一般匿名網路評論者，但並未證明此次護理薪資說法為政府授意。"
+  status: verified
+  observed_at: '2026-10-29T15:32:00+08:00'
+  source_ids: [S028, S023]
+  evidence_summary: "受訪者公開政治政策背景有獨立報導，可用於檢驗政策發言及倡議者位置；動機與指令仍須獨立證據。"
+  tags: [陳相國, 健康台灣, 政策參與, 身分]
 claims:
 - id: C001
   statement: 若只把賴清德2023政見中的「上任2年內完成入法」理解為在兩週年前完成母法公布，該窄命題在形式上已完成。
@@ -480,6 +602,38 @@ claims:
   contradicts: []
   related_facts: [F001, F012, F017, F024]
   reasoning_notes: 若「入法」指母法形式，2026-05-15已公布；若主張的是配套全面施行或院院實際達標，時間與事實基準不同。查核時必須先指定是 formal enactment、implementation、compliance 還是 political attribution。
+
+- id: C014
+  statement: "陳相國2026年10月『護理師平均加薪3至5萬元』已由他提供具體醫院、比較期間、調薪項目與母體的公開資料證實。"
+  status: unsupported
+  supports: []
+  related_facts: [F025, F026, F027, F028]
+  reasoning_notes: "目前查到的是具名主張、護理團體要求細分口徑，及部長未能當場舉例並稱待求證；未取得支持其平均調薪增額的原始縱向數據。不能只因缺公開資料便斷言數值完全不實。"
+- id: C015
+  statement: "陳相國所稱AI協助6分鐘下班，足以推出目前台灣所有醫院、病房與班別都能在6分鐘內完成安全交班及所有下班前工作。"
+  status: contradicted
+  supports: []
+  contradicts: [F026]
+  related_facts: [F025, F027]
+  reasoning_notes: "該說法即使在特定醫院成立，也不能由部分部署／個案推論普遍實現；護理團體列出仍須臨床安全判斷的工作項目。"
+- id: C016
+  statement: "衛福部薪資平台用全年所得除以12的平均月薪，可以直接當成護理人員每月固定本薪，或當成某任政府上台後的加薪增額。"
+  status: contradicted
+  supports: []
+  contradicts: [F028, F029]
+  reasoning_notes: "年薪／12的總薪酬平均有其合法統計意義，但與每月固定本薪及同一群人的前後薪資差額是不同變數。"
+- id: C017
+  statement: "2026陳相國護理薪資／AI爭議與護病比代表性爭議，提供了『受政策影響群體的經驗／發言，能否在醫療治理和公共成果敘述中受到適當權重』的跨案研究入口。"
+  status: supported
+  supports: [F015, F016, F025, F026, F027, F028]
+  related_facts: [F030]
+  reasoning_notes: "支持的是研究比較方向，而非宣稱陳相國本人在護病比委員會占席、直接決定護理工時／薪資，或指控統一政治宣傳命令。"
+- id: C018
+  statement: "這次加薪與AI主張本身無法被證偽，因此已直接證明政府正在透過公權力使用不可證偽敘事。"
+  status: unsupported
+  supports: []
+  related_facts: [F025, F026, F027, F028]
+  reasoning_notes: "薪資調幅和交班工時原則上可透過院所薪資／人事與排班資料、AI系統稽核、臨床驗證來反證；目前是資料未交代、部分公共指標定義可能誤導、與跨專業代表問題，不是邏輯上不可證偽。"
 searches:
 - id: Q001
   observed_at: '2026-10-20T17:21:00+08:00'
@@ -523,6 +677,14 @@ searches:
   scope: 具名政治人物公開攻防
   result: found
   notes: 找到Newtalk對吳思瑤、郭昱晴公開發文的二手報導；僅用於證明具名框架，不外推匿名攻擊來源。
+
+- id: Q007
+  observed_at: '2026-10-29T15:32:00+08:00'
+  platform: web
+  query: "陳相國 博音 3到5萬 6分鐘 護理全聯會 石崇良；護助e起來統計；立法院薪資研究"
+  scope: "Firstory官方單集、中央社、聯合報、衛福部、立法院、台灣事實查核中心、財訊"
+  result: found
+  notes: "找到節目原始頁面及二手語句報導、護理團體回應、立院質詢、2025年政府統計口徑與立院研究；未取得節目逐字錄音標注與2026 10/28質詢官方ivod片段。"
 promotion:
   cases: []
   comparators: []
@@ -538,3 +700,7 @@ notes:
 - 醫院是否增減病床、人力與財務規劃屬醫院經營治理程序；但『護理師承受工作量』與『管理端決定資源配置』的更完整因果鏈，若要公開成為法律／治理結論，仍應補醫院內部治理與勞動實證。
 - 具名民進黨政治人物確有『被賣／被騙』等攻防語言；匿名抹紅、威脅是否由政黨組織指揮目前未證，不得升格定性。
 - 不保存使用者或其家人的私人護理職涯 anecdote；公開 evidence 只保留可外部查核資料。
+
+- 2026-10-29追加薪資／AI爭議：2025年官方年薪／12月均呈現方式已被立法院指出容易與每月經常性實領混淆。它與2026陳相國聲稱的『政府上台後加薪3至5萬元』是兩個不同的量，不得拿其中一者直接證明另一者。
+- 薪資增加與AI減輕紀錄負荷有可能是實際改善，但須分別驗證醫院、期間、母體、薪資構成、記錄效率與臨床交班完整性。新聞反彈、護理團體聲明、部長待求證本身都不是『全國零改善』的證據。
+- 這案首先放在護病比／醫療治理的決策代表性與指標透明度下；不得只為套上公權力不可證偽母題，就把本可用薪資及交班工時反證的主張說成邏輯上不可證偽。
