@@ -157,7 +157,7 @@ facts:
 claims:
   - id: C001
     statement: "兩類公權力發生程序爭議時，政治行政監督責任應依一致判準檢驗。"
-    status: open
+    status: unresolved
     observed_at: "2026-10-30"
     fact_ids: [F001, F002, F003, F005, F006]
     notes:
