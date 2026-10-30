@@ -42,7 +42,7 @@ sources:
     title: 新竹縣長選舉年代民調中心三波調查整理（附原始報告入口）
     url: https://poll-tw.com/hsinchu
     observed_at: '2026-10-30T13:00:00+08:00'
-    retrieval_status: found
+    retrieval_status: reachable
     notes:
       - 2026年4月6至7日：徐欣瑩36.6%、鄭朝方30.8%；樣本1072。
       - 2026年6月14至16日：徐欣瑩32.3%、鄭朝方30.5%；樣本1068。
@@ -55,7 +55,7 @@ sources:
     title: 2026年10月27日皮爾森新竹縣長民調及白營選民交叉分析
     url: https://newtalk.tw/news/view/2026-10-27/1067646
     observed_at: '2026-10-30T13:00:00+08:00'
-    retrieval_status: found
+    retrieval_status: reachable
     notes:
       - 鄭朝方競辦委託；2026年9月14至21日、10月12至18日分別進行網路主動發放調查。
       - 9月3098份、10月3054份；受訪者為20歲以上新竹縣網路人口；非機率抽樣不宜援用標準機率樣本抽樣誤差。
@@ -67,21 +67,21 @@ sources:
     title: 2026年10月27日鄭朝方競辦公布之皮爾森兩波民調
     url: https://tw.news.yahoo.com/%E7%B6%A0%E6%9C%89%E6%9C%9B%E6%8B%BF%E4%B8%8B%E7%AB%B9%E7%B8%A3-%E6%9C%80%E6%96%B0%E6%B0%91%E8%AA%BF-%E9%84%AD%E6%9C%9D%E6%96%B9%E6%94%AF%E6%8C%81%E5%BA%A6%E9%80%BE5%E6%88%90-%E9%A0%98%E5%85%88%E5%BE%90%E6%AC%A3%E7%91%A915-43-061400692.html
     observed_at: '2026-10-30T13:00:00+08:00'
-    retrieval_status: found
+    retrieval_status: reachable
     notes:
       - 10月整體鄭朝方50.30%、徐欣瑩34.87%；9月鄭47.68%、徐33.40%，非年代民調同一抽樣架構。
 facts:
   - id: F001
     statement: 年代民調中心三波新竹縣長民調中，徐欣瑩與鄭朝方差距由4月徐領先5.8個百分點，變為6月徐領先1.8個百分點，9月鄭領先6.4個百分點。
-    status: reported
+    status: partial
     source_ids: [S003]
   - id: F002
     statement: 2026年9月6日新竹縣藍白合作宣告破局；9月16至18日的年代民調時間在其後，但徐欣瑩在破局前4月至6月已下降。
-    status: reported
+    status: partial
     source_ids: [S003]
   - id: F003
     statement: 鄭朝方競辦委託之皮爾森10月非機率網路調查中，自認民眾黨支持者支持鄭朝方46.33%、徐欣瑩25.55%。
-    status: reported
+    status: partial
     source_ids: [S004, S005]
 claims:
   - id: C001
