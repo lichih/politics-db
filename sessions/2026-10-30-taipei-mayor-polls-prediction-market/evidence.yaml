@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "2026台北市長民調、當選看好度與Polymarket短期價格背離"
   started_at: "2026-10-30T16:06:00+08:00"
-  updated_at: "2026-10-30T16:06:00+08:00"
+  updated_at: "2026-10-30T22:13:44+08:00"
   status: active
 
 topics: ["2026台北市長", "蔣萬安", "沈伯洋", "民調", "預測市場", "選戰敘事", "Polymarket"]
@@ -46,7 +46,98 @@ sources:
     retrieval_status: reachable
     notes: "同一份調查之當選看好度，不能當成另一獨立樣本。"
 
+  - id: S005
+    source_type: primary
+    publisher: "TVBS"
+    title: "辯論表現預期及松山機場遷建民調"
+    url: "https://news.tvbs.com.tw/politics/4037282"
+    published_at: "2026-10-17"
+    observed_at: "2026-10-30T22:13:44+08:00"
+    retrieval_status: reachable
+    notes: "辯論表現預期非市長支持度；調查期10月12日至15日。"
+  - id: S006
+    source_type: secondary
+    publisher: "今周刊"
+    title: "信民民調與其樣本結構、政黨板塊加權敏感度"
+    url: "https://www.businesstoday.com.tw/article/category/183027/post/202610200043/"
+    published_at: "2026-10-21"
+    observed_at: "2026-10-30T22:13:44+08:00"
+    retrieval_status: reachable
+    notes: "引述信民民調報告：泛綠42.2%、泛藍26.6%；採TVBS假設政黨板塊重加權時蔣反領先7點；原始報告仍需交叉核對。"
+  - id: S007
+    source_type: secondary
+    publisher: "political-research-tools"
+    title: "2026-10-14至23 Taipei Polymarket API 研究 artifact (PR #5)"
+    url: "https://github.com/4649-tw/political-research-tools/pull/5"
+    published_at: "2026-10-30"
+    observed_at: "2026-10-30T22:13:44+08:00"
+    retrieval_status: reachable
+    notes: "研究原始回應、SHA-256、時間序列與分析皆在未合併 branch；CI已通過，未完成第三方全量重算。"
+  - id: S008
+    source_type: primary
+    publisher: "壹蘋新聞網"
+    title: "信民協會最新民調公布"
+    url: "https://news.nextapple.com/politics/20261020/9A65B5B74B11ADF97F1F665658389410"
+    published_at: "2026-10-20"
+    observed_at: "2026-10-30T22:13:44+08:00"
+    retrieval_status: reachable
+    notes: "頁面標示13:13；這是可見媒體報導時間，不是民調首次流出時間。"
+
 facts:
+  - id: F005
+    statement: "TVBS10月17日公布辯論表現預期，沈伯洋41%、蔣萬安30%；此題不是候選人投票支持度。"
+    status: verified
+    observed_at: "2026-10-30T22:13:44+08:00"
+    source_ids: [S005]
+    evidence_summary: "媒體原文指出辯論表現預期與調查期間10月12至15日。"
+    excerpt: ""
+    verification_notes: []
+    tags: ["2026", "民調", "辯論"]
+  - id: F006
+    statement: "TVBS同批調查中，蔣萬安松機遷建政見不支持41%、支持31%。"
+    status: verified
+    observed_at: "2026-10-30T22:13:44+08:00"
+    source_ids: [S005]
+    evidence_summary: "政策態度題不等同投票支持。"
+    excerpt: ""
+    verification_notes: []
+    tags: ["2026", "政策", "民調"]
+  - id: F007
+    statement: "信民協會10月20日調查的政黨傾向未加權、不同政黨板塊加權假設會明顯改變候選人排名，相關內容於10月21日媒體整理報導。"
+    status: partial
+    observed_at: "2026-10-30T22:13:44+08:00"
+    source_ids: [S006]
+    evidence_summary: "報導引述樣本泛綠42.2%、泛藍26.6%，以及按TVBS政黨板塊重新加權蔣領先7點。"
+    excerpt: ""
+    verification_notes: ["尚待直接取得信民原始報告及其具體重加權步驟；這是方法敏感度，不代表調查造假或任一板塊假設必然正確。"]
+    tags: ["2026", "民調", "加權"]
+  - id: F008
+    statement: "Polymarket蔣萬安Yes取樣價格10月14日首筆0.680，10月19日末筆0.575，10月20日最低0.565，10月21日末筆0.645，10月23日末筆0.635。"
+    status: partial
+    observed_at: "2026-10-30T22:13:44+08:00"
+    source_ids: [S007]
+    evidence_summary: "研究PR #5基於公開API歸檔每小時取樣，已保留raw JSON、manifest、hash與CSV。"
+    excerpt: ""
+    verification_notes: ["目前為研究工具方第一次重算結果，尚未完成另一獨立執行者對全量原始資料重新計算。", "價格取樣不等同台北市民勝選預期或民調。"]
+    tags: ["2026", "Polymarket", "價格"]
+  - id: F009
+    statement: "Polymarket沈伯洋Yes取樣價格10月14日首筆0.326，10月19日末筆0.4115，10月20日最高0.4345，10月21日末筆0.3545。"
+    status: partial
+    observed_at: "2026-10-30T22:13:44+08:00"
+    source_ids: [S007]
+    evidence_summary: "同一份公開API研究歸檔，與蔣市場走勢大致相反。"
+    excerpt: ""
+    verification_notes: ["仍須獨立全量核對原始response、時間窗及計算。"]
+    tags: ["2026", "Polymarket", "價格"]
+  - id: F010
+    statement: "壹蘋2026年10月20日13:13已有信民民調50.3%比33.3%的新聞報導。"
+    status: verified
+    observed_at: "2026-10-30T22:13:44+08:00"
+    source_ids: [S008]
+    evidence_summary: "媒體頁面明列報導刊登時刻，早於先前研究所採中央社13:27之時間proxy。"
+    excerpt: ""
+    verification_notes: ["不能斷言13:13是最早公布時間。"]
+    tags: ["2026", "發布時間"]
   - id: F001
     statement: "TVBS 10月8日公布的支持度為蔣萬安49%、沈伯洋41%；報導稱相較五月調查差距從28點縮至8點。"
     status: verified
@@ -107,6 +198,21 @@ claims:
     related_facts: [F001, F002, F003, F004]
     reasoning_notes: "需要另外取得組織協調、樣本設計不當或刻意操弄證據；數字方向一致不能單獨證明。"
 
+  - id: C004
+    statement: "10月14至20日市場一路接近、10月20後反彈；下跌段可能受接連有利沈的宣傳與蔣政策負面訊號影響。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F005, F006, F008, F009]
+    reasoning_notes: "市場價格的時間序列支持兩段走勢，但公開消息只能構成候選解釋；須再做各日事件與價格、量之密集對照。"
+  - id: C005
+    statement: "10月21日起市場反彈是對信民民調樣本組成與重加權問題的理性修正。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F007, F008]
+    reasoning_notes: "時間上有關聯，未核實重加權議題首次公開時間和當天逐時成交價格；不可確定此為主要原因。"
+
 searches:
   - id: Q001
     observed_at: "2026-10-30T16:06:00+08:00"
@@ -122,6 +228,8 @@ promotion:
   research: []
 
 notes:
+  - "研究問題是10/14至10/20整段價格下跌、接著10/20至23反彈的雙階段成因；不是10/20單日民調發布是否觸發瞬時斷點。"
+  - "已取得價格/成交原始資料，仍需完成獨立全量驗算；此前所寫待查缺口標註的是原始階段，不可忽略後續F008-F009的新增觀測。"
   - "使用者提供Polymarket介面截圖：10月20日20:00游標顯示蔣56%、沈43.5%、郭0.1%，但截圖底部標示2026-11-28，與目前2026-10-30時點不一致，應檢查這是市場結算日還是視窗日期，不得直接把截圖當作逐時完整紀錄。"
   - "待查10月14日至23日逐時市場價格、成交量及大額持倉；尤其要區分發布時間和訪問時間。"
   - "Fact寫作主題宜為選戰聲量、民調支持度、當選看好度與預測市場價格的不同意義，而非未證實的認知作戰指控。"
