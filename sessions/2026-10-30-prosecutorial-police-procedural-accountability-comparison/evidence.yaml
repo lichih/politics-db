@@ -1,0 +1,175 @@
+session:
+  id: "2026-10-30-prosecutorial-police-procedural-accountability-comparison"
+  project: Politics
+  title: "北檢與北市警局程序爭議的政治行政監督責任對照"
+  started_at: "2026-10-30T13:10:00+08:00"
+  updated_at: "2026-10-30T13:10:00+08:00"
+  status: active
+topics:
+  - "公權力的邊界"
+  - "程序正義"
+  - "檢察監督"
+  - "警察執法"
+  - "萬華同志酒吧"
+  - "京華城案"
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "臺北市政府"
+    title: "回應萬華同志酒吧搜索爭議 北市府說明調查進度、研訂執法指引及社群支持措施"
+    url: "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=CF00CDC3FDA247BA"
+    published_at: "2026-10-29"
+    observed_at: "2026-10-30"
+    retrieval_status: reachable
+    notes:
+      - "市府再次致歉，稱行政調查報告送警政署並獲核復，後續研訂指引與教育訓練；民間刑事告發仍由北檢偵辦。"
+  - id: S002
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "同志酒吧搜索爭議（新聞專題）"
+    url: "https://www.cna.com.tw/topic/newstopic/5114.aspx"
+    observed_at: "2026-10-30"
+    retrieval_status: reachable
+    notes:
+      - "彙整搜索、歧視言語爭議、員警與督導主管懲處及市長回應。"
+  - id: S003
+    source_type: secondary
+    publisher: "聯合報"
+    title: "沈慶京請求評鑑林俊言不成立 檢評會：移請新北檢適當處分"
+    url: "https://udn.com/news/story/7321/9305250"
+    published_at: "2026-02-03"
+    observed_at: "2026-10-30"
+    retrieval_status: reachable
+    notes:
+      - "個案評鑑請求不成立，另就偵訊中談及無關案情內容移請監督處理，不能推論全部違失成立。"
+  - id: S004
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "指京華城案偵查有瑕疵 柯文哲請求檢察官評鑑"
+    url: "https://www.cna.com.tw/news/asoc/202603030106.aspx"
+    published_at: "2026-03-03"
+    observed_at: "2026-10-30"
+    retrieval_status: reachable
+    notes:
+      - "報導當事人提出評鑑請求，不證明指控成立。"
+  - id: S005
+    source_type: secondary
+    publisher: "Newtalk"
+    title: "搜索同志酒吧惹議！傳綠議員檢舉 蔣萬安：我不推責任"
+    url: "https://newtalk.tw/news/view/2026-10-06/1063990"
+    published_at: "2026-10-06"
+    observed_at: "2026-10-30"
+    retrieval_status: reachable
+    notes:
+      - "洪健益曾在9月質詢；蔣萬安稱市警局為市府團隊，不以警政一條鞭卸責。"
+  - id: S006
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "北市同志酒吧執法爭議 劉世芳：已懲處員警、強化性平教育"
+    url: "https://www.cna.com.tw/news/aipl/202610300061.aspx"
+    published_at: "2026-10-30"
+    observed_at: "2026-10-30"
+    retrieval_status: reachable
+    notes:
+      - "內政部長說明懲處與中央警政監督的回應。"
+  - id: S007
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "同志酒吧執法爭議 北市府致歉：已完成行政調查報告"
+    url: "https://www.cna.com.tw/news/aloc/202610290237.aspx"
+    published_at: "2026-10-29"
+    observed_at: "2026-10-30"
+    retrieval_status: reachable
+    notes:
+      - "佐證市府行政調查與執法指引進展。"
+  - id: S008
+    source_type: secondary
+    publisher: "台視新聞"
+    title: "北市警搜索同志酒吧涉歧視 萬華分局長等6人懲處結果出爐"
+    url: "https://news.ttv.com.tw/news/11510050002300W"
+    published_at: "2026-10-05"
+    observed_at: "2026-10-30"
+    retrieval_status: reachable
+    notes:
+      - "四員警各申誡兩次、偵查隊長記過一次、分局長申誡兩次。"
+  - id: S009
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "法院組織法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0010053"
+    observed_at: "2026-10-30"
+    retrieval_status: reachable
+    notes:
+      - "第111至113條涉及法務部及檢察體系監督職權，須與個案檢察獨立區分。"
+  - id: S010
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "李文娟指檢調偵查時很凶 北檢：並非事實"
+    url: "https://www.cna.com.tw/news/aipl/202509230408.aspx"
+    published_at: "2025-09-23"
+    observed_at: "2026-10-30"
+    retrieval_status: reachable
+    notes:
+      - "當事人指控偵訊高壓，北檢否認；需要原始影音及法院認定。"
+facts:
+  - id: F001
+    statement: "2026年10月3日萬華分局搜索Commander D；警方對四名員警及兩名主管公布懲處。"
+    status: verified
+    observed_at: "2026-10-30"
+    source_ids: [S002, S008]
+    evidence_summary: "4員警各申誡2次，偵查隊長記過1次，分局長申誡2次。"
+  - id: F002
+    statement: "北市府10月29日再次致歉，稱行政調查完成、送警政署核復，並將研訂指引及加強訓練。"
+    status: verified
+    observed_at: "2026-10-30"
+    source_ids: [S001, S007]
+    evidence_summary: "行政調查與改善承諾有官方紀錄；完整調查內容尚待核對。"
+  - id: F003
+    statement: "蔣萬安10月6日表示市警局屬市府團隊，不因中央地方權責或警政一條鞭卸責。"
+    status: verified
+    observed_at: "2026-10-30"
+    source_ids: [S005]
+    evidence_summary: "可直接比對首長承責言論。"
+  - id: F004
+    statement: "民進黨市議員洪健益曾於9月質詢相關酒吧爭議，但尚不能證明他是搜索的唯一促成原因。"
+    status: partial
+    observed_at: "2026-10-30"
+    source_ids: [S005]
+    evidence_summary: "議會質詢可查；警方聲請搜索與議員質詢的因果鏈未完整重建。"
+  - id: F005
+    statement: "沈慶京對林俊言個案評鑑請求不成立；檢評會另就偵訊涉及無關案情的倫理問題移請新北檢處理。"
+    status: verified
+    observed_at: "2026-10-30"
+    source_ids: [S003]
+    evidence_summary: "評鑑與行政職務監督階段有別；後續實際處分待核。"
+  - id: F006
+    statement: "柯文哲與律師2026年3月3日提出京華城偵查程序的檢察官評鑑請求。"
+    status: verified
+    observed_at: "2026-10-30"
+    source_ids: [S004]
+    evidence_summary: "僅證明提出請求，不代表指控成立。"
+  - id: F007
+    statement: "李文娟庭上主張高壓訊問，北檢正式否認。"
+    status: verified
+    observed_at: "2026-10-30"
+    source_ids: [S010]
+    evidence_summary: "對立陳述應由原始錄影音及法院認定檢驗。"
+claims:
+  - id: C001
+    statement: "兩類公權力發生程序爭議時，政治行政監督責任應依一致判準檢驗。"
+    status: unresolved
+    observed_at: "2026-10-30"
+    fact_ids: [F001, F002, F003, F005, F006]
+    notes:
+      - "規範性比較，不意味行政首長得干預檢察官個案結論。"
+  - id: C002
+    statement: "北檢司法程序爭議已證明中央政府政治指揮或司法迫害。"
+    status: unsupported
+    observed_at: "2026-10-30"
+    fact_ids: [F005, F006, F007]
+    notes:
+      - "政治目的及指揮鏈尚無獨立充分證據。"
+searches: []
+notes:
+  - "跨案資料入口，不取代既有柯文哲、無良公關個案證據。"
+  - "待查林俊言評鑑原始決議與後續處分、柯文哲評鑑結果、北市府行政調查全文。"
