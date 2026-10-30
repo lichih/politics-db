@@ -1,0 +1,81 @@
+session:
+  id: 2026-10-30-blue-white-vote-transfer-strategy
+  project: Politics
+  title: 藍白合作、第三勢力選票異質性與國民黨執政路徑：攻防紀錄
+  started_at: '2026-10-30T00:00:00+08:00'
+  updated_at: '2026-10-30T00:00:00+08:00'
+  status: active
+topics:
+  - 藍白合
+  - 國民黨
+  - 民眾黨
+  - 第三勢力
+  - 蔣萬安
+  - 沈伯洋
+  - 黃珊珊
+  - 異質性選民
+  - 選票轉移
+sources:
+  - id: S001
+    source_type: secondary
+    publisher: 震傳媒
+    title: 2026年10月22日發布之台北市長選舉民調及黃珊珊舊選民交叉分析（原始報告待核）
+    url: https://www.google.com/search?q=2026+10+22+%E9%9C%87%E5%82%B3%E5%AA%92+%E9%BB%83%E7%8F%8A%E7%8F%8A+%E6%B2%88%E4%BC%AF%E6%B4%8B
+    observed_at: '2026-10-30T00:00:00+08:00'
+    retrieval_status: not_found
+    notes:
+      - 本次僅保存對話既有引用的待複核數字，未取得原始完整交叉表；搜尋網址不是證據來源，必須替換。
+  - id: S002
+    source_type: secondary
+    publisher: 聯合報
+    title: 2026年10月28日發布之台北市長選舉民調及交叉分析（原始報告待核）
+    url: https://www.google.com/search?q=2026+10+28+%E8%81%AF%E5%90%88%E5%A0%B1+%E9%BB%83%E7%8F%8A%E7%8F%8A+%E8%94%A3%E8%90%AC%E5%AE%89+%E6%B2%88%E4%BC%AF%E6%B4%8B
+    observed_at: '2026-10-30T00:00:00+08:00'
+    retrieval_status: not_found
+    notes:
+      - 本次未取回原始問卷、抽樣、交叉分析完整資料；不得將對話中的數字升格為verified。
+facts: []
+claims:
+  - id: C001
+    statement: 國民黨難以直接吸引的部分非藍非綠選民，可能被自主的民眾黨吸收，再透過可信的藍白合作參與執政聯盟。
+    status: unresolved
+    supports: []
+    contradicts: []
+    reasoning_notes: 有條件、異質性選民模型；不是所有白營選民都會投藍。
+  - id: C002
+    statement: 國民黨若損害藍白合作信用或第三勢力自主性，可能使原本透過合作保留的部分選票轉綠、棄投或流向其他選項；兩人對決下轉投對手對票差影響不同於棄投。
+    status: unresolved
+    supports: []
+    contradicts: []
+    reasoning_notes: 須以合作信任、投票史、候選人評價與轉移機率分群驗證。
+  - id: C003
+    statement: 藍白合作穩定時，王世堅個人吸引力與洋流跨陣營政治傳播對部分白營選民的邊際轉票效果可能較低。
+    status: unresolved
+    supports: []
+    contradicts: []
+    reasoning_notes: 王世堅及洋流為不同吸票路徑；對洋流的「認知作戰」定性另須證明。
+  - id: C004
+    statement: 國民黨限制地方跨黨助選或維護組織利益的收益，足以抵銷第三勢力合作信用流失的票數與長期聯盟成本。
+    status: unresolved
+    supports: []
+    contradicts: []
+    reasoning_notes: 反方必要的淨收益命題；現階段未有分群與淨效果數據支持。
+  - id: C005
+    statement: 國民黨已親手封死唯一重返中央執政的道路。
+    status: unresolved
+    supports: []
+    contradicts: []
+    reasoning_notes: 「唯一」為強命題，須納入不同選制、地區、候選人與替代聯盟配置。
+searches:
+  - id: Q001
+    observed_at: '2026-10-30T00:00:00+08:00'
+    platform: conversation-review
+    query: 2026-10-30 藍白合、黃珊珊舊選民、王世堅、洋流、反方攻防
+    scope: 本次對話中已出現的論證與待查民調敘述
+    result: found
+    notes: '對話曾引用10月兩組黃珊珊舊選民約54至55%支持沈伯洋、34至38%支持蔣萬安；並非本次獨立重查的verified findings。'
+notes:
+  - '核心風險：不要將現有民眾黨認同者、2022黃珊珊投票者、原偏藍白營、策略性支持藍白者混為單體。'
+  - '反論失敗模式：只稱「其他原因也可能」卻沒有建構同樣有條件的競爭機制；用對己方有利的未知排除對方可能性。'
+  - '真正可對抗的反方：證明國民黨維護地方組織的整體收益大於合作弱化成本；或合作穩定時相應選民轉綠率依然相近。'
+  - '此檔先存論證問題與待查事項，不冒充已完成公開民調及原始聲明核查。'
