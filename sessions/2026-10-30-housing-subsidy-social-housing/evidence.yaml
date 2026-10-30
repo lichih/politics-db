@@ -1,0 +1,199 @@
+session:
+  id: "2026-10-30-housing-subsidy-social-housing"
+  project: Politics
+  title: "社會住宅、租金補貼與包租代管：承諾變更、政策成本與租金轉嫁證據"
+  started_at: "2026-10-30T23:08:42+08:00"
+  updated_at: "2026-10-30T23:08:42+08:00"
+  status: active
+
+topics:
+  - 社會住宅
+  - 租金補貼
+  - 包租代管
+  - 住宅法
+  - 政策承諾
+  - 租金轉嫁
+  - 公共住宅存量
+  - 補貼歸宿
+
+sources:
+  - id: S001
+    source_type: commentary
+    publisher: "天下獨立評論"
+    title: "羅煊：社會住宅蓋越多越好嗎？台灣住宅政策該放下「戶數迷思」了"
+    url: "https://opinion.cw.com.tw/blog/profile/445/article/17914"
+    published_at: "2026-10-29"
+    observed_at: "2026-10-30T23:08:42+08:00"
+    retrieval_status: reachable
+    notes:
+      - "原文同時討論柯文哲八年五萬戶與賴清德新增十三萬戶，批評單純以戶數問責；提出租補、包租代管及永久社宅應依需求分流。"
+      - "原文承認非營利住宅在有替代性的市場可影響私人租金成長；並未明言全面取消社宅。"
+  - id: S002
+    source_type: primary
+    publisher: "內政部國土管理署"
+    title: "百萬租屋家庭支持計畫114–121年社宅多元興辦，目標維持13萬戶"
+    url: "https://www.nlma.gov.tw/ch/titlelist/news/17633"
+    observed_at: "2026-10-30T23:08:42+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方表示第一階段117年前再興辦3萬戶、114至121年興辦13萬戶總目標維持；後續改以都更分回、容積獎勵及地方整體開發等多元取得。"
+      - "官方目標與已交付入住戶數不同，不得混用。"
+  - id: S003
+    source_type: primary
+    publisher: "內政部國土管理署"
+    title: "中央地方攜手推動 社會住宅目標穩健推進"
+    url: "https://www.nlma.gov.tw/ch/titlelist/clear/17616"
+    observed_at: "2026-10-30T23:08:42+08:00"
+    retrieval_status: reachable
+    notes:
+      - "截至115年7月底直接興辦126656戶：中央70359戶、地方56297戶；稱將增加都更分回等多元取得管道。"
+  - id: S004
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "住宅法（第15、16條）"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070195"
+    observed_at: "2026-10-30T23:08:42+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第15條公益出租人每屋每月最高15000元租金收入免納綜所稅；減免所用租約資料除用於租稅減免外，不得作為查核其租賃所得依據。"
+      - "第16條規範房屋稅及地價稅優惠，地方自治條例細節仍須另查。"
+  - id: S005
+    source_type: secondary
+    publisher: "公視新聞網／新聞實驗室"
+    title: "社宅包租代管上路9年，有解決「租不起、租不好、租不到」的問題嗎？"
+    url: "https://news.pts.org.tw/article/833239"
+    published_at: "2026-10-28"
+    observed_at: "2026-10-30T23:08:42+08:00"
+    retrieval_status: reachable
+    notes:
+      - "引述OURs試算，50年、通膨1.5%情境下每戶租補279萬、直接興建社宅298萬、包租代管652萬。"
+      - "模型是假設性的第三方估算，非同口徑、已核定的完整政府成本效益評估；未取得模型完整成本、殘值、折現與收入明細。"
+      - "報導引述政府住宅需求動向調查，包租代管承租人接近九成認為主要效益是租補減輕壓力。"
+      - "截至115年8月底包租代管弱勢戶占41.05%，但報導也記錄高齡及精神障礙房客實務媒合困難的訪談。"
+  - id: S006
+    source_type: primary
+    publisher: "內政部國土管理署"
+    title: "朝向多元化的社會住宅供給，內政部持續滾動檢討及調整"
+    url: "https://www.nlma.gov.tw/ch/titlelist/clear/17143"
+    observed_at: "2026-10-30T23:08:42+08:00"
+    retrieval_status: reachable
+    notes:
+      - "115年2月底直接興辦122757戶、包租代管曾協助107615戶家庭，經濟或社會弱勢戶43%。"
+      - "官方將包租代管納入廣義社宅供給；分析必須分清直接興辦、包租代管及純租補。"
+
+facts:
+  - id: F001
+    statement: "羅煊2026-10-29投書主張不應僅依社宅戶數衡量政策，並以柯文哲與賴清德的未達／變更目標作例，倡議按家戶需求選擇租補、包租代管或永久社宅。"
+    status: verified
+    observed_at: "2026-10-30T23:08:42+08:00"
+    source_ids: [S001]
+    evidence_summary: "原文可直接確認作者如何提出例子與政策工具分類。"
+    verification_notes:
+      - "這只能證明原文論證，不能推定作者想全面廢止社宅或有其他政治動機。"
+    tags: ["言論紀錄", "政策論證"]
+  - id: F002
+    statement: "內政部2026年表示114至121年13萬戶社宅興辦目標仍在，但由直接興辦擴及都更分回、容積獎勵及地方整體開發等多元取得方式。"
+    status: verified
+    observed_at: "2026-10-30T23:08:42+08:00"
+    source_ids: [S002, S003]
+    evidence_summary: "國土署公開說明13萬目標不變及多元取得措施。"
+    verification_notes:
+      - "不能把執行方式調整等同最終13萬戶已正式取消；也不能把興辦戶數當成完工入住。"
+    tags: ["政策承諾", "官方資料"]
+  - id: F003
+    statement: "國土署公布截至115年7月底全國直接興辦社宅126656戶，其中中央70359戶、地方56297戶。"
+    status: verified
+    observed_at: "2026-10-30T23:08:42+08:00"
+    source_ids: [S003]
+    evidence_summary: "國土署的行政統計口徑為直接興辦，並非全部已完工。"
+    tags: ["社宅存量", "統計口徑"]
+  - id: F004
+    statement: "住宅法第15條明訂符合條件的公益出租人租金收入每屋每月最高15000元免綜所稅，且相關租賃契約資料不得用於查核其租賃所得；第16條另涉及地方房地稅優惠。"
+    status: verified
+    observed_at: "2026-10-30T23:08:42+08:00"
+    source_ids: [S004]
+    evidence_summary: "直接核對住宅法第15、16條條文。"
+    verification_notes:
+      - "法定資料使用限制不等於房東一律不須申報所得，也不等於租客申請補貼會使房東必然加租。"
+    tags: ["法規", "稅務優惠"]
+  - id: F005
+    statement: "公視2026-10-28報導引用OURs的50年試算：通膨1.5%情境下，租補每戶279萬、直接興建社宅298萬、包租代管652萬元。"
+    status: verified
+    observed_at: "2026-10-30T23:08:42+08:00"
+    source_ids: [S005]
+    evidence_summary: "可核實報導及其引述的試算數字，尚不能直接核實模型全部參數。"
+    verification_notes:
+      - "這是『研究團體試算曾如此呈現』的事實，不是『包租代管必然最昂貴』的普遍因果結論。"
+      - "需補原始OURs模型，確認土地、折現率、租金收入、維護費、殘值與受益戶定義。"
+    tags: ["成本估算", "待覆核模型"]
+  - id: F006
+    statement: "公視2026-10-28報導指出，截至115年8月底包租代管弱勢承租戶占41.05%，並記錄媒合獨居高齡與精神障礙房客遇到的限制。"
+    status: partial
+    observed_at: "2026-10-30T23:08:42+08:00"
+    source_ids: [S005, S006]
+    evidence_summary: "41.05%與相關訪談可見於報導，尚未獨立取得該期行政統計原始表。"
+    verification_notes:
+      - "115年2月底官方資料43%與115年8月底報導41.05%為不同時間截面，不可視為直接矛盾。"
+    tags: ["弱勢保障", "媒體報導"]
+  - id: F007
+    statement: "國土署2026年公告以直接興建、都更分回、容積獎勵等多元方式推動社宅，並與租金補貼及包租代管並行。"
+    status: verified
+    observed_at: "2026-10-30T23:08:42+08:00"
+    source_ids: [S002, S006]
+    evidence_summary: "官方公開描述三種供給／支持工具同時推進。"
+    tags: ["政策工具"]
+
+claims:
+  - id: C001
+    statement: "租補導致全台灣私人租金普遍上升，且補貼大多被房東吸收。"
+    status: unresolved
+    related_facts: [F004, F005]
+    reasoning_notes: "個案及理論上的補貼歸宿不能替代控制同期房市條件的因果估計；須追查相近房屋的交易租金、簽約時點、受補貼資格及租賃供給彈性。"
+  - id: C002
+    statement: "租金補貼與包租代管在長期保障、公共住宅存量及財政成本上可以完全替代直接興建社宅。"
+    status: unresolved
+    related_facts: [F005, F006, F007]
+    reasoning_notes: "目前沒有完整同口徑的政策效果比較；OURs試算提示應查長期成本但不足以證實普遍排序。"
+  - id: C003
+    statement: "羅煊主張全面停止新建社宅，將社宅政策全數改成租金補貼。"
+    status: contradicted
+    contradicts: [F001]
+    reasoning_notes: "原文明確保留部分家戶需要永久社宅的分類；不可將可能政策影響當成作者明示主張。"
+  - id: C004
+    statement: "13萬戶社宅最終數量已被政府正式取消。"
+    status: contradicted
+    contradicts: [F002]
+    reasoning_notes: "國土署明言目標仍為13萬戶；可另檢驗達標可行性、組成及期限。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-30T23:08:42+08:00"
+    platform: "GitHub connector"
+    query: "檢視politics-db main樹及sessions相關既存資料"
+    scope: "lichih/politics-db"
+    result: partial
+    notes: "透過樹狀目錄與repo工作流檢視，尚無明確本主題專檔；沒有全文索引命中不等於無舊事證。"
+  - id: Q002
+    observed_at: "2026-10-30T23:08:42+08:00"
+    platform: web
+    query: "羅煊社會住宅戶數迷思、國土署13萬戶多元興辦、住宅法第15條、PTS包租代管成本"
+    scope: "2026年10月底公開原文、官方資料及公視新聞"
+    result: found
+    notes: "已取得可直接核對的文章、政策聲明、法規與報導。"
+  - id: Q003
+    observed_at: "2026-10-30T23:08:42+08:00"
+    platform: web
+    query: "全國租補對私人租金的因果影響、實際房東補貼吸收比例、OURs完整試算模型"
+    scope: "本輪快速公開來源查找"
+    result: partial
+    notes: "本輪未取得可覆核之全國因果估計及完整模型；不宣稱其不存在。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "收錄來源可核實的言論、政策、法條、報導結果；把補貼轉嫁與作者動機留在待證命題。"
+  - "不同期間、不同分母的租金與社宅數據不得直接比較；尤其興辦、完工、入住、租補核定與包租代管媒合均非同一指標。"
+  - "待補中央研究院2024房東調查原始問卷與分母、公視10月21租補漲租報導、政府續約租金93/6/1統計、2023最初13萬戶承諾、OURs原模型後再新增facts。"
