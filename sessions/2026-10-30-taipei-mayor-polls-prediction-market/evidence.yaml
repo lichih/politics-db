@@ -1,0 +1,127 @@
+session:
+  id: 2026-10-30-taipei-mayor-polls-prediction-market
+  project: Politics
+  title: "2026台北市長民調、當選看好度與Polymarket短期價格背離"
+  started_at: "2026-10-30T16:06:00+08:00"
+  updated_at: "2026-10-30T16:06:00+08:00"
+  status: active
+
+topics: ["2026台北市長", "蔣萬安", "沈伯洋", "民調", "預測市場", "選戰敘事", "Polymarket"]
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "TVBS民調中心／TVBS"
+    title: "台北市長民調：蔣萬安49%、沈伯洋41%"
+    url: "https://news.tvbs.com.tw/politics/4033527"
+    published_at: "2026-10-08"
+    observed_at: "2026-10-30T16:06:00+08:00"
+    retrieval_status: reachable
+    notes: "10月3日、5日至7日訪問；TVBS報導；支持度題作答對象為有投票意願者。"
+  - id: S002
+    source_type: secondary
+    publisher: "選舉民調資訊站"
+    title: "台北市長選舉民調：原始報告與方法彙整"
+    url: "https://poll-tw.com/taipei?poll=2026-10-19-zmedia-taipei"
+    published_at: ""
+    observed_at: "2026-10-30T16:06:00+08:00"
+    retrieval_status: reachable
+    notes: "提供各機構的不同問法、訪問日期、受訪對象與看好度；須回查原始調查報告。"
+  - id: S003
+    source_type: primary
+    publisher: "震傳媒"
+    title: "震傳媒民調（一）／42.8%北市民支持沈伯洋、39.0%挺蔣萬安"
+    url: "https://www.zmedia.com.tw/Document/NewsDetail/44789"
+    published_at: "2026-10-22"
+    observed_at: "2026-10-30T16:06:00+08:00"
+    retrieval_status: reachable
+    notes: "10月18日至19日調查，電話調查1074人；六名人選。"
+  - id: S004
+    source_type: primary
+    publisher: "震傳媒"
+    title: "震傳媒民調（二）／北市長看好度蔣萬安46.4%、沈伯洋36.9%"
+    url: "https://www.zmedia.com.tw/Document/PoolDetail/44790"
+    published_at: "2026-10-22"
+    observed_at: "2026-10-30T16:06:00+08:00"
+    retrieval_status: reachable
+    notes: "同一份調查之當選看好度，不能當成另一獨立樣本。"
+
+facts:
+  - id: F001
+    statement: "TVBS 10月8日公布的支持度為蔣萬安49%、沈伯洋41%；報導稱相較五月調查差距從28點縮至8點。"
+    status: verified
+    observed_at: "2026-10-30T16:06:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "TVBS當日報導列明支持度、比較與調查方法；不可把跨期差異直接視為同一受訪者轉向。"
+    excerpt: ""
+    verification_notes: []
+    tags: ["2026", "民調"]
+  - id: F002
+    statement: "信民協會10月20日公布沈伯洋50.3%、蔣萬安33.3%的支持度點估計，訪問時間為10月14日至16日。"
+    status: partial
+    observed_at: "2026-10-30T16:06:00+08:00"
+    source_ids: [S002]
+    evidence_summary: "民調彙整頁列出發布、訪問日期與樣本方式；尚待原始報告直接複核。"
+    excerpt: ""
+    verification_notes: ["目前本次歸檔未直接讀取信民原始23頁報告。"]
+    tags: ["2026", "民調"]
+  - id: F003
+    statement: "震傳媒10月22日公布10月18至19日調查的支持度為沈伯洋42.8%、蔣萬安39.0%。"
+    status: verified
+    observed_at: "2026-10-30T16:06:00+08:00"
+    source_ids: [S003]
+    evidence_summary: "震傳媒原始發布文章提供樣本數與候選人支持度。"
+    excerpt: ""
+    verification_notes: []
+    tags: ["2026", "民調"]
+  - id: F004
+    statement: "震傳媒同一調查的當選看好度為蔣萬安46.4%、沈伯洋36.9%；與支持度領先方向不同。"
+    status: verified
+    observed_at: "2026-10-30T16:06:00+08:00"
+    source_ids: [S003, S004]
+    evidence_summary: "同批受訪者支持度沈較高，但看好度蔣較高；兩題測量不同概念。"
+    excerpt: ""
+    verification_notes: []
+    tags: ["2026", "民調", "看好度"]
+
+claims:
+  - id: C001
+    statement: "10月20日民調發布造成Polymarket當日蔣萬安價格低點。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F002]
+    reasoning_notes: "新聞發布先於使用者提供截圖所標示的20:00價格，但時間先後不足以證明因果；需逐時成交與價格資料。"
+  - id: C002
+    statement: "市場反彈足以證明台北選民拒絕特定認知作戰。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F003, F004]
+    reasoning_notes: "市場參與者與台北合格選民並非同一母群，且價格可能受流動性、大額交易、交易規則與新資訊影響。"
+  - id: C003
+    statement: "多份民調有利沈伯洋就證明存在協調操縱或故意誤導。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F001, F002, F003, F004]
+    reasoning_notes: "需要另外取得組織協調、樣本設計不當或刻意操弄證據；數字方向一致不能單獨證明。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-30T16:06:00+08:00"
+    platform: web
+    query: "2026年10月台北市長民調 信民 震傳媒 TVBS"
+    scope: "公開新聞與民調發布方"
+    result: found
+    notes: "取得TVBS與震傳媒發布內容，信民需補原始報告；Polymarket逐時歷史價格、交易量與結算規則尚未核驗。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "使用者提供Polymarket介面截圖：10月20日20:00游標顯示蔣56%、沈43.5%、郭0.1%，但截圖底部標示2026-11-28，與目前2026-10-30時點不一致，應檢查這是市場結算日還是視窗日期，不得直接把截圖當作逐時完整紀錄。"
+  - "待查10月14日至23日逐時市場價格、成交量及大額持倉；尤其要區分發布時間和訪問時間。"
+  - "Fact寫作主題宜為選戰聲量、民調支持度、當選看好度與預測市場價格的不同意義，而非未證實的認知作戰指控。"
