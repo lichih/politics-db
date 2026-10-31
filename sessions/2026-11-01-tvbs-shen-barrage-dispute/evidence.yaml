@@ -1,0 +1,116 @@
+session:
+  id: 2026-11-01-tvbs-shen-barrage-dispute
+  project: Politics
+  title: "台北市長辯論彈幕爭議：TVBS公開否認單方面要求關閉"
+  started_at: "2026-11-01T00:19:00+08:00"
+  updated_at: "2026-11-01T00:19:00+08:00"
+  status: active
+
+topics:
+  - "台北市長辯論"
+  - "沈伯洋"
+  - "TVBS"
+  - "三立"
+  - "彈幕"
+  - "彩蛋"
+  - "主辦單位"
+  - "責任歸屬"
+  - "公開聲明"
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "TVBS新聞"
+    title: "【TVBS聲明】台北市長候選人電視辯論會彈幕與彩蛋爭議"
+    url: "https://www.facebook.com/tvbsfb/posts/pfbid0q3PHHqCEqGB4bSmQsP5dzJyMdDcHxpBE5qhZMHDdymNJ5ZEumthqcAWJ33bsvgHl"
+    published_at: "2026-10-31"
+    observed_at: "2026-11-01T00:19:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "TVBS官方已驗證Facebook帳號發布之完整聲明；本紀錄把它視為TVBS對自身決策、與沈伯洋陣營溝通及其抗議內容的一手來源。"
+      - "作為爭議當事方聲明，可直接證明TVBS公開主張了什麼；不能僅憑此來源即把TVBS對全部底層事實的版本視為已獨立證實。"
+
+facts:
+  - id: F001
+    statement: "TVBS於2026年10月31日官方聲明稱，沈伯洋陣營在辯論前一日晚間曾於社群發文表示，因應主辦單位TVBS要求，將關閉辯論直播的彈幕及彩蛋功能。"
+    status: verified
+    observed_at: "2026-11-01T00:19:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "此事實限於確認TVBS官方聲明確實如此記載；沈陣營原始貼文仍宜另行保存，以獨立核對原文與修改歷程。"
+    tags: ["2026", "沈伯洋", "TVBS", "彈幕"]
+
+  - id: F002
+    statement: "TVBS同一聲明稱，反對在授權直播畫面中加入彈幕及彩蛋是TVBS與三立兩個共同主辦單位的共識，並非TVBS單方面決定。"
+    status: verified
+    observed_at: "2026-11-01T00:19:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "TVBS明確把決策描述為兩家共同主辦單位的共同立場，直接否認由TVBS單方面作成要求的敘事。"
+    tags: ["2026", "TVBS", "三立", "共同決策"]
+
+  - id: F003
+    statement: "TVBS聲明稱，沈陣營發文後有網友因此攻擊TVBS；TVBS並稱已於10月30日晚間向沈陣營多位人士提出強烈抗議。"
+    status: verified
+    observed_at: "2026-11-01T00:19:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "可確認TVBS公開宣稱已提出抗議及其所述理由；網友行為與雙方實際溝通內容若作更強結論，仍須另找原始留言、對話或其他來源核對。"
+    tags: ["2026", "TVBS", "抗議", "網路反應"]
+
+  - id: F004
+    statement: "TVBS聲明稱，沈陣營之後僅刪除原訊息中的「TVBS」四字，仍保留「因應主辦單位要求」的說法；TVBS認為此修改仍不足以還原其所主張的事實。"
+    status: verified
+    observed_at: "2026-11-01T00:19:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "TVBS把沈陣營後續修改描述為未充分澄清。原始版本與修改後版本仍值得另行取得以建立修改歷程。"
+    tags: ["2026", "沈伯洋", "貼文修改", "主辦單位"]
+
+  - id: F005
+    statement: "TVBS在正式聲明中以「非常偏離事實之不實指控」及「嚴重誤導」等強烈措辭，公開評價沈伯洋陣營前述說法。"
+    status: verified
+    observed_at: "2026-11-01T00:19:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "這可證明主辦單位公開把爭議提升到不實指控與誤導的層級；不等於僅靠措辭本身即可證明沈陣營主觀上明知不實。"
+    excerpt: "「非常偏離事實之不實指控」；「嚴重誤導」"
+    verification_notes:
+      - "記錄的是TVBS公開指控的存在與強度，不把當事方的定性直接升格為已獨立證實的客觀結論。"
+    tags: ["2026", "TVBS聲明", "不實指控", "誤導"]
+
+claims:
+  - id: C001
+    statement: "「關閉彈幕與彩蛋是TVBS單方面要求」不能在查核中當作無爭議事實，因共同主辦方TVBS已正式公開否認，並主張這是TVBS與三立的共同決策。"
+    status: supported
+    supports: [F001, F002, F005]
+    related_facts: [F003, F004]
+    reasoning_notes: "TVBS是一方當事人，因此其聲明不是中立裁判；但它是直接反駁單方責任敘事的一手來源，足以使該敘事至少成為有爭議命題，不能只引用沈陣營版本下結論。"
+
+  - id: C002
+    statement: "TVBS聲明本身足以證明沈伯洋陣營明知內容不實，仍故意抹黑TVBS。"
+    status: unsupported
+    supports: []
+    related_facts: [F001, F002, F003, F004, F005]
+    reasoning_notes: "故意、明知屬主觀狀態，需要更直接的證據；TVBS的強烈定性可證明爭議嚴重，但不能單獨證明沈陣營主觀惡意。"
+
+  - id: C003
+    statement: "TVBS這份聲明是評估沈伯洋陣營是否把共同主辦規範的責任單向歸給TVBS時的重要一手反方證據。"
+    status: supported
+    supports: [F001, F002, F004, F005]
+    reasoning_notes: "其證據價值在於TVBS直接參與主辦及與陣營溝通，能證明TVBS對決策來源與責任歸屬的公開版本；後續應再取得三立說法及沈陣營原始／修改後貼文以完成交叉核對。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-11-01T00:19:00+08:00"
+    platform: "GitHub politics-db"
+    query: "沈伯洋 辯論 彈幕 TVBS"
+    scope: "lichih/politics-db main"
+    result: not_found
+    notes: "本輪在politics-db程式碼搜尋未找到既有沈伯洋辯論彈幕爭議evidence，因此新建session。"
+
+promotion:
+  cases:
+    - "2026台北市長辯論主辦爭議：彈幕／彩蛋授權與責任歸屬"
+  comparators: []
+  research: []
+
+notes:
+  - "本事件須與10月31日辯論後的『媒體提問題目事前提供』爭議分開保存；兩者都是主辦相關爭議，但發生時間、爭點與發言主體不同，不得混成同一證據鏈。"
+  - "後續優先補沈伯洋陣營10月30日原始貼文與修改後版本、三立對彈幕授權限制的公開說法，以及若可取得的雙方授權約定或完整溝通紀錄。"
+  - "TVBS官方聲明具有較高的一手性，且其公開使用『不實指控』『嚴重誤導』等措辭，使此事不宜只視為一般流程誤會；但嚴重措辭的存在與底層指控是否完全成立仍是兩個不同命題。"
