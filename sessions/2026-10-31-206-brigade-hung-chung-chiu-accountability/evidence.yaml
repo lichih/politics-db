@@ -1,0 +1,167 @@
+session:
+  id: 2026-10-31-206-brigade-hung-chung-chiu-accountability
+  project: Politics
+  title: "206旅女中尉案與2013洪仲丘案：顧立雄跨時期軍中究責標準"
+  started_at: "2026-10-31T15:00:00+08:00"
+  updated_at: "2026-10-31T15:00:00+08:00"
+  status: active
+
+topics:
+  - "206旅"
+  - "洪仲丘"
+  - "顧立雄"
+  - "軍中霸凌"
+  - "管理疏失"
+  - "政治責任"
+  - "不對稱究責"
+
+sources:
+  - id: S001
+    source_type: secondary
+    publisher: "公視新聞"
+    title: "談偵結起訴 洪慈庸：讓小兵扛責任"
+    url: "https://news.pts.org.tw/article/246593"
+    published_at: "2013-08-01"
+    observed_at: "2026-10-31T15:00:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "2013年顧立雄以洪家律師身分批評軍檢起訴責任分配，反對只讓基層士官扛主要責任；原報導亦指當時軍檢起訴18人。"
+      - "批評軍官被放過是顧當年的評價，不可改寫成沒有任何軍官被起訴。"
+  - id: S002
+    source_type: primary
+    publisher: "國防部軍事新聞通訊社"
+    title: "顧部長回應近期軍風紀案件 強調檢討精進避免類案再生"
+    url: "https://mna.mnd.gov.tw/news/detail/?UserKey=7dd1c30b-e84d-40b9-b783-10cd77616796"
+    published_at: "2026-10-30"
+    observed_at: "2026-10-31T15:00:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方說明206旅自傷事件前已有心輔介入；事後調查認為管理措施及心輔作為仍有精進空間；旅長與政戰主任已調職，相關人員予以懲處。"
+      - "同篇承認206旅另案兩名義務役士兵金錢糾紛有未及時向上呈報情事。"
+  - id: S003
+    source_type: secondary
+    publisher: "中央社"
+    title: "206旅女中尉墜樓案 顧立雄：旅長、政戰主任調職"
+    url: "https://www.cna.com.tw/news/aipl/202610300042.aspx"
+    published_at: "2026-10-30"
+    observed_at: "2026-10-31T15:00:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導顧立雄明確稱經調查確認相關管理疏失，且女中尉疑似生前遭言語霸凌。"
+  - id: S004
+    source_type: secondary
+    publisher: "TVBS"
+    title: "206旅長、政戰主任調職！女中尉家屬早就知道 盼檢討心輔"
+    url: "https://news.tvbs.com.tw/politics/4043595"
+    published_at: "2026-10-30"
+    observed_at: "2026-10-31T15:00:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導轉述家屬表示調職早已知悉，期待從制度面檢討心輔機制。這是家屬說法，非確認調職日期之人事命令。"
+  - id: S005
+    source_type: secondary
+    publisher: "聯合報"
+    title: "昨挨批對206旅女中尉墜樓胡說八道 顧立雄今證實旅長、政戰主任調職"
+    url: "https://udn.com/news/story/10930/9846401"
+    published_at: "2026-10-30"
+    observed_at: "2026-10-31T15:00:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記錄10月29日顧立雄與徐巧芯就心輔制度及部隊管理之質詢口角；未以媒體摘錄替代完整答詢逐字稿。"
+  - id: S006
+    source_type: primary
+    publisher: "立法院"
+    title: "2026年10月29日外交及國防委員會徐巧芯質詢影音入口"
+    url: "https://ivod.ly.gov.tw/Play/Clip/1M/171718"
+    observed_at: "2026-10-31T15:00:00+08:00"
+    retrieval_status: blocked
+    notes:
+      - "本輪未完整播放核對逐字內容；保留官方入口，待實際取得影音或逐字稿。"
+
+facts:
+  - id: F001
+    statement: "2013年8月1日公視報導記錄，顧立雄以洪家律師身分批評軍檢對高階軍官與基層士官責任追究失衡。"
+    status: verified
+    observed_at: "2026-10-31T15:00:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "原始報導刊有當年顧立雄關於制度、階級與讓基層扛罪責的直接引述。"
+    tags: ["2013", "洪仲丘", "顧立雄"]
+  - id: F002
+    statement: "2026年10月30日顧立雄公開表示206旅女中尉案經調查有管理疏失，旅長及政戰主任已調職，相關人員受到懲處。"
+    status: verified
+    observed_at: "2026-10-31T15:00:00+08:00"
+    source_ids: [S002, S003]
+    evidence_summary: "國防部官方說明及中央社採訪互相支持。"
+    tags: ["2026", "206旅", "管理疏失"]
+  - id: F003
+    statement: "2026年10月30日國防部亦公開承認206旅另一起義務役士兵金錢糾紛有未及時向上呈報問題。"
+    status: verified
+    observed_at: "2026-10-31T15:00:00+08:00"
+    source_ids: [S002]
+    evidence_summary: "軍聞社引述顧立雄本人說明，與女中尉案須分別處理。"
+    tags: ["2026", "206旅", "通報"]
+  - id: F004
+    statement: "2026年10月30日TVBS報導家屬認為旅長、政戰主任調職不足以回答心輔制度疑問。"
+    status: verified
+    observed_at: "2026-10-31T15:00:00+08:00"
+    source_ids: [S004]
+    evidence_summary: "能證明家屬已提出制度面質疑，不能單憑家屬陳述確定懲處程序有無完成。"
+    tags: ["2026", "家屬", "心輔"]
+
+claims:
+  - id: C001
+    statement: "2013年的顧立雄要求追查軍方較高層責任；2026年的國防部長顧立雄應就同類責任分配公開提出可核對的究責說明。"
+    status: supported
+    supports: [F001, F002]
+    contradicts: []
+    related_facts: [F003, F004]
+    reasoning_notes: "這是由跨時期公開立場推導的一致標準要求，不等於認定兩案刑事構成要件相同。"
+  - id: C002
+    statement: "顧立雄在2026年已被證實把全部責任推給基層，違背2013年本人標準。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F001, F002]
+    reasoning_notes: "現有證據能證明調職、懲處與部分管理疏失，不能證明責任調查的完整範圍、上級是否另有檢討或後續調查結果。"
+  - id: C003
+    statement: "206旅女中尉遭言語霸凌直接導致死亡，已由司法機關正式認定。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F002]
+    reasoning_notes: "現有材料僅能確認疑似霸凌指控及管理疏失，不能把因果推論寫成已認定事實。"
+  - id: C004
+    statement: "同一個旅有兩起不同事件的管理或通報問題，值得查證是否存在共同制度缺陷。"
+    status: supported
+    supports: [F002, F003]
+    related_facts: [F004]
+    reasoning_notes: "支持進一步查詢的必要性，並非已證實兩案存在共同因果。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-31T15:00:00+08:00"
+    platform: "GitHub politics-db"
+    query: "206旅 / 洪仲丘 / asymmetric-political-evaluation-standards"
+    scope: "lichih/politics-db main"
+    result: partial
+    notes: "既有research/2026-10-23-asymmetric-political-evaluation-standards可重用同一把尺之比較框架；尚未見206旅專案evidence。"
+  - id: Q002
+    observed_at: "2026-10-31T15:00:00+08:00"
+    platform: web
+    query: "2013 顧立雄 洪仲丘；2026 顧立雄 206旅 管理疏失"
+    scope: "公視、中央社、國防部軍聞社、TVBS、聯合報"
+    result: found
+    notes: "找到2013原話、2026官方回應及家屬質疑；完整軍方調查、懲處命令與質詢逐字稿仍待取得。"
+
+promotion:
+  cases:
+    - "206旅女中尉案：管理疏失、言語霸凌指控及心輔處理時間軸"
+  comparators:
+    - "2013洪仲丘案與2026 206旅案：同一政治人物跨職位究責標準"
+  research:
+    - "跨陣營與跨時間究責標準一致性"
+
+notes:
+  - "延伸既有 research/2026-10-23-asymmetric-political-evaluation-standards/evidence.yaml 的判準，但不能以單一跨案比較直接證明政黨因素造成結果差異。"
+  - "後續查官方完整質詢影音、懲處與調職命令、2013與2026政府究責時間線，並積極尋找不支持雙標假說的反證。"
+  - "本次只保存有明確來源的可重用材料；先前聊天中未重新驗證的說法不升格為verified。"
