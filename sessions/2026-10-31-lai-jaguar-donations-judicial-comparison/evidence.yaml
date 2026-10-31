@@ -36,6 +36,17 @@ sources:
     published_at: '2026-03-26'
     observed_at: '2026-10-31T13:41:00+08:00'
     retrieval_status: reachable
+  - id: S005
+    source_type: primary
+    publisher: 臺灣高雄地方法院／司法院
+    title: 110年度法登財字第5號財團法人高雄市新世代教育基金會設立登記公告
+    url: https://www.judicial.gov.tw/tw/cp-144-554805-f8d9d-1.html
+    published_at: '2021-12-16'
+    observed_at: '2026-10-31T13:41:00+08:00'
+    retrieval_status: reachable
+    notes:
+      - 法院公告明列基金會財產總額1000萬元、賴瑞隆為董事長、張建偉與譚宇軒為原始捐助人，張建偉亦列董事。
+      - 1000萬元為法人總財產，不得誤推為雲豹高層各別或合計捐款金額。
   - id: S004
     source_type: commentary
     publisher: 黃國昌 Facebook
@@ -74,6 +85,13 @@ facts:
     observed_at: '2026-10-31T13:41:00+08:00'
     source_ids: [S002, S003]
     evidence_summary: 法院全文及新聞稿載明多種補強證據，不能將判決簡化為僅憑捐款人數與金額推定收賄。
+  - id: F006
+    statement: 高雄地方法院2021年12月16日設立登記公告記載，高雄市新世代教育基金會財產總額1000萬元，賴瑞隆擔任董事長，張建偉與譚宇軒為原始捐助人，張建偉列董事。
+    status: verified
+    observed_at: '2026-10-31T13:41:00+08:00'
+    source_ids: [S005]
+    evidence_summary: 司法院一手法人登記公告直接記載該等事實；未載各捐助人分別實際捐贈多少。
+    tags: [基金會, 法人登記, 政商關係]
   - id: F005
     statement: 國民黨團另公開指稱賴瑞隆曾參與立法院光電設置、主合辦20場以上綠能公聽會及推動再生能源發展條例修法。
     status: verified
@@ -89,7 +107,7 @@ claims:
   - id: C002
     statement: 兩案存在政治獻金與公權力利益關係的比較價值，應檢驗司法偵查標準是否一致。
     status: supported
-    supports: [F001, F003, F004, F005]
+    supports: [F001, F003, F004, F005, F006]
     reasoning_notes: 一審判決顯示政治獻金形式不足以排除賄賂；但柯案有直接金流、通訊等補強，不能推定賴案已具相同犯罪證據。比較重點包括啟動調查、調查範圍、資金追溯及公開課責。
   - id: C003
     statement: 檢調已確定未曾調查賴瑞隆，或已證明收受賄賂、存在政治指令。
@@ -119,7 +137,7 @@ promotion:
   research: []
 notes:
   - 待查原始監察院政治獻金各筆日期、捐款人、金額、捐款年度與法人關係；避免把記者會轉述當成已直接讀到申報原件。
-  - 待查高雄市新世代教育基金會設立及捐助人董事登記原始資料。
+  - 已取得高雄地方法院2021設立登記一手資料；仍待確認後續董事異動與個別捐助金額。
   - 待用立法院議事暨公報資料核查修法提案、賴瑞隆擔任召委期間實際程序及利益範圍。
   - 待確認公開偵查處理狀態，區分 not_found 與 never_existed。
   - 司法比較需沿用既有 cases/2026-10-20-ko-wen-je-judicial-proceedings/evidence.yaml，不重寫其研究成果。
