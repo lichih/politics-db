@@ -1,0 +1,1198 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Threads 洋流互動異常：投票落差、低基線帳號 selective burst 與 bot／推薦機制競爭假說 · politics-db</title>
+<link rel="canonical" href="https://politics-db.4649.tw/sessions/2026-10-25-threads-selective-amplification/">  <link rel="icon" href="../../static/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../static/site.css">
+</head>
+<body>
+  <main class="container">
+    <nav class="crumb"><a href="../../">← politics-db</a></nav>
+
+    <header class="hero compact">
+      <p class="eyebrow">2026-10-25-threads-selective-amplification</p>
+      <h1>Threads 洋流互動異常：投票落差、低基線帳號 selective burst 與 bot／推薦機制競爭假說</h1>
+      <div class="metrics">
+        <span>11 facts</span>
+        <span>11 claims</span>
+        <span>15 sources</span>
+        <span>9 searches</span>
+      </div>
+      <div class="tags">
+        <span class="tag">Threads</span>
+        <span class="tag">洋流</span>
+        <span class="tag">沈伯洋</span>
+        <span class="tag">蔣萬安</span>
+        <span class="tag">社群互動</span>
+        <span class="tag">like amplification</span>
+        <span class="tag">selective burst</span>
+        <span class="tag">bot hypothesis</span>
+        <span class="tag">recommendation algorithm</span>
+        <span class="tag">poll</span>
+        <span class="tag">Meta AI</span>
+        <span class="tag">measurement error</span>
+        <span class="tag">search sampling</span>
+        <span class="tag">author watchlist</span>
+        <span class="tag">polling cache</span>
+      </div>
+    </header>
+
+
+    <section>
+      <div class="section-head">
+        <h2>Claims</h2>
+        <p>論述層。狀態與理由必須能追到 facts。</p>
+      </div>
+      <div class="stack">
+        <article class="panel" id="C001">
+          <div class="panel-head">
+            <code>C001</code>
+            <span class="badge unsupported">unsupported</span>
+          </div>
+          <h3>S001的15%／85%線上投票結果本身足以證明一般洋流／沈伯洋貼文的高likes是機器帳號灌出的。</h3>
+          <p>單一Threads poll是自選且非代表性樣本；即使投票行為與like的操作成本不同，也只能形成值得解釋的channel differential，不能單靠該結果完成bot因果歸因。</p>
+
+
+
+          <details>
+            <summary>相關 facts</summary>
+            <ul class="link-list">
+              <li><a href="#F001"><code>F001</code> S001的Threads內建投票於觀察時已結束，共11,683票；結果為挺洋流15%、挺安安85%。</a></li>
+            </ul>
+          </details>
+        </article>
+        <article class="panel" id="C002">
+          <div class="panel-head">
+            <code>C002</code>
+            <span class="badge supported">supported</span>
+          </div>
+          <h3>@robinhoodspirit在該窗口存在post-level selective burst／selective virality：少數貼文從低baseline跳到數千likes，但同一時間附近其他貼文仍維持個位數至百餘likes。</h3>
+          <p>這是cause-neutral的描述性結論；『被選擇性放大』只表示互動結果集中於個別貼文，不指定是平台演算法、真人擴散、人工動員或外部自動化。</p>
+
+          <details open>
+            <summary>支持 facts</summary>
+            <ul class="link-list">
+              <li><a href="#F002"><code>F002</code> @robinhoodspirit在2026-10-21 16:12至2026-10-22 02:20的連續11篇原始貼文，Meta AI fetch_posts所回報likes依序為17、9、33、11、170、6400、8、12、2、4700、3800；三篇>=3800的貼文集中在約9小時內，中間仍穿插8、12、2等低互動貼文。</a></li>
+            </ul>
+          </details>
+
+
+          <details>
+            <summary>相關 facts</summary>
+            <ul class="link-list">
+              <li><a href="#F003"><code>F003</code> 經post ID／media_id重新校驗後，S002、S003、S004的fetch_comments total_count分別為380、55、140；三篇高讚貼文的可見回覆量均明顯高於同作者同窗口多數低讚貼文的0至3則回覆。</a></li>
+            </ul>
+          </details>
+        </article>
+        <article class="panel" id="C003">
+          <div class="panel-head">
+            <code>C003</code>
+            <span class="badge contradicted">contradicted</span>
+          </div>
+          <h3>該窗口是author-wide boost：作者一旦進入某種推薦或目標名單，所有後續貼文整體baseline都同步上升。</h3>
+          <p>6400之後仍出現8、12、2，再出現4700、3800；T0後多數貼文未同步抬升，與『所有新文一起被加權』不符。</p>
+
+
+          <details open>
+            <summary>反證 facts</summary>
+            <ul class="link-list">
+              <li><a href="#F002"><code>F002</code> @robinhoodspirit在2026-10-21 16:12至2026-10-22 02:20的連續11篇原始貼文，Meta AI fetch_posts所回報likes依序為17、9、33、11、170、6400、8、12、2、4700、3800；三篇>=3800的貼文集中在約9小時內，中間仍穿插8、12、2等低互動貼文。</a></li>
+            </ul>
+          </details>
+
+        </article>
+        <article class="panel" id="C004">
+          <div class="panel-head">
+            <code>C004</code>
+            <span class="badge contradicted">contradicted</span>
+          </div>
+          <h3>三篇高讚貼文只是likes單獨暴增，沒有同步的人類可見互動增加。</h3>
+          <p>校正後三篇fetch_comments total_count為380、55、140，相較同作者低baseline貼文0–3則回覆均明顯增加。這不排除likes中另有非自然成分，但排除『只有like counter上升、其他互動完全不動』的強命題。</p>
+
+
+          <details open>
+            <summary>反證 facts</summary>
+            <ul class="link-list">
+              <li><a href="#F003"><code>F003</code> 經post ID／media_id重新校驗後，S002、S003、S004的fetch_comments total_count分別為380、55、140；三篇高讚貼文的可見回覆量均明顯高於同作者同窗口多數低讚貼文的0至3則回覆。</a></li>
+            </ul>
+          </details>
+
+        </article>
+        <article class="panel" id="C005">
+          <div class="panel-head">
+            <code>C005</code>
+            <span class="badge unresolved">unresolved</span>
+          </div>
+          <h3>存在外部自動化流程『discovery -> author cache/watchlist -> periodic polling -> post-level selection -> account-pool like dispatch』，且它是F002／F006 selective burst的實際原因。</h3>
+          <p>此工程模型仍能產生『高讚間穿插低讚』的形狀，因此不能由目前資料排除；但現有資料沒有liker identity、like timestamps或直接帳號池證據。F007顯示核心source在quote前已先快速累積大量replies，F008／F011顯示高量節點同時有大量可見轉發／分享／留言，F009則顯示同帳號高量quote沒有固定reply propagation recipe。這些資料降低『固定帳號池是必要解釋』的權重，但不排除hybrid或只操作likes的模型。</p>
+
+          <details open>
+            <summary>支持 facts</summary>
+            <ul class="link-list">
+              <li><a href="#F002"><code>F002</code> @robinhoodspirit在2026-10-21 16:12至2026-10-22 02:20的連續11篇原始貼文，Meta AI fetch_posts所回報likes依序為17、9、33、11、170、6400、8、12、2、4700、3800；三篇>=3800的貼文集中在約9小時內，中間仍穿插8、12、2等低互動貼文。</a></li>
+              <li><a href="#F006"><code>F006</code> @eczht_tw在2026-10-15至10-24可取得的19篇貼文likes序列為180、48、27000、2100、12、16、43、10、110、55、340、16、2700、1200、34、48、13000、11、62；median為55，>=1000共5篇，<300共13篇。</a></li>
+            </ul>
+          </details>
+
+          <details open>
+            <summary>反證 facts</summary>
+            <ul class="link-list">
+              <li><a href="#F003"><code>F003</code> 經post ID／media_id重新校驗後，S002、S003、S004的fetch_comments total_count分別為380、55、140；三篇高讚貼文的可見回覆量均明顯高於同作者同窗口多數低讚貼文的0至3則回覆。</a></li>
+              <li><a href="#F005"><code>F005</code> S003的女性安全審計素材在約11小時後另有S005取得約15,000 likes；S004相近的『沈伯洋相較蔣萬安更會做事』framing，在約16小時前另有S006取得約4,800 likes。</a></li>
+              <li><a href="#F007"><code>F007</code> S007在@eczht_tw S008 quote發生前約163分鐘內已累積194則direct replies，約佔目前可取得312則records的62.2%；reply growth主要發生在quote之前。</a></li>
+              <li><a href="#F008"><code>F008</code> S008目前Threads shared-post card顯示約27K likes、176留言、494轉發、345分享；其reply growth較S007慢，30/60/120/180/360分鐘累積direct replies為4、16、40、57、81，24小時144。</a></li>
+              <li><a href="#F009"><code>F009</code> @eczht_tw三篇高量quote的reply propagation shape並不一致：S008約27K likes但180分鐘57則direct replies；S009約2.7K likes但180分鐘9則；S010約13K likes且180分鐘135則、360分鐘386則。</a></li>
+              <li><a href="#F011"><code>F011</code> S007目前Threads shared-post card顯示約21K likes、355留言、569轉發、610分享；S007與S008皆呈現多維互動，而不是只有like counter單獨升高。</a></li>
+            </ul>
+          </details>
+
+          <details>
+            <summary>相關 facts</summary>
+            <ul class="link-list">
+              <li><a href="#F004"><code>F004</code> 在針對S002、S003、S004所做的公開傳播路徑搜尋中，未找到可確認的大型帳號、候選人、媒體或組織直接quote／repost三篇原文的鏈條；此結果僅代表該次搜尋未找到，不等於不存在任何轉傳或推薦來源。</a></li>
+              <li><a href="#F010"><code>F010</code> @eczht_tw四篇低量quote對照S011至S014目前likes約11至67，fetch_comments records_count為0至3；被quote原文current likes約1.1K至4.3K，顯示『quote到已有一定互動的原文』本身不足以讓quote文起量。</a></li>
+            </ul>
+          </details>
+        </article>
+        <article class="panel" id="C006">
+          <div class="panel-head">
+            <code>C006</code>
+            <span class="badge unresolved">unresolved</span>
+          </div>
+          <h3>Threads自身推薦機制、真人轉傳／人工動員足以完整解釋F002／F006，外部自動化可被排除。</h3>
+          <p>新資料明顯提高內容／推薦／真人擴散作為正常解釋的可信度：核心source在quote前已先快速累積大量replies，高量節點有多維互動，且同帳號高量quote呈不同propagation shape；但缺平台推薦日志、views/impressions、liker資料與完整share graph，仍不能證明自然／平台機制已解釋全部異常或排除hybrid。</p>
+
+          <details open>
+            <summary>支持 facts</summary>
+            <ul class="link-list">
+              <li><a href="#F003"><code>F003</code> 經post ID／media_id重新校驗後，S002、S003、S004的fetch_comments total_count分別為380、55、140；三篇高讚貼文的可見回覆量均明顯高於同作者同窗口多數低讚貼文的0至3則回覆。</a></li>
+              <li><a href="#F005"><code>F005</code> S003的女性安全審計素材在約11小時後另有S005取得約15,000 likes；S004相近的『沈伯洋相較蔣萬安更會做事』framing，在約16小時前另有S006取得約4,800 likes。</a></li>
+              <li><a href="#F007"><code>F007</code> S007在@eczht_tw S008 quote發生前約163分鐘內已累積194則direct replies，約佔目前可取得312則records的62.2%；reply growth主要發生在quote之前。</a></li>
+              <li><a href="#F008"><code>F008</code> S008目前Threads shared-post card顯示約27K likes、176留言、494轉發、345分享；其reply growth較S007慢，30/60/120/180/360分鐘累積direct replies為4、16、40、57、81，24小時144。</a></li>
+              <li><a href="#F009"><code>F009</code> @eczht_tw三篇高量quote的reply propagation shape並不一致：S008約27K likes但180分鐘57則direct replies；S009約2.7K likes但180分鐘9則；S010約13K likes且180分鐘135則、360分鐘386則。</a></li>
+              <li><a href="#F010"><code>F010</code> @eczht_tw四篇低量quote對照S011至S014目前likes約11至67，fetch_comments records_count為0至3；被quote原文current likes約1.1K至4.3K，顯示『quote到已有一定互動的原文』本身不足以讓quote文起量。</a></li>
+              <li><a href="#F011"><code>F011</code> S007目前Threads shared-post card顯示約21K likes、355留言、569轉發、610分享；S007與S008皆呈現多維互動，而不是只有like counter單獨升高。</a></li>
+            </ul>
+          </details>
+
+
+          <details>
+            <summary>相關 facts</summary>
+            <ul class="link-list">
+              <li><a href="#F002"><code>F002</code> @robinhoodspirit在2026-10-21 16:12至2026-10-22 02:20的連續11篇原始貼文，Meta AI fetch_posts所回報likes依序為17、9、33、11、170、6400、8、12、2、4700、3800；三篇>=3800的貼文集中在約9小時內，中間仍穿插8、12、2等低互動貼文。</a></li>
+              <li><a href="#F004"><code>F004</code> 在針對S002、S003、S004所做的公開傳播路徑搜尋中，未找到可確認的大型帳號、候選人、媒體或組織直接quote／repost三篇原文的鏈條；此結果僅代表該次搜尋未找到，不等於不存在任何轉傳或推薦來源。</a></li>
+              <li><a href="#F006"><code>F006</code> @eczht_tw在2026-10-15至10-24可取得的19篇貼文likes序列為180、48、27000、2100、12、16、43、10、110、55、340、16、2700、1200、34、48、13000、11、62；median為55，>=1000共5篇，<300共13篇。</a></li>
+            </ul>
+          </details>
+        </article>
+        <article class="panel" id="C007">
+          <div class="panel-head">
+            <code>C007</code>
+            <span class="badge unsupported">unsupported</span>
+          </div>
+          <h3>目前Meta AI Threads content_search結果可以用來估計pro-沈與pro-蔣／反沈小帳號發生selective burst的盛行率差異。</h3>
+          <p>多輪測試中，content_search即使要求50筆，每個時間切片實際僅回傳2–3筆；中性人名16次搜尋合併30位作者，排除媒體／官方／大帳號後只剩9位且全被分類為pro-沈，與已知可另外找到的反沈小帳號不相容於代表性母體假設。工具適合case discovery，不足以建立prevalence denominator。</p>
+
+
+
+        </article>
+        <article class="panel" id="C008">
+          <div class="panel-head">
+            <code>C008</code>
+            <span class="badge contradicted">contradicted</span>
+          </div>
+          <h3>@eczht_tw高量quote由同一固定engagement generator以近似互動配方放大，因此應呈現相近的reply propagation shape。</h3>
+          <p>S008與S009屬低reply慢熱型，S010則為高reply快速成長型；同一作者的高量quote沒有單一共同reply curve。這反駁『所有互動維度由同一固定recipe同步生成』的強模型，但不反駁只操作likes、其餘互動自然形成的較弱模型。</p>
+
+
+          <details open>
+            <summary>反證 facts</summary>
+            <ul class="link-list">
+              <li><a href="#F009"><code>F009</code> @eczht_tw三篇高量quote的reply propagation shape並不一致：S008約27K likes但180分鐘57則direct replies；S009約2.7K likes但180分鐘9則；S010約13K likes且180分鐘135則、360分鐘386則。</a></li>
+            </ul>
+          </details>
+
+          <details>
+            <summary>相關 facts</summary>
+            <ul class="link-list">
+              <li><a href="#F008"><code>F008</code> S008目前Threads shared-post card顯示約27K likes、176留言、494轉發、345分享；其reply growth較S007慢，30/60/120/180/360分鐘累積direct replies為4、16、40、57、81，24小時144。</a></li>
+            </ul>
+          </details>
+        </article>
+        <article class="panel" id="C009">
+          <div class="panel-head">
+            <code>C009</code>
+            <span class="badge contradicted">contradicted</span>
+          </div>
+          <h3>S007是在@eczht_tw S008 quote發生後才進入主要viral growth，兩篇可能主要由quote後的共同放大才一起起量。</h3>
+          <p>S007在quote前163分鐘已累積194則direct replies，約佔目前records的62.2%，主要reply growth明顯早於quote。這不告訴我們當時likes數，但足以反駁『source主要在quote後才開始高互動』的強命題。</p>
+
+
+          <details open>
+            <summary>反證 facts</summary>
+            <ul class="link-list">
+              <li><a href="#F007"><code>F007</code> S007在@eczht_tw S008 quote發生前約163分鐘內已累積194則direct replies，約佔目前可取得312則records的62.2%；reply growth主要發生在quote之前。</a></li>
+            </ul>
+          </details>
+
+          <details>
+            <summary>相關 facts</summary>
+            <ul class="link-list">
+              <li><a href="#F008"><code>F008</code> S008目前Threads shared-post card顯示約27K likes、176留言、494轉發、345分享；其reply growth較S007慢，30/60/120/180/360分鐘累積direct replies為4、16、40、57、81，24小時144。</a></li>
+            </ul>
+          </details>
+        </article>
+        <article class="panel" id="C010">
+          <div class="panel-head">
+            <code>C010</code>
+            <span class="badge unsupported">unsupported</span>
+          </div>
+          <h3>目前已取得的Threads證據足以把post-level selective burst歸因為bot／網軍灌讚。</h3>
+          <p>selective burst本身已被重複觀察，但attribution仍缺liker-level network、like timestamps、帳號建立／同步行為、完整曝光曲線與可重現母體sampling。現有多維互動與不同propagation shape提供強替代解釋，因此不能由burst形狀直接升格成bot／網軍結論。</p>
+
+
+          <details open>
+            <summary>反證 facts</summary>
+            <ul class="link-list">
+              <li><a href="#F003"><code>F003</code> 經post ID／media_id重新校驗後，S002、S003、S004的fetch_comments total_count分別為380、55、140；三篇高讚貼文的可見回覆量均明顯高於同作者同窗口多數低讚貼文的0至3則回覆。</a></li>
+              <li><a href="#F005"><code>F005</code> S003的女性安全審計素材在約11小時後另有S005取得約15,000 likes；S004相近的『沈伯洋相較蔣萬安更會做事』framing，在約16小時前另有S006取得約4,800 likes。</a></li>
+              <li><a href="#F007"><code>F007</code> S007在@eczht_tw S008 quote發生前約163分鐘內已累積194則direct replies，約佔目前可取得312則records的62.2%；reply growth主要發生在quote之前。</a></li>
+              <li><a href="#F008"><code>F008</code> S008目前Threads shared-post card顯示約27K likes、176留言、494轉發、345分享；其reply growth較S007慢，30/60/120/180/360分鐘累積direct replies為4、16、40、57、81，24小時144。</a></li>
+              <li><a href="#F009"><code>F009</code> @eczht_tw三篇高量quote的reply propagation shape並不一致：S008約27K likes但180分鐘57則direct replies；S009約2.7K likes但180分鐘9則；S010約13K likes且180分鐘135則、360分鐘386則。</a></li>
+              <li><a href="#F010"><code>F010</code> @eczht_tw四篇低量quote對照S011至S014目前likes約11至67，fetch_comments records_count為0至3；被quote原文current likes約1.1K至4.3K，顯示『quote到已有一定互動的原文』本身不足以讓quote文起量。</a></li>
+              <li><a href="#F011"><code>F011</code> S007目前Threads shared-post card顯示約21K likes、355留言、569轉發、610分享；S007與S008皆呈現多維互動，而不是只有like counter單獨升高。</a></li>
+            </ul>
+          </details>
+
+          <details>
+            <summary>相關 facts</summary>
+            <ul class="link-list">
+              <li><a href="#F002"><code>F002</code> @robinhoodspirit在2026-10-21 16:12至2026-10-22 02:20的連續11篇原始貼文，Meta AI fetch_posts所回報likes依序為17、9、33、11、170、6400、8、12、2、4700、3800；三篇>=3800的貼文集中在約9小時內，中間仍穿插8、12、2等低互動貼文。</a></li>
+              <li><a href="#F006"><code>F006</code> @eczht_tw在2026-10-15至10-24可取得的19篇貼文likes序列為180、48、27000、2100、12、16、43、10、110、55、340、16、2700、1200、34、48、13000、11、62；median為55，>=1000共5篇，<300共13篇。</a></li>
+            </ul>
+          </details>
+        </article>
+        <article class="panel" id="C011">
+          <div class="panel-head">
+            <code>C011</code>
+            <span class="badge supported">supported</span>
+          </div>
+          <h3>就目前已取得資料，內容特性、Threads推薦與真人擴散是比『已證實固定bot帳號池灌讚』更強的工作解釋。</h3>
+          <p>這是相對解釋力判斷，不是已證實因果。核心source在quote前已先高互動、同素材／近似framing存在其他viral案例、高量quote的互動結構多樣，且高量節點有大量可見repost/share/reply；因此正常virality/recommendation目前比bot attribution需要較少額外假設。但沒有平台內部推薦日志，不能把它升格為fully supported。</p>
+
+          <details open>
+            <summary>支持 facts</summary>
+            <ul class="link-list">
+              <li><a href="#F005"><code>F005</code> S003的女性安全審計素材在約11小時後另有S005取得約15,000 likes；S004相近的『沈伯洋相較蔣萬安更會做事』framing，在約16小時前另有S006取得約4,800 likes。</a></li>
+              <li><a href="#F007"><code>F007</code> S007在@eczht_tw S008 quote發生前約163分鐘內已累積194則direct replies，約佔目前可取得312則records的62.2%；reply growth主要發生在quote之前。</a></li>
+              <li><a href="#F008"><code>F008</code> S008目前Threads shared-post card顯示約27K likes、176留言、494轉發、345分享；其reply growth較S007慢，30/60/120/180/360分鐘累積direct replies為4、16、40、57、81，24小時144。</a></li>
+              <li><a href="#F009"><code>F009</code> @eczht_tw三篇高量quote的reply propagation shape並不一致：S008約27K likes但180分鐘57則direct replies；S009約2.7K likes但180分鐘9則；S010約13K likes且180分鐘135則、360分鐘386則。</a></li>
+              <li><a href="#F010"><code>F010</code> @eczht_tw四篇低量quote對照S011至S014目前likes約11至67，fetch_comments records_count為0至3；被quote原文current likes約1.1K至4.3K，顯示『quote到已有一定互動的原文』本身不足以讓quote文起量。</a></li>
+              <li><a href="#F011"><code>F011</code> S007目前Threads shared-post card顯示約21K likes、355留言、569轉發、610分享；S007與S008皆呈現多維互動，而不是只有like counter單獨升高。</a></li>
+            </ul>
+          </details>
+
+
+          <details>
+            <summary>相關 facts</summary>
+            <ul class="link-list">
+              <li><a href="#F002"><code>F002</code> @robinhoodspirit在2026-10-21 16:12至2026-10-22 02:20的連續11篇原始貼文，Meta AI fetch_posts所回報likes依序為17、9、33、11、170、6400、8、12、2、4700、3800；三篇>=3800的貼文集中在約9小時內，中間仍穿插8、12、2等低互動貼文。</a></li>
+              <li><a href="#F006"><code>F006</code> @eczht_tw在2026-10-15至10-24可取得的19篇貼文likes序列為180、48、27000、2100、12、16、43、10、110、55、340、16、2700、1200、34、48、13000、11、62；median為55，>=1000共5篇，<300共13篇。</a></li>
+            </ul>
+          </details>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <h2>Facts</h2>
+        <p>可作為論述基礎的事實單位；來源直接展開。</p>
+      </div>
+      <div class="stack">
+        <article class="panel" id="F001">
+          <div class="panel-head">
+            <code>F001</code>
+            <span class="badge verified">verified</span>
+          </div>
+          <h3>S001的Threads內建投票於觀察時已結束，共11,683票；結果為挺洋流15%、挺安安85%。</h3>
+          <p>Threads公開頁面直接顯示投票票數與15%／85%結果。</p>
+          <ul>
+            <li>此fact只記錄該線上投票結果，不把它升格為代表性民意調查。</li>
+            <li>投票參與者是自選且受平台曝光路徑影響；缺乏抽樣框與母體校正。</li>
+          </ul>
+
+          <details>
+            <summary>來源（1）</summary>
+            <div class="sources">
+              <article class="source" id="S001">
+                <div class="source-title">
+                  <code>S001</code>
+                  <strong>「挺洋流／挺安安」Threads 內建投票</strong>
+                </div>
+                <p class="muted">
+                  Threads / @linkousapien
+ · 2026-10-23                  · observed 2026-10-24T16:25:25+08:00
+                  · commentary
+                  · reachable
+                </p>
+                <p><a href="https://www.threads.com/@linkousapien/post/De1siVnE_DP" rel="noreferrer">開啟原始來源 ↗</a></p>
+                <ul>
+                  <li>公開頁面快照顯示投票已結束，共11,683票；挺洋流15%、挺安安85%。</li>
+                  <li>同一快照約顯示550讚、111回覆、7轉發、98分享；互動數會隨時間變動，只作觀察時點紀錄。</li>
+                  <li>此投票為Threads上的自選線上投票，不具代表性抽樣設計；不能直接當作台北市選民母體民調。</li>
+                </ul>
+              </article>
+            </div>
+          </details>
+
+          <div class="tags">
+            <span class="tag">2026</span>
+            <span class="tag">Threads</span>
+            <span class="tag">poll</span>
+            <span class="tag">洋流</span>
+            <span class="tag">沈伯洋</span>
+            <span class="tag">蔣萬安</span>
+          </div>
+        </article>
+        <article class="panel" id="F002">
+          <div class="panel-head">
+            <code>F002</code>
+            <span class="badge verified">verified</span>
+          </div>
+          <h3>@robinhoodspirit在2026-10-21 16:12至2026-10-22 02:20的連續11篇原始貼文，Meta AI fetch_posts所回報likes依序為17、9、33、11、170、6400、8、12、2、4700、3800；三篇>=3800的貼文集中在約9小時內，中間仍穿插8、12、2等低互動貼文。</h3>
+          <p>同一作者極低baseline窗口中出現多次高讚貼文，而高讚之間並非整體帳號所有貼文同步抬升。</p>
+          <ul>
+            <li>本序列來自Meta AI對Threads fetch_posts的逐篇整理；低讚貼文URL與內容曾在同一DM查核過程逐篇列出。</li>
+            <li>此fact描述的是觀察序列，不判斷是平台推薦、真人轉傳、人工動員或自動化帳號造成。</li>
+            <li>T0前最近4篇17、9、33、11的median為14；先前Meta AI曾誤算為22，公開evidence採校正值14。</li>
+          </ul>
+
+          <details>
+            <summary>來源（3）</summary>
+            <div class="sources">
+              <article class="source" id="S002">
+                <div class="source-title">
+                  <code>S002</code>
+                  <strong>「我是外省三代 家庭深/鐵藍…我支持沈伯洋」</strong>
+                </div>
+                <p class="muted">
+                  Threads / @robinhoodspirit
+ · 2026-10-21                  · observed 2026-10-25T00:50:56+08:00
+                  · commentary
+                  · reachable
+                </p>
+                <p><a href="https://www.threads.com/@robinhoodspirit/post/DexsHUkDT3K" rel="noreferrer">開啟原始來源 ↗</a></p>
+                <ul>
+                  <li>Meta AI 的Threads fetch_posts觀察回報約6,400 likes。</li>
+                  <li>後續以fetch_comments重新校驗，media_id=18099062090212622，total_count=380，實際回傳347筆，has_next_page=False。</li>
+                  <li>先前曾因三個media_id手動對應錯誤，把380錯配到另一篇貼文；後續已按post ID / media_id重新校正。</li>
+                </ul>
+              </article>
+              <article class="source" id="S003">
+                <div class="source-title">
+                  <code>S003</code>
+                  <strong>「女性安全審計 光這一點所有台北女性都該投沈伯洋」</strong>
+                </div>
+                <p class="muted">
+                  Threads / @robinhoodspirit
+ · 2026-10-22                  · observed 2026-10-25T00:50:56+08:00
+                  · commentary
+                  · reachable
+                </p>
+                <p><a href="https://www.threads.com/@robinhoodspirit/post/Deyh1gnlqs7" rel="noreferrer">開啟原始來源 ↗</a></p>
+                <ul>
+                  <li>Meta AI 的Threads fetch_posts觀察回報約4,700 likes。</li>
+                  <li>fetch_comments校驗：media_id=18132580906690685，total_count=55，實際回傳54筆，has_next_page=False。</li>
+                  <li>content_search 曾回傳 comment_count=40；同一輪校驗指出該欄位可能是較舊索引，不採作最新回覆總數。</li>
+                </ul>
+              </article>
+              <article class="source" id="S004">
+                <div class="source-title">
+                  <code>S004</code>
+                  <strong>「我一點也不擔心沈伯洋上任會像蔣萬安一樣不做事…」</strong>
+                </div>
+                <p class="muted">
+                  Threads / @robinhoodspirit
+ · 2026-10-22                  · observed 2026-10-25T00:50:56+08:00
+                  · commentary
+                  · reachable
+                </p>
+                <p><a href="https://www.threads.com/@robinhoodspirit/post/DeypXucFv4q" rel="noreferrer">開啟原始來源 ↗</a></p>
+                <ul>
+                  <li>Meta AI 的Threads fetch_posts觀察回報約3,800 likes。</li>
+                  <li>fetch_comments校驗：media_id=17927057331431194，total_count=140，實際回傳137筆，has_next_page=False。</li>
+                  <li>先前曾有137與380錯配；後續按post ID / media_id重新校正為本篇total_count=140。</li>
+                </ul>
+              </article>
+            </div>
+          </details>
+
+          <div class="tags">
+            <span class="tag">2026</span>
+            <span class="tag">Threads</span>
+            <span class="tag">selective-burst</span>
+            <span class="tag">author-baseline</span>
+            <span class="tag">沈伯洋</span>
+          </div>
+        </article>
+        <article class="panel" id="F003">
+          <div class="panel-head">
+            <code>F003</code>
+            <span class="badge verified">verified</span>
+          </div>
+          <h3>經post ID／media_id重新校驗後，S002、S003、S004的fetch_comments total_count分別為380、55、140；三篇高讚貼文的可見回覆量均明顯高於同作者同窗口多數低讚貼文的0至3則回覆。</h3>
+          <p>高讚三篇不只是likes增加；可見回覆亦同步從作者低基線的0–3升至55–380。</p>
+          <ul>
+            <li>曾發生一次手動media_id對應錯誤：380與137／140被配到錯誤post；本fact使用後續按post ID與media_id重新校正的數值。</li>
+            <li>fetch_comments回傳筆數略低於total_count：S002 347/380、S003 54/55、S004 137/140；工具回報has_next_page=False，差額可能來自刪除／權限等不可見record。</li>
+            <li>此fact不把回覆者一律視為支持者，也不推論所有回覆均為真人；只記錄可見互動總量。</li>
+          </ul>
+
+          <details>
+            <summary>來源（3）</summary>
+            <div class="sources">
+              <article class="source" id="S002">
+                <div class="source-title">
+                  <code>S002</code>
+                  <strong>「我是外省三代 家庭深/鐵藍…我支持沈伯洋」</strong>
+                </div>
+                <p class="muted">
+                  Threads / @robinhoodspirit
+ · 2026-10-21                  · observed 2026-10-25T00:50:56+08:00
+                  · commentary
+                  · reachable
+                </p>
+                <p><a href="https://www.threads.com/@robinhoodspirit/post/DexsHUkDT3K" rel="noreferrer">開啟原始來源 ↗</a></p>
+                <ul>
+                  <li>Meta AI 的Threads fetch_posts觀察回報約6,400 likes。</li>
+                  <li>後續以fetch_comments重新校驗，media_id=18099062090212622，total_count=380，實際回傳347筆，has_next_page=False。</li>
+                  <li>先前曾因三個media_id手動對應錯誤，把380錯配到另一篇貼文；後續已按post ID / media_id重新校正。</li>
+                </ul>
+              </article>
+              <article class="source" id="S003">
+                <div class="source-title">
+                  <code>S003</code>
+                  <strong>「女性安全審計 光這一點所有台北女性都該投沈伯洋」</strong>
+                </div>
+                <p class="muted">
+                  Threads / @robinhoodspirit
+ · 2026-10-22                  · observed 2026-10-25T00:50:56+08:00
+                  · commentary
+                  · reachable
+                </p>
+                <p><a href="https://www.threads.com/@robinhoodspirit/post/Deyh1gnlqs7" rel="noreferrer">開啟原始來源 ↗</a></p>
+                <ul>
+                  <li>Meta AI 的Threads fetch_posts觀察回報約4,700 likes。</li>
+                  <li>fetch_comments校驗：media_id=18132580906690685，total_count=55，實際回傳54筆，has_next_page=False。</li>
+                  <li>content_search 曾回傳 comment_count=40；同一輪校驗指出該欄位可能是較舊索引，不採作最新回覆總數。</li>
+                </ul>
+              </article>
+              <article class="source" id="S004">
+                <div class="source-title">
+                  <code>S004</code>
+                  <strong>「我一點也不擔心沈伯洋上任會像蔣萬安一樣不做事…」</strong>
+                </div>
+                <p class="muted">
+                  Threads / @robinhoodspirit
+ · 2026-10-22                  · observed 2026-10-25T00:50:56+08:00
+                  · commentary
+                  · reachable
+                </p>
+                <p><a href="https://www.threads.com/@robinhoodspirit/post/DeypXucFv4q" rel="noreferrer">開啟原始來源 ↗</a></p>
+                <ul>
+                  <li>Meta AI 的Threads fetch_posts觀察回報約3,800 likes。</li>
+                  <li>fetch_comments校驗：media_id=17927057331431194，total_count=140，實際回傳137筆，has_next_page=False。</li>
+                  <li>先前曾有137與380錯配；後續按post ID / media_id重新校正為本篇total_count=140。</li>
+                </ul>
+              </article>
+            </div>
+          </details>
+
+          <div class="tags">
+            <span class="tag">2026</span>
+            <span class="tag">Threads</span>
+            <span class="tag">comments</span>
+            <span class="tag">measurement</span>
+            <span class="tag">correction</span>
+            <span class="tag">interaction</span>
+          </div>
+        </article>
+        <article class="panel" id="F004">
+          <div class="panel-head">
+            <code>F004</code>
+            <span class="badge verified">verified</span>
+          </div>
+          <h3>在針對S002、S003、S004所做的公開傳播路徑搜尋中，未找到可確認的大型帳號、候選人、媒體或組織直接quote／repost三篇原文的鏈條；此結果僅代表該次搜尋未找到，不等於不存在任何轉傳或推薦來源。</h3>
+          <p>bounded search未找到直接大型公開擴散鏈。</p>
+          <ul>
+            <li>not_found != never_existed；Threads搜尋工具本身有結果數與排序限制。</li>
+            <li>repost／quote總數欄位在該工具中 unavailable，因此不能由未找到search result推成零轉貼。</li>
+          </ul>
+
+          <details>
+            <summary>來源（3）</summary>
+            <div class="sources">
+              <article class="source" id="S002">
+                <div class="source-title">
+                  <code>S002</code>
+                  <strong>「我是外省三代 家庭深/鐵藍…我支持沈伯洋」</strong>
+                </div>
+                <p class="muted">
+                  Threads / @robinhoodspirit
+ · 2026-10-21                  · observed 2026-10-25T00:50:56+08:00
+                  · commentary
+                  · reachable
+                </p>
+                <p><a href="https://www.threads.com/@robinhoodspirit/post/DexsHUkDT3K" rel="noreferrer">開啟原始來源 ↗</a></p>
+                <ul>
+                  <li>Meta AI 的Threads fetch_posts觀察回報約6,400 likes。</li>
+                  <li>後續以fetch_comments重新校驗，media_id=18099062090212622，total_count=380，實際回傳347筆，has_next_page=False。</li>
+                  <li>先前曾因三個media_id手動對應錯誤，把380錯配到另一篇貼文；後續已按post ID / media_id重新校正。</li>
+                </ul>
+              </article>
+              <article class="source" id="S003">
+                <div class="source-title">
+                  <code>S003</code>
+                  <strong>「女性安全審計 光這一點所有台北女性都該投沈伯洋」</strong>
+                </div>
+                <p class="muted">
+                  Threads / @robinhoodspirit
+ · 2026-10-22                  · observed 2026-10-25T00:50:56+08:00
+                  · commentary
+                  · reachable
+                </p>
+                <p><a href="https://www.threads.com/@robinhoodspirit/post/Deyh1gnlqs7" rel="noreferrer">開啟原始來源 ↗</a></p>
+                <ul>
+                  <li>Meta AI 的Threads fetch_posts觀察回報約4,700 likes。</li>
+                  <li>fetch_comments校驗：media_id=18132580906690685，total_count=55，實際回傳54筆，has_next_page=False。</li>
+                  <li>content_search 曾回傳 comment_count=40；同一輪校驗指出該欄位可能是較舊索引，不採作最新回覆總數。</li>
+                </ul>
+              </article>
+              <article class="source" id="S004">
+                <div class="source-title">
+                  <code>S004</code>
+                  <strong>「我一點也不擔心沈伯洋上任會像蔣萬安一樣不做事…」</strong>
+                </div>
+                <p class="muted">
+                  Threads / @robinhoodspirit
+ · 2026-10-22                  · observed 2026-10-25T00:50:56+08:00
+                  · commentary
+                  · reachable
+                </p>
+                <p><a href="https://www.threads.com/@robinhoodspirit/post/DeypXucFv4q" rel="noreferrer">開啟原始來源 ↗</a></p>
+                <ul>
+                  <li>Meta AI 的Threads fetch_posts觀察回報約3,800 likes。</li>
+                  <li>fetch_comments校驗：media_id=17927057331431194，total_count=140，實際回傳137筆，has_next_page=False。</li>
+                  <li>先前曾有137與380錯配；後續按post ID / media_id重新校正為本篇total_count=140。</li>
+                </ul>
+              </article>
+            </div>
+          </details>
+
+          <div class="tags">
+            <span class="tag">2026</span>
+            <span class="tag">Threads</span>
+            <span class="tag">search-limit</span>
+            <span class="tag">propagation</span>
+            <span class="tag">not-found</span>
+          </div>
+        </article>
+        <article class="panel" id="F005">
+          <div class="panel-head">
+            <code>F005</code>
+            <span class="badge verified">verified</span>
+          </div>
+          <h3>S003的女性安全審計素材在約11小時後另有S005取得約15,000 likes；S004相近的『沈伯洋相較蔣萬安更會做事』framing，在約16小時前另有S006取得約4,800 likes。</h3>
+          <p>至少兩篇@robinhoodspirit高互動內容存在相近時間的獨立高互動同素材／近似framing案例。</p>
+          <ul>
+            <li>S005與S003為相同政策素材但非直接quote；S006與S004為近似framing而非相同文字。</li>
+            <li>此fact削弱『只有原作者單篇異常、題材本身完全沒有其他高互動』的強命題，但不能決定因果機制。</li>
+          </ul>
+
+          <details>
+            <summary>來源（4）</summary>
+            <div class="sources">
+              <article class="source" id="S003">
+                <div class="source-title">
+                  <code>S003</code>
+                  <strong>「女性安全審計 光這一點所有台北女性都該投沈伯洋」</strong>
+                </div>
+                <p class="muted">
+                  Threads / @robinhoodspirit
+ · 2026-10-22                  · observed 2026-10-25T00:50:56+08:00
+                  · commentary
+                  · reachable
+                </p>
+                <p><a href="https://www.threads.com/@robinhoodspirit/post/Deyh1gnlqs7" rel="noreferrer">開啟原始來源 ↗</a></p>
+                <ul>
+                  <li>Meta AI 的Threads fetch_posts觀察回報約4,700 likes。</li>
+                  <li>fetch_comments校驗：media_id=18132580906690685，total_count=55，實際回傳54筆，has_next_page=False。</li>
+                  <li>content_search 曾回傳 comment_count=40；同一輪校驗指出該欄位可能是較舊索引，不採作最新回覆總數。</li>
+                </ul>
+              </article>
+              <article class="source" id="S004">
+                <div class="source-title">
+                  <code>S004</code>
+                  <strong>「我一點也不擔心沈伯洋上任會像蔣萬安一樣不做事…」</strong>
+                </div>
+                <p class="muted">
+                  Threads / @robinhoodspirit
+ · 2026-10-22                  · observed 2026-10-25T00:50:56+08:00
+                  · commentary
+                  · reachable
+                </p>
+                <p><a href="https://www.threads.com/@robinhoodspirit/post/DeypXucFv4q" rel="noreferrer">開啟原始來源 ↗</a></p>
+                <ul>
+                  <li>Meta AI 的Threads fetch_posts觀察回報約3,800 likes。</li>
+                  <li>fetch_comments校驗：media_id=17927057331431194，total_count=140，實際回傳137筆，has_next_page=False。</li>
+                  <li>先前曾有137與380錯配；後續按post ID / media_id重新校正為本篇total_count=140。</li>
+                </ul>
+              </article>
+              <article class="source" id="S005">
+                <div class="source-title">
+                  <code>S005</code>
+                  <strong>女性安全審計同素材平行高互動貼文</strong>
+                </div>
+                <p class="muted">
+                  Threads / @williamtantwm
+ · 2026-10-22                  · observed 2026-10-25T00:50:56+08:00
+                  · commentary
+                  · reachable
+                </p>
+                <p><a href="https://www.threads.com/@williamtantwm/post/Dey-0c_j64Y" rel="noreferrer">開啟原始來源 ↗</a></p>
+                <ul>
+                  <li>Meta AI 搜尋結果記錄時間為2026-10-22 12:27:28，約15,000 likes，作者約15K followers。</li>
+                  <li>與S003使用相同HEART政策島／女性安全審計素材，但不是S003的直接quote。</li>
+                  <li>此來源支持「同素材當日另有高互動」；不能單獨證明S003的流量來源。</li>
+                </ul>
+              </article>
+              <article class="source" id="S006">
+                <div class="source-title">
+                  <code>S006</code>
+                  <strong>「沈伯洋比蔣萬安更會做事」近似 framing 高互動貼文</strong>
+                </div>
+                <p class="muted">
+                  Threads / @trista__bear
+ · 2026-10-21                  · observed 2026-10-25T00:50:56+08:00
+                  · commentary
+                  · reachable
+                </p>
+                <p><a href="https://www.threads.com/@trista__bear/post/DewKODSgkVX" rel="noreferrer">開啟原始來源 ↗</a></p>
+                <ul>
+                  <li>Meta AI 搜尋結果記錄時間為2026-10-21 10:09:22，約4,800 likes，作者約18K followers。</li>
+                  <li>內容不是S004相同文字，但核心 framing 同樣是以沈伯洋的能力／政見對比蔣萬安。</li>
+                  <li>此來源支持該 framing 在相近時間另有高互動案例；不能單獨證明S004的流量來源。</li>
+                </ul>
+              </article>
+            </div>
+          </details>
+
+          <div class="tags">
+            <span class="tag">2026</span>
+            <span class="tag">Threads</span>
+            <span class="tag">parallel-virality</span>
+            <span class="tag">matched-content</span>
+            <span class="tag">competing-explanation</span>
+          </div>
+        </article>
+        <article class="panel" id="F006">
+          <div class="panel-head">
+            <code>F006</code>
+            <span class="badge verified">verified</span>
+          </div>
+          <h3>@eczht_tw在2026-10-15至10-24可取得的19篇貼文likes序列為180、48、27000、2100、12、16、43、10、110、55、340、16、2700、1200、34、48、13000、11、62；median為55，>=1000共5篇，<300共13篇。</h3>
+          <p>同一作者在多次高量貼文之間仍持續出現個位數至百餘likes，形成反覆post-level selective burst，而非整體帳號baseline持續上移。</p>
+          <ul>
+            <li>likes序列由Meta AI fetch_posts逐篇整理；median與門檻計數由本專案重新計算。</li>
+            <li>此fact不指定cause。</li>
+          </ul>
+
+          <details>
+            <summary>來源（1）</summary>
+            <div class="sources">
+              <article class="source" id="S015">
+                <div class="source-title">
+                  <code>S015</code>
+                  <strong>@eczht_tw profile / 2026-10-15至10-24貼文時間序列</strong>
+                </div>
+                <p class="muted">
+                  Threads / @eczht_tw
+                  · observed 2026-10-25T13:55:00+08:00
+                  · commentary
+                  · reachable
+                </p>
+                <p><a href="https://www.threads.com/@eczht_tw" rel="noreferrer">開啟原始來源 ↗</a></p>
+                <ul>
+                  <li>Meta AI fetch_posts整理19篇likes依序為180、48、27000、2100、12、16、43、10、110、55、340、16、2700、1200、34、48、13000、11、62。</li>
+                  <li>全序列median=55；>=1000共5篇；<300共13篇。</li>
+                  <li>此時間序列顯示高量貼文之間持續穿插低量貼文，與author-wide sustained boost不符。</li>
+                </ul>
+              </article>
+            </div>
+          </details>
+
+          <div class="tags">
+            <span class="tag">2026</span>
+            <span class="tag">Threads</span>
+            <span class="tag">eczht_tw</span>
+            <span class="tag">selective-burst</span>
+            <span class="tag">author-baseline</span>
+          </div>
+        </article>
+        <article class="panel" id="F007">
+          <div class="panel-head">
+            <code>F007</code>
+            <span class="badge verified">verified</span>
+          </div>
+          <h3>S007在@eczht_tw S008 quote發生前約163分鐘內已累積194則direct replies，約佔目前可取得312則records的62.2%；reply growth主要發生在quote之前。</h3>
+          <p>S007在30/60/90/120/150/163分鐘分別累積29、78、114、149、186、194則direct replies；quote前已處於明顯高互動成長。</p>
+          <ul>
+            <li>時間比較只使用同一timestamp source計算相對間隔，不依賴有爭議的UTC／Asia-Taipei絕對時間換算。</li>
+            <li>reply growth不能換算成同期likes或views；本fact只處理可觀察reply時序。</li>
+            <li>fetch_comments total_count與records_count曾有310/312差異，不影響主要趨勢。</li>
+          </ul>
+
+          <details>
+            <summary>來源（2）</summary>
+            <div class="sources">
+              <article class="source" id="S007">
+                <div class="source-title">
+                  <code>S007</code>
+                  <strong>台北大洋流第二次車掃，永吉路的洋流大旗隊</strong>
+                </div>
+                <p class="muted">
+                  Threads / @fredrickliu
+ · 2026-10-18                  · observed 2026-10-25T13:55:00+08:00
+                  · commentary
+                  · reachable
+                </p>
+                <p><a href="https://www.threads.com/@fredrickliu/post/DeoV5jSkSQA" rel="noreferrer">開啟原始來源 ↗</a></p>
+                <ul>
+                  <li>Threads DM shared-post card觀察約21K likes、355留言、569轉發、610分享；數字為當時UI current state。</li>
+                  <li>Meta AI fetch_comments實際抓到312筆records；total_count曾回310，工具計數與records存在小幅不一致。</li>
+                  <li>以同一timestamp source計算，發文後30/60/90/120/150/163分鐘累積direct replies分別為29、78、114、149、186、194。</li>
+                  <li>163分鐘約對應@eczht_tw quote發生時點；194/312=62.2%。</li>
+                </ul>
+              </article>
+              <article class="source" id="S008">
+                <div class="source-title">
+                  <code>S008</code>
+                  <strong>「嚴重懷疑這批水滴受過訓練…洋流樂旗隊」</strong>
+                </div>
+                <p class="muted">
+                  Threads / @eczht_tw
+ · 2026-10-18                  · observed 2026-10-25T13:55:00+08:00
+                  · commentary
+                  · reachable
+                </p>
+                <p><a href="https://www.threads.com/@eczht_tw/post/DeoonuzEm3H" rel="noreferrer">開啟原始來源 ↗</a></p>
+                <ul>
+                  <li>Threads DM shared-post card直接顯示約27K likes、176留言、494轉發、345分享。</li>
+                  <li>fetch_comments實際抓到163筆records，total_count曾回160。</li>
+                  <li>發文後30/60/120/180/360分鐘累積direct replies為4、16、40、57、81；24小時144；163分鐘56。</li>
+                  <li>163分鐘累積56/163=34.4%，reply growth較S007明顯更慢且更長尾。</li>
+                </ul>
+              </article>
+            </div>
+          </details>
+
+          <div class="tags">
+            <span class="tag">2026</span>
+            <span class="tag">Threads</span>
+            <span class="tag">reply-timeline</span>
+            <span class="tag">propagation</span>
+            <span class="tag">fredrickliu</span>
+            <span class="tag">eczht_tw</span>
+          </div>
+        </article>
+        <article class="panel" id="F008">
+          <div class="panel-head">
+            <code>F008</code>
+            <span class="badge verified">verified</span>
+          </div>
+          <h3>S008目前Threads shared-post card顯示約27K likes、176留言、494轉發、345分享；其reply growth較S007慢，30/60/120/180/360分鐘累積direct replies為4、16、40、57、81，24小時144。</h3>
+          <p>S008不是『只有likes上升』；目前UI可見轉發與分享亦達數百，但其早期reply curve相對平緩且長尾。</p>
+          <ul>
+            <li>shared-post card為Threads UI observation surface；Meta AI retrieval tool曾把reposts/shares標為unavailable，不能用工具欄位缺失覆蓋UI可見值。</li>
+            <li>fetch_comments total_count=160、records=163，與UI留言176不同，需保留surface差異。</li>
+          </ul>
+
+          <details>
+            <summary>來源（1）</summary>
+            <div class="sources">
+              <article class="source" id="S008">
+                <div class="source-title">
+                  <code>S008</code>
+                  <strong>「嚴重懷疑這批水滴受過訓練…洋流樂旗隊」</strong>
+                </div>
+                <p class="muted">
+                  Threads / @eczht_tw
+ · 2026-10-18                  · observed 2026-10-25T13:55:00+08:00
+                  · commentary
+                  · reachable
+                </p>
+                <p><a href="https://www.threads.com/@eczht_tw/post/DeoonuzEm3H" rel="noreferrer">開啟原始來源 ↗</a></p>
+                <ul>
+                  <li>Threads DM shared-post card直接顯示約27K likes、176留言、494轉發、345分享。</li>
+                  <li>fetch_comments實際抓到163筆records，total_count曾回160。</li>
+                  <li>發文後30/60/120/180/360分鐘累積direct replies為4、16、40、57、81；24小時144；163分鐘56。</li>
+                  <li>163分鐘累積56/163=34.4%，reply growth較S007明顯更慢且更長尾。</li>
+                </ul>
+              </article>
+            </div>
+          </details>
+
+          <div class="tags">
+            <span class="tag">2026</span>
+            <span class="tag">Threads</span>
+            <span class="tag">interaction-mix</span>
+            <span class="tag">replies</span>
+            <span class="tag">reposts</span>
+            <span class="tag">shares</span>
+            <span class="tag">measurement</span>
+          </div>
+        </article>
+        <article class="panel" id="F009">
+          <div class="panel-head">
+            <code>F009</code>
+            <span class="badge verified">verified</span>
+          </div>
+          <h3>@eczht_tw三篇高量quote的reply propagation shape並不一致：S008約27K likes但180分鐘57則direct replies；S009約2.7K likes但180分鐘9則；S010約13K likes且180分鐘135則、360分鐘386則。</h3>
+          <p>同帳號高量quote可分成至少低reply慢熱型與高reply快速成長型，並無單一共同reply curve。</p>
+          <ul>
+            <li>不把reply數量直接換算likes或views。</li>
+            <li>S010 current fetch_comments total_count=800、records=787；S009為26/25；工具計數存在小幅差異。</li>
+          </ul>
+
+          <details>
+            <summary>來源（3）</summary>
+            <div class="sources">
+              <article class="source" id="S008">
+                <div class="source-title">
+                  <code>S008</code>
+                  <strong>「嚴重懷疑這批水滴受過訓練…洋流樂旗隊」</strong>
+                </div>
+                <p class="muted">
+                  Threads / @eczht_tw
+ · 2026-10-18                  · observed 2026-10-25T13:55:00+08:00
+                  · commentary
+                  · reachable
+                </p>
+                <p><a href="https://www.threads.com/@eczht_tw/post/DeoonuzEm3H" rel="noreferrer">開啟原始來源 ↗</a></p>
+                <ul>
+                  <li>Threads DM shared-post card直接顯示約27K likes、176留言、494轉發、345分享。</li>
+                  <li>fetch_comments實際抓到163筆records，total_count曾回160。</li>
+                  <li>發文後30/60/120/180/360分鐘累積direct replies為4、16、40、57、81；24小時144；163分鐘56。</li>
+                  <li>163分鐘累積56/163=34.4%，reply growth較S007明顯更慢且更長尾。</li>
+                </ul>
+              </article>
+              <article class="source" id="S009">
+                <div class="source-title">
+                  <code>S009</code>
+                  <strong>quote @pumashen 政策島</strong>
+                </div>
+                <p class="muted">
+                  Threads / @eczht_tw
+ · 2026-10-22                  · observed 2026-10-25T13:55:00+08:00
+                  · commentary
+                  · reachable
+                </p>
+                <p><a href="https://www.threads.com/@eczht_tw/post/DezNGE2koQO" rel="noreferrer">開啟原始來源 ↗</a></p>
+                <ul>
+                  <li>current likes約2.7K；被quote原文current likes約160K。</li>
+                  <li>fetch_comments records_count=25，total_count=26。</li>
+                  <li>30/60/120/180/360分鐘direct replies為4、7、8、9、9；24小時25。</li>
+                </ul>
+              </article>
+              <article class="source" id="S010">
+                <div class="source-title">
+                  <code>S010</code>
+                  <strong>quote @louis_kphung 颱風感謝文</strong>
+                </div>
+                <p class="muted">
+                  Threads / @eczht_tw
+ · 2026-10-23                  · observed 2026-10-25T13:55:00+08:00
+                  · commentary
+                  · reachable
+                </p>
+                <p><a href="https://www.threads.com/@eczht_tw/post/De3KXznkhtr" rel="noreferrer">開啟原始來源 ↗</a></p>
+                <ul>
+                  <li>current likes約13K。</li>
+                  <li>fetch_comments records_count=787，total_count=800。</li>
+                  <li>30/60/120/180/360分鐘direct replies為15、34、84、135、386；24小時782。</li>
+                  <li>與S008、S009同為@eczht_tw高量quote，但reply growth形狀明顯不同。</li>
+                </ul>
+              </article>
+            </div>
+          </details>
+
+          <div class="tags">
+            <span class="tag">2026</span>
+            <span class="tag">Threads</span>
+            <span class="tag">matched-comparison</span>
+            <span class="tag">propagation-shape</span>
+            <span class="tag">eczht_tw</span>
+          </div>
+        </article>
+        <article class="panel" id="F010">
+          <div class="panel-head">
+            <code>F010</code>
+            <span class="badge verified">verified</span>
+          </div>
+          <h3>@eczht_tw四篇低量quote對照S011至S014目前likes約11至67，fetch_comments records_count為0至3；被quote原文current likes約1.1K至4.3K，顯示『quote到已有一定互動的原文』本身不足以讓quote文起量。</h3>
+          <p>同作者存在多個quote來源本身已有1K至4K likes、但quote文僅11至67 likes的反例。</p>
+          <ul>
+            <li>source current likes不是quote當下的歷史likes；本fact只反駁『目前可見source熱度必然對應quote高量』的簡單模型。</li>
+            <li>repost/share在這四篇尚未完整取得，不能寫成所有不可見互動皆低。</li>
+          </ul>
+
+          <details>
+            <summary>來源（4）</summary>
+            <div class="sources">
+              <article class="source" id="S011">
+                <div class="source-title">
+                  <code>S011</code>
+                  <strong>低量quote對照：@johnlee2500</strong>
+                </div>
+                <p class="muted">
+                  Threads / @eczht_tw
+ · 2026-10-22                  · observed 2026-10-25T13:55:00+08:00
+                  · commentary
+                  · reachable
+                </p>
+                <p><a href="https://www.threads.com/@eczht_tw/post/DeytNpHEqPx" rel="noreferrer">開啟原始來源 ↗</a></p>
+                <ul>
+                  <li>current likes約16；被quote原文current likes約1.1K；fetch_comments records_count=1。</li>
+                </ul>
+              </article>
+              <article class="source" id="S012">
+                <div class="source-title">
+                  <code>S012</code>
+                  <strong>低量quote對照：@luminana66</strong>
+                </div>
+                <p class="muted">
+                  Threads / @eczht_tw
+ · 2026-10-23                  · observed 2026-10-25T13:55:00+08:00
+                  · commentary
+                  · reachable
+                </p>
+                <p><a href="https://www.threads.com/@eczht_tw/post/De1lr3EEpIA" rel="noreferrer">開啟原始來源 ↗</a></p>
+                <ul>
+                  <li>current likes約34；被quote原文current likes約4.1K；fetch_comments records_count=0。</li>
+                </ul>
+              </article>
+              <article class="source" id="S013">
+                <div class="source-title">
+                  <code>S013</code>
+                  <strong>低量quote對照：@victor31429</strong>
+                </div>
+                <p class="muted">
+                  Threads / @eczht_tw
+ · 2026-10-24                  · observed 2026-10-25T13:55:00+08:00
+                  · commentary
+                  · reachable
+                </p>
+                <p><a href="https://www.threads.com/@eczht_tw/post/De4TPNBkkxe" rel="noreferrer">開啟原始來源 ↗</a></p>
+                <ul>
+                  <li>Threads shared-post card顯示11 likes；被quote原文current likes約1.9K；fetch_comments records_count=3。</li>
+                </ul>
+              </article>
+              <article class="source" id="S014">
+                <div class="source-title">
+                  <code>S014</code>
+                  <strong>低量quote對照：@sousenchadogakuen</strong>
+                </div>
+                <p class="muted">
+                  Threads / @eczht_tw
+ · 2026-10-24                  · observed 2026-10-25T13:55:00+08:00
+                  · commentary
+                  · reachable
+                </p>
+                <p><a href="https://www.threads.com/@eczht_tw/post/De5oVC4ku6j" rel="noreferrer">開啟原始來源 ↗</a></p>
+                <ul>
+                  <li>Threads shared-post card顯示67 likes；fetch_posts較早回62；被quote原文current likes約4.3K；fetch_comments records_count=1。</li>
+                  <li>current UI與fetch_posts數字不同，保留retrieval surface差異，不靜默合併。</li>
+                </ul>
+              </article>
+            </div>
+          </details>
+
+          <div class="tags">
+            <span class="tag">2026</span>
+            <span class="tag">Threads</span>
+            <span class="tag">quote-post</span>
+            <span class="tag">matched-control</span>
+            <span class="tag">source-popularity</span>
+          </div>
+        </article>
+        <article class="panel" id="F011">
+          <div class="panel-head">
+            <code>F011</code>
+            <span class="badge verified">verified</span>
+          </div>
+          <h3>S007目前Threads shared-post card顯示約21K likes、355留言、569轉發、610分享；S007與S008皆呈現多維互動，而不是只有like counter單獨升高。</h3>
+          <p>兩個核心高量節點在目前UI皆同時有大量留言、轉發與分享。</p>
+          <ul>
+            <li>這只能反駁『likes alone』強命題；不能單獨排除likes中存在自動化或人工放大成分。</li>
+          </ul>
+
+          <details>
+            <summary>來源（2）</summary>
+            <div class="sources">
+              <article class="source" id="S007">
+                <div class="source-title">
+                  <code>S007</code>
+                  <strong>台北大洋流第二次車掃，永吉路的洋流大旗隊</strong>
+                </div>
+                <p class="muted">
+                  Threads / @fredrickliu
+ · 2026-10-18                  · observed 2026-10-25T13:55:00+08:00
+                  · commentary
+                  · reachable
+                </p>
+                <p><a href="https://www.threads.com/@fredrickliu/post/DeoV5jSkSQA" rel="noreferrer">開啟原始來源 ↗</a></p>
+                <ul>
+                  <li>Threads DM shared-post card觀察約21K likes、355留言、569轉發、610分享；數字為當時UI current state。</li>
+                  <li>Meta AI fetch_comments實際抓到312筆records；total_count曾回310，工具計數與records存在小幅不一致。</li>
+                  <li>以同一timestamp source計算，發文後30/60/90/120/150/163分鐘累積direct replies分別為29、78、114、149、186、194。</li>
+                  <li>163分鐘約對應@eczht_tw quote發生時點；194/312=62.2%。</li>
+                </ul>
+              </article>
+              <article class="source" id="S008">
+                <div class="source-title">
+                  <code>S008</code>
+                  <strong>「嚴重懷疑這批水滴受過訓練…洋流樂旗隊」</strong>
+                </div>
+                <p class="muted">
+                  Threads / @eczht_tw
+ · 2026-10-18                  · observed 2026-10-25T13:55:00+08:00
+                  · commentary
+                  · reachable
+                </p>
+                <p><a href="https://www.threads.com/@eczht_tw/post/DeoonuzEm3H" rel="noreferrer">開啟原始來源 ↗</a></p>
+                <ul>
+                  <li>Threads DM shared-post card直接顯示約27K likes、176留言、494轉發、345分享。</li>
+                  <li>fetch_comments實際抓到163筆records，total_count曾回160。</li>
+                  <li>發文後30/60/120/180/360分鐘累積direct replies為4、16、40、57、81；24小時144；163分鐘56。</li>
+                  <li>163分鐘累積56/163=34.4%，reply growth較S007明顯更慢且更長尾。</li>
+                </ul>
+              </article>
+            </div>
+          </details>
+
+          <div class="tags">
+            <span class="tag">2026</span>
+            <span class="tag">Threads</span>
+            <span class="tag">interaction-mix</span>
+            <span class="tag">viral</span>
+            <span class="tag">likes-only</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <h2>Search records</h2>
+        <p>包含 found / partial / not_found，避免把查不到誤寫成不存在。</p>
+      </div>
+      <div class="stack">
+        <article class="panel" id="Q001">
+          <div class="panel-head">
+            <code>Q001</code>
+            <span class="badge not_found">not_found</span>
+          </div>
+          <h3>洋流 Threads / 沈伯洋 洋流 / Threads 投票 / robinhoodspirit</h3>
+          <p class="muted">GitHub politics-db · lichih/politics-db main · 2026-10-25T00:50:56+08:00</p>
+<p>未找到既有同主題evidence；因此建立新session。此次repo搜尋未找到 != 過去從未研究或沒有相鄰研究。</p>        </article>
+        <article class="panel" id="Q002">
+          <div class="panel-head">
+            <code>Q002</code>
+            <span class="badge found">found</span>
+          </div>
+          <h3>@robinhoodspirit 2026-10-21 16:12 至 2026-10-22 02:20 原始貼文時間序列</h3>
+          <p class="muted">Threads Meta AI / fetch_posts · 同作者連續11篇可取得likes之原始貼文 · 2026-10-25T00:50:56+08:00</p>
+<p>likes依序17、9、33、11、170、6400、8、12、2、4700、3800。此序列支持post-level selective burst存在，但不含views、liker IDs、like timestamps。</p>        </article>
+        <article class="panel" id="Q003">
+          <div class="panel-head">
+            <code>Q003</code>
+            <span class="badge found">found</span>
+          </div>
+          <h3>DexsHUkDT3K / Deyh1gnlqs7 / DeypXucFv4q</h3>
+          <p class="muted">Threads Meta AI / fetch_comments · 三篇高讚貼文的post ID、media_id、total_count、record count、pagination · 2026-10-25T00:50:56+08:00</p>
+<p>校正後total_count依序380、55、140；實際records 347、54、137；三篇has_next_page=False。先前曾因三個media_id未按URL順序回傳而手動錯配，後續已按post ID與media_id修正。</p>        </article>
+        <article class="panel" id="Q004">
+          <div class="panel-head">
+            <code>Q004</code>
+            <span class="badge partial">partial</span>
+          </div>
+          <h3>三篇高讚文公開quote/repost、大帳號引用、近似文字／同素材／同framing</h3>
+          <p class="muted">Threads Meta AI / content_search + fetch_comments · 各貼文前後約24小時的公開Threads搜尋結果 · 2026-10-25T00:50:56+08:00</p>
+<p>未找到可確認的直接大型quote/repost鏈；S003找到同素材S005約15K likes，S004找到近似framing S006約4.8K likes。未找到 != 不存在；工具無完整repost/quote欄位。</p>        </article>
+        <article class="panel" id="Q005">
+          <div class="panel-head">
+            <code>Q005</code>
+            <span class="badge partial">partial</span>
+          </div>
+          <h3>8個時間切片，各以中性詞『沈伯洋』『蔣萬安』、recency排序、每次要求50筆</h3>
+          <p class="muted">Threads Meta AI / content_search · 2026-09-01至2026-10-24，共16次搜尋 · 2026-10-25T00:50:56+08:00</p>
+<p>每次實際只回傳2–3筆；合併後30位不同作者，排除新聞、官方、組織、>=20K followers大帳號後剩9位且均被分類為pro-沈／洋流。此結果顯示工具回傳集合不適合作為跨陣營盛行率denominator，不能把B組0例解讀為反沈小帳號不存在或沒有高互動案例。</p>        </article>
+        <article class="panel" id="Q006">
+          <div class="panel-head">
+            <code>Q006</code>
+            <span class="badge found">found</span>
+          </div>
+          <h3>@eczht_tw 2026-10-15至10-24完整可取得貼文時間序列</h3>
+          <p class="muted">Threads Meta AI / fetch_posts · 19篇貼文likes序列 · 2026-10-25T13:55:00+08:00</p>
+<p>likes為180、48、27000、2100、12、16、43、10、110、55、340、16、2700、1200、34、48、13000、11、62；重新計算median=55、>=1000共5、<300共13。支持同帳號反覆post-level selective burst，但不決定cause。</p>        </article>
+        <article class="panel" id="Q007">
+          <div class="panel-head">
+            <code>Q007</code>
+            <span class="badge found">found</span>
+          </div>
+          <h3>S007與S008 early reply timeline</h3>
+          <p class="muted">Threads Meta AI / fetch_comments · 以同一timestamp source計算發文後30至360分鐘與24小時累積direct replies · 2026-10-25T13:55:00+08:00</p>
+<p>S007在quote前163分鐘194/312 records=62.2%，主要reply growth早於quote；S008同時點56/163=34.4%，較慢且更長尾。reply timeline不能換算likes或views。</p>        </article>
+        <article class="panel" id="Q008">
+          <div class="panel-head">
+            <code>Q008</code>
+            <span class="badge found">found</span>
+          </div>
+          <h3>@eczht_tw 7篇quote posts同帳號matched comparison</h3>
+          <p class="muted">Threads Meta AI / fetch_comments + shared-post card · 高量S008/S009/S010與低量S011-S014 · 2026-10-25T13:55:00+08:00</p>
+<p>高量三篇reply shape不同：27K與2.7K較慢，13K快速大量累積；低量四篇目前likes僅11至67、records 0至3。27K shared-post card另直接顯示176留言、494轉發、345分享。</p>        </article>
+        <article class="panel" id="Q009">
+          <div class="panel-head">
+            <code>Q009</code>
+            <span class="badge partial">partial</span>
+          </div>
+          <h3>高低量quote之被quote原文current likes比較</h3>
+          <p class="muted">Threads Meta AI / content_search + fetch_posts · @fredrickliu、@pumashen與4篇低量quote來源 · 2026-10-25T13:55:00+08:00</p>
+<p>低量quote來源current likes約1.1K、4.1K、1.9K、4.3K，但quote文僅16、34、11、67；顯示『source現在看起來熱門』不足以單獨預測quote起量。current source likes不得倒推quote當時歷史likes。</p>        </article>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head"><h2>Session notes</h2></div>
+      <div class="panel">
+        <ul>
+          <li>目前最穩健的總結是：@robinhoodspirit與@eczht_tw皆出現post-level selective burst；異常形狀成立，但bot／網軍attribution目前不成立，cause仍unresolved。</li>
+          <li>就現有證據的相對解釋力，內容特性、平台推薦與真人擴散比『已證實固定bot帳號池』更強；但沒有平台內部推薦日志，因此仍只屬工作解釋，不是已證實因果。</li>
+          <li>S007在S008 quote前已完成主要reply growth，削弱『quote後兩篇才一起被放大』；S008自身則呈較慢長尾reply growth。</li>
+          <li>同帳號高量quote沒有固定interaction recipe：S010為高reply快速成長型，S008／S009為低reply慢熱型。這削弱固定engagement-generator強模型，但不排除只操作likes的弱模型或hybrid。</li>
+          <li>真正能顯著提升attribution強度的新資料主要剩兩類：liker-level identity／timestamp／同步行為網路，或事前定義、可重現的prospective sampling用來估計不同陣營／內容類型selective burst prevalence。</li>
+          <li>『selective amplification』在本檔是描述結果集中於少數貼文的cause-neutral用語，不等於已證實外部操弄。</li>
+          <li>最簡單的keyword trigger模型已被同作者多篇沈伯洋相關低讚貼文削弱；若存在外部自動化，至少需要post-level selector或其他挑選條件。</li>
+          <li>author-wide boost模型被F002直接反駁；若使用author cache/watchlist假說，cache只能解釋『被持續發現』，不能解釋為何只有部分貼文爆量。</li>
+          <li>liker overlap是區分固定帳號池最直接的觀測之一，但目前公開／Meta AI可用工具未提供liker list；因此本輪無法檢驗。</li>
+          <li>回覆文字沒有明顯AI痕跡並不能反證『只負責likes的帳號池』，因為該hypothesis本來就不要求bot留言；但F003證明高讚文同時獲得大量可見回覆，會降低『只有likes被孤立灌高』模型的必要性。</li>
+          <li>下一步證據價值最高的是prospective test：事前固定作者與判準，完整記錄未來貼文，不依結果挑樣本；若再次out-of-sample出現『低基線 -> 特定政治文數千讚 -> 低基線 -> 特定政治文數千讚』，證據力高於事後案例搜尋。</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
