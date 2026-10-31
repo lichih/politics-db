@@ -1,0 +1,125 @@
+session:
+  id: 2026-10-31-lai-jaguar-donations-judicial-comparison
+  project: Politics
+  title: 賴瑞隆與雲豹／永鑫政治獻金及柯文哲威京政治獻金司法比較
+  started_at: '2026-10-31T13:41:00+08:00'
+  updated_at: '2026-10-31T13:41:00+08:00'
+  status: active
+topics: [政治獻金, 賴瑞隆, 雲豹能源, 永鑫能源, 京華城, 柯文哲, 司法一致性]
+sources:
+  - id: S001
+    source_type: secondary
+    publisher: 中央通訊社
+    title: 藍質疑收雲豹政治獻金　賴瑞隆：依法令規定處理
+    url: https://www.cna.com.tw/news/aipl/202610280135.aspx
+    published_at: '2026-10-28T13:41:00+08:00'
+    observed_at: '2026-10-31T13:41:00+08:00'
+    retrieval_status: reachable
+    notes:
+      - 報導國民黨團依監察院資料所提出的捐款指控，非本次直接下載監察院原始申報檔。
+      - 國民黨團也提出立院光電工程、公聽會及修法相關質疑，這些指控仍待逐項以立院原始紀錄驗證。
+  - id: S002
+    source_type: primary
+    publisher: 臺灣臺北地方法院／司法院
+    title: 113年度金訴字第51號刑事判決
+    url: https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TPDM%2C113%2C%E9%87%91%E8%A8%B4%2C51%2C20260326%2C16
+    published_at: '2026-03-26'
+    observed_at: '2026-10-31T13:41:00+08:00'
+    retrieval_status: reachable
+    notes:
+      - 2026-03-26一審判決，非確定判決；與賴瑞隆案的資金事實不可直接等同。
+  - id: S003
+    source_type: primary
+    publisher: 臺灣臺北地方法院／司法院
+    title: 臺灣臺北地方法院113年度金訴字第51號新聞稿
+    url: https://www.judicial.gov.tw/tw/cp-1888-1516567-f62f6-1.html
+    published_at: '2026-03-26'
+    observed_at: '2026-10-31T13:41:00+08:00'
+    retrieval_status: reachable
+  - id: S004
+    source_type: commentary
+    publisher: 黃國昌 Facebook
+    title: 檢調碰到新潮流就腿軟？
+    url: https://www.facebook.com/kcfor2016/posts/pfbid02deerrPNSGhzWaaeF7oQrCsjgswuuAfLoZUA1e8L1FeApdcdPNoatDjSTnP7wQRG7l
+    published_at: '2026-10-30'
+    observed_at: '2026-10-31T13:41:00+08:00'
+    retrieval_status: reachable
+    notes:
+      - 已透過使用者當時開啟的瀏覽器分頁讀得文字。
+      - 原貼文以兩案的企業相關政治獻金結構質疑檢調雙重標準，其政治評價非已證明之客觀犯罪事實。
+facts:
+  - id: F001
+    statement: 2026年10月28日國民黨團公開指稱，賴瑞隆2020立委選舉政治獻金由雲豹能源與永鑫能源各捐100萬元，另有10名相關高階主管在兩天內各捐10萬元，合計300萬元。
+    status: verified
+    observed_at: '2026-10-31T13:41:00+08:00'
+    source_ids: [S001]
+    evidence_summary: 中央社直接記錄記者會的具體指控和金額；本次尚未逐筆比對監察院申報資料，故 verified 限於「國民黨團公開提出此指控」。
+    tags: [政治獻金, 捐款模式]
+  - id: F002
+    statement: 賴瑞隆就上述質疑公開回應，任何政治人物選舉政治獻金均依法律規定處理，尊重依法處理及解釋。
+    status: verified
+    observed_at: '2026-10-31T13:41:00+08:00'
+    source_ids: [S001]
+    evidence_summary: 中央社刊載其回應，沒有提供對10人捐款協調與資金來源的具體逐筆解釋。
+  - id: F003
+    statement: 臺北地院2026年3月26日一審認定沈慶京指示威京集團相關人員先領取集團現金，再由7人以政治獻金名義各捐30萬元，合計210萬元，法院認定該款涉及違背職務收受賄賂。
+    status: verified
+    observed_at: '2026-10-31T13:41:00+08:00'
+    source_ids: [S002, S003]
+    evidence_summary: 一審判決明載資金來源、7名捐款人與政治獻金專戶及法院認定；此為一審法律事實認定，須追蹤後續審級。
+    tags: [威京集團, 判決, 政治獻金]
+  - id: F004
+    statement: 柯案一審所認定的210萬元除集中捐款外，尚有沈慶京指示、領取公司現金、朱亞虎與李文宗等通訊，以及容積具體請託等證據。
+    status: verified
+    observed_at: '2026-10-31T13:41:00+08:00'
+    source_ids: [S002, S003]
+    evidence_summary: 法院全文及新聞稿載明多種補強證據，不能將判決簡化為僅憑捐款人數與金額推定收賄。
+  - id: F005
+    statement: 國民黨團另公開指稱賴瑞隆曾參與立法院光電設置、主合辦20場以上綠能公聽會及推動再生能源發展條例修法。
+    status: verified
+    observed_at: '2026-10-31T13:41:00+08:00'
+    source_ids: [S001]
+    evidence_summary: 僅確認政治指控已公開提出；次級事實尚待核立法院公報、議案及工程履約資料。
+claims:
+  - id: C001
+    statement: 12筆據稱均達法定上限且個人捐款集中兩天，結合企業關係，可合理懷疑存在組織性協調。
+    status: supported
+    supports: [F001]
+    reasoning_notes: 這是由報導中捐款模式形成的合理推論；目前尚未取得監察院逐筆檔案，不等於已直接證實實際統籌人、出資者或違法。
+  - id: C002
+    statement: 兩案存在政治獻金與公權力利益關係的比較價值，應檢驗司法偵查標準是否一致。
+    status: supported
+    supports: [F001, F003, F004, F005]
+    reasoning_notes: 一審判決顯示政治獻金形式不足以排除賄賂；但柯案有直接金流、通訊等補強，不能推定賴案已具相同犯罪證據。比較重點包括啟動調查、調查範圍、資金追溯及公開課責。
+  - id: C003
+    statement: 檢調已確定未曾調查賴瑞隆，或已證明收受賄賂、存在政治指令。
+    status: unsupported
+    supports: []
+    reasoning_notes: 公開報導未見相應刑事程序，不等於司法上不存在未公開偵查；犯罪與具體政治指示均需額外證據。
+searches:
+  - id: Q001
+    observed_at: '2026-10-31T13:41:00+08:00'
+    platform: GitHub / politics-db
+    query: 賴瑞隆 雲豹 永鑫
+    result: not_found
+    notes: 先前代碼搜尋未命中，本次依目錄樹另讀柯文哲司法程序既有案件；不表示其他分支或未索引文件不存在。
+  - id: Q002
+    observed_at: '2026-10-31T13:41:00+08:00'
+    platform: web / 司法院
+    query: 臺北地院113年度金訴字第51號刑事判決與法院新聞稿
+    result: found
+  - id: Q003
+    observed_at: '2026-10-31T13:41:00+08:00'
+    platform: web / 中央社
+    query: 2026-10-28 賴瑞隆 雲豹 永鑫 政治獻金
+    result: found
+promotion:
+  cases: []
+  comparators: []
+  research: []
+notes:
+  - 待查原始監察院政治獻金各筆日期、捐款人、金額、捐款年度與法人關係；避免把記者會轉述當成已直接讀到申報原件。
+  - 待查高雄市新世代教育基金會設立及捐助人董事登記原始資料。
+  - 待用立法院議事暨公報資料核查修法提案、賴瑞隆擔任召委期間實際程序及利益範圍。
+  - 待確認公開偵查處理狀態，區分 not_found 與 never_existed。
+  - 司法比較需沿用既有 cases/2026-10-20-ko-wen-je-judicial-proceedings/evidence.yaml，不重寫其研究成果。
