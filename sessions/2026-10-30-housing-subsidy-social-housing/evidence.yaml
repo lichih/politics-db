@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "社會住宅、租金補貼與包租代管：承諾變更、政策成本與租金轉嫁證據"
   started_at: "2026-10-30T23:08:42+08:00"
-  updated_at: "2026-10-30T23:08:42+08:00"
+  updated_at: "2026-10-31T12:10:00+08:00"
   status: active
 
 topics:
@@ -81,6 +81,102 @@ sources:
       - "115年2月底直接興辦122757戶、包租代管曾協助107615戶家庭，經濟或社會弱勢戶43%。"
       - "官方將包租代管納入廣義社宅供給；分析必須分清直接興辦、包租代管及純租補。"
 
+  - id: S007
+    source_type: primary
+    publisher: "中華民國總統府"
+    title: "視察林口社宅：賴清德提出未來8年增加13萬戶社宅，中央負責三分之二"
+    url: "https://www.president.gov.tw/NEWS/27711"
+    published_at: "2023-07-06"
+    observed_at: "2026-10-31T12:10:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "賴清德明確提出未來8年增加13萬戶社會住宅、17萬戶包租代管，租金補貼擴大到每年50萬戶。"
+      - "賴清德並說明：最初由中央協助地方，後來發現地方量能不足，因此成立國家住都中心，由中央站在第一線、中央為主地方為輔；未來13萬戶約三分之二由中央、三分之一由地方負責。"
+  - id: S008
+    source_type: primary
+    publisher: "臺北市政府秘書處"
+    title: "柯文哲赴議會專案報告公宅政策及包租代管成效"
+    url: "https://sec.gov.taipei/News_Content.aspx?n=49B4C3242CB7658C&s=B1DBF1401A7CEBEB&sms=72544237BBE4C5F6"
+    published_at: "2019-05-20"
+    observed_at: "2026-10-31T12:10:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "柯文哲報告第一任期公宅進度：完工2587、施工5810、已決標及招標4817、規劃3436，稱與八年五萬戶目標不合並在檢討。"
+      - "針對預算至執行時間、物價上漲與流標，提出減項施作、預付款機制等調整；都發局設公宅戰情中心供追蹤進度。"
+  - id: S009
+    source_type: primary
+    publisher: "臺北市政府秘書處"
+    title: "出席居住正義記者會 柯文哲：訂定20年長期計畫解決問題"
+    url: "https://sec.gov.taipei/News_Content.aspx?n=49B4C3242CB7658C&s=5D5AF35C18FF61A1&sms=72544237BBE4C5F6"
+    published_at: "2022-09-28"
+    observed_at: "2026-10-31T12:10:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "柯文哲表示社宅從發包、設計到出租最快也需4年；若一年開工2500戶，5萬戶需20年。"
+      - "其政策態度是主張訂定20年長期計畫、以合理方式逐步推進，並非以困難否定戶數或停止興辦。"
+  - id: S010
+    source_type: primary
+    publisher: "臺北市政府都市發展局"
+    title: "社宅興辦五萬戶目標明確，市府將延續市政建設持續推動"
+    url: "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=AD09B0E225017F5E&sms=72544237BBE4C5F6"
+    published_at: "2023-05-15"
+    observed_at: "2026-10-31T12:10:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "北市府盤點柯文哲八年任內規劃完工4954戶；另有10332戶在施工、待開工、招標或規劃中。"
+      - "若加上郝龍斌任內規劃開工及取得的1566戶，當時已提供6520戶社宅資源；此數字不可全算作柯文哲任內新增完工。"
+  - id: S011
+    source_type: secondary
+    publisher: "中央社"
+    title: "囤房稅2.0方案 柯文哲：遲來的正義"
+    url: "https://www.cna.com.tw/news/aipl/202307070034.aspx"
+    published_at: "2023-07-07"
+    observed_at: "2026-10-31T12:10:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "賴清德7月6日提出住宅政見隔天，柯文哲即公開反駁中央對社宅成果與地方量能的敘述，社宅已成為兩名總統參選人的直接攻防議題。"
+  - id: S012
+    source_type: secondary
+    publisher: "中央社"
+    title: "柯文哲聚焦居住正義 批賴清德百萬戶社宅恐跳票"
+    url: "https://www.cna.com.tw/news/aipl/202312200365.aspx"
+    published_at: "2023-12-20"
+    observed_at: "2026-10-31T12:10:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "總統選舉首場政見會，柯文哲以居住正義與社宅政策直接批評賴清德，並稱要把台北蓋社宅經驗推廣至全國。"
+  - id: S013
+    source_type: secondary
+    publisher: "中央社"
+    title: "賴清德：塭仔圳5%蓋社宅 侯沒能力可賣給中央我來蓋"
+    url: "https://www.cna.com.tw/news/aipl/202312260170.aspx"
+    published_at: "2023-12-26"
+    observed_at: "2026-10-31T12:10:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "賴清德在總統候選人政見會重申8年新建13萬多戶、包租代管17萬戶。"
+      - "他主張若地方政府不願或沒有能力，可把土地用原價賣給中央，由中央來興建，顯示其競選論述把中央量能作為地方不足的解法。"
+  - id: S014
+    source_type: secondary
+    publisher: "中央社"
+    title: "賴清德：我是唯一沒有炒地炒房 已發表居住三大政策"
+    url: "https://www.cna.com.tw/news/aipl/202312300131.aspx"
+    published_at: "2023-12-30"
+    observed_at: "2026-10-31T12:10:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "總統候選人辯論會中，賴清德直接回應柯文哲並稱『柯文哲可以看看數據』，再次重申8年新建13萬戶、包租代管17萬戶。"
+  - id: S015
+    source_type: primary
+    publisher: "內政部國土管理署"
+    title: "社宅用地已採多元方式取得 未來8年將可如期達成直接興辦社宅13萬戶目標"
+    url: "https://www.moi.gov.tw/News_Content.aspx?Create=1&n=4&s=318577"
+    published_at: "2024-08-02"
+    observed_at: "2026-10-31T12:10:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "國土署表示行政院已盤點227處國公有土地，規劃每年新增社宅，稱可如期達成『直接興辦社宅13萬戶』的新一階段目標。"
+
 facts:
   - id: F001
     statement: "羅煊2026-10-29投書主張不應僅依社宅戶數衡量政策，並以柯文哲與賴清德的未達／變更目標作例，倡議按家戶需求選擇租補、包租代管或永久社宅。"
@@ -143,6 +239,65 @@ facts:
     evidence_summary: "官方公開描述三種供給／支持工具同時推進。"
     tags: ["政策工具"]
 
+  - id: F008
+    statement: "賴清德2023-07-06提出未來8年增加13萬戶社會住宅，並明確說明因地方量能不足，政策已改由中央站第一線；新增13萬戶約三分之二由中央、三分之一由地方負責。"
+    status: verified
+    observed_at: "2026-10-31T12:10:00+08:00"
+    source_ids: [S007]
+    evidence_summary: "總統府原始新聞稿直接記錄13萬戶承諾、地方量能不足判斷及中央地方分工。"
+    tags: ["政策承諾", "中央地方量能", "時間序"]
+  - id: F009
+    statement: "柯文哲2019年已公開承認八年五萬戶與當時進度不符，並針對預算至執行時間、物價上漲、流標等問題提出減項施作、預付款及公宅戰情中心等行政調整。"
+    status: verified
+    observed_at: "2026-10-31T12:10:00+08:00"
+    source_ids: [S008]
+    evidence_summary: "北市府2019-05-20專案報告同時記錄進度落差、困難與行政處置。"
+    tags: ["柯文哲", "行政執行", "社宅進度"]
+  - id: F010
+    statement: "柯文哲2022年公開表示社宅從發包設計到出租最快約4年，若一年開工2500戶則5萬戶需20年，並主張制定20年長期計畫逐步推進。"
+    status: verified
+    observed_at: "2026-10-31T12:10:00+08:00"
+    source_ids: [S009]
+    evidence_summary: "北市府原始新聞稿可直接確認其對工期、合理速度與長期推進的公開態度。"
+    tags: ["柯文哲", "行政態度", "長期計畫"]
+  - id: F011
+    statement: "臺北市政府2023-05-15盤點：柯文哲八年任內規劃完工4954戶，另有10332戶仍在施工、待開工、招標或規劃中。"
+    status: verified
+    observed_at: "2026-10-31T12:10:00+08:00"
+    source_ids: [S010]
+    evidence_summary: "北市都發局在柯卸任後的官方盤點提供可驗收的完工與後續工程管線數字。"
+    verification_notes:
+      - "不能把10332戶全部寫成已完工；也不能把郝任內1566戶算成柯任內新增完工。"
+    tags: ["柯文哲", "社宅成果", "統計口徑"]
+  - id: F012
+    statement: "賴清德2023年提出13萬戶後，柯文哲隔日即就社宅成果與地方量能公開反駁；同年12月總統政見會與辯論會，兩人仍直接以社宅政策互相攻防。"
+    status: verified
+    observed_at: "2026-10-31T12:10:00+08:00"
+    source_ids: [S011, S012, S014]
+    evidence_summary: "時間序顯示柯文哲社宅經驗不是與賴清德承諾無關的舊案，而是2023總統選舉中的直接政策爭點。"
+    tags: ["選舉攻防", "社宅", "時間序"]
+  - id: F013
+    statement: "賴清德2023年競選期間重申新建13萬多戶社宅，並公開主張地方若不願或沒有能力興建，可將土地交由中央來興建。"
+    status: verified
+    observed_at: "2026-10-31T12:10:00+08:00"
+    source_ids: [S013]
+    evidence_summary: "其競選論述明確把中央興建能力當作克服地方量能不足的解法。"
+    tags: ["賴清德", "中央量能", "政策承諾"]
+  - id: F014
+    statement: "內政部國土署2024-08-02仍稱未來8年可如期達成『直接興辦社宅13萬戶』目標，並表示行政院已盤點227處國公有土地作為用地來源。"
+    status: verified
+    observed_at: "2026-10-31T12:10:00+08:00"
+    source_ids: [S015]
+    evidence_summary: "2024年官方仍以『直接興辦13萬戶』描述新階段目標。"
+    tags: ["政策口徑", "直接興辦", "國公有土地"]
+  - id: F015
+    statement: "2026年官方維持114至121年13萬戶總目標，但表述已改為直接興建、都更分回、容積獎勵及地方整體開發等『多元興辦』方式；這與2024年官方『直接興辦13萬戶』的表述不同。"
+    status: verified
+    observed_at: "2026-10-31T12:10:00+08:00"
+    source_ids: [S002, S003, S015]
+    evidence_summary: "可核實官方目標表述與取得方式發生變化；是否構成實質降低原承諾標準仍需比較各取得方式的法律控制、計算口徑及交付效果。"
+    tags: ["政策口徑", "多元興辦", "待比較"]
+
 claims:
   - id: C001
     statement: "租補導致全台灣私人租金普遍上升，且補貼大多被房東吸收。"
@@ -164,6 +319,17 @@ claims:
     status: contradicted
     contradicts: [F002]
     reasoning_notes: "國土署明言目標仍為13萬戶；可另檢驗達標可行性、組成及期限。"
+
+  - id: C005
+    statement: "柯文哲社宅執行上的土地、工期、流標與行政量能限制，是賴清德2023年提出13萬戶後才出現的新情勢。"
+    status: contradicted
+    contradicts: [F009, F010, F011, F012]
+    reasoning_notes: "相關限制與執行落差在2019、2022已公開；2023年柯與賴又直接就社宅政策攻防。這些限制不能被描述成2026年才出現的新資訊。"
+  - id: C006
+    statement: "2026年的『多元興辦13萬戶』與2024年的『直接興辦13萬戶』在計算口徑、公共控制權與長期政策效果上完全等價。"
+    status: unresolved
+    related_facts: [F014, F015]
+    reasoning_notes: "目前已證實官方表述與取得方式改變，但尚須逐項核對都更分回、容積獎勵、整體開發等取得住宅的所有權／使用控制、納入戶數規則及交付期限，才能判斷是否為同等成果。"
 
 searches:
   - id: Q001
@@ -188,12 +354,22 @@ searches:
     result: partial
     notes: "本輪未取得可覆核之全國因果估計及完整模型；不宣稱其不存在。"
 
+  - id: Q004
+    observed_at: "2026-10-31T12:10:00+08:00"
+    platform: web
+    query: "柯文哲八年五萬戶執行鏈、賴清德2023社宅政見與柯文哲直接攻防、2024直接興辦13萬與2026多元興辦13萬口徑"
+    scope: "總統府、臺北市政府、內政部國土署、中央社2023總統選舉報導"
+    result: found
+    notes: "已建立承諾—困難—行政處置—成果，以及賴清德知情後仍以中央量能作為13萬戶解法的時間序；政策口徑是否實質降標仍留為待查命題。"
+
 promotion:
   cases: []
   comparators: []
   research: []
 
 notes:
+  - "2026-10-31補入柯文哲社宅行政執行鏈、賴清德2023競選期間的直接社宅攻防，以及2024『直接興辦13萬戶』至2026『多元興辦13萬戶』的口徑變化。"
+  - "本輪關鍵判準：困難本身不是成果；比較政治承諾時應區分原始承諾、已知限制、行政處置、可驗收成果，以及事後是否改變驗收口徑。"
   - "收錄來源可核實的言論、政策、法條、報導結果；把補貼轉嫁與作者動機留在待證命題。"
   - "不同期間、不同分母的租金與社宅數據不得直接比較；尤其興辦、完工、入住、租補核定與包租代管媒合均非同一指標。"
   - "待補中央研究院2024房東調查原始問卷與分母、公視10月21租補漲租報導、政府續約租金93/6/1統計、2023最初13萬戶承諾、OURs原模型後再新增facts。"
