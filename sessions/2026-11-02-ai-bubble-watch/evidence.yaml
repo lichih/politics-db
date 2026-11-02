@@ -1,0 +1,169 @@
+session:
+  id: "2026-11-02-ai-bubble-watch"
+  project: Politics
+  title: "AI 泡沫持續觀察：OpenAI 募資與大型科技公司資本支出基準線"
+  started_at: "2026-11-02T15:47:00+08:00"
+  updated_at: "2026-11-02T15:47:00+08:00"
+  status: active
+
+topics:
+  - "AI"
+  - "AI 泡沫"
+  - "OpenAI"
+  - "資本支出"
+  - "自由現金流"
+  - "估值"
+  - "募資"
+
+sources:
+  - id: S001
+    source_type: secondary
+    publisher: "Reuters"
+    title: "OpenAI slashes funding target by $10 billion amid tech rout, FT reports"
+    url: "https://www.reuters.com/business/openai-cuts-funding-target-by-10-billion-ft-reports-2026-10-31/"
+    published_at: "2026-10-31"
+    observed_at: "2026-11-02T15:47:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "Reuters 轉述 Financial Times 報導；OpenAI 未在本文中被引述為正式確認相關募資數字。"
+  - id: S002
+    source_type: primary
+    publisher: "Amazon.com, Inc."
+    title: "Amazon.com Announces Third Quarter Results"
+    url: "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/"
+    published_at: "2026-10-29"
+    observed_at: "2026-11-02T15:47:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "Amazon 投資人關係官方財報新聞稿。"
+  - id: S003
+    source_type: primary
+    publisher: "Meta Platforms, Inc."
+    title: "Meta Reports Third Quarter 2026 Results"
+    url: "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/"
+    published_at: "2026-10-21"
+    observed_at: "2026-11-02T15:47:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "Meta 投資人關係官方財報新聞稿。"
+  - id: S004
+    source_type: primary
+    publisher: "Microsoft Corp."
+    title: "Microsoft Fiscal Year 2027 First Quarter Earnings Conference Call"
+    url: "https://www.microsoft.com/en-us/investor/events/fy-2027/earnings-fy-2027-q1"
+    published_at: "2026-10-28"
+    observed_at: "2026-11-02T15:47:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "Microsoft 官方投資人關係 earnings call transcript。"
+
+facts:
+  - id: F001
+    statement: "Reuters 於 2026-10-31 轉述 Financial Times 報導，OpenAI 最新一輪募資目標由 300 億美元下修約 100 億美元至約 200 億美元，期望估值由 1.4 兆美元降至 1.25 兆美元；報導並稱部分投資人縮減認購，使首輪交割預期低於 200 億美元。"
+    status: partial
+    observed_at: "2026-11-02T15:47:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "可確認 Reuters 已如此報導，但核心募資數字來自 FT／消息來源，並非 OpenAI 官方公告，因此只記為媒體報導支持的部分核實事證。"
+    verification_notes:
+      - "可用來證明資本市場對 OpenAI 募資條件出現轉弱訊號，不足以單獨證明 AI 產業泡沫。"
+      - "未把期望估值或募資目標視為已完成交易價格。"
+    tags:
+      - "OpenAI"
+      - "募資"
+      - "估值"
+      - "secondary-report"
+  - id: F002
+    statement: "Amazon 2026 年第三季 AWS 銷售年增 39% 至 460 億美元；截至 2026-09-30 的過去十二個月營運現金流為 1,683 億美元、年增 29%，自由現金流則由前一年的正 148 億美元轉為負 424 億美元。Amazon 表示，固定資產淨購置額年增 948 億美元，主要反映人工智慧投資；公司並維持 2026 年現金資本支出約 2,200 億美元的預期。"
+    status: verified
+    observed_at: "2026-11-02T15:47:00+08:00"
+    source_ids: [S002]
+    evidence_summary: "Amazon 官方財報同時呈現強勁 AWS 收入成長與 AI 基礎建設投資造成的自由現金流轉負，可作為『需求存在但資本需求快速擴張』的直接基準線。"
+    verification_notes:
+      - "AWS 銷售成長不能全部歸因於 AI；本文僅用它證明雲端業務收入仍高速成長。"
+      - "自由現金流為過去十二個月口徑，不與單季 Meta、Microsoft 數字直接加總比較。"
+    tags:
+      - "Amazon"
+      - "AWS"
+      - "AI investment"
+      - "free cash flow"
+      - "capex"
+  - id: F003
+    statement: "Meta 2026 年第三季營收 646.01 億美元、年增 26%；資本支出（含融資租賃本金）349.1 億美元，營運現金流 327.86 億美元，單季自由現金流為負 21.2 億美元。2026 年前九個月自由現金流仍為正 110.49 億美元。"
+    status: verified
+    observed_at: "2026-11-02T15:47:00+08:00"
+    source_ids: [S003]
+    evidence_summary: "Meta 官方財報顯示單季資本支出已高於營運現金流、使單季自由現金流轉負，但年初至今仍為正，不能把單季數字誇大成整體現金流失速。"
+    verification_notes:
+      - "此 fact 不把全部 Meta 資本支出都歸因於 AI。"
+      - "保留九個月自由現金流仍為正的反向資訊，以免選擇性呈現。"
+    tags:
+      - "Meta"
+      - "capex"
+      - "free cash flow"
+  - id: F004
+    statement: "Microsoft FY2027 第一季資本支出為 452 億美元，其中約四分之三為以 CPU、GPU 為主的短期資產；現金支付不動產、廠房及設備 394 億美元，營運現金流 580 億美元，自由現金流仍為正 186 億美元。公司並預期 FY2027 維持正自由現金流。"
+    status: verified
+    observed_at: "2026-11-02T15:47:00+08:00"
+    source_ids: [S004]
+    evidence_summary: "Microsoft 官方 earnings call 提供重要反證：大規模 AI／資料中心資本支出並不必然立即導致負自由現金流。"
+    verification_notes:
+      - "Microsoft 指出下一季資本支出預計超過 500 億美元，顯示投資仍在加速。"
+      - "正自由現金流不能單獨證明現有估值合理，只能反駁『高 AI 資本支出必然造成現金流轉負』。"
+    tags:
+      - "Microsoft"
+      - "GPU"
+      - "capex"
+      - "free cash flow"
+
+claims:
+  - id: C001
+    statement: "截至 2026-11-02，現有公開證據已足以證明整個 AI 產業形成不可持續的資產或估值泡沫。"
+    status: unresolved
+    supports: [F001, F002, F003]
+    contradicts: [F004]
+    related_facts: [F001, F002, F003, F004]
+    reasoning_notes: "募資條件轉弱與資本支出壓力是泡沫風險訊號，但仍有收入高速成長與正自由現金流反證；缺乏足以對整體產業估值、終端需求、融資結構與未來現金流作定論的資料。"
+  - id: C002
+    statement: "大額 AI 投資已在至少部分大型科技公司明顯壓縮自由現金流。"
+    status: supported
+    supports: [F002]
+    related_facts: [F002, F003]
+    reasoning_notes: "Amazon 官方直接把固定資產投資增加主要歸因於 AI，並同時出現過去十二個月自由現金流轉負；Meta 亦呈現單季資本支出高於營運現金流，但本文不把 Meta 全部資本支出直接歸因於 AI。"
+  - id: C003
+    statement: "只要 AI 資本支出升高，大型科技公司就必然轉為負自由現金流。"
+    status: contradicted
+    contradicts: [F004]
+    related_facts: [F002, F003, F004]
+    reasoning_notes: "Microsoft 同期維持正自由現金流，顯示企業既有現金創造能力與投資效率仍會改變結果。"
+  - id: C004
+    statement: "OpenAI 本輪募資條件相較先前報導的目標已有轉弱。"
+    status: supported
+    supports: [F001]
+    related_facts: [F001]
+    reasoning_notes: "支持強度限於 Reuters／FT 的報導層級；尚非 OpenAI 官方確認或已完成交易結果。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-11-02T15:47:00+08:00"
+    platform: "GitHub code search"
+    query: "AI 泡沫"
+    scope: "lichih/politics-db default branch"
+    result: not_found
+    notes: "此次查詢未找到既有 AI 泡沫 evidence；只表示目前此 query 未命中，不代表 repo 從未保存相關概念。"
+  - id: Q002
+    observed_at: "2026-11-02T15:47:00+08:00"
+    platform: "web"
+    query: "OpenAI funding target; Amazon Q3 2026; Meta Q3 2026; Microsoft FY2027 Q1 capex/free cash flow"
+    scope: "Reuters 與公司官方投資人關係頁面"
+    result: found
+    notes: "以 OpenAI 募資消息作為事件觸發點，並用 Amazon、Meta、Microsoft 官方財報建立支持與反證基準線。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "本 session 的目的不是宣告『AI 泡沫成立』，而是建立可持續更新的觀察基準線。"
+  - "後續優先追蹤：OpenAI 實際募資成交條件、AI 相關收入與終端付費、hyperscaler 資本支出／營運現金流／自由現金流、供應商融資與交叉投資結構。"
+  - "不同公司的財報口徑與期間不同，不應直接把單季、九個月與 TTM 數字相加比較。"
