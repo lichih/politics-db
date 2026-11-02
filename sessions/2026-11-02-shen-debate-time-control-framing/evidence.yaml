@@ -1,0 +1,133 @@
+session:
+  id: "2026-11-02-shen-debate-time-control-framing"
+  project: Politics
+  title: "沈伯洋台北市長辯論：政見內容與「0 秒控時」媒體 framing"
+  started_at: "2026-11-02T19:03:00+08:00"
+  updated_at: "2026-11-02T19:03:00+08:00"
+  status: closed
+
+topics:
+  - "沈伯洋"
+  - "2026 台北市長選舉"
+  - "電視辯論"
+  - "媒體 framing"
+  - "社群互動"
+
+sources:
+  - id: S001
+    source_type: secondary
+    publisher: "LIFE 生活網 台灣大小事"
+    title: "一場 8 分鐘完全不看稿的政見申論，換來社群平台上高達 20 萬個讚與 3.1 萬次轉發"
+    url: "https://www.facebook.com/0101testnews9/posts/pfbid0xCp4nQM5NgVSEb4HL3ktsR7o7iwbs64StvNYWyUCDqtupZQtJVbbqD3z4ViNnF3Ll"
+    observed_at: "2026-11-02T13:07:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "以已登入 Facebook 的 Opera Browser Connector 讀取；反應數、留言數、分享數與留言排序屬動態頁面狀態。"
+      - "貼文內容大量改寫／延伸自由時報 2026-11-01 報導。"
+
+  - id: S002
+    source_type: secondary
+    publisher: "自由時報"
+    title: "沈伯洋辯論精準控時0秒出手！ 作家驚呼：沈教授根本回到主場"
+    url: "https://news.ltn.com.tw/news/politics/breakingnews/5625481"
+    published_at: "2026-11-01T10:49:00+08:00"
+    observed_at: "2026-11-02T13:07:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導稱沈伯洋 8 分鐘政見申論幾乎未低頭看稿，最後一字落在計時器 00:00。"
+      - "報導並稱團隊上傳 Threads 的片段有 20 萬按讚、3.1 萬次轉發；本次未獨立取得 Threads 原始貼文核對。"
+
+  - id: S003
+    source_type: commentary
+    publisher: "Facebook／LIFE 生活網 台灣大小事貼文留言區"
+    title: "LIFE 貼文「最相關」留言與互動快照"
+    url: "https://www.facebook.com/0101testnews9/posts/pfbid0xCp4nQM5NgVSEb4HL3ktsR7o7iwbs64StvNYWyUCDqtupZQtJVbbqD3z4ViNnF3Ll"
+    observed_at: "2026-11-02T13:07:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "Facebook「最相關」排序不是代表性抽樣；留言可見反應數會隨時間變動。"
+
+facts:
+  - id: F001
+    statement: "LIFE 貼文把沈伯洋 8 分鐘政見申論的主要亮點明確放在不看稿與精準控時，而不是政見內容本身。"
+    status: verified
+    observed_at: "2026-11-02T13:07:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "貼文先說重點不在驚天動地的金句，而在時間掌控力；後文反覆描述幾乎不看稿、倒數至 00:00 剛好說完最後一字、教授研討會經驗與控時能力。"
+    excerpt: "重點不是他講了什麼驚天動地的金句"
+    verification_notes:
+      - "此 fact 只描述該貼文實際採用的評價焦點，不判定沈伯洋政見內容本身好壞。"
+    tags:
+      - "media-framing"
+      - "presentation-performance"
+      - "debate"
+
+  - id: F002
+    statement: "自由時報 2026-11-01 報導同樣以沈伯洋幾乎不看稿、在 00:00 說完最後一字，以及作家謝宜安對控時能力的稱讚為主要內容。"
+    status: verified
+    observed_at: "2026-11-02T13:07:00+08:00"
+    source_ids: [S002]
+    evidence_summary: "報導標題即為「辯論精準控時0秒出手」，正文記載 8 分鐘申論幾乎未低頭看稿，並以謝宜安對學術研討會計時經驗與控時能力的評論作為主要敘事。"
+    verification_notes:
+      - "此 fact 是對新聞文本內容的核對，不等於認定該能力足以代表整場辯論品質。"
+    tags:
+      - "secondary-source"
+      - "media-framing"
+      - "time-control"
+
+  - id: F003
+    statement: "自由時報報導稱，沈伯洋團隊將該 8 分鐘片段上傳 Threads 後獲得 20 萬人按讚、3.1 萬次轉發。"
+    status: verified
+    observed_at: "2026-11-02T13:07:00+08:00"
+    source_ids: [S002]
+    evidence_summary: "可確認的是自由時報確實如此報導；本次沒有以 Threads 原始貼文或平台資料獨立驗證該數字。"
+    verification_notes:
+      - "「自由時報如此報導」已核實；「Threads 原始互動數確為 20 萬／3.1 萬」仍未獨立核實。"
+    tags:
+      - "threads"
+      - "social-engagement"
+      - "secondary-report"
+
+  - id: F004
+    statement: "2026-11-02 13:07（Asia/Taipei）觀察 LIFE Facebook 貼文頁面時，頁面約顯示 1.9 萬個反應、3,444 則留言、433 次分享。"
+    status: verified
+    observed_at: "2026-11-02T13:07:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "Facebook 頁面在該次擷取中顯示約 1.9 萬反應、3,444 留言與 433 分享。"
+    verification_notes:
+      - "這是單一時間點快照，不應視為固定最終數字。"
+    tags:
+      - "facebook"
+      - "engagement-snapshot"
+
+  - id: F005
+    statement: "同一次「最相關」留言快照中，可見多則高互動留言質疑申論內容、執行面或只以不看稿／控時吹捧表現。"
+    status: verified
+    observed_at: "2026-11-02T13:07:00+08:00"
+    source_ids: [S003]
+    evidence_summary: "可見留言中，至少有一則批評內容空洞者約 3,038 個反應；一則質疑看不到執行面有效對策者約 892；一則批評只看計時器者約 828；一則質疑把不看稿拿來造神者約 596；另有一則以「陪伴」諷刺同溫層者約 949。"
+    verification_notes:
+      - "未驗證留言者黨派、是否看完整辯論或是否屬候選人支持者。"
+      - "最相關排序與反應數不能代表全體觀眾分布；本 fact 只證明這些反向評價在該頁面上存在且獲得可見互動。"
+    tags:
+      - "facebook-comments"
+      - "counter-reaction"
+      - "nonrepresentative-sample"
+
+claims:
+  - id: C001
+    statement: "該 Threads 原始貼文的實際互動數確為 20 萬按讚、3.1 萬次轉發。"
+    status: unresolved
+    related_facts: [F003]
+    reasoning_notes: "目前只核到自由時報與 LIFE 轉述／改寫；尚未直接取得 Threads 原始貼文或平台資料核對，因此不能把二手報導數字升格為獨立驗證事實。"
+
+searches: []
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "本 session 保存媒體文本、社群頁面快照與未核實邊界。"
+  - "「由政見內容轉向 presentation performance 的評價判準轉移」屬分析／方法 sample，另存 epistemic-backplane，不作為本 evidence ledger 的外部事實。"
