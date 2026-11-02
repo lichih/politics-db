@@ -3,8 +3,8 @@ session:
   project: Politics
   title: 移工勞保喪葬給付、勞工法律扶助與泰博／台聯論述鏈
   started_at: '2026-11-02T13:20:00+08:00'
-  updated_at: '2026-11-02T15:05:00+08:00'
-  status: active
+  updated_at: '2026-11-02T15:34:00+08:00'
+  status: closed
 
 topics:
 - 移工
@@ -156,6 +156,61 @@ sources:
   - 勞動部明確表示，目前無任何法規規定勞資爭議發生時，雇主必須負擔移工的律師費和訴訟費。
   - 勞動部同時說明，勞工法律扶助有申請資格、案件類型與資力條件，符合資格者才能申請；訴訟費用最終依訴訟結果由敗訴一方負擔。
 
+- id: S012
+  source_type: primary
+  publisher: 司法院
+  title: 提起民事訴訟是否一定要請律師？
+  url: https://www.judicial.gov.tw/tw/cp-1303-2596-c62b0-1.html
+  published_at: '2010-12-14'
+  observed_at: '2026-11-02T15:34:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 司法院說明，民事訴訟第一、二審不採律師強制主義，當事人原則上可自行進行訴訟，也可自行委任律師；第三審則有強制律師代理規定。
+  - 此來源用來界定一般一、二審自聘律師與法定強制代理的差異。
+
+- id: S013
+  source_type: primary
+  publisher: 全國法規資料庫
+  title: 民事訴訟法
+  url: https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0010001
+  observed_at: '2026-11-02T15:34:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 第77條之25將法院依法為當事人選任之律師酬金列為訴訟費用之一部；第466條之3另規定第三審律師酬金為訴訟費用之一部。
+  - 第78條規定訴訟費用原則由敗訴當事人負擔；上述條文顯示律師酬金列入訴訟費用有特定法定情形，不能概括理解為一般一、二審自聘律師費由對造負擔。
+
+- id: S014
+  source_type: primary
+  publisher: 勞動部勞工保險局
+  title: 勞工保險條例第15條
+  url: https://www.bli.gov.tw/0102422.html
+  observed_at: '2026-11-02T15:34:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 第15條規定一定雇主之一般受僱勞工普通事故保險費，由被保險人負擔20%、投保單位70%、中央政府補助10%。
+
+- id: S015
+  source_type: primary
+  publisher: 勞動部勞工保險局
+  title: How should foreign labor’s labor insurance premium be shared?
+  url: https://www.bli.gov.tw/en/0011479.html
+  published_at: '2025-01-02'
+  observed_at: '2026-11-02T15:34:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 勞保局外籍勞工FAQ明確說明，有一定雇主之外籍勞工普通事故保險費同樣由被保險人20%、投保單位70%、政府10%分擔。
+
+- id: S016
+  source_type: commentary
+  publisher: 峰言峰語
+  title: 移工之亂 - 移工告你，律師費全由國人出
+  url: https://www.facebook.com/reel/1000672169755509/
+  observed_at: '2026-11-02T15:34:00+08:00'
+  retrieval_status: blocked
+  notes:
+  - 本案對外回應的原始社群來源；本次工具環境無法直接重取該Facebook Reel全文。
+  - 因未能直接重取，僅保存公開URL與主張來源定位，不以此來源驗證其底層事實。
+
 facts:
 - id: F001
   statement: 2026年4月1日泰博科技記者會中，董事長陳朝旺與台聯黨主席周倪安同場，周倪安公開主張移工並非台灣國民，為國人訂定的勞動相關法規本來就不該與移工一體適用。
@@ -253,6 +308,22 @@ facts:
   evidence_summary: 現行收支保管及運用辦法第3至5條顯示兩基金的預算層級、收入與用途關係；可確認就安費進入就業安定基金，但不足以把某一雇主繳費直接視為某一案件律師費來源。
   tags: [就業安定基金, 勞工權益基金, 就業安定費, 財源, 法律扶助]
 
+- id: F013
+  statement: 民事訴訟第一、二審原則不採律師強制代理；當事人若自行委任律師，並不存在因對造為移工而使自身律師費自動改由國家或對造負擔的特別規則。民事訴訟法對法院選任律師及第三審律師酬金列為訴訟費用另有特別規定。
+  status: verified
+  observed_at: '2026-11-02T15:34:00+08:00'
+  source_ids: [S012, S013]
+  evidence_summary: 司法院說明第一、二審不採律師強制主義；民事訴訟法則對可列為訴訟費用的律師酬金設有特定規定。一般企業雇主自聘律師費的制度位置不會因原告是本國勞工或移工而改變。
+  tags: [民事訴訟, 律師費, 雇主, 勞資爭議, 訴訟費用]
+
+- id: F014
+  statement: 有一定雇主的一般受僱勞工與外籍移工，勞工保險普通事故保險費的分擔比例同為被保險人20%、投保單位70%、政府10%。
+  status: verified
+  observed_at: '2026-11-02T15:34:00+08:00'
+  source_ids: [S014, S015]
+  evidence_summary: 勞工保險條例第15條與勞保局外籍勞工FAQ分別確認一般受僱者與有一定雇主之外籍勞工適用相同20/70/10普通事故保費分擔結構。
+  tags: [勞保, 外籍移工, 本國勞工, 保費分擔, '20/70/10']
+
 claims:
 - id: C001
   statement: 周倪安與陳朝旺／泰博在2026年的移工政策論述可以視為彼此完全獨立的兩個來源，互相提供獨立佐證。
@@ -310,6 +381,14 @@ claims:
   related_facts: [F008, F009]
   reasoning_notes: 就業安定基金下設勞工權益基金，兩者在法定收入與預算上不是「某雇主繳一筆、某案件即支出同一筆」的逐筆關係；勞工權益基金並另有政府撥款、孳息、捐贈等法定財源。勞動部也明確澄清，現行法規沒有要求個別雇主在勞資爭議中負擔移工的律師費或訴訟費。
 
+- id: C008
+  statement: 「移工告你，律師費國家出；但你自己的律師費自己出」足以證明移工相較一般台灣人享有額外的訴訟特權。
+  status: contradicted
+  supports: []
+  contradicts: [F006, F011, F013]
+  related_facts: [F007, F012, F014]
+  reasoning_notes: 這個敘事把比較單位混在一起。法律扶助以符合案件、程序與資力條件的勞工為對象，本國勞工符合資格同樣可以申請；而企業雇主自聘律師費的制度位置，也不會因對造是本國勞工或移工而改變。因此真正的不對稱是「符合扶助資格的勞工 vs 雇主」，不是「移工 vs 台灣人」。
+
 searches:
 - id: Q001
   observed_at: '2026-11-02T13:20:00+08:00'
@@ -343,6 +422,30 @@ searches:
   result: found
   notes: 現行基金運用辦法明列勞工訴訟扶助，WDA並列家庭看護與製造業就安費標準。
 
+- id: Q005
+  observed_at: '2026-11-02T15:34:00+08:00'
+  platform: web
+  query: 民事訴訟 第一二審 律師費 自行負擔；民事訴訟法 律師酬金 訴訟費用
+  scope: 司法院、全國法規資料庫
+  result: found
+  notes: 找到司法院第一、二審不採律師強制主義說明，以及民事訴訟法對法院選任與第三審律師酬金列入訴訟費用的特別規定。
+
+- id: Q006
+  observed_at: '2026-11-02T15:34:00+08:00'
+  platform: web
+  query: 外籍移工 勞保 普通事故 保費 20% 70% 10%
+  scope: 勞動部勞工保險局
+  result: found
+  notes: 勞保條例第15條與勞保局外籍勞工FAQ確認本國一般受僱者與有一定雇主之外籍勞工均採20/70/10分擔。
+
+- id: Q007
+  observed_at: '2026-11-02T15:34:00+08:00'
+  platform: web
+  query: 「移工告你，律師費全由國人出」 峰言峰語
+  scope: 公開網頁與新聞索引
+  result: partial
+  notes: 找到勞動部與新聞對相關社群短影音主張的澄清，但未能從公開搜尋直接重取峰言峰語Facebook Reel全文；因此原始Reel僅保存URL與blocked狀態，不作底層事實證明。
+
 promotion:
   cases: []
   comparators: []
@@ -354,3 +457,4 @@ notes:
 - 本 session 只保存公開可核對事證，不保存使用者與家庭看護移工的私人生活經驗或第三方家庭個案。
 - 「周倪安／台聯、陳朝旺／泰博存在直接公開合作」已可確認；但目前沒有證據證明9.4萬元喪葬給付指控是陳朝旺提供，也沒有證據證明特定法律扶助說法是周倪安指示陳朝旺提出。
 - 公共論述分析上，假詐領風險與合法被保險人的制度資格是不同命題；企業移工與家庭看護也應分框架分析。
+- 關案主結論：法律扶助的比較單位應先區分勞工與雇主。本國勞工與移工在符合資格時均可申請勞工法律扶助；企業雇主自聘律師費的制度位置亦不因對造國籍而改變。將「企業雇主」以「你」代稱，會把原本的勞工／雇主差異誤寫成移工／台灣人差異。
