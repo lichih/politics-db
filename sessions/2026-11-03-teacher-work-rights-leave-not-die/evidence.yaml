@@ -3,7 +3,7 @@ session:
   project: Politics
   title: 教師工作權、離線權與「離職不殉職」口號的事證整理
   started_at: '2026-11-03T13:26:39+08:00'
-  updated_at: '2026-11-03T13:26:39+08:00'
+  updated_at: '2026-11-03T17:32:00+08:00'
   status: active
 topics:
 - 教師工作權
@@ -163,6 +163,66 @@ sources:
   retrieval_status: reachable
   notes:
   - 113學年度身心障礙類特殊教育班正式教師甄選缺額35名；此資料僅能證明當年有正式特教教師分發管道，不能證明台中個案即屬該批錄取者。
+- id: S016
+  source_type: primary
+  publisher: 教育部
+  title: 特殊教育法
+  url: https://edu.law.moe.gov.tw/LawContent.aspx?id=FL009136
+  published_at: '2023-06-21'
+  observed_at: '2026-11-03T17:32:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 第30條要求普通班、輔導與特教教師合作並由學校提供所需人力資源與協助；第31條要求以團隊合作為身心障礙學生訂定個別化教育計畫（IEP），並邀請學生、法定代理人或實際照顧者及必要之專業人員參與。
+- id: S017
+  source_type: primary
+  publisher: 國家圖書館臺灣博碩士論文知識加值系統
+  title: 國小特教教師的職場友誼、工作要求—資源、工作投入和離職傾向關係之研究
+  url: https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id%3D%22112NTHU5149009%22.&searchmode=basic
+  published_at: '2024'
+  observed_at: '2026-11-03T17:32:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 針對臺灣國小身障類特教教師623份有效樣本；工作要求呈高度知覺，以情緒要求最明顯，離職傾向為中等程度；不同教職身分在離職傾向上有顯著差異。
+- id: S018
+  source_type: primary
+  publisher: 國家圖書館臺灣博碩士論文知識加值系統
+  title: 特殊教育教師工作壓力與職業倦怠之關係：休閒運動參與的調節效果
+  url: https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id%3D%22107UT005992005%22.&searchmode=basic
+  published_at: '2019'
+  observed_at: '2026-11-03T17:32:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 臺灣323名特殊教育教師分層抽樣；教學與行政壓力可預測情緒耗竭，家長、同儕與行政壓力可預測去人格化。
+- id: S019
+  source_type: primary
+  publisher: 國家圖書館臺灣博碩士論文知識加值系統
+  title: 中部地區國小特教教師行政工作花費時間、工作負荷與工作壓力之研究
+  url: https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id%3D%22102NTCT1284023%22.&searchmode=basic
+  published_at: '2014'
+  observed_at: '2026-11-03T17:32:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 中部三縣市236份有效問卷；鑑定輔導的時間、工作負荷及工作壓力最高，單一項目以訂定IEP的花費時間、工作負荷與工作壓力最高。
+- id: S020
+  source_type: secondary
+  publisher: 臺灣教育評論月刊
+  title: 國民小學集中式特教班教師工作負荷及解決之道
+  url: https://ericdata.com/tw/detail.aspx?no=543377
+  published_at: '2025-10'
+  observed_at: '2026-11-03T17:32:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 文獻評論指出融合教育下集中式特教班學生障礙程度加重，教師除教學帶班外亦須處理行政文書、特教鑑定評估、訪視或評鑑等工作。
+- id: S021
+  source_type: primary
+  publisher: 國家圖書館臺灣博碩士論文知識加值系統
+  title: 國中教師工作壓力與情緒管理之研究
+  url: https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id%3D%22105CYCU5284004%22.&searchmode=basic
+  published_at: '2017'
+  observed_at: '2026-11-03T17:32:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 372名臺灣國中普教與特教教師比較；整體工作壓力中，普通教師在部分構面及整體壓力高於特教教師，顯示不宜直接宣稱特教教師整體壓力必然高於普教教師。
 facts:
 - id: F001
   statement: Facebook貼文主張「寧願離職，不要殉職」，並建議教師自行建立下班後不回家長訊息的邊界、課題分離，且稱「工作，再找就有，錢也是再賺就有」。
@@ -282,6 +342,24 @@ facts:
   verification_notes:
   - 避免把新聞曝光時間和事件發生時間混為一談。
   tags: [時間語意, 教師個案]
+- id: F014
+  statement: 特教教師的壓力結構具有明確的額外任務與情緒要求：法律要求團隊合作訂定IEP並與家長、專業人員協作；臺灣研究並顯示IEP、鑑定輔導、行政文書、家長與行政壓力及情緒要求均是重要壓力來源。
+  status: verified
+  observed_at: '2026-11-03T17:32:00+08:00'
+  source_ids: [S016, S017, S018, S019, S020]
+  evidence_summary: 特殊教育法建立IEP與跨專業、親師協作義務；多項臺灣研究分別從行政負荷、情緒要求、家長與行政壓力確認特教教師具有不同於一般班級教學的壓力組合。
+  verification_notes:
+  - 這支持「特教的壓力結構不同」，不等於證明特教教師整體壓力一定高於所有普通教師。
+  tags: [特殊教育, IEP, 情緒要求, 行政負荷, 親師協作]
+- id: F015
+  statement: 目前臺灣直接比較研究不足以支持「特教教師整體工作壓力一定高於普通教師」的普遍命題；至少有研究發現普通教師整體工作壓力及部分構面反而高於特教教師。
+  status: verified
+  observed_at: '2026-11-03T17:32:00+08:00'
+  source_ids: [S021]
+  evidence_summary: 2017年臺灣372名國中教師研究比較普教與特教教師，結果顯示普通教師在整體工作壓力及部分構面高於特教教師。
+  verification_notes:
+  - 不同研究工具、教育階段與班型可能造成結果差異；應談壓力來源與結構，不宜只做單一總分排序。
+  tags: [特殊教育, 普特比較, 工作壓力]
 claims:
 - id: C001
   statement: 「教師只要自己設好下班邊界，就能有效解決親師溝通壓力」可作為制度層面的充分解方。
@@ -315,6 +393,12 @@ claims:
   status: contradicted
   contradicts: [F013]
   reasoning_notes: 目前已知相關事件分布於10月不同日期；較合理的字面理解只能是作者一天內看到兩則相關新聞。
+- id: C007
+  statement: 台中案因為是特教教師，所以可以直接推定其整體工作壓力比普通教師更高。
+  status: unsupported
+  contradicts: [F015]
+  related_facts: [F014]
+  reasoning_notes: 特教工作具有可驗證的額外行政、IEP、情緒及跨專業協作壓力，但現有比較研究不足以把個案壓力總量直接排在普教教師之上；個案因果仍需個別證據。
 searches:
 - id: Q001
   observed_at: '2026-11-03T13:26:39+08:00'
