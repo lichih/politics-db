@@ -1,0 +1,149 @@
+session:
+  id: 2026-11-03-peng-interrogation-recordings
+  project: Politics
+  title: "京華城案彭振聲偵訊錄音：一審勘驗與二審保全證據聲請駁回"
+  started_at: "2026-11-03T21:57:00+08:00"
+  updated_at: "2026-11-03T21:57:00+08:00"
+  status: active
+
+topics:
+  - 京華城案
+  - 柯文哲
+  - 彭振聲
+  - 偵訊錄音
+  - 證據保全
+  - 不正訊問
+  - 證據調查
+
+sources:
+  - id: S001
+    source_type: secondary
+    publisher: "聯合報"
+    title: "柯文哲二審又出招 稱檢「逼迫」彭振聲承認圖利"
+    url: "https://udn.com/news/story/7315/9854974"
+    published_at: "2026-11-03"
+    observed_at: "2026-11-03T21:57:00+08:00"
+    retrieval_status: reachable
+    notes: "轉述高院裁定：二審不適用刑訴證據保全程序；聲請人不確定錄音是否存在及內容；裁定駁回不得抗告。尚未取得裁定原文。"
+  - id: S002
+    source_type: secondary
+    publisher: "太報"
+    title: "指彭振聲「被逼迫承認」圖利京華城！柯文哲律師喊要查 聲請保全證據遭駁回"
+    url: "https://www.taisounds.com/news/content/97/297661"
+    published_at: "2026-11-03"
+    observed_at: "2026-11-03T21:57:00+08:00"
+    retrieval_status: reachable
+    notes: "獨立報導高院程序駁回理由；其對一審不正訊問及證據能力之概括描述，仍須以一審判決全文核對。"
+  - id: S003
+    source_type: secondary
+    publisher: "中央社"
+    title: "民眾黨團指違法偵訊 北檢：嚴重誤導視聽"
+    url: "https://www.cna.com.tw/news/aipl/202508290308.aspx"
+    published_at: "2025-08-29"
+    observed_at: "2026-11-03T21:57:00+08:00"
+    retrieval_status: reachable
+    notes: "轉述北檢2025-08-29新聞稿：柯文哲及辯護人聲請勘驗彭振聲2024-09-03偵訊錄音錄影，北院2025-08-28已勘驗；北檢稱1小時13分鐘中斷為彭與律師單獨接見。此為檢方主張，不代表法院已認定其說法全部屬實。"
+  - id: S004
+    source_type: secondary
+    publisher: "TVBS"
+    title: "彭振聲問律師「這樣就能當污點？」 檢察官：不認可能都不算數"
+    url: "https://news.tvbs.com.tw/politics/2974341"
+    published_at: "2025-08-29"
+    observed_at: "2026-11-03T21:57:00+08:00"
+    retrieval_status: reachable
+    notes: "報導2025-08-28北院勘驗2024-09-03及09-04偵訊光碟10個檔案。"
+  - id: S005
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "刑事訴訟法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+    observed_at: "2026-11-03T21:57:00+08:00"
+    retrieval_status: reachable
+    notes: "法源追蹤：第219-4條證據保全聲請時點；第163條以下證據調查。須在引用歷史程序時核對當時有效條文。"
+
+facts:
+  - id: F001
+    statement: "2026-11-03報導指出，高院以二審階段不適用刑訴法證據保全程序、聲請無從補正為由，駁回鄭深元對彭振聲偵訊錄音檔的保全聲請，且不得抗告。"
+    status: verified
+    observed_at: "2026-11-03T21:57:00+08:00"
+    source_ids: [S001, S002]
+    evidence_summary: "兩家報導一致轉述裁定程序理由；此為裁定內容的媒體轉述，未取得裁定原文。"
+    verification_notes:
+      - "不得推論高院已實質認定檢方不存在不正訊問。"
+    tags: [高院, 程序駁回, 證據保全]
+  - id: F002
+    statement: "2026-11-03報導轉述：聲請律師表示不確定訊問暫停期間錄音是否存在及其內容，高院認為無法辨明所欲證明之具體事實或究屬保全、調查證據。"
+    status: verified
+    observed_at: "2026-11-03T21:57:00+08:00"
+    source_ids: [S001, S002]
+    evidence_summary: "裁定對聲請特定性的疑慮，與時點不合法分開記錄。"
+    verification_notes:
+      - "仍待裁定全文確認措辭。"
+    tags: [聲請特定性, 待證事實]
+  - id: F003
+    statement: "2025-08-28台北地院已勘驗彭振聲2024-09-03、09-04的偵訊錄音錄影；勘驗係柯文哲及辯護人聲請。"
+    status: verified
+    observed_at: "2026-11-03T21:57:00+08:00"
+    source_ids: [S003, S004]
+    evidence_summary: "一審已有聲請勘驗的具體紀錄，不能說辯方一審完全未提出錄音爭議。"
+    verification_notes:
+      - "勘驗聲請不等於第219-4條的證據保全聲請。"
+    tags: [一審, 勘驗, 錄音錄影]
+  - id: F004
+    statement: "北檢2025-08-29對外表示，遭質疑的1小時13分鐘錄音中斷係彭振聲與兩位辯護律師單獨接見，依法不得錄音錄影；民眾黨則曾質疑該時段及偵訊方式。"
+    status: verified
+    observed_at: "2026-11-03T21:57:00+08:00"
+    source_ids: [S003]
+    evidence_summary: "記錄檢辯爭議與檢方說法，不把檢方說明直接寫成客觀查明的中斷原因。"
+    verification_notes:
+      - "是否另有不同時段、不同性質的訊問暫停，尚待對照聲請書及偵訊時間軸。"
+    tags: [北檢, 錄音中斷, 律見]
+
+claims:
+  - id: C001
+    statement: "高院駁回保全證據聲請即代表認定檢方沒有不正訊問。"
+    status: unsupported
+    supports: []
+    contradicts: [F001, F002]
+    related_facts: []
+    reasoning_notes: "程序駁回不能直接推論實體合法性。"
+  - id: C002
+    statement: "辯護人在一審第一次審判期日前曾針對訊問暫停期間錄音提出證據保全聲請。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F003]
+    reasoning_notes: "已證實一審曾聲請勘驗；但其提出日期及有無另行聲請保全尚未確認。"
+  - id: C003
+    statement: "二審可否改以具體證據調查聲請，要求調取偵訊原始檔、設備或時間紀錄。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F001, F002]
+    reasoning_notes: "需釐清具體待證事實、證據存在可能性、調查必要性及法院後續處理。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-11-03T21:57:00+08:00"
+    platform: web
+    query: "2026 11 3 柯文哲 二審 彭振聲 保全錄音 高院 駁回 理由"
+    scope: "當日媒體報導與裁定理由"
+    result: found
+    notes: "取得聯合報、太報報導；本次尚未取得高院裁定全文。"
+  - id: Q002
+    observed_at: "2026-11-03T21:57:00+08:00"
+    platform: web
+    query: "2025 8 29 北檢 彭振聲 1小時13分鐘 勘驗 新聞稿"
+    scope: "一審勘驗及北檢公開說明"
+    result: found
+    notes: "中央社、TVBS等報導可確認一審已勘驗；無法據此確認第一次審判期日前有無保全聲請。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "待補高院2026-11-03裁定原文、案號、聲請書及一審判決相應段落；不可將新聞對一審證據能力的概括描述當成裁判原文。"
+  - "研究焦點：一審曾勘驗不等於曾於法定期限聲請保全；不得以本次未查得推論從未聲請。"
+  - "未決問題：檢方所說律見1小時13分鐘，與二審所稱訊問暫停期間是否完全同一範圍。"
