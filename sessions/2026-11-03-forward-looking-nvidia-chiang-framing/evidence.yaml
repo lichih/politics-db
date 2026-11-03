@@ -1,0 +1,247 @@
+session:
+  id: 2026-11-03-forward-looking-nvidia-chiang-framing
+  project: Politics
+  title: "前瞻、輝達補助與蔣萬安 2017 杯葛的時間線查核"
+  started_at: "2026-11-03T22:44:00+08:00"
+  updated_at: "2026-11-03T22:44:00+08:00"
+  status: active
+
+topics:
+  - "前瞻基礎建設"
+  - "輝達"
+  - "蔣萬安"
+  - "政策攻防"
+  - "時間線"
+  - "審計"
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "行政院"
+    title: "林揆：「前瞻基礎建設計畫」刺激景氣、加速轉型 提升國家競爭力"
+    url: "https://www.ey.gov.tw/Page/9277F759E41CCD91/7f4ec888-d162-4211-8f4d-85914b68f4e6"
+    published_at: "2017-03-23"
+    observed_at: "2026-11-03T22:44:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "行政院於2017年3月23日公開說明前瞻計畫，當時規劃五大領域，預估8年投入8,824.9億元。"
+  - id: S002
+    source_type: primary
+    publisher: "立法院"
+    title: "前瞻基礎建設特別條例草案 法案評估"
+    url: "https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=6588&pid=85477"
+    published_at: "2017-04-01"
+    observed_at: "2026-11-03T22:44:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "立法院法案評估顯示，當時審議標的是行政院提出的前瞻基礎建設特別條例草案，並就計畫規劃、可行性評估、主管機關審議與行政責任提出建議。"
+  - id: S003
+    source_type: primary
+    publisher: "立法院"
+    title: "立法院第9屆第3會期六委員會聯席會議（2017-04-26）"
+    url: "https://ppg.ly.gov.tw/ppg/sittings/2017042119/details?meetingDate=106%2F04%2F26"
+    published_at: "2017-04-26"
+    observed_at: "2026-11-03T22:44:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "會議議程為繼續併案審查行政院及立委版本的前瞻基礎建設特別條例草案。"
+  - id: S004
+    source_type: primary
+    publisher: "立法院公報"
+    title: "前瞻基礎建設特別條例草案審查紀錄（蔣萬安質詢）"
+    url: "https://ppg.ly.gov.tw/ppg/SittingCommitteesInfo/download/communique1/final/pdf/106/50/LCIDC01_1065001_00005.pdf"
+    published_at: "2017-05"
+    observed_at: "2026-11-03T22:44:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "公報記錄蔣萬安質疑條例所附規劃過於概要、要求更具體的預算與計畫資訊。"
+  - id: S005
+    source_type: primary
+    publisher: "行政院"
+    title: "前瞻基礎建設計畫—計畫說明"
+    url: "https://www.ey.gov.tw/achievement/6D60436E66CF17C0"
+    published_at: "2024-08-22"
+    observed_at: "2026-11-03T22:44:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "行政院現行整理記載，前瞻依2017年7月7日公布的特別條例推動，最終涵蓋八大建設主軸；前4年上限4,200億元，後續4年經立法院同意後得續編不超過前期規模。"
+  - id: S006
+    source_type: secondary
+    publisher: "中央社"
+    title: "輝達在台砸243億成立AI研發中心 經部補助67億"
+    url: "https://www.cna.com.tw/news/afe/202305290331.aspx"
+    published_at: "2023-05-29"
+    observed_at: "2026-11-03T22:44:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "中央社引述經濟部技術處資料：2021年核定輝達人工智慧創新研發中心計畫，總經費約243億元，經濟部補助67億元，規劃在台成立AI研發中心並新聘1000人。"
+  - id: S007
+    source_type: secondary
+    publisher: "自由財經"
+    title: "獨家》輝達大A+計畫由前瞻經費支持 時任立委蔣萬安曾跳上桌擋預算"
+    url: "https://ec.ltn.com.tw/article/breakingnews/5626005"
+    published_at: "2026-11-01"
+    observed_at: "2026-11-03T22:44:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導稱2021年12月核定的輝達AI研發中心計畫政府補助67億元，全數由前瞻基礎建設相關預算支應，並據此把2017年前瞻杯葛與後來輝達布局連結。"
+      - "此來源對「全數由前瞻支應」屬媒體引述，尚未在本次查核取得對應的原始預算明細。"
+  - id: S008
+    source_type: commentary
+    publisher: "黃揚明（剝雞）"
+    title: "光一個輝達，黨和旗下媒體就出了兩套洗記憶的拳術"
+    url: "https://www.facebook.com/PokiiHuang/posts/pfbid0RC84rw9AomLWDHwKaCMaaponMDS2eJS24tAAKPNvr1ErVRnaN3hfZj8hwHULmNvgl"
+    published_at: "2026-11-03"
+    observed_at: "2026-11-03T22:44:00+08:00"
+    retrieval_status: blocked
+    notes:
+      - "本次無法由公開搜尋直接重新抓取Facebook原文；完整貼文文字由對話中提供，因此只作為待核對的評論來源保存，不以此單獨證明外部事實。"
+      - "貼文主張2017年杯葛的是尚未具體核定輝達案的前瞻條例，批評把「擋前瞻」直接等同「擋輝達」屬時間線錯置；另把當時前瞻規劃形容為「空頭支票」。"
+  - id: S009
+    source_type: primary
+    publisher: "審計部"
+    title: "中央政府前瞻基礎建設計畫第4期特別決算審核報告"
+    url: "https://auditreport.audit.gov.tw/ServerFile/Get/63888949317727855754f0bdba985b4a9a830a5af0af29e7ca"
+    published_at: "2025"
+    observed_at: "2026-11-03T22:44:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "審計部依法就前瞻第4期特別決算提出獨立審核報告，顯示前瞻各期具有可持續追溯的決算與審計資料。"
+  - id: S010
+    source_type: primary
+    publisher: "審計部"
+    title: "審計部提出114年度中央政府總決算及前瞻第5期特別決算等審核報告"
+    url: "https://www.audit.gov.tw/p/406-1000-11629%2Cr12.php?Lang=zh-tw"
+    published_at: "2026"
+    observed_at: "2026-11-03T22:44:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "審計部2026年完成前瞻第5期特別決算審核並公開報告。"
+
+facts:
+  - id: F001
+    statement: "2017年3月23日行政院公開的前瞻基礎建設規劃，已列出軌道、水環境、綠能、數位、城鄉等主要領域，並估算8年8,824.9億元；因此把當時狀態描述成「完全不知道要花到哪裡」過度概括。"
+    status: verified
+    observed_at: "2026-11-03T22:44:00+08:00"
+    source_ids: [S001, S002]
+    evidence_summary: "行政院在條例完成立法前即已公開五大領域與整體規模；立法院法案評估亦針對具體規劃與程序提出評估。"
+    verification_notes:
+      - "這不代表2017年時每一筆未來個案都已核定，也不代表立委對計畫詳細度的批評沒有依據。"
+    tags: ["2017", "前瞻", "預算", "時間線"]
+  - id: F002
+    statement: "2017年4月至5月立法院審查的是前瞻基礎建設特別條例及相關整體規劃；蔣萬安當時參與審查並質疑大額特別預算的規劃資訊過於概要。"
+    status: verified
+    observed_at: "2026-11-03T22:44:00+08:00"
+    source_ids: [S003, S004]
+    evidence_summary: "立法院議程與公報可直接確認審查標的及蔣萬安質詢內容。"
+    tags: ["2017", "蔣萬安", "前瞻", "立法院"]
+  - id: F003
+    statement: "前瞻特別條例最終於2017年7月公布施行，採前4年上限4,200億元、後續4年經立法院同意後續編且不超過前期規模的架構，並涵蓋八大建設主軸。"
+    status: verified
+    observed_at: "2026-11-03T22:44:00+08:00"
+    source_ids: [S005]
+    evidence_summary: "行政院現行官方整理記載條例與預算架構。"
+    tags: ["2017", "前瞻", "特別條例"]
+  - id: F004
+    statement: "輝達「人工智慧創新研發中心計畫」是在2021年核定，總經費約243億元，其中經濟部補助67億元；執行期程自2022年至2027年。"
+    status: verified
+    observed_at: "2026-11-03T22:44:00+08:00"
+    source_ids: [S006]
+    evidence_summary: "中央社引述經濟部技術處資料，明確提供核定年份、總經費與補助金額。"
+    verification_notes:
+      - "本次尚未找到經濟部原始核定文件，但中央社直接引述經濟部技術處資料，且多家報導一致。"
+    tags: ["2021", "輝達", "NVIDIA", "大A+", "67億元"]
+  - id: F005
+    statement: "2017年前瞻條例攻防發生時，2021年才核定的輝達AI研發中心67億元補助案尚不存在。"
+    status: verified
+    observed_at: "2026-11-03T22:44:00+08:00"
+    source_ids: [S002, S003, S004, S006]
+    evidence_summary: "立法院紀錄固定2017年的審查時間；輝達案核定時間為2021年，兩者相隔約4年。"
+    tags: ["時間線", "蔣萬安", "輝達", "前瞻"]
+  - id: F006
+    statement: "2026年媒體報導稱輝達67億元政府補助全數由前瞻基礎建設相關預算支應；本次查核尚未取得對應原始預算明細，因此資金來源細節保留為部分核實。"
+    status: partial
+    observed_at: "2026-11-03T22:44:00+08:00"
+    source_ids: [S007]
+    evidence_summary: "自由財經明確報導67億元全數由前瞻經費支應，但本次未取得原始預算明細交叉確認。"
+    tags: ["輝達", "前瞻", "67億元", "待補原始文件"]
+  - id: F007
+    statement: "前瞻各期均留下立法、預算、決算及審計資料；審計部已公開第4期與第5期特別決算審核資訊，提供後續重新檢視個別計畫執行與缺失的制度性資料基礎。"
+    status: verified
+    observed_at: "2026-11-03T22:44:00+08:00"
+    source_ids: [S009, S010]
+    evidence_summary: "審計部依法對前瞻特別決算進行審核並公開報告，因此未來若要重查個別計畫，可從既有官方審計與決算資料往下追。"
+    verification_notes:
+      - "審計缺失不等於犯罪，存在可追溯資料也不等於任何特定人將被起訴。"
+    tags: ["前瞻", "審計", "決算", "可追溯性"]
+
+claims:
+  - id: C001
+    statement: "「蔣萬安2017年擋前瞻」可以直接表述成「蔣萬安當時擋輝達67億元補助案」。"
+    status: contradicted
+    supports: []
+    contradicts: [F002, F004, F005]
+    related_facts: [F006]
+    reasoning_notes: "2017年的審查標的是前瞻條例與整體規劃；具體輝達案到2021年才核定。可以討論制度與後續資金來源的政治一致性，但不能把後來才出現的個案倒灌成2017年已知的審查標的。"
+  - id: C002
+    statement: "若2017年國民黨成功擋下前瞻條例，輝達後來必然不會在台設立AI研發中心或擴大布局。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F004, F006]
+    reasoning_notes: "這是反事實因果命題。即使確認67億元來自前瞻，也仍需排除一般預算、其他科專、後續重新立法或其他政策工具等替代路徑，才能主張「必然不會發生」。"
+  - id: C003
+    statement: "2017年前瞻計畫當時「根本沒人知道具體要花到哪裡」。"
+    status: contradicted
+    supports: []
+    contradicts: [F001]
+    related_facts: [F002]
+    reasoning_notes: "當時已有五大領域、整體規模與部分規劃資料；較精確的批評應是具體個案、細節與預算成熟度不足，而不是完全沒有方向。"
+  - id: C004
+    statement: "政黨輪替後，前瞻計畫會有「很多人被辦」。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F007]
+    reasoning_notes: "現有資料只支持前瞻具有大量可追溯的決算、審計與計畫紀錄，可供未來加強查核；無法由此推定將有多少刑事案件、多少人被調查或被起訴。審計缺失、政策失敗、採購異常與犯罪必須分層判斷。"
+  - id: C005
+    statement: "前瞻計畫適合建立跨期風險地圖，按計畫、主管機關、補助、採購、履約、變更、驗收、審計缺失與司法結果持續追蹤。"
+    status: supported
+    supports: [F007]
+    contradicts: []
+    related_facts: [F001, F003]
+    reasoning_notes: "前瞻具跨年度、跨部會、中央與地方、多期特別預算特性，且官方保有立法、決算與審計資料；建立結構化追蹤可把政治攻防轉成可核對的治理與風險分析。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-11-03T22:44:00+08:00"
+    platform: "politics-db GitHub search"
+    query: "前瞻 輝達 蔣萬安"
+    scope: "lichih/politics-db"
+    result: not_found
+    notes: "本次在 politics-db 未找到既有直接對應 session，因此建立新 session。"
+  - id: Q002
+    observed_at: "2026-11-03T22:44:00+08:00"
+    platform: "web"
+    query: "NVIDIA 人工智慧創新研發中心 計畫 67億 經濟部 2021 / 前瞻"
+    scope: "行政院、立法院、中央社、經濟部相關報導"
+    result: found
+    notes: "確認2021年核定與67億元補助；「全數由前瞻支應」目前取得2026年媒體報導，尚待原始預算明細。"
+  - id: Q003
+    observed_at: "2026-11-03T22:44:00+08:00"
+    platform: "web"
+    query: "pfbid0RC84rw9AomLWDHwKaCMaaponMDS2eJS24tAAKPNvr1ErVRnaN3hfZj8hwHULmNvgl"
+    scope: "公開搜尋索引"
+    result: not_found
+    notes: "未由公開搜尋索引重新取得黃揚明Facebook原文；完整文字由本次對話提供，因此不把該貼文單獨作為外部事實證據。"
+
+promotion:
+  cases: []
+  comparators: []
+  research:
+    - "可考慮升格為前瞻基礎建設跨期審計／採購風險地圖研究。"
+
+notes:
+  - "本 session 主要目的不是替蔣萬安或前瞻政策背書，而是防止把2017年的條例攻防與2021年才核定的輝達個案混成同一時間點。"
+  - "對外若談「前瞻換政府後可能被重查」，可主張存在大量可追溯資料與審計切口；不可在沒有個案證據時預告犯罪人數或把審計缺失直接寫成貪污。"
+  - "後續值得補：輝達67億元補助的原始預算科目／核定文件，以及計畫執行KPI、千人研發團隊、Taipei-1算力開放與實際成果。"
