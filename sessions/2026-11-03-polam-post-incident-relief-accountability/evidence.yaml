@@ -1,0 +1,269 @@
+session:
+  id: 2026-11-03-polam-post-incident-relief-accountability
+  project: Politics
+  title: "寶林茶室案後續處置：受害者救濟、保險理賠、團體訴訟與行政追償"
+  started_at: "2026-11-03T19:10:00+08:00"
+  updated_at: "2026-11-03T19:10:00+08:00"
+  status: active
+
+topics:
+  - "寶林茶室"
+  - "台北市政府"
+  - "受害者救濟"
+  - "保險理賠"
+  - "假扣押"
+  - "團體訴訟"
+  - "醫療費代墊"
+  - "行政裁罰"
+  - "消費者保護"
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "臺北市政府法務局"
+    title: "寶林茶室案 法務局持續提供受害者及家屬法律協助"
+    url: "https://legalaffairs.gov.taipei/News_Content.aspx?n=9DCD6AAC1B9B2ACB&s=1E18FB25C5B0EEC9&sms=72544237BBE4C5F6"
+    published_at: "2024-04-08"
+    observed_at: "2026-11-03T19:10:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記載3月27日至4月2日消保行政調查、保單釐清與保險協調時序。"
+      - "屬市府自身處置的一手紀錄；對『市府做了什麼』有高證明力，對措施成效仍需以後續實際結果交叉核對。"
+
+  - id: S002
+    source_type: primary
+    publisher: "臺北市政府法務局"
+    title: "有關周刊報導寶林茶室事件 市府拖延團訟及未提假扣押一事 法務局嚴正聲明"
+    url: "https://legalaffairs.gov.taipei/News_Content.aspx?n=9DCD6AAC1B9B2ACB&s=18B5FDE7D27562DE&sms=72544237BBE4C5F6"
+    published_at: "2024-06-03"
+    observed_at: "2026-11-03T19:10:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記載團訟意願書、函詢消基會時序，以及假扣押法律協助與權利主體說明。"
+
+  - id: S003
+    source_type: primary
+    publisher: "財團法人中華民國消費者文教基金會"
+    title: "寶林團訟案，消基會刻正積極處理中"
+    url: "https://www.consumers.org.tw/product-detail-3679486.html"
+    published_at: "2024-06-05"
+    observed_at: "2026-11-03T19:10:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "由消基會自身確認5月1日收到北市法務局函詢、5月20日正式函覆同意協助團訟。"
+
+  - id: S004
+    source_type: primary
+    publisher: "財團法人中華民國消費者文教基金會"
+    title: "寶林茶室食物中毒一案 消基會正式提出團體訴訟，為受害消費者爭取權益"
+    url: "https://www.consumers.org.tw/product-detail-3818005.html"
+    published_at: "2024-12-11"
+    observed_at: "2026-11-03T19:10:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "確認30位請求權讓與、正式向法院提起團體訴訟及293,019,053元求償金額。"
+
+  - id: S005
+    source_type: primary
+    publisher: "財團法人中華民國消費者文教基金會"
+    title: "寶林案團體訴訟進度表"
+    url: "https://www.consumers.org.tw/product-detail-3818007.html"
+    published_at: "2024-12-11"
+    observed_at: "2026-11-03T19:10:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "截至本次查核，進度表列有2025年7月22日一審言詞辯論，以及2026年2月13日、4月24日調解庭，未標示案件終結。"
+
+  - id: S006
+    source_type: primary
+    publisher: "臺北市政府法務局"
+    title: "北市府跨局處積極處置寶林茶室案：千萬墊付款全數追回、亡者家屬皆獲理賠，6筆罰鍰皆已移送行政執行"
+    url: "https://legalaffairs.gov.taipei/News_Content.aspx?n=9DCD6AAC1B9B2ACB&s=AC60100A10A6E669&sms=72544237BBE4C5F6"
+    published_at: "2026-09-14"
+    observed_at: "2026-11-03T19:10:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記載983萬8,457元醫療代墊款追回、6名亡者家屬5名調解獲償1名私下和解，以及6筆裁罰移送行政執行。"
+
+  - id: S007
+    source_type: primary
+    publisher: "臺北市政府法務局"
+    title: "寶林案處理過程遭刻意混淆 北市法務局：醫療代墊款已全數歸還 持續維護受害者權益"
+    url: "https://legalaffairs.gov.taipei/News_Content.aspx?n=9DCD6AAC1B9B2ACB&s=C1DA554217F3A011&sms=72544237BBE4C5F6"
+    published_at: "2026-11-01"
+    observed_at: "2026-11-03T19:10:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "再次區分家屬民事求償、醫療費緊急代墊及行政罰鍰三種不同權利主體與程序，並更新團訟仍在進行。"
+
+  - id: S008
+    source_type: primary
+    publisher: "臺北市政府衛生局"
+    title: "臺北市政府衛生局說明寶林茶室食品中毒案件後續精進措施及防堵作為"
+    url: "https://health.gov.taipei/News_Content.aspx?n=8D1F85E4BEFB0396&s=6BA0E3367E49B573&sms=72544237BBE4C5F6"
+    published_at: "2025-01-21"
+    observed_at: "2026-11-03T19:10:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "確認未投保、資料不實、逾期食品、證照比例等違規，累計裁罰406萬元。"
+
+  - id: S009
+    source_type: secondary
+    publisher: "中央社"
+    title: "寶林茶室案賠償遭質疑 北市法務局：混為一談恐誤導"
+    url: "https://www.cna.com.tw/news/aloc/202611010066.aspx"
+    published_at: "2026-11-01"
+    observed_at: "2026-11-03T19:10:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "獨立新聞報導交叉確認法務局2026年11月1日公布之亡者家屬獲償、代墊款追回、團訟進行中及6件裁罰已移送等資訊。"
+
+facts:
+  - id: F001
+    statement: "北市法務局於2024年3月27日啟動消保行政調查，3月28日邀集寶林、大食代、遠百及相關產險公司說明；3月29日確認遠百商業綜合責任保險承保範圍包含A13寶林，4月1日確認大食代公共意外責任保險附加食品中毒條款亦涵蓋該店，4月2日再邀集業者、產險與保險公證人研商理賠程序。"
+    status: verified
+    observed_at: "2026-11-03T19:10:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "市府在寶林自身保險失效之外，早期即另行盤點百貨與美食街相關保險，並建立後續理賠協調路徑。"
+    tags: ["2024", "寶林茶室", "保險理賠", "消保行政調查"]
+
+  - id: F002
+    statement: "北市法務局於2024年3月28日起即提供受害者及家屬法律諮詢與假扣押律師費協助；2024年6月3日並表示，家屬如有委任律師聲請假扣押需求可獲費用協助，而當時犯保協會與消基會經評估均無提出假扣押規劃。"
+    status: verified
+    observed_at: "2026-11-03T19:10:00+08:00"
+    source_ids: [S002, S007]
+    evidence_summary: "公開紀錄顯示假扣押並非事後才被提出，而是早期法律協助選項之一；當時未實際提出聲請，不能直接等同市府未考慮財產保全。"
+    tags: ["2024", "假扣押", "法律協助", "犯保協會", "消基會"]
+
+  - id: F003
+    statement: "寶林受害者民事損害賠償債權的假扣押，原則上應由具有請求權的債權人依法聲請；北市府並非受害者，不能僅因主管機關身分逕以自己名義保全家屬的民事損害賠償債權。"
+    status: verified
+    observed_at: "2026-11-03T19:10:00+08:00"
+    source_ids: [S002, S007]
+    evidence_summary: "此事實處理的是權利主體與程序；不代表市府完全沒有協助財產保全的能力，市府可提供法律諮詢與律師費補助。"
+    tags: ["假扣押", "民事訴訟", "權利主體", "法律程序"]
+
+  - id: F004
+    statement: "北市法務局於2024年4月19日提供團訟意願書、5月1日函詢消基會是否協助團訟；消基會自身紀錄確認於5月20日正式函覆同意，在受讓20人以上損害賠償請求權後提起團體訴訟。"
+    status: verified
+    observed_at: "2026-11-03T19:10:00+08:00"
+    source_ids: [S002, S003]
+    evidence_summary: "市府與消基會雙方資料可交叉確認團訟協作時序。"
+    tags: ["2024", "團體訴訟", "消基會", "民事求償"]
+
+  - id: F005
+    statement: "寶林自身產品責任險及公共意外責任險失效後，北市法務局持續協調百貨業者、產險公司、保險公證人及保險法專家，並多次召開調解會議；最終6名亡者家屬中5名經市府消費爭議調解獲償，另1名私下和解。"
+    status: verified
+    observed_at: "2026-11-03T19:10:00+08:00"
+    source_ids: [S006, S007, S009]
+    evidence_summary: "後續保險與調解路徑產生實際獲償結果；中央社報導與市府資料一致。"
+    verification_notes:
+      - "『亡者家屬皆獲償』僅指6名亡者家屬，不應擴張為所有傷者及家屬均已完成賠償。"
+    tags: ["理賠", "調解", "亡者家屬", "實際獲償"]
+
+  - id: F006
+    statement: "市府先以重大災害民間賑災捐款代墊重症醫療費983萬8,457元，後由社會局委任律師代位求償；百貨業者及產險公司於2025年6月13日將代墊費用全數匯回善款專戶。"
+    status: verified
+    observed_at: "2026-11-03T19:10:00+08:00"
+    source_ids: [S006, S007, S009]
+    evidence_summary: "民間捐款在此項目扮演緊急代墊角色，後續款項已追回；不能描述成由善款最終承擔業者應負的醫療費責任。"
+    tags: ["醫療費", "代墊", "代位求償", "善款"]
+
+  - id: F007
+    statement: "消基會於2024年12月11日代表30名受害者及家屬向台北地方法院提起團體訴訟，求償293,019,053元；消基會最新公開進度表列有2025年7月22日一審言詞辯論及2026年2月13日、4月24日調解庭，案件尚無終結紀錄。"
+    status: verified
+    observed_at: "2026-11-03T19:10:00+08:00"
+    source_ids: [S004, S005, S007, S009]
+    evidence_summary: "亡者家屬部分已有調解／和解結果，但其他受害者的團體訴訟仍在進行，兩者不能混為同一完成狀態。"
+    tags: ["團體訴訟", "30人", "293019053", "訴訟進行中"]
+
+  - id: F008
+    statement: "北市衛生局就寶林案未投保、提供不實資料、逾期食品及技術證照人員比例不符等違規，曾公布累計裁罰406萬元；北市法務局於2026年表示6件行政裁罰均已移送法務部行政執行署強制執行。"
+    status: verified
+    observed_at: "2026-11-03T19:10:00+08:00"
+    source_ids: [S006, S007, S008, S009]
+    evidence_summary: "行政究責不只停留在裁罰決定，6件裁處已進入行政執行程序。"
+    tags: ["行政裁罰", "406萬元", "行政執行", "衛生局"]
+
+  - id: F009
+    statement: "北市法務局2024年4月公開紀錄僅記載寶林公司說明其資產負債情形為『虧損狀態』；該資料本身不足以直接證明『資產淨值為負、完全無財產可供扣押』。"
+    status: verified
+    observed_at: "2026-11-03T19:10:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "保存假扣押爭議的證據邊界：官方公開文字可支持『虧損狀態』，不宜自行升格成『空殼、完全無資產可扣』。"
+    tags: ["假扣押", "資產狀況", "證據邊界"]
+
+claims:
+  - id: C001
+    statement: "北市府在寶林案後續受害者救濟與責任追究上，形成了可由公開資料驗證的行動—結果鏈：法律協助與保險盤點、醫療費緊急代墊與追回、亡者家屬實際獲償、團體訴訟進入法院，以及行政裁罰移送執行。"
+    status: supported
+    supports: [F001, F002, F004, F005, F006, F007, F008]
+    reasoning_notes: "此結論限於『後續救濟與責任追究』。它不替代對事件前端食安通報、採樣與停業時序的獨立評價。"
+
+  - id: C002
+    statement: "「寶林案亡者家屬至今未獲得賠償」與目前公開資料不符。"
+    status: contradicted
+    contradicts: [F005]
+    reasoning_notes: "6名亡者家屬中5名調解獲償、1名私下和解；但不得因此改寫成所有傷者及家屬均已獲賠。"
+
+  - id: C003
+    statement: "「北市府沒有自行替家屬聲請假扣押，因此可推論市府自始未考慮財產保全、也未提供相關協助」與公開時序不符。"
+    status: contradicted
+    contradicts: [F002, F003]
+    related_facts: [F009]
+    reasoning_notes: "市府非家屬民事債權的債權人，不能逕以自己名義聲請；同時公開紀錄顯示3月28日起已提供假扣押法律與律師費協助。是否應採取更多協助仍可討論，但不能把『未由市府自行聲請』等同『未考慮／未協助』。"
+
+  - id: C004
+    statement: "「市府用民間捐款替業者支付寶林案醫療賠償」會誤導款項最終負擔狀態。"
+    status: contradicted
+    contradicts: [F006]
+    reasoning_notes: "善款是緊急代墊，後續已透過代位求償全數匯回專戶。"
+
+  - id: C005
+    statement: "「北市府在寶林案真正有權力或實際能做的只有開罰」不符合後續處置紀錄。"
+    status: contradicted
+    contradicts: [F001, F002, F004, F005, F006, F007, F008]
+    reasoning_notes: "市府實際進行消保行政調查、保險協調、消費爭議調解、法律協助、醫療代墊與代位求償、團訟協作及行政裁罰移送等多條處置路徑。"
+
+  - id: C006
+    statement: "「北市府已讓寶林案所有受害者完成賠償」不成立。"
+    status: contradicted
+    contradicts: [F007]
+    related_facts: [F005]
+    reasoning_notes: "亡者家屬已有獲償／和解成果，但30名受害者及家屬的團體訴訟仍在進行。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-11-03T19:10:00+08:00"
+    platform: "GitHub politics-db"
+    query: "寶林 / 假扣押 / 消費爭議"
+    scope: "lichih/politics-db main"
+    result: not_found
+    notes: "現有repo未找到以寶林案後續救濟與理賠為中心的session evidence，因此建立新紀錄。"
+
+  - id: Q002
+    observed_at: "2026-11-03T19:10:00+08:00"
+    platform: "web"
+    query: "臺北市政府法務局 寶林 保險 理賠 假扣押 團體訴訟 醫療費代墊 行政執行"
+    scope: "臺北市政府法務局、臺北市政府衛生局"
+    result: found
+    notes: "找到2024年至2026年官方時序與後續結果資料。"
+
+  - id: Q003
+    observed_at: "2026-11-03T19:10:00+08:00"
+    platform: "web"
+    query: "消基會 寶林 團體訴訟 30人 293019053 進度"
+    scope: "財團法人中華民國消費者文教基金會"
+    result: found
+    notes: "找到消基會自身的收件、提訟及案件進度資料，可獨立核對市府所述團訟時序與案件尚未終結。"
+
+promotion:
+  cases:
+    - "寶林茶室食物中毒案：後續受害者救濟、民事求償與行政追償"
+  comparators: []
+  research: []
+
+notes:
+  - "本session刻意以『事件後續救濟與責任追究』為論證中心；不得拿後續處置成果直接洗掉或證明前端食安應變是否『第一時間非常機警』。"
+  - "目前證據整體上支持北市府在後續救濟面向有具體且產生結果的行動；證據不要求形式上的正反平衡，而要求結論強度與事實強度一致。"
+  - "假扣押爭議應維持權利主體與證據邊界：可證明市府早期提供協助、家屬及相關團體未提出聲請；公開資料僅可證寶林自述為虧損狀態，不能自行擴張成完全無資產可扣。"
