@@ -24,7 +24,8 @@ sources:
     published_at: "2026-11-03"
     observed_at: "2026-11-03T21:57:00+08:00"
     retrieval_status: reachable
-    notes: "轉述高院裁定：二審不適用刑訴證據保全程序；聲請人不確定錄音是否存在及內容；裁定駁回不得抗告。尚未取得裁定原文。"
+    notes: 
+      - "轉述高院裁定：二審不適用刑訴證據保全程序；聲請人不確定錄音是否存在及內容；裁定駁回不得抗告。尚未取得裁定原文。"
   - id: S002
     source_type: secondary
     publisher: "太報"
@@ -33,7 +34,8 @@ sources:
     published_at: "2026-11-03"
     observed_at: "2026-11-03T21:57:00+08:00"
     retrieval_status: reachable
-    notes: "獨立報導高院程序駁回理由；其對一審不正訊問及證據能力之概括描述，仍須以一審判決全文核對。"
+    notes: 
+      - "獨立報導高院程序駁回理由；其對一審不正訊問及證據能力之概括描述，仍須以一審判決全文核對。"
   - id: S003
     source_type: secondary
     publisher: "中央社"
@@ -42,7 +44,8 @@ sources:
     published_at: "2025-08-29"
     observed_at: "2026-11-03T21:57:00+08:00"
     retrieval_status: reachable
-    notes: "轉述北檢2025-08-29新聞稿：柯文哲及辯護人聲請勘驗彭振聲2024-09-03偵訊錄音錄影，北院2025-08-28已勘驗；北檢稱1小時13分鐘中斷為彭與律師單獨接見。此為檢方主張，不代表法院已認定其說法全部屬實。"
+    notes: 
+      - "轉述北檢2025-08-29新聞稿：柯文哲及辯護人聲請勘驗彭振聲2024-09-03偵訊錄音錄影，北院2025-08-28已勘驗；北檢稱1小時13分鐘中斷為彭與律師單獨接見。此為檢方主張，不代表法院已認定其說法全部屬實。"
   - id: S004
     source_type: secondary
     publisher: "TVBS"
@@ -51,7 +54,8 @@ sources:
     published_at: "2025-08-29"
     observed_at: "2026-11-03T21:57:00+08:00"
     retrieval_status: reachable
-    notes: "報導2025-08-28北院勘驗2024-09-03及09-04偵訊光碟10個檔案。"
+    notes: 
+      - "報導2025-08-28北院勘驗2024-09-03及09-04偵訊光碟10個檔案。"
   - id: S005
     source_type: primary
     publisher: "全國法規資料庫"
@@ -59,7 +63,8 @@ sources:
     url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
     observed_at: "2026-11-03T21:57:00+08:00"
     retrieval_status: reachable
-    notes: "法源追蹤：第219-4條證據保全聲請時點；第163條以下證據調查。須在引用歷史程序時核對當時有效條文。"
+    notes: 
+      - "法源追蹤：第219-4條證據保全聲請時點；第163條以下證據調查。須在引用歷史程序時核對當時有效條文。"
 
 facts:
   - id: F001
@@ -129,14 +134,16 @@ searches:
     query: "2026 11 3 柯文哲 二審 彭振聲 保全錄音 高院 駁回 理由"
     scope: "當日媒體報導與裁定理由"
     result: found
-    notes: "取得聯合報、太報報導；本次尚未取得高院裁定全文。"
+    notes: 
+      - "取得聯合報、太報報導；本次尚未取得高院裁定全文。"
   - id: Q002
     observed_at: "2026-11-03T21:57:00+08:00"
     platform: web
     query: "2025 8 29 北檢 彭振聲 1小時13分鐘 勘驗 新聞稿"
     scope: "一審勘驗及北檢公開說明"
     result: found
-    notes: "中央社、TVBS等報導可確認一審已勘驗；無法據此確認第一次審判期日前有無保全聲請。"
+    notes: 
+      - "中央社、TVBS等報導可確認一審已勘驗；無法據此確認第一次審判期日前有無保全聲請。"
 
 promotion:
   cases: []
