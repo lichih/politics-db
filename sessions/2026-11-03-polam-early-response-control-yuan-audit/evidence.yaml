@@ -1,0 +1,423 @@
+session:
+  id: 2026-11-03-polam-early-response-control-yuan-audit
+  project: Politics
+  title: "寶林茶室案前端應變：3/24通報、採樣、停業與監察院糾正之證據審核"
+  started_at: "2026-11-03T19:40:52+08:00"
+  updated_at: "2026-11-03T19:40:52+08:00"
+  status: active
+
+topics:
+  - "寶林茶室"
+  - "台北市政府"
+  - "監察院"
+  - "食品中毒"
+  - "3月24日"
+  - "通報時序"
+  - "採樣"
+  - "停業"
+  - "食品安全衛生管理法"
+  - "標準作業程序"
+  - "邦克列酸"
+  - "黃揚明"
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "監察院"
+    title: "寶林茶室食品中毒案糾正案文"
+    url: "https://www.cy.gov.tw/public/Data/114mo/114%E7%A4%BE%E6%AD%A30001.pdf"
+    published_at: "2025"
+    observed_at: "2026-11-03T19:40:52+08:00"
+    retrieval_status: reachable
+    notes:
+      - "用於核對監察院重建的通報、稽查、採樣時序，以及監察院對北市府『專業警覺性不足』等評價。"
+      - "監察院是調查與糾正機關，但其法律／因果評價仍須與原始法規、SOP及其他一手時序交叉核對，不能把結論本身當成自我證明。"
+
+  - id: S002
+    source_type: primary
+    publisher: "臺灣臺北地方檢察署"
+    title: "臺北地檢偵結寶林茶室A13店食物中毒案件新聞稿"
+    url: "https://www.tpc.moj.gov.tw/media/386115/1140121%E8%87%BA%E5%8C%97%E5%9C%B0%E6%AA%A2%E5%81%B5%E7%B5%90%E5%AF%B6%E6%9E%97%E8%8C%B6%E5%AE%A4a13%E5%BA%97%E9%A3%9F%E7%89%A9%E4%B8%AD%E6%AF%92%E6%A1%88%E4%BB%B6%E6%96%B0%E8%81%9E%E7%A8%BF-%E7%99%BC%E4%BD%88.pdf?mediaDL=true"
+    published_at: "2025-01-21"
+    observed_at: "2026-11-03T19:40:52+08:00"
+    retrieval_status: reachable
+    notes:
+      - "用於核對3月24日8名邦克列酸陽性個案的精確用餐時間、受污染粿條仍在店內使用，以及業者早期對稽查／偵查所作不實陳述。"
+
+  - id: S003
+    source_type: primary
+    publisher: "臺北市政府"
+    title: "寶林茶室信義A13店疑似食品中毒事件專案報告"
+    url: "https://www-ws.gov.taipei/Download.ashx?n=MTEzMDQxMeW4gumVt%2BWwiOahiOWgseWRiuabuOmdouizh%2BaWmS5wZGY%3D&u=LzAwMS9VcGxvYWQvMzMyL3JlbGZpbGUvMTAxOTgvOTE2MDM1OS9lYTQzN2Q0Mi1iMjRiLTRkZDAtYTA0Mi04MGFiZjM2YTNhNDcucGRm"
+    published_at: "2024-04-11"
+    observed_at: "2026-11-03T19:40:52+08:00"
+    retrieval_status: reachable
+    notes:
+      - "北市府提交議會之早期專案報告；用於核對3月24日至26日採樣、停業與後續聯合稽查時序。"
+
+  - id: S004
+    source_type: primary
+    publisher: "臺北市政府衛生局"
+    title: "北市衛生局針對監察院寶林茶室案糾正文之說明"
+    url: "https://health.gov.taipei/News_Content.aspx?n=ED8781982A8E338E&s=DCBFD4023728AD25&sms=72544237BBE4C5F6"
+    published_at: "2025"
+    observed_at: "2026-11-03T19:40:52+08:00"
+    retrieval_status: reachable
+    notes:
+      - "北市府對監察院糾正之反方一手說明；用於核對其自述12:42接獲通報、約17時完成查核，以及其引用檢方調查所述業者隱匿／丟棄粿條。"
+      - "屬受糾正機關自身說法，對自身行動版本具有一手性，但爭議事實仍需其他來源交叉核對。"
+
+  - id: S005
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "食品安全衛生管理法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0040001"
+    published_at: ""
+    observed_at: "2026-11-03T19:40:52+08:00"
+    retrieval_status: reachable
+    notes:
+      - "用於核對地方主管機關調查食品中毒時之法定權限。"
+
+  - id: S006
+    source_type: primary
+    publisher: "總統府"
+    title: "2015年12月16日食品安全衛生管理法修正公布條文"
+    url: "https://www.president.gov.tw/PORTALS/0/BULLETINS/PAPER/PDF/7224-5.PDF"
+    published_at: "2015-12-16"
+    observed_at: "2026-11-03T19:40:52+08:00"
+    retrieval_status: reachable
+    notes:
+      - "用於保存2024年寶林案時已存在之第41條文字；疑似食品中毒調查期間，主管機關『得』命暫停作業、停止販賣、消毒並封存產品。"
+
+  - id: S007
+    source_type: primary
+    publisher: "衛生福利部食品藥物管理署"
+    title: "食品良好衛生規範準則問答集"
+    url: "https://www.fda.gov.tw/tc/includes/getfile.ashx?id=f638264119026823418"
+    published_at: ""
+    observed_at: "2026-11-03T19:40:52+08:00"
+    retrieval_status: reachable
+    notes:
+      - "用於核對舊版GHP『成品留樣保存至有效日期』係食品工廠規範，而非一般餐飲業普遍的數日留樣義務。"
+
+  - id: S008
+    source_type: primary
+    publisher: "衛生福利部"
+    title: "食品良好衛生規範準則發布說明"
+    url: "https://www.mohw.gov.tw/cp-16-21402-1.html"
+    published_at: "2014"
+    observed_at: "2026-11-03T19:40:52+08:00"
+    retrieval_status: reachable
+    notes:
+      - "用於確認舊版GHP將食品工廠與餐飲業分章規範。"
+
+  - id: S009
+    source_type: primary
+    publisher: "臺北市政府衛生局"
+    title: "疑似食品中毒辦理流程專家會議紀錄"
+    url: "https://www-ws.gov.taipei/Download.ashx?icon=.pdf&n=6Ie65YyX5biC5pS%2F5bqc6KGb55Sf5bGA55aR5Ly86aOf5ZOB5Lit5q%2BS6L6m55CG5rWB56iL5bCI5a625pyD6K2w57SA6YyEVkYucGRm&u=LzAwMS9VcGxvYWQvODUyL3JlbGZpbGUvNjM3NzMvOTE1Njc1Mi9lMDU2ZjBiNy01MTQxLTQ1ZTAtYTFiMi04ZTdjZWNiNDNkOTUucGRm"
+    published_at: "2024-04-03"
+    observed_at: "2026-11-03T19:40:52+08:00"
+    retrieval_status: reachable
+    notes:
+      - "寶林案後專家會議，討論重大傷亡時立即擴大採檢及第一時間停業等強化方向。"
+
+  - id: S010
+    source_type: primary
+    publisher: "臺北市政府衛生局"
+    title: "研議修訂臺北市食品中毒事件通報、調查、採樣及送驗作業程序書專家會議紀錄"
+    url: "https://www-ws.gov.taipei/Download.ashx?icon=.pdf&n=MTEzMDUwMeiHuuWMl%2BW4guaUv%2BW6nOihm%2BeUn%2BWxgOeglOitsOS%2FruioguacrOW4guOAiumjn%2BWTgeS4reavkuS6i%2BS7tumAmuWgseOAgeiqv%2BafpeOAgeaOoeaoo%2BWPiumAgempl%2BS9nOalreeoi%2BW6j%2BabuC5wZGY%3D&u=LzAwMS9VcGxvYWQvODUyL3JlbGZpbGUvNjM3NzMvOTE3MTkyNy9mYTJlODM1OC1iMTFkLTRhZDItOTU5YS0zN2ZkMGIwMDBiZTIucGRm"
+    published_at: "2024-05-01"
+    observed_at: "2026-11-03T19:40:52+08:00"
+    retrieval_status: reachable
+    notes:
+      - "寶林案後正式研議修訂SOP；討論停業人數／重症門檻與重大事件擴大採檢時機。"
+
+facts:
+  - id: F001
+    statement: "新北市衛生局於2024年3月23日17:30接獲醫院疑似食品中毒通報；3月24日上午完成個案訪談後，監察院案文記載其於12:18透過產品通路管理資訊系統通知臺北市及食藥署，並於12:39寄送個案訪談紀錄。"
+    status: verified
+    observed_at: "2026-11-03T19:40:52+08:00"
+    source_ids: [S001]
+    evidence_summary: "保存跨縣市通報的可核對時序；12:18為系統通知時間，12:39為訪談資料寄送時間。"
+    tags: ["2024", "3月24日", "新北市", "通報", "12:18", "12:39"]
+
+  - id: F002
+    statement: "3月24日跨縣市通報所涉兩名個案均曾在寶林A13食用炒粿條並出現相似腸胃症狀，訪談資料另記載食物有苦、酸異味；監察院重建資料並記載其中一人住院休克。"
+    status: verified
+    observed_at: "2026-11-03T19:40:52+08:00"
+    source_ids: [S001]
+    evidence_summary: "通報內容已包含同店、同品項、相似症狀與異味等風險訊號。"
+    verification_notes:
+      - "『一人住院休克』由監察院案文重建；現有公開資料不足以精確確認該重症資訊是在12:18系統通知、12:39訪談紀錄，或其後何一時間點明確送達北市。"
+    tags: ["食品中毒", "炒粿條", "異味", "重症"]
+
+  - id: F003
+    statement: "對北市實際『接獲』通報時間，公開資料存在不同表述：監察院保存新北於12:18完成系統通知、12:39寄送訪談資料；北市衛生局後續則稱12:42接獲新北通報。"
+    status: partial
+    observed_at: "2026-11-03T19:40:52+08:00"
+    source_ids: [S001, S004]
+    evidence_summary: "各時間可能分別對應系統傳送、資料寄送與承辦端實際收受，現有公開資料不足以證明其中一方虛構時間。"
+    tags: ["通報時間", "12:18", "12:39", "12:42", "時序"]
+
+  - id: F004
+    statement: "監察院依北市稽查採樣報告、工作報告及紀錄認定，北市接獲通報後至16:30才開始準備出發，首批稽查人員於傍晚抵達並稽查約1小時；北市衛生局則反駁稱12:42接獲通報後即立即前往，約17:00完成查核與工作報告。"
+    status: disputed
+    observed_at: "2026-11-03T19:40:52+08:00"
+    source_ids: [S001, S004]
+    evidence_summary: "兩個官方版本在『是否立即出發』上有實質衝突；目前公開資料未提供足以獨立確定稽查員實際抵達及離開寶林的精確時間。"
+    verification_notes:
+      - "此未解時點直接影響17:02兩名受害者是否可合理歸因於北市接獲通報後未及時阻斷供餐。"
+    tags: ["稽查時序", "16:30", "17:00", "爭議", "未解"]
+
+  - id: F005
+    statement: "監察院案文所引寶林案當時適用的北市110年版食品中毒SOP文字為：稽查人員『應依現場情形決定是否進行檢體採檢』，對可能相關檢體『均應考慮列為採檢標的』；無法採到嫌疑食品剩餘食品時，『以容器包裝者』才規定採同一批或同一製造日期產品。"
+    status: verified
+    observed_at: "2026-11-03T19:40:52+08:00"
+    source_ids: [S001]
+    evidence_summary: "舊SOP保留現場判斷空間，且同批產品替代採樣規則有『以容器包裝者』限定。"
+    tags: ["SOP", "採樣", "依現場情形", "應考慮", "容器包裝"]
+
+  - id: F006
+    statement: "監察院在糾正理由後段把舊SOP概括為北市應即時針對當下食材及餐點採樣，並將無法取得剩餘食品時採同批或同製造日期產品表述為一般要求；此表述強度高於其案文前段所引的『依現場情形決定』『應考慮』及『以容器包裝者』原文。"
+    status: verified
+    observed_at: "2026-11-03T19:40:52+08:00"
+    source_ids: [S001]
+    evidence_summary: "這是同一監察院案文內可直接比較的文字差異；它不證明監察院整體糾正必然錯誤，但使『北市明確違反無裁量採樣義務』的說法需要額外法源或專業依據。"
+    tags: ["監察院", "SOP", "糾正", "文字強度", "證據邊界"]
+
+  - id: F007
+    statement: "2024年寶林案時適用的食品安全衛生管理法第41條授權地方主管機關於疑似食品中毒調查期間『得』命業者暫停作業、停止販賣、進行消毒並封存產品。"
+    status: verified
+    observed_at: "2026-11-03T19:40:52+08:00"
+    source_ids: [S005, S006]
+    evidence_summary: "第41條建立主管機關可採取停業、停售、封存等措施的法定權限，但文字為『得』，並非一有通報即自動成立的『應立即停業』法定義務。"
+    tags: ["食安法41條", "停業", "停售", "封存", "裁量"]
+
+  - id: F008
+    statement: "寶林案時適用的舊版食品良好衛生規範將食品工廠與餐飲業分章規範；『成品應留樣保存至有效日期』是食品工廠相關要求，未找到一般餐飲業者必須將數日前供應的餐點或食材普遍留樣數日、等待衛生機關日後採檢的規定。"
+    status: verified
+    observed_at: "2026-11-03T19:40:52+08:00"
+    source_ids: [S007, S008]
+    evidence_summary: "黃揚明所稱業者沒有義務把3月19日至22日食品一路保存到3月24日，若限縮為『一般餐飲業沒有這種普遍事前留樣義務』，有規範基礎。"
+    verification_notes:
+      - "這不代表調查開始後業者可任意銷毀、隱匿食品，也不排除主管機關依法命封存、保存或停止販售後產生其他義務。"
+    tags: ["GHP", "餐飲業", "食品工廠", "留樣", "保存義務"]
+
+  - id: F009
+    statement: "北市府早期專案報告記載，3月24日及25日進行兩次稽查；3月24日採廚師手部及砧板檢體，3月25日採菜刀及水果刀等環境檢體，當時未採得同批剩餘食品；3月26日與中央專家聯合稽查時另採35件食品檢體。"
+    status: verified
+    observed_at: "2026-11-03T19:40:52+08:00"
+    source_ids: [S003]
+    evidence_summary: "北市確實在3月24日進行人體／環境採樣，但食材檢體直到3月26日聯合稽查才大量取得。"
+    tags: ["採樣", "手部檢體", "環境檢體", "食品檢體"]
+
+  - id: F010
+    statement: "3月24日取得的廚師手部檢體後來驗出邦克列酸，並成為檢調起訴的重要證據之一。"
+    status: verified
+    observed_at: "2026-11-03T19:40:52+08:00"
+    source_ids: [S004]
+    evidence_summary: "此事實支持『3月24日手部採證具有重大證據價值』；不因對其他應變措施有爭議而消失。"
+    tags: ["廚師手部", "邦克列酸", "關鍵證據", "起訴"]
+
+  - id: F011
+    statement: "北檢起訴資料認定，受邦克列酸污染的粿條在3月24日仍存在寶林A13並持續用於製餐；約11:40起廚師使用受污染的混裝粿條製作餐點。"
+    status: verified
+    observed_at: "2026-11-03T19:40:52+08:00"
+    source_ids: [S002]
+    evidence_summary: "因此『3月24日店內根本不存在涉案食品可供追查』不符合檢方調查結果；但這不等於稽查員在業者陳述與隱匿情況下必然可以當場找到該批食品。"
+    tags: ["粿條", "3月24日", "受污染食品", "北檢"]
+
+  - id: F012
+    statement: "北市衛生局後續表示，北檢調查發現店長曾示意廚師將室溫粿條藏至層架深處，廚師並於當晚丟棄剩餘粿條；北檢公開新聞稿則可獨立確認店長於早期稽查／偵查過程曾作不實陳述，但公開新聞稿未完整呈現北市所述藏匿與丟棄細節。"
+    status: partial
+    observed_at: "2026-11-03T19:40:52+08:00"
+    source_ids: [S002, S004]
+    evidence_summary: "業者不實陳述是檢方可交叉確認的事實；具體藏匿／丟棄情節目前公開可取得的直接敘述主要來自北市對檢方調查的轉述，應保留來源層級差異。"
+    tags: ["業者隱匿", "不實陳述", "粿條", "證據層級"]
+
+  - id: F013
+    statement: "北檢列出的3月24日8名邦克列酸陽性用餐者，其用餐時間分別為3人11:39、3人11:47、2人17:02。"
+    status: verified
+    observed_at: "2026-11-03T19:40:52+08:00"
+    source_ids: [S002]
+    evidence_summary: "這組精確時間是判斷『3月24日仍有8人中毒』與北市接獲通報後處置之因果關係的關鍵基礎。"
+    tags: ["受害者", "11:39", "11:47", "17:02", "3月24日"]
+
+  - id: F014
+    statement: "3月24日8名陽性用餐者中有6人於11:39或11:47用餐，均早於新北12:18透過系統通知臺北市；只有2人於17:02用餐，落在通知之後。"
+    status: verified
+    observed_at: "2026-11-03T19:40:52+08:00"
+    source_ids: [S001, S002]
+    evidence_summary: "因此不能把3月24日全部8名受害者都因果歸責於北市接獲該次跨縣市通報後未及時阻斷供餐。"
+    tags: ["因果", "通報前", "通報後", "8人", "2人"]
+
+  - id: F015
+    statement: "監察院以3月24日仍有8名民眾用餐後中毒作為北市未即時採樣、未阻斷供應的責任論據之一；與北檢精確用餐時間交叉核對後，其中6人實際在12:18跨縣市通知以前即已用餐。"
+    status: verified
+    observed_at: "2026-11-03T19:40:52+08:00"
+    source_ids: [S001, S002]
+    evidence_summary: "監察院以『8人』整體支撐接獲通報後處置不及的因果敘事，至少對其中6人時間上不能成立；剩餘2人的責任仍需看稽查實際到離場時點。"
+    tags: ["監察院", "因果推論", "8人", "時序錯置"]
+
+  - id: F016
+    statement: "3月24日17:02仍有2名後來驗出邦克列酸陽性的民眾在寶林A13用餐，距新北12:18系統通知已超過4小時；但公開資料尚不能確定北市稽查人員當時尚未抵達、正在現場或已離場。"
+    status: partial
+    observed_at: "2026-11-03T19:40:52+08:00"
+    source_ids: [S001, S002, S004]
+    evidence_summary: "這2人是目前前端應變最重要的反向事證，但因實際到場／離場時間未公開釐清，不宜直接寫成已證實由北市延誤所致。"
+    tags: ["17:02", "2人", "不利事證", "未解時序"]
+
+  - id: F017
+    statement: "寶林案後北市於2024年4月3日、5月1日專家會議進一步討論重大傷亡時立即擴大採檢、第一時間停業，以及以死亡、加護病房、休克、昏迷等作為特殊停業判斷因子，並研議修訂原SOP。"
+    status: verified
+    observed_at: "2026-11-03T19:40:52+08:00"
+    source_ids: [S009, S010]
+    evidence_summary: "這些會議可證明案後制度朝更明確、更嚴格的重大事件採樣／停業標準修正；不能不經論證就倒灌為3月24日已存在的明確義務。"
+    tags: ["事後修正", "SOP", "停業門檻", "擴大採檢", "時間邊界"]
+
+  - id: F018
+    statement: "北市府早期專案報告記載，3月26日17:30依食品安全衛生管理法第41條決定命寶林A13停業，當晚與中央單位聯合稽查；其後擴及寶林其他分店。"
+    status: verified
+    observed_at: "2026-11-03T19:40:52+08:00"
+    source_ids: [S003]
+    evidence_summary: "北市最終確實行使第41條停業權限；爭議在於是否應更早行使，而非是否具有法定權限。"
+    tags: ["3月26日", "停業", "食安法41條", "行政處置"]
+
+claims:
+  - id: C001
+    statement: "監察院寶林案糾正可作為重要調查來源，但其『北市明確違反既有採樣義務』及『3月24日仍有8人中毒可歸責於接獲通報後處置不及』等推論，仍必須接受原始SOP、法令與精確時序的獨立核對。"
+    status: supported
+    supports: [F005, F006, F007, F013, F014, F015]
+    related_facts: [F016, F017]
+    reasoning_notes: "監察院可提供調查材料，不等於其法律／因果評價具自我證明力。本案至少存在SOP文字強度與8人用餐時序兩個實質校正點。"
+
+  - id: C002
+    statement: "「3月24日8名中毒者都是因北市接獲跨縣市通報後未及時阻斷供餐而受害」不成立。"
+    status: contradicted
+    contradicts: [F014, F015]
+    reasoning_notes: "其中6人在11:39或11:47用餐，早於12:18系統通知；只能把17:02兩人列入接獲通報後的可能責任窗口。"
+
+  - id: C003
+    statement: "「寶林案受害者都是3月19日至22日消費，3月24日已無當日受害者」不符合北檢資料。"
+    status: contradicted
+    contradicts: [F013]
+    reasoning_notes: "北檢明列3月24日8名邦克列酸陽性用餐者。"
+
+  - id: C004
+    statement: "「3月24日店內根本不存在與案件相關、仍可追查的食品」不符合北檢調查。"
+    status: contradicted
+    contradicts: [F011]
+    related_facts: [F012]
+    reasoning_notes: "受污染粿條3月24日仍被用於製餐；但業者不實陳述／隱匿會影響稽查員未採到該批食品的可責性，兩者應同時保留。"
+
+  - id: C005
+    statement: "「一般餐飲業依法本來就必須把3月19日至22日供應過的食品留樣到3月24日供稽查」目前沒有找到相應的普遍法定義務。"
+    status: unsupported
+    supports: []
+    related_facts: [F008]
+    reasoning_notes: "舊GHP的成品留樣至有效日期要求屬食品工廠規範；餐飲業沒有找到同等一般留樣義務。這不等於調查開始後可以違反主管機關封存、保存等命令。"
+
+  - id: C006
+    statement: "「北市110年版SOP已明確、無裁量地要求3月24日立即採取所有當下食材與餐點，未採即屬明確違反SOP」證據不足。"
+    status: unsupported
+    supports: []
+    related_facts: [F005, F006]
+    reasoning_notes: "SOP原文是『依現場情形決定是否進行檢體採檢』與『應考慮列為採檢標的』，同批替代採樣亦有『以容器包裝者』限定；是否專業判斷失當仍可另行評價，但不能直接改寫成無裁量義務。"
+
+  - id: C007
+    statement: "「2024年3月24日一收到第一起跨縣市通報，法律就自動要求北市立即勒令寶林停業」不符合當時第41條的文字。"
+    status: contradicted
+    contradicts: [F007]
+    related_facts: [F017, F018]
+    reasoning_notes: "第41條使用『得』，建立的是停業、停售與封存的法定權限；何時應行使仍涉及行政與專業判斷。案後會議才進一步研議重大傷亡下更明確的停業標準。"
+
+  - id: C008
+    statement: "寶林案後新增或明確化的重大傷亡擴大採檢、停業門檻等標準，不得未經論證就倒灌為3月24日已存在的明確義務。"
+    status: supported
+    supports: [F017]
+    related_facts: [F005, F007]
+    reasoning_notes: "事件時間、規則形成時間與後續制度改善必須分開。事後修法／修SOP可用來說明制度缺口，不能反向創造過去明文義務。"
+
+  - id: C009
+    statement: "監察院以『專業警覺性不足』評價北市，單憑此一機關評價不足以證明蔣萬安所稱3月24日採集關鍵生物跡證的同仁『非常機警』必然為假。"
+    status: supported
+    supports: [F005, F006, F010, F014, F015, F017]
+    related_facts: [F004, F016]
+    reasoning_notes: "手部採證確有重大證據價值；監察院的若干法律與因果推論存在需校正之處。另一方面，17:02兩名受害者及稽查實際時序仍未完全釐清，因此也不把『整體第一時間處置非常機警』升格成已客觀證實的事實。"
+
+  - id: C010
+    statement: "「3月24日廚師手部檢體的採集具有重大證據價值」有充分公開事證支持。"
+    status: supported
+    supports: [F009, F010]
+    reasoning_notes: "這個局部採證成果可獨立成立，不需以整體應變是否完善為前提。"
+
+  - id: C011
+    statement: "「北市3月24日整體第一時間應變可以客觀定性為『非常機警』」目前公開證據仍不足以完成事實層面的定論。"
+    status: unresolved
+    supports: [F010]
+    contradicts: [F016]
+    related_facts: [F004, F005, F006, F007, F014, F017]
+    reasoning_notes: "『非常機警』本身是強度較高的政治／價值評價；支持面有關鍵手部採證，反向面有17:02仍有兩人用餐及稽查出發時序爭議，而精確到離場時間未公開解決。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-11-03T19:40:52+08:00"
+    platform: "GitHub politics-db"
+    query: "寶林 / 邦克列酸 / 米酵菌酸"
+    scope: "lichih/politics-db main"
+    result: not_found
+    notes: "程式碼搜尋未找到既有以前端3月24日應變與監察院糾正審核為中心的evidence；同日已另有後續救濟與責任追究session，兩者刻意分開。"
+
+  - id: Q002
+    observed_at: "2026-11-03T19:40:52+08:00"
+    platform: "web"
+    query: "寶林 3月24日 通報 12:18 12:39 12:42 稽查 16:30 17:00"
+    scope: "監察院、臺北市政府、臺北市衛生局"
+    result: partial
+    notes: "找到系統通報、資料寄送及雙方稽查時序版本，但未找到可獨立確認稽查員實際抵達及離場的精確時間。"
+
+  - id: Q003
+    observed_at: "2026-11-03T19:40:52+08:00"
+    platform: "web"
+    query: "110年版 食品中毒事件通報 調查 採樣 送驗 作業程序書 寶林 依現場情形 容器包裝"
+    scope: "監察院糾正案文所引歷史SOP、北市案後修訂會議"
+    result: found
+    notes: "監察院案文保存110年版關鍵原文；另取得2024年4月、5月案後專家會議，可區分事件時規則與後續加強標準。"
+
+  - id: Q004
+    observed_at: "2026-11-03T19:40:52+08:00"
+    platform: "web"
+    query: "食品安全衛生管理法 第41條 2024 疑似食品中毒 暫停作業 停止販賣 封存"
+    scope: "全國法規資料庫、總統府歷史公布條文"
+    result: found
+    notes: "確認事件時第41條使用『得』，屬主管機關權限／裁量，而非一有通報即自動停業的文字。"
+
+  - id: Q005
+    observed_at: "2026-11-03T19:40:52+08:00"
+    platform: "web"
+    query: "寶林 3月24日 11:39 11:47 17:02 邦克列酸"
+    scope: "臺北地檢署起訴新聞稿"
+    result: found
+    notes: "北檢提供8名3月24日陽性個案的精確用餐時間，可校正監察院對8人的整體因果敘事。"
+
+  - id: Q006
+    observed_at: "2026-11-03T19:40:52+08:00"
+    platform: "web"
+    query: "寶林 3月24日 稽查員 實際抵達時間 離開時間"
+    scope: "監察院、北市府、衛生局、檢方公開資料"
+    result: not_found
+    notes: "未找到足以獨立確認3月24日首批稽查員實際抵達及離場分鐘數的公開原始紀錄；此缺口對17:02兩名受害者的責任判斷具實質重要性。"
+
+promotion:
+  cases:
+    - "寶林茶室食品中毒案：3月24日前端應變、採樣與停業判斷"
+  comparators: []
+  research: []
+
+notes:
+  - "本session專門處理3月24日前端應變與監察院糾正的證據審核；與 sessions/2026-11-03-polam-post-incident-relief-accountability/evidence.yaml 的後續救濟、理賠與團訟證據分開。"
+  - "監察院的『專業警覺性不足』是機關依調查材料作出的評價，不應在論證中直接轉寫成自我證明的客觀事實；其底層時序、SOP與法源應分別核對。"
+  - "最重要校正：3月24日8名陽性用餐者中6人在12:18跨縣市通報以前已用餐，故不能因果歸責於北市收到該通報後的處置；只有17:02兩人落在通報後窗口。"
+  - "最重要未解事實：首批稽查員3月24日實際抵達及離開寶林的精確時間。這個資訊若日後取得，可能實質改變對17:02兩名受害者及整體第一時間應變的評價。"
+  - "時間是硬約束：2024年4月至5月專家會議所形成或明確化的重大傷亡停業／擴大採檢標準，不得倒灌為3月24日已存在的明文義務。"
