@@ -1,0 +1,257 @@
+session:
+  id: "2026-11-05-shen-child-abuse-claim"
+  project: Politics
+  title: "沈伯洋稱臺北兒虐不當事件六都之首：訪談、官方指標與競辦回應"
+  started_at: "2026-11-05T06:26:14+08:00"
+  updated_at: "2026-11-05T06:26:14+08:00"
+  status: active
+
+topics:
+  - "2026臺北市長選舉"
+  - "沈伯洋"
+  - "兒少保護"
+  - "兒虐通報與統計口徑"
+  - "夏莉絲幼兒園"
+
+sources:
+  - id: S001
+    source_type: secondary
+    publisher: "Yahoo新聞（轉載李奕緯報導）"
+    title: "沈伯洋喊「台北兒虐是六都之首」下一句「手上沒有數據，用猜的」"
+    url: "https://tw.news.yahoo.com/%E6%B2%88%E4%BC%AF%E6%B4%8B%E5%96%8A-%E5%8F%B0%E5%8C%97%E5%85%92%E8%99%90%E6%98%AF%E5%85%AD%E9%83%BD%E4%B9%8B%E9%A6%96-%E4%B8%8B-%E5%8F%A5-%E6%89%8B%E4%B8%8A%E6%B2%92%E6%9C%89%E6%95%B8%E6%93%9A-120903474.html"
+    published_at: "2026-11-04"
+    observed_at: "2026-11-05"
+    retrieval_status: reachable
+    notes:
+      - "報導逐段引述遠見On AIR主持人李建興及沈伯洋的問答；仍待核對原始完整影片與時間碼。"
+  - id: S002
+    source_type: primary
+    publisher: "衛生福利部"
+    title: "一一三保護專線 113通報件數分析表（2024）"
+    url: "https://www.mohw.gov.tw/dl-92984-12b5d4f5-0968-43f7-90d1-fe937c378479.html"
+    published_at: ""
+    observed_at: "2026-11-05"
+    retrieval_status: reachable
+    notes:
+      - "官方PDF第1頁。這是113保護專線通報件數，而不是全部兒少保護通報、開案或實際受虐人數。"
+  - id: S003
+    source_type: primary
+    publisher: "衛福部／CRC兒少統計專區"
+    title: "113保護專線兒少保護案件通報數：定義與資料說明"
+    url: "https://crc.sfaa.gov.tw/Statistics/Detail/80?AspxAutoDetectCookieSupport=1"
+    observed_at: "2026-11-05"
+    retrieval_status: reachable
+    notes:
+      - "資料定義為113保護專線受理民眾通報兒少保護案件的通報件數；網頁為官方統計介紹。"
+  - id: S004
+    source_type: primary
+    publisher: "衛福部／CRC兒少統計專區"
+    title: "兒童少年保護－通報處理情形：通報件次及分流定義"
+    url: "https://crc.sfaa.gov.tw/Statistics/Detail/64?AspxAutoDetectCookieSupport=1"
+    observed_at: "2026-11-05"
+    retrieval_status: reachable
+    notes:
+      - "官方資料說明：不同通報可能包含重複通報、非屬兒少法通報事由及不同分流。"
+      - "此項全體通報統計不可與僅經113專線的數值混用。"
+  - id: S005
+    source_type: secondary
+    publisher: "太報"
+    title: "遭蔣萬安批評「猜」北市兒虐案六都居首 沈伯洋競辦：不要斷章取義、處理不當是事實"
+    url: "https://dev.taisounds.news/news/content/71/297958"
+    published_at: "2026-11-04T22:06:00+08:00"
+    observed_at: "2026-11-05"
+    retrieval_status: reachable
+    notes:
+      - "引述沈伯洋競辦發言人蔡一愷的公開回應，並非沈本人接受完整質詢的原始逐字稿。"
+  - id: S006
+    source_type: primary
+    publisher: "臺北市政府教育局"
+    title: "夏莉絲案涉案行為人終身不得擔任教保人員、廢照重罰235萬！北市教育局籲停止政治操作"
+    url: "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=2990B5B6DFCCEAB2"
+    published_at: "2026-07-30"
+    observed_at: "2026-11-05"
+    retrieval_status: reachable
+    notes:
+      - "教育局自身陳述；可以證明其公開說法與行政處置主張，不等於所有個案處理均已獨立證實妥適。"
+  - id: S007
+    source_type: secondary
+    publisher: "聯合報"
+    title: "沈伯洋稱北市兒虐六都之首「用猜的」 王鴻薇轟抹黑造謠要道歉"
+    url: "https://udn.com/news/story/124652/9857828"
+    published_at: "2026-11-04T20:33:00+08:00"
+    observed_at: "2026-11-05"
+    retrieval_status: reachable
+    notes:
+      - "記錄王鴻薇對沈伯洋的批評、衛福部數據援引與公開道歉要求；其比較論點仍應用原始官方資料逐項核查。"
+  - id: S008
+    source_type: primary
+    publisher: "衛福部／CRC兒少統計專區"
+    title: "兒童少年保護－遭父母、照顧者等家庭成員施虐死亡之人數及原因：統計定義"
+    url: "https://crc.sfaa.gov.tw/Statistics/Detail/13?AspxAutoDetectCookieSupport=1"
+    observed_at: "2026-11-05"
+    retrieval_status: reachable
+    notes:
+      - "定義限於家內施虐致死，不等於幼兒園違法對待、全部兒虐事件或全部通報。"
+      - "此處保留分類定義；六都各市死亡人數有待回到表格原檔核對後才可當作已獨立驗證數字。"
+  - id: S009
+    source_type: primary
+    publisher: "臺北市政府教育局"
+    title: "駁斥立委不實指控！北市教育局重申夏莉絲幼兒園案「從嚴從速、依法徹查」"
+    url: "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=A055731B6DA79B64"
+    published_at: "2026-07-31"
+    observed_at: "2026-11-05"
+    retrieval_status: reachable
+    notes:
+      - "針對沈伯洋過去稱事發前已有13件通報，教育局公開提出不同的件數及內容界定。"
+  - id: S010
+    source_type: primary
+    publisher: "國家發展委員會"
+    title: "114年度行政院管制「強化社會安全網第二期計畫」查證報告"
+    url: "https://www.ndc.gov.tw/News_Content.aspx?n=7D31E142AEA47026&s=AFD2774133F12362&sms=A145E1ED3077E950"
+    published_at: "2026-04-23"
+    observed_at: "2026-11-05"
+    retrieval_status: reachable
+    notes:
+      - "官方報告列『兒童受虐及受虐致死人數略有上升，主動關懷及保護機制仍有待提升』為待改進事項；反映不能單憑通報總量判斷治理成敗。"
+
+facts:
+  - id: F001
+    statement: "遠見On AIR專訪中，沈伯洋稱臺北兒虐問題看起來愈來愈嚴重，並說『兒虐不當事件』應是六都居首；主持人追問是否與區域性或造成問題的環節有關，沈接著表示手上沒有數據，只能用猜的。"
+    status: partial
+    observed_at: "2026-11-05"
+    source_ids: [S001, S007]
+    evidence_summary: "有新聞報導提供連續問答脈絡；尚未取得原始全片時間碼，不能逕認『用猜的』必然專指六都排名或專指成因。"
+    verification_notes:
+      - "原始排名與『沒有數據』兩段在同次對話中出現，應一併呈現，不需為任一方先做語意免責。"
+      - "應取得遠見完整專訪原片、逐字稿與時間碼。"
+    tags: ["沈伯洋", "原話", "待原片核對"]
+  - id: F002
+    statement: "衛福部2024年113保護專線兒少保護案件通報件數：新北1431、臺中1048、桃園891、高雄833、臺北747、臺南493；臺北在六都列第五。"
+    status: verified
+    observed_at: "2026-11-05"
+    source_ids: [S002, S003]
+    evidence_summary: "直接核對官方113通報件數分析表；統計區間2024-01-01至2024-12-31，單位件數。"
+    verification_notes:
+      - "此數據只能反證『若所指是2024年113專線兒少保護通報件數則臺北不是第一』，不能直接涵蓋沈未定義的所有『不當事件』。"
+      - "通報件數不等於實際兒虐發生人數，也不構成治理成效的單一排名。"
+    tags: ["衛福部", "113專線", "2024", "統計口徑"]
+  - id: F003
+    statement: "衛福部官方統計分別處理113保護專線通報、兒少保護通報及分流、家內受虐致死等不同指標；不能將不同母體混成同一六都排名。"
+    status: verified
+    observed_at: "2026-11-05"
+    source_ids: [S002, S003, S004, S008]
+    evidence_summary: "官方定義顯示通報、介入與家內受虐致死屬不同事件集合。"
+    tags: ["統計口徑", "政策判準"]
+  - id: F004
+    statement: "2026-11-04沈伯洋競辦發言人蔡一愷已公開回應爭議，稱不應斷章取義，並轉談兒虐制度預防及夏莉絲幼兒園13件1999陳情；該篇公開回應未提供『六都之首』具體統計口徑或數據，也未見道歉。"
+    status: verified
+    observed_at: "2026-11-05"
+    source_ids: [S005]
+    evidence_summary: "核對太報22:06報導的競辦回應內容。『未見』只限本篇報導及此次查詢，不等於從未有任何其他公開解釋。"
+    verification_notes:
+      - "有公開回應，不可描述成『完全沒有說明／完全沒有回應』。"
+      - "尚待持續追蹤本人是否補證、修正排名或公開致歉。"
+    tags: ["競辦回應", "追蹤"]
+  - id: F005
+    statement: "臺北市教育局稱夏莉絲幼兒園權管的13件1999陳情中，事發前7件多涉及收費、師生比、教學場地，而非13件全部都是事發前的兒虐通報；並稱每件均有依程序處理。"
+    status: verified
+    observed_at: "2026-11-05"
+    source_ids: [S006, S009]
+    evidence_summary: "確認教育局有正式公開上述說法；處理是否充分仍須逐案資料核查，不能只依機關自述結案。"
+    verification_notes:
+      - "13件是陳情數，不能在缺乏明細時直接等同13次虐童通報。"
+    tags: ["夏莉絲", "1999", "教育局"]
+  - id: F006
+    statement: "王鴻薇與蔣萬安陣營公開批評沈伯洋以猜測提出兒虐六都排名，並援引家內受虐致死數據反駁。"
+    status: verified
+    observed_at: "2026-11-05"
+    source_ids: [S007]
+    evidence_summary: "記錄政治攻防雙方公開主張；家內致死數據與不當照護事件並非相同母體。"
+    tags: ["政治攻防", "資料口徑"]
+  - id: F007
+    statement: "國發會社會安全網查證報告將兒童受虐及受虐致死上升、主動關懷及保護仍待提升列為治理待改進事項。"
+    status: verified
+    observed_at: "2026-11-05"
+    source_ids: [S010]
+    evidence_summary: "國發會官方查證報告摘要之待改進事項。"
+    verification_notes:
+      - "此為全國政策檢視，不可直接作為特定縣市漏報或介入成效優劣的證明。"
+    tags: ["社安網", "政策評估"]
+
+claims:
+  - id: C001
+    statement: "臺北市的『兒虐不當事件』是六都之首。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F001, F002, F003]
+    reasoning_notes: "目前未見沈伯洋提供定義、年度、分母、資料來源或排名計算；2024年113專線兒少通報數恰為第五，但指標未必等同其未定義的『不當事件』，不宜寫成所有指標都已證偽。"
+  - id: C002
+    statement: "臺北市2024年113保護專線兒少保護案件通報件數居六都第一。"
+    status: contradicted
+    supports: []
+    contradicts: [F002]
+    related_facts: [F003]
+    reasoning_notes: "2024官方同口徑數字顯示臺北第五；僅限此特定子指標。"
+  - id: C003
+    statement: "通報數越高就越證明市政治理失敗；或零死亡必然證明所有通報均獲妥善處理。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F003, F007]
+    reasoning_notes: "通報量受到發生率、通報意願、制度可近性、發現能力、重複通報及分流影響；死亡數則受案件規模及嚴重程度等影響。應比較通報後調查、開案、介入時效、再犯、死亡及漏報風險，不可從單一數字直接推因果。"
+  - id: C004
+    statement: "沈伯洋藉無來源的六都排名強化臺北市政負面印象、迴避原排名舉證，是抹黑式論證。"
+    status: unresolved
+    supports: [F001, F004]
+    contradicts: []
+    related_facts: [F002, F003]
+    reasoning_notes: "這是對可觀察發言結構與回應效果的政治評價／目的推論，有公開事證可供討論，但不能寫成已查明其主觀故意或明知數據相反。"
+  - id: C005
+    statement: "若不是有意藉猜測抹黑，則顯露市長候選人對兒少統計與政策判斷的能力風險。"
+    status: unresolved
+    supports: [F001, F003, F004]
+    contradicts: []
+    related_facts: [F002, F007]
+    reasoning_notes: "這是公共治理的條件式評價：統計判讀能力影響行政督導與資源配置；尚不能據此直接認定個人全面缺乏治理能力。"
+  - id: C006
+    statement: "沈伯洋截至2026-11-05完全沒有回應或解釋爭議。"
+    status: contradicted
+    supports: []
+    contradicts: [F004]
+    related_facts: []
+    reasoning_notes: "競辦在11/04 22:06報導已有回應；比較精確的未解決問題是未見對原『六都之首』排名提出證據或明確撤回。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-11-05"
+    platform: "GitHub politics-db code / issues search"
+    query: "沈伯洋 兒虐；兒虐"
+    scope: "lichih/politics-db 預先查重"
+    result: not_found
+    notes: "本次GitHub搜尋未命中相關既存session或issue；搜尋索引不等於全repo完整檔案清冊。"
+  - id: Q002
+    observed_at: "2026-11-05"
+    platform: "公開新聞及官方網站搜尋"
+    query: "沈伯洋 六都兒虐 競辦 蔡一愷 更正 道歉"
+    scope: "2026-11-04至2026-11-05搜尋可見來源"
+    result: partial
+    notes: "找到11/04晚間競辦回應，該回應未附六都排名口徑及數據；不能據此宣稱全網不存在補充聲明。"
+  - id: Q003
+    observed_at: "2026-11-05"
+    platform: "公開網站搜尋"
+    query: "遠見On AIR 沈伯洋 兒虐 六都 2026 專訪 原始影片"
+    scope: "原始訪談URL與時間碼"
+    result: partial
+    notes: "已找到逐字引述的新聞報導及節目出處，但此輪尚未取得確定的遠見原始影片可核對URL與時間碼。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "本檔為事證與待解決問題保存，不是Fact公開文章，也不是針對特定人主觀故意的定案。"
+  - "關鍵待補：遠見原片、沈所指不當事件的統計定義／年份／比較口徑、教保機構不當對待的完整六都同期官方表、通報後處置及死亡／漏報比較。"
+  - "夏莉絲個案行政究責可獨立追查，不會自動證明全市『六都之首』。"
+  - "2024年113專線臺北市兒少保護案件通報數為747件；以官方PDF為準。"
