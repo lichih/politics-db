@@ -32,9 +32,9 @@ sources:
 
   - id: S002
     source_type: secondary
-    publisher: "三立新聞網（官方YouTube）"
-    title: "台大恩師117字評柯文哲「自以為天縱英才」"
-    url: "https://www.youtube.com/watch?v=8r1LNDMKffg"
+    publisher: "三立新聞網（Yahoo 新聞鏡像）"
+    title: "台大恩師評柯文哲！李源德：興風作浪是本能"
+    url: "https://tw.news.yahoo.com/%E5%8F%B0%E5%A4%A7%E6%81%A9%E5%B8%AB%E8%A9%95%E6%9F%AF%E6%96%87%E5%93%B2-%E6%9D%8E%E6%BA%90%E5%BE%B7-%E8%88%88%E9%A2%A8%E4%BD%9C%E6%B5%AA%E6%98%AF%E6%9C%AC%E8%83%BD-142507944.html"
     published_at: "2023-10-26"
     observed_at: "2026-11-06T00:23:17+08:00"
     retrieval_status: reachable
@@ -56,7 +56,7 @@ sources:
     source_type: secondary
     publisher: "民視新聞網"
     title: "柯文哲台大恩師『當年嚴厲評語』神預言！網看了全搖頭"
-    url: "https://www.ftvnews.com.tw/news/detail/2026402w0542"
+    url: "https://finance.ftvnews.com.tw/news/detail/2026402W0542"
     published_at: "2026-04-02"
     observed_at: "2026-11-06T00:23:17+08:00"
     retrieval_status: reachable
@@ -325,7 +325,7 @@ searches:
     observed_at: "2026-11-06T00:23:17+08:00"
     platform: web
     query: "李源德 柯文哲 恩師 2023 2026"
-    scope: "三立、TVBS、民視、中央社與新聞搜尋結果"
+    scope: "三立、品觀點、民視、中央社與新聞搜尋結果"
     result: found
     notes: "找到 2023 至 2026 年不同媒體使用『恩師李源德』，但所查報導未詳述個別提攜的事證。此結果不代表其他公開資料絕對不存在。"
 
@@ -353,7 +353,7 @@ searches:
     result: partial
     notes: "找到兩人的職務時間線與朱轉任亞東的記錄，未查到能確認貼文所稱『鬥走』的直接因果證據。"
 
-  - id: Q004
+  - id: Q005
     observed_at: "2026-11-06T00:29:25+08:00"
     platform: web
     query: "柯文哲 李源德 2013 PTT 朱p 鬥輸；2021 李源德 柯文哲 做秀"
