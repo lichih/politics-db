@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "沈伯洋稱臺北兒虐不當事件六都之首：訪談、官方指標與競辦回應"
   started_at: "2026-11-05T06:26:14+08:00"
-  updated_at: "2026-11-05T06:26:14+08:00"
+  updated_at: "2026-11-05T09:36:59+08:00"
   status: active
 
 topics:
@@ -114,6 +114,40 @@ sources:
     notes:
       - "官方報告列『兒童受虐及受虐致死人數略有上升，主動關懷及保護機制仍有待提升』為待改進事項；反映不能單憑通報總量判斷治理成敗。"
 
+  - id: S011
+    source_type: secondary
+    publisher: "ETtoday新聞雲（Facebook官方粉專）"
+    title: "藍營稱沈伯洋兒虐次數用猜的 沈辦轟斷章取義：別拿悲劇政治攻防"
+    url: "https://www.facebook.com/ETtoday/posts/pfbid04FGdQvkRJiugoQFZbrB8tLiJx3Mv6MHAwKL8A5QNLZh9tfW1D3MKk9LC7nNjhFBkl"
+    published_at: "2026-11-04T23:00:00+08:00"
+    observed_at: "2026-11-05T09:36:59+08:00"
+    retrieval_status: reachable
+    notes:
+      - "直接在使用者開啟的Facebook分頁核對ETtoday貼文標題及文章連結；新聞標題是媒體說法，不是原始訪談逐字稿。"
+      - "原文新聞連結：https://www.ettoday.net/news/20261104/3266544.htm"
+  - id: S012
+    source_type: secondary
+    publisher: "ETtoday新聞雲"
+    title: "藍營稱沈伯洋兒虐次數用猜的 沈辦轟斷章取義：別拿悲劇政治攻防"
+    url: "https://www.ettoday.net/news/20261104/3266544.htm"
+    published_at: "2026-11-04T22:06:00+08:00"
+    observed_at: "2026-11-05T09:36:59+08:00"
+    retrieval_status: reachable
+    notes:
+      - "ETtoday原網址本次搜尋工具開啟失敗；已見其Facebook標題及第三方索引摘要，並以其他同日媒體逐段轉述交叉核對競辦回應。"
+      - "此來源對具體引語採保守記錄，以太報及民視同日稿為輔助。"
+  - id: S013
+    source_type: secondary
+    publisher: "ETtoday新聞雲"
+    title: "質疑沈辦承認「沒數據」 蔣辦：資料不查、立委職權不用？"
+    url: "https://www.ettoday.net/news/20261104/3266568.htm"
+    published_at: "2026-11-04T23:31:00+08:00"
+    observed_at: "2026-11-05T09:36:59+08:00"
+    retrieval_status: reachable
+    notes:
+      - "由第三方索引查到ETtoday標題、發稿時間及概要；直接開啟原文仍待補。"
+      - "引用蔣辦發言人楊沛緰追問：若沒有掌握數據，為何先針對臺北兒虐提出政治批評。"
+
 facts:
   - id: F001
     statement: "遠見On AIR專訪中，沈伯洋稱臺北兒虐問題看起來愈來愈嚴重，並說『兒虐不當事件』應是六都居首；主持人追問是否與區域性或造成問題的環節有關，沈接著表示手上沒有數據，只能用猜的。"
@@ -178,6 +212,25 @@ facts:
       - "此為全國政策檢視，不可直接作為特定縣市漏報或介入成效優劣的證明。"
     tags: ["社安網", "政策評估"]
 
+  - id: F008
+    statement: "沈伯洋競辦於11月4日晚間回應時，指責蔣萬安陣營拿兒虐悲劇做政治攻防，但同一回應又要求若無心解決就換人做，並質疑官員戀棧權位或蔣市長放縱。"
+    status: verified
+    observed_at: "2026-11-05T09:36:59+08:00"
+    source_ids: [S005, S011, S012]
+    evidence_summary: "ETtoday貼文標題與太報同時期逐段引述顯示，競辦一方面宣示不應以悲劇作政治攻防，另一方面仍提出針對市長和官員的政治責任追究。"
+    verification_notes:
+      - "指出語用上的張力不等於主張不可追究市長責任；實際爭點在於攻擊是否由證據支持，以及有否回答原本的六都排名舉證。"
+    tags: ["競辦回應", "政治攻防", "責任標準"]
+  - id: F009
+    statement: "ETtoday 11月4日23:31報導，蔣萬安競辦再度回應沈辦所稱『坦率表示尚未掌握完整數據』，質疑既然未掌握數據，為何先公開以兒虐問題批評臺北市政。"
+    status: partial
+    observed_at: "2026-11-05T09:36:59+08:00"
+    source_ids: [S013]
+    evidence_summary: "ETtoday文章標題及第三方索引摘要可核；原文全文仍待直接核對。"
+    verification_notes:
+      - "此處是蔣辦對沈辦的反擊，非政府機關核定的事實認定。"
+    tags: ["蔣辦回應", "媒體追蹤"]
+
 claims:
   - id: C001
     statement: "臺北市的『兒虐不當事件』是六都之首。"
@@ -222,6 +275,21 @@ claims:
     related_facts: []
     reasoning_notes: "競辦在11/04 22:06報導已有回應；比較精確的未解決問題是未見對原『六都之首』排名提出證據或明確撤回。"
 
+  - id: C007
+    statement: "沈伯洋競辦稱遭斷章取義，足以排除對原『兒虐不當事件六都之首』主張的舉證責任。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F001, F004, F008, F009]
+    reasoning_notes: "即使『只能用猜的』主要回答主持人的成因追問，對『六都之首』原排名主張也仍須提出定義與同期同口徑數據。引入夏莉絲個案與家長版1999新政策可另論，但不構成排名之證據。"
+  - id: C008
+    statement: "沈辦宣稱別拿兒虐悲劇作政治攻防，但其回應同時有政治問責和要求換人的內容，構成雙重標準的論證問題。"
+    status: unresolved
+    supports: [F008]
+    contradicts: []
+    related_facts: [F001, F004]
+    reasoning_notes: "是基於同次公開發言的目的與標準一致性評價；並非所有針對兒虐的政治究責都不正當。對同一政治目的適用相同事證門檻才是判準。"
+
 searches:
   - id: Q001
     observed_at: "2026-11-05"
@@ -255,3 +323,4 @@ notes:
   - "關鍵待補：遠見原片、沈所指不當事件的統計定義／年份／比較口徑、教保機構不當對待的完整六都同期官方表、通報後處置及死亡／漏報比較。"
   - "夏莉絲個案行政究責可獨立追查，不會自動證明全市『六都之首』。"
   - "2024年113專線臺北市兒少保護案件通報數為747件；以官方PDF為準。"
+  - "2026-11-05 09:36新增ETtoday 22:06競辦回應的FB貼文存證，以及23:31蔣辦再回應；仍待ETtoday原網頁完整逐段核對。"
