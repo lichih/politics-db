@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "沈伯洋稱臺北兒虐不當事件六都之首：訪談、官方指標與競辦回應"
   started_at: "2026-11-05T06:26:14+08:00"
-  updated_at: "2026-11-05T12:15:25+08:00"
+  updated_at: "2026-11-05T12:29:39+08:00"
   status: active
 
 topics:
@@ -229,6 +229,31 @@ sources:
     notes:
       - "教育部提供每年度按縣市別的園數、實際幼生數、教保人力，官方可下載CSV與JSON；與新北教育局表1同一上游資料。"
 
+  - id: S022
+    source_type: primary
+    publisher: "Threads 用戶 kuyuanchih"
+    title: "在沈伯洋兒虐六都排名爭議下留言引述六都兒少保護通報數，稱為去年度"
+    url: "https://www.threads.com/@kuyuanchih/post/DfWEMXclF0G"
+    published_at: "2026-11-05"
+    observed_at: "2026-11-05T12:29:39+08:00"
+    retrieval_status: reachable
+    notes:
+      - "依使用者提供 Threads DOM 擷取 YAML；確定留言文字、作者與permalink，但回覆父節點 relation.kind=unknown，不據 DOM 順序推定對誰回覆。"
+      - "留言稱『去年度』六都兒少保護案件通報：高雄6,822、新北6,707、桃園5,580、臺中5,138、臺南3,720、臺北4,078，並稱每萬人高雄165、桃園138、臺南132、新北109、臺中104、臺北100。"
+      - "擷取 provenance capture_status=ambiguous 並不等於貼文內容不可信；未定的是部分 reply-to 關係。"
+  - id: S023
+    source_type: secondary
+    publisher: "TVBS 新聞"
+    title: "疫情影響！兒少保護通報去年降至4.3萬件　6都『這裡』最多"
+    url: "https://news.tvbs.com.tw/local/1737700"
+    published_at: "2022-03-11T19:31:00+08:00"
+    observed_at: "2026-11-05T12:29:39+08:00"
+    retrieval_status: reachable
+    notes:
+      - "原新聞明載2021年（民國110年）兒少保護通報數，六都逐項數字與留言S022完全相同。"
+      - "『去年』是2022年報導當時指向2021年，不是2026年當下指向2025年。"
+      - "該組統計是所有兒少保護案件通報，並非幼兒園疑似不當對待專項；也不可當成2025年六都資料。"
+
 facts:
   - id: F001
     statement: "遠見On AIR專訪中，沈伯洋稱臺北兒虐問題看起來愈來愈嚴重，並說『兒虐不當事件』應是六都居首；主持人追問是否與區域性或造成問題的環節有關，沈接著表示手上沒有數據，只能用猜的。"
@@ -378,6 +403,21 @@ facts:
       - "即使臺北園數或幼生數排名低，也不從分母規模直接推定案件總數不能第一；可有較高的真正發生率或通報率。"
     tags: ["幼兒園", "2023", "條件式反證", "園數", "幼生數", "率"]
 
+  - id: F018
+    statement: "2026-11-05 Threads 留言聲稱『去年度』六都兒少保護案件通報高雄6,822、臺北4,078及每萬人165、100；查得完全相同數字來自TVBS 2022-03-11報導明載的2021年（110年）衛福部資料，而非2025年。"
+    status: verified
+    observed_at: "2026-11-05T12:29:39+08:00"
+    source_ids: [S022, S023]
+    evidence_summary: "TVBS原始報導發布日及文字清楚指出統計年為2021，其他六都數列與貼文吻合，因此可以確認貼文把來源報導的『去年』跨時間搬用；此錯置不代表所有年份臺北都排名第一或不是第一。"
+    tags: ["2021", "2025", "年度錯置", "兒少通報", "社群擷取"]
+  - id: F019
+    statement: "使用者提供的 Threads 擷取 YAML 對 DfVuqShE4pb 的作者、文字、發文時間及 permalink 判定 deterministic，但 relation.kind=unknown、parent_id=null；不能從擷取陣列排序推定它直接回覆 DfVBN0yEpVJ。"
+    status: verified
+    observed_at: "2026-11-05T12:29:39+08:00"
+    source_ids: [S022]
+    evidence_summary: "此為擷取資料的 provenance 評估，而非對社群平台真實 reply-to 關係的定案；擷取器明確標記 reply_relation_not_inferred_from_dom_order。"
+    tags: ["Threads", "擷取限制", "provenance"]
+
 claims:
   - id: C001
     statement: "臺北市的『兒虐不當事件』是六都之首。"
@@ -466,6 +506,21 @@ claims:
     related_facts: [F010, F011, F012, F017]
     reasoning_notes: "作為論證方法評價成立：在相同每園或每幼生通報率的基準模型下，較小暴露母體的總量預期較低；不是證明不可能第一，也不是以總量替代每名幼生率或真正治理成效。"
 
+  - id: C013
+    statement: "貼文所稱高雄6,822、臺北4,078與每萬人165、100是2025年（去年度）的兒少保護通報統計。"
+    status: contradicted
+    supports: []
+    contradicts: [F018]
+    related_facts: [F003, F014]
+    reasoning_notes: "這些數字可追至2022年3月新聞、其對應年為2021。不能將該年度資料借作2025年現況。"
+  - id: C014
+    statement: "Threads擷取 YAML 的 items 陣列先後順序足以證明 DfVuqShE4pb 的 reply-to 對象為 DfVBN0yEpVJ。"
+    status: unsupported
+    supports: []
+    contradicts: [F019]
+    related_facts: []
+    reasoning_notes: "擷取器特意將 relation.kind 標 unknown；若要定案需原始回覆樹或平台可證實父節點，不可僅依視覺順序推理。"
+
 searches:
   - id: Q001
     observed_at: "2026-11-05"
@@ -504,6 +559,14 @@ searches:
     result: found
     notes: "取得教育部數據的新北教育局表1，核對臺北園數六都第三、在園幼生第五；2023年415/48若同母體，臺北通報份額低於園數與幼生份額。"
 
+  - id: Q006
+    observed_at: "2026-11-05T12:29:39+08:00"
+    platform: "Threads browser-extension擷取與TVBS歷史新聞回溯"
+    query: "kuyuanchih 6822 6707 5580 5138 3720 4078 去年度 年份"
+    scope: "貼文年份、原數據來源與回覆關係"
+    result: found
+    notes: "2022-03-11 TVBS 新聞指出六都數列為2021年兒少保護通報；Threads擷取對回覆父節點仍是unknown，兩種問題分開記錄。"
+
 promotion:
   cases: []
   comparators: []
@@ -517,3 +580,4 @@ notes:
   - "2026-11-05 09:36新增ETtoday 22:06競辦回應的FB貼文存證，以及23:31蔣辦再回應；仍待ETtoday原網頁完整逐段核對."
   - "2026-11-05 12:06新增幼兒園統計：2023年北市教育局原始48件與六都記者會415件；若同口徑則臺北不可能六都第一，仍需教育部六都逐市原表確認口徑，並另查2024-2026年份."
   - "2026-11-05 12:15新增2023/2024教育部六都幼兒園園數、幼生規模；臺北園數第三、幼生第五。僅憑分母不可證明案件總數不會第一，但可指出未提出高發生率證據時猜總件數第一不符合基準率。2023年415/48同口徑假設下，每萬幼生近似通報率亦可排除臺北第一。"
+  - "2026-11-05 12:29校正 Threads 留言：高雄6822與臺北4078實為2021年六都一般兒少保護通報數，2022年3月 TVBS 報導已明確標示；不能描述為2025年『去年度』資料。使用者DOM擷取的回覆父節點未定，不以items順序推定。"
