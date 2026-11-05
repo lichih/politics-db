@@ -1,0 +1,283 @@
+session:
+  id: "2026-11-06-ko-mentor-media-framing"
+  project: Politics
+  title: "柯文哲『恩師』稱謂查核：李源德、朱樹勳與媒體權威框架"
+  started_at: "2026-11-06T00:23:17+08:00"
+  updated_at: "2026-11-06T00:23:17+08:00"
+  status: closed
+
+topics:
+  - 柯文哲
+  - 李源德
+  - 朱樹勳
+  - 媒體用語
+  - 恩師
+  - 師生關係
+  - 評論權威
+  - 事實與推論
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "民眾講堂-全民參與共榮平台（Facebook）"
+    title: "柯文哲的xx太好用了，恩師、老友、前幕僚……"
+    url: "https://www.facebook.com/groups/1995820070731826/posts/4590597571254050"
+    published_at: "2026-11-05"
+    observed_at: "2026-11-06T00:23:17+08:00"
+    retrieval_status: reachable
+    notes:
+      - "使用者提供 facebook-browser-extension 0.8.32 擷取的貼文與四張附圖；另由已開啟 Facebook tab 核對貼文文字。"
+      - "貼文主張朱樹勳是柯文哲真正恩師，李源德從政前即與柯不合且『在台大把朱樹勳鬥走』。此來源只證明有人如此發文，不能直接證明指控。"
+      - "Facebook 擷取的 timestamp 為 unknown；所載 2026-11-05 是瀏覽器當時顯示的貼文日期，非已精確核對的發布時分秒。"
+
+  - id: S002
+    source_type: secondary
+    publisher: "三立新聞網（Yahoo 新聞鏡像）"
+    title: "台大恩師評柯文哲！李源德：興風作浪是本能"
+    url: "https://tw.news.yahoo.com/%E5%8F%B0%E5%A4%A7%E6%81%A9%E5%B8%AB%E8%A9%95%E6%9F%AF%E6%96%87%E5%93%B2-%E6%9D%8E%E6%BA%90%E5%BE%B7-%E8%88%88%E9%A2%A8%E4%BD%9C%E6%B5%AA%E6%98%AF%E6%9C%AC%E8%83%BD-142507944.html"
+    published_at: "2023-10-26"
+    observed_at: "2026-11-06T00:23:17+08:00"
+    retrieval_status: reachable
+    notes:
+      - "標題以『台大恩師』稱李源德；內文主要說明李的評論和師生關係，未提供李對柯的個別提攜紀錄。"
+
+  - id: S003
+    source_type: secondary
+    publisher: "TVBS（Yahoo 新聞鏡像）"
+    title: "恩師李源德寫下117字　形容柯文哲臉皮厚、能力有限"
+    url: "https://tw.news.yahoo.com/%E6%81%A9%E5%B8%AB%E6%9D%8E%E6%BA%90%E5%BE%B7%E5%AF%AB%E4%B8%8B117%E5%AD%97-%E5%BD%A2%E5%AE%B9%E6%9F%AF%E6%96%87%E5%93%B2%E8%87%89%E7%9A%AE%E5%8E%9A-%E8%83%BD%E5%8A%9B%E6%9C%89%E9%99%90-053956495.html"
+    published_at: "2023-10-27"
+    observed_at: "2026-11-06T00:23:17+08:00"
+    retrieval_status: reachable
+    notes:
+      - "標題直接使用『恩師李源德』，報導引用其對柯的負評；未提供李對柯的個別提攜紀錄。"
+
+  - id: S004
+    source_type: secondary
+    publisher: "民視財經網"
+    title: "柯文哲台大恩師『當年嚴厲評語』神預言！網看了全搖頭"
+    url: "https://finance.ftvnews.com.tw/news/detail/2026402W0542"
+    published_at: "2026-04-02"
+    observed_at: "2026-11-06T00:23:17+08:00"
+    retrieval_status: reachable
+    notes:
+      - "2026 年繼續以『恩師』稱李源德；報導重提 2023 年李的負評，未提供個別提攜證據。"
+
+  - id: S005
+    source_type: secondary
+    publisher: "Cofacts 真的假的"
+    title: "李源德 Yuan-Teh Lee 前台大醫院院長評論柯文哲"
+    url: "https://cofacts.tw/article/2nsbznu5vf3fx"
+    published_at: "2023-09-26"
+    observed_at: "2026-11-06T00:23:17+08:00"
+    retrieval_status: reachable
+    notes:
+      - "收錄『在我的學生中』等李源德評論文字；社群查核者指為李源德本人臉書留言，並提供原 Facebook 照片連結。原文未由本次直接登入逐則驗證。"
+
+  - id: S006
+    source_type: secondary
+    publisher: "中央社"
+    title: "器官移植疑雲 柯文哲恩師朱樹勳出面護徒抱屈"
+    url: "https://www.cna.com.tw/news/aloc/201810010319.aspx"
+    published_at: "2018-10-01"
+    observed_at: "2026-11-06T00:23:17+08:00"
+    retrieval_status: reachable
+    notes:
+      - "中央社直接採訪朱樹勳：朱稱自己擔任台大外科主任時，指定柯文哲照顧加護病房病人，讓柯免看門診及收住院病人。"
+
+  - id: S007
+    source_type: secondary
+    publisher: "中央社"
+    title: "選前倒數 朱樹勳等醫師表態挺柯文哲"
+    url: "https://www.cna.com.tw/news/aloc/201811210202.aspx"
+    published_at: "2018-11-21"
+    observed_at: "2026-11-06T00:23:17+08:00"
+    retrieval_status: reachable
+    notes:
+      - "朱樹勳公開支持柯文哲連任，並再次提到自己請柯接手 ICU 的事。"
+
+  - id: S008
+    source_type: secondary
+    publisher: "中央社"
+    title: "悼念朱樹勳辭世 民眾黨：沒有朱P就沒有柯文哲"
+    url: "https://www.cna.com.tw/news/aipl/202502250193.aspx"
+    published_at: "2025-02-25"
+    observed_at: "2026-11-06T00:23:17+08:00"
+    retrieval_status: reachable
+    notes:
+      - "朱辭世時柯因羈押禁見，由民眾黨透過柯文哲社群帳號發表悼念，感謝朱長期提攜；不可寫成柯本人當日親自發文。"
+
+  - id: S009
+    source_type: primary
+    publisher: "臺大醫院"
+    title: "朱樹勳教授專文（心臟外科拓荒者）"
+    url: "https://www.ntuh.gov.tw/secret/Fpage.action?fid=7090"
+    observed_at: "2026-11-06T00:23:17+08:00"
+    retrieval_status: reachable
+    notes:
+      - "臺大醫院轉載厚生基金會人物報導，記載朱於 1999 年離開臺大接任亞東醫院院長，文中將此描述為接受新挑戰。屬臺大網站轉載的二手敘述，不足以排除任何內部人事衝突。"
+      - "同篇將柯文哲列為朱樹勳的得意門生。"
+
+  - id: S010
+    source_type: primary
+    publisher: "臺大醫院"
+    title: "歷任院長"
+    url: "https://www.ntuh.gov.tw/director/Fpage.action?fid=2346"
+    observed_at: "2026-11-06T00:23:17+08:00"
+    retrieval_status: reachable
+    notes:
+      - "臺大醫院名錄記載李源德院長任期為 1998 年 8 月至 2004 年 7 月；不代表李直接教導柯的細節可由院長任期推得。"
+
+  - id: S011
+    source_type: secondary
+    publisher: "匯流新聞網"
+    title: "獨家／【有影】一樣恩師兩樣情！朱樹勳：柯文哲聰明 認真 正直 定是不貪污的好總統"
+    url: "https://news.owlting.com/articles/507527"
+    published_at: "2023-10-31"
+    observed_at: "2026-11-06T00:23:17+08:00"
+    retrieval_status: reachable
+    notes:
+      - "2023 年新聞將李稱為昔日老師及長官，對照朱的公開支持；有助區別實際關係與編輯稱謂。"
+
+facts:
+  - id: F001
+    statement: "2023 年 10 月三立及 TVBS 報導曾以『恩師』稱李源德；2026 年 4 月民視仍沿用『台大恩師』，但所查報導未具體列出李對柯的個別提攜事例。"
+    status: verified
+    observed_at: "2026-11-06T00:23:17+08:00"
+    source_ids: [S002, S003, S004]
+    evidence_summary: "對三份新聞標題及內文逐一比對，可證明媒體使用稱號及當篇所提供的事證範圍。"
+    verification_notes:
+      - "不能因此斷言任何媒體文章之外不存在李對柯的具體恩惠。"
+    tags: [媒體用語, 恩師, 標題]
+
+  - id: F002
+    statement: "李源德公開評論柯文哲時使用『在我的學生中』，但該句只直接表明李自認師生關係，不構成特殊恩義關係的個別提攜證明。"
+    status: verified
+    observed_at: "2026-11-06T00:23:17+08:00"
+    source_ids: [S005, S003]
+    evidence_summary: "Cofacts 保存相關評論文字及原臉書貼文線索，TVBS 亦引用；師生關係與『恩師』稱號需分開論證。"
+    excerpt: "在我的學生中"
+    verification_notes:
+      - "目前並未找到李源德本人自稱『柯文哲恩師』的原話，不能將媒體的稱號直接歸於李本人。"
+      - "本次未直接核對李源德臉書原留言的完整上下文。"
+    tags: [師生關係, 恩師]
+
+  - id: F003
+    statement: "朱樹勳在 2018 年接受中央社採訪時明確稱，他擔任臺大醫院外科主任期間指定柯文哲負責加護病房，並調整其門診及收住院病人工作。"
+    status: verified
+    observed_at: "2026-11-06T00:23:17+08:00"
+    source_ids: [S006, S007]
+    evidence_summary: "當事人受訪兩度說明具體職涯安排，證據較一般『教過』主張具體。"
+    tags: [朱樹勳, 職涯提攜, 加護病房]
+
+  - id: F004
+    statement: "2025 年 2 月朱樹勳過世，民眾黨透過柯文哲的社群帳號發布追思文字，公開感謝朱的提攜與教誨，稱『沒有朱P就沒有柯文哲』。"
+    status: verified
+    observed_at: "2026-11-06T00:23:17+08:00"
+    source_ids: [S008]
+    evidence_summary: "中央社核對民眾黨代理發文；為柯方陣營公開承認特殊師徒關係的紀錄。"
+    verification_notes:
+      - "因當時柯被羈押禁見，屬政黨代表表態，非柯本人當日親自敲寫。"
+    tags: [朱樹勳, 恩師, 提攜]
+
+  - id: F005
+    statement: "臺大醫院網站人物專文將柯列為朱樹勳得意門生，並記載朱於 1999 年離開臺大接任亞東醫院院長。"
+    status: verified
+    observed_at: "2026-11-06T00:23:17+08:00"
+    source_ids: [S009]
+    evidence_summary: "臺大官網轉載文章描述朱的醫界經歷與轉任，另有直接採訪佐證他對柯的實際職涯安排。"
+    verification_notes:
+      - "院方轉載文章對轉任原因的概述，不能單獨證明當時不存在人事競爭。"
+    tags: [朱樹勳, 臺大醫院]
+
+  - id: F006
+    statement: "臺大醫院官方歷任院長列表顯示，李源德擔任院長的期間為 1998 年 8 月至 2004 年 7 月。"
+    status: verified
+    observed_at: "2026-11-06T00:23:17+08:00"
+    source_ids: [S010]
+    evidence_summary: "院方官方歷任院長年表。"
+    tags: [李源德, 臺大醫院]
+
+  - id: F007
+    statement: "2026 年 11 月 5 日 Facebook 討論貼文明言李源德『在台大把朱樹勳鬥走』，但貼文及附圖沒有提供可驗證該因果的直接資料。"
+    status: verified
+    observed_at: "2026-11-06T00:23:17+08:00"
+    source_ids: [S001]
+    evidence_summary: "已開啟社團頁與使用者 deterministic 擷取的文字相符；這是對貼文內容的記錄，不是對指控本身的認定。"
+    tags: [社群指控, 因果推論]
+
+claims:
+  - id: C001
+    statement: "李源德教過或曾任柯文哲的老師，所以可以直接證成李是柯的『恩師』。"
+    status: unsupported
+    supports: [F002]
+    contradicts: []
+    related_facts: [F001, F003, F004]
+    reasoning_notes: "『老師』或主管關係是客觀背景，『恩師』在報導語境增添特殊栽培、感念及評價權威的意涵；不能只憑『在我的學生中』跨越這個證據缺口。這不等於證明李不可能有恩於柯。"
+
+  - id: C002
+    statement: "朱樹勳在柯文哲醫師職涯與其陣營公開敘事中，具有具體可查的特殊師徒關係。"
+    status: supported
+    supports: [F003, F004, F005]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "既有職涯安排、朱本人受訪及柯方悼念相互印證。不得從此推論柯只能有一位恩師。"
+
+  - id: C003
+    statement: "李源德當年在臺大『把朱樹勳鬥走』。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F005, F006, F007]
+    reasoning_notes: "已查到 1999 年朱轉任亞東及李任臺大院長的時間脈絡，但未找到能直接支持『李使朱離開』的可靠因果證據；官方人物專文描述朱接受新挑戰亦不足以反證所有內部矛盾。不可寫為已證實。"
+
+  - id: C004
+    statement: "媒體稱李源德『恩師』會為其批評柯文哲的言論增加特殊的師徒權威感，但報導需有相稱的具體事證支持。"
+    status: supported
+    supports: [F001, F002]
+    contradicts: []
+    related_facts: [F003, F004]
+    reasoning_notes: "此為可觀察媒體用語所帶來的論證功能及公共評論判準，不是已證明記者刻意誤導，也不判定李本人自封恩師。李對柯的實質批評仍應按所舉事實獨立檢驗。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-11-06T00:23:17+08:00"
+    platform: web
+    query: "李源德 柯文哲 恩師 2023 2026"
+    scope: "三立、TVBS、民視、中央社與新聞搜尋結果"
+    result: found
+    notes: "找到 2023 至 2026 年不同媒體使用『恩師李源德』，但所查報導未詳述個別提攜的事證。此結果不代表其他公開資料絕對不存在。"
+
+  - id: Q002
+    observed_at: "2026-11-06T00:23:17+08:00"
+    platform: web
+    query: "朱樹勳 柯文哲 提攜 加護病房"
+    scope: "中央社、臺大醫院官方網站"
+    result: found
+    notes: "朱本人 2018 年受訪說明實際職涯安排，2025 年柯方陣營追思提到長期提攜。"
+
+  - id: Q003
+    observed_at: "2026-11-06T00:23:17+08:00"
+    platform: web
+    query: "李源德 柯文哲 提攜 栽培 指導 加護病房"
+    scope: "公開中文網頁及新聞搜尋"
+    result: not_found
+    notes: "此次查詢未找到足以單獨確認李對柯個別提攜的具體紀錄；not_found 不等於 never_existed。"
+
+  - id: Q004
+    observed_at: "2026-11-06T00:23:17+08:00"
+    platform: web
+    query: "李源德 朱樹勳 鬥走 1999 臺大醫院"
+    scope: "公開新聞、臺大醫院歷史及人物資料"
+    result: partial
+    notes: "找到兩人的職務時間線與朱轉任亞東的記錄，未查到能確認貼文所稱『鬥走』的直接因果證據。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "研究結論：教學身分、職務上下屬、具體提攜、受教者感念、媒體所賦予的『恩師』定位，是不同層次的命題，不可未舉證就相互替代。"
+  - "尤其要避免歸責錯置：本次證據能確認『媒體稱李為恩師』，但不能據此說『李源德本人自稱柯的恩師』。"
+  - "適合未來討論媒體標題權威框架，不以單則批評或人物政治立場取代論證。未開立 Fact 文章。"
