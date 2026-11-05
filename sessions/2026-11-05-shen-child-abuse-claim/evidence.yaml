@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "沈伯洋稱臺北兒虐不當事件六都之首：訪談、官方指標與競辦回應"
   started_at: "2026-11-05T06:26:14+08:00"
-  updated_at: "2026-11-05T09:36:59+08:00"
+  updated_at: "2026-11-05T12:06:37+08:00"
   status: active
 
 topics:
@@ -147,6 +147,58 @@ sources:
     notes:
       - "由第三方索引查到ETtoday標題、發稿時間及概要；直接開啟原文仍待補。"
       - "引用蔣辦發言人楊沛緰追問：若沒有掌握數據，為何先針對臺北兒虐提出政治批評。"
+  - id: S014
+    source_type: primary
+    publisher: "臺北市政府教育局"
+    title: "112年度教保相關人員違法事件通報48件之原始市府新聞稿"
+    url: "https://www.doe.gov.taipei/News_Content.aspx?n=B3DDF0458F0FFC11&s=59D2E7A4DE4E483A&sms=72544237BBE4C5F6"
+    published_at: "2024-07-11"
+    observed_at: "2026-11-05T12:06:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "臺北教育局原文第二段：112年度『通報受理案件數共48件，34件進入調查程序，認定有違法對待情事共21件』。"
+      - "『通報受理案件』的細項母體須再對照教育部六都彙整表的蒐集定義。"
+  - id: S015
+    source_type: secondary
+    publisher: "太報（引述林月琴、陳培瑜與人本教育基金會記者會）"
+    title: "幼童不當對待頻傳裁罰比例卻低 綠委批相關辦法窒礙難行"
+    url: "https://dev.taisounds.news/news/content/71/135650"
+    published_at: "2024-07-11"
+    observed_at: "2026-11-05T12:06:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導記者會所稱112年六都幼兒園不當對待通報415件、裁罰成案61件；目前未取得教育部直接列出六都市別的原表。"
+      - "立委林月琴後續國會提案由公民監督國會聯盟保存：https://ccw.org.tw/assess/47/legislator/429"
+  - id: S016
+    source_type: primary
+    publisher: "衛福部兒少統計專區／教育部提供"
+    title: "違反幼照法、教保條例違法對待幼兒事件裁罰統計"
+    url: "https://crc.sfaa.gov.tw/Statistics/Detail/255?AspxAutoDetectCookieSupport=1"
+    observed_at: "2026-11-05T12:06:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "2026年8月更新、統計截至2025年；資料說明寫有縣市分析變項，但此次可核讀的2024版PDF及公開索引為全國彙總，尚不能證實縣市原表有可直接取得之逐年六都數字。"
+      - "統計屬裁罰人數，不能直接當作通報案件數；2023年法規改變影響長期比較。"
+  - id: S017
+    source_type: secondary
+    publisher: "FTNN新聞網（轉述臺北市議員張文潔質詢、教育局說明）"
+    title: "不是每個孩子的爸媽都是蔣萬安！北市幼兒園虐童通報裁罰數據"
+    url: "https://www.ftnn.com.tw/news/541484"
+    published_at: "2026-04-28"
+    observed_at: "2026-11-05T12:06:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "據教育局提供資料，112至114年臺北違法對待通報數48、78、46件；成案15、23、24件；市府稱一案可能多罰，成案與裁罰件數不可直接相除當作主動查獲率。"
+  - id: S018
+    source_type: primary
+    publisher: "Threads 用戶 matchacat88 公開貼文"
+    title: "轉述2026-11-05沈伯洋回應：原意指幼兒園而非家內兒虐死亡"
+    url: "https://www.threads.com/@matchacat88/post/DfWATB2lAVM"
+    published_at: "2026-11-05"
+    observed_at: "2026-11-05T12:06:37+08:00"
+    retrieval_status: reachable
+    notes:
+      - "已於使用者開啟分頁核對貼文文字；這是原作者對記者會引語的轉述，不視為已取得沈本人完整原片。"
 
 facts:
   - id: F001
@@ -230,6 +282,44 @@ facts:
     verification_notes:
       - "此處是蔣辦對沈辦的反擊，非政府機關核定的事實認定。"
     tags: ["蔣辦回應", "媒體追蹤"]
+  - id: F010
+    statement: "臺北市政府教育局2024-07-11新聞稿記載，112年度（2023年）教保相關人員疑似違法對待幼兒通報受理48件，其中34件進入調查，認定違法對待21件。"
+    status: verified
+    observed_at: "2026-11-05T12:06:37+08:00"
+    source_ids: [S014]
+    evidence_summary: "第一手市府新聞稿直接列出同年度三個不同處理階段，不能混為同一件數。"
+    tags: ["幼兒園", "臺北市", "2023", "通報"]
+  - id: F011
+    statement: "2024-07-11林月琴等記者會援引教育部資料，稱112年（2023年）六都幼兒園不當對待通報合計415件，裁罰成案61件。"
+    status: partial
+    observed_at: "2026-11-05T12:06:37+08:00"
+    source_ids: [S015]
+    evidence_summary: "多家媒體與立委後續國會提案重複可見415／61的數字，但未取回六都各市原始分項表，且需確認『通報』與臺北市F010的資料母體是否同口徑。"
+    tags: ["幼兒園", "六都", "2023", "通報", "待原表"]
+  - id: F012
+    statement: "若F010與F011兩份112年度幼兒園不當對待通報屬同一母體，臺北48件不可能是六都第一：六都合計415、扣除臺北48後，其他五都合計367，至少一都達74件以上。"
+    status: partial
+    observed_at: "2026-11-05T12:06:37+08:00"
+    source_ids: [S014, S015]
+    evidence_summary: "純數學推出：五都平均367/5=73.4，大於臺北48；前提是兩份通報資料同年度、同樣機構及事件定義。"
+    verification_notes:
+      - "同口徑尚未由六都原始彙總表逐項核定；此為條件式反證，不得寫成2024、2025、2026年都已證偽。"
+      - "也不證明所有幼兒園家外兒虐風險較低或臺北市處遇適切。"
+    tags: ["六都", "條件式反證", "統計口徑"]
+  - id: F013
+    statement: "臺北教育局提供議員資料顯示112至114年（2023至2025）違法對待幼兒通報件數分別48、78、46；市府說明成案數與裁罰數不同，一案可能有多個裁罰。"
+    status: partial
+    observed_at: "2026-11-05T12:06:37+08:00"
+    source_ids: [S017, S014]
+    evidence_summary: "112年度48件另由市府2024原始新聞稿直接證實；113、114年度仍採議員質詢及市府回應的媒體轉述。"
+    tags: ["臺北市", "2023", "2024", "2025", "通報"]
+  - id: F014
+    statement: "2026-11-05 Threads轉述沈伯洋當日澄清：他談的是送至幼兒園遇到不當對待，不是家內兒虐致死；此說法若作為排名指標定義，需要比較六都同期教保機構資料。"
+    status: partial
+    observed_at: "2026-11-05T12:06:37+08:00"
+    source_ids: [S018]
+    evidence_summary: "由使用者提供的Threads頁面直接核對引語轉述，仍待沈伯洋原始記者會影片核對。"
+    tags: ["沈伯洋", "家外兒虐", "統計範圍"]
 
 claims:
   - id: C001
@@ -289,6 +379,20 @@ claims:
     contradicts: []
     related_facts: [F001, F004]
     reasoning_notes: "是基於同次公開發言的目的與標準一致性評價；並非所有針對兒虐的政治究責都不正當。對同一政治目的適用相同事證門檻才是判準。"
+  - id: C009
+    statement: "112年（2023年）臺北市幼兒園不當對待通報數為六都第一。"
+    status: unresolved
+    supports: []
+    contradicts: [F012]
+    related_facts: [F010, F011]
+    reasoning_notes: "若教育部六都415與臺北教育局48為同年度同母體，數學上已可否定臺北第一；現階段仍缺六都逐市原始表確認通報定義相同，因此保留 unresolved，不能冒稱無條件反證。"
+  - id: C010
+    statement: "因為談的是幼兒園不當對待，而不是家內死亡，臺北『六都之首』的排名就已獲證實。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F010, F011, F012, F014]
+    reasoning_notes: "限定到幼兒園是合理統計口徑修正，不能自行補齊2024、2025或2026年的排名證明。"
 
 searches:
   - id: Q001
@@ -312,6 +416,13 @@ searches:
     scope: "原始訪談URL與時間碼"
     result: partial
     notes: "已找到逐字引述的新聞報導及節目出處，但此輪尚未取得確定的遠見原始影片可核對URL與時間碼。"
+  - id: Q004
+    observed_at: "2026-11-05T12:06:37+08:00"
+    platform: "教育部／衛福部兒少統計、臺北市教育局、立委國會提案與新聞公開搜尋"
+    query: "2023-2025幼兒園不當對待六都同期通報及裁罰數；112年六都415、臺北48"
+    scope: "教育部各年縣市原表、北市年度數據、同口徑比較"
+    result: partial
+    notes: "找到臺北教育局112年原始48件，以及六都合計415件的記者會來源；尚未取得同年度六都各市逐項原始表，保留母體口徑待核。"
 
 promotion:
   cases: []
@@ -323,4 +434,5 @@ notes:
   - "關鍵待補：遠見原片、沈所指不當事件的統計定義／年份／比較口徑、教保機構不當對待的完整六都同期官方表、通報後處置及死亡／漏報比較。"
   - "夏莉絲個案行政究責可獨立追查，不會自動證明全市『六都之首』。"
   - "2024年113專線臺北市兒少保護案件通報數為747件；以官方PDF為準。"
-  - "2026-11-05 09:36新增ETtoday 22:06競辦回應的FB貼文存證，以及23:31蔣辦再回應；仍待ETtoday原網頁完整逐段核對。"
+  - "2026-11-05 09:36新增ETtoday 22:06競辦回應的FB貼文存證，以及23:31蔣辦再回應；仍待ETtoday原網頁完整逐段核對."
+  - "2026-11-05 12:06新增幼兒園統計：2023年北市教育局原始48件與六都記者會415件；若同口徑則臺北不可能六都第一，仍需教育部六都逐市原表確認口徑，並另查2024-2026年份。"
