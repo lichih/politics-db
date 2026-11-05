@@ -1,0 +1,486 @@
+session:
+  id: 2026-11-03-teacher-work-rights-leave-not-die
+  project: Politics
+  title: 教師工作權、離線權與「離職不殉職」口號的事證整理
+  started_at: '2026-11-03T13:26:39+08:00'
+  updated_at: '2026-11-03T20:43:00+08:00'
+  status: active
+topics:
+- 教師工作權
+- 教師離線權
+- 校事會議
+- 代理教師
+- 流浪教師
+- 教師職場壓力
+- 離職不殉職
+sources:
+- id: S001
+  source_type: commentary
+  publisher: 張裕明 / Facebook
+  title: 一天內又看到2位老師自我了斷的新聞；「寧願離職，不要殉職」
+  url: https://www.facebook.com/biglong/posts/pfbid09oz6jLiExRGV5mkmfN2gMo9H9Pr9Kw1R6YYz11GZnmUX3zNRQhhrtU6unFVmfzuNl
+  published_at: '2026-11-02'
+  observed_at: '2026-11-03T13:26:39+08:00'
+  retrieval_status: reachable
+  notes:
+  - 以登入中的 Opera 分頁讀取貼文文字；作者主張教師應設立下班邊界、課題分離，並稱「工作，再找就有，錢也是再賺就有」。
+- id: S002
+  source_type: primary
+  publisher: 臺中市政府教育局／臺中市立學校公告
+  title: 加強維護教師非上班時間休息權益，建立合理行政聯繫及親師溝通機制
+  url: https://school.tc.edu.tw/open-message/064667/view-news/4665
+  published_at: '2026-09-21'
+  observed_at: '2026-11-03T13:26:39+08:00'
+  retrieval_status: reachable
+  notes:
+  - 公告明載依教育部115年6月17日臺教授國字第1156001796號函辦理，並附教育部函。
+- id: S003
+  source_type: primary
+  publisher: 教育部
+  title: 教師法
+  url: https://edu.law.moe.gov.tw/LawContent.aspx?id=FL008447
+  published_at: '2026-05-13'
+  observed_at: '2026-11-03T13:26:39+08:00'
+  retrieval_status: reachable
+  notes:
+  - 第3條界定本法主要適用於編制內、依法取得教師資格之專任教師；第13至16條規範解聘、不續聘、停聘。
+- id: S004
+  source_type: primary
+  publisher: 教育部
+  title: 高級中等以下學校適用教師法第十六條第一項第一款之解釋令
+  url: https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002034&kw=
+  published_at: '2020-11-11'
+  observed_at: '2026-11-03T13:26:39+08:00'
+  retrieval_status: reachable
+  notes:
+  - 列舉「親師溝通不良，且主要可歸責於教師」為可能構成教學不力或不能勝任工作具體事實的情形之一。
+- id: S005
+  source_type: primary
+  publisher: 教育部
+  title: 解聘辦法新制案件分流逐步落實 教育部持續完善教師支持體系
+  url: https://www.moe.gov.tw/News_Content.aspx?Create=1&n=9E7AC85F1954DDA8&s=742E883EB517770D&sms=169B8E91BB75571F
+  observed_at: '2026-11-03T13:26:39+08:00'
+  retrieval_status: reachable
+  notes:
+  - 115年1至5月檢舉313案，114年同期586案；不受理率18%升至35%；送校事會議比例82%降至22%。
+- id: S006
+  source_type: secondary
+  publisher: 中央社
+  title: 教師離線權寫入職場不法侵害指引　家長密集傳訊列樣態
+  url: https://www.cna.com.tw/news/ahel/202610300302.aspx
+  published_at: '2026-10-30'
+  observed_at: '2026-11-03T13:26:39+08:00'
+  retrieval_status: reachable
+  notes:
+  - 報導教育部正式將教師離線權寫入職場不法侵害預防指引，並把密集或連續傳訊、不給合理處理時間列為行為樣態。
+- id: S007
+  source_type: primary
+  publisher: 全國教育產業總工會
+  title: 教師職場不法侵害預防應納入教師權益保障專法
+  url: https://www.neu.org.tw/news_detail/1042
+  published_at: '2026-11-02'
+  observed_at: '2026-11-03T13:26:39+08:00'
+  retrieval_status: reachable
+  notes:
+  - 工會主張離線權、法律協助應入法，並對家長騷擾及惡意檢舉建立責任與裁罰；認為僅有指引不足。
+- id: S008
+  source_type: secondary
+  publisher: 聯合新聞網
+  title: 10月接連3名年輕教師輕生亡 工會籲教育部成立專案小組「已非單一個案」
+  url: https://udn.com/news/story/6885/9850397
+  published_at: '2026-11-01'
+  observed_at: '2026-11-03T13:26:39+08:00'
+  retrieval_status: reachable
+  notes:
+  - 轉述全國代理暨代課教師產業工會統計：2021年9月至2026年10月底累計14起教師輕生案件，2026年10月有3起。
+- id: S009
+  source_type: secondary
+  publisher: 聯合新聞網
+  title: 金城國中代理教師猝逝延燒 議員追問事前有無異常、籲設求助管道
+  url: https://udn.com/news/story/7320/9844864
+  published_at: '2026-10-29'
+  observed_at: '2026-11-03T13:26:39+08:00'
+  retrieval_status: reachable
+  notes:
+  - 明確稱金門案33歲教師為代理教師，任教約2個多月。
+- id: S010
+  source_type: secondary
+  publisher: 聯合新聞網
+  title: 高雄男教師陳屍校園雜物間 教育局：死因待查、勿傳未證實消息
+  url: https://udn.com/news/story/7320/9848728
+  published_at: '2026-10-31'
+  observed_at: '2026-11-03T13:26:39+08:00'
+  retrieval_status: reachable
+  notes:
+  - 明確稱高雄案33歲教師為正式教師。
+- id: S011
+  source_type: secondary
+  publisher: 東森新聞
+  title: 台中豐原女師陳屍廁所！親友揭最後對話：不想上班 校方回應了
+  url: https://news.ebc.net.tw/news/society/574582
+  published_at: '2026-10-07'
+  observed_at: '2026-11-03T13:26:39+08:00'
+  retrieval_status: reachable
+  notes:
+  - 報導校方稱26歲特教教師於2024年「分發」至該校、任教兩年；未直接標示其為正式或代理教師。
+- id: S012
+  source_type: primary
+  publisher: 立法院
+  title: 儲備教師相關問題之探討
+  url: https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=6586&pid=84020
+  published_at: '2009-11-01'
+  observed_at: '2026-11-03T13:26:39+08:00'
+  retrieval_status: reachable
+  notes:
+  - 說明「流浪教師」常指取得教師證卻找不到正式職缺者，部分只能擔任短期代課，聘約期滿再到其他縣市尋缺。
+- id: S013
+  source_type: primary
+  publisher: 勞動部
+  title: 112年中高齡及高齡（45歲以上）勞動狀況
+  url: https://www.mol.gov.tw/media/mh0mv2xa/112%E5%B9%B4%E4%B8%AD%E9%AB%98%E9%BD%A1%E5%8F%8A%E9%AB%98%E9%BD%A1%E5%8B%9E%E5%8B%95%E7%8B%80%E6%B3%81.pdf?mediaDL=true
+  published_at: '2024'
+  observed_at: '2026-11-03T13:26:39+08:00'
+  retrieval_status: reachable
+  notes:
+  - 45歲以上失業者中，75.2%未曾遇到工作機會；主要困難包含年齡限制、待遇及職類不符。
+- id: S014
+  source_type: primary
+  publisher: Journal of Applied Psychology / PubMed
+  title: When and how is job embeddedness predictive of turnover? a meta-analytic investigation
+  url: https://pubmed.ncbi.nlm.nih.gov/22663557/
+  published_at: '2012-06-04'
+  observed_at: '2026-11-03T13:26:39+08:00'
+  retrieval_status: reachable
+  notes:
+  - 65個獨立樣本、N=42,907；job embeddedness在控制工作滿意、情感承諾與工作替代選項後，仍與離職意圖及實際離職負相關。
+- id: S015
+  source_type: primary
+  publisher: 臺中市政府教育局
+  title: 113學年度臺中市國民小學暨幼兒園教師甄選缺額統計表
+  url: https://www.tc.edu.tw/news-file/661f406133d1332ff317d8f6.cab
+  published_at: '2024'
+  observed_at: '2026-11-03T13:26:39+08:00'
+  retrieval_status: reachable
+  notes:
+  - 113學年度身心障礙類特殊教育班正式教師甄選缺額35名；此資料僅能證明當年有正式特教教師分發管道，不能證明台中個案即屬該批錄取者。
+- id: S016
+  source_type: primary
+  publisher: 教育部
+  title: 特殊教育法
+  url: https://edu.law.moe.gov.tw/LawContent.aspx?id=FL009136
+  published_at: '2023-06-21'
+  observed_at: '2026-11-03T17:32:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 第30條要求普通班、輔導與特教教師合作並由學校提供所需人力資源與協助；第31條要求以團隊合作為身心障礙學生訂定個別化教育計畫（IEP），並邀請學生、法定代理人或實際照顧者及必要之專業人員參與。
+- id: S017
+  source_type: primary
+  publisher: 國家圖書館臺灣博碩士論文知識加值系統
+  title: 國小特教教師的職場友誼、工作要求—資源、工作投入和離職傾向關係之研究
+  url: https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id%3D%22112NTHU5149009%22.&searchmode=basic
+  published_at: '2024'
+  observed_at: '2026-11-03T17:32:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 針對臺灣國小身障類特教教師623份有效樣本；工作要求呈高度知覺，以情緒要求最明顯，離職傾向為中等程度；不同教職身分在離職傾向上有顯著差異。
+- id: S018
+  source_type: primary
+  publisher: 國家圖書館臺灣博碩士論文知識加值系統
+  title: 特殊教育教師工作壓力與職業倦怠之關係：休閒運動參與的調節效果
+  url: https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id%3D%22107UT005992005%22.&searchmode=basic
+  published_at: '2019'
+  observed_at: '2026-11-03T17:32:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 臺灣323名特殊教育教師分層抽樣；教學與行政壓力可預測情緒耗竭，家長、同儕與行政壓力可預測去人格化。
+- id: S019
+  source_type: primary
+  publisher: 國家圖書館臺灣博碩士論文知識加值系統
+  title: 中部地區國小特教教師行政工作花費時間、工作負荷與工作壓力之研究
+  url: https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id%3D%22102NTCT1284023%22.&searchmode=basic
+  published_at: '2014'
+  observed_at: '2026-11-03T17:32:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 中部三縣市236份有效問卷；鑑定輔導的時間、工作負荷及工作壓力最高，單一項目以訂定IEP的花費時間、工作負荷與工作壓力最高。
+- id: S020
+  source_type: secondary
+  publisher: 臺灣教育評論月刊
+  title: 國民小學集中式特教班教師工作負荷及解決之道
+  url: https://ericdata.com/tw/detail.aspx?no=543377
+  published_at: '2025-10'
+  observed_at: '2026-11-03T17:32:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 文獻評論指出融合教育下集中式特教班學生障礙程度加重，教師除教學帶班外亦須處理行政文書、特教鑑定評估、訪視或評鑑等工作。
+- id: S021
+  source_type: primary
+  publisher: 國家圖書館臺灣博碩士論文知識加值系統
+  title: 國中教師工作壓力與情緒管理之研究
+  url: https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id%3D%22105CYCU5284004%22.&searchmode=basic
+  published_at: '2017'
+  observed_at: '2026-11-03T17:32:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 372名臺灣國中普教與特教教師比較；整體工作壓力中，普通教師在部分構面及整體壓力高於特教教師，顯示不宜直接宣稱特教教師整體壓力必然高於普教教師。
+- id: S022
+  source_type: primary
+  publisher: 教育部
+  title: 為加強維護教師非上班時間休息權益，請督導所轄高級中等以下學校建立合理行政聯繫及親師溝通機制
+  url: https://school.tc.edu.tw/open-message/064667/get-file/6ab0ea6de56d48c43d0fac42
+  published_at: '2026-06-17'
+  observed_at: '2026-11-03T20:43:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 教育部臺教授國字第1156001796號原函影本；明載除急迫事項外，應儘量利用上班時間進行教學業務處理與親師溝通，並明定適當聯繫時段及緊急事件處理機制。
+- id: S023
+  source_type: primary
+  publisher: 教育部
+  title: 特殊教育學生及幼兒申訴服務辦法
+  url: https://edu.law.moe.gov.tw/LawContent.aspx?id=FL009180
+  published_at: '2023-12-21'
+  observed_at: '2026-11-03T20:43:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 對鑑定、安置、輔導及支持服務措施有爭議時，可向主管機關提起申訴；各主管機關應設鑑安輔申評會處理。
+facts:
+- id: F001
+  statement: Facebook貼文主張「寧願離職，不要殉職」，並建議教師自行建立下班後不回家長訊息的邊界、課題分離，且稱「工作，再找就有，錢也是再賺就有」。
+  status: verified
+  observed_at: '2026-11-03T13:26:39+08:00'
+  source_ids: [S001]
+  evidence_summary: 登入中的Facebook頁面可直接讀到上述文字。
+  verification_notes:
+  - 這是作者的規範性建議，不等於其前提已被實證支持。
+  tags: [原始主張, 離職不殉職]
+- id: F002
+  statement: 教育部直到2026年6月17日才以函示明確要求地方與學校建立教師非上班時間的合理行政聯繫與親師溝通機制；除急迫事項外，應儘量在上班時間處理教學業務與親師溝通。
+  status: verified
+  observed_at: '2026-11-03T13:26:39+08:00'
+  source_ids: [S002]
+  evidence_summary: 官方學校公告明載教育部115年6月17日函號與函示意旨，並附教育部原函。
+  verification_notes:
+  - 函示使用「原則上應享有離線及休息權益」「應儘量利用上班時間」等語，並非明文禁止任何不利處置的法定safe harbor。
+  tags: [離線權, 教育部函示, '2026']
+- id: F003
+  statement: 2026年10月30日教育部又把教師非出勤時間的離線權寫入職場不法侵害預防指引，並把家長密集或連續傳訊、不給合理查證處理時間列入不法侵害行為樣態。
+  status: verified
+  observed_at: '2026-11-03T13:26:39+08:00'
+  source_ids: [S006, S007]
+  evidence_summary: 中央社報導教育部正式發布指引；教師工會隔日主張仍需入法與課予學校、家長更明確責任。
+  verification_notes:
+  - 目前保存的是指引發布的新聞與工會原始聲明；如日後取得教育部指引原始全文可補為primary source。
+  tags: [離線權, 職場不法侵害, 家長訊息]
+- id: F004
+  statement: 《教師法》的強身分保障主要適用於編制內、按月支給待遇且依法取得教師資格的專任教師；正式教師的解聘、不續聘或停聘必須符合教師法法定事由與程序。
+  status: verified
+  observed_at: '2026-11-03T13:26:39+08:00'
+  source_ids: [S003]
+  evidence_summary: 教師法第3條界定適用範圍，第13至16條規範解聘、不續聘與停聘事由及程序。
+  verification_notes:
+  - 這證明的是正式教師的免於任意解聘程序保障，不等於整體職涯安全、轉職能力或拒絕潛規則後免受任何軟性不利益。
+  tags: [工作權, 正式教師, 教師法]
+- id: F005
+  statement: 教育部現行教師法第16條解釋令明列「親師溝通不良，且主要可歸責於教師」可能構成教學不力或不能勝任工作的具體事實之一。
+  status: verified
+  observed_at: '2026-11-03T13:26:39+08:00'
+  source_ids: [S004]
+  evidence_summary: 解釋令第六款直接列出親師溝通不良且主要可歸責教師。
+  verification_notes:
+  - 不代表下班不回LINE即可解聘；仍需綜合具體事實並達到解聘或不續聘必要程度。
+  tags: [親師溝通, 工作權, 不續聘]
+- id: F006
+  statement: 2026年1至5月教師檢舉案件313件，較2025年同期586件減少；不受理率由18%升至35%，送校事會議比例由原本82%降至22%。
+  status: verified
+  observed_at: '2026-11-03T13:26:39+08:00'
+  source_ids: [S005]
+  evidence_summary: 教育部把變化歸因於具名、受理審查與案件分流等新制，並稱可避免匿名或不具體案件進入調查。
+  verification_notes:
+  - 此數據可證明舊制大量案件曾直接進校事會議，但不能把所有舊案都稱為惡意或濫訴。
+  tags: [校事會議, 投訴, 案件分流]
+- id: F007
+  statement: 台灣長期存在「流浪教師／儲備教師」現象：取得教師證並不保證取得正式教職，部分教師須跨縣市反覆應試，或在正式缺不足時擔任短期代課。
+  status: verified
+  observed_at: '2026-11-03T13:26:39+08:00'
+  source_ids: [S012]
+  evidence_summary: 立法院專題研究直接說明「流浪教師」用來形容有教師證卻找不到正式職缺的待業老師，以及短期代課、跨縣市尋缺的處境。
+  verification_notes:
+  - 教師市場在2026年部分地區、科別已出現缺師，不能把2000年代供需情況直接當成2026每一科別現況；但足以否定「教師資格天然等於隨時有正式工作」這種普遍命題。
+  tags: [流浪教師, 教師就業, 正式缺]
+- id: F008
+  statement: 離職不是單純意志選擇：65個獨立樣本、42,907人的meta-analysis發現，job embeddedness在控制工作滿意度、情感承諾與工作替代選項後，仍能預測離職意圖與實際離職。
+  status: verified
+  observed_at: '2026-11-03T13:26:39+08:00'
+  source_ids: [S014]
+  evidence_summary: 研究支持工作與生活連結、離職犧牲成本等因素會影響人是否真正離職。
+  verification_notes:
+  - 此為一般組織行為研究，非台灣教師專屬研究；應用於教師時屬一般機制證據。
+  tags: [離職成本, job embeddedness, 勞動市場]
+- id: F009
+  statement: 「工作，再找就有」作為一般性陳述不符合勞動市場現實：勞動部112年資料中，45歲以上失業者75.2%未曾遇到工作機會。
+  status: verified
+  observed_at: '2026-11-03T13:26:39+08:00'
+  source_ids: [S013]
+  evidence_summary: 未遇工作機會者主要遭遇年齡限制、待遇不符與找不到想做職類等困難。
+  verification_notes:
+  - 這是45歲以上一般勞動市場資料，不代表年輕教師求職率；用來反駁的是「工作天然隨時再找就有」的普遍命題。
+  tags: [求職困難, 勞動市場, 離職成本]
+- id: F010
+  statement: 全國代理暨代課教師產業工會統計，2021年9月至2026年10月底累計14起教師輕生案件，其中2026年10月有3起年輕教師離世。
+  status: partial
+  observed_at: '2026-11-03T13:26:39+08:00'
+  source_ids: [S008]
+  evidence_summary: 目前公開資料是媒體轉述工會統計，尚未逐案取得工會完整14案清單。
+  verification_notes:
+  - 不應由此直接推論14案均由工作環境造成；個案因果需個別調查。
+  tags: [教師職場壓力, 個案統計, 2026-10]
+- id: F011
+  statement: 2026年10月三案中，金門33歲教師可確認為代理教師；高雄33歲教師可確認為正式教師；台中26歲特教教師的正式／代理身分在目前公開報導中未直接標示。
+  status: verified
+  observed_at: '2026-11-03T13:26:39+08:00'
+  source_ids: [S009, S010, S011]
+  evidence_summary: 金門與高雄報導直接標示聘任身分；台中報導只稱特教教師、2024年分發到校。
+  verification_notes:
+  - 因此不能從三案硬算『只有1人有正式教師保障』或『2人是代理』。
+  tags: [代理教師, 正式教師, 個案身分]
+- id: F012
+  statement: 台中26歲特教教師的公開線索包括「2024年分發至該校、任教兩年」；同一學年度臺中市國小正式教師甄選有35名身心障礙類特殊教育班教師缺額，但尚無公開資料可靠連結該教師本人與正式甄選分發名單。
+  status: partial
+  observed_at: '2026-11-03T13:26:39+08:00'
+  source_ids: [S011, S015]
+  evidence_summary: 「分發」與當年正式特教缺額使正式教師身分具有可能性，但欠缺可識別且可靠的行政連結。
+  verification_notes:
+  - 基於人身事故隱私，不以姓名、學校等個資做侵入式追查；現階段標記為未確認。
+  - not_found ≠ 不是正式教師。
+  tags: [台中案, 身分未確認, 隱私]
+- id: F013
+  statement: 原貼文的「一天內又看到2位老師自我了斷的新聞」不能直接等同於「一天內發生兩起教師死亡」；2026年10月已知三案分別發生於月初台中、10月底金門與10月30日高雄。
+  status: verified
+  observed_at: '2026-11-03T13:26:39+08:00'
+  source_ids: [S001, S008, S009, S010, S011]
+  evidence_summary: 公開新聞的事件日期分散於10月，原句較安全的理解是作者在一天內看到多則相關新聞，而不是事件同日發生。
+  verification_notes:
+  - 避免把新聞曝光時間和事件發生時間混為一談。
+  tags: [時間語意, 教師個案]
+- id: F014
+  statement: 特教教師的壓力結構具有明確的額外任務與情緒要求：法律要求團隊合作訂定IEP並與家長、專業人員協作；臺灣研究並顯示IEP、鑑定輔導、行政文書、家長與行政壓力及情緒要求均是重要壓力來源。
+  status: verified
+  observed_at: '2026-11-03T17:32:00+08:00'
+  source_ids: [S016, S017, S018, S019, S020]
+  evidence_summary: 特殊教育法建立IEP與跨專業、親師協作義務；多項臺灣研究分別從行政負荷、情緒要求、家長與行政壓力確認特教教師具有不同於一般班級教學的壓力組合。
+  verification_notes:
+  - 這支持「特教的壓力結構不同」，不等於證明特教教師整體壓力一定高於所有普通教師。
+  tags: [特殊教育, IEP, 情緒要求, 行政負荷, 親師協作]
+- id: F015
+  statement: 目前臺灣直接比較研究不足以支持「特教教師整體工作壓力一定高於普通教師」的普遍命題；至少有研究發現普通教師整體工作壓力及部分構面反而高於特教教師。
+  status: verified
+  observed_at: '2026-11-03T17:32:00+08:00'
+  source_ids: [S021]
+  evidence_summary: 2017年臺灣372名國中教師研究比較普教與特教教師，結果顯示普通教師在整體工作壓力及部分構面高於特教教師。
+  verification_notes:
+  - 不同研究工具、教育階段與班型可能造成結果差異；應談壓力來源與結構，不宜只做單一總分排序。
+  tags: [特殊教育, 普特比較, 工作壓力]
+- id: F016
+  statement: 特教領域的家長／照顧者對鑑定、安置、輔導及支持服務爭議具有專門的正式申訴程序，主管機關須設鑑安輔申評會處理；因此特教親師爭議具有比一般日常親師溝通更容易制度化的法律管道。
+  status: verified
+  observed_at: '2026-11-03T20:43:00+08:00'
+  source_ids: [S023]
+  evidence_summary: 特殊教育學生及幼兒申訴服務辦法第4至5條明定鑑安輔申評會及申訴權。
+  verification_notes:
+  - 這證明正式爭議處理管道存在，不等於證明特教家長實際申訴率或投訴率高於普通教育。
+  - 特教申訴的對象可為主管機關措施或學校措施，不應自動等同於對個別教師的投訴。
+  tags: [特殊教育, 家長申訴, 鑑安輔申評會, 親師爭議]
+claims:
+- id: C001
+  statement: 「教師只要自己設好下班邊界，就能有效解決親師溝通壓力」可作為制度層面的充分解方。
+  status: unsupported
+  contradicts: [F002, F003, F005, F006]
+  related_facts: [F004]
+  reasoning_notes: 離線權直到2026年才由教育部函示並再納入指引；同時親師溝通仍可能進入人事評價與檢舉程序。個人邊界可作自保策略，但制度是否保護教師安全行使邊界是另一問題。
+- id: C002
+  statement: 「工作，再找就有」可作為教師普遍適用的離職前提。
+  status: contradicted
+  contradicts: [F007, F008, F009]
+  related_facts: [F004, F011]
+  reasoning_notes: 教師資格不等於正式職缺，一般勞動市場也存在求職與離職成本；實際能否離職受工作替代選項、收入、年資與生活嵌入等限制。
+- id: C003
+  statement: 「離職不殉職」可以作為危機時的生命提醒，但不足以替代對教師工作權、投訴程序、離線權與職場環境的制度治理。
+  status: supported
+  supports: [F002, F003, F004, F005, F006, F007, F008, F010]
+  reasoning_notes: 生命優先的價值判斷本身不需否定；問題在於把離職描述成低成本、隨手可得的選項，會掩蓋制度與勞動市場限制。
+- id: C004
+  statement: 可由2026年10月三起教師案件計算出『只有1人享有正式教師工作權保障』。
+  status: unsupported
+  contradicts: [F011, F012]
+  reasoning_notes: 目前只確定金門為代理、高雄為正式；台中身分未確認。缺資料不能補成任一身分。
+- id: C005
+  statement: 台中26歲特教教師是正式教師。
+  status: unresolved
+  related_facts: [F012]
+  reasoning_notes: 「2024年分發」及當年正式特教教師缺額是支持線索，但未找到能可靠連結個案本人與正式甄選分發的公開行政資料。
+- id: C006
+  statement: 原貼文所稱「一天內又看到2位老師自我了斷的新聞」代表一天內實際發生兩起教師死亡。
+  status: contradicted
+  contradicts: [F013]
+  reasoning_notes: 目前已知相關事件分布於10月不同日期；較合理的字面理解只能是作者一天內看到兩則相關新聞。
+- id: C007
+  statement: 台中案因為是特教教師，所以可以直接推定其整體工作壓力比普通教師更高。
+  status: unsupported
+  contradicts: [F015]
+  related_facts: [F014]
+  reasoning_notes: 特教工作具有可驗證的額外行政、IEP、情緒及跨專業協作壓力，但現有比較研究不足以把個案壓力總量直接排在普教教師之上；個案因果仍需個別證據。
+- id: C008
+  statement: 特教教師實際遭家長投訴或正式申訴的比例高於普通教師。
+  status: unresolved
+  related_facts: [F014, F016]
+  reasoning_notes: 現有法規與研究可證明特教工作具有更密集的個別化義務、親師協作及正式申訴管道，但本次未找到可直接比較特教與普教教師被投訴／申訴率的全國量化資料。
+- id: C009
+  statement: 台中26歲特教教師個案生前曾因家長投訴、申訴或親師爭議承受壓力。
+  status: unresolved
+  related_facts: [F011, F012, F014, F016]
+  reasoning_notes: 本次公開新聞與官方資料搜尋未找到可靠證據可把家長投訴／申訴直接連到該個案；不能由特教職務的一般壓力結構反推個案經歷。
+searches:
+- id: Q001
+  observed_at: '2026-11-03T13:26:39+08:00'
+  platform: web
+  query: 台中 26歲 特教教師 2026 10月 代理教師 正式教師；2024年分發至該校
+  scope: 新聞媒體、臺中市教育局公開資料
+  result: partial
+  notes: 找到多家報導一致稱2024年「分發」至校及任教兩年，但未找到直接標示正式／代理身分的可靠公開資料。
+- id: Q002
+  observed_at: '2026-11-03T13:26:39+08:00'
+  platform: web
+  query: 113學年度 臺中市 國小 特殊教育 教師 甄選 分發 缺額
+  scope: 臺中市政府教育局
+  result: found
+  notes: 找到113學年度身心障礙類特殊教育班教師正式甄選缺額35名，但沒有足以把特定個案與該批分發可靠連結的公開資料。
+- id: Q003
+  observed_at: '2026-11-03T13:26:39+08:00'
+  platform: web
+  query: 教育部 2026 6 17 教師 下班 親師溝通 離線 函示；2026 10 30 離線權 職場不法侵害
+  scope: 教育部、地方教育局、中央社、教師工會
+  result: found
+  notes: 確認6月17日函示及10月30日指引兩階段政策；10月指引仍被教師工會質疑法律效力及雇主責任不足。
+- id: Q004
+  observed_at: '2026-11-03T20:43:00+08:00'
+  platform: web
+  query: 特殊教育 申訴 件數 鑑安輔申評會 家長 投訴 統計 台灣
+  scope: 教育部、地方政府教育局、政府開放資料、特殊教育統計
+  result: not_found
+  notes: 找到特殊教育申訴制度與各地申評會法規，但未找到可用來比較特教與普教教師遭家長投訴／申訴比例的全國量化統計。not_found 不代表主管機關內部不存在資料。
+- id: Q005
+  observed_at: '2026-11-03T20:43:00+08:00'
+  platform: web
+  query: 台中 26歲 特教教師 家長 投訴 申訴 親師爭議 2026
+  scope: 中央社、公視、聯合、自由、ETtoday等公開新聞及政府公開資料
+  result: not_found
+  notes: 未找到可靠公開資料證明台中個案生前曾遭家長投訴、特教申訴或因親師爭議承受壓力；不能以一般特教工作結構推定個案原因。
+promotion:
+  cases: []
+  comparators: []
+  research: []
+notes:
+- 本session保存的是『離職不要殉職』論述所依賴的現實前提，不把任何個案死亡原因直接歸因於工作環境。
+- 台中案聘任身分因公開資料不足且涉及人身事故隱私，停止以個資識別方式追查；後續若有正式調查、工會名冊或教育局公開資料再追加。
+- 分析核心：正式教師『免於任意解聘』保障強，不等於所有教師的整體工作權、續聘安全、拒絕潛規則後免受不利益或離職後再就業能力都強。
+- 目前證據足以支持制度性研究與保存，但不足以把2026年10月教師死亡個案的原因歸結為家長投訴、特教壓力或工作權不足；若要寫Fact，仍缺個案因果證據與特教／普教投訴量化比較。
