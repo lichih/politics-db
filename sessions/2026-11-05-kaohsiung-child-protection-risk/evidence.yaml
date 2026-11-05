@@ -1,0 +1,216 @@
+session:
+  id: "2026-11-05-kaohsiung-child-protection-risk"
+  project: Politics
+  title: "高雄2024兒少保護：通報結構、死亡個案、審計與監察院糾正"
+  started_at: "2026-11-05T10:40:31+08:00"
+  updated_at: "2026-11-05T10:40:31+08:00"
+  status: active
+
+topics:
+  - "高雄市兒少保護"
+  - "通報機制與行政處遇"
+  - "審計部高雄市審計處"
+  - "監察院糾正"
+  - "治理指標與行政誘因"
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "衛生福利部"
+    title: "一一三保護專線113通報件數分析表（2024）"
+    url: "https://www.mohw.gov.tw/dl-92984-12b5d4f5-0968-43f7-90d1-fe937c378479.html"
+    observed_at: "2026-11-05T10:40:31+08:00"
+    retrieval_status: reachable
+    notes:
+      - "113專線兒少案件不等於全部兒少通報或調查案件。"
+  - id: S002
+    source_type: primary
+    publisher: "衛生福利部／CRC兒少統計專區"
+    title: "兒童少年保護—調查處理及服務（2024）"
+    url: "https://crc.sfaa.gov.tw/Uploadfile/Statiscs/80_20251020105711_5669086.pdf"
+    observed_at: "2026-11-05T10:40:31+08:00"
+    retrieval_status: reachable
+    notes:
+      - "同年度、縣市別分列調查處理件數、服務人數、提供服務率。"
+  - id: S003
+    source_type: primary
+    publisher: "衛生福利部／CRC兒少統計專區"
+    title: "兒童及少年保護執行概況—2024年家內受虐致死原因及縣市統計"
+    url: "https://crc.sfaa.gov.tw/Uploadfile/Statiscs/80_20251209161553_0961507.pdf"
+    observed_at: "2026-11-05T10:40:31+08:00"
+    retrieval_status: reachable
+    notes:
+      - "高雄2024：12名，其中遭嚴重虐待6、嚴重疏忽2、殺子自殺4。限家內且包含殺子自殺。"
+  - id: S004
+    source_type: primary
+    publisher: "審計部高雄市審計處"
+    title: "中華民國113年度高雄市總決算暨附屬單位決算及綜計表審核報告"
+    url: "https://auditreport.audit.gov.tw/ServerFile/Download/63889301507264339687db82fabb0d453f8dfba51ae217ad85?isPaging=False"
+    observed_at: "2026-11-05T10:40:31+08:00"
+    retrieval_status: reachable
+    notes:
+      - "乙－63、64：民眾通報占比、醫事通報、家內受虐致死及社區預警評價。"
+      - "乙－65：居家托育訪視未臻完善及疑似兒虐通報後未加強訪視問題。"
+  - id: S005
+    source_type: primary
+    publisher: "監察院"
+    title: "115社正0007—高雄市113年1歲男童遭母虐死案糾正案"
+    url: "https://multimedia.cy.gov.tw/CyBsBoxContent.aspx?n=134&s=49558"
+    published_at: "2026-05-04"
+    observed_at: "2026-11-05T10:40:31+08:00"
+    retrieval_status: reachable
+    notes:
+      - "監察院審議日期2026-04-22、公告日期2026-05-04，案件狀態頁面顯示已結案。"
+  - id: S006
+    source_type: primary
+    publisher: "監察院"
+    title: "高雄市113年間發生1歲男童遭母虐死案監察院新聞稿"
+    url: "https://www.cy.gov.tw/News_Content.aspx?n=124&s=37247"
+    published_at: "2026-05-04"
+    observed_at: "2026-11-05T10:40:31+08:00"
+    retrieval_status: reachable
+    notes:
+      - "包含兩次通報、風險評估、安置及未依法尋警協助等調查具體細節。"
+  - id: S007
+    source_type: secondary
+    publisher: "Newtalk新聞（轉述高雄市社會局）"
+    title: "駁王鴻薇說法 高市社會局：兒虐死亡案件非六都最高"
+    url: "https://api.newtalk.tw/news/view/2026-11-05/1069339"
+    published_at: "2026-11-05"
+    observed_at: "2026-11-05T10:40:31+08:00"
+    retrieval_status: reachable
+    notes:
+      - "高雄社會局回應近5年人數，並稱2024年原列12人中1人經檢察署確認為疾病死亡；尚待官方修訂表與檢方來源交叉驗證。"
+  - id: S008
+    source_type: primary
+    publisher: "國家發展委員會"
+    title: "114年度行政院管制強化社會安全網第二期計畫查證報告"
+    url: "https://www.ndc.gov.tw/News_Content.aspx?n=7D31E142AEA47026&s=AFD2774133F12362&sms=A145E1ED3077E950"
+    published_at: "2026-04-23"
+    observed_at: "2026-11-05T10:40:31+08:00"
+    retrieval_status: reachable
+    notes:
+      - "全國性通報黑數與主動關懷問題；不代表高雄特有結論。"
+
+facts:
+  - id: F001
+    statement: "2024年113專線兒少保護案件通報：高雄833件，臺北747件；113專線不是兒少保護通報全部。"
+    status: verified
+    observed_at: "2026-11-05T10:40:31+08:00"
+    source_ids: [S001]
+    evidence_summary: "核對衛福部2024年113專線統計分類。"
+    tags: ["2024", "統計口徑"]
+  - id: F002
+    statement: "2024兒少保護調查處理：高雄8,333件，臺北6,409件；高雄提供後續服務率96.8%，臺北97.1%。"
+    status: verified
+    observed_at: "2026-11-05T10:40:31+08:00"
+    source_ids: [S002]
+    evidence_summary: "高雄六都調查件數僅低於新北9,933件；不能把高雄簡化為明顯低調查量地區。"
+    verification_notes:
+      - "提供服務率非服務品質或預防死亡績效；不得用來證明所有案件適切處理。"
+    tags: ["2024", "調查", "服務"]
+  - id: F003
+    statement: "衛福部2024年家內受虐致死統計高雄12名（嚴重虐待6、嚴重疏忽2、殺子自殺4），臺北0名。"
+    status: verified
+    observed_at: "2026-11-05T10:40:31+08:00"
+    source_ids: [S003]
+    evidence_summary: "官方表第2頁列縣市、受虐致死原因。"
+    verification_notes:
+      - "高雄社會局2026-11-05表示其中一人後經查為疾病死亡，可能涉及事後重新分類；同時保存兩份不同時間點資料，不倒灌改寫2024年度官方表。"
+    tags: ["家內受虐死亡", "2024"]
+  - id: F004
+    statement: "審計部高雄市審計處指出111至113年高雄一般通報占比由7.12%降至5.18%，醫事人員通報件數1,213、1,526、1,973逐年上升，社區預警功能薄弱，並要求檢討改善。"
+    status: verified
+    observed_at: "2026-11-05T10:40:31+08:00"
+    source_ids: [S004]
+    evidence_summary: "113年度高雄市總決算審核報告乙－63至64。"
+    verification_notes:
+      - "一般通報占比下降不必然等於民眾真實通報意願下降；可能受通報管道、轉由警方責任通報與分類影響，需進一步核查。"
+      - "審計部原文據此推論通報意願降低；記錄為審計機關判斷，不額外推定上級壓案。"
+    tags: ["審計", "社區預警", "通報來源"]
+  - id: F005
+    statement: "審計部查核高雄居家托育管理發現有未按時訪視、訪視紀錄缺失、疑似兒虐通報後未加強訪視，且欠缺督導抽核標準等問題。"
+    status: verified
+    observed_at: "2026-11-05T10:40:31+08:00"
+    source_ids: [S004]
+    evidence_summary: "113年度總決算審核報告乙－65具體描述訪視與督導缺口。"
+    tags: ["審計", "訪視", "督導"]
+  - id: F006
+    statement: "高雄一名1歲男童於2024-11-07遭施虐致死，先前曾兩度疑似受虐通報；監察院認定高雄市政府未確實評估母親施虐紀錄、未妥適進行風險及安置評估、近5個月未確認孩子狀況且未積極尋警協助，2026-04-22通過糾正。"
+    status: verified
+    observed_at: "2026-11-05T10:40:31+08:00"
+    source_ids: [S005, S006]
+    evidence_summary: "監察院115社正0007正式糾正與新聞稿。"
+    verification_notes:
+      - "這證明個案層次有通報後保護失靈，不證明全市刻意壓低通報或有特定市長下令。"
+      - "監察院糾正頁面顯示案件已結案，與當年行政程序有缺失可同時成立。"
+    tags: ["監察院糾正", "2024", "通報後處理"]
+  - id: F007
+    statement: "2026-11-05高雄社會局對媒體稱2021至2025年間重大兒虐死亡高雄15人，低於臺中18人、新北17人；又稱2024原統計12名中有1名經檢方確認為疾病死亡。"
+    status: partial
+    observed_at: "2026-11-05T10:40:31+08:00"
+    source_ids: [S007]
+    evidence_summary: "媒體轉述高雄市社會局的最新澄清，仍須比對五年同定義原始表及重新分類個案。"
+    tags: ["市府回應", "待核"]
+  - id: F008
+    statement: "國發會2026年查證報告指出2022至2024年全國兒少受虐致死65人，其中19人曾進入兒少保護或脆弱家庭服務體系，46人可能是通報黑數。"
+    status: verified
+    observed_at: "2026-11-05T10:40:31+08:00"
+    source_ids: [S008]
+    evidence_summary: "全國層次的保護網落差，不可按比例直接推估高雄。"
+    tags: ["社安網", "通報黑數"]
+
+claims:
+  - id: C001
+    statement: "高雄2024年呈現高死亡、低通報，足以證明地方政府刻意壓低通報數字。"
+    status: unsupported
+    supports: []
+    contradicts: [F002]
+    related_facts: [F001, F003, F004]
+    reasoning_notes: "高雄調查案件數在六都偏高；一般通報占比下降是查核警訊，但不能直接推定壓案、隱匿或上級命令。"
+  - id: C002
+    statement: "高雄市部分兒少保護機制存在早期發現、通報後訪視、風險評估與跨單位協作缺失。"
+    status: supported
+    supports: [F004, F005, F006]
+    contradicts: []
+    related_facts: [F002, F003, F008]
+    reasoning_notes: "審計部及監察院正式報告有具體查核結論；不能以整體提供服務率高而排除個案保護失靈。"
+  - id: C003
+    statement: "高雄行政保護缺失是『上有所好，下必甚焉』的績效指標壓力使公務員低報造成。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F004, F005, F006]
+    reasoning_notes: "這是可檢驗的治理機制假說，已見保護失靈事證，但尚無主管考核、拒收或低報指示、內部獎懲及通報決策軌跡證據以建立從上級偏好到基層行為的因果鏈。"
+  - id: C004
+    statement: "高雄12人死亡意味著12名兒少皆遭反覆毆打或已通報而未獲處理。"
+    status: contradicted
+    supports: []
+    contradicts: [F003]
+    related_facts: [F006, F007]
+    reasoning_notes: "2024官方分類含殺子自殺4名、嚴重疏忽2名；單一確認先前通報的監察院糾正案不能代表其他死亡個案的預先通報狀態。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-11-05T10:40:31+08:00"
+    platform: "衛福部、審計部、監察院與新聞公開搜尋"
+    query: "高雄2024兒虐死亡12；兒少保護通報；一般通報占比；監察院糾正"
+    scope: "同年度統計與行政缺失"
+    result: found
+    notes: "找到2024同口徑官方統計、審計部對社區預警的警告以及監察院正式糾正個案。"
+  - id: Q002
+    observed_at: "2026-11-05T10:40:31+08:00"
+    platform: "公開網頁搜尋"
+    query: "高雄兒少通報 壓案 績效考核 上級指示"
+    scope: "公務員受考核壓力而降低通報的具體佐證"
+    result: not_found
+    notes: "此輪未取得能建立因果鏈的上級指令或考核文件；不代表從未存在。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "與 sessions/2026-11-05-shen-child-abuse-claim/evidence.yaml 的統計解讀爭議相關，但高雄行政缺失應獨立核查，不以黨派做先驗結論。"
+  - "下一步核對：歷年同定義一般通報件數及分類是否有移轉、每件死亡案是否曾通報及其處理時序、內部績效與責任分工、2024年12人中1例後續重新分類的官方原始文件。"
