@@ -417,9 +417,9 @@ claims:
   - id: C011
     statement: "賴清德11月3日僅說『預算未通過』、完全沒有指稱在野黨『不審』。"
     status: contradicted
-    supports: [F001]
+    supports: []
     contradicts: [F014]
-    related_facts: [F015]
+    related_facts: [F001, F015]
     reasoning_notes: "中央社摘要未出現不審字句，不能據此認定他完全沒說；同日聯合影音文字確有不審的記載。文章應依同日兩份報導明確區分預算未過的事實與不審的歸責，而非刪去後者。"
 
 searches:
