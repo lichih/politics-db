@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "AI 泡沫持續觀察：OpenAI 募資與大型科技公司資本支出基準線"
   started_at: "2026-11-02T15:47:00+08:00"
-  updated_at: "2026-11-06T20:41:00+08:00"
+  updated_at: "2026-11-06T20:41:30+08:00"
   status: active
 
 topics:
@@ -86,6 +86,36 @@ sources:
     retrieval_status: reachable
     notes:
       - "Reuters 報導 Oracle 以股權與債券各約 100 億美元籌資。"
+  - id: S008
+    source_type: secondary
+    publisher: "Reuters"
+    title: "Democrats' midterm sweep fuels $750 billion Big Tech rally"
+    url: "https://www.reuters.com/business/retail-consumer/democrats-midterm-sweep-fuels-750-billion-big-tech-rally-2026-11-04/"
+    published_at: "2026-11-04"
+    observed_at: "2026-11-06T20:41:30+08:00"
+    retrieval_status: reachable
+    notes:
+      - "Reuters 記錄期中選舉後第一個交易日大型 hyperscaler 與較小 AI infrastructure 業者的分化。"
+  - id: S009
+    source_type: secondary
+    publisher: "Reuters"
+    title: "Nasdaq posts biggest daily drop in 19 months on fears of AI regulations"
+    url: "https://www.reuters.com/business/sp-500-futures-steady-after-midterm-rally-nasdaq-lags-chip-weakness-2026-11-05/"
+    published_at: "2026-11-05"
+    observed_at: "2026-11-06T20:41:30+08:00"
+    retrieval_status: reachable
+    notes:
+      - "Reuters 記錄 11/5 美國科技股與 AI 建設鏈的大幅修正及市場對期中選舉後 AI regulation/data-center buildout 的重新定價。"
+  - id: S010
+    source_type: secondary
+    publisher: "Axios"
+    title: "Voters deliver \"AI earthquake,\" rebuking tech and billionaires"
+    url: "https://www.axios.com/2026/11/04/ai-data-center-election-slowdown"
+    published_at: "2026-11-04"
+    observed_at: "2026-11-06T20:41:30+08:00"
+    retrieval_status: reachable
+    notes:
+      - "Axios 彙整州長選舉與資料中心 ballot measures；適合證明政治約束不是抽象假說，而已轉化為選舉結果與政策承諾。"
 
 facts:
   - id: F001
@@ -212,6 +242,49 @@ facts:
       - "debt financing"
       - "AI infrastructure"
 
+  - id: F010
+    statement: "2026-11-04，美國期中選舉後第一個交易日，大型科技公司因市場預期資料中心擴張可能放慢、既有算力更稀缺且資本支出壓力降低而上漲：Amazon 漲 7.4%，Meta、Alphabet、Microsoft 漲幅約 2% 至 6.3%；相對地，Applied Digital 與 IREN 等較小型 AI infrastructure 業者下跌約 6% 至 13%。"
+    status: verified
+    observed_at: "2026-11-06T20:41:30+08:00"
+    source_ids: [S008]
+    evidence_summary: "選後第一日出現明顯的產業內分化，市場不是單純以『民主黨勝選＝科技股全面利空』交易，而是在區分既有 hyperscaler 與依賴新增 data-center buildout 的業者。"
+    verification_notes:
+      - "股價反應只能證明市場當日如何定價，不證明相關政策一定會落地或最終有同等經濟效果。"
+    tags:
+      - "midterms"
+      - "hyperscalers"
+      - "data centers"
+      - "market repricing"
+  - id: F011
+    statement: "2026-11-05，Nasdaq Composite 下跌 5.52%、S&P 500 下跌 4.36%、Dow 下跌 3.44%；Nvidia 下跌超過 9%，Philadelphia Semiconductor Index 下跌超過 12%，IREN 與 Applied Digital 下跌超過 14%，CoreWeave 下跌近 10%。Reuters 報導市場將民主黨掌控國會及多州反對資料中心擴張的選舉結果，視為可能放慢 AI infrastructure buildout 的新風險。"
+    status: verified
+    observed_at: "2026-11-06T20:41:30+08:00"
+    source_ids: [S009]
+    evidence_summary: "11/5 的廣泛科技股修正，尤其半導體與資料中心鏈跌幅更深，顯示政治限制與既有 AI capex/valuation 疑慮共同進入市場定價。"
+    verification_notes:
+      - "Reuters 同時指出 Qualcomm 財報、機構賣壓、去槓桿與利率疑慮等其他因素，因此不得把整個跌幅單一歸因於期中選舉。"
+      - "這是因果歸因的多因素事件；選舉結果應視為新增風險因子，而非唯一原因。"
+    tags:
+      - "Nasdaq"
+      - "semiconductors"
+      - "midterms"
+      - "AI regulation"
+      - "market selloff"
+  - id: F012
+    statement: "2026 美國期中選舉中，Texas 民主黨州長候選人 Gina Hinojosa 勝選；她主張在州議會完成水、電力、空氣與財產權規範前維持新資料中心 moratorium。Axios 並報導，10 州 41 項資料中心公投中，約兩打限制或阻擋開發的提案在初步結果中通過；Texas、Ohio、Georgia、Arizona 等大量 2028 新增 data-center capacity 所在州也出現支持較嚴格限制的選舉結果。"
+    status: partial
+    observed_at: "2026-11-06T20:41:30+08:00"
+    source_ids: [S010]
+    evidence_summary: "政治約束已從地方抗爭與候選人主張，進一步轉化為選舉勝負與 ballot measures，足以成為 AI buildout 模型中的實際政策風險。"
+    verification_notes:
+      - "部分 ballot measures 在來源發布時仍屬初步開票結果；後續應以官方認證結果更新。"
+      - "勝選與公投通過不等於所有資料中心都會永久停止；許多既有或在建案可能不受影響。"
+    tags:
+      - "data centers"
+      - "Texas"
+      - "midterms"
+      - "regulatory risk"
+
 claims:
   - id: C001
     statement: "截至 2026-11-06，現有公開證據已足以證明整個 AI 產業形成不可持續的資產或估值泡沫。"
@@ -252,6 +325,19 @@ claims:
     related_facts: [F001, F008]
     reasoning_notes: "OpenAI 募資目標與期望估值據報下修後，Anthropic 潛在 IPO 投資人亦據報要求更低價格；兩者皆仍屬市場定價過程，不能當成已完成交易價格。"
 
+  - id: C007
+    statement: "2026 美國期中選舉使資料中心與 AI infrastructure 的政治限制，從長期背景風險提升為市場正在實際定價的成長路徑風險。"
+    status: supported
+    supports: [F010, F011, F012]
+    related_facts: [F010, F011, F012]
+    reasoning_notes: "選後第一日大型 hyperscaler 與新增建設依賴者出現分化，隔日半導體與 data-center chain 又大幅修正；同時州長選舉與 ballot measures 確實產生更限制 data-center buildout 的政治結果。這支持『政治約束進入估值模型』，但不證明政策最終會永久壓低全美 AI capacity。"
+  - id: C008
+    statement: "11/5 科技股重挫可以單一歸因於美國期中選舉。"
+    status: contradicted
+    contradicts: [F011]
+    related_facts: [F011]
+    reasoning_notes: "Reuters 同時記錄 Qualcomm 業績、機構賣壓、hedge-fund deleveraging、利率與既有 AI capex/valuation 疑慮等因素；較合理的結論是期中選舉成為新增且重要的風險因子，而非唯一原因。"
+
 searches:
   - id: Q001
     observed_at: "2026-11-02T15:47:00+08:00"
@@ -275,6 +361,14 @@ searches:
     scope: "SEC EDGAR、Reuters，2026-11-02 至 2026-11-06"
     result: found
     notes: "找到 Anthropic 2026-11-02 S-1/A 原始申報與 11/5 IPO 定價壓力報導，以及 Oracle 11/2 股債融資案例。"
+
+  - id: Q004
+    observed_at: "2026-11-06T20:41:30+08:00"
+    platform: "web"
+    query: "2026 US midterms AI stocks data-center restrictions; Nov 4 hyperscaler rally; Nov 5 Nasdaq semiconductor selloff"
+    scope: "Reuters、Axios，2026-11-04 至 2026-11-06"
+    result: found
+    notes: "找到選後大型 hyperscaler 與小型 AI infrastructure 業者分化、隔日 Nasdaq/semiconductor selloff，以及州長選舉與 data-center ballot measures 的政策風險資料。"
 
 promotion:
   cases: []
