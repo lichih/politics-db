@@ -1,0 +1,81 @@
+session:
+  id: "2026-11-06-tang-teacher-rites"
+  project: Politics
+  title: "唐代束脩禮與韓愈師道：師生文化語境查核"
+  started_at: "2026-11-06T10:27:06+08:00"
+  updated_at: "2026-11-06T10:27:06+08:00"
+  status: closed
+topics: [唐會要, 開元禮, 韓愈, 師說, 束脩, 師生關係, 恩師, 文化語境]
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "《唐會要》卷三十五／識典古籍"
+    title: "神龍二年九月官學初入學束脩禮"
+    url: "https://www.shidianguji.com/zh/book/SK1138/chapter/1llmnpp10pp9l"
+    observed_at: "2026-11-06T10:27:06+08:00"
+    retrieval_status: reachable
+  - id: S002
+    source_type: primary
+    publisher: "《大唐開元禮》卷五十四／中國哲學書電子化計劃"
+    title: "皇子束脩及學生束脩儀節"
+    url: "https://ctext.org/wiki.pl?chapter=397580&if=gb&remap=gb"
+    observed_at: "2026-11-06T10:27:06+08:00"
+    retrieval_status: reachable
+  - id: S003
+    source_type: primary
+    publisher: "韓愈／維基文庫"
+    title: "《師說》"
+    url: "https://zh.wikisource.org/wiki/師說"
+    observed_at: "2026-11-06T10:27:06+08:00"
+    retrieval_status: reachable
+facts:
+  - id: F001
+    statement: "《唐會要》載神龍二年（706）敕令，官學學生初入學行束脩禮，並列絹帛、酒脯規範。"
+    status: verified
+    observed_at: "2026-11-06T10:27:06+08:00"
+    source_ids: [S001]
+    evidence_summary: "可證禮制條文存在，不代表唐代所有實際師生關係都如此成立。"
+  - id: F002
+    statement: "《大唐開元禮》卷五十四載學生穿青衿、向先生請受業、跪拜與博士答拜的程序，亦有皇子束脩。"
+    status: verified
+    observed_at: "2026-11-06T10:27:06+08:00"
+    source_ids: [S002]
+    evidence_summary: "原典『某方受業於先生，敢請見』等儀節屬官學制度文本。"
+  - id: F003
+    statement: "《師說》區分童子習句讀之師和傳道解惑之師，且稱弟子不必不如師、師不必賢於弟子。"
+    status: verified
+    observed_at: "2026-11-06T10:27:06+08:00"
+    source_ids: [S003]
+    evidence_summary: "原文可直接核對，不能將《師說》直接讀成終身父子恩義規則。"
+claims:
+  - id: C001
+    statement: "僅憑現代曾教過某人，即可推定符合古代正式拜師關係及父子般終身恩義。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F001, F002, F003]
+    reasoning_notes: "官學入學禮、韓愈師道與現代師生關係應分開；也不能反向認定沒有束脩就絕無實質恩義。"
+  - id: C002
+    statement: "所有唐代師生關係都必須行《開元禮》所載束脩禮，否則不成立。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F001, F002]
+    reasoning_notes: "官學制度規範不可概括為全部私學及日常請益實態。"
+searches:
+  - id: Q001
+    observed_at: "2026-11-06T10:27:06+08:00"
+    platform: web
+    query: "唐會要神龍二年束脩；大唐開元禮卷五十四學生束脩；韓愈師說"
+    scope: "古籍數位化原文"
+    result: found
+    notes: "找到三份可直接核對的古典文本。"
+promotion:
+  cases: []
+  comparators: []
+  research: []
+notes:
+  - "關聯原案：sessions/2026-11-06-ko-mentor-media-framing/evidence.yaml。新增的是古代文化語境，不是重做第三人個案調查。"
+  - "『文化偷換』是比較古今不同師生關係的論證風險，不是對特定媒體或當事人主觀動機的已證事實。"
+  - "『一日為師，終身為父』的最早出處與民間使用史未在本次確定，不升格為 verified。"
+  - "使用者的權責對等道德判準另記私人 ep，不假稱是古典文獻原義。"
