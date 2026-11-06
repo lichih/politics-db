@@ -1,0 +1,281 @@
+session:
+  id: "2026-11-06-national-pension-budget-attribution"
+  project: Politics
+  title: "賴清德南投輔選國民年金調高未發之預算歸責：發言、法源及時序查核"
+  started_at: "2026-11-06T17:00:24+08:00"
+  updated_at: "2026-11-06T17:00:24+08:00"
+  status: active
+
+topics:
+  - "國民年金法"
+  - "國民年金調高至5000元"
+  - "賴清德2026年11月3日南投發言"
+  - "115年度總預算與追加預算"
+  - "歸責因果查核"
+
+sources:
+  - id: S001
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "賴總統：不因縣長、立委國民黨籍而不挺南投"
+    url: "https://www.cna.com.tw/news/aloc/202611030196.aspx"
+    published_at: "2026-11-03"
+    observed_at: "2026-11-06T17:00:24+08:00"
+    retrieval_status: reachable
+    notes:
+      - "11月3日現場新聞報導，轉述賴清德對原定7月調高國民年金、尚未領到以及立法院預算的說法。"
+      - "本次查核未取得完整逐字影音；此來源是當日記者報導，不冒充逐字錄音。"
+  - id: S002
+    source_type: primary
+    publisher: "行政院"
+    title: "政院通過「國民年金法」部分條文修正草案 落實國民基本經濟安全與生活保障"
+    url: "https://www.ey.gov.tw/Page/9277F759E41CCD91/de594662-637f-4d29-b76e-705a8cfaeddd"
+    published_at: "2026-01-22"
+    observed_at: "2026-11-06T17:00:24+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方新聞稿區分修法、115年度總預算完成法定程序及後續追加預算。"
+  - id: S003
+    source_type: primary
+    publisher: "法務部全國法規資料庫"
+    title: "國民年金法（第54條之1）"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0050152"
+    published_at: "2020-06-03"
+    observed_at: "2026-11-06T17:00:24+08:00"
+    retrieval_status: reachable
+    notes:
+      - "截至查詢時之官方法條頁面載明最近修正日期109年6月3日；第54條之1包括原始基數與CPI定期調整規則。"
+      - "不可將2012年基數3500元誤寫成2026年所有現行實領數額。"
+  - id: S004
+    source_type: primary
+    publisher: "財政部"
+    title: "115年度中央政府總預算案（含追加預算案）—國家財政專區"
+    url: "https://www.mof.gov.tw/debt/multiplehtml/e56500230c9345d583c4ed275de7c427"
+    published_at: "2026-09-29"
+    observed_at: "2026-11-06T17:00:24+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記載總預算8月14日三讀、9月18日公布及行政院9月3日通過追加預算案。"
+  - id: S005
+    source_type: primary
+    publisher: "立法院議事暨公報資訊網"
+    title: "第11屆第6會期衛環委員會第2次全體委員會議（115年10月14日）"
+    url: "https://ppg.ly.gov.tw/ppg/sittings/2026101201/details?meetingDate=115%2F10%2F14"
+    published_at: "2026-10-14"
+    observed_at: "2026-11-06T17:00:24+08:00"
+    retrieval_status: reachable
+    notes:
+      - "議程列有行政院及朝野多版本國民年金法修正草案。"
+  - id: S006
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "國民年金調幅立院委員會無共識 待朝野協商"
+    url: "https://www.cna.com.tw/news/aipl/202610140139.aspx"
+    published_at: "2026-10-14"
+    observed_at: "2026-11-06T17:00:24+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記錄10月14日完成委員會初審、重要調幅條文保留送黨團協商。"
+  - id: S007
+    source_type: primary
+    publisher: "立法院"
+    title: "115年11月4、5日財政等七委員會聯席會議審查115年度中央政府總預算追加預算案"
+    url: "https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=56731&pid=266952"
+    published_at: "2026-10-29"
+    observed_at: "2026-11-06T17:00:24+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方議程明列11月4日詢答、11月5日處理追加預算案，與『未安排審查』不同。"
+  - id: S008
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "國民年金法修正草案13日朝野協商 民眾黨團籲勿拖延"
+    url: "https://www.cna.com.tw/news/aipl/202611060140.aspx"
+    published_at: "2026-11-06"
+    observed_at: "2026-11-06T17:00:24+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記錄11月6日朝野協商結論、11月13日預定協商及民眾黨團說法；黨團個別指控須與議事紀錄區別。"
+  - id: S009
+    source_type: primary
+    publisher: "黃國昌 Facebook（使用者提供之 deterministic 擷取）"
+    title: "民進黨立院黨團直接打臉賴清德（2026年11月6日貼文）"
+    url: "https://www.facebook.com/kcfor2016/posts/pfbid0ydGVybNRVa9oXyQiVGNBceppEiWSQGBoCpcMD5MmSC7BeD7EXVjfQZATfXUm6DVBl"
+    published_at: "2026-11-06"
+    observed_at: "2026-11-06T16:37:36+08:00"
+    retrieval_status: blocked
+    notes:
+      - "由使用者提供 facebook-browser-extension v0.8.32 deterministic 擷取，captured_at=2026-11-06T08:37:36.705Z。"
+      - "直接以外部網頁抓取 Facebook 受阻；本來源引用擷取文本，不能宣稱本次獨立開頁核實。"
+      - "僅保存與主張有關之主貼文字意，不以部分可見留言代表全體留言。"
+  - id: S010
+    source_type: primary
+    publisher: "行政院"
+    title: "政院通過115年度中央政府總預算追加預算案6,076億元"
+    url: "https://www.ey.gov.tw/Page/9277F759E41CCD91/e6b90fcf-0d42-40e3-b001-1c790c076657"
+    published_at: "2026-09-03"
+    observed_at: "2026-11-06T17:00:24+08:00"
+    retrieval_status: reachable
+    notes:
+      - "行政院宣布追加預算案當日院會通過、送立法院審議。"
+
+facts:
+  - id: F001
+    statement: "2026年11月3日賴清德在南投輔選時談到老農津貼及國民年金規劃7月調高，稱尚未領到是立法院預算未通過，並指向在野黨立委。"
+    status: verified
+    observed_at: "2026-11-06T17:00:24+08:00"
+    source_ids: [S001, S008]
+    evidence_summary: "中央社11月3日當天的現場報導及11月6日回顧均記載『為何我還沒領到』接著歸因立法院未通過預算及在野黨。"
+    verification_notes:
+      - "確認的是公開報導所記發言，並非逐字影音比對。"
+    tags: ["原始發言", "因果歸責"]
+  - id: F002
+    statement: "行政院2026年1月22日公告國民年金法修正草案，明示調高額度係修法後實施；所需經費須待115年度總預算完成法定程序，再以追加預算編列。"
+    status: verified
+    observed_at: "2026-11-06T17:00:24+08:00"
+    source_ids: [S002]
+    evidence_summary: "行政院原始發布文本分別寫明修法、總預算與追加預算程序，亦請衛福部與黨團協調盡速修法。"
+    verification_notes:
+      - "官方政策程序說明不能被解讀為已完成立法。"
+    tags: ["行政院", "法源", "預算"]
+  - id: F003
+    statement: "查詢時國民年金法第54條之1保留原基數及CPI調整機制；行政院2026年欲將部分給付調高至5000元的方案仍在修法程序。"
+    status: verified
+    observed_at: "2026-11-06T17:00:24+08:00"
+    source_ids: [S003, S005, S006, S008]
+    evidence_summary: "官方法條未出現此次擬議的5000元固定基本額度，10月14日調幅條文保留協商，11月6日報導亦確認修正案尚未完成。"
+    verification_notes:
+      - "此處檢驗本次方案之新法源，不排除既有法律下的定期CPI調整。"
+    tags: ["法律", "立法程序"]
+  - id: F004
+    statement: "115年度中央政府總預算於2026年8月14日經立法院三讀，9月18日由總統公布。"
+    status: verified
+    observed_at: "2026-11-06T17:00:24+08:00"
+    source_ids: [S004]
+    evidence_summary: "財政部官方財政專區列出通過及公布日期。"
+    verification_notes:
+      - "必須區分已通過的總預算與尚待審議的追加預算。"
+    tags: ["總預算", "時序"]
+  - id: F005
+    statement: "行政院2026年9月3日院會通過115年度中央政府總預算追加預算案，並送請立法院審議。"
+    status: verified
+    observed_at: "2026-11-06T17:00:24+08:00"
+    source_ids: [S004, S010]
+    evidence_summary: "財政部及行政院官方頁面均記載9月3日追加預算案時間。"
+    verification_notes:
+      - "『9月提出』與『7月規劃開始調高』存在時序落差；不能僅據此斷定所有延誤的唯一成因。"
+    tags: ["追加預算", "時序"]
+  - id: F006
+    statement: "立法院已排定2026年11月4日及5日由七個委員會聯席審查115年度追加預算案。"
+    status: verified
+    observed_at: "2026-11-06T17:00:24+08:00"
+    source_ids: [S007]
+    evidence_summary: "立法院官方開會通知明列『審查』追加預算案、11月4日詢答及11月5日處理。"
+    verification_notes:
+      - "官方議程證明有排定審查；不單憑議程證明預算已三讀或所有細項均已審畢。"
+    tags: ["立法院", "追加預算"]
+  - id: F007
+    statement: "2026年10月14日立法院衛環委員會已完成國民年金法修正草案委員會審查，但調高額度等爭議條文送黨團協商。"
+    status: verified
+    observed_at: "2026-11-06T17:00:24+08:00"
+    source_ids: [S005, S006]
+    evidence_summary: "立法院官方議程及中央社當日審查結果報導相互補充。"
+    verification_notes:
+      - "委員會審查完成不等於院會三讀完成。"
+    tags: ["國民年金法", "立法程序"]
+  - id: F008
+    statement: "2026年11月6日朝野未於當天完成國民年金法三讀，而同意11月13日上午由院長召開黨團協商，未有結論則儘速處理。"
+    status: verified
+    observed_at: "2026-11-06T17:00:24+08:00"
+    source_ids: [S008]
+    evidence_summary: "中央社報導當日協商結論，並載明協商冷凍期尚未屆滿。"
+    verification_notes:
+      - "不能單憑『未同意當天三讀』推出任何一黨反對調高金額。"
+    tags: ["議事程序", "朝野協商"]
+  - id: F009
+    statement: "黃國昌2026年11月6日公開貼文指控賴清德把未發給付歸因在野黨不審預算不實，並以民進黨團未同意當日處理修法加以反擊。"
+    status: verified
+    observed_at: "2026-11-06T16:37:36+08:00"
+    source_ids: [S009, S008]
+    evidence_summary: "使用者擷取之黃國昌原始貼文及中央社當日新聞記錄其說法。"
+    verification_notes:
+      - "證實的是黃國昌確實提出此指控；不代表其所有因果推論均獲證實。"
+    tags: ["黃國昌", "政治攻防"]
+
+claims:
+  - id: C001
+    statement: "賴清德2026年11月3日所指『在野黨不審預算』是原定7月調高國民年金未發放的充分原因。"
+    status: unsupported
+    supports: [F001]
+    contradicts: [F002, F003, F004, F005, F006, F007]
+    related_facts: [F008]
+    reasoning_notes: "發言所述因果歸責缺乏相應程序證明：增加給付的修法迄未三讀，總預算已完成，追加預算9月才提出且已排審。不能拿『預算也必須通過』偷換為『在野黨不審預算造成不能領』；但總預算早前延宕是否間接影響追加預算時序，仍可另行研究，勿超出已確認範圍。"
+  - id: C002
+    statement: "本次調高至5000元的方案，需要相關法律修正及經費預算程序，兩者為不同門檻。"
+    status: supported
+    supports: [F002, F003, F005]
+    contradicts: []
+    related_facts: [F004]
+    reasoning_notes: "行政院1月22日已清楚區分修法與追加預算。"
+  - id: C003
+    statement: "115年度中央政府總預算在2026年11月3日仍未通過。"
+    status: contradicted
+    supports: []
+    contradicts: [F004]
+    related_facts: [F005, F006]
+    reasoning_notes: "總預算8月14日三讀、9月18日公布。若指追加預算，須明說追加預算，並交代9月3日行政院始提出與11月已排審事實。"
+  - id: C004
+    statement: "民進黨團不同意11月6日立即三讀，足以證明民進黨反對調高國民年金或承認總統造謠。"
+    status: unsupported
+    supports: [F009]
+    contradicts: [F008]
+    related_facts: [F007]
+    reasoning_notes: "無法直接由議事選擇推定反對政策本身或承認某人說謊；仍可就是否願意加速提出政治質疑。"
+  - id: C005
+    statement: "賴清德明知不實而故意散布假訊息。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F001, F002, F003, F004, F005, F006]
+    reasoning_notes: "錯誤歸責可依公開事證檢驗；是否故意屬動機推論，需另以發言脈絡、政府既有說明、是否反覆修正等事證提出強度相稱判斷，不作已證實外部事實。"
+  - id: C006
+    statement: "行政院9月才提出追加預算，卻對外稱規劃7月提高國民年金，政府有必要解釋政策時程與未達成原因。"
+    status: supported
+    supports: [F001, F002, F005]
+    contradicts: []
+    related_facts: [F003, F004, F007]
+    reasoning_notes: "此為基於政策時序的問責結論；不能把『原規劃7月』冒充已生效的法定7月請求權。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-11-06T17:00:24+08:00"
+    platform: "GitHub politics-db connector"
+    query: "國民年金 / 5000"
+    scope: "lichih/politics-db main code search and issue/commit search"
+    result: not_found
+    notes: "本次 connector 搜尋未返回匹配；只代表此次查詢未命中索引，不能據此斷言 repo 內完全不存在相關檔。"
+  - id: Q002
+    observed_at: "2026-11-06T17:00:24+08:00"
+    platform: "web public search"
+    query: "2026 11月3日 賴清德 國民年金 南投 預算；2026 11月6日 國民年金法協商；行政院 1月22日 修法；115年度追加預算"
+    scope: "中央社、行政院、財政部、立法院、法務部全國法規資料庫"
+    result: found
+    notes: "核對賴發言之當天報導、行政院原始政策條件、法條與法案/預算時序。"
+  - id: Q003
+    observed_at: "2026-11-06T17:00:24+08:00"
+    platform: "web direct URL"
+    query: "黃國昌 Facebook 2026-11-06 貼文"
+    scope: "https://www.facebook.com/kcfor2016/posts/pfbid0ydGVybNRVa9oXyQiVGNBceppEiWSQGBoCpcMD5MmSC7BeD7EXVjfQZATfXUm6DVBl"
+    result: partial
+    notes: "Facebook 外部直讀受限；保留使用者提供之 deterministic v0.8.32 擷取，未將抓取失敗誤記為貼文不存在。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "本 session 目的：評估賴清德對國民年金未如期調高之『在野黨不審預算』具體因果歸責，而非抽象爭論預算是不是必要條件。"
+  - "先前對話曾錯將問題改寫成『預算也必要，所以總統說法可成立』；此處以原始發言命題重新檢驗，保留可追溯的修正。"
+  - "用『沒完成修法』否定任何預算可能造成的時程影響，同樣過度；保留進一步考察總預算遲延與追加預算提出日之反事實因果的空間。"
+  - "區分當事人公開發言、可驗證法律/程序事實、因果推論、政治評價及故意等主觀判斷。"
