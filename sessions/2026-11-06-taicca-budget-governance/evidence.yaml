@@ -1,0 +1,410 @@
+{
+  "session": {
+    "id": "2026-11-06-taicca-budget-governance",
+    "project": "Politics",
+    "title": "文策院116年度預算揭露、治理評估與2027安錫主題國爆料查核",
+    "started_at": "2026-11-06T19:28:44+08:00",
+    "updated_at": "2026-11-06T19:28:44+08:00",
+    "status": "active"
+  },
+  "topics": [
+    "文策院",
+    "116年度預算",
+    "預算透明度",
+    "立法院預算中心",
+    "安錫動畫節",
+    "行政法人治理"
+  ],
+  "sources": [
+    {
+      "id": "S001",
+      "source_type": "primary",
+      "publisher": "立法院預算中心",
+      "title": "行政法人文化內容策進院116年度預算評估報告（115198）",
+      "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=56800",
+      "published_at": "2026-11",
+      "observed_at": "2026-11-06T19:28:44+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "作者許福添；官方頁面列出四項評估意見；本次所見為公開網頁摘要，未取得完整附檔。"
+      ]
+    },
+    {
+      "id": "S002",
+      "source_type": "primary",
+      "publisher": "文化內容策進院",
+      "title": "年度預／決算書公開清單（116年度預算書刊登）",
+      "url": "https://www.taicca.tw/public_information/annual_plan/list?type_id=2",
+      "published_at": "2026-09-08",
+      "observed_at": "2026-11-06T19:28:44+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "已確認清單列有116年度預算書；本次未完成附件逐頁核對。"
+      ]
+    },
+    {
+      "id": "S003",
+      "source_type": "primary",
+      "publisher": "文化內容策進院產業研究平台",
+      "title": "2026安錫國際動畫影展：國家隊布局、AI治理與全球動畫產業平台的成形",
+      "url": "https://research.taicca.tw/article/50d3f4a4-5148-48e4-9643-64b48d25c0d0",
+      "published_at": "2026-07-03",
+      "observed_at": "2026-11-06T19:28:44+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "蔡馨儀撰；內文表示2026年閉幕典禮宣布哥倫比亞為2027年主題國。"
+      ]
+    },
+    {
+      "id": "S004",
+      "source_type": "primary",
+      "publisher": "TAICCA SCHOOL",
+      "title": "2026-2027 TAICCA x GOBELINS Paris 國際動畫開發培訓工作坊",
+      "url": "https://school.taicca.tw/content-development/show/133",
+      "published_at": "2026-08-26",
+      "observed_at": "2026-11-06T19:28:44+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "計畫目標是輔導遴選五組動畫提案參與2027 MIFA Partner Pitches；不等同爭取2027安錫主題國。"
+      ]
+    },
+    {
+      "id": "S005",
+      "source_type": "primary",
+      "publisher": "文化內容策進院",
+      "title": "2026-2027 TAICCA x GOBELINS Paris 國際動畫開發培訓工作坊課程教學採購案決標公告（1150917003）",
+      "url": "https://www.taicca.tw/public_information/purchase_placard/detail/530",
+      "published_at": "2026-10-12",
+      "observed_at": "2026-11-06T19:28:44+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "決標日期2026-10-08；廠商GOBELINS；8萬歐元約新臺幣304萬元。"
+      ]
+    },
+    {
+      "id": "S006",
+      "source_type": "secondary",
+      "publisher": "風傳媒",
+      "title": "獨家》文策院花大筆公帑打水漂？法國安錫動畫節主題國弄錯　文策院內部管理混亂業界驚",
+      "url": "https://www.storm.mg/article/11178626",
+      "published_at": "2026-11-06",
+      "observed_at": "2026-11-06T19:28:44+08:00",
+      "retrieval_status": "blocked",
+      "notes": [
+        "媒體文章連結可由Z9貼文作者留言及新聞索引確認；本次直接開啟原站失敗。關於王敏惠誤判、主管離職、楊中天私人行為均屬未經本次獨立核實之爆料。"
+      ]
+    },
+    {
+      "id": "S007",
+      "source_type": "commentary",
+      "publisher": "Z9 的看板／Facebook",
+      "title": "文策院內部治理及2027安錫主題國爆料轉貼",
+      "url": "https://www.facebook.com/zzzzzzzzz9.tw/posts/pfbid0UHSsjRLQi3FBgFGKgHaxNfu1iiaGViruMzTg9BCjf8qMksqmgorjV5BtD9tD6xqvl",
+      "published_at": "2026-11-06",
+      "observed_at": "2026-11-06T19:28:44+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "於已開啟Facebook browser tab讀得正文；內容轉述風傳媒，非獨立證據。"
+      ]
+    },
+    {
+      "id": "S008",
+      "source_type": "secondary",
+      "publisher": "聯合報",
+      "title": "文策院1.38億預算說明只有17字！馬文君酸：每個字價值813萬元",
+      "url": "https://udn.com/news/story/6656/9859145",
+      "published_at": "2026-11-05",
+      "observed_at": "2026-11-06T19:28:44+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "新聞引述政治人物對投融資業務成本1億3829萬3000元之質疑；1.38億元與安錫採購金額不得直接連結。"
+      ]
+    },
+    {
+      "id": "S009",
+      "source_type": "primary",
+      "publisher": "立法院預算中心",
+      "title": "文化部116年度單位預算評估報告（115193）",
+      "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=56799",
+      "published_at": "2026-11",
+      "observed_at": "2026-11-06T19:28:44+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "第六點亦列文化內容投資計畫資金集中、已處分案件淨損及投後管理問題。"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "F001",
+      "statement": "立法院預算中心115198號報告指出：文策院投融資業務成本占支出比重逾一成，僅列其他費用、未說明內涵，應詳予揭露。",
+      "status": "verified",
+      "observed_at": "2026-11-06T19:28:44+08:00",
+      "source_ids": [
+        "S001"
+      ],
+      "evidence_summary": "官方評估報告第一點直接記載揭露不足。",
+      "verification_notes": [
+        "可作為對116年度預算說明不足的直接事證，並非僅來自立委政治評論。"
+      ],
+      "tags": [
+        "budget",
+        "transparency"
+      ]
+    },
+    {
+      "id": "F002",
+      "statement": "同份報告指出文化內容投資計畫資金集中於少數大額投資案，已處分案件呈淨損，建議加強投後管理與成效評估。",
+      "status": "verified",
+      "observed_at": "2026-11-06T19:28:44+08:00",
+      "source_ids": [
+        "S001",
+        "S009"
+      ],
+      "evidence_summary": "文策院與文化部兩份官方預算評估均列出此意見。",
+      "verification_notes": [
+        "此為預算中心的分析與建議；不應逕自推論所有投資案均虧損。"
+      ],
+      "tags": [
+        "investment",
+        "performance"
+      ]
+    },
+    {
+      "id": "F003",
+      "statement": "同份報告指出文策院收入高度仰賴政府補助，自籌收入預算數遠低於實績，且估列基礎與說明不符。",
+      "status": "verified",
+      "observed_at": "2026-11-06T19:28:44+08:00",
+      "source_ids": [
+        "S001"
+      ],
+      "evidence_summary": "官方評估報告第三點直接列示。",
+      "verification_notes": [
+        "自籌收入預算低於實績不等於當期虧損，重點是估列基礎與說明。"
+      ],
+      "tags": [
+        "budget",
+        "revenue"
+      ]
+    },
+    {
+      "id": "F004",
+      "statement": "同份報告指出IP內容實驗室虛擬攝影棚連年收不抵支、曾評估停運可能，卻仍規劃續辦委外營運，相關經費未於預算書揭露。",
+      "status": "verified",
+      "observed_at": "2026-11-06T19:28:44+08:00",
+      "source_ids": [
+        "S001"
+      ],
+      "evidence_summary": "官方評估報告第四點直接列示。",
+      "verification_notes": [
+        "應釐清服務目的、社會效益及是否有後續改善計畫；收不抵支本身不直接等於應停辦。"
+      ],
+      "tags": [
+        "budget",
+        "performance",
+        "disclosure"
+      ]
+    },
+    {
+      "id": "F005",
+      "statement": "文策院公開清單列有2026-09-08發布的116年度預算書。",
+      "status": "verified",
+      "observed_at": "2026-11-06T19:28:44+08:00",
+      "source_ids": [
+        "S002"
+      ],
+      "evidence_summary": "文策院官網預決算書列表明示發布時間。",
+      "verification_notes": [
+        "本次未擷取完整附件，不能據此推斷所有子項細節是否另存他處。"
+      ],
+      "tags": [
+        "document"
+      ]
+    },
+    {
+      "id": "F006",
+      "statement": "文策院產業研究平台2026-07-03文章明載哥倫比亞已於2026年安錫影展閉幕宣布成為2027年主題國。",
+      "status": "verified",
+      "observed_at": "2026-11-06T19:28:44+08:00",
+      "source_ids": [
+        "S003"
+      ],
+      "evidence_summary": "官方研究平台在7月初即有此公開資訊。",
+      "verification_notes": [
+        "此點不直接證明任何單一主管當時已閱讀文章或內部會議發生何事。"
+      ],
+      "tags": [
+        "annecy",
+        "timeline"
+      ]
+    },
+    {
+      "id": "F007",
+      "statement": "文策院2026-08-26公告的2026-2027 GOBELINS工作坊目標為輔導五組台灣動畫企劃參與2027 MIFA Partner Pitches，不是公告爭取主題國。",
+      "status": "verified",
+      "observed_at": "2026-11-06T19:28:44+08:00",
+      "source_ids": [
+        "S004"
+      ],
+      "evidence_summary": "官方工作坊介紹列具體目的、受訓內容、計畫期間及提案目標。",
+      "verification_notes": [
+        "正常參展與爭取主題國應區分；也不能因此排除另有未公開之主題國計畫。"
+      ],
+      "tags": [
+        "annecy",
+        "program"
+      ]
+    },
+    {
+      "id": "F008",
+      "statement": "2026-10-08文策院決標GOBELINS工作坊課程採購，標案1150917003，金額8萬歐元、約新臺幣304萬元。",
+      "status": "verified",
+      "observed_at": "2026-11-06T19:28:44+08:00",
+      "source_ids": [
+        "S005"
+      ],
+      "evidence_summary": "文策院正式決標公告載明日期、廠商、金額及採購標的。",
+      "verification_notes": [
+        "此款對應培訓課程，不能當作主題國誤判支出；是否列在投融資業務成本項下亦未確認。"
+      ],
+      "tags": [
+        "procurement",
+        "annecy"
+      ]
+    },
+    {
+      "id": "F009",
+      "statement": "2026-11-06 Z9 Facebook貼文轉述風傳媒對文策院內部管理、安錫主題國誤判及公帑浪費的爆料。",
+      "status": "verified",
+      "observed_at": "2026-11-06T19:28:44+08:00",
+      "source_ids": [
+        "S006",
+        "S007"
+      ],
+      "evidence_summary": "已見到貼文全文與原始媒體新聞索引；可確認有人提出指控，不代表被指控事情已證實。",
+      "verification_notes": [
+        "關於副院長飲酒、人事離職原因等指控沒有獨立查核資料，不作既成事實。"
+      ],
+      "tags": [
+        "allegation",
+        "media"
+      ]
+    },
+    {
+      "id": "F010",
+      "statement": "聯合報2026-11-05報導立委質疑文策院投融資業務成本1億3829萬3000元的預算說明只有17個字。",
+      "status": "verified",
+      "observed_at": "2026-11-06T19:28:44+08:00",
+      "source_ids": [
+        "S008"
+      ],
+      "evidence_summary": "媒體直接記載政治人物對預算書該科目的批評。",
+      "verification_notes": [
+        "本次未重算預算書原始文字之17字；正式透明度判斷優先引用F001。"
+      ],
+      "tags": [
+        "budget",
+        "media"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "statement": "文策院116年度預算說明在若干重要項目上不足以供國會充分評估。",
+      "status": "supported",
+      "supports": [
+        "F001",
+        "F004"
+      ],
+      "related_facts": [
+        "F002",
+        "F003"
+      ],
+      "reasoning_notes": "有立法院預算中心的直接評估；應限定為其指出的具體問題，而非宣稱所有預算皆未公開。"
+    },
+    {
+      "id": "C002",
+      "statement": "文策院在投資風險管理、收入估列、虛擬攝影棚續辦之績效及決策說明上存在值得具體監督的治理問題。",
+      "status": "supported",
+      "supports": [
+        "F002",
+        "F003",
+        "F004"
+      ],
+      "reasoning_notes": "可支持制度治理層級的評論；預算中心提出改進意見不等於違法認定。"
+    },
+    {
+      "id": "C003",
+      "statement": "王敏惠誤認法方邀請臺灣擔任2027安錫主題國，並因此造成大額公帑浪費。",
+      "status": "unresolved",
+      "related_facts": [
+        "F006",
+        "F007",
+        "F008",
+        "F009"
+      ],
+      "reasoning_notes": "目前僅媒體匿名來源之爆料；公開培訓採購有獨立正當用途，不能作為浪費的證據。須另有決策紀錄、特定計畫預算與支出鏈才能判定。"
+    },
+    {
+      "id": "C004",
+      "statement": "王敏惠上任造成主管集體離職或楊中天出差飲酒失態。",
+      "status": "unresolved",
+      "related_facts": [
+        "F009"
+      ],
+      "reasoning_notes": "人事變動、離職原因、私人行為均尚缺獨立證據；不可用於既成事實評論。"
+    },
+    {
+      "id": "C005",
+      "statement": "10月8日304萬元GOBELINS採購屬於1.38億元投融資業務成本或安錫主題國申請支出。",
+      "status": "unresolved",
+      "related_facts": [
+        "F001",
+        "F007",
+        "F008",
+        "F010"
+      ],
+      "reasoning_notes": "並無已確認科目對應關係；且公開採購用途為動畫培訓，不能直接歸入匿名爆料中的誤判支出。"
+    }
+  ],
+  "searches": [
+    {
+      "id": "Q001",
+      "observed_at": "2026-11-06T19:28:44+08:00",
+      "platform": "GitHub politics-db main code search and sessions directory",
+      "query": "文策院／TAICCA／安錫／2026-11 sessions",
+      "scope": "lichih/politics-db main",
+      "result": "not_found",
+      "notes": "本次在repo搜尋與sessions名稱檢視未見直接對應既有case/session；僅代表此查詢範圍未找到。"
+    },
+    {
+      "id": "Q002",
+      "observed_at": "2026-11-06T19:28:44+08:00",
+      "platform": "web search and TAICCA public procurement pages",
+      "query": "2027安錫主題國獨立計畫；116年度預算科目；GOBELINS決標",
+      "scope": "2026-11-06可取得的公開官網及新聞結果",
+      "result": "partial",
+      "notes": "找到GOBELINS培訓案及採購金額；未取得完整116年度預算附件、未找到可證明獨立主題國申請支出的文件。不代表該文件不存在。"
+    },
+    {
+      "id": "Q003",
+      "observed_at": "2026-11-06T19:28:44+08:00",
+      "platform": "web search",
+      "query": "立法院預算中心 115198 文策院 116年度 其他費用",
+      "scope": "立法院預算中心官方網站",
+      "result": "found",
+      "notes": "找到115198號報告四項評估意見及對應頁面，為對外論述主要一手來源。"
+    }
+  ],
+  "promotion": {
+    "cases": [],
+    "comparators": [],
+    "research": []
+  },
+  "notes": [
+    "寫Fact建議以立法院預算中心115198號四項治理評估為主線，非以安錫匿名爆料為結論。",
+    "避免把1.38億元投融資業務成本與8萬歐元GOBELINS培訓採購混同。",
+    "可主張預算中心已證實特定項目揭露不足，但不能由本次檢索未找到推定安錫計畫文件不存在。"
+  ]
+}
