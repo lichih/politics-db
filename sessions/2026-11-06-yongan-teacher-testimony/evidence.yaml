@@ -3,7 +3,7 @@ session:
   project: "Politics"
   title: "永安國小香鬆爭議：教師「王子的教室」說明與校方交叉查核"
   started_at: "2026-11-06T18:11:18+08:00"
-  updated_at: "2026-11-06T18:11:18+08:00"
+  updated_at: "2026-11-06T13:54:02.092+00:00"
   status: "active"
 topics: 
   - "臺北市"
@@ -11,6 +11,8 @@ topics:
   - "學校午餐"
   - "香鬆2公克"
   - "教師工作負擔"
+  - "食品分類"
+  - "魚鬆與香鬆比較"
 sources: 
   - 
     id: "S001"
@@ -68,6 +70,49 @@ sources:
     retrieval_status: "reachable"
     notes: 
       - "補充校方聲明：因過敏未混入大桶白飯、依各班學生自理能力操作、大多學生取用並非教師逐一秤量。"
+  - 
+    id: "S006"
+    source_type: "primary"
+    publisher: "衛生福利部食品藥物管理署"
+    title: "食品營養標示份量參考值指引表"
+    url: "https://www.fda.gov.tw/tc/includes/GetFile.ashx?id=f636694172910184997"
+    observed_at: "2026-11-06T13:54:02.092+00:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "香鬆列在調味料類之拌料類，參考份量5公克；魚鬆列在水產類，參考份量20公克；兩者是營養標示份量參考值，不是學童每餐應吃的營養建議。"
+  - 
+    id: "S007"
+    source_type: "secondary"
+    publisher: "聯合報"
+    title: "營養午餐香鬆「每人2g」秤重分裝？永安國小：有人過敏 想多吃可補充"
+    url: "https://udn.com/news/story/6898/9857944"
+    published_at: "2026-11-04"
+    observed_at: "2026-11-06T13:54:02.092+00:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "引述永安國小正式說明，香鬆供搭配米飯增添風味，屬調味配料，不列入主食或主菜的份量計算。"
+  - 
+    id: "S008"
+    source_type: "secondary"
+    publisher: "太報"
+    title: "台北2克香鬆PK台南一整包！網酸蔣萬安：怎麼有勇氣說黃偉哲跟進他？"
+    url: "https://dev.taisounds.news/news/content/91/298011"
+    published_at: "2026-11-05"
+    observed_at: "2026-11-06T13:54:02.092+00:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "記錄有社群與報導將臺北每人2g香鬆、臺南約13g單人包作直接重量對比；報導將台南商品也稱為香鬆，不足以確認照片實際產品類別。"
+  - 
+    id: "S009"
+    source_type: "commentary"
+    publisher: "Facebook @meimei.li.12"
+    title: "台南一包15公克與台北2公克對照貼文"
+    url: "https://www.facebook.com/meimei.li.12/posts/pfbid035jeu9GE2TjSBpdFZp9HJDJeUZuuTEdENbWz5Lxr8RoxqEVVHRop4MVV4V6y5Cgrzl"
+    published_at: ""
+    observed_at: "2026-11-06T13:54:02.092+00:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "使用者提供2026-11-06瀏覽器擷取，貼文稱台南15g；未取得台南單包產品清晰的背面營養標示及完整菜單，不將其確認為某特定品牌的魚鬆。"
 facts: 
   - 
     id: "F001"
@@ -128,6 +173,41 @@ facts:
       - "S002"
       - "S003"
     evidence_summary: "直接記錄教師對遭遇與壓力的感受，不將其擴張為已證實有特定外部指示或違法侵害工作權。"
+  - 
+    id: "F007"
+    statement: "食藥署食品營養標示份量參考值指引表將香鬆列入調味料類之拌料類（5g），魚鬆列入水產類（20g），兩者官方食品分類不同。"
+    status: "verified"
+    observed_at: "2026-11-06T13:54:02.092+00:00"
+    source_ids: 
+      - "S006"
+    evidence_summary: "官方食品分類及標示參考量直接支持；數值不是學童應攝取的建議份量。"
+  - 
+    id: "F008"
+    statement: "永安國小正式說明其香鬆用作搭配米飯的調味配料，不列入午餐主食或主菜的份量計算。"
+    status: "verified"
+    observed_at: "2026-11-06T13:54:02.092+00:00"
+    source_ids: 
+      - "S007"
+    evidence_summary: "引述校方2026-11-04說明；是特定學校特定品項的實際使用定位。"
+  - 
+    id: "F009"
+    statement: "2026年11月初社群與媒體曾把臺北永安國小2g香鬆與台南約13至15g單包品項直接比較，作為地方午餐政策優劣的批評。"
+    status: "verified"
+    observed_at: "2026-11-06T13:54:02.092+00:00"
+    source_ids: 
+      - "S008"
+      - "S009"
+    evidence_summary: "可核實有此對比論述，但台南單包的產品確切類別、食材及營養資料仍待核實。"
+  - 
+    id: "F010"
+    statement: "魚鬆通常可當作飯食配菜，亦可能提供蛋白質；但能否算學校午餐主菜、配菜或符合蛋白質基準，須依配方、菜單與實際份量判斷。"
+    status: "partial"
+    observed_at: "2026-11-06T13:54:02.092+00:00"
+    source_ids: 
+      - "S006"
+    evidence_summary: "食品分類支持為魚類加工食品而非香鬆調味拌料；『配菜』為烹調用途描述，不等同具法律效力的所有菜單分類。"
+    verification_notes: 
+      - "不得宣稱所有魚鬆100%魚肉、均富含Omega-3，或15g足以充當完整主菜。"
 claims: 
   - 
     id: "C001"
@@ -152,6 +232,26 @@ claims:
     related_facts: 
       - "F005"
     reasoning_notes: "校方已表示標示易誤解、將重新討論減輕教師負擔；不能以政治攻防失準否定作業改善空間。"
+  - 
+    id: "C004"
+    statement: "可僅憑臺北2g香鬆與台南13至15g魚鬆／肉鬆的克數，證明臺北營養午餐品質或預算效益較差。"
+    status: "unsupported"
+    related_facts: 
+      - "F007"
+      - "F008"
+      - "F009"
+    reasoning_notes: "若台南品項經辨識為魚鬆／肉鬆，屬不同食品類別及使用目的，不具直接同類重量比較基準；且仍缺完整菜單、成本、營養與實際供應紀錄。"
+  - 
+    id: "C005"
+    statement: "香鬆是調味料、魚鬆可作配菜，故兩者無法直接以重量判斷整餐優劣。"
+    status: "supported"
+    supports: 
+      - "F007"
+      - "F008"
+    related_facts: 
+      - "F009"
+      - "F010"
+    reasoning_notes: "食品角色區分成立；『配菜』是可能用途不是所有魚鬆一律法定配菜；台南照片之確切品項仍需實物標示。"
 searches: 
   - 
     id: "Q001"
@@ -161,6 +261,14 @@ searches:
     scope: "2026-11-06相關新聞與校方說明"
     result: "found"
     notes: "取得聯合報、鏡報、中央社、台視；尚無確認之「王子的教室」原始貼文永久連結。"
+  - 
+    id: "Q002"
+    observed_at: "2026-11-06T13:54:02.092+00:00"
+    platform: "web"
+    query: "食品營養標示份量參考值指引表 香鬆 魚鬆 5g 20g；永安國小香鬆定位；台南單包比較"
+    scope: "食藥署官方文件、2026-11-04至11-05報導與使用者提供社群貼文"
+    result: "partial"
+    notes: "確認官方食品分類與北市學校用途；未獲台南實際產品完整品名、配方或營養標示，不能確證照片商品就是魚鬆。"
 promotion: 
   cases: []
   comparators: []
@@ -168,3 +276,4 @@ promotion:
 notes: 
   - "本項為獨立追加 session；因 GitHub 程式碼搜尋未返回既有香鬆證據路徑，不擅自覆寫未知既有檔案。後續可在索引/目錄找到原 case 後建立 cross-reference。"
   - "原始截圖影像本體未存 GitHub；證據摘要、查核脈絡及媒體URL已保存。"
+  - "2026-11-06追加食品分類與跨市克數比較證據：魚鬆作為配菜是一般用途判斷，不能推定台南照片商品類別或午餐正式菜單分類。"
