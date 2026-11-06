@@ -1,0 +1,168 @@
+session: 
+  id: "2026-11-06-taipei-school-lunch-oversight"
+  project: "Politics"
+  title: "臺北市學校午餐家長委員會與監廚監督制度"
+  started_at: "2026-11-06T16:52:47+08:00"
+  updated_at: "2026-11-06T16:52:47+08:00"
+  status: "active"
+topics: 
+  - "學校午餐"
+  - "家長參與"
+  - "學校午餐供應委員會"
+  - "監廚"
+  - "臺北市"
+sources: 
+  - 
+    id: "S001"
+    source_type: "primary"
+    publisher: "教育部"
+    title: "學校衛生法（2026-09-23修正）"
+    url: "https://edu.law.moe.gov.tw/LawContent.aspx?id=FL008491"
+    observed_at: "2026-11-06T16:52:47+08:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "第23條膳食由營養師督導及執行；第23-1條40班以上至少置營養師一人；第23-2條學校設供應會，現任家長代表至少四分之一。"
+  - 
+    id: "S002"
+    source_type: "primary"
+    publisher: "臺北市政府法規查詢系統"
+    title: "臺北市立高級中等以下學校午餐供應執行要點（2022-08-29）"
+    url: "https://laws.gov.taipei/law/LawSearch/LawArticleContent/FL009021"
+    observed_at: "2026-11-06T16:52:47+08:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "第三點委員7-19人、國小家長至少二分之一、國中以上家長與學生合計至少三分之一；第四點每學期開會二次；第六點營養師配置營養量；第七點事先公告菜單。"
+  - 
+    id: "S003"
+    source_type: "primary"
+    publisher: "臺北市政府教育局"
+    title: "學校午餐菜單內容如何決定？"
+    url: "https://www.doe.gov.taipei/News_Content.aspx?n=FDDC0C0019D7F096&s=33BF7DB316A68E2B&sms=87415A8B9CE81B16"
+    observed_at: "2026-11-06T16:52:47+08:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "合格營養師規劃，送午餐供應委員會審議。"
+  - 
+    id: "S004"
+    source_type: "primary"
+    publisher: "臺北市政府教育局"
+    title: "針對學校營養午餐菜色可以如何反映？"
+    url: "https://www.gov.taipei/News_Content.aspx?n=EEC70A4186D4C828&s=2B7A38657B199301&sms=87415A8B9CE81B16"
+    observed_at: "2026-11-06T16:52:47+08:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "教育局明示可向各校學務處衛生組反映；1999分機6394。"
+  - 
+    id: "S005"
+    source_type: "primary"
+    publisher: "臺北市政府教育局"
+    title: "學校午餐標準作業流程及相關表件"
+    url: "https://www.doe.gov.taipei/Content_List.aspx?n=8AEB353ADD836F3C"
+    observed_at: "2026-11-06T16:52:47+08:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "官方頁面公開委員會、監廚及查核作業、滿意度調查等作業文件；此項證明文件公開存在，非逐一評估各校履行情況。"
+  - 
+    id: "S006"
+    source_type: "commentary"
+    publisher: "Threads @stanley741108"
+    title: "自述擔任學校午餐監督委員並參觀廚房"
+    url: "https://www.threads.com/@stanley741108/post/DfXH1FVmufX"
+    observed_at: "2026-11-06T16:52:47+08:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "使用者提供2026-11-06擷取，個人參與身分及到場紀錄尚未獨立查實。"
+facts: 
+  - 
+    id: "F001"
+    statement: "《學校衛生法》第23-2條規定，高級中等以下學校辦理午餐應設供應會或相當組織，現任家長占至少四分之一。"
+    status: "verified"
+    observed_at: "2026-11-06T16:52:47+08:00"
+    source_ids: 
+      - "S001"
+    evidence_summary: "中央法律明文規定家長比例。"
+  - 
+    id: "F002"
+    statement: "臺北市立國小午餐供應委員會家長代表不得少於全體委員二分之一，委員人數七至十九人。"
+    status: "verified"
+    observed_at: "2026-11-06T16:52:47+08:00"
+    source_ids: 
+      - "S002"
+    evidence_summary: "臺北市執行要點第三點。"
+  - 
+    id: "F003"
+    statement: "臺北市午餐供應委員會每學期召開二次，主任委員由校長擔任，執行秘書由營養師擔任，無營養師者由教師或行政人員兼任。"
+    status: "verified"
+    observed_at: "2026-11-06T16:52:47+08:00"
+    source_ids: 
+      - "S002"
+    evidence_summary: "執行要點第三、四點。"
+  - 
+    id: "F004"
+    statement: "臺北市學校午餐菜單由合格營養師按營養原則與契約規劃，再交午餐供應委員會審議；菜單應事先公告並通知法定代理人。"
+    status: "verified"
+    observed_at: "2026-11-06T16:52:47+08:00"
+    source_ids: 
+      - "S002"
+      - "S003"
+    evidence_summary: "地方行政規則與教育局問答相符。"
+  - 
+    id: "F005"
+    statement: "臺北市教育局指示，對學校午餐菜色的建議可直接反映給各校學務處衛生組，教育局業務電話為1999分機6394。"
+    status: "verified"
+    observed_at: "2026-11-06T16:52:47+08:00"
+    source_ids: 
+      - "S004"
+    evidence_summary: "教育局公開常見問答。"
+  - 
+    id: "F006"
+    statement: "臺北市教育局提供學校午餐委員會、監廚及查核作業、滿意度調查及回饋等標準作業流程文件。"
+    status: "verified"
+    observed_at: "2026-11-06T16:52:47+08:00"
+    source_ids: 
+      - "S005"
+    evidence_summary: "官方文件清單有明確列示。"
+  - 
+    id: "F007"
+    statement: "Threads留言者自述曾任午餐監督委員並在其學校參觀、檢查廚房。"
+    status: "partial"
+    observed_at: "2026-11-06T16:52:47+08:00"
+    source_ids: 
+      - "S006"
+    evidence_summary: "只能證明留言者曾如此陳述，未獨立查核其參與資格及實際活動。"
+    verification_notes: 
+      - "不得擴張為每校皆有同樣現場開放方式。"
+claims: 
+  - 
+    id: "C001"
+    statement: "臺北市所有家長均可直接報名成為午餐委員或任意進入廚房試吃。"
+    status: "unsupported"
+    related_facts: 
+      - "F002"
+      - "F006"
+    reasoning_notes: "法律保障家長代表比例及設置監廚流程，但實際遴選、進場與試吃須依各校安排；不能推定個別家長有無條件進場權。"
+  - 
+    id: "C002"
+    statement: "臺北市家長有正式參與學校午餐決策及反映意見的制度途徑。"
+    status: "supported"
+    supports: 
+      - "F001"
+      - "F002"
+      - "F004"
+      - "F005"
+searches: 
+  - 
+    id: "Q001"
+    observed_at: "2026-11-06T16:52:47+08:00"
+    platform: "web"
+    query: "臺北市 學校午餐 監廚 家長 供應委員會 參與"
+    scope: "教育部、臺北市政府法規與教育局網站"
+    result: "found"
+    notes: "取得法律、地方要點及官方標準作業文件入口；未找到全市統一的一般家長直接報名試吃規定。"
+promotion: 
+  cases: []
+  comparators: []
+  research: []
+notes: 
+  - "制度與個別學校的實際執行情形須區分；本研究未稽核特定學校的監廚紀錄。"
+  - "公開發言應說明向學務處衛生組詢問委員遴選、監廚及進場程序，避免宣稱可以直接入廚或必然獲准試吃。"
