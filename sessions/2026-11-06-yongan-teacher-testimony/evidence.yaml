@@ -1,0 +1,170 @@
+session: 
+  id: "2026-11-06-yongan-teacher-testimony"
+  project: "Politics"
+  title: "永安國小香鬆爭議：教師「王子的教室」說明與校方交叉查核"
+  started_at: "2026-11-06T18:11:18+08:00"
+  updated_at: "2026-11-06T18:11:18+08:00"
+  status: "active"
+topics: 
+  - "臺北市"
+  - "永安國小"
+  - "學校午餐"
+  - "香鬆2公克"
+  - "教師工作負擔"
+sources: 
+  - 
+    id: "S001"
+    source_type: "primary"
+    publisher: "王子的教室（社群截圖）"
+    title: "永安國小教師自述香鬆分發慣例及政治壓力"
+    url: ""
+    observed_at: "2026-11-06T18:11:18+08:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "使用者於2026-11-06提供圖片截圖，尚未確認原始 Facebook 貼文 permalink。"
+      - "截圖說明作者自稱在永安國小多年、分發方式持續多年，並批評媒體與政治攻防使師生承受壓力。"
+      - "原圖於會話附件；目前未把影像原檔存入 GitHub，以下保存文字要點及可交叉核對新聞來源。"
+  - 
+    id: "S002"
+    source_type: "secondary"
+    publisher: "聯合報"
+    title: "綠營猛攻「香鬆2公克」 永安國小老師出面感嘆政治鬥爭"
+    url: "https://udn.com/news/story/6656/9861421"
+    published_at: "2026-11-06"
+    observed_at: "2026-11-06T18:11:18+08:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "報導稱該教師為黃國平，帳號「王子的教室」。具名身分採媒體報導，非人事名冊獨立驗證。"
+  - 
+    id: "S003"
+    source_type: "secondary"
+    publisher: "鏡報"
+    title: "北市營養午餐發「2公克香鬆」挨轟！國小教師嘆「政治鬥爭」怒揭真相"
+    url: "https://prod.mirrordaily.news/story/96203"
+    published_at: "2026-11-06"
+    observed_at: "2026-11-06T18:11:18+08:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "報導轉述教師說明：家長自費與政府補助時期學校採同一種按班供應方式，老師依班情況處理。"
+  - 
+    id: "S004"
+    source_type: "secondary"
+    publisher: "中央社"
+    title: "香鬆1人2公克惹議 北市永安國小：非上限、學生可追加"
+    url: "https://www.cna.com.tw/news/aloc/202611040349.aspx"
+    published_at: "2026-11-04"
+    observed_at: "2026-11-06T18:11:18+08:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "報導永安國小正式聲明：2g建議量、可追加、委員會討論分發方式、對標示不完整致歉。"
+  - 
+    id: "S005"
+    source_type: "secondary"
+    publisher: "台視新聞"
+    title: "傻眼！北市營養午餐香鬆標示「每人2g」校方致歉：檢討分發方式"
+    url: "https://news.ttv.com.tw/news/11511040036400N"
+    published_at: "2026-11-04"
+    observed_at: "2026-11-06T18:11:18+08:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "補充校方聲明：因過敏未混入大桶白飯、依各班學生自理能力操作、大多學生取用並非教師逐一秤量。"
+facts: 
+  - 
+    id: "F001"
+    statement: "2026年11月5日前後，臉書粉專「王子的教室」有人以在永安國小服務多年之教師立場，公開表示香鬆按班分配方式已實施多年，並因遭政治化而感到憤怒與不甘。"
+    status: "verified"
+    observed_at: "2026-11-06T18:11:18+08:00"
+    source_ids: 
+      - "S001"
+      - "S002"
+      - "S003"
+    evidence_summary: "截圖內容與兩家新聞轉述相互印證；已確認有這樣的公開陳述，不代表每項歷史細節經獨立稽核。"
+    verification_notes: 
+      - "原始貼文URL未確認，保留來源限制。"
+  - 
+    id: "F002"
+    statement: "教師自述，過去家長自付午餐費與改由政府補助後，香鬆供應方式沒有改變：按班一包，教師依班級情況決定如何分配。"
+    status: "partial"
+    observed_at: "2026-11-06T18:11:18+08:00"
+    source_ids: 
+      - "S001"
+      - "S003"
+    evidence_summary: "為第一線教師對校內慣例的證詞；缺乏歷年菜單或配送文件獨立證明。"
+  - 
+    id: "F003"
+    statement: "教師表示分發不必每人量秤；可由孩子自行盛取，或由打飯小天使協助，並非必然要求教師親自分裝。"
+    status: "partial"
+    observed_at: "2026-11-06T18:11:18+08:00"
+    source_ids: 
+      - "S001"
+      - "S003"
+      - "S005"
+    evidence_summary: "教師自述與校方說明一致；不能因此推論每班皆如此。"
+  - 
+    id: "F004"
+    statement: "永安國小在2026年11月4日澄清，每人2g是建議取用份量、非上限，欲追加者可向教師反映，由備品補充。"
+    status: "verified"
+    observed_at: "2026-11-06T18:11:18+08:00"
+    source_ids: 
+      - "S004"
+      - "S005"
+    evidence_summary: "中央社與台視均轉述校方正式說明。"
+  - 
+    id: "F005"
+    statement: "永安國小稱，因學生過敏與過去分配不均問題，經午餐供應委員會討論改由廠商分袋送各班，教師引導分發；校方對標示未說清楚致歉並將檢討工作負擔。"
+    status: "verified"
+    observed_at: "2026-11-06T18:11:18+08:00"
+    source_ids: 
+      - "S004"
+      - "S005"
+    evidence_summary: "校方正式說明，能證明校方有此立場；個別委員會會議記錄仍待取得。"
+  - 
+    id: "F006"
+    statement: "教師自述政治爭議引發媒體詢問與上級壓力，認為無端讓師生蒙羞、影響工作。"
+    status: "partial"
+    observed_at: "2026-11-06T18:11:18+08:00"
+    source_ids: 
+      - "S001"
+      - "S002"
+      - "S003"
+    evidence_summary: "直接記錄教師對遭遇與壓力的感受，不將其擴張為已證實有特定外部指示或違法侵害工作權。"
+claims: 
+  - 
+    id: "C001"
+    statement: "永安國小規定每位學生只能吃2公克香鬆且教師必須逐人秤重分裝。"
+    status: "contradicted"
+    contradicts: 
+      - "F003"
+      - "F004"
+      - "F005"
+    reasoning_notes: "校方正式聲明與教師說明均反對此說；除非另有具體班級或指令證據，不得繼續當成已確認事實。"
+  - 
+    id: "C002"
+    statement: "本次爭議使基層教師承受額外輿論與行政回應壓力。"
+    status: "supported"
+    supports: 
+      - "F006"
+    reasoning_notes: "支持層級為教師自述其感受與工作情形；工作權違法侵害與責任歸屬未被證實。"
+  - 
+    id: "C003"
+    statement: "香鬆分發方式完全沒有可改善之處。"
+    status: "unsupported"
+    related_facts: 
+      - "F005"
+    reasoning_notes: "校方已表示標示易誤解、將重新討論減輕教師負擔；不能以政治攻防失準否定作業改善空間。"
+searches: 
+  - 
+    id: "Q001"
+    observed_at: "2026-11-06T18:11:18+08:00"
+    platform: "web"
+    query: "永安國小 王子的教室 黃國平 香鬆 2026 11月6日"
+    scope: "2026-11-06相關新聞與校方說明"
+    result: "found"
+    notes: "取得聯合報、鏡報、中央社、台視；尚無確認之「王子的教室」原始貼文永久連結。"
+promotion: 
+  cases: []
+  comparators: []
+  research: []
+notes: 
+  - "本項為獨立追加 session；因 GitHub 程式碼搜尋未返回既有香鬆證據路徑，不擅自覆寫未知既有檔案。後續可在索引/目錄找到原 case 後建立 cross-reference。"
+  - "原始截圖影像本體未存 GitHub；證據摘要、查核脈絡及媒體URL已保存。"
