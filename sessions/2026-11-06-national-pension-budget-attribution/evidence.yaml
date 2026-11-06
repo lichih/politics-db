@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "賴清德南投輔選國民年金調高未發之預算歸責：發言、法源及時序查核"
   started_at: "2026-11-06T17:00:24+08:00"
-  updated_at: "2026-11-06T17:23:01.072+08:00"
+  updated_at: "2026-11-06T17:47:00+08:00"
   status: active
 
 topics:
@@ -162,6 +162,18 @@ sources:
     notes:
       - "5月26日報導引用主計長最快7月1日及衛福部長7月上路視立法進度之說明；調高仍需修法。"
 
+  - id: S015
+    source_type: primary
+    publisher: "立法院預算中心"
+    title: "115年度中央政府總預算追加預算案評估報告（報告115127）"
+    url: "https://www.ly.gov.tw/Pages/List.aspx?nodeid=56728"
+    published_at: "2026-09"
+    observed_at: "2026-11-06T17:47:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "綜合評估第二點：涉及人民權利之津貼給付宜完成修法；行政院於總預算未公布時送追加預算，適法性待酌。"
+      - "綜合評估第三點：追加預算應以法定預算為基礎編列。兩項內容必須一併解讀。"
+
 facts:
   - id: F001
     statement: "2026年11月3日賴清德在南投輔選時談到老農津貼及國民年金規劃7月調高，稱尚未領到是立法院預算未通過，並指向在野黨立委。"
@@ -274,6 +286,16 @@ facts:
       - "證明政府早已知道修法是獨立要件；不否定預算程序可能同時延後。"
     tags: ["修法必要", "行政院", "事前知情"]
 
+  - id: F013
+    statement: "立法院預算中心115年9月報告同時指出追加預算須以法定預算為基礎，及涉及人民給付的修法先行和行政院送案時序之適法性問題。"
+    status: verified
+    observed_at: "2026-11-06T17:47:00+08:00"
+    source_ids: [S015]
+    evidence_summary: "官方報告編號115127，綜合評估第二、三點。"
+    verification_notes:
+      - "此為預算中心政策法律評估，不是司法判決；不證明預算延宕是國民年金新增給付未發放的充分原因。"
+    tags: ["預算中心", "修法", "適法性", "追加預算"]
+
 claims:
   - id: C001
     statement: "賴清德2026年11月3日所指『在野黨不審預算』是原定7月調高國民年金未發放的充分原因。"
@@ -341,6 +363,14 @@ claims:
     related_facts: [F004, F005, F006, F010]
     reasoning_notes: "本主張針對已公開歸責之證明及揭露義務，不推定已取得總統私人查證紀錄或完整內心狀態。總統有權批評立法院，但在公開將未發放原因歸咎他人時，應查核自己政府已公布的法定必要條件及立法進度。『行政院曾提出預算時序解釋』不足以補足此項歸責的因果舉證。除非額外取得實質因果證據，不能反向將未排除預算可能影響當成回擊不成立。"
 
+  - id: C010
+    statement: "預算中心報告已證明在野黨不審預算造成調高國民年金未能如期依法發放。"
+    status: unsupported
+    supports: []
+    contradicts: [F002, F003, F012]
+    related_facts: [F004, F005, F010, F013]
+    reasoning_notes: "報告中的法定預算基礎可作為預算程序論據，但未證明在修法未完成時具備發放法源；報告亦指明修法及行政院程序問題。須先找證據，不以反方可能性代替查證，或只摘有利句。"
+
 searches:
   - id: Q001
     observed_at: "2026-11-06T17:00:24+08:00"
@@ -370,6 +400,14 @@ searches:
     scope: "https://www.facebook.com/kcfor2016/posts/pfbid0ydGVybNRVa9oXyQiVGNBceppEiWSQGBoCpcMD5MmSC7BeD7EXVjfQZATfXUm6DVBl"
     result: partial
     notes: "Facebook 外部直讀受限；保留使用者提供之 deterministic v0.8.32 擷取，未將抓取失敗誤記為貼文不存在。"
+
+  - id: Q005
+    observed_at: "2026-11-06T17:47:00+08:00"
+    platform: "web public search"
+    query: "115年度中央政府總預算追加預算案評估報告 115127 修法 適法性"
+    scope: "立法院全球資訊網；中央社2026年10月2日報導"
+    result: found
+    notes: "找到官方評估報告；同一份資料有關法定預算基礎、修法前提及送案時序，不能只挑選其中一部分。"
 
 promotion:
   cases: []
