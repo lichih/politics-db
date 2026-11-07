@@ -17,7 +17,7 @@ sources:
     published_at: "2026-10-08"
     observed_at: "2026-10-30T16:06:00+08:00"
     retrieval_status: reachable
-    notes: "10月3日、5日至7日訪問；TVBS報導；支持度題作答對象為有投票意願者。"
+    notes: ["10月3日、5日至7日訪問；TVBS報導；支持度題作答對象為有投票意願者。"]
   - id: S002
     source_type: secondary
     publisher: "選舉民調資訊站"
@@ -26,7 +26,7 @@ sources:
     published_at: ""
     observed_at: "2026-10-30T16:06:00+08:00"
     retrieval_status: reachable
-    notes: "提供各機構的不同問法、訪問日期、受訪對象與看好度；須回查原始調查報告。"
+    notes: ["提供各機構的不同問法、訪問日期、受訪對象與看好度；須回查原始調查報告。"]
   - id: S003
     source_type: primary
     publisher: "震傳媒"
@@ -35,7 +35,7 @@ sources:
     published_at: "2026-10-22"
     observed_at: "2026-10-30T16:06:00+08:00"
     retrieval_status: reachable
-    notes: "10月18日至19日調查，電話調查1074人；六名人選。"
+    notes: ["10月18日至19日調查，電話調查1074人；六名人選。"]
   - id: S004
     source_type: primary
     publisher: "震傳媒"
@@ -44,7 +44,7 @@ sources:
     published_at: "2026-10-22"
     observed_at: "2026-10-30T16:06:00+08:00"
     retrieval_status: reachable
-    notes: "同一份調查之當選看好度，不能當成另一獨立樣本。"
+    notes: ["同一份調查之當選看好度，不能當成另一獨立樣本。"]
 
   - id: S005
     source_type: primary
@@ -54,7 +54,7 @@ sources:
     published_at: "2026-10-17"
     observed_at: "2026-10-30T22:13:44+08:00"
     retrieval_status: reachable
-    notes: "辯論表現預期非市長支持度；調查期10月12日至15日。"
+    notes: ["辯論表現預期非市長支持度；調查期10月12日至15日。"]
   - id: S006
     source_type: secondary
     publisher: "今周刊"
@@ -63,7 +63,7 @@ sources:
     published_at: "2026-10-21"
     observed_at: "2026-10-30T22:13:44+08:00"
     retrieval_status: reachable
-    notes: "引述信民民調報告：泛綠42.2%、泛藍26.6%；採TVBS假設政黨板塊重加權時蔣反領先7點；原始報告仍需交叉核對。"
+    notes: ["引述信民民調報告：泛綠42.2%、泛藍26.6%；採TVBS假設政黨板塊重加權時蔣反領先7點；原始報告仍需交叉核對。"]
   - id: S007
     source_type: secondary
     publisher: "political-research-tools"
@@ -72,7 +72,7 @@ sources:
     published_at: "2026-10-30"
     observed_at: "2026-10-30T22:13:44+08:00"
     retrieval_status: reachable
-    notes: "研究原始回應、SHA-256、時間序列與分析皆在未合併 branch；CI已通過，未完成第三方全量重算。"
+    notes: ["研究原始回應、SHA-256、時間序列與分析皆在未合併 branch；CI已通過，未完成第三方全量重算。"]
   - id: S008
     source_type: primary
     publisher: "壹蘋新聞網"
@@ -81,7 +81,7 @@ sources:
     published_at: "2026-10-20"
     observed_at: "2026-10-30T22:13:44+08:00"
     retrieval_status: reachable
-    notes: "頁面標示13:13；這是可見媒體報導時間，不是民調首次流出時間。"
+    notes: ["頁面標示13:13；這是可見媒體報導時間，不是民調首次流出時間。"]
 
   - id: S009
     source_type: primary
@@ -91,7 +91,7 @@ sources:
     published_at: "2026-10-20 11:03"
     observed_at: "2026-10-30T22:27:00+08:00"
     retrieval_status: reachable
-    notes: "網頁標明10/20 11:03發布與更新；早於之前辨識的13:13、13:27報導時間，但不能確定是全網最早。"
+    notes: ["網頁標明10/20 11:03發布與更新；早於之前辨識的13:13、13:27報導時間，但不能確定是全網最早。"]
   - id: S010
     source_type: primary
     publisher: "聯合報"
@@ -100,7 +100,7 @@ sources:
     published_at: "2026-10-14 00:05"
     observed_at: "2026-10-30T22:27:00+08:00"
     retrieval_status: reachable
-    notes: "10/14零時的報導，兩陣營針對辯論時間與授權方式各自表述。"
+    notes: ["10/14零時的報導，兩陣營針對辯論時間與授權方式各自表述。"]
 
   - id: S011
     source_type: secondary
@@ -110,7 +110,7 @@ sources:
     published_at: "2026-10-30"
     observed_at: "2026-10-30T23:36:00+08:00"
     retrieval_status: reachable
-    notes: "獨立 verifier 結果：98/98 raw SHA-256、1303/1303價格、2240/2240成交，無重複或時區轉換錯誤。PR未合併且事件表有10/20 11:03新聞缺口待修。"
+    notes: ["獨立 verifier 結果：98/98 raw SHA-256、1303/1303價格、2240/2240成交，無重複或時區轉換錯誤。PR未合併且事件表有10/20 11:03新聞缺口待修。"]
   - id: S012
     source_type: primary
     publisher: "TVBS"
@@ -119,7 +119,7 @@ sources:
     published_at: "2026-10-20 14:44"
     observed_at: "2026-10-30T23:36:00+08:00"
     retrieval_status: reachable
-    notes: "信民調查方法公開爭議最遲在20日14:44已出現；非隔日才公開。"
+    notes: ["信民調查方法公開爭議最遲在20日14:44已出現；非隔日才公開。"]
 
 facts:
   - id: F014
