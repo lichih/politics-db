@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "206旅女中尉案與2013洪仲丘案：顧立雄跨時期軍中究責標準"
   started_at: "2026-10-31T15:00:00+08:00"
-  updated_at: "2026-10-31T18:27:00+08:00"
+  updated_at: "2026-11-07T16:25:00+08:00"
   status: active
 
 topics:
@@ -80,6 +80,90 @@ sources:
     notes:
       - "本輪未完整播放核對逐字內容；保留官方入口，待實際取得影音或逐字稿。"
 
+  - id: S007
+    source_type: secondary
+    publisher: "自由時報"
+    title: "誰動手腳？ 桃檢將大規模約談"
+    url: "https://news.ltn.com.tw/news/politics/paper/699199"
+    published_at: "2013-07-24"
+    observed_at: "2026-11-07T16:25:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導洪慈庸由顧立雄等律師陪同到桃園地檢署遞狀，要求普通司法調查軍方可能涉及的滅證、偽造文書與過失致死。"
+      - "顧立雄主張偵查不一定僅侷限於軍事檢察署，若發覺犯罪，地方檢署應本於職責主動偵辦。"
+  - id: S008
+    source_type: commentary
+    publisher: "BBC中文"
+    title: "台灣來鴻：白衫軍的怒吼"
+    url: "https://www.bbc.com/zhongwen/trad/taiwan_letters/2013/07/130725_twletter_white_shirts"
+    published_at: "2013-07-25"
+    observed_at: "2026-11-07T16:25:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記錄公民1985三項訴求：第三方司法介入後國防部與軍法全力配合、保存關鍵證物並交專業單位鑑定與保障證人、改革1985申訴制度。"
+      - "報導指出當時訴求主要限縮於真相與制度改革，並非一開始即以部長下台為主要要求；後續若真相與改革無進展，才不排除提高政治責任訴求。"
+  - id: S009
+    source_type: secondary
+    publisher: "中央社（Yahoo新聞轉載）"
+    title: "洪仲丘案律師團 將向檢方告發"
+    url: "https://tw.news.yahoo.com/%E6%B4%AA%E4%BB%B2%E4%B8%98%E6%A1%88%E5%BE%8B%E5%B8%AB%E5%9C%98-%E5%B0%87%E5%90%91%E6%AA%A2%E6%96%B9%E5%91%8A%E7%99%BC-031459750.html"
+    published_at: "2013-07-20"
+    observed_at: "2026-11-07T16:25:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "顧立雄於公民1985行動中表示『軍檢調查不能給大家所有真相』，並稱雖然特偵組、地檢署表示無法介入，『但我們要強迫他們辦』；並預告23日到桃園地檢署遞狀要求介入。"
+      - "同篇記錄1985行動聯盟要求洪案比照江國慶模式，由公正第三方介入調查。"
+  - id: S010
+    source_type: secondary
+    publisher: "公視新聞"
+    title: "副部長致歉 洪家律師7/23赴桃檢遞狀"
+    url: "https://news.pts.org.tw/article/245672"
+    published_at: "2013-07-20"
+    observed_at: "2026-11-07T16:25:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導國防部副部長楊念祖代表國防部接受公民1985訴求，承諾第三方司法單位參與偵辦、保存證物、保護證人及改善1985申訴制度。"
+  - id: S011
+    source_type: secondary
+    publisher: "TVBS"
+    title: "「慢半拍」洪家重批軍檢 盼第三方介入"
+    url: "https://news.tvbs.com.tw/local/221438"
+    published_at: "2013-07-18"
+    observed_at: "2026-11-07T16:25:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "家屬明確表示軍檢若不能加快腳步，希望由公正第三方介入；報導並指出家屬須透過媒體才能得知偵辦進度。"
+  - id: S012
+    source_type: secondary
+    publisher: "TVBS"
+    title: "禁閉營區蒐證 桃檢「大動作」配合調查"
+    url: "https://news.tvbs.com.tw/local/221942"
+    published_at: "2013-07-21"
+    observed_at: "2026-11-07T16:25:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "桃園地檢署與高檢署進入營區蒐證，針對湮滅證據等普通司法管轄事項調查；報導稱形成第三方介入。"
+  - id: S013
+    source_type: secondary
+    publisher: "TVBS"
+    title: "10人律師團義務幫洪 包圍軍檢調查"
+    url: "https://news.tvbs.com.tw/local/222651"
+    published_at: "2013-07-25"
+    observed_at: "2026-11-07T16:25:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導描述律師團以滅證、偽造文書、醫療過失等不同案由讓普通司法介入，以處理家屬認為軍檢偵辦封閉、真相不足的問題。"
+  - id: S014
+    source_type: secondary
+    publisher: "公視新聞"
+    title: "洪案軍檢將偵結 桃檢續查監視影像"
+    url: "https://news.pts.org.tw/article/246472"
+    published_at: "2013-07-30"
+    observed_at: "2026-11-07T16:25:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "桃檢分兩組調查監視器湮滅證據與體檢報告偽造文書，檢方表示需整理大量影像與證據，才能作完整呈現。"
+
 facts:
   - id: F001
     statement: "2013年8月1日公視報導記錄，顧立雄以洪家律師身分批評軍檢對高階軍官與基層士官責任追究失衡。"
@@ -109,6 +193,49 @@ facts:
     source_ids: [S004]
     evidence_summary: "能證明家屬已提出制度面質疑，不能單憑家屬陳述確定懲處程序有無完成。"
     tags: ["2026", "家屬", "心輔"]
+
+  - id: F005
+    statement: "2013年7月20日，顧立雄公開表示軍檢調查不足以給社會所有真相，並主張透過普通檢察機關介入，律師團隨後實際向桃園地檢署遞狀。"
+    status: verified
+    observed_at: "2026-11-07T16:25:00+08:00"
+    source_ids: [S009, S007]
+    evidence_summary: "中央社當日報導保存顧立雄直接引述；自由時報後續報導確認23日實際遞狀及主張普通司法主動偵辦。"
+    tags: ["2013", "顧立雄", "洪仲丘", "第三方調查", "外部司法"]
+  - id: F006
+    statement: "2013年7月20日，公民1985提出的核心要求包括第三方司法介入、保存關鍵證物並交專業單位鑑定、保障證人及改革軍中申訴制度；國防部副部長楊念祖公開接受並簽署承諾。"
+    status: verified
+    observed_at: "2026-11-07T16:25:00+08:00"
+    source_ids: [S008, S010]
+    evidence_summary: "BBC與公視對當日抗議訴求及國防部接受內容相互支持。"
+    tags: ["2013", "公民1985", "第三方調查", "證據保存", "制度改革"]
+  - id: F007
+    statement: "洪家在2013年7月18日前後即公開批評軍檢偵辦速度與資訊不足，並要求公正第三方介入調查。"
+    status: verified
+    observed_at: "2026-11-07T16:25:00+08:00"
+    source_ids: [S011]
+    evidence_summary: "TVBS記錄洪家須透過媒體掌握進度，並直接引述希望第三方介入。"
+    tags: ["2013", "洪家", "第三方調查", "資訊不足"]
+  - id: F008
+    statement: "桃園地檢署與高檢署之後實際進入軍營蒐證，並就湮滅證據、偽造文書等普通司法管轄事項展開調查。"
+    status: verified
+    observed_at: "2026-11-07T16:25:00+08:00"
+    source_ids: [S012, S014, S007]
+    evidence_summary: "多家同期報導記錄普通司法介入及具體調查項目。"
+    tags: ["2013", "桃檢", "湮滅證據", "偽造文書"]
+  - id: F009
+    statement: "2013年白衫軍初期公開訴求的重心是取得真相與制度改革，而非一開始即把國防部長下台設定為唯一或首要要求。"
+    status: verified
+    observed_at: "2026-11-07T16:25:00+08:00"
+    source_ids: [S008, S010]
+    evidence_summary: "同期BBC與公視均列出第三方司法、證據保存、證人安全及申訴制度改革等具體訴求。"
+    tags: ["2013", "白衫軍", "政治責任", "制度改革"]
+  - id: F010
+    statement: "2013年律師團策略不只追究死亡本身，也透過滅證、偽造文書、醫療過失等可由普通司法處理的疑點，擴大外部可檢驗範圍。"
+    status: verified
+    observed_at: "2026-11-07T16:25:00+08:00"
+    source_ids: [S007, S013]
+    evidence_summary: "自由時報與TVBS均記錄顧立雄等律師向桃檢提出多項告發方向。"
+    tags: ["2013", "律師團", "外部可檢驗性"]
 
 claims:
   - id: C005
@@ -161,6 +288,24 @@ claims:
     related_facts: [F004]
     reasoning_notes: "支持進一步查詢的必要性，並非已證實兩案存在共同因果。"
 
+  - id: C009
+    statement: "2013年顧立雄可被核實的標準，較精確地說是『軍方自我調查不足時，應讓外部司法介入並使證據、責任與制度問題可被外部檢驗』，而不是籠統的『所有調查資料全部公開』。"
+    status: supported
+    supports: [F005, F006, F008, F010]
+    related_facts: [F001, F009]
+    reasoning_notes: "現有同期來源直接支持第三方介入、證據保存、真相與責任追究；尚未找到顧立雄本人要求一切調查資料毫無例外全部公開的直接原話。"
+  - id: C010
+    statement: "把2013年標準簡化為『顧立雄要求全部公開』會降低比較的精確度。"
+    status: supported
+    supports: [F005, F006, F009]
+    reasoning_notes: "同期訴求存在第三方司法、證物保存與制度改革等更具體內容，也承認司法偵查本身有程序邊界；比較2026時應將刑事偵查秘密與行政責任可審計性分開。"
+  - id: C011
+    statement: "2013與2026的雙標比較應聚焦於：軍方自我說明不足時，是否允許外部檢驗、是否交代可公開的事實與責任鏈，以及行政責任是否因司法偵查存在而被整體遮蔽。"
+    status: supported
+    supports: [F005, F006, F008, F010, F002]
+    related_facts: [F004]
+    reasoning_notes: "這個比較不要求兩案死因與刑事構成完全相同，也不主張偵查秘密應被違法公開。"
+
 searches:
   - id: Q001
     observed_at: "2026-10-31T15:00:00+08:00"
@@ -177,6 +322,21 @@ searches:
     result: found
     notes: "找到2013原話、2026官方回應及家屬質疑；完整軍方調查、懲處命令與質詢逐字稿仍待取得。"
 
+  - id: Q003
+    observed_at: "2026-11-07T16:25:00+08:00"
+    platform: web
+    query: "before:2020 + 2013事件語彙：洪仲丘／桃檢／軍檢／滅證／第三方／白衫軍／黑畫面／律師團"
+    scope: "自由時報、BBC、公視、TVBS、中央社/Yahoo等2013同期來源"
+    result: found
+    notes: "時間切片並改用當年事件語彙後，補到多則先前未命中的同期報導，包括顧立雄直接表示『軍檢調查不能給大家所有真相』並主張普通司法介入。"
+  - id: Q004
+    observed_at: "2026-11-07T16:25:00+08:00"
+    platform: web
+    query: "2013-07 顧立雄 洪仲丘 桃檢 軍檢 第三方調查"
+    scope: "歷史新聞交叉查核"
+    result: found
+    notes: "搜尋結果顯示，單用今日研究詞『雙標／全部公開／究責』會漏掉大量當年新聞；先鎖事件年代、再用當年事件詞擴散，命中率顯著提高。"
+
 promotion:
   cases:
     - "206旅女中尉案：管理疏失、言語霸凌指控及心輔處理時間軸"
@@ -190,3 +350,5 @@ notes:
   - "後續優先核對2013年公開揭露與究責要求的實際內容，及2026年國防部已向公眾、家屬、立法院提供哪些可核對的管理事實與理由；完整內部報告或懲處令不是提出雙標質疑的前置條件。仍可查是否有合法限制揭露的理由及不同案情的反證。"
   - "本次只保存有明確來源的可重用材料；先前聊天中未重新驗證的說法不升格為verified。"
   - "2026-10-31對分析框架的修正：先前以『取得完整行政調查資料、懲處命令才能判斷雙標』為研究前提，錯將監督方取得內部資料視為先決舉證責任。更合適的問題是主管機關已公開的說明能否被核對、與2013年相同人物要求的公開標準是否一致。此為研究判準修正，不等於已證實資料未公開或刻意隱瞞。"
+  - "2026-11-07歷史搜尋方法修正：跨時期政治案件應先鎖定事件年代，再使用當時的事件語彙、機關與行動搜尋，最後才用今日研究命題分類；避免直接以『雙標／公開／究責』等後設詞造成歷史原始報導漏搜。"
+  - "本輪新增反證邊界：2013年初期訴求並非單純要求首長下台，也未找到顧立雄要求所有調查資料無例外全部公開的直接原話；真正可核實的是第三方介入、證據保存、真相與責任鏈的外部可檢驗性。"
