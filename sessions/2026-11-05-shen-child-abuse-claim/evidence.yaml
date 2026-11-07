@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "沈伯洋稱臺北兒虐不當事件六都之首：訪談、官方指標與競辦回應"
   started_at: "2026-11-05T06:26:14+08:00"
-  updated_at: "2026-11-05T20:00:00+08:00"
+  updated_at: "2026-11-07T21:57:18+08:00"
   status: active
 
 topics:
@@ -297,6 +297,71 @@ sources:
       - "報導衛福部保護司副司長張靜倫稱中央考核各縣市兒虐防治時不以通報件數多寡衡量，並希望提升民眾通報意願。"
       - "此為通報『件數』的績效誘因說明，不能直接假定對調查後接受保護服務『人數』使用同一精確考核規則。"
 
+  - id: S028
+    source_type: commentary
+    publisher: "葉牧津（Facebook @inpines）"
+    title: "關於兒虐，我終於可以承認沈伯洋是以偏概全了：公開更正與2024／2025年六都未滿6歲兒保數據比較"
+    url: "https://www.facebook.com/inpines/posts/pfbid02uqkkWF6MsnL7EDmXtuMyLAs7uptZrRaCZZkdBionwdr6VgmdDPkbpBL4RGk9khShl"
+    published_at: "2026-11-06T09:34:48+08:00"
+    observed_at: "2026-11-07T21:21:34+08:00"
+    retrieval_status: reachable
+    notes:
+      - "由使用者提供的FB extension deterministic擷取逐字保存發文與可見留言；同一網址於2026-11-07在開啟的Browser tab重讀確認。"
+      - "作者公開收回先前『純粹編故事』的批評，改認為有某一年度某一指標部分吻合，但原主張延伸到『現在』仍無證據。"
+      - "作者自行計算2024臺北298人／每萬30.49、臺中325人；2025臺北255人／每萬28.60、高雄38.81、臺中30.18。2025數字、全六都原表及年底人口分母尚未獨立核定，不把貼文計算冒充已驗證政府原表。"
+      - "作者區分『只能用猜的』回答成因、幼兒園是場域而未滿6歲是年齡；並指出家內死亡數不能反證幼兒園案件。"
+  - id: S029
+    source_type: primary
+    publisher: "衛生福利部統計處"
+    title: "社會福利公務統計一覽表：3.5.6兒童及少年保護案件－受虐人數（半年）"
+    url: "https://dep.mohw.gov.tw/dos/fp-5337-62357-113.html"
+    observed_at: "2026-11-07"
+    retrieval_status: reachable
+    notes:
+      - "索引清楚列出3.5.6及xlsx、ods連結，但此輪無法從下載檔逐格核對2025年六都未滿6歲表。"
+      - "此數據屬經兒少保護調查後接受保護服務的人數，不可混作幼兒園通報或全體真實發生數；沿用S024原始定義。"
+  - id: S030
+    source_type: primary
+    publisher: "內政部戶政司"
+    title: "人口統計資料快速下載：縣市人口按單齡"
+    url: "https://www.ris.gov.tw/info-popudata/app/awFastDownload/toMain_panel"
+    observed_at: "2026-11-07"
+    retrieval_status: reachable
+    notes:
+      - "官方頁面提供各月縣市人口按單齡檔案；尚未選取2024、2025年底檔並計算六都0至未滿6歲人口。"
+  - id: S031
+    source_type: commentary
+    publisher: "Facebook留言 Little Tao"
+    title: "對葉牧津貼文回覆：稱排名不重要，重點是市府改善"
+    url: "https://www.facebook.com/inpines/posts/pfbid02uqkkWF6MsnL7EDmXtuMyLAs7uptZrRaCZZkdBionwdr6VgmdDPkbpBL4RGk9khShl?comment_id=1182265624320049"
+    published_at: "2026-11-07T05:25:00+08:00"
+    observed_at: "2026-11-07T21:21:34+08:00"
+    retrieval_status: reachable
+    notes:
+      - "留言承認以偏概全批評可以成立，同時表示自己關注臺北兒虐及市府處理，認為六都排名不重要。"
+      - "只能證明此留言者的論證選擇，不可當作全體洋流或競辦的正式立場。"
+  - id: S032
+    source_type: commentary
+    publisher: "Facebook留言 王大"
+    title: "葉牧津文下留言：以案件數與高雄逐年比較的主張"
+    url: "https://www.facebook.com/inpines/posts/pfbid02uqkkWF6MsnL7EDmXtuMyLAs7uptZrRaCZZkdBionwdr6VgmdDPkbpBL4RGk9khShl?comment_id=4709199682740575"
+    published_at: "2026-11-07T13:40:00+08:00"
+    observed_at: "2026-11-07T21:21:34+08:00"
+    retrieval_status: reachable
+    notes:
+      - "留言稱2024年臺北案件數較高，並泛稱其他年份高雄更高；該批年份及不同統計母體未提供原表，不採認為已核實。"
+      - "葉牧津本篇特別區分2024年的比率第一與人數第一，不能從30.49比率推得臺北人數第一。"
+  - id: S033
+    source_type: commentary
+    publisher: "Facebook留言 周蔓菲"
+    title: "葉牧津文下留言：認為重點在蔣萬安處理態度"
+    url: "https://www.facebook.com/inpines/posts/pfbid02uqkkWF6MsnL7EDmXtuMyLAs7uptZrRaCZZkdBionwdr6VgmdDPkbpBL4RGk9khShl?comment_id=1479202710940790"
+    published_at: "2026-11-07T16:40:00+08:00"
+    observed_at: "2026-11-07T21:21:34+08:00"
+    retrieval_status: reachable
+    notes:
+      - "將爭點轉向市長處理態度，但未就『六都居首』提供統計口徑或原表；市政責任可另行查證，不取代排名主張舉證。"
+
 facts:
   - id: F001
     statement: "遠見On AIR專訪中，沈伯洋稱臺北兒虐問題看起來愈來愈嚴重，並說『兒虐不當事件』應是六都居首；主持人追問是否與區域性或造成問題的環節有關，沈接著表示手上沒有數據，只能用猜的。"
@@ -497,6 +562,46 @@ facts:
       - "通報件數與經調查接受保護人數不可混為同一指標；政策警示仍須具體分層分析。"
     tags: ["評價指標", "逆向誘因", "衛福部"]
 
+  - id: F024
+    statement: "2026-11-06葉牧津在Facebook公開修正自己先前批評：收回『純粹編故事』，承認2024年未滿6歲受保護服務人口比率可能提供部分符合『六都居首』的素材，仍要求沈伯洋交代原排名的年份、範圍、指標及發言依據。"
+    status: verified
+    observed_at: "2026-11-07T21:21:34+08:00"
+    source_ids: [S028]
+    evidence_summary: "可直接核對該篇作者本人公開文字，證明作者作出何種自我修正；不等於已證實沈伯洋曾援引或知道該2024統計。"
+    tags: ["公開更正", "2024", "舉證責任", "葉牧津"]
+  - id: F025
+    statement: "葉牧津貼文計算2024年臺北未滿6歲調查後接受保護服務298人、每萬同齡兒童30.49人（六都第一）、臺中325人；並計算2025年臺北255人、每萬28.60人（第三），高雄38.81、臺中30.18，臺北同比少43人。"
+    status: partial
+    observed_at: "2026-11-07T21:21:34+08:00"
+    source_ids: [S028, S029, S030, S024, S025]
+    evidence_summary: "貼文本身及數值可核對；2024臺北298與30.49已見S025公開質詢；2025年人數、每萬率及六都排序尚未直接下載衛福部3.5.6原工作表與戶政年底單齡人口表逐格驗算。"
+    verification_notes:
+      - "2024臺中325人、2025各市比率與臺北255人均先保存為作者計算，不把二手計算升格為官方原表已驗證數值。"
+      - "比率分母是各市同年年底未滿6歲人口，非全市人口；受保護服務人數也非真實兒虐發生率。"
+      - "2025年臺北下降43人及排名第3只是這個特定指標的變化，不證明2026所有幼兒園事件均同步下降或行政因果。"
+    tags: ["2024", "2025", "未滿6歲", "受保護服務", "年度比較", "待原表"]
+  - id: F026
+    statement: "葉牧津分別區分受虐兒少未滿6歲的年齡統計、幼兒園不當對待發生場域，以及一般兒少保護與家內致死；並指出即使找到2024年一項六都最高的比率，也不能事後歸給沈伯洋作為未交代的原始證據。"
+    status: verified
+    observed_at: "2026-11-07T21:21:34+08:00"
+    source_ids: [S028]
+    evidence_summary: "作者文章原文確有這些區分與立論；是否構成『以偏概全』是其論證評價，而非已證實沈當時主觀選取這項2024指標。"
+    tags: ["統計口徑", "原始依據", "論證邊界"]
+  - id: F027
+    statement: "同篇Facebook貼文下可見留言：Little Tao承認以偏概全批評但認為六都排名不重要；王大以未提供原表的案件數說法評論其他年份；周蔓菲將重點指向市長處理態度。"
+    status: verified
+    observed_at: "2026-11-07T21:21:34+08:00"
+    source_ids: [S031, S032, S033]
+    evidence_summary: "使用者提供的deterministic Facebook擷取含留言原文、comment_id、時間與parent_id，僅代表可見留言，不能推定支持者整體、特定運動組織或競選團隊立場。"
+    tags: ["Facebook", "攻防", "換題", "樣本界線"]
+  - id: F028
+    statement: "衛福部統計處公開3.5.6『兒童及少年保護案件－受虐人數』半年更新Excel與ODS入口；內政部戶政司提供縣市按單齡人口快速下載入口。"
+    status: verified
+    observed_at: "2026-11-07"
+    source_ids: [S029, S030]
+    evidence_summary: "已核對官方索引頁，並確認3.5.6的Excel連結；本次工具對實際下載資料無法解析，不表示資料不存在、也不等於已核對其中2025數字。"
+    tags: ["衛福部", "內政部", "資料入口", "待驗算"]
+
 claims:
   - id: C001
     statement: "臺北市的『兒虐不當事件』是六都之首。"
@@ -622,6 +727,35 @@ claims:
     related_facts: [F021, F022]
     reasoning_notes: "此為基於激勵制度與指標定義的風險推論，不是已發現任何市府故意壓案或調整數據的事實指控；同時不能否認受保護人數增加可能真有發生率惡化，應連同後續處遇品質、再受虐、死亡及漏報評估。"
 
+  - id: C018
+    statement: "以衛福部3.5.6和同年年底未滿6歲人口為分母，2025年臺北為255人／每萬28.60人，六都第三；高雄38.81、臺中30.18。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F020, F021, F025, F028]
+    reasoning_notes: "葉牧津公開提出明確來源與算法，數字值得保留並重算；在原Excel及年底單齡人口檔未逐格驗證前，不升格為已核定之六都排名。"
+  - id: C019
+    statement: "只因某項2024年未滿6歲受保護服務人口比率臺北居首，就足以證明2026年公開宣稱『現在兒虐不當事件六都居首』正確。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F001, F020, F021, F025, F026]
+    reasoning_notes: "年份、年齡母體、保護服務統計與幼兒園場域不同；而發言者當初未明示採用2024年的該項比率，事後找到吻合的指標不能反推其當時有此依據。"
+  - id: C020
+    statement: "沈伯洋本人當時實際根據2024年臺北未滿6歲保護服務比率作出六都居首主張。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F001, F021, F024, F025, F026]
+    reasoning_notes: "目前沒有沈本人引用該統計、確認年份與指標的公開證據；2024某指標吻合不等於發言決策依據已被證實。"
+  - id: C021
+    statement: "葉牧津公開修正批評，足以證明他對自身論述有調整；留言者轉談排名不重要或市長態度，不足以取消原排名的舉證責任。"
+    status: supported
+    supports: [F024, F027]
+    contradicts: []
+    related_facts: [F026]
+    reasoning_notes: "前半可由原文直接證實；後半是對具體留言的論證功能評價，不以少數樣本推論全體支持者或競辦策略。"
+
 searches:
   - id: Q001
     observed_at: "2026-11-05"
@@ -676,6 +810,21 @@ searches:
     result: partial
     notes: "查得衛福部定義為調查後提供保護服務之兒少人數、立院公開質詢原始引語及臺北家內兒少公開資料；六都原始下載表尚待逐列核實，保留不以單一指標推定實際總發生率或地方行政責任。"
 
+  - id: Q008
+    observed_at: "2026-11-07"
+    platform: "衛福部統計處官方索引／內政部戶政司"
+    query: "3.5.6兒童及少年保護案件受虐人數 2025年各市未滿6歲；2024／2025年底各市單齡人口"
+    scope: "葉牧津2024／2025比率計算可重現性"
+    result: partial
+    notes: "找到衛福部3.5.6下載頁與戶政司單齡人口下載頁；此輪Excel為二進位檔，工具未能解析並比對各市2025格值，不能將作者二手計算視為獨立核定。"
+  - id: Q009
+    observed_at: "2026-11-07T21:21:34+08:00"
+    platform: "Facebook原始分頁＋使用者提供Political Research Social Capture 0.8.38 deterministic擷取"
+    query: "葉牧津 以偏概全 2024 2025 未滿6歲；Little Tao 王大 周蔓菲"
+    scope: "作者更正與留言的公開發言及時間、回覆關係"
+    result: found
+    notes: "確認文章、發布時間及3則具識別來源的留言；原擷取警告facebook_visible_content_only，不能據此聲稱所有留言皆已擷取。"
+
 promotion:
   cases: []
   comparators: []
@@ -692,3 +841,5 @@ notes:
   - "2026-11-05 12:29校正 Threads 留言：高雄6822與臺北4078實為2021年六都一般兒少保護通報數，2022年3月 TVBS 報導已明確標示；不能描述為2025年『去年度』資料。使用者DOM擷取的回覆父節點未定，不以items順序推定。"
 
   - "2026-11-05 新增未滿6歲受虐保護服務人數之統計定義及吳思瑤公開質詢『可能多數發生幼兒園』之場域推測；未滿6歲不等於幼兒園，保護服務人數不等於所有事件發生數。臺北2024年每萬人30.49位有資料支持公開主張，但不得由此直接歸因市政治理失敗；仍需取得六都原表逐項核對。"
+  - "2026-11-07新增葉牧津2026-11-06公開更正：找到2024年未滿6歲受保護服務人口比率可能六都第一的特定指標，收回先前『純粹編故事』；其2025年臺北255人／每萬28.60、六都第三等數字仍待下載衛福部3.5.6與戶政司年底單齡人口獨立核算。原主張的『現在』、幼兒園場域、發言者當時所依來源及政治責任，仍是分開的待證問題。另存少數留言的話題轉移現象，不能代表整體支持者。"
+
