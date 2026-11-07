@@ -1,0 +1,214 @@
+session:
+  id: 2026-11-07-wang-longchang-procedural-justice-comparison
+  project: Politics
+  title: "王隆昌再審無罪與柯文哲案：政黨輪替、刑事證明標準及程序救濟比較"
+  started_at: "2026-11-07T21:13:00+08:00"
+  updated_at: "2026-11-07T21:13:00+08:00"
+  status: active
+
+topics:
+  - 王隆昌
+  - 南港展覽館案
+  - 柯文哲
+  - 京華城案
+  - 刑事證明標準
+  - 補強證據
+  - 污點證人
+  - 再審
+  - 程序正義
+  - 政黨輪替
+
+sources:
+  - id: S001
+    source_type: secondary
+    publisher: 中央通訊社
+    title: "南港展覽館案 前教授王隆昌遭訴收賄再審無罪確定"
+    url: https://www.cna.com.tw/news/asoc/202611020069.aspx
+    published_at: "2026-11-02"
+    observed_at: "2026-11-07T21:13:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導高檢署不上訴，以及高院再審判決所載證據不足、供述矛盾、授課紀錄。屬法院判決的媒體轉述；仍待核對裁判全文。"
+  - id: S002
+    source_type: commentary
+    publisher: 財團法人民間司法改革基金會／王隆昌義務律師團
+    title: "聲明｜沉冤十四年終平反 檢辯合力還清白"
+    url: https://jrf.org.tw/articles/3308
+    published_at: "2026-10-01"
+    observed_at: "2026-11-07T21:13:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "參與救濟的義務律師團聲明；記載115年度再字第3號無罪判決、2017司改國是會議提案與2024平冤四法倡議，屬當事方原始聲明，不當作法院獨立認定。"
+  - id: S003
+    source_type: secondary
+    publisher: 中央通訊社
+    title: "前北科大教授王隆昌涉收賄判刑定讞 高院再審改判無罪"
+    url: https://www.cna.com.tw/news/asoc/202610010056.aspx
+    published_at: "2026-10-01"
+    observed_at: "2026-11-07T21:13:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導王隆昌對新審理法院、高檢署、監察院與律師團的感謝，及2015非常上訴遭駁回。"
+  - id: S004
+    source_type: commentary
+    publisher: 財團法人民間司法改革基金會
+    title: "王隆昌案大事紀"
+    url: https://jrf.org.tw/keywords/85
+    observed_at: "2026-11-07T21:13:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "當事方整理的長期案件時間軸；其中2003年11月4日晚間課程、2012確定、2013監察院調查、2015非常上訴、2024高檢審查、2025駁回再審及2026開啟再審，可作查詢原始卷證的索引。"
+  - id: S005
+    source_type: secondary
+    publisher: 中央通訊社
+    title: "京華城等案判決書／柯文哲遭控收沈慶京1500萬賄款 缺乏確實交付補強證據"
+    url: https://www.cna.com.tw/news/asoc/202604110163.aspx
+    published_at: "2026-04-11"
+    observed_at: "2026-11-07T21:13:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "作京華城案一審對具體1500萬元交付指控之補強證據議題背景；不得把該項指控證據不足誤寫成全案無罪。"
+  - id: S006
+    source_type: commentary
+    publisher: 拾味人生（Facebook）
+    title: "2026-11-02【阿傑說】王隆昌南港展覽館案敘事與留言"
+    url: https://www.facebook.com/shiweilife/posts/pfbid0m1tWCoBwt5jFP6BXbeG131g6oFxnjRf2etdZuux6bEjgCoVQeFAtRuLA8NR89fjBl
+    published_at: "2026-11-02"
+    observed_at: "2026-11-07T21:13:20+08:00"
+    retrieval_status: reachable
+    notes:
+      - "使用者提供 browser-extension capture：版本0.8.38，captured_at=2026-11-07T13:13:20.629Z，capture_status=deterministic，warnings=facebook_visible_content_only。"
+      - "只作為輿論分析及查核起點；該貼文含政治氛圍、速審速決等尚未獨立驗證的因果敘述，不能升格為判決認定。"
+  - id: S008
+    source_type: commentary
+    publisher: politics-db GitHub repository（既有存證）
+    title: "柯文哲京華城／政治獻金案與彭振聲偵訊錄音既有 evidence ledger"
+    url: https://github.com/lichih/politics-db/tree/main/cases/2026-10-20-ko-wen-je-judicial-proceedings
+    observed_at: "2026-11-07T21:13:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "另讀 sessions/2026-11-03-peng-interrogation-recordings/evidence.yaml；此資料只表示 repo 有既有查核，不取代該紀錄所引原始報導或判決。"
+  - id: S009
+    source_type: primary
+    publisher: 中華民國總統府
+    title: "中華民國歷任總統"
+    url: https://www.president.gov.tw/qrcode/16c
+    observed_at: "2026-11-07T21:13:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "2008至2016馬英九、2016至2024蔡英文、2024起賴清德；2024不是政黨輪替。"
+  - id: S007
+    source_type: primary
+    publisher: 臺灣臺北地方法院／司法院裁判書系統
+    title: "臺灣臺北地方法院113年度金訴字第51號刑事判決"
+    url: https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TPDM%2C113%2C%E9%87%91%E8%A8%B4%2C51%2C20260326%2C16
+    published_at: "2026-03-26"
+    observed_at: "2026-10-20T04:09:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "重用 cases/2026-10-20-ko-wen-je-judicial-proceedings/evidence.yaml 既有已存一審判決來源與觀察時間；本次未重新逐頁判讀。"
+
+facts:
+  - id: F001
+    statement: "王隆昌遭判刑7年8月，2012年12月有罪確定；2026年10月1日高院115年度再字第3號再審改判無罪，11月2日高檢署表示不上訴，無罪確定。"
+    status: verified
+    observed_at: "2026-11-07T21:13:00+08:00"
+    source_ids: [S001, S002, S003, S004]
+    evidence_summary: "案件橫跨逾十年，終局結果已由高檢署不上訴訊息與司改會聲明互相印證。"
+    tags: [王隆昌, 再審, 無罪確定]
+  - id: F002
+    statement: "再審判決（據中央社引述）指出未查得王隆昌收受賄款的金流、與黃維安之通聯或見面交款影像；黃維安曾稱2003年11月4日晚間見面，但校方授課資料顯示王當時固定授課且無請假紀錄。"
+    status: verified
+    observed_at: "2026-11-07T21:13:00+08:00"
+    source_ids: [S001, S004]
+    evidence_summary: "客觀課表與證人特定見面日期相衝突；法院認為證詞多次不一、欠缺補強證據，不能據以不利認定。"
+    verification_notes:
+      - "verified 指可確認媒體如此引述再審判決；仍須取得115年度再字第3號全文核對語句及全部其他證據。"
+    tags: [客觀反證, 補強證據, 污點證人]
+  - id: F003
+    statement: "監察院2013年已對王隆昌案提出疑點；2015年檢察總長提非常上訴遭駁回；2024年高檢署有罪確定案件審查會建議再審；2025年6月高院曾駁回再審，2026年5月才裁定開始再審。"
+    status: verified
+    observed_at: "2026-11-07T21:13:00+08:00"
+    source_ids: [S001, S003, S004]
+    evidence_summary: "從早期監察院意見至正式開啟再審，先後經過多個救濟節點，具有救濟時滯比較意義。"
+    tags: [非常上訴, 再審, 救濟時滯]
+  - id: F004
+    statement: "王隆昌案2012年定讞後，經歷2016年國民黨轉民進黨的中央執政政黨輪替，以及2024年民進黨內總統交接，2026年才獲無罪確定；同時2024年高檢署有罪確定案件審查機制協助推動再審，不能直接稱司法救濟制度完全沒有改善。"
+    status: verified
+    observed_at: "2026-11-07T21:13:00+08:00"
+    source_ids: [S001, S002, S004, S009]
+    evidence_summary: "時間順序與制度運作的比較事實；對『制度未改善』的規範性總結另存 claims，不作證據事實。"
+    tags: [政黨輪替, 制度改善, 司法救濟]
+  - id: F005
+    statement: "politics-db既有柯文哲司法程序研究已保存陳俊源認罪考量時間與負擔、李文娟對偵訊壓力的庭上描述，以及彭振聲偵訊錄音勘驗和二審保全聲請遭程序駁回的新聞轉述。"
+    status: verified
+    observed_at: "2026-11-07T21:13:00+08:00"
+    source_ids: [S008]
+    evidence_summary: "此為 repo 既有研究內容的索引，不表示檢方被認定不正訊問；參見 cases/2026-10-20-ko-wen-je-judicial-proceedings/evidence.yaml、sessions/2026-11-03-peng-interrogation-recordings/evidence.yaml。"
+    verification_notes:
+      - "完整外部來源與相應不確定性以兩份原有 evidence.yaml 為準，不複製、改寫或擴張既有認定。"
+    tags: [柯文哲, 供述形成, 訴訟負擔]
+  - id: F006
+    statement: "柯文哲京華城等案2026年3月26日一審判有罪並仍可上訴；依2026年4月11日中央社整理，一審判決就檢方指控的1500萬元現金交付認為缺乏確實交付之補強證據。"
+    status: verified
+    observed_at: "2026-11-07T21:13:00+08:00"
+    source_ids: [S005, S007]
+    evidence_summary: "同案對個別犯罪指控之補強證據分析，不等於所有犯罪事實均不成立；與已確定無罪的王隆昌案程序狀態不同。"
+    tags: [京華城案, 補強證據, 一審]
+
+claims:
+  - id: C001
+    statement: "政黨輪替後，刑事程序正義完全沒有任何改善。"
+    status: unsupported
+    supports: []
+    contradicts: [F003, F004]
+    related_facts: [F001, F002]
+    reasoning_notes: "王隆昌案證明重大程序問題可延續多次輪替及救濟多年，但2024高檢審查與2026法院改判屬實質糾錯，不能從單案推導全制度零改善。"
+  - id: C002
+    statement: "政黨輪替本身未能保證及時防止錯判、及時糾正刑事證據不足的確定判決。"
+    status: supported
+    supports: [F001, F002, F003, F004]
+    contradicts: []
+    related_facts: [F005, F006]
+    reasoning_notes: "王案多年救濟歷程直接顯示輪替並非充分條件；這是對制度充分性而非各任政府主觀動機的判斷。"
+  - id: C003
+    statement: "王隆昌案的再審無罪可以直接證明柯文哲京華城案也是冤案。"
+    status: contradicted
+    supports: []
+    contradicts: [F001, F006]
+    related_facts: [F002, F005]
+    reasoning_notes: "兩案可以共用證據補強、合理懷疑、供述形成與程序救濟的檢驗標準，但個別證據與程序狀態不同，不能互相代替定罪或無罪審查。"
+  - id: C004
+    statement: "原審司法官故意枉法、黃維安故意偽證，或當年政治干預導致王隆昌錯判。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F002, F003]
+    reasoning_notes: "再審認定證據不足不自動等於偽證、枉法裁判或政治干預；此類具體外部事實指控需要獨立材料。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-11-07T21:13:00+08:00"
+    platform: web
+    query: "王隆昌 2026 10月1日 再審 無罪 判決 黃維安 11月2日 高檢 不上訴"
+    scope: "中央社、司改會案例時間線及律師團聲明"
+    result: found
+    notes: "確認再審無罪確定、主要補強證據疑點及救濟時序；尚未直接取得再審判決全文。"
+  - id: Q002
+    observed_at: "2026-11-07T21:13:00+08:00"
+    platform: web
+    query: "柯文哲 京華城 2026 判決 補強證據"
+    scope: "2026一審判決與中央社判決書報導"
+    result: found
+    notes: "重用repo既有柯案一審判決來源，並找到關於1500萬元交付指控證據不足的報導。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "研究命題：跨政黨輪替，刑事證明標準是否在檢察起訴、法院認定與確定判決救濟三階段獲得實質保障。"
+  - "對照先讀 cases/2026-10-20-ko-wen-je-judicial-proceedings/evidence.yaml 及 sessions/2026-11-03-peng-interrogation-recordings/evidence.yaml，不把兩案視為相同結果。"
+  - "待補王隆昌再審判決115年度再字第3號全文、2012原確定判決及監察院2013調查原件；比較原審如何處理課表反證及黃維安供述瑕疵。"
+  - "區分『救濟出現改善』與『預防錯判未充分實現』，避免將政黨輪替當成原因已證明。"
