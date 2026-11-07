@@ -79,6 +79,24 @@ sources:
     notes:
       - "使用者提供 browser-extension capture：版本0.8.38，captured_at=2026-11-07T13:13:20.629Z，capture_status=deterministic，warnings=facebook_visible_content_only。"
       - "只作為輿論分析及查核起點；該貼文含政治氛圍、速審速決等尚未獨立驗證的因果敘述，不能升格為判決認定。"
+  - id: S008
+    source_type: commentary
+    publisher: politics-db GitHub repository（既有存證）
+    title: "柯文哲京華城／政治獻金案與彭振聲偵訊錄音既有 evidence ledger"
+    url: https://github.com/lichih/politics-db/tree/main/cases/2026-10-20-ko-wen-je-judicial-proceedings
+    observed_at: "2026-11-07T21:13:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "另讀 sessions/2026-11-03-peng-interrogation-recordings/evidence.yaml；此資料只表示 repo 有既有查核，不取代該紀錄所引原始報導或判決。"
+  - id: S009
+    source_type: primary
+    publisher: 中華民國總統府
+    title: "中華民國歷任總統"
+    url: https://www.president.gov.tw/qrcode/16c
+    observed_at: "2026-11-07T21:13:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "2008至2016馬英九、2016至2024蔡英文、2024起賴清德；2024不是政黨輪替。"
   - id: S007
     source_type: primary
     publisher: 臺灣臺北地方法院／司法院裁判書系統
@@ -115,17 +133,17 @@ facts:
     evidence_summary: "從早期監察院意見至正式開啟再審，先後經過多個救濟節點，具有救濟時滯比較意義。"
     tags: [非常上訴, 再審, 救濟時滯]
   - id: F004
-    statement: "王隆昌案經歷2016年及2024年中央政黨輪替後才獲無罪確定；同時，2024年高檢署有罪確定案件審查機制協助推動再審，顯示不能直接稱司法救濟制度完全沒有改善。"
+    statement: "王隆昌案2012年定讞後，經歷2016年國民黨轉民進黨的中央執政政黨輪替，以及2024年民進黨內總統交接，2026年才獲無罪確定；同時2024年高檢署有罪確定案件審查機制協助推動再審，不能直接稱司法救濟制度完全沒有改善。"
     status: verified
     observed_at: "2026-11-07T21:13:00+08:00"
-    source_ids: [S001, S002, S004]
+    source_ids: [S001, S002, S004, S009]
     evidence_summary: "時間順序與制度運作的比較事實；對『制度未改善』的規範性總結另存 claims，不作證據事實。"
     tags: [政黨輪替, 制度改善, 司法救濟]
   - id: F005
     statement: "politics-db既有柯文哲司法程序研究已保存陳俊源認罪考量時間與負擔、李文娟對偵訊壓力的庭上描述，以及彭振聲偵訊錄音勘驗和二審保全聲請遭程序駁回的新聞轉述。"
     status: verified
     observed_at: "2026-11-07T21:13:00+08:00"
-    source_ids: [S007]
+    source_ids: [S008]
     evidence_summary: "此為 repo 既有研究內容的索引，不表示檢方被認定不正訊問；參見 cases/2026-10-20-ko-wen-je-judicial-proceedings/evidence.yaml、sessions/2026-11-03-peng-interrogation-recordings/evidence.yaml。"
     verification_notes:
       - "完整外部來源與相應不確定性以兩份原有 evidence.yaml 為準，不複製、改寫或擴張既有認定。"
