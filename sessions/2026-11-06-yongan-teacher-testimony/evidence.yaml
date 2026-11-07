@@ -3,7 +3,7 @@ session:
   project: "Politics"
   title: "永安國小香鬆爭議：教師「王子的教室」說明與校方交叉查核"
   started_at: "2026-11-06T18:11:18+08:00"
-  updated_at: "2026-11-06T13:54:02.092+00:00"
+  updated_at: "2026-11-07T08:25:00+08:00"
   status: "active"
 topics: 
   - "臺北市"
@@ -13,6 +13,9 @@ topics:
   - "教師工作負擔"
   - "食品分類"
   - "魚鬆與香鬆比較"
+  - "家長需求與午餐供應委員會"
+  - "家長監廚"
+  - "教師工作負擔論述檢核"
 sources: 
   - 
     id: "S001"
@@ -113,6 +116,51 @@ sources:
     retrieval_status: "reachable"
     notes: 
       - "使用者提供2026-11-06瀏覽器擷取，貼文稱台南15g；未取得台南單包產品清晰的背面營養標示及完整菜單，不將其確認為某特定品牌的魚鬆。"
+  - 
+    id: "S010"
+    source_type: "secondary"
+    publisher: "鏡報"
+    title: "營養午餐「每人2公克香鬆」挨轟比寵物還不如！前班親代表曝：天龍國家長要求的"
+    url: "https://www.mirrordaily.news/story/95846"
+    published_at: "2026-11-04"
+    observed_at: "2026-11-07T08:25:00+08:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "報導引述一名自稱曾任永安國小班親代表的家長：部分家長對工廠現成包裝配料有意見，希望午餐廠商自行製作。"
+      - "該人士推測廠商因此採行現行方案；不可將其推測當成正式決策紀錄，也未直接證明家長要求『每人2公克、分袋配送』。"
+  - 
+    id: "S011"
+    source_type: "secondary"
+    publisher: "聯合報"
+    title: "北市營養午餐每人發2g香鬆惹議 教育局、校方曝原因"
+    url: "https://udn.com/news/story/7323/9857900"
+    published_at: "2026-11-04"
+    observed_at: "2026-11-07T08:25:00+08:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "較完整引述校方說明：校方請廠商另行採購食材製作；過敏學生安全；原本直接撒飯曾有學生反映分配不均；經午餐供應委員會討論改採分袋及教師引導；每班配發約2g一匙湯匙，並非要求逐人秤重。"
+  - 
+    id: "S012"
+    source_type: "secondary"
+    publisher: "匯流新聞網"
+    title: "永安國小教師發文澄清『不要拿來做文章』"
+    url: "https://cnews.com.tw/235261106a01/"
+    published_at: "2026-11-06"
+    observed_at: "2026-11-07T08:25:00+08:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "具名教師黃國平說明既有校內香鬆實務及教師工作情況；並自述永安家長會代表每日輪流監廚、陪同用餐。後者未取得監廚排班紀錄獨立核實。"
+  - 
+    id: "S013"
+    source_type: "commentary"
+    publisher: "Facebook 掰咖老師喇低賽"
+    title: "教育不是萬能，但我們好像把教師當萬能"
+    url: "https://www.facebook.com/bykateacher/posts/pfbid0hfpdXRPLL8Xk6FB3vuGiDQxMznZAry2ZG11DKJVoQdsgaNbdU8P4USydnADBR42Tl"
+    observed_at: "2026-11-07T08:25:00+08:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "使用者提供2026-11-07 00:13+00:00 deterministic capture，文章以永安香鬆分發新聞圖片為引子，擴展到跨機關宣導、研習與報表等教師行政負荷議題。"
+      - "該文沒有明言自己代表永安教師，也沒有逐一證成永安特定流程是政府新政策所增加的工作；應區分其一般性政策主張與此單一案例是否能支持該主張。"
 facts: 
   - 
     id: "F001"
@@ -208,6 +256,43 @@ facts:
     evidence_summary: "食品分類支持為魚類加工食品而非香鬆調味拌料；『配菜』為烹調用途描述，不等同具法律效力的所有菜單分類。"
     verification_notes: 
       - "不得宣稱所有魚鬆100%魚肉、均富含Omega-3，或15g足以充當完整主菜。"
+  - 
+    id: "F011"
+    statement: "一名被媒體介紹為前永安國小班親代表的家長表示，部分家長不喜歡工廠現成包裝配料，希望團膳廠商自行製作；他推測這可能影響供餐安排。"
+    status: "partial"
+    observed_at: "2026-11-07T08:25:00+08:00"
+    source_ids: 
+      - "S010"
+    evidence_summary: "可確認此家長觀點被媒體報導；尚無家長會提案、廠商採購文件或午餐供應委員會議紀錄證明具體決策因果。"
+    verification_notes: 
+      - "不能把家長對加工配料的要求直接等同於家長提出2g分裝方案。"
+  - 
+    id: "F012"
+    statement: "校方2026-11-04說明：學校請廠商另採食材製作香鬆，因校內過敏需求未直接混入白飯；學生曾反映原先撒飯供應不均，經午餐供應委員會討論後改採分袋配送及教師引導分發。"
+    status: "verified"
+    observed_at: "2026-11-07T08:25:00+08:00"
+    source_ids: 
+      - "S004"
+      - "S011"
+    evidence_summary: "媒體對永安國小完整聲明之報導；證明校方已公開說明決策原因與程序，尚待取得委員會原始會議記錄。"
+  - 
+    id: "F013"
+    statement: "永安教師黃國平表示多年來香鬆按班供應、各班可彈性處理，不是新免費午餐政策才增加的流程；並自述家長會代表每日輪流監廚及一起用餐。"
+    status: "partial"
+    observed_at: "2026-11-07T08:25:00+08:00"
+    source_ids: 
+      - "S001"
+      - "S002"
+      - "S012"
+    evidence_summary: "教師親身經驗之公開證詞有具名報導印證；時間跨度、每天輪值的完整紀錄尚未獨立核對。"
+  - 
+    id: "F014"
+    statement: "Facebook『掰咖老師喇低賽』一文引用永安國小香鬆分發新聞作引子，進一步主張教師長期承擔各機關政策宣導、行政與成果填報負擔。"
+    status: "verified"
+    observed_at: "2026-11-07T08:25:00+08:00"
+    source_ids: 
+      - "S013"
+    evidence_summary: "只記錄作者實際提出的主張與文章結構；不是已證明該校香鬆分發屬行政機關新增工作。"
 claims: 
   - 
     id: "C001"
@@ -252,6 +337,31 @@ claims:
       - "F009"
       - "F010"
     reasoning_notes: "食品角色區分成立；『配菜』是可能用途不是所有魚鬆一律法定配菜；台南照片之確切品項仍需實物標示。"
+  - 
+    id: "C006"
+    statement: "永安國小『每人2g、分袋供應』整套具體方案是家長直接提出並要求學校執行。"
+    status: "unresolved"
+    related_facts: 
+      - "F011"
+      - "F012"
+    reasoning_notes: "家長原料/現成配料偏好與校方委員會調整流程確有可核對公開說法，但尚無議事資料證明誰提出具體分袋及2g標示方案；不可直接寫成已證實。"
+  - 
+    id: "C007"
+    statement: "永安國小香鬆分發可直接歸責於政府推行免費午餐政策後新增教師行政負擔。"
+    status: "contradicted"
+    contradicts: 
+      - "F012"
+      - "F013"
+    related_facts: 
+      - "F014"
+    reasoning_notes: "教師自述此前已實施多年，校方指出屬學校因過敏及分配公平所作內部討論安排；不妨礙一般教師負擔議題成立，也不否認實際分發可能增加工作量。"
+  - 
+    id: "C008"
+    statement: "以永安香鬆事件引出教師行政減量問題，必然等同於作者自稱代表永安教師或家長發言。"
+    status: "unsupported"
+    related_facts: 
+      - "F014"
+    reasoning_notes: "文章並未明言代表特定師生或家長；較精確的批評是未充分處理該校已知背景與具名教師證詞，就讓其成為一般行政負擔的例示。"
 searches: 
   - 
     id: "Q001"
@@ -269,6 +379,14 @@ searches:
     scope: "食藥署官方文件、2026-11-04至11-05報導與使用者提供社群貼文"
     result: "partial"
     notes: "確認官方食品分類與北市學校用途；未獲台南實際產品完整品名、配方或營養標示，不能確證照片商品就是魚鬆。"
+  - 
+    id: "Q003"
+    observed_at: "2026-11-07T08:25:00+08:00"
+    platform: "web"
+    query: "永安國小 前班親代表 家長要求 2026 香鬆；永安國小 午餐供應委員會 學生反映；黃國平 家長會 輪流監廚"
+    scope: "鏡報、中央社、聯合報、匯流新聞網2026-11-04至11-07報導"
+    result: "partial"
+    notes: "找到前班親代表證詞、校方完整說明與具名教師經驗，未查得家長會提案及午餐供應委員會原始議事紀錄。"
 promotion: 
   cases: []
   comparators: []
@@ -277,3 +395,4 @@ notes:
   - "本項為獨立追加 session；因 GitHub 程式碼搜尋未返回既有香鬆證據路徑，不擅自覆寫未知既有檔案。後續可在索引/目錄找到原 case 後建立 cross-reference。"
   - "原始截圖影像本體未存 GitHub；證據摘要、查核脈絡及媒體URL已保存。"
   - "2026-11-06追加食品分類與跨市克數比較證據：魚鬆作為配菜是一般用途判斷，不能推定台南照片商品類別或午餐正式菜單分類。"
+  - "2026-11-07追加家長、學生、委員會及具名教師的不同層次來源。家長對產品類型有要求，不等於具體2g分袋辦法出自家長直接提案；一般教師行政減量論述與此案政策歸責必須分開評估。"
