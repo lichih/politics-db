@@ -1,0 +1,234 @@
+session:
+  id: "2026-11-10-zhou-xiaoyun-anti-infiltration"
+  project: Politics
+  title: "周曉芸涉反滲透法案：偵辦程序、選前時序與偵查資訊外流疑義"
+  started_at: "2026-11-10T21:47:05+08:00"
+  updated_at: "2026-11-10T21:52:36+08:00"
+  status: active
+
+topics:
+  - "周曉芸"
+  - "反滲透法"
+  - "新北地檢署"
+  - "偵查不公開"
+  - "2026地方選舉"
+  - "司法介選疑義"
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "翟本喬 Facebook 貼文（轉發自稱周曉芸聲明）"
+    title: "周曉芸的臉書帳號被封，無法為自己澄清辯解，我來轉發一下"
+    url: "https://www.facebook.com/ben.jai/posts/pfbid02iRWNMSaXSkSZcczZXQhBa6U9Eoua56GavsLZeLAyNzPr4X3sdbFzLNHzxBJkvLhol"
+    published_at: "2026-11-10"
+    observed_at: "2026-11-10T21:47:05+08:00"
+    retrieval_status: reachable
+    notes:
+      - "使用者 browser_extension Political Research Social Capture v0.9.0 擷取；capture_status=deterministic，root post timestamp_status=unknown；captured_at=2026-11-10T13:47:05.558Z。"
+      - "已透過使用者目前開啟的 Facebook browser tab 讀到相同正文；Facebook UI 當時顯示貼文時間約 21:42（Asia/Taipei），不以此秒級時間取代未知原始 timestamp。"
+      - "這是翟本喬的轉發貼文，可證明他轉發了該內容；轉發中的第一人稱聲明尚未由周曉芸獨立原始帳號核對。"
+  - id: S002
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "民眾黨議員參選人周曉芸涉反滲透法遭約談　50萬交保"
+    url: "https://www.cna.com.tw/news/asoc/202611100309.aspx"
+    published_at: "2026-11-10T19:25:00+08:00"
+    observed_at: "2026-11-10T21:52:36+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導採新北地檢署相關辦案資訊；不等於取得原始搜索票、卷證或完整檢方新聞稿。"
+  - id: S003
+    source_type: secondary
+    publisher: "聯合報"
+    title: "黃國昌四大金釵之一 桃園市議員候選人周曉芸涉反滲透法50萬交保"
+    url: "https://udn.com/vote2026/story/7315/9870038"
+    published_at: "2026-11-10T19:16:00+08:00"
+    observed_at: "2026-11-10T21:52:36+08:00"
+    retrieval_status: reachable
+    notes:
+      - "關於對岸人士接觸、資金挹注、個資利用及不實核銷，新聞以『據了解』『疑似』描述，不能視為查明犯罪事實。"
+  - id: S004
+    source_type: secondary
+    publisher: "鏡週刊內容／FTNN 新聞網轉載"
+    title: "黃國昌「金釵」涉收中國金援！三蘆初選落敗轉戰龜山　周曉芸50萬交保"
+    url: "https://www.ftnn.com.tw/news/594643"
+    published_at: "2026-11-10T20:52:00+08:00"
+    observed_at: "2026-11-10T21:52:36+08:00"
+    retrieval_status: reachable
+    notes:
+      - "『據本刊了解』檢調懷疑境外勢力疑似結合四海幫、資金超過300萬元，以及桃園建商受約談；屬媒體來源說法，未取得對應公開證據。"
+  - id: S005
+    source_type: primary
+    publisher: "法務部全國法規資料庫"
+    title: "反滲透法（第2條、第4條）"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030317"
+    observed_at: "2026-11-10T21:52:36+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第4條禁止受法定滲透來源指示、委託或資助，為總統副總統選罷法第43條或公職人員選罷法第45條各款行為；不是一般『去中國旅遊』即成立之構成要件。"
+  - id: S006
+    source_type: primary
+    publisher: "中央選舉委員會"
+    title: "中央選舉委員會2026地方公職人員選舉專區"
+    url: "https://info.cec.gov.tw/vote2026/"
+    observed_at: "2026-11-10T21:52:36+08:00"
+    retrieval_status: reachable
+    notes:
+      - "2026年11月28日為地方公職人員選舉及全國性公民投票日。"
+  - id: S007
+    source_type: primary
+    publisher: "法務部全國法規資料庫"
+    title: "偵查不公開作業辦法"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010028"
+    observed_at: "2026-11-10T21:52:36+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第7條為偵查程序、內容及所得心證原則不公開；第8至10條規範得適度揭露之條件與程序；第11條規範檢討及督導小組。"
+  - id: S008
+    source_type: secondary
+    publisher: "太報"
+    title: "黃國昌子弟兵涉反滲透法50萬交保 民眾黨：釐清事實前勿過度揣測"
+    url: "https://www.taisounds.com/news/content/70/309002"
+    published_at: "2026-11-10T19:23:00+08:00"
+    observed_at: "2026-11-10T21:52:36+08:00"
+    retrieval_status: reachable
+    notes:
+      - "引述民眾黨發言人張彤質疑辦案時機、偵查資訊及媒體風向，並呼籲勿過度揣測。"
+
+facts:
+  - id: F001
+    statement: "2026年11月10日晚間，翟本喬在 Facebook 轉發署名周曉芸、否認接受境外勢力指示委託資助及質疑司法介選的聲明。"
+    status: verified
+    observed_at: "2026-11-10T21:47:05+08:00"
+    source_ids: [S001]
+    evidence_summary: "使用者擷取貼文全文，且 browser tab 可讀到相同轉發內容。只核實公開轉發及文中主張的存在，不核實其所述個別指控為真。"
+    verification_notes:
+      - "根貼文時間原始 DOM 擷取為 null；不能以無法確定的精準發布時間建立時序。"
+    tags: ["public_statement", "2026"]
+  - id: F002
+    statement: "中央社報導：新北地檢署於2026年11月9日指揮搜索18處，約談11名被告、3名證人共14人。"
+    status: verified
+    observed_at: "2026-11-10T21:52:36+08:00"
+    source_ids: [S002, S003]
+    evidence_summary: "中央社及聯合報均記載搜索與約談數量；此處核實的是公開報導一致描述之程序事實。"
+    tags: ["investigation", "procedure", "2026"]
+  - id: F003
+    statement: "中央社報導：2026年11月10日檢察官訊問後諭令周曉芸50萬元交保，限制出境出海及科技監控。"
+    status: verified
+    observed_at: "2026-11-10T21:52:36+08:00"
+    source_ids: [S002, S003]
+    evidence_summary: "報導載明交保金額及相關處分；交保不是有罪判決。"
+    tags: ["investigation", "procedure", "2026"]
+  - id: F004
+    statement: "中央社報導：檢方表示周曉芸涉嫌反滲透法第4條第1、2項、個資法、商業會計法及刑法背信等罪嫌，並稱嚴守偵查不公開。"
+    status: verified
+    observed_at: "2026-11-10T21:52:36+08:00"
+    source_ids: [S002]
+    evidence_summary: "為偵查中的檢方嫌疑評估及對外表述，未公開完整構成要件事證，並非犯罪已成立。"
+    tags: ["investigation", "legal"]
+  - id: F005
+    statement: "《反滲透法》第4條以受法定滲透來源指示、委託或資助而從事法定選舉行為為規範核心，不以造訪中國或廈門本身成立犯罪。"
+    status: verified
+    observed_at: "2026-11-10T21:52:36+08:00"
+    source_ids: [S005]
+    evidence_summary: "核對全國法規資料庫第2、4條；是否有法定滲透來源及與選舉行為的關係仍需個案證據。"
+    tags: ["legal", "anti_infiltration"]
+  - id: F006
+    statement: "2026年地方公職人員選舉投票日為11月28日；11月9日搜索處於投票日前19個曆日。"
+    status: verified
+    observed_at: "2026-11-10T21:52:36+08:00"
+    source_ids: [S002, S006]
+    evidence_summary: "中選會已公告投票日期；此處僅記錄日曆時序，不能單靠接近選舉推定偵辦動機。"
+    tags: ["election", "timeline", "2026"]
+  - id: F007
+    statement: "聯合報2026年11月10日報導以『據了解』描述疑似選舉金流、民眾個資使用及不實項目核銷。"
+    status: verified
+    observed_at: "2026-11-10T21:52:36+08:00"
+    source_ids: [S003]
+    evidence_summary: "僅證明媒體曾公開上述案件細節說法；涉案金流、個資及帳務是否屬實尚未核實。"
+    tags: ["media_reporting", "unverified_allegation"]
+  - id: F008
+    statement: "鏡週刊經FTNN轉載之報導提及疑似超過300萬元資金、四海幫及桃園建商，並以『據本刊了解』表述。"
+    status: verified
+    observed_at: "2026-11-10T21:52:36+08:00"
+    source_ids: [S004]
+    evidence_summary: "記錄偵查中未經獨立公開核實的具體媒體敘述及時點；未以該金額或涉黑組織關係為既定事實。"
+    tags: ["media_reporting", "unverified_allegation"]
+  - id: F009
+    statement: "《偵查不公開作業辦法》原則要求偵查不公開，但第8至10條容許依法、依程序適度揭露；第11條設有檢討督導機制。"
+    status: verified
+    observed_at: "2026-11-10T21:52:36+08:00"
+    source_ids: [S007]
+    evidence_summary: "據法務部全國法規資料庫核對規範；媒體掌握案情細節本身不足以證明洩密者身分及違法。"
+    tags: ["legal", "investigation_confidentiality"]
+  - id: F010
+    statement: "太報2026年11月10日報導民眾黨發言人張彤質疑辦案時機與媒體風向，呼籲事實釐清前勿過度揣測。"
+    status: verified
+    observed_at: "2026-11-10T21:52:36+08:00"
+    source_ids: [S008]
+    evidence_summary: "核實有該黨對外政治回應，不代表其中介選推論已獲證實。"
+    tags: ["public_statement", "election"]
+
+claims:
+  - id: C001
+    statement: "周曉芸未接受任何境外勢力之指示、委託或資助參與選舉。"
+    status: unresolved
+    related_facts: [F001, F004]
+    reasoning_notes: "轉發聲明否認指控；目前僅有檢方疑罪與媒體說法，未取得可判定金流、指示鏈及主觀認知的卷證。無罪推定適用。"
+  - id: C002
+    statement: "本案起因只是2025年9月獅子會會長聯誼會赴廈門團體旅遊，因曾赴廈門而被當成犯罪。"
+    status: unresolved
+    related_facts: [F001, F005, F007]
+    reasoning_notes: "旅遊起因是轉發聲明中的當事人說法；報導另述金流、個資、帳務等調查方向。旅遊不等於反滲透罪，但未能確認檢方是否只據旅遊偵查。"
+  - id: C003
+    statement: "周曉芸 Facebook 帳號遭封鎖，且因此無法自行發布澄清。"
+    status: unresolved
+    related_facts: [F001]
+    reasoning_notes: "目前只有轉發聲明與翟本喬陳述，未取得 Meta 停權通知、原因或帳號處置紀錄；不得推定停權與偵辦有協同行為。"
+  - id: C004
+    statement: "媒體報導的非公開案情細節源自偵查機關違法洩密。"
+    status: unresolved
+    related_facts: [F004, F007, F008, F009]
+    reasoning_notes: "已見媒體刊載檢方正式程序資訊以外的具體指控；但資訊可能來自當事人、其他知情者、媒體調查或偵查人員，來源未核實。可依法要求調查資訊揭露管道。"
+  - id: C005
+    statement: "11月9日搜索是檢調為影響11月28日選舉而刻意安排的司法介選。"
+    status: unresolved
+    related_facts: [F002, F006, F010]
+    reasoning_notes: "時序足以支持調查客觀政治效果與辦案時機之合理質疑；目前缺少線索取得日、搜索票聲請核發日、證據保全急迫性及是否可提前偵辦等資料，尚不能確認特定介選目的。"
+  - id: C006
+    statement: "境外勢力結合四海幫出資超過300萬元介入周曉芸選舉。"
+    status: unresolved
+    related_facts: [F008]
+    reasoning_notes: "鏡週刊／FTNN為引述未揭露來源的偵查線索說法，未取得金流憑證、對象身分或檢方可供獨立查核資料。"
+  - id: C007
+    statement: "翟本喬轉發聲明指稱自由時報及鏡集團率先披露，政治側翼接續散播未證實指控。"
+    status: unresolved
+    related_facts: [F001, F007, F008]
+    reasoning_notes: "轉發聲明之政治評價及傳播順序尚待逐篇比對發稿時間、來源與貼文時間，不以概括敘述認定媒體或第三方有協同行為。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-11-10T21:47:05+08:00"
+    platform: "GitHub politics-db connector"
+    query: "反滲透法 周曉芸"
+    scope: "lichih/politics-db 預設分支程式碼搜尋"
+    result: not_found
+    notes: "此次搜尋未找到符合結果；不代表 repository 過去或其他未索引資料從未存在。"
+  - id: Q002
+    observed_at: "2026-11-10T21:52:36+08:00"
+    platform: "web"
+    query: "周曉芸 2026 11月10日 新北地檢署 反滲透法 搜索 50萬元；反滲透法 第4條；周曉芸 鏡週刊 300萬元"
+    scope: "公開媒體與法務部全國法規資料庫"
+    result: found
+    notes: "取得中央社、聯合報、鏡週刊轉載、全國法規資料庫及中選會公開資訊；檢方原始新聞稿/搜索票/完整偵查卷證尚未取得。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "研究截止時間：2026-11-10T21:52:36+08:00；本筆是當時公開可核對資料與未決問題的起始基線，應依後續偵查、起訴或判決增補時間版本。"
+  - "論證應分兩條獨立證據鏈：A. 犯罪嫌疑形成與構成要件；B. 偵查資訊如何流入媒體。即使後續證明違法犯罪，也不使任何違法洩密正當；即使有洩密也不能自動證明涉案者無罪。"
+  - "待查：2025年9月廈門團體旅遊具體人員、費用來源、活動內容及與2026選舉的聯繫；檢方最初獲報、搜索票聲請及核發時點；搜尋票本身；媒體各篇首發時間與案情來源；Meta 帳號封鎖事由。"
+  - "本紀錄未宣告偵查機關有介選動機、媒體為側翼、周曉芸受滲透來源資助或與特定幫派存在實際合作關係。"
