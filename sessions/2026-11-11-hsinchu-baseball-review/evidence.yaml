@@ -1,0 +1,526 @@
+# 2026-11-11 新竹棒球場事件查核：來源、事實、主張嚴格分離
+session: 
+  id: "2026-11-11-hsinchu-baseball-review"
+  project: "Politics"
+  title: "新竹棒球場不起訴、工程瑕疵、出土物時間軸與改善工程查核"
+  started_at: "2026-11-11T21:04:04+08:00"
+  updated_at: "2026-11-11T21:04:04+08:00"
+  status: "active"
+topics: 
+  - "新竹棒球場"
+  - "林智堅不起訴"
+  - "高虹安改善工程"
+  - "監察院糾正"
+  - "出土物時間軸"
+  - "工程抽樣證據"
+sources: 
+  - 
+    id: "S001"
+    source_type: "commentary"
+    publisher: "三寶·藥師·神大叔"
+    title: "Facebook：新竹棒球場不起訴、開挖、改善工程論戰"
+    url: "https://www.facebook.com/RxLiangShihMin/posts/pfbid02FwFPskMwuW8GCNG2zvxhWEj1NpzATCYUX4QZep4GhKoFjLy9VM267AUiKD6Wiz2Ll"
+    published_at: ""
+    observed_at: "2026-11-11T21:04:04+08:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "使用者提供 Political Research Social Capture 0.9.0，2026-11-11T12:59:18.480Z，貼文 timestamp 未取得；僅代表當時擷取內容，不等於本文引述的其他人原文已核實。"
+      - "另有鍾孟儒於2026-11-10T14:27Z留言及王灶乾於2026-11-10T04:29Z留言；Facebook 瀏覽器 tab 讀取未能穩定取得此單一貼文。"
+  - 
+    id: "S002"
+    source_type: "primary"
+    publisher: "監察院"
+    title: "新竹市政府辦理市立棒球場統包工程未驗收即使用等重大違失糾正新聞稿"
+    url: "https://www.cy.gov.tw/News_Content.aspx?Create=1&n=125&s=37720&sms=8912"
+    published_at: "2026-07-17"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    retrieval_status: "reachable"
+    notes: []
+  - 
+    id: "S003"
+    source_type: "primary"
+    publisher: "監察院"
+    title: "新竹市立棒球場新建統包工程糾正案文 115教正0012"
+    url: "https://multimedia.cy.gov.tw/CyBsBoxContent2.aspx?n=718&s=49728"
+    published_at: "2026-07-28"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "核對公開網頁案由；未逐頁分析附帶PDF。"
+  - 
+    id: "S004"
+    source_type: "secondary"
+    publisher: "中央社"
+    title: "新竹棒球場案林智堅不起訴 營造、監造4人緩起訴"
+    url: "https://www.cna.com.tw/news/asoc/202608280335.aspx"
+    published_at: "2026-08-28"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "引述竹檢新聞稿；未取得完整不起訴處分書。"
+  - 
+    id: "S005"
+    source_type: "secondary"
+    publisher: "中央社"
+    title: "新竹棒球場高檢署駁回再議 林智堅不起訴確定"
+    url: "https://www.cna.com.tw/news/asoc/202610020321.aspx"
+    published_at: "2026-10-02"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "未取得高檢署處分書。"
+  - 
+    id: "S006"
+    source_type: "secondary"
+    publisher: "公視新聞"
+    title: "新竹棒球場挖出營建廢棄物 竹市府：結構安全有問題"
+    url: "https://news.pts.org.tw/article/740768"
+    published_at: "2025-03-05"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "現場記者會報導2025年2月出土、2022年1至7月製造/保存標示之啤酒罐；時點與2026寶特瓶不同。"
+  - 
+    id: "S007"
+    source_type: "secondary"
+    publisher: "放言／Yahoo新聞搜尋索引"
+    title: "四叉貓引用不起訴處分書討論2026年製造寶特瓶"
+    url: "https://tw.news.yahoo.com/%E6%9E%97%E6%99%BA%E5%A0%85%E6%A3%92%E7%90%83%E5%A0%B4%E6%A1%88%E4%B8%8D%E8%B5%B7%E8%A8%B4%E8%97%8F%E9%97%9C%E9%8D%B5-%E5%9B%9B%E5%8F%89%E8%B2%93%E6%8A%93%E5%87%BA-2026%E5%B9%B4%E8%A3%BD%E9%80%A0%E5%AF%B6%E7%89%B9%E7%93%B6-%E6%80%8E%E9%BA%BC%E5%8F%AF%E8%83%BD%E6%98%AF%E6%9E%97%E6%99%BA%E5%A0%85%E4%BB%BB%E5%85%A7%E5%9F%8B%E9%80%B2%E5%8E%BB%E7%9A%84-040100355.html"
+    published_at: "2026-08-31"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    retrieval_status: "blocked"
+    notes: 
+      - "搜尋索引摘要可見，但文章 URL 開啟為404；2026寶特瓶實物來源須回到處分書與現場採樣紀錄查證。"
+  - 
+    id: "S008"
+    source_type: "secondary"
+    publisher: "TVBS"
+    title: "拆彈新竹棒球場／高虹安市府告發後2年「檢方才拍照」引爭議"
+    url: "https://news.tvbs.com.tw/local/4041220"
+    published_at: "2026-10-27"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "有具名工務處長說法及不具名法律人士評論；數量、抽樣及推論仍待原始紀錄核對。"
+  - 
+    id: "S009"
+    source_type: "primary"
+    publisher: "新竹市政府"
+    title: "新竹市立棒球場美方分析報告出爐 BrightView排水及土壤問題"
+    url: "https://dep-publicwork.hccg.gov.tw/ch/home.jsp?dataserno=202308240001&id=16&mcustomize=municipalnews_view.jsp&mserno=201601300036&parentpath=0%2C4&t=MunicipalNews&toolsflag=Y"
+    published_at: "2023-08-24"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    retrieval_status: "blocked"
+    notes: 
+      - "搜尋摘要可見市府引用 BrightView 報告；網頁開啟403，原英文報告本文未取得。"
+  - 
+    id: "S010"
+    source_type: "secondary"
+    publisher: "聯合報"
+    title: "新竹市棒球場拚8月底竣工 市府向原廠商履約缺失求償逾4億"
+    url: "https://udn.com/news/story/7324/9687336"
+    published_at: "2026-08-12"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "引用市府第七次工程體檢會；記載透水層、HDPE、紅土及人工草皮改善。"
+  - 
+    id: "S011"
+    source_type: "secondary"
+    publisher: "自由時報／Yahoo"
+    title: "新竹市立棒球場1.33億改善工程8月底竣工"
+    url: "https://tw.sports.yahoo.com/news/%E6%96%B0%E7%AB%B9%E5%B8%82%E7%AB%8B%E6%A3%92%E7%90%83%E5%A0%B41-33%E5%84%84%E6%94%B9%E5%96%84%E5%B7%A5%E7%A8%8B8%E6%9C%88%E5%BA%95%E7%AB%A3%E5%B7%A5-%E4%BD%95%E6%99%82%E5%95%9F%E7%94%A8%E4%BB%8D%E6%9C%AA%E7%9F%A5-103240034.html"
+    published_at: "2026-08-12"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "新聞引用市府約1.33億元改善工程。"
+  - 
+    id: "S012"
+    source_type: "primary"
+    publisher: "新竹市政府觀光旅遊網"
+    title: "新竹棒球場50週年交流賽 COMEBACK 竹風再起"
+    url: "https://tourism.hccg.gov.tw/events/112"
+    published_at: "2026-11-03"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "官方活動頁列2026-11-01至11-03交流賽。"
+  - 
+    id: "S013"
+    source_type: "secondary"
+    publisher: "自由體育"
+    title: "新竹棒球場50週年3天交流賽落幕 市府：爭取納入職棒賽事"
+    url: "https://sports.ltn.com.tw/news/breakingnews/5629278"
+    published_at: "2026-11-04"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "活動與賽事結果；球員評價多出自市府提供。"
+  - 
+    id: "S014"
+    source_type: "secondary"
+    publisher: "第一新聞"
+    title: "新竹市立棒球場50週年交流賽落幕 球員回饋"
+    url: "https://firstnews.tw/hsinchuCity/news/a_mw5upbpc_29xhfkor"
+    published_at: "2026-11-07"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "多轉述市府及部分參賽球員正面回饋，非所有球員逐一訪談。"
+  - 
+    id: "S015"
+    source_type: "primary"
+    publisher: "審計部"
+    title: "新竹市立棒球場新建統包工程品質不佳釀成球員受傷"
+    url: "https://www.audit.gov.tw/p/405-1000-11861%2Cc498.php?Lang=zh-tw"
+    published_at: "2026-09-18"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    retrieval_status: "reachable"
+    notes: []
+  - 
+    id: "S016"
+    source_type: "secondary"
+    publisher: "TAIWAN ON RECORD"
+    title: "林智堅新竹棒球場案不起訴：四人緩起訴是否撤銷報導不一"
+    url: "https://taiwanonrecord.com/cases/lin-chih-chien-baseball-nonprosecution"
+    published_at: ""
+    observed_at: "2026-11-11T21:04:04+08:00"
+    retrieval_status: "reachable"
+    notes: 
+      - "屬二手整理，引用中時2026-10-02報導稱4人緩起訴遭撤銷發回，但尚未取得原處分書；本站截至10月28日仍標示無法確定。"
+  - 
+    id: "S017"
+    source_type: "primary"
+    publisher: "新竹地方檢察署"
+    title: "本署偵辦新竹市立棒球場新建統包工程案件，業經偵查終結"
+    url: "https://www.scc.moj.gov.tw/media/451282/1150828%E6%96%B0%E7%AB%B9%E5%9C%B0%E6%AA%A2%E7%BD%B2%E5%81%B5%E7%B5%90%E6%96%B0%E7%AB%B9%E6%A3%92%E7%90%83%E5%A0%B4%E6%A1%88%E4%BB%B6%E6%96%B0%E8%81%9E%E7%A8%BF.pdf?mediaDL=true"
+    published_at: "2026-08-28"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    retrieval_status: "blocked"
+    notes: 
+      - "官網PDF連結可定位，開啟逾時；以下檢方敘述據新聞轉述，不能假稱已讀原始PDF。"
+facts: 
+  - 
+    id: "F001"
+    statement: "2026-11-11使用者社群擷取顯示原貼文以「不起訴不代表工程沒有瑕疵」批評他人，並提出休旅車、2026罐子、BrightView與2026重建等說法。"
+    status: "verified"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    source_ids: 
+      - "S001"
+    evidence_summary: "貼文內容與留言由使用者提供的 Facebook deterministic capture 定位；作者貼文發布時刻未知。"
+    verification_notes: 
+      - "只證實貼文存在於該次擷取，不證實它轉述鍾孟儒、謝東霖原言無誤。"
+    tags: 
+      - "新竹棒球場"
+      - "2026"
+  - 
+    id: "F002"
+    statement: "監察院2026年7月糾正新竹市政府及運動部，指出未依規定驗收即啟用、統包效能標準未達、督導與採購有重大違失。"
+    status: "verified"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    source_ids: 
+      - "S002"
+      - "S003"
+      - "S015"
+    evidence_summary: "監察院官網糾正案115教正0012及審計部新聞稿。"
+    verification_notes: []
+    tags: 
+      - "新竹棒球場"
+      - "2026"
+  - 
+    id: "F003"
+    statement: "新竹地檢署2026-08-28公布林智堅等被控圖利等罪嫌不起訴，施工與監造4人因不實施工或查驗紀錄獲緩起訴處分。"
+    status: "verified"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    source_ids: 
+      - "S004"
+    evidence_summary: "中央社逐項引用竹檢公告；處分書原件尚未取得。"
+    verification_notes: 
+      - "4人緩起訴後續是否經高檢署撤銷另見F013，不能將8月狀態永久化。"
+    tags: 
+      - "新竹棒球場"
+      - "2026"
+  - 
+    id: "F004"
+    statement: "中央社2026-10-02報導臺灣高檢署駁回再議，林智堅不起訴確定。"
+    status: "verified"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    source_ids: 
+      - "S005"
+    evidence_summary: "該報導稱竹檢依職權提起再議。"
+    verification_notes: 
+      - "未取得再議處分書。"
+    tags: 
+      - "新竹棒球場"
+      - "2026"
+  - 
+    id: "F005"
+    statement: "竹檢稱原工程有行政管理與施工瑕疵、部分石木等不符規範材料，但數量有限且沒有足夠刑事證據證明外運偷倒、竊土、詐領款或林智堅圖利。"
+    status: "verified"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    source_ids: 
+      - "S004"
+    evidence_summary: "是檢方對本案可得刑事證據的判斷，不能推為絕對零缺失。"
+    verification_notes: 
+      - "刑事證據不足與契約違約或其他工程缺失須分層。"
+    tags: 
+      - "新竹棒球場"
+      - "2026"
+  - 
+    id: "F006"
+    statement: "公視報導2025-03-05市府公開展示之前2月開挖物，包含標示2022年1至7月日期的啤酒罐、磚塊與寶特瓶。"
+    status: "verified"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    source_ids: 
+      - "S006"
+    evidence_summary: "2025報導明載展示物與日期；不等於司法確認每件物來源及責任。"
+    verification_notes: []
+    tags: 
+      - "新竹棒球場"
+      - "2026"
+  - 
+    id: "F007"
+    statement: "2026年有媒體引述四叉貓討論處分書中的2026年製造寶特瓶，TVBS另引述新改善工程期間工人遺留寶特瓶的情境。"
+    status: "partial"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    source_ids: 
+      - "S007"
+      - "S008"
+    evidence_summary: "2026物件涉及較後期取樣／會勘的說法存在；缺該瓶證物編號、採樣日期、原始處分書、封存鏈。"
+    verification_notes: 
+      - "不可拿2026瓶證明2025出土2022罐為假；亦不可因2025報導推論所有2026瓶都是舊工程所埋。"
+    tags: 
+      - "新竹棒球場"
+      - "2026"
+  - 
+    id: "F008"
+    statement: "TVBS 2026-10-27報導市府工務處長稱初步分篩有約1300立方公尺大型混凝土塊、32袋太空包，另有5081立方公尺土方未分篩。"
+    status: "partial"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    source_ids: 
+      - "S008"
+    evidence_summary: "反映具名市府官員對取樣與數量的主張，非已核定全場違法廢棄物總量。"
+    verification_notes: 
+      - "須取得施工紀錄、分類標準、取樣母體、檢方採證資料逐項驗證；TVBS報導亦稱檢方僅認定部分太空包。"
+    tags: 
+      - "新竹棒球場"
+      - "2026"
+  - 
+    id: "F009"
+    statement: "新竹市府2023年公告引用BrightView場務專家檢測，稱排水與土壤級配不佳、未達專業及一般運動場地標準。"
+    status: "partial"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    source_ids: 
+      - "S009"
+    evidence_summary: "官網搜尋摘要可核對市府對外說法；未取得美方完整原報告。"
+    verification_notes: 
+      - "不得寫作已自行逐頁查驗BrightView原始報告。"
+    tags: 
+      - "新竹棒球場"
+      - "2026"
+  - 
+    id: "F010"
+    statement: "新竹市政府2026年進行實質改善工程，包含透水瀝青、透水層與HDPE排水系統、紅土配比、人工草皮等；媒體報導工程約1.33億元。"
+    status: "verified"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    source_ids: 
+      - "S010"
+      - "S011"
+    evidence_summary: "記者採訪與市府工程體檢會資料，具體改善項目可核。"
+    verification_notes: 
+      - "改善工程存在，不自動證明每一工項都對應原統包違約。"
+    tags: 
+      - "新竹棒球場"
+      - "2026"
+  - 
+    id: "F011"
+    statement: "截至2026年8月市府稱已對原統包廠商提出超過4億元民事求償。"
+    status: "verified"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    source_ids: 
+      - "S010"
+    evidence_summary: "只確認市府提起求償，不確認勝訴、判賠或金額合理性。"
+    verification_notes: []
+    tags: 
+      - "新竹棒球場"
+      - "2026"
+  - 
+    id: "F012"
+    statement: "2026年11月1至3日新竹市棒球場舉辦台日韓四隊、三天五場的交流賽；2026年9月改善工程完成。"
+    status: "verified"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    source_ids: 
+      - "S012"
+      - "S013"
+      - "S014"
+    evidence_summary: "官方活動與新聞時間可核，性質為交流賽非中職已重新核准正式賽事。"
+    verification_notes: []
+    tags: 
+      - "新竹棒球場"
+      - "2026"
+  - 
+    id: "F013"
+    statement: "部分媒體引述參賽球員稱2026改善後的人工草皮平整、彈跳穩定，體驗良好。"
+    status: "partial"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    source_ids: 
+      - "S014"
+    evidence_summary: "正面回饋確有被報導，不代表所有選手一致評價或獨立工程驗收報告。"
+    verification_notes: []
+    tags: 
+      - "新竹棒球場"
+      - "2026"
+  - 
+    id: "F014"
+    statement: "2026-10-02四名施工監造人員原獲緩起訴是否被撤銷，二手整理指出媒體說法不同，仍未取得高檢署正式書面。"
+    status: "partial"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    source_ids: 
+      - "S016"
+      - "S005"
+    evidence_summary: "中時報導撤銷發回；中央社當天報導仍敘述8月原緩起訴而未明言此部分最終狀態。"
+    verification_notes: 
+      - "不能以沉默視為反駁或支持；目前狀態 unresolved。"
+    tags: 
+      - "新竹棒球場"
+      - "2026"
+claims: 
+  - 
+    id: "C001"
+    statement: "林智堅等人刑事不起訴等於原新竹棒球場工程完全沒有缺失。"
+    status: "contradicted"
+    supports: []
+    related_facts: 
+      - "F002"
+      - "F005"
+    reasoning_notes: "刑事要件與工程驗收、契約、行政違失不同；不得把不起訴當品質合格證明。"
+  - 
+    id: "C002"
+    statement: "原社群作者以2023開挖不可能有2026罐子證明該說法是時空倒錯的造謠。"
+    status: "contradicted"
+    supports: 
+      - "F007"
+    related_facts: 
+      - "F006"
+      - "F007"
+    reasoning_notes: "原文混合2023、2025、2026不同時間與罐/瓶不同物品，未處理不同開挖來源；2026製造不可能在2023被出土，但不代表被提及的2026瓶屬於2023採樣。"
+  - 
+    id: "C003"
+    statement: "因為試坑發現異物即可確證全場底下都有大量違法廢料或犯罪掩埋。"
+    status: "unsupported"
+    supports: []
+    related_facts: 
+      - "F005"
+      - "F008"
+    reasoning_notes: "有異物及工程品質問題，不能由局部樣本直接外推全區數量、故意掩埋及刑事構成要件。"
+  - 
+    id: "C004"
+    statement: "未查到外車偷倒，因此地下沒有任何不合格材料。"
+    status: "contradicted"
+    supports: []
+    related_facts: 
+      - "F005"
+      - "F006"
+    reasoning_notes: "無外運偷倒罪證與開挖出局部石木雜物可同時成立。"
+  - 
+    id: "C005"
+    statement: "高虹安市府任內對球場沒有進行任何實質改善。"
+    status: "contradicted"
+    supports: 
+      - "F010"
+      - "F012"
+    related_facts: []
+    reasoning_notes: "已有可核對2026年工項；但若有人只說施作較少或費用效益爭議，應核對其原始文字而非替其改寫絕對零工項。"
+  - 
+    id: "C006"
+    statement: "監察院2026年已糾正原球場工程涉及重大行政違失。"
+    status: "supported"
+    supports: 
+      - "F002"
+    related_facts: []
+    reasoning_notes: "明確官方裁決，不能當作對個人貪污罪刑事認定。"
+  - 
+    id: "C007"
+    statement: "2026年11月所有職業與大專球員一致認為改善後球場完美、品質無虞。"
+    status: "unsupported"
+    supports: 
+      - "F013"
+    related_facts: []
+    reasoning_notes: "有部分正面回饋，但無全體逐一意見，也不可取代正式驗收、長期使用及專業認證。"
+  - 
+    id: "C008"
+    statement: "2026年四名工程人員的緩起訴已確定有效，或確定被撤銷。"
+    status: "unresolved"
+    supports: []
+    related_facts: 
+      - "F003"
+      - "F014"
+    reasoning_notes: "需查高檢署10月2日書面及後續竹檢處理。"
+  - 
+    id: "C009"
+    statement: "鍾孟儒或謝東霖確實明言棒球場完全沒問題且高虹安完全沒做事。"
+    status: "unresolved"
+    supports: []
+    related_facts: 
+      - "F001"
+    reasoning_notes: "現僅有作者對他人論點的轉述；尚未取得被批評者的完整原文與發言脈絡，不能由此指其必然混淆。"
+  - 
+    id: "C010"
+    statement: "檢方稱廢棄物數量有限與市府大量分篩數據存在確定的統計矛盾。"
+    status: "unresolved"
+    supports: []
+    related_facts: 
+      - "F005"
+      - "F008"
+    reasoning_notes: "兩方的採樣時間、母體、分類及證明目的未確定一致，應比對取樣及鑑定原件。"
+searches: 
+  - 
+    id: "Q001"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    platform: "GitHub politics-db"
+    query: "新竹棒球場；棒球場；高虹安；林智堅"
+    scope: "lichih/politics-db default branch code search"
+    result: "not_found"
+    notes: "本次四組GitHub檔案搜尋無命中；僅表示此次搜尋未找到，不排除其他索引缺漏或已有近似檔。"
+  - 
+    id: "Q002"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    platform: "web search"
+    query: "新竹地檢署1150828棒球場偵結新聞稿及處分書"
+    scope: "新竹地檢署與轉述媒體"
+    result: "partial"
+    notes: "檢方新聞稿PDF原址有定位，但web開啟超時；新聞引述可核，未完整閱讀處分書。"
+  - 
+    id: "Q003"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    platform: "web search"
+    query: "2026年寶特瓶；2022年啤酒罐；2025與2026球場開挖"
+    scope: "公視2025與2026新聞及社群脈絡"
+    result: "found"
+    notes: "確認2025-03-05公視報導2022年啤酒罐；2026寶特瓶另見媒體轉述，來源採證鏈未完整。"
+  - 
+    id: "Q004"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    platform: "web search"
+    query: "新竹棒球場4人緩起訴 2026年10月撤銷發回"
+    scope: "中央社、中時及公開二手彙整"
+    result: "partial"
+    notes: "媒體有相互未完整對齊的資訊；沒有直接取得高檢署書面，不標為已撤銷或確定有效。"
+  - 
+    id: "Q005"
+    observed_at: "2026-11-11T21:04:04+08:00"
+    platform: "Browser connected tab"
+    query: "使用者提供Facebook原貼文"
+    scope: "已開啟Facebook貼文tab"
+    result: "partial"
+    notes: "tab讀取出現Facebook動態消息與其他貼文，未能可靠直接重現本貼文；保存使用者提供擷取並揭露限制。"
+promotion: 
+  cases: []
+  comparators: []
+  research: []
+notes: 
+  - "本資料保存來源觀察、可核實事實與待驗主張；不得把使用者提供之評論直接升格成外部客觀事實。"
+  - "重要三層：刑事罪證不足、監察院行政糾正與原工程契約缺失、2026改善工程實際工項；互不取代。"
+  - "原社群作者對『2023挖到2026罐子』的反駁沒有比較相同物件及採樣時間；2025出土2022年啤酒罐與2026新工程寶特瓶必須分離。"
+  - "關鍵待調：竹檢不起訴處分與高檢署再議處分原件、完整BrightView報告、原現地回填契約、採樣及篩分紀錄、被批評者原始發文、球場驗收/CPBL認證進度。"
