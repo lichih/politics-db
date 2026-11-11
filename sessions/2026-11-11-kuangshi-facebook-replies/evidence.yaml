@@ -182,7 +182,7 @@ searches:
     query: "原貼文、留言、comment_id、relation、timestamp"
     scope: "Facebook指定貼文當時於browser extension可見範圍"
     result: found
-    notes: "本地解析完整266 items，365? 不計未載入留言；260? 實際265則各有唯一comment_id，文字與時間按證據來源保存於replies.ndjson。來源並無完整回覆樹證據，不擅自建構對話先後或因果。"
+    notes: "本地解析完整266 items（原文1／可見回覆265）；265則各有唯一comment_id，文字與時間按證據來源保存於replies.ndjson。來源並無完整回覆樹證據，不擅自建構對話先後或因果。"
 
 promotion:
   cases: []
