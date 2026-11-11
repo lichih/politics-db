@@ -1,0 +1,115 @@
+session:
+  id: 2026-10-31-taipei-debate-spatial-stitching
+  project: Politics
+  title: "2026台北市長辯論：市民大道縫合概念、SOGO與微風地理反證及論證界線"
+  started_at: "2026-10-31T15:37:11+08:00"
+  updated_at: "2026-10-31T15:37:11+08:00"
+  status: active
+
+topics: [台北市長選舉, 政策辯論, 都市設計, 市民大道, 縫合, 地理事實, 局部反證, 現任者資訊優勢]
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "Z9 的看板 Facebook"
+    title: "非常明顯 有人表現比較好（轉述交叉詰問）"
+    url: "https://www.facebook.com/zzzzzzzzz9.tw/posts/pfbid0cCTHcb1TmeQ6jvxTBr8XL9be2aabtEVZ7RDAv5wNqTW6cubmsswrMHpLz25f4FaXl"
+    published_at: "2026-10-31"
+    observed_at: "2026-10-31T15:37:11+08:00"
+    retrieval_status: reachable
+    notes: "由連線瀏覽器讀到貼文文字；屬轉述辯論內容，不等於正式完整逐字稿。"
+  - id: S002
+    source_type: primary
+    publisher: "陳智菡 Facebook"
+    title: "我的天！忠孝&復興sogo在忠孝東路……"
+    url: "https://www.facebook.com/vickychen1208/posts/pfbid02xLnMPWGG35pwS2UuW7zwXKbcQ1i9Axja9HpwPLFCUVPmC1sFvU7H7MD8kHS8fAuMl"
+    published_at: "2026-10-31"
+    observed_at: "2026-10-31T15:37:11+08:00"
+    retrieval_status: reachable
+    notes: "由連線瀏覽器讀到貼文及作者補充留言；可直接確認陳智菡提出的反證內容，不能僅因作者提出即證明地理命題。"
+  - id: S003
+    source_type: primary
+    publisher: "臺北市政府都市發展局"
+    title: "建國啤酒廠與中山女高附近人本環境改善"
+    url: "https://udd.gov.taipei/QA/major-task/djdawka-17354"
+    observed_at: "2026-10-31T15:37:11+08:00"
+    retrieval_status: reachable
+    notes: "109年度先期規劃明載以市民大道東西沿線為主軸、探討南北軸向人本環境縫合，並說明高架道路及土地使用帶來不連續與疏離感。"
+  - id: S004
+    source_type: secondary
+    publisher: "TVBS新聞網"
+    title: "台北市長辯論／沈伯洋談縫合舉微風、SOGO為例 陳智菡：「我的天」掀論戰"
+    url: "https://news.tvbs.com.tw/politics/4043914"
+    published_at: "2026-10-31T14:26:00+08:00"
+    observed_at: "2026-10-31T15:37:11+08:00"
+    retrieval_status: reachable
+    notes: "報導引述沈伯洋以SOGO跨越市民大道到微風廣場為例，並記錄陳智菡反駁；此篇未代替辯論完整影像。"
+
+facts:
+  - id: F001
+    statement: "2026年10月31日辯論中，沈伯洋以SOGO人潮跨越市民大道前往微風廣場，說明空間及心理隔閡的縫合概念。"
+    status: verified
+    observed_at: "2026-10-31T15:37:11+08:00"
+    source_ids: [S001, S004]
+    evidence_summary: "兩個來源均呈現該例子，TVBS報導引述了相關辯論發言。"
+    verification_notes: ["若日後取得正式影音或逐字稿，應再核對原句及上下文。"]
+    tags: [辯論發言, 舉例]
+  - id: F002
+    statement: "陳智菡公開指出忠孝及復興SOGO與微風廣場並非隔著市民大道，並在留言質疑沈伯洋指涉哪一間SOGO。"
+    status: verified
+    observed_at: "2026-10-31T15:37:11+08:00"
+    source_ids: [S002, S004]
+    evidence_summary: "當事人貼文與當日新聞報導可直接確認反駁內容。"
+    verification_notes: ["此項驗證的是反駁確實被提出；地理位置判斷另由地圖與實際位置核對。"]
+    tags: [公開反證]
+  - id: F003
+    statement: "臺北市都市發展局既有政策資料明確使用『市民大道南北軸向人本環境縫合』，並指出部分地區高架道路與土地使用造成空間不連續及疏離感。"
+    status: verified
+    observed_at: "2026-10-31T15:37:11+08:00"
+    source_ids: [S003]
+    evidence_summary: "官方109年度人本環境改善先期規劃的施政願景直接記載。"
+    verification_notes: ["官方資料的具體規劃核心在建國啤酒廠與中山女高附近，不能直接替沈的SOGO／微風地理舉例背書。"]
+    tags: [官方政策, 都市設計]
+
+claims:
+  - id: C001
+    statement: "SOGO忠孝館、復興館與微風廣場位於市民大道同側，以這些百貨隔著市民大道說明南北縫合是地理失準。"
+    status: supported
+    supports: [F001, F002]
+    contradicts: []
+    related_facts: [F003]
+    reasoning_notes: "地理判斷需使用地址／地圖獨立交叉核驗；此處保留作者提出的具體反證與再核對要求，不把社群貼文等同測繪成果。"
+  - id: C002
+    statement: "沈伯洋舉錯SOGO與微風案例，所以市民大道不存在南北人本空間縫合問題。"
+    status: contradicted
+    supports: []
+    contradicts: [F003]
+    related_facts: [F001, F002]
+    reasoning_notes: "局部例子失準不會推翻市府正式規劃中獨立存在的都市縫合問題；要區分個別示例與政策命題。"
+  - id: C003
+    statement: "現任市長掌握行政資料的資訊優勢，應使挑戰者在辯論中免於檢驗其公共可查證的地理事實。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F001, F002]
+    reasoning_notes: "規範判準：資訊不對稱應納入攻防情境，但不構成對任何一方的事實查核豁免；亦不應把未背出行政數字自動等同政策論證錯誤。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-31T15:37:11+08:00"
+    platform: web
+    query: "site:udd.gov.taipei 市民大道 南北軸向 人本環境 縫合"
+    scope: "北市政府都市發展局"
+    result: found
+    notes: "找到官方109年度規劃，確認存在政策概念；不等於沈伯洋所舉地理例子正確。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "長期價值：示範有效局部反證的邊界，同一辯論中可以同時存在錯誤舉例與正確政策概念。"
+  - "不儲存誰贏辯論的分數為研究結論，不直接據此評定候選人整體市政能力。"
+  - "尚待補強：三間百貨的官方地址與標示明確的地圖、辯論原始影音時間碼，以及其他工程方案的原始規劃圖。"
+  - "選舉過後仍可作為跨陣營論證評估之案例；目前不建議單獨發表Fact文章。"
