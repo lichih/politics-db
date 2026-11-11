@@ -1,0 +1,224 @@
+session:
+  id: 2026-11-11-huang-allegations-evidence-standards
+  project: Politics
+  title: "黃國昌揭弊與反向政治指控的證據層次：質疑、更正、抹黑及抹紅之比較"
+  started_at: "2026-11-11T22:44:14+08:00"
+  updated_at: "2026-11-11T22:44:14+08:00"
+  status: active
+
+topics:
+  - 黃國昌
+  - 柯文哲
+  - 民進黨
+  - 揭弊
+  - 抹黑
+  - 抹紅
+  - 政治攻擊
+  - 證據層次
+  - 合理查證
+  - 更正
+  - 台鹽綠能
+  - im.B
+  - 超思雞蛋
+  - 鏡週刊
+  - 判決
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "司法院裁判書查詢／臺灣臺北地方法院"
+    title: "臺灣臺北地方法院114年度訴字第6611號民事判決（2026-08-31）"
+    url: "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TPDV%2C114%2C%E8%A8%B4%2C6611%2C20260831%2C1"
+    published_at: "2026-08-31"
+    observed_at: "2026-11-11T22:44:14+08:00"
+    retrieval_status: reachable
+    notes:
+      - "比對完整判決主文與理由；不是新聞摘要。判決有刊登判決全文30日的命令，不能因較短摘錄未顯示便認定沒有。"
+      - "當次確認為一審民事判決；本次未進一步核實上訴與確定狀態。"
+  - id: S002
+    source_type: primary
+    publisher: "農業部"
+    title: "黃國昌委員稱短差六百萬顆蛋 事實是委員算錯了"
+    url: "https://www.moa.gov.tw/theme_data.php?id=9432&sub_theme=agri&theme=news"
+    published_at: "2024-06-24"
+    observed_at: "2026-11-11T22:44:14+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方對黃國昌短少600萬顆蛋指控提出日本每箱10公斤、臺灣每箱12公斤的資料口徑說明。官方說法本身並非所有採購爭議的終局裁判。"
+  - id: S003
+    source_type: secondary
+    publisher: "中央社"
+    title: "服務處曾是詐騙集團資產 陳歐珀：不知情下獲贊助"
+    url: "https://www.cna.com.tw/news/aipl/202305180212.aspx"
+    published_at: "2023-05-18"
+    observed_at: "2026-11-11T22:44:14+08:00"
+    retrieval_status: reachable
+    notes:
+      - "同時記錄黃國昌的im.B關係指控與陳歐珀承認曾免費使用場所、否認知情的回應。"
+  - id: S004
+    source_type: secondary
+    publisher: "TVBS"
+    title: "民眾黨道歉了！控電子媒體全沈默錯誤 TVBS完整報導曝"
+    url: "https://news.tvbs.com.tw/politics/2361170"
+    published_at: "2024-01-08"
+    observed_at: "2026-11-11T22:44:14+08:00"
+    retrieval_status: reachable
+    notes:
+      - "包含柯文哲競選總部更正聲明全文：承認『電子媒體未報導』圖卡及相關發言有誤並致歉。"
+  - id: S005
+    source_type: primary
+    publisher: "臺灣臺南地方檢察署"
+    title: "南檢偵辦台鹽綠能公司陳姓前董事長、蘇姓前總經理等涉嫌違反證券交易法、公司法等案提起公訴"
+    url: "https://www.tnc.moj.gov.tw/media/389694/1140227%E5%8D%97%E6%AA%A2%E5%81%B5%E8%BE%A6%E5%8F%B0%E9%B9%BD%E7%B6%A0%E8%83%BD%E5%85%AC%E5%8F%B8%E5%89%8D%E8%91%A3%E4%BA%8B%E9%95%B7%E9%99%B3o%E6%98%B1%E7%AD%89%E9%81%95%E5%8F%8D%E8%AD%89%E5%8A%B5%E4%BA%A4%E6%98%93%E6%B3%95%E7%AD%89%E6%A1%88%E6%96%B0%E8%81%9E%E7%A8%BF.pdf?mediaDL=true"
+    published_at: "2025-02-27"
+    observed_at: "2026-11-11T22:44:14+08:00"
+    retrieval_status: reachable
+    notes:
+      - "已核對檢署新聞稿PDF文字及第1頁影像；確認為起訴而非有罪確定。"
+  - id: S006
+    source_type: secondary
+    publisher: "中央社"
+    title: "黃國昌指超思進口蛋短差600萬顆 農業部：委員算錯了"
+    url: "https://www.cna.com.tw/news/aipl/202406240219.aspx"
+    published_at: "2024-06-24"
+    observed_at: "2026-11-11T22:44:14+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記錄原指控、兩次索資時的箱數資料及農業部回應，避免只保存單方澄清。"
+
+facts:
+  - id: F001
+    statement: "臺北地院2026-08-31於114年度訴字第6611號民事一審判決，就鏡週刊／鏡新聞相關報導判命被告賠償黃國昌54萬元、鄭凱燁6萬元，移除附表1至4報導，並在兩網站刊登判決全文30日；附表5未列入移除命令。"
+    status: verified
+    observed_at: "2026-11-11T22:44:14+08:00"
+    source_ids: [S001]
+    evidence_summary: "判決主文第一至七項直接載明36萬、18萬、6萬、移除附表1至4及刊登30日。"
+    verification_notes:
+      - "民事一審的法律與證據判斷，不等於刑事定罪，也未證明民進黨中央指揮媒體。"
+      - "完整主文有刊登30日；讀取截斷摘錄時不得誤記為沒有。"
+      - "本次未核實判決是否已確定或上訴；下次引用需再確認程序狀態。"
+    tags: ["2026", 黃國昌, 鏡週刊, 民事判決, 媒體, 證據層次]
+  - id: F002
+    statement: "該判決理由逐段比對記者訪談譯文與報導內容，認定附表1至4的部分重要指控缺乏客觀合理查證依據，例如從尋找公開資料推論為侵入戶政系統、從零散對話推論有組織駭客與酬勞；法院對附表5則另作區別判斷。"
+    status: verified
+    observed_at: "2026-11-11T22:44:14+08:00"
+    source_ids: [S001]
+    evidence_summary: "判決事實及理由四之㈣比對證言、訪談問答、對話截圖及具體報導命題，區分可支持與不能支持的推論。"
+    verification_notes:
+      - "不可概括為『五篇全被法院認定侵權』；附表5的請求遭駁回。"
+      - "此處保存法院認定的證據落差，而不是逕認所有對黃國昌的批評均屬造謠。"
+    tags: ["2026", 鏡週刊, 推論落差, 合理查證, 法院]
+  - id: F003
+    statement: "2023-05-18黃國昌指稱im.B主嫌相關大樓曾被陳歐珀作為後援會／服務處；陳歐珀同日承認曾接受免費場所贊助，表示不知情且否認與詐騙有不法關係。"
+    status: verified
+    observed_at: "2026-11-11T22:44:14+08:00"
+    source_ids: [S003]
+    evidence_summary: "中央社同篇記載具體場所關聯與當事人回應。"
+    verification_notes:
+      - "證實曾使用或接受免費場所，不能自動證明收受不法利益時具有詐騙知情或參與犯意。"
+      - "黃國昌對『詐騙集團利益』的較強定性須與具體資產使用事實分開。"
+    tags: ["2023", 黃國昌, 陳歐珀, im.B, 利益往來]
+  - id: F004
+    statement: "2024-06-24農業部針對黃國昌所稱日本進口雞蛋短少約600萬顆提出反證，稱差額源自兩批資料分別以10公斤及12公斤每箱換算，兩批的總重量均為1843.2公噸、總顆數均為3081萬顆。"
+    status: verified
+    observed_at: "2026-11-11T22:44:14+08:00"
+    source_ids: [S002, S006]
+    evidence_summary: "官方發布具體換算口徑及相同總重量、總顆數，中央社同日完整報導雙方主張。"
+    verification_notes:
+      - "可直接證明有具體、可計算的反證；若要裁斷整體採購案仍需完整採購與報關資料。"
+      - "不能把這一數字爭議推廣為黃國昌所有揭弊不實。"
+    tags: ["2024", 黃國昌, 超思, 農業部, 反證]
+  - id: F005
+    statement: "2025-02-27南檢就台鹽綠能公司相關非常規交易與涉嫌背信等，對陳姓前董事長等提出公訴。"
+    status: verified
+    observed_at: "2026-11-11T22:44:14+08:00"
+    source_ids: [S005]
+    evidence_summary: "檢署正式起訴新聞稿列出涉案人員與涉嫌交易方式。"
+    verification_notes:
+      - "此事可作弊案確有後續刑事追訴的獨立依據，不能取代逐條對照黃國昌早期爆料原文，也不代表任何特定指控已經定讞。"
+    tags: ["2025", 台鹽綠能, 檢察署, 起訴]
+  - id: F006
+    statement: "2024-01-08柯文哲競選總部承認『電子媒體未報導』相關圖卡與發言有誤，在公開聲明中更正並致歉；黃國昌曾參與當日相關記者會。"
+    status: verified
+    observed_at: "2026-11-11T22:44:14+08:00"
+    source_ids: [S004]
+    evidence_summary: "TVBS刊載柯競總更正啟事全文並報導參與者；屬『質疑—反證—公開更正』明確樣本。"
+    verification_notes:
+      - "不因更正就否認曾出錯，也不因原先出錯就自動定性為蓄意抹黑。"
+    tags: ["2024", 柯文哲, 黃國昌, 更正, 競選]
+claims:
+  - id: C001
+    statement: "研究政治攻擊品質，應區分一般質疑、事實錯誤後更正、遭反證後維持負面敘事、以及有證據證明明知不實仍散布；不能把四者混為『互相抹黑』。"
+    status: supported
+    supports: [F006, F001, F002]
+    contradicts: []
+    related_facts: [F003, F004]
+    reasoning_notes: "是比較方法與分析分類，不是單一來源陳述；要比較後續處理，必須同時保存原始指控、反證出現時間及後續回應。"
+  - id: C002
+    statement: "鏡週刊養駭客民事判決構成可具體檢驗的『指控強度超過證據承載力』樣本。"
+    status: supported
+    supports: [F001, F002]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "以法院核對訪談譯文、對話紀錄及特定報導命題的推論鏈作判準；只涵蓋判決涉及的言論與民事侵權認定。"
+  - id: C003
+    statement: "現有樣本已足以證明黃國昌的每一次揭弊都有高度證據支持、其批評者的每一次指控都沒有證據。"
+    status: unsupported
+    supports: []
+    contradicts: [F004]
+    related_facts: [F001, F002, F003, F005]
+    reasoning_notes: "im.B的場所事實有當事人承認；台鹽案有檢方起訴；雞蛋箱數則有可核算反證。各案各命題應分別評級，禁止跨案件預支可信度。"
+  - id: C004
+    statement: "這些案例已能證明民進黨中央組織、出資或指示媒體不實攻擊黃國昌。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F001, F002]
+    reasoning_notes: "法院處理鏡傳媒／鏡電視的責任，未據此認定民進黨中央指揮或資助；組織、指示、金流指控需要個別外部證據。"
+  - id: C005
+    statement: "黃國昌爆料與針對黃國昌的抹黑／抹紅，存在可量化的證據品質及更正行為不對稱。"
+    status: unresolved
+    supports: [F001, F002, F003, F005, F006]
+    contradicts: [F004]
+    related_facts: []
+    reasoning_notes: "目前是存在性樣本，不能推出全體或頻率大小。後續應按同一抽樣窗口蒐集兩邊具體命題，依原始文件／司法確認／間接證據／政治聯想分級，追蹤更正、撤回、換題及維持指控。"
+  - id: C006
+    statement: "政治人物或支持者把不同立法選擇直接稱為『中共同路人』，其證據層次不同於已證明受中共指示、收受資金或有組織代理關係。"
+    status: supported
+    supports: []
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "概念命題；已有相關存在性材料於 research/2026-10-20-ccp-fellow-traveler-label-diffusion/evidence.yaml，不重抄其原始事證；政治效果評價不等於可驗證的外部組織關係。"
+searches:
+  - id: Q001
+    observed_at: "2026-11-11T22:44:14+08:00"
+    platform: "GitHub politics-db"
+    query: "政治攻擊、抹紅、證據層次、先前研究"
+    scope: "main 分支 sessions/ 與 research/；閱讀 2026-10-20 標籤傳播及 2026-10-23 不對稱判準研究"
+    result: found
+    notes: "找到了相關標籤研究及比較判準；本檔專注於具體揭弊與反向指控的證據分層，避免重複原資料。"
+  - id: Q002
+    observed_at: "2026-11-11T22:44:14+08:00"
+    platform: "web / 司法院 / 農業部 / 南檢 / 新聞檢索"
+    query: "黃國昌 im.B 陳歐珀；超思600萬顆；台鹽綠能起訴；114訴6611；2024競總更正"
+    scope: "截至2026-11-11可直接讀取的公開來源"
+    result: found
+    notes: "確認具體場所與當事人承認、箱數反證、檢署起訴、競總公開更正及民事一審完整主文。"
+  - id: Q003
+    observed_at: "2026-11-11T22:44:14+08:00"
+    platform: "web + GitHub existing evidence"
+    query: "2008年柯文哲／黃國昌組織性抹黑國民黨；跨陣營系統性攻擊頻率"
+    scope: "本次尚未展開完整歷史檔案或代表性抽樣"
+    result: partial
+    notes: "前段對話提及此問題，但這次尚無足以評級的系統性資料；不得將未找到等於歷史上不存在。"
+promotion:
+  cases: []
+  comparators:
+    - proposed: "huang-revelation-vs-reverse-accusation-proof-thresholds"
+      rationale: "將相同證據門檻、對錯誤的後續處理、證明命題強度的差異用於跨陣營對照。"
+  research: []
+notes:
+  - "本session保存2026-11-11對話中的研究方向：使用者認為針對黃國昌的抹紅與抹黑頻繁而離譜，要求反向檢查黃國昌爆料證據層次，不能用『雙方都會攻擊』代替證據比較。此為待檢驗假說而非 verified fact。"
+  - "證據層級不是固定四階分數：法院確定事實／司法程序進度、原始文書與金流、間接截圖或匿名爆料、政治立場聯想，必須各自對應所支持的命題。起訴非定罪、民事判決非刑事定罪，消息來源與政黨組織關係不得任意連結。"
+  - "『質疑→更正』與『反證後繼續以其他理由攻擊』需不同評價。若要判定刻意抹黑，特別追查反證何時公開、本人是否知悉、是否撤回或更正、是否維持被反證的同一事實指控。"
+  - "與 research/2026-10-20-ccp-fellow-traveler-label-diffusion/evidence.yaml 的抹紅語義與 research/2026-10-23-asymmetric-political-evaluation-standards/evidence.yaml 的同一把尺相互參照；原始證據仍由各自source記錄。"
