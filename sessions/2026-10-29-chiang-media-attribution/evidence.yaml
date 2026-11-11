@@ -1,0 +1,102 @@
+session:
+  id: "2026-10-29-chiang-media-attribution"
+  project: Politics
+  title: "蔣萬安受訪現場喊話者身分：媒體影音標題與文字報導歸因差異"
+  started_at: "2026-10-29T16:37:42+08:00"
+  updated_at: "2026-10-29T16:37:42+08:00"
+  status: active
+
+topics:
+  - 媒體查核
+  - 政治新聞
+  - 蔣萬安
+  - 來源歸因
+  - 新聞標題
+
+sources:
+  - id: S001
+    source_type: commentary
+    publisher: 黃揚明（剝雞）
+    title: "現場某媒體攝影記者為求堵訪收音而喊之說明"
+    url: "https://www.facebook.com/PokiiHuang/posts/pfbid02WMnqmBkswuPSaWEQFnLnQ15WB579aFT1WHeNQZrcUWrLdSSeym9dYqmnob62hqStl"
+    published_at: "2026-10-29"
+    observed_at: "2026-10-29T16:34:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "透過使用者已開啟的 Facebook browser tab 讀取貼文全文。觀察時間記錄至分鐘精度（約 16:34），不是發文時間。"
+      - "貼文另附一張圖片；本次僅取得文字，沒有獨立核對圖片全部細節。"
+  - id: S002
+    source_type: secondary
+    publisher: 三立新聞／Yahoo 新聞轉載
+    title: "蔣萬安掃街凍蒜聲不斷 現場大吼「不要吵！市長講話吵什麼」"
+    url: "https://tw.news.yahoo.com/%E8%94%A3%E8%90%AC%E5%AE%89%E6%8E%83%E8%A1%97%E5%87%8D%E8%92%9C%E8%81%B2%E4%B8%8D%E6%96%B7-%E7%8F%BE%E5%A0%B4%E5%A4%A7%E5%90%BC-%E4%B8%8D%E8%A6%81%E5%90%B5-%E5%B8%82%E9%95%B7%E8%AC%9B%E8%A9%B1%E5%90%B5%E4%BB%80%E9%BA%BC-143500175.html"
+    observed_at: "2026-10-29T16:37:42+08:00"
+    retrieval_status: reachable
+    notes:
+      - "此來源係前段對話查得的轉載網址；此次歸檔時未重新讀取全文，保留待複核。"
+  - id: S003
+    source_type: secondary
+    publisher: 三立新聞影音
+    title: "前次查核記錄的影音標題：『隨行人員嗆』與『工作人員突吼』"
+    observed_at: "2026-10-29T16:37:42+08:00"
+    retrieval_status: not_found
+    notes:
+      - "前段對話曾辨識三立影音標題直接將喊話者歸為隨行／工作人員，但本次尚未保留影音原始網址、發布時間及完整影片，不能當成再次獨立核實。"
+      - "待補原始影片永久連結、標題畫面及上架時間。"
+
+facts:
+  - id: F001
+    statement: "2026-10-29 黃揚明在公開 Facebook 貼文主張，現場喊話者是為堵訪收音而喊話的某媒體攝影記者，並指稱有媒體將發話者歸為蔣萬安隨行人員。"
+    status: verified
+    observed_at: "2026-10-29T16:34:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "已從開啟的 Facebook 分頁讀到原文；可證明黃揚明作出此主張，不能單憑貼文證明喊話者身分。"
+    excerpt: "這句是現場某媒體攝影記者為求堵訪收音而喊"
+    verification_notes:
+      - "原文另批評媒體及網路擴散；『網軍』描述未另行查證。"
+    tags: ["原始貼文", "主張存在"]
+  - id: F002
+    statement: "先前同一對話辨識三立文字稿稱『有人大吼』，但影音標題曾稱『隨行人員嗆』或『工作人員突吼』。"
+    status: partial
+    observed_at: "2026-10-29T16:37:42+08:00"
+    source_ids: [S002, S003]
+    evidence_summary: "歸檔的是先前核對所得的媒體文本對照線索；影音完整原始網址與畫面尚需補強，不將其升格為完成獨立查核的事實。"
+    verification_notes:
+      - "核對兩類標題是否為同一影片、是否有後續更正，並確認新聞正文沒有其他身分證據。"
+    tags: ["標題與內文落差", "待補原始影音"]
+
+claims:
+  - id: C001
+    statement: "發話者實際上是現場媒體攝影記者，而非蔣萬安隨行／工作人員。"
+    status: unresolved
+    related_facts: [F001]
+    reasoning_notes: "目前直接可見的是黃揚明的指認；需完整現場畫面、同步收音與獨立在場證詞。"
+  - id: C002
+    statement: "媒體在文字新聞未證明身分時，於影音標題將發話者歸為蔣萬安隨行／工作人員。"
+    status: unresolved
+    related_facts: [F002]
+    reasoning_notes: "先前對話有一致的文本落差線索，待保存影音原始頁面與文字稿快照後再升格。"
+  - id: C003
+    statement: "有組織的網軍接續操作該錯誤歸因。"
+    status: unsupported
+    related_facts: [F001]
+    reasoning_notes: "黃揚明雖提出此說，僅憑留言、轉發或政治傾向無法證實組織性協同行為。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-29T16:37:42+08:00"
+    platform: GitHub politics-db code search
+    query: "蔣萬安；三立"
+    scope: "repo:lichih/politics-db"
+    result: not_found
+    notes: "兩個搜尋回報零命中且 incomplete_results=true，不能推論 repo 沒有任何既有相關紀錄。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "可重用的研究命題為：媒體對現場聲音發話者的歸因，是否有足以支持具體身分的證據？"
+  - "最終定性須分開評估：一、標題與正文差異；二、實際發話者身分；三、社群傳播是否有協調操作。三者證據門檻不同。"
+  - "後續優先補：三立影音與文字稿的原始 URL、發布與修改時間、影音關鍵幀、現場可辨識的發話方向及第三方佐證。"
