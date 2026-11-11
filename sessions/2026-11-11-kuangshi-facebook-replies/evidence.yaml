@@ -1,0 +1,198 @@
+session:
+  id: "2026-11-11-kuangshi-facebook-replies"
+  project: Politics
+  title: "黃國昌曠世智能貼文：265則可見回覆的言語行為、財務反論與支持者回饋"
+  started_at: "2026-11-11T19:04:25.774+08:00"
+  updated_at: "2026-11-11T19:04:25.774+08:00"
+  status: active
+
+topics:
+  - 曠世智能
+  - 黃國昌
+  - 蘇巧慧
+  - 公股投資
+  - 支持者回饋
+  - 社群論證
+  - 增資稀釋
+  - 按鈴提告
+  - 不同陣營相同判準
+  - 可見留言樣本
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "Facebook／黃國昌公開貼文（使用者提供 deterministic 擷取）"
+    title: "曠世智能投資追問及265則可見回覆"
+    url: "https://www.facebook.com/kcfor2016/posts/pfbid0VqSRD4iQZdQ24mfxhkxmzyDt22a6DxJHTVhicD2QGDk6CFpbuuW577UcjGZqHZKMl"
+    observed_at: "2026-11-11T18:52:11.411+08:00"
+    retrieval_status: blocked
+    notes:
+      - "擷取工具 Political Research Social Capture v0.9.0；source.captured_at=2026-11-11T10:52:11.411Z；capture_status=deterministic，主文timestamp=null。"
+      - "使用者提供檔名 Pasted text(20261111-105312).txt；原始255,004 bytes，SHA-256=2834debb11c1b1c1e1d8d12b9d5a93022285e841e00b6a0c8cacd4495acfc758。"
+      - "共266個items：1則主文、264則direct_reply、1則same_thread回覆；留言IDs互異共265則，可見作者標識261個，但不是261個已確認真實自然人。"
+      - "所有265則的comment_id、timestamp、relation.kind和完整文字（不複製作者姓名／個人帳號）保存於同資料夾 replies.ndjson；一則原擷取僅標GIPHY，未經逐格檢視其媒體語義。"
+      - "所有已擷取留言皆有文字或可辨識的GIPHY標籤，部分可能只有語氣詞、貼圖或雙關語；不能以語義不足等同沒有任何回應。"
+      - "原始貼文與留言仍應用獨立平台來源核查，這份證據首先證明使用者提供的 deterministic capture 包含何種內容；不可稱作平台全量、隨機或代表性抽樣。"
+      - "重要警示：Facebook 並非可見留言的完整母體；留言排列與當時UI載入、演算法、刪除、搜尋／排序方式可能造成選擇偏差；不能推估陣營人口比例。"
+
+  - id: S002
+    source_type: secondary
+    publisher: "聯合報"
+    title: "黃國昌控蘇家砸3.4億入主曠世智能 蘇巧慧競辦：投約2300萬"
+    url: "https://udn.com/news/story/124652/9872038"
+    published_at: "2026-11-11"
+    observed_at: "2026-11-11T19:04:25.774+08:00"
+    retrieval_status: reachable
+    notes:
+      - "蘇巧慧競辦主張蘇巧純先前投入共約2,300萬元、取得當時34%股權。這是當事人說法，尚需歷次增資／股款證明。"
+
+  - id: S003
+    source_type: secondary
+    publisher: "聯合報"
+    title: "國發會指蘇小姐一股80元買曠世智能 黃國昌：總價3.4億從何而來？"
+    url: "https://udn.com/news/story/124652/9872030"
+    published_at: "2026-11-11"
+    observed_at: "2026-11-11T19:04:25.774+08:00"
+    retrieval_status: reachable
+    notes:
+      - "黃國昌早前以80元乘蘇巧純持股增加4,268,390股推算3.4億元，前提尚未被原始交易資料證明。"
+
+facts:
+  - id: F001
+    statement: "這次 user-provided deterministic capture 含一則黃國昌曠世智能原貼文與265則可見留言，其中264則與主文具direct_reply關係、一則標為same_thread且parent_id未被證實。"
+    status: verified
+    observed_at: "2026-11-11T18:52:11.411+08:00"
+    source_ids: [S001]
+    evidence_summary: "依items[]排除root後計265個互異comment_id；261個不同的作者handle／display_name標識，不能由此推定全體討論、重複曝光、獨立選民或實際政黨歸屬。"
+    tags: [樣本數, 擷取, 分母, 關係限制]
+
+  - id: F002
+    statement: "可見留言中存在直接針對投資價格跨期比較、早期投資風險、後續增資稀釋提出可辨識反論的回覆，亦有反問是否把增資後全部股份誤算為一次認購的回覆。"
+    status: verified
+    observed_at: "2026-11-11T18:52:11.411+08:00"
+    source_ids: [S001]
+    evidence_summary: "例如5636024423290259、1616745859566538、2543275509812591主張早期成本不同與增資稀釋；1153423023922843追問是否把增資所有股權拿來比較。這些短論點與主文比較方法相關，不因作者語氣尖銳而抹去；但是否足以解釋實際34%／27.73%仍須原始登記。"
+    tags: [實質反論, 增資稀釋, 估值, 支持者樣本]
+
+  - id: F003
+    statement: "另有要求提供歷次增資資本簽證、政府資金流向或負責官員之具體問句，不能與純粹辱罵或只叫對方去告混為一類。"
+    status: verified
+    observed_at: "2026-11-11T18:52:11.411+08:00"
+    source_ids: [S001]
+    evidence_summary: "1594248726056251要求歷次會計師資本簽證；1169482845502532主張納稅人有權了解資金使用；1793471498581982追問國發會實際負責人及其與蘇家之連結（同留言兼有辱罵）；2315170422616075要求立院質詢國發基金。"
+    tags: [舉證要求, 原始文件, 究責, 問題相關]
+
+  - id: F004
+    statement: "『去告／按鈴／提告』作為回應方式在同一可見串中反覆出現，既有針對黃國昌要求提告，也有從黃國昌支持立場要求究責，還有反向質疑蘇巧慧為何不提告。"
+    status: verified
+    observed_at: "2026-11-11T18:52:11.411+08:00"
+    source_ids: [S001]
+    evidence_summary: "1144289791893019稱『天天直播就是不按鈴告』，4714973315494669鼓勵按鈴，3262527017474815反問『去告刑事啊』；2331749357673865則稱『蘇巧慧不敢提告對方？有鬼』。詞組『提告／去告／按鈴』合計命中19則，是字面詞組聯集，不是19則有效法律論證。"
+    tags: [訴訟門檻, 主張存在, 跨立場對照]
+
+  - id: F005
+    statement: "本串有直接應援黃國昌、批評黃國昌與反諷式回覆並存；不能只因『加油／支持』等字眼就判定發言者支持黃國昌。"
+    status: verified
+    observed_at: "2026-11-11T18:52:11.411+08:00"
+    source_ids: [S001]
+    evidence_summary: "4805843962970563、1472370364784585屬直白應援；951610977832230稱『支持國昌老師！民眾黨亡！』不應按前半句誤判純應援；2586039618556731明言後悔投過民眾黨，僅能確認該留言自述。"
+    tags: [純支持, 反諷, 自我表述, reward]
+
+  - id: F006
+    statement: "同一可見串有不同政治方向的人身攻擊、將對方歸類為青鳥或小草、無據影射網軍及既有他案換題；不能只挑選某一方的極端句當作整體群體性質。"
+    status: verified
+    observed_at: "2026-11-11T18:52:11.411+08:00"
+    source_ids: [S001]
+    evidence_summary: "例如1148666021014494侮辱『青鳥』；1408768911013431宣稱留言區大部分領錢工作但未提出證據；1826343151642155以木可公司案反問；1139941405249897指控周曉芸收紅錢；1606105447487340以『你露出馬腳』回敬；各自僅保存其發言存在，不驗證其案外指控。"
+    tags: [人身攻擊, 群體標籤, 換題, 未經證實指控]
+
+  - id: F007
+    statement: "可見留言對原貼文所假定的貪污或利益輸送存在未經原始證據核實即先行定性的強烈評價；這些是支持端回饋訊號，但不能因有呼應原文就稱其已提出新的證據。"
+    status: verified
+    observed_at: "2026-11-11T18:52:11.411+08:00"
+    source_ids: [S001]
+    evidence_summary: "1433615645046497稱『詐騙集團分贓』；2127852371230882稱『貪得無厭一家人』；4256084948032165稱『蘇一家都是貪官』。實際有無犯罪仍應由原始交易、構成要件與司法程序判斷。"
+    tags: [Reward, 先行定罪, 嚴重政治指控, 證據邊界]
+
+  - id: F008
+    statement: "部分表面上站在主文一方的留言，仍確實質疑同陣營對反對者的群體標籤或主張納稅人監督；也有反方直接回到股權稀釋或政府權責，並非所有回覆都在以身份替代論點。"
+    status: verified
+    observed_at: "2026-11-11T18:52:11.411+08:00"
+    source_ids: [S001]
+    evidence_summary: "1157299750244333問蘇家待答之處；1169482845502532主張納稅人查帳；2543275509812591提出稀釋機制；1793471498581982要求具體決策者（兼有情緒攻擊）。這是存在性反例，不建立各立場比例。"
+    tags: [跨立場, 存在性反例, 財務推理]
+
+  - id: F009
+    statement: "2026年11月11日可見留言中，有人正面主張『早期投資承擔較大風險／持股遭增資稀釋』，也有人以『非上市公司就不該管』回應；後者並不能直接回答政府公股投資是否應受審查。"
+    status: verified
+    observed_at: "2026-11-11T18:52:11.411+08:00"
+    source_ids: [S001]
+    evidence_summary: "前者例如5636024423290259、1616745859566538，後者5085686258340837稱『人家不是上市公司，你是在管哪一樁的？』；兩種反論依適用性和必要前提分別評估，不因都反對黃國昌而視為同等強度。"
+    tags: [論述適用性, 公股監督, 實質反論, 錯置]
+
+claims:
+  - id: C001
+    statement: "這265則是全體支持者的代表性隨機樣本，足以估算民眾黨、民進黨或洋流支持者的論證能力分布。"
+    status: unsupported
+    related_facts: [F001, F005, F006]
+    reasoning_notes: "特定政治人物粉專、特定時間、可見留言與排序存在選擇偏差；作者身分未驗證，不能由短句推定真實黨籍、長期行為或智力。"
+
+  - id: C002
+    statement: "只說『加油』或短句政治認同，因未列財務明細而必然是無效論證或腦外借。"
+    status: contradicted
+    contradicts: [F005]
+    reasoning_notes: "純應援本來就不是意圖完成反證，應以Reward記錄；反諷需觀察完整文字，不能以單一詞判斷方向。"
+
+  - id: C003
+    statement: "對『不同輪投資價格和持股稀釋』的反論全是換題、人身攻擊，不需要核實其機制。"
+    status: contradicted
+    contradicts: [F002, F009]
+    reasoning_notes: "部分反論直接攻擊黃國昌比較不同時間持股／估值的前提，屬可辨識財務命題；正確性需要查交易明細，但相關性不能被抹除。"
+
+  - id: C004
+    statement: "『沒有按鈴告』本身足以證明黃國昌質疑的財務疑點皆不成立；或『蘇巧慧沒有提告』足以證明她違法。"
+    status: unsupported
+    related_facts: [F003, F004]
+    reasoning_notes: "刑事檢舉、民事訴訟與公共質疑的功能及證明責任不同；訴訟是否啟動本身不決定個別前提的真偽。要求提告可以是政治策略，不等於完成對原數字的反證。"
+
+  - id: C005
+    statement: "本串『青鳥』『領錢』『網軍』等指控證明反方受到組織動員或收錢發言。"
+    status: unsupported
+    related_facts: [F006]
+    reasoning_notes: "擷取只直接證明留言者做出指控，未提供付款、組織協調、帳號控制或發文指示證據。不能以討厭某種留言或留言集中出現推定金流。"
+
+  - id: C006
+    statement: "黃國昌與蘇家投資案已有確定的犯罪、圖利、國家虧損由蘇家實拿等結論，可以由本串留言獨立證明。"
+    status: unsupported
+    related_facts: [F002, F007]
+    reasoning_notes: "同案事實與待決爭點應以sessions/2026-10-22-kuangshi-public-investment/evidence.yaml為準；社群回應不能把政治人物的指控升格為可核對交易／司法事實。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-11-11T19:04:25.774+08:00"
+    platform: "GitHub politics-db"
+    query: "supporter reward / national pension reply judgment / Kuangshi public investment"
+    scope: "相關既有sessions、研究與docs工作流"
+    result: found
+    notes: "重用2026-11-06國民年金47則回覆v5方法：先辨識言語行為與真正命題，再查適用性，純應援與社群Reward獨立。曠世智能原案既有2026-10-22 evidence。"
+
+  - id: Q002
+    observed_at: "2026-11-11T18:52:11.411+08:00"
+    platform: "使用者提供 Political Research Social Capture v0.9.0"
+    query: "原貼文、留言、comment_id、relation、timestamp"
+    scope: "Facebook指定貼文當時於browser extension可見範圍"
+    result: found
+    notes: "本地解析完整266 items，365? 不計未載入留言；260? 實際265則各有唯一comment_id，文字與時間按證據來源保存於replies.ndjson。來源並無完整回覆樹證據，不擅自建構對話先後或因果。"
+
+promotion:
+  cases: []
+  comparators: []
+  research:
+    - "支持者Reward、論述適用性與兩方互用訴訟門檻之跨案件比較"
+
+notes:
+  - "參照：sessions/2026-10-22-kuangshi-public-investment/evidence.yaml。此檔僅保存可見社群樣本與論述形式，不將留言當作交易或違法證據。"
+  - "語義分層：直接財務反論、具體文件／權責要求、訴訟門檻／策略、先行定罪式政治評價、另案轉題、群體攻擊、純支持、反諷及語義不明；不以一個『有理率』混合。"
+  - "關於重複作者：261個作者標識／265留言，代表至少有重複標識，並不代表可靠去重後261名自然人；不公開作者姓名與handle。"
+  - "逐則主分類尚未做人工作全樣本互斥編碼，因此只提供可核對的『19則含提告／去告／按鈴字面詞組』，不給論證有效率或陣營比例。避免用不準確比例替政治立場背書。"
+  - "同一言論可同時有有效問題與侮辱（例1793471498581982），不能因一句情緒用詞抹去相關論點，亦不能因提出一個相關問題就免除其無據指控責任。"
