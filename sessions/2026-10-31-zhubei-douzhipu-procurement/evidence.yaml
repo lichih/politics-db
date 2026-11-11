@@ -1,0 +1,152 @@
+session:
+  id: "2026-10-31-zhubei-douzhipu-procurement"
+  project: Politics
+  title: "竹北豆子埔停車場與公園維管採購：公開預算、最有利標及競爭疑點"
+  started_at: "2026-10-31T17:20:00+08:00"
+  updated_at: "2026-10-31T17:20:00+08:00"
+  status: active
+
+topics:
+  - 政府採購
+  - 竹北市
+  - 最有利標
+  - 公開預算
+  - 公園維管
+
+sources:
+  - id: S001
+    source_type: commentary
+    publisher: 我是新竹人 Facebook
+    title: "竹北4.2億工程只便宜36萬的質疑貼文"
+    url: "https://www.facebook.com/Hsinchu.Info/posts/pfbid02gtiMUcfSmNvbeziFZaTq2vNTUzkgZTKzp9wBYks9utWoAfzbDKrV5csBma1Et6dMl"
+    observed_at: "2026-10-31T17:20:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "由已開啟的登入 Facebook 分頁讀得原貼文與作者補充聯合新聞網連結；此為公開評論，不是採購原始文件。"
+  - id: S002
+    source_type: secondary
+    publisher: 台灣政府採購與標案情報站（ezbid）
+    title: "VV957169 竹北市豆子埔公園新建地下停車場及公園改建工程"
+    url: "https://ezbid.tw/detail/3.76.44.64/VV957169"
+    observed_at: "2026-10-31T17:20:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "政府採購公告再呈現平台；未取得政府電子採購網原始公告快照。"
+      - "顯示114/04/18公告、114/05/07截標、114/06/09決標；預算公開、採最有利標、不訂底價、價格納入評選且權重20%以上。"
+  - id: S003
+    source_type: primary
+    publisher: 全國法規資料庫
+    title: "政府採購法第47、52、56條"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030057"
+    observed_at: "2026-10-31T17:20:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "47條容許最有利標不訂底價，須在招標文件敘明理由及決標條件與原則。"
+      - "52條第一項第三款與56條：最有利標依招標文件評審標準綜合評選，非最低標當然得標。"
+      - "本次確認的是現行條文；若要討論2025年決標時之法規適用，仍應比對該時點歷史法規。"
+  - id: S004
+    source_type: secondary
+    publisher: 美麗島電子報
+    title: "4.2億元決標比率99.914％ 竹北採購的價格競爭在哪裡？"
+    url: "https://www.my-formosa.com.tw/DOC_230419.htm"
+    published_at: "2026-10-30"
+    observed_at: "2026-10-31T17:20:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導指出其他投標報價及千甲園藝維管標案集中情況，並指出得標價與其他廠商報價可能不是相同階段數字。"
+
+facts:
+  - id: F001
+    statement: "VV957169標案的再呈現公告記載採最有利標、未訂底價，預算金額公開，且價格列入評選（權重20%以上）。"
+    status: verified
+    observed_at: "2026-10-31T17:20:00+08:00"
+    source_ids: [S002]
+    evidence_summary: "採購平台列出招標日2025-04-18、截止日2025-05-07，並明載預算公開、最有利標、不訂底價。"
+    verification_notes:
+      - "證實公告欄位的再呈現內容；仍宜取得政府電子採購網原始公告以提高來源強度。"
+    tags: ["採購公告", "公開預算", "最有利標"]
+  - id: F002
+    statement: "該標案預算420,361,605元，2025-06-09決標由金春福營造以420,000,000元得標，相差361,605元，決標比率約99.914%。"
+    status: verified
+    observed_at: "2026-10-31T17:20:00+08:00"
+    source_ids: [S002, S004]
+    evidence_summary: "兩個次級來源一致呈現預算、決標價與決標日期。"
+    verification_notes:
+      - "高決標率本身不證成圍標、圖利或價金不合理。"
+    tags: ["採購金額"]
+  - id: F003
+    statement: "《政府採購法》現行第47、52、56條容許符合條件之最有利標不訂底價，並要求依招標文件所定標準綜合評選。"
+    status: verified
+    observed_at: "2026-10-31T17:20:00+08:00"
+    source_ids: [S003]
+    evidence_summary: "法規資料庫現行條文直接載明最有利標與最低標不同決標原則。"
+    verification_notes:
+      - "避免簡化成最有利標完全不需要審查價格合理性。"
+    tags: ["法規", "最有利標"]
+  - id: F004
+    statement: "美麗島報導稱另三家報價分別為420,361,605元、420,360,000元及420,361,605元，並提醒最終得標價與未得標廠商報價可能不是同一程序階段。"
+    status: partial
+    observed_at: "2026-10-31T17:20:00+08:00"
+    source_ids: [S004]
+    evidence_summary: "新聞整理的價格尚未直接核對各廠投標價格文件及議價紀錄。"
+    verification_notes:
+      - "新聞引述不是原始投標資料。"
+    tags: ["報價", "待查"]
+  - id: F005
+    statement: "美麗島報導整理千甲園藝承接10件維管採購、合計137,843,420元，其中6件單一投標、合計68,862,420元。"
+    status: partial
+    observed_at: "2026-10-31T17:20:00+08:00"
+    source_ids: [S004]
+    evidence_summary: "目前為單一新聞整理，尚未逐件對照政府採購公告與不同年度競爭狀況。"
+    verification_notes:
+      - "不能據此直接指控違法，亦不宜未經分年比較即歸責單一市長任期。"
+    tags: ["公園維管", "待查"]
+
+claims:
+  - id: C001
+    statement: "兩家報價精確等於預算，代表不可能事先知道數字的神祕巧合。"
+    status: contradicted
+    contradicts: [F001]
+    related_facts: [F004]
+    reasoning_notes: "公告載預算公開，不能以未知數猜中預算的機率模型描述；但報價集中是否有其他異常仍需檢驗。"
+  - id: C002
+    statement: "99.914%的高決標率單獨證明圍標或圖利。"
+    status: unsupported
+    related_facts: [F001, F002, F003]
+    reasoning_notes: "高決標率可作為要求價格合理性與評選透明的查核線索，不能單獨推出不法。"
+  - id: C003
+    statement: "竹北市公所應說明評選分數、各廠原始報價與最終價格形成。"
+    status: supported
+    supports: [F001, F002]
+    related_facts: [F004]
+    reasoning_notes: "屬合理監督要求，不等於已判定違法。"
+  - id: C004
+    statement: "千甲園藝多件單一投標採購足以歸責鄭朝方圖利廠商。"
+    status: unsupported
+    related_facts: [F005]
+    reasoning_notes: "需取得跨任期逐件公告、招標規格、投標家數、公司關係與單位成本資料，不能只據集中度推定外部不法事實。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-10-31T17:20:00+08:00"
+    platform: GitHub politics-db code search
+    query: "竹北／鄭朝方／豆子埔／千鳳（四組 repo 內搜尋）"
+    scope: "lichih/politics-db"
+    result: not_found
+    notes: "四組 code search 均回 total_count=0、incomplete_results=true；僅代表此次搜尋沒有可用命中，不能據此認定 repo 無相關證據。"
+  - id: Q002
+    observed_at: "2026-10-31T17:20:00+08:00"
+    platform: Web
+    query: "VV957169 竹北豆子埔公園最有利標；政府採購法47 52 56；美麗島調查"
+    scope: "公開採購再呈現、現行法規、新聞"
+    result: found
+    notes: "已取得公開預算欄位及法條；政府電子採購網原始標案文件、評選紀錄尚未取得。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "這份證據是2026-10-31查核快照；新聞的投標廠商報價及千甲維管統計標為partial，防止再傳述變成已核實原始證據。"
+  - "後續重點：官方原始公告及招標文件；廠商初始報價與價格調整；評選委員評分及決標理由；千甲跨年度單位成本與投標家數。"
