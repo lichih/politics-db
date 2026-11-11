@@ -1,0 +1,94 @@
+session:
+  id: "chen-fangyu-luo-shih-hung-argument-20261028"
+  project: "Politics"
+  title: "陳方隅回應羅世宏之類法西斯與認知作戰評論：原文及留言攻防"
+  started_at: "2026-10-28T20:50:00+08:00"
+  updated_at: "2026-10-28T20:50:00+08:00"
+  status: active
+topics:
+  - "陳方隅"
+  - "羅世宏"
+  - "沈伯洋"
+  - "論證與選擇性證據"
+  - "認知作戰"
+sources:
+  - id: S1
+    source_type: primary
+    publisher: "陳方隅／上報評論圈"
+    title: "陳方隅回應羅世宏類法西斯與認知作戰批評之公開評論"
+    url: "https://www.facebook.com/UPMEDIA.OPINION/posts/pfbid02xELSKfckYj1CYHJ86Msjqwb7VESmMrKGdrQrTNYdQrxt34eWeCRtzWgrQKfh6wA9l"
+    published_at: "2026-10-25"
+    observed_at: "2026-10-28T20:50:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "瀏覽器內登入態 Facebook 貼文文字；可證明作者公開採取的說法，不代表文章所有外部主張均成立。"
+  - id: S2
+    source_type: primary
+    publisher: "Facebook 留言：吳立志、陳方隅"
+    title: "上報評論圈貼文下的雙方留言攻防"
+    url: "https://www.facebook.com/UPMEDIA.OPINION/posts/pfbid02xELSKfckYj1CYHJ86Msjqwb7VESmMrKGdrQrTNYdQrxt34eWeCRtzWgrQKfh6wA9l?comment_id=1446904354253524&reply_comment_id=1680362420377858"
+    published_at: "2026-10-26"
+    observed_at: "2026-10-28T20:50:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "可見留言依序為吳立志13:23、陳方隅13:37、吳立志16:03；僅代表查詢時可見範圍。"
+facts:
+  - id: F1
+    statement: "陳方隅的文章將羅世宏法西斯風險警告集中表述為政治人物受歡迎、粉絲簇擁的推論，並以民主制度存在、沈伯洋近期友善競選形象與國民黨歷史作回應。"
+    status: verified
+    observed_at: "2026-10-28T20:50:00+08:00"
+    source_ids: [S1]
+    evidence_summary: "作者原文包括粉絲簇擁、沈伯洋幾乎不攻擊對手、國民黨歷史、現有議會司法等論述。此項只確認文章如何表述，不裁判羅原文全貌。"
+  - id: F2
+    statement: "陳方隅的文章主張認知作戰指向敵國受眾，且此定義在全球相關文獻中有高度共識。"
+    status: verified
+    observed_at: "2026-10-28T20:50:00+08:00"
+    source_ids: [S1]
+    evidence_summary: "作者在認知作戰一節明確作此主張；此事實只證明作者有此說法，不證明學術上確有共識。"
+  - id: F3
+    statement: "陳方隅於留言中要求證明民進黨政府操控沈伯洋相關稱讚文章；吳立志後續明確承認無法證明政府操控並撤回直接推論。"
+    status: verified
+    observed_at: "2026-10-28T20:50:00+08:00"
+    source_ids: [S2]
+    evidence_summary: "13:37留言指明政府操控舉證缺口；16:03回應稱不該從資料直接推出政府操作。"
+  - id: F4
+    statement: "吳立志後續要求提供普通民主選舉宣傳與認知作戰之間可操作的分類標準，所見留言串未顯示陳方隅再次回覆。"
+    status: verified
+    observed_at: "2026-10-28T20:50:00+08:00"
+    source_ids: [S2]
+    evidence_summary: "16:03留言列出 actor、目的、組織、欺瞞性、系統性操弄、敵對關係等可能判準。"
+    verification_notes:
+      - "未見回覆只限此次可見留言，不可推論對方蓄意逃避。"
+claims:
+  - id: C1
+    statement: "陳方隅文章對羅世宏原論證有選擇性處理、以較弱代表命題取代完整論證的疑慮。"
+    status: unresolved
+    related_facts: [F1]
+    reasoning_notes: "陳原文的選材確有可見傾向；要判定草人程度仍需逐字對照羅世宏相關全部原文與時間脈絡。"
+  - id: C2
+    statement: "陳方隅在認知作戰定義上所宣稱的全球文獻高度共識成立。"
+    status: unresolved
+    related_facts: [F2]
+    reasoning_notes: "須查核當時學術文獻、NATO與台灣國防部相關研究之原始版本；目前來源僅能證明作者作此宣稱。"
+  - id: C3
+    statement: "陳方隅明知論證不成立，仍為支持特定陣營而刻意選擇性呈現證據。"
+    status: unresolved
+    related_facts: [F1, F2, F3]
+    reasoning_notes: "動機不能由文章的選材或未再回覆單獨證明。較可支持的評價是其公開文章在證據取捨、反方論證代表性與推論強度上存在可檢驗的疑問。"
+  - id: C4
+    statement: "民進黨政府直接操控沈伯洋同學、朋友的稱讚文章。"
+    status: unsupported
+    related_facts: [F3]
+    reasoning_notes: "當事人已明確承認現有資料不足以證明政府操控；競選品牌工程不等於政府直接控制個別貼文。"
+searches:
+  - id: Q1
+    observed_at: "2026-10-28T20:50:00+08:00"
+    platform: "Browser / Facebook"
+    query: "上報評論圈 2026-10-25 陳方隅 羅世宏 沈伯洋 留言"
+    scope: "指定貼文、其可見原文及指定留言串"
+    result: found
+    notes: "取得作者完整貼文與可見三則主要留言；未直接保存羅世宏完整原始文作交叉驗證。"
+notes:
+  - "判斷『辯論大於論證、選戰大於討論』屬使用者政治評價或工作假說，不是已證實的心理動機。"
+  - "文章呈現及其論證有效性需分別裁判；陳方隅指出政府操控證據不足的反擊有效，不代表其他論點自動成立。"
+  - "不得因後續未再回覆就定性為逃避；名人是否有義務持續回答亦與論證真偽無關。"
