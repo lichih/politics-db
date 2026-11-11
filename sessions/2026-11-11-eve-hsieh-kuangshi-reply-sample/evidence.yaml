@@ -1,0 +1,188 @@
+session:
+  id: "2026-11-11-eve-hsieh-kuangshi-reply-sample"
+  project: Politics
+  title: "Eve Hsieh曠世智能家族借款貼文：借款事證、金額混用與兩則附和回覆"
+  started_at: "2026-11-11T20:30:33.451+08:00"
+  updated_at: "2026-11-11T20:30:33.451+08:00"
+  status: active
+
+topics:
+  - 蘇巧純
+  - 蘇巧慧
+  - 蘇貞昌
+  - 曠世智能
+  - 家族借款
+  - 公股投資
+  - 支持者Reward
+  - 推論越界
+  - 金額混用
+  - Facebook可見樣本
+
+sources:
+  - id: S001
+    source_type: commentary
+    publisher: "Facebook／Eve Hsieh（使用者提供之deterministic擷取）"
+    title: "2026年11月11日蘇家1400萬元借款與曠世智能公股投資質疑貼文及2則可見直接回覆"
+    url: "https://www.facebook.com/permalink.php?story_fbid=pfbid0nNxaXhpHDdW2ipYjTRnSDWbtSCkAThFPosx3z7VoqnuhszXKGZhJQCt9PC9K2eUql&id=100002635977057"
+    observed_at: "2026-11-11T20:25:10.029+08:00"
+    retrieval_status: blocked
+    notes:
+      - "使用者提供 Political Research Social Capture v0.9.0、capture_status=deterministic；root timestamp=null；可見內容限定於1原帖2留言，不能認作全部留言。"
+      - "三項完整文字、ID、時間、direct_reply關係保存在items.ndjson；不複製留言者姓名與帳號標識。"
+      - "貼文媒體有1張Facebook image URL且只標示alt『可能是藍圖和文字的圖像』；本輪未逐像素檢視，不能替圖中文字背書。"
+      - "本研究首先確定使用者提供的原始擷取內容；曾嘗試從開啟的Facebook分頁讀取，但連接器回傳頁面動態消息，未能再度直接取回指定貼文細節。"
+
+  - id: S002
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "財產申報 蘇貞昌存款1544萬唐鳳備註未持有比特幣"
+    url: "https://www.cna.com.tw/news/aipl/202203090087.aspx"
+    published_at: "2022-03-09"
+    observed_at: "2026-11-11T20:30:33.451+08:00"
+    retrieval_status: reachable
+    notes:
+      - "2022年3月監察院第182期廉政專刊同期新聞列蘇貞昌夫婦各新增400萬元債權。"
+
+  - id: S003
+    source_type: secondary
+    publisher: "Newtalk新頭殼"
+    title: "蘇貞昌夫婦借女兒蘇巧純8百萬後 蘇巧慧也借給妹妹6百萬元"
+    url: "https://newtalk.tw/news/view/2022-03-23/727982"
+    published_at: "2022-03-23"
+    observed_at: "2026-11-11T20:30:33.451+08:00"
+    retrieval_status: reachable
+    notes:
+      - "2022年3月第184期廉政專刊出刊時報導蘇巧慧2021年6月17日借給蘇巧純600萬元。"
+
+  - id: S004
+    source_type: primary
+    publisher: "監察院"
+    title: "第182、184期廉政專刊出刊官方公告"
+    url: "https://www.cy.gov.tw/News_Content.aspx?n=792&s=22371"
+    observed_at: "2026-11-11T20:30:33.451+08:00"
+    retrieval_status: reachable
+    notes:
+      - "本URL為第182期公告，第184期公告另見https://www.cy.gov.tw/News_Content.aspx?n=792&s=23426；官方網站舊期完整電子書已下架。"
+
+  - id: S005
+    source_type: secondary
+    publisher: "NOWnews今日新聞"
+    title: "立委廉政專刊公布！民進黨首都3選將名下財產曝光"
+    url: "https://www.nownews.com/news/6797556"
+    published_at: "2026"
+    observed_at: "2026-11-11T20:30:33.451+08:00"
+    retrieval_status: reachable
+    notes:
+      - "2026年蘇巧慧財產申報整理仍見600萬元債權；相同金額未必能單獨證明2021年至2026年始終未清償同筆債務。"
+
+  - id: S006
+    source_type: secondary
+    publisher: "聯合報"
+    title: "批蘇巧純、曠世智能國庫通家庫 藍黨團下通牒：財政部24hr內公開資料"
+    url: "https://udn.com/news/story/6656/9871447"
+    published_at: "2026-11-11"
+    observed_at: "2026-11-11T20:30:33.451+08:00"
+    retrieval_status: reachable
+    notes:
+      - "同日國民黨立院黨團記者會引用2021年家族借貸、2021年8月24日入股及2022年公股投資的時間線；報導政治質疑與已確認事實須區分。"
+
+facts:
+  - id: F001
+    statement: "使用者提供的Facebook deterministic擷取顯示Eve Hsieh公開貼文一則、直接回覆兩則；主文發表時間未知，兩留言時間分別為臺灣2026年11月11日16:23及16:52。"
+    status: verified
+    observed_at: "2026-11-11T20:25:10.029+08:00"
+    source_ids: [S001]
+    evidence_summary: "可辨識的items合計3（root 1、direct_reply 2），ID互異；這是可見範圍非全量，不能推估平台上其他人評價或政黨群體比例。"
+    tags: [Facebook, 擷取, "2則留言", 可見樣本]
+
+  - id: F002
+    statement: "該主文先引述2021年蘇貞昌夫婦與蘇巧慧合計1400萬元借款及2021年8月蘇巧純入股的時間線，再援引蘇巧慧競辦34%、國發基金8.55%、臺企銀創投8.89%做資金股權比較。"
+    status: verified
+    observed_at: "2026-11-11T20:25:10.029+08:00"
+    source_ids: [S001, S002, S003, S006]
+    evidence_summary: "2021年借貸金額有2022當期財產申報報導支持，主文確有把事實時間線和比較連在一起；原始資金用途與股權同基準仍待證。"
+    tags: [家族借款, 金額比較, 論述結構]
+
+  - id: F003
+    statement: "作者一面寫『一共從國家搬走了4500萬元』，一面使用國發基金1999.9萬元＋臺企銀創投2080萬元，算術合計為4079.9萬元，並非4500萬元。"
+    status: verified
+    observed_at: "2026-11-11T20:25:10.029+08:00"
+    source_ids: [S001]
+    evidence_summary: "沿用前述個案臺企銀原始投資額2080／2500萬元兩種未調和版本；若按4079.9萬對2300萬比約1.77倍，按4500萬比約1.96倍；文章的『將近二倍』未標明同一計算基準。"
+    tags: [金額混用, "4500萬元", "4079.9萬元", 財務比較]
+
+  - id: F004
+    statement: "第一則直接回覆『越凹越難看，司法還在睡⋯快要看不到印度司法的車尾燈，真的爛死了』，是對司法未積極作為的政治批評，但未指出已驗證的犯罪構成、具體已受理案件或司法延誤程序。"
+    status: verified
+    observed_at: "2026-11-11T20:25:10.029+08:00"
+    source_ids: [S001]
+    evidence_summary: "comment_id=1915783009391977、16:23臺北時間；此留言是政治／司法表態和評價，不是對借款用途、原始成本或圖利犯罪的獨立證據。"
+    tags: [司法評價, 政治表態, 無新增證據]
+
+  - id: F005
+    statement: "第二則直接回覆『民脂民膏，好呷！』，以短句支持原文所暗示的公帑遭私用敘事，但沒有新增交易或資金證據。"
+    status: verified
+    observed_at: "2026-11-11T20:25:10.029+08:00"
+    source_ids: [S001]
+    evidence_summary: "comment_id=29236025926026913、16:52臺北時間；此為帶有『納稅人財產被食用』含意的諷刺式Reward訊號，不等於另立完整貪污指控的可核實事實。"
+    tags: [政治諷刺, Reward, 無新增證據]
+
+  - id: F006
+    statement: "2026年公開財產申報報導仍可見蘇巧慧600萬元債權，但不能由此單獨推定2021年全部1400萬元迄今均未清償。"
+    status: partial
+    observed_at: "2026-11-11T20:30:33.451+08:00"
+    source_ids: [S005]
+    evidence_summary: "2026報導明確列600萬元債權；另800萬元是否仍存續、各筆借款期間有無還款續借、與股權交易是否存在關係，皆未核實。"
+    tags: [債權, "600萬元", 待查債權歷史]
+
+claims:
+  - id: C001
+    statement: "2021年家族借款1400萬元已證明用於蘇巧純入股曠世智能。"
+    status: unresolved
+    related_facts: [F002, F006]
+    reasoning_notes: "借款與入股的先後順序有合理查核價值，但缺銀行金流、借貸契約、認股收款與股權轉讓明細。"
+
+  - id: C002
+    statement: "國發基金、臺企銀創投的股權投資已證明蘇家私吞國家資金、或由國庫直接套現給蘇家。"
+    status: unsupported
+    related_facts: [F002, F003]
+    reasoning_notes: "應先分辨增資入公司或股東舊股轉讓，以及後續關係人交易。公股出資公司的存在，不等於私人口袋收款。"
+
+  - id: C003
+    statement: "同時使用4079.9萬及約4500萬，可作為完全一致的投資成本數字，無需重新核對原始支出。"
+    status: contradicted
+    contradicts: [F003]
+    reasoning_notes: "二者差約420萬元；前述politics-db既有案F025已列明2080／2500萬不一致。"
+
+  - id: C004
+    statement: "兩則留言的情緒或諷刺，能獨立證明違法／包庇／司法失職成立。"
+    status: unsupported
+    related_facts: [F004, F005]
+    reasoning_notes: "兩者都未新增原始資金或司法程序證據；可用於分析政治疑點如何被轉譯成司法失職或吃公帑的Reward，不能當作事實證據。"
+
+  - id: C005
+    statement: "由這兩則留言即可證明所有黃國昌支持者、國民黨支持者、民進黨反對者的態度或判斷力。"
+    status: unsupported
+    related_facts: [F001, F004, F005]
+    reasoning_notes: "這是另一篇貼文的小型可見樣本，支持性表達不等於政黨身分證明，沒有抽樣框、母體、帳號驗證及相關反例；不能把2人併入前一則黃國昌粉專265留言後計算陣營比例。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-11-11T20:30:33.451+08:00"
+    platform: "監察院、2022同期報導、2026政治新聞與政治專案GitHub"
+    query: "第182 184期廉政專刊 2021蘇貞昌詹秀齡蘇巧慧蘇巧純借款 800萬 600萬 曠世智能"
+    scope: "先前曠世智能案、監察院公告與2022同期申報報導、2026-11-11新增貼文"
+    result: partial
+    notes: "有官方專刊出刊資訊、2022同期財產申報報導與2026債權報導；未取得歷史原表、蘇巧純銀行金流或公股資金去向。"
+
+promotion:
+  cases: []
+  comparators: []
+  research:
+    - "政治支持者Reward：原帖引述可核對事實再跨越至未證金流的連鎖放大"
+
+notes:
+  - "本樣本與同日黃國昌Facebook 265則留言是兩個不同的非隨機可見討論串，母體不混算。"
+  - "主帖中借款1400萬元的存在和後續入股時序是值得認真監督的事實線索；把這段時間線直接標成『海撈』『搬走』則跨越現有證據，不能為了立場忽略。"
+  - "兩則回覆的主要言語行為分別是對司法的負面評價與引用公帑遭食用意象的附和諷刺；不將文字短或沒有財務計算當作評價缺失，而只標示有無新增交易事證。"
+  - "保留同一標準：既不因政治人物具關係人身分就自動推定違法，也不因其對家族借款或政府補助回應稱合法就終結原始金流與利衝程序查核。"
