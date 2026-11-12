@@ -1,0 +1,177 @@
+session:
+  id: "2026-11-12-luo-tsai-next-generation-accountability"
+  project: Politics
+  title: "羅大佑與蔡英文下一代爭議：個人婚育、關懷表態與施政成果的論題區分"
+  started_at: "2026-11-12T14:22:00+08:00"
+  updated_at: "2026-11-12T14:22:00+08:00"
+  status: active
+
+topics:
+  - "羅大佑2026年11月10日廣播訪談"
+  - "蔡英文2026年11月11日回應"
+  - "生育與下一代政策績效"
+  - "公共論述重構"
+
+sources:
+  - id: S001
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "羅大佑點名未婚無子女　蔡英文：但我用盡全力守護台灣每個孩子"
+    url: "https://www.cna.com.tw/news/aipl/202611110156.aspx"
+    published_at: "2026-11-11"
+    observed_at: "2026-11-12T14:22:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導羅大佑質疑與蔡英文11月11日公開回應；屬記者報導，不冒充羅大佑影音逐字稿。"
+  - id: S002
+    source_type: secondary
+    publisher: "民視新聞網"
+    title: "羅大佑諷沒生子引爆輿論！蔡英文拿《童年》正面迎戰"
+    url: "https://www.ftvnews.com.tw/news/detail/2026B11W0416"
+    published_at: "2026-11-11"
+    observed_at: "2026-11-12T14:22:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "載有蔡英文Threads貼文全文；文章指出婚姻平權、對所有孩子的關懷，未提供少子化政策成效數據。"
+  - id: S003
+    source_type: primary
+    publisher: "飛碟早餐／羅大佑受訪影音（Facebook貼文提供之影音連結）"
+    title: "羅大佑受訪影音連結"
+    url: "https://youtu.be/C7K-hMsbFYQ"
+    published_at: "2026-11-10"
+    observed_at: "2026-11-12T14:22:00+08:00"
+    retrieval_status: blocked
+    notes:
+      - "使用者提供Facebook擷取中的YouTube連結；此次網頁工具未能直接讀取影音及完整逐字稿。"
+      - "訪談實質措辭以S001等報導交叉確認；不得宣稱已直接聽證原音。"
+  - id: S004
+    source_type: primary
+    publisher: "行政院性別平等會／內政部"
+    title: "重要性別統計資料庫：出生嬰兒數（登記日期）"
+    url: "https://www.gender.ey.gov.tw/gecdb/Stat_Statistics_Query.aspx?n=21953&sn=Lm21RKW7az4fHULaHwlb7w%3D%3D&statsn=81ca3xOmq7PeQ19JLb29nw%3D%3D"
+    published_at: ""
+    observed_at: "2026-11-12T14:22:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "表列105年（2016）出生登記208,440人；此統計以登記日期為準。"
+  - id: S005
+    source_type: primary
+    publisher: "內政部戶政司"
+    title: "民國113年12月戶口統計資料分析"
+    url: "https://www.ris.gov.tw/info-liferay/app/channel/newsDetail/25010858"
+    published_at: "2025-01-10"
+    observed_at: "2026-11-12T14:22:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第4項：113年1至12月累計出生數134,856人。"
+  - id: S006
+    source_type: primary
+    publisher: "行政院"
+    title: "0-6歲國家一起養規劃"
+    url: "https://www.ey.gov.tw/Page/448DE008087A1971/a67238cd-ebf2-4861-9483-3202c97dd06d"
+    published_at: "2021-02-04"
+    observed_at: "2026-11-12T14:22:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記錄蔡政府2021年提出的公共化托育擴張、幼教費用降低與育兒津貼加倍規劃；此來源主要提供政策內容及目標，非全期最終成效評估。"
+  - id: S007
+    source_type: primary
+    publisher: "行政院"
+    title: "110年度少子女化對策成果報告–0至6歲國家一起養"
+    url: "https://www.ey.gov.tw/Page/448DE008087A1971/bde1422a-eb2c-4fed-ac17-a345c0ac6a8a"
+    published_at: "2022-03-03"
+    observed_at: "2026-11-12T14:22:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "政府公布托育名額、入園率、育兒津貼及家長負擔改善資料；屬機關自行公布的政策成果。"
+
+facts:
+  - id: F001
+    statement: "羅大佑在2026年11月10日前後的廣播訪談提及蔡英文、蕭美琴、陳菊的婚育狀況及賴清德子女在美國，並以之評論政治人物是否會多為下一代著想。"
+    status: verified
+    observed_at: "2026-11-12T14:22:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "中央社及其他同日新聞報導可核對事件與指涉；原始影片本次未直接逐字聽證。"
+    verification_notes:
+      - "是對訪談內容的報導確認，不宣稱所引述為完整原音逐字稿。"
+    tags: ["羅大佑", "2026-11-10"]
+  - id: F002
+    statement: "蔡英文2026年11月11日公開回應沒有自己的孩子但以留下更好的台灣、孩子能安心做自己及婚姻平權入法說明對下一代的關懷。"
+    status: verified
+    observed_at: "2026-11-12T14:22:00+08:00"
+    source_ids: [S001, S002]
+    evidence_summary: "民視轉載蔡英文Threads全文；中央社另有獨立新聞報導。"
+    verification_notes:
+      - "回應含一項具體政策成果（婚姻平權），不可寫成完全不談任何政策。"
+    tags: ["蔡英文", "2026-11-11"]
+  - id: F003
+    statement: "內政部出生登記數2016年208,440人；2024年134,856人，兩端點相較下降約35.3%。"
+    status: verified
+    observed_at: "2026-11-12T14:22:00+08:00"
+    source_ids: [S004, S005]
+    evidence_summary: "行政院性平統計資料庫2016年數與內政部戶政司2024年累計數；(208440-134856)/208440約35.3%。"
+    verification_notes:
+      - "2016及2024均為全年數字，不等於蔡英文2016年5月至2024年5月任期的精確首尾對照。"
+      - "總出生數受育齡人口結構等因素影響，不能以端點比較單獨證明某一政策造成下降。"
+    tags: ["出生人口", "少子化"]
+  - id: F004
+    statement: "蔡政府曾推動0至6歲國家一起養，包括增加平價托育量能、降低教保費用、提高育兒津貼等措施。"
+    status: verified
+    observed_at: "2026-11-12T14:22:00+08:00"
+    source_ids: [S006, S007]
+    evidence_summary: "行政院2021年規劃及2022年成果報告列出多項措施與當期執行數據。"
+    verification_notes:
+      - "存在措施不等於已證明其對整體出生人口的淨效果。"
+    tags: ["少子化對策", "托育"]
+
+claims:
+  - id: C001
+    statement: "是否有親生子女不足以推定政治人物是否關心下一代。"
+    status: supported
+    supports: [F001, F002]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "這是對推論是否充分的邏輯判準，不是可由人口統計直接證明的人格判斷。"
+  - id: C002
+    statement: "2016至2024年間台灣出生人口下降，但僅由此不能確認蔡政府具體政策的因果效果。"
+    status: supported
+    supports: [F003, F004]
+    contradicts: []
+    related_facts: []
+    reasoning_notes: "出生數端點下降是事實；因果需要另控制育齡人口結構等變項，不能寫成無政策或毫無成果。"
+  - id: C003
+    statement: "蔡英文的個人關懷回應已證明少子化政策成功。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F002, F003, F004]
+    reasoning_notes: "貼文以婚姻平權和價值承諾回應家庭背景質疑，未提出少子化政策成效檢驗；但原發言也不限於少子化，不能改寫其原意。"
+
+searches:
+  - observed_at: "2026-11-12T14:22:00+08:00"
+    platform: web
+    query: "羅大佑 蔡英文 2026-11-11 回應 全文"
+    scope: "中央社、民視及新聞資料"
+    result: found
+    notes: "取得11月11日新聞報導與蔡英文全文轉載。"
+  - observed_at: "2026-11-12T14:22:00+08:00"
+    platform: web
+    query: "2016 208440 2024 134856 出生內政部"
+    scope: "行政院與內政部官方統計頁"
+    result: found
+    notes: "兩年度官方出生登記數確認。"
+  - observed_at: "2026-11-12T14:22:00+08:00"
+    platform: web
+    query: "0-6歲國家一起養規劃 成果"
+    scope: "行政院官方政策公告"
+    result: found
+    notes: "確認政策投入及機關公布之成效，不做淨因果推定。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "對外文章核心：即使完全接受關懷表態，仍須獨立檢驗治理成果；不把婚育狀況作為施政能力代理指標。"
+  - "2024年度資料超過蔡英文2024年5月20日卸任，文章應將數據表述為2016與2024全年端點，不可寫成精確任內起迄績效。"
