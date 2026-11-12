@@ -1,0 +1,209 @@
+session:
+  id: "2026-11-12-hung-kuangshi-law-replies"
+  project: Politics
+  title: "洪毓祥2026-11-11國發基金利衝法質詢：第14條制度解釋與18則可見回覆"
+  started_at: "2026-11-12T10:55:11.618+08:00"
+  updated_at: "2026-11-12T10:55:11.618+08:00"
+  status: active
+
+topics:
+  - 曠世智能
+  - 洪毓祥
+  - 葉俊顯
+  - 國發基金
+  - 臺企銀創投
+  - 公職人員利益衝突迴避法
+  - 身分關係揭露
+  - 第14條
+  - 支持者Reward
+  - 股票票面金額
+  - 可見社群樣本
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "Facebook／洪毓祥原文（使用者提供deterministic擷取）"
+    title: "2026年11月11日國發基金利衝法質詢貼文及18則可見回覆"
+    url: "https://www.facebook.com/permalink.php?story_fbid=pfbid0269uM5MnxhyUBk6qVqzEoNZ4dY2vfwf9fXFFgjrWhT26sqG8XDLQPM7Pfk4E8aaG3l&id=61574801496666"
+    observed_at: "2026-11-12T10:45:03.563+08:00"
+    retrieval_status: blocked
+    notes:
+      - "Political Research Social Capture v0.9.0，capture_status=deterministic，user provided text；capture時間為02:45:03.563Z；原貼文及所有留言的timestamp=null。"
+      - "共19 items（root 1＋可見回覆18），其中16筆回覆直接parent=root、2筆回覆直接parent=另一留言，保留全部ID、父節點、完整文字於items.ndjson。"
+      - "所有回覆的relation.kind均為direct_reply，依parent_id才可區分對原文與對留言回應，不可重排時序。"
+      - "根貼文配圖5張；可見某留言另有法條圖片，但本輪文字存證沒有驗證這些圖片上的實際字元。"
+      - "Facebook-visible-only；無完整討論串或隨機抽樣代表性，未用這18則推論整個政治群體比率。"
+
+  - id: S002
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "公職人員利益衝突迴避法（第3、14、20條）"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=I0070008"
+    observed_at: "2026-11-12T10:55:11.618+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第14條第1項其他具有對價交易、第14條第2項部分但書例外揭露、第3條二親等親屬和其任董事企業、第20條裁罰管轄。"
+
+  - id: S003
+    source_type: primary
+    publisher: "立法院議事轉播"
+    title: "2026年11月11日經濟委員會洪毓祥質詢15分29秒官方影片索引"
+    url: "https://ivod.ly.gov.tw/Demand/ListLgltVideo/7237"
+    published_at: "2026-11-11"
+    observed_at: "2026-11-12T10:55:11.618+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官方可確認質詢發言時間為11:00:12–11:15:41。"
+
+  - id: S004
+    source_type: secondary
+    publisher: "Dataly"
+    title: "iVOD/172048洪毓祥AI質詢逐字稿"
+    url: "https://dataly.openfun.app/collection/item/ivod/172048/ai-transcript"
+    published_at: "2026-11-11"
+    observed_at: "2026-11-12T10:55:11.618+08:00"
+    retrieval_status: reachable
+    notes:
+      - "機器逐字稿仍須對照官方影片，不等同正式公報，特別是部分講者標示與文字轉錄有誤。"
+      - "11:07主委對法律適用未直接認定Yes/No，但國發基金不做投資關係人揭露；11:12台企銀創投代表表示已訪查9次；11:09–11:11出現0.5元與股價計算爭執。"
+
+  - id: S005
+    source_type: secondary
+    publisher: "聯合報"
+    title: "蘇巧純曠世智能案利益迴避爭議 葉俊顯：投資不在利益衝突法規範內"
+    url: "https://udn.com/news/story/6656/9871296"
+    published_at: "2026-11-11"
+    observed_at: "2026-11-12T10:55:11.618+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導廉政署副署長提及女兒二親等及董事企業之法定關係人，葉俊顯表示因第14條未列投資而不做揭露、是否有對價應由主管機關認定。"
+
+  - id: S006
+    source_type: primary
+    publisher: "法務部廉政署"
+    title: "109年6月22日廉利字第10900334500號函"
+    url: "https://www.aac.moj.gov.tw/6398/6548/6598/6600/887526/post"
+    published_at: "2020-06-22"
+    observed_at: "2026-11-12T10:55:11.618+08:00"
+    retrieval_status: reachable
+    notes:
+      - "對第14條其他具對價交易行為之舊函釋以雙方行為法律行為為範圍；不是曠世智能案具體裁罰解釋。"
+
+facts:
+  - id: F001
+    statement: "使用者提供之決定性Facebook擷取，包含洪毓祥質詢主文1篇與可見回覆18篇，全部回覆有唯一ID；其中2篇為留言下巢狀回覆，全部時間標記未知。"
+    status: verified
+    observed_at: "2026-11-12T10:45:03.563+08:00"
+    source_ids: [S001]
+    evidence_summary: "檔案共19個item，root1，16筆直接對root與2筆對其他留言；未掌握整體總留言數、抽樣程序或留言發生順序。"
+    tags: [Facebook, 原始擷取, "18則留言", 可見樣本]
+
+  - id: F002
+    statement: "洪毓祥主文指出，對於股票投資是否屬利衝法第14條交易，葉俊顯以條文沒列『投資』及須由主管機關認定為由，不做關係人揭露審查；並以未來所有公務人員關係人申請國發基金可能不揭露為制度疑問。"
+    status: verified
+    observed_at: "2026-11-12T10:45:03.563+08:00"
+    source_ids: [S001, S003, S004, S005]
+    evidence_summary: "可確證洪毓祥公開作上述指控，同日報導和AI轉錄亦有對應主委問答；具體法律結論仍須依第14條和個案交易要件審認。"
+    tags: [洪毓祥, 葉俊顯, 利衝法, 制度性質疑]
+
+  - id: F003
+    statement: "第14條第1項文字包括其他具有對價之交易行為；第14條第2項僅以第1項但書第1至3款補助或交易作特定事前揭露義務基礎，不能將交易有對價等同每種投資都當然應依第2項揭露。"
+    status: verified
+    observed_at: "2026-11-12T10:55:11.618+08:00"
+    source_ids: [S002, S006]
+    evidence_summary: "應分別確立雙方交易、被認定的監督機關、適用第14條原則／例外及第2項揭露適用範圍；法務部2020函釋反對完全封閉式列舉解讀。"
+    tags: [第14條, 對價行為, 身分揭露, 法條辨析]
+
+  - id: F004
+    statement: "留言『想請問0.5數字怎麼來的』及其回覆提供具體可核查的數字出處問題、票面金額與股份認購成本之區別；後者另指國發會未提供股東名冊及實際單價明細，但本次未另證明該機關全部相關資料未提供。"
+    status: verified
+    observed_at: "2026-11-12T10:45:03.563+08:00"
+    source_ids: [S001, S004]
+    evidence_summary: "comment_id=1037743899357132與2651966598594463；前者是真正的資訊查證提問，後者指出票面金額只屬帳面數字且需逐輪對帳，並附帶一項須查證的機關行為指控。"
+    tags: [0.5元, 票面價, 查證提問, 有效反論]
+
+  - id: F005
+    statement: "留言『不是投資？連投資都不算』將『投資是否適用特定利衝法條』轉述為『官員不認為它是投資』，不完全符合葉俊顯答詢之實際分歧。"
+    status: verified
+    observed_at: "2026-11-12T10:45:03.563+08:00"
+    source_ids: [S001, S004, S005]
+    evidence_summary: "comment_id=933908012991539；須保留原句的問號、修辭與不精確轉述，不把它重新命名為當事人已確認的利益輸送證據。"
+    tags: [命題轉換, 對價, 法律適用]
+
+  - id: F006
+    statement: "留言中有直接政治支持、司法要求與已預設官員違法的陳述，也有針對官員或其家人的粗暴辱罵；各表達不一定嘗試建立完整法律論證。"
+    status: verified
+    observed_at: "2026-11-12T10:45:03.563+08:00"
+    source_ids: [S001]
+    evidence_summary: "如comment_id=2037177476945806『謝謝洪委員』，1186598114032915在無裁罰判斷前稱『這些違法官員』，1770658434049305包含對家屬惡毒詛咒；不依短或情緒直接推斷心智能力。"
+    tags: [Reward, 先定性, 粗暴辱罵, 無新增證據]
+
+  - id: F007
+    statement: "台企銀創投代表質詢中自述有九次實地查訪，洪毓祥要求一週內交投後管理報告；查訪是否實施、成效及報告實際交付尚無公開文件核實。"
+    status: partial
+    observed_at: "2026-11-12T10:55:11.618+08:00"
+    source_ids: [S003, S004]
+    evidence_summary: "AI轉錄有相關段落；存在質詢紀錄與索件要求，但若未見逐次查核紀錄，不能因次數推定管理無缺。"
+    tags: [投後管理, "9次查訪", 要求文件, 待查]
+
+claims:
+  - id: C001
+    statement: "這份Facebook貼文所述『投資必有對價』足以不經其他檢驗直接斷言曠世智能案已違反利衝法第14條，且應依第2項揭露。"
+    status: unsupported
+    related_facts: [F002, F003]
+    reasoning_notes: "經濟上互換股票與價款是必要查核起點；特定交易相對人、關係人、監督關係、條文但書及揭露適用是不同法律條件。"
+
+  - id: C002
+    statement: "因第14條沒寫『投資』兩字，國發會不用就任何涉及公職人員關係人的創投投資進行利益衝突審查，也不用回應制度是否有缺口。"
+    status: unsupported
+    related_facts: [F002, F003]
+    reasoning_notes: "第14條有其他具對價交易概括規定，且內控與投資公平可有獨立治理義務；個案適用未完成，不能用單一未列名詞排除整類風險審查。"
+
+  - id: C003
+    statement: "公開留言『0.5元』與約499萬股已能證明蘇巧純僅花250萬元取得這些股份。"
+    status: unsupported
+    related_facts: [F004]
+    reasoning_notes: "股票票面價不等同實際認購價；留言指出須看各次增資溢價、股數及交易對價，與質詢中0.5元推定入股成本應分開。"
+
+  - id: C004
+    statement: "留言中要求司法追究或稱『違法官員』，是案件已經成立違法、圖利或司法故意不辦的獨立事證。"
+    status: unsupported
+    related_facts: [F005, F006]
+    reasoning_notes: "社群留言可作政治表達、Reward或對原說法的理解樣本，不構成犯罪要件及機關失職證明。"
+
+  - id: C005
+    statement: "因台企銀自述實地查訪9次，所以投後風險處理已全部合規且監管完善。"
+    status: unsupported
+    related_facts: [F007]
+    reasoning_notes: "次數本身不是完整度、警示處置、投後回收及獨立監督的評價，須索取日期、內容、發現事項、改善追蹤及退場規劃。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-11-12T10:55:11.618+08:00"
+    platform: "使用者提供Political Research Social Capture v0.9.0"
+    query: "原帖、18則可見回覆、comment_id、parent_id及時間"
+    scope: "Facebook指定貼文當時browser extension可見範圍"
+    result: found
+    notes: "根貼文及回覆19個ID皆唯一、2筆parent指向另一筆留言；時間均未附；不擅自推定發文時間或整體社群支持比例。"
+
+  - id: Q002
+    observed_at: "2026-11-12T10:55:11.618+08:00"
+    platform: "立院IVOD、Dataly、法務部、聯合報及politics-db原案"
+    query: "2026-11-11 洪毓祥 葉俊顯 第14條 投資 對價 國發基金 台企銀 投後管理"
+    scope: "質詢原文與法律事證分層、關係人／交易／揭露、票面價與實際成本"
+    result: partial
+    notes: "取得質詢官方影片索引、AI逐字稿、同日新聞及法條／廉政署函釋；尚未取得2026年7月法務部原函、2022年原始投資契約、完整投後管理報告。"
+
+promotion:
+  cases: []
+  comparators: []
+  research:
+    - "公職人員利益衝突迴避法第14條與國發基金股權投資的交易定性／程序比較"
+    - "政治支持者對行政法律解釋爭議的獎勵與語義誤讀"
+
+notes:
+  - "權威法源、具體質詢事證與社群留言分三層；原始股票價格和資金流之權威仍見 sessions/2026-10-22-kuangshi-public-investment/evidence.yaml。"
+  - "用同一把尺審視雙方：葉俊顯以『沒寫投資』排除全類法適用理由不足，洪毓祥以『有對價』直接導向第14條必有揭露義務也跳過條件；有效制度質疑不因此消失。"
+  - "可見留言中有人實質核查0.5元來源，亦有人把法條適用問題錯讀成『根本不是投資』，有的支持與批判只是社交言語行為，不應硬算推理及格率。"
+  - "此18則不能與黃國昌貼文265則或Eve Hsieh貼文2則混算，三者人群、貼文及問題方向不同。"
+  - "本次不為18則做假精準全量互斥有效率統計；已保存每則完整文字、ID、父節點供日後依一致方法重複編碼。"
