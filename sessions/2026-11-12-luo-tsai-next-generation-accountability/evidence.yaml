@@ -148,19 +148,22 @@ claims:
     reasoning_notes: "貼文以婚姻平權和價值承諾回應家庭背景質疑，未提出少子化政策成效檢驗；但原發言也不限於少子化，不能改寫其原意。"
 
 searches:
-  - observed_at: "2026-11-12T14:22:00+08:00"
+  - id: Q001
+    observed_at: "2026-11-12T14:22:00+08:00"
     platform: web
     query: "羅大佑 蔡英文 2026-11-11 回應 全文"
     scope: "中央社、民視及新聞資料"
     result: found
     notes: "取得11月11日新聞報導與蔡英文全文轉載。"
-  - observed_at: "2026-11-12T14:22:00+08:00"
+  - id: Q002
+    observed_at: "2026-11-12T14:22:00+08:00"
     platform: web
     query: "2016 208440 2024 134856 出生內政部"
     scope: "行政院與內政部官方統計頁"
     result: found
     notes: "兩年度官方出生登記數確認。"
-  - observed_at: "2026-11-12T14:22:00+08:00"
+  - id: Q003
+    observed_at: "2026-11-12T14:22:00+08:00"
     platform: web
     query: "0-6歲國家一起養規劃 成果"
     scope: "行政院官方政策公告"
