@@ -1,0 +1,536 @@
+{
+  "session": {
+    "id": "2026-11-14-lin-jinru-background",
+    "project": "Politics",
+    "title": "林晉如教師：教學專業背景、校園爭議與職場霸凌調查時序",
+    "started_at": "2026-11-14T18:45:33+08:00",
+    "updated_at": "2026-11-14T18:45:33+08:00",
+    "status": "active"
+  },
+  "topics": [
+    "林晉如",
+    "高雄岡山國小",
+    "教師專業經歷",
+    "校事會議",
+    "職場霸凌",
+    "班班有鮮乳",
+    "教師權益"
+  ],
+  "sources": [
+    {
+      "id": "S001",
+      "source_type": "primary",
+      "publisher": "高雄市政府教育局",
+      "title": "105學年度教師專業成長「名人講堂」系列課程實施計畫",
+      "url": "https://www.xln.kh.edu.tw/upload/147/101_41020/17831874_10670072500_ATT1.pdf",
+      "published_at": "2017",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "課程表列林晉如於2017-04-19擔任語文教學與讀寫作講座；講師簡介記載其學歷、任教學校及105年度閱讀推手與104年閱讀薪傳典範教師。講師簡介獲獎資訊為計畫引用之簡歷，非獎狀影本。"
+      ]
+    },
+    {
+      "id": "S002",
+      "source_type": "primary",
+      "publisher": "聯經出版",
+      "title": "未來想過的生活：出版資訊與作者介紹",
+      "url": "https://store.linkingbooks.com.tw/product/152124",
+      "published_at": "2016-04-13",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "出版社確認書名及出版日期，作者簡介描述2014年六張學習單。"
+      ]
+    },
+    {
+      "id": "S003",
+      "source_type": "primary",
+      "publisher": "聯經出版",
+      "title": "給力：我想教會孩子的事——林晉如的創意班級經營術",
+      "url": "https://store.linkingbooks.com.tw/product/152133",
+      "published_at": "2021",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "出版社確認第二本著作及作者資訊。"
+      ]
+    },
+    {
+      "id": "S004",
+      "source_type": "primary",
+      "publisher": "親子天下翻轉教育",
+      "title": "林晉如作者頁",
+      "url": "https://flipedu.parenting.com.tw/index.php/author/134",
+      "published_at": "",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "作者頁為其公開專欄與專業介紹，列教育部105年度閱讀推手、高雄104年閱讀薪傳典範教師。"
+      ]
+    },
+    {
+      "id": "S005",
+      "source_type": "primary",
+      "publisher": "林晉如官方網站",
+      "title": "關於林晉如老師",
+      "url": "https://teacheer.pro/about",
+      "published_at": "",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "當事人自述專業經歷及教案編寫、師資培訓活動；非所有履歷細項均已有外部核對。"
+      ]
+    },
+    {
+      "id": "S006",
+      "source_type": "primary",
+      "publisher": "高雄市教育產業工會",
+      "title": "我所知道的林晉如：正義、勇敢、認真、專業！",
+      "url": "https://www.keu.org.tw/keu/milkpaperView.aspx?id=31298",
+      "published_at": "2026-06-07",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "當事工會人士對2005及2009年事件的回顧及評價；涉人事與訴訟陳述尚未逐案核驗。"
+      ]
+    },
+    {
+      "id": "S007",
+      "source_type": "primary",
+      "publisher": "高雄市教育產業工會",
+      "title": "陪伴林晉如老師面對無盡濫訴的心路歷程（全文）",
+      "url": "https://www.keu.org.tw/keu/milkpaperView.aspx?id=31416",
+      "published_at": "2026-07-25",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "工會理事長依親身參與彙編2024年11月到2026年6月時序；材料為一方紀錄，涉及校方與家長的指控須保留爭議性。"
+      ]
+    },
+    {
+      "id": "S008",
+      "source_type": "secondary",
+      "publisher": "TVBS",
+      "title": "高雄老師發文『班班喝鮮奶像防空警報』遭調查？教育局回應了",
+      "url": "https://news.tvbs.com.tw/local/2730910",
+      "published_at": "2024-12-26",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "記載林晉如公開質疑，以及教育局主張係家長具名檢舉。"
+      ]
+    },
+    {
+      "id": "S009",
+      "source_type": "secondary",
+      "publisher": "國語日報",
+      "title": "教師批鮮奶政策遭調查？高市教局：家長檢舉疑不當管教",
+      "url": "https://www.mdnkids.com/content.asp?Link_String_=22CR00000HFZJFA",
+      "published_at": "2024-12-27",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "包含教育局、督學與林晉如各方說法。"
+      ]
+    },
+    {
+      "id": "S010",
+      "source_type": "primary",
+      "publisher": "高雄市教育產業工會",
+      "title": "盡力活著：轉載林晉如2026年6月4日公開貼文",
+      "url": "https://www.keu.org.tw/keu/milkpaperView.aspx?id=31283",
+      "published_at": "2026-06-04",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "當事人公開陳述行政調查與考核時間、身心負擔。屬轉載原文，保留其主觀描述屬性。"
+      ]
+    },
+    {
+      "id": "S011",
+      "source_type": "primary",
+      "publisher": "高雄市教育產業工會",
+      "title": "溫馨探視：下班後至凱旋醫院探視林晉如老師",
+      "url": "https://www.keu.org.tw/keu/milkpaperView.aspx?id=31303",
+      "published_at": "2026-06-08",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "工會當事人記載6月8日探視，不進一步紀錄非必要的醫療細節。"
+      ]
+    },
+    {
+      "id": "S012",
+      "source_type": "primary",
+      "publisher": "高雄市教育產業工會",
+      "title": "工會行動追蹤：追究校長不適任與職場霸凌最新進度",
+      "url": "https://www.keu.org.tw/keu/milkpaperView.aspx?id=31550",
+      "published_at": "2026-10-05",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "工會說明2026年6月起向教育局與勞工局兩軌提出檢舉、7至9月進行調查。"
+      ]
+    },
+    {
+      "id": "S013",
+      "source_type": "secondary",
+      "publisher": "NOWnews",
+      "title": "首例職場霸凌認證！學校連串調查網紅師 高市府判成立",
+      "url": "https://www.nownews.com/news/6892141",
+      "published_at": "2026-11-13",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "報導當事人11月13日宣布結果；全國首例僅當事人轉述勞檢處，待官方統計確認。"
+      ]
+    },
+    {
+      "id": "S014",
+      "source_type": "secondary",
+      "publisher": "自由時報／Yahoo新聞",
+      "title": "高雄市勞工局認定校方霸凌成案 林姓女教師嘆沉冤得雪",
+      "url": "https://tw.news.yahoo.com/%E9%AB%98%E9%9B%84%E5%B8%82%E5%8B%9E%E5%B7%A5%E5%B1%80%E8%AA%8D%E5%AE%9A%E6%A0%A1%E6%96%B9%E9%9C%B8%E5%87%8C%E6%88%90%E6%A1%88-%E6%9E%97%E5%A7%93%E5%A5%B3%E6%95%99%E5%B8%AB%E5%98%86%E6%B2%89%E5%86%A4%E5%BE%97%E9%9B%AA-072817341.html",
+      "published_at": "2026-11-14",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "報導勞動檢查處邀外部委員調查、認定職場霸凌成立及裁處3萬元；校方否認針對，表示尊重裁定。"
+      ]
+    },
+    {
+      "id": "S015",
+      "source_type": "secondary",
+      "publisher": "聯合報",
+      "title": "秋後算帳？發文班班有鮮乳如防空警報 高市老師遭調查",
+      "url": "https://udn.com/news/story/6885/8450366",
+      "published_at": "2024-12-26",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "確認12月9日鮮乳發文與當月校事會議爭議。"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "F001",
+      "statement": "林晉如有岡山國小任教經歷，畢業於屏東教育大學視覺藝術教育研究所，曾任美勞科任與高年級導師。",
+      "status": "verified",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "source_ids": [
+        "S001",
+        "S002",
+        "S004"
+      ],
+      "evidence_summary": "教育局2017年研習講師簡介與出版社資訊相符。",
+      "verification_notes": [
+        "來源描述過去任教背景，不推定2026-11-14即時在職狀態。"
+      ],
+      "tags": [
+        "人物",
+        "專業背景"
+      ]
+    },
+    {
+      "id": "F002",
+      "statement": "2014年林晉如設計『未來想過的生活』系列六張學習單，以閱報找工作、計算房車及生活支出連結生涯與閱讀。",
+      "status": "verified",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "source_ids": [
+        "S001",
+        "S002",
+        "S004"
+      ],
+      "evidence_summary": "教育局課程計畫、出版社及媒體作者頁相互印證。",
+      "verification_notes": [],
+      "tags": [
+        "創意教學"
+      ]
+    },
+    {
+      "id": "F003",
+      "statement": "高雄市教育局2017年的講師簡介記載她為104年高雄市閱讀薪傳典範教師、105年度教育部閱讀推手，並列親子天下翻轉教育創意教師。",
+      "status": "verified",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "source_ids": [
+        "S001",
+        "S004"
+      ],
+      "evidence_summary": "此事已可證實列於官方課程文件與作者簡介。",
+      "verification_notes": [
+        "104年通常換算2015年、105年度通常換算2016年；尚未取得原獎項名錄或頒獎原始文件。",
+        "部分自述將閱讀薪傳典範教師寫成2014年，年度有歧異，記錄104年版本並保留待查。"
+      ],
+      "tags": [
+        "獎項"
+      ]
+    },
+    {
+      "id": "F004",
+      "statement": "2016-04-13聯經出版林晉如著作《未來想過的生活》。",
+      "status": "verified",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "source_ids": [
+        "S002"
+      ],
+      "evidence_summary": "出版社列明出版日期與書名。",
+      "verification_notes": [],
+      "tags": [
+        "著作"
+      ]
+    },
+    {
+      "id": "F005",
+      "statement": "2021年聯經出版林晉如著作《給力：我想教會孩子的事》。",
+      "status": "verified",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "source_ids": [
+        "S003",
+        "S004"
+      ],
+      "evidence_summary": "出版社及作者頁可核實著作。",
+      "verification_notes": [],
+      "tags": [
+        "著作"
+      ]
+    },
+    {
+      "id": "F006",
+      "statement": "2017-04-19高雄市教育局名人講堂系列計畫邀請林晉如主講『語文教學，讀寫作』。",
+      "status": "verified",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "source_ids": [
+        "S001"
+      ],
+      "evidence_summary": "105學年度教師專業成長名人講堂實施計畫第4場列出講師、日期、主題。",
+      "verification_notes": [
+        "計畫可證明獲邀並列於課程安排，不單憑此證明當日實際出席。"
+      ],
+      "tags": [
+        "研習"
+      ]
+    },
+    {
+      "id": "F007",
+      "statement": "工會人士稱2005年起已認識林晉如，過去曾協助其揭露校園問題，2009年亦有學生午餐及教學相關糾紛。",
+      "status": "partial",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "source_ids": [
+        "S006"
+      ],
+      "evidence_summary": "2026-06-07工會人士以第一人稱回顧。",
+      "verification_notes": [
+        "具名一方陳述；未取得歷年行政文書、判決或不起訴處分書，不應認定被指涉第三人違法。"
+      ],
+      "tags": [
+        "校園歷史"
+      ]
+    },
+    {
+      "id": "F008",
+      "statement": "工會的2026-07-25回顧把本次校園檢舉與爭議追溯到2024年11–12月。",
+      "status": "verified",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "source_ids": [
+        "S007"
+      ],
+      "evidence_summary": "核實工會有公開此時序；未據此獨立確定所有指控的真偽。",
+      "verification_notes": [
+        "起點不能直接等同於2024-12-09鮮乳貼文。"
+      ],
+      "tags": [
+        "時序"
+      ]
+    },
+    {
+      "id": "F009",
+      "statement": "林晉如2024-12-09公開批評班班有鮮乳配送干擾教學；教育局2024-12-26表示當時調查緣於家長具名檢舉學生霸凌與管教問題、與鮮乳貼文無涉。",
+      "status": "verified",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "source_ids": [
+        "S008",
+        "S009",
+        "S015"
+      ],
+      "evidence_summary": "三篇2024年當時報導同時保留當事人質疑及教育局澄清。",
+      "verification_notes": [
+        "只核實雙方公開說法與日期，不等於已證明哪一方對實際動機的主張為真。"
+      ],
+      "tags": [
+        "鮮乳政策",
+        "時序"
+      ]
+    },
+    {
+      "id": "F010",
+      "statement": "工會記載2025年2月學校啟動校事會議調查程序，其後有輔導、考核等爭議。",
+      "status": "partial",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "source_ids": [
+        "S007",
+        "S010"
+      ],
+      "evidence_summary": "工會記錄及2026-06-04當事人公開說法。",
+      "verification_notes": [
+        "需原校事會議與考核文件確認每項實際處分、最終生效與救濟。"
+      ],
+      "tags": [
+        "行政調查"
+      ]
+    },
+    {
+      "id": "F011",
+      "statement": "林晉如於2026-06-04公開說明長期行政調查壓力；當日另有涉及校舍樓層、引發外界輕生擔憂的公開貼文。",
+      "status": "partial",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "source_ids": [
+        "S010",
+        "S013"
+      ],
+      "evidence_summary": "工會當日轉載及2026-11-13媒體追述；另2024年底工會回顧也曾記載情緒危機。",
+      "verification_notes": [
+        "涉及身心健康，僅保留公眾事件時序，不據貼文推斷醫學診斷或確切個人意圖。"
+      ],
+      "tags": [
+        "教師安全",
+        "時序"
+      ]
+    },
+    {
+      "id": "F012",
+      "statement": "高雄市教育產業工會2026-06-08表示當日赴凱旋醫院探視林晉如。",
+      "status": "verified",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "source_ids": [
+        "S011"
+      ],
+      "evidence_summary": "同日工會第一人稱探視記錄。",
+      "verification_notes": [
+        "不紀錄診斷與非必要隱私。"
+      ],
+      "tags": [
+        "時序"
+      ]
+    },
+    {
+      "id": "F013",
+      "statement": "高雄市教育產業工會2026年6月向教育局提出校長相關處置調查檢舉，並協助林晉如向勞工局提出職場霸凌申訴。",
+      "status": "verified",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "source_ids": [
+        "S012"
+      ],
+      "evidence_summary": "工會於2026-10-05披露兩軌申訴及7至9月調查過程。",
+      "verification_notes": [],
+      "tags": [
+        "權益救濟"
+      ]
+    },
+    {
+      "id": "F014",
+      "statement": "2026-11-13林晉如公布勞工局職場霸凌申訴認定成立；11月14日媒體引用勞工局指出經外部專業人士調查認定成立，並裁處3萬元罰鍰。",
+      "status": "verified",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "source_ids": [
+        "S013",
+        "S014"
+      ],
+      "evidence_summary": "兩篇即時新聞報導當事人及主管機關回應。",
+      "verification_notes": [
+        "尚未直接取得行政處分書；需要確認裁處對象、具體認定行為、處分日期與救濟狀態。"
+      ],
+      "tags": [
+        "職場霸凌",
+        "行政裁罰"
+      ]
+    },
+    {
+      "id": "F015",
+      "statement": "受訪校方否認對林晉如有職場霸凌，主張依法行政、沒有針對特定老師，並表示尊重勞工局裁定。",
+      "status": "verified",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "source_ids": [
+        "S014"
+      ],
+      "evidence_summary": "2026-11-14媒體載明校方答覆。",
+      "verification_notes": [
+        "僅核實校方公開主張，不以此取代調查結果。"
+      ],
+      "tags": [
+        "校方回應"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "statement": "校方2024–2026年全部調查及處置是因林晉如批評鮮乳政策而進行政治報復。",
+      "status": "unresolved",
+      "supports": [],
+      "contradicts": [],
+      "related_facts": [
+        "F008",
+        "F009",
+        "F010",
+        "F014"
+      ],
+      "reasoning_notes": "官方霸凌認定成立不直接證明所有程序的起因。工會記載爭議最早可回溯至2024年11月，早於鮮乳貼文；需實際案件調查、書面紀錄與因果鏈。"
+    },
+    {
+      "id": "C002",
+      "statement": "本案是2026-07-01新規施行後全國第一件正式成立的職場霸凌案件。",
+      "status": "unresolved",
+      "supports": [],
+      "contradicts": [],
+      "related_facts": [
+        "F014"
+      ],
+      "reasoning_notes": "媒體引述當事人轉述勞檢處說法，缺主管機關全國統計、正式公告。"
+    },
+    {
+      "id": "C003",
+      "statement": "高雄市閱讀薪傳典範教師的得獎西元年份為2014年。",
+      "status": "unresolved",
+      "supports": [],
+      "contradicts": [
+        "F003"
+      ],
+      "related_facts": [
+        "F003"
+      ],
+      "reasoning_notes": "高雄市教育局2017官方計畫及親子天下頁寫104年（2015），但作者書籍介紹另寫2014年；可能涉及年度與實際頒獎時點差異，待查原得獎名錄。"
+    }
+  ],
+  "searches": [
+    {
+      "id": "Q001",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "platform": "GitHub code search",
+      "query": "林晉如",
+      "scope": "lichih/politics-db default branch",
+      "result": "not_found",
+      "notes": "本次 GitHub code search 未返回匹配檔案；不等於 repo 永遠沒有相關紀錄。"
+    },
+    {
+      "id": "Q002",
+      "observed_at": "2026-11-14T18:45:33+08:00",
+      "platform": "web",
+      "query": "林晉如 教育局 名人講堂 閱讀薪傳 職場霸凌 工會 2024 2026",
+      "scope": "官方文件、出版社、教師組織、2024-2026媒體",
+      "result": "found",
+      "notes": "找到2017年高雄市教育局計畫、出版資料、工會長時序與2026-11認定報導。"
+    }
+  ],
+  "promotion": {
+    "cases": [],
+    "comparators": [],
+    "research": []
+  },
+  "notes": [
+    "目的為保存可重用的公共專業背景與行政爭議時間點，不記錄不必要的家庭、醫療或私人資訊。",
+    "資料強度：官方課程計畫及出版社書目可直接核對；工會人士回顧須標示為具名第一人稱陳述；官方職場霸凌認定目前依主管機關對媒體答覆，原處分書仍待取得。",
+    "與2026-11台北市香鬆事件若作政治比較，須先以本案可驗證的教師權益與主管機關責任為判準，不倒推政治人物是否知悉或其動機。"
+  ]
+}
