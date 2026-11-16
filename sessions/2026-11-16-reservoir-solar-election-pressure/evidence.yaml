@@ -1,0 +1,383 @@
+{
+  "session": {
+    "id": "2026-11-16-reservoir-solar-election-pressure",
+    "project": "Politics",
+    "title": "水庫光電：台南政策表態轉向、翡翠水庫跨縣市比較與選舉壓力推論",
+    "started_at": "2026-11-16T21:20:00+08:00",
+    "updated_at": "2026-11-16T21:20:00+08:00",
+    "status": "active"
+  },
+  "topics": [
+    "烏山頭水庫",
+    "翡翠水庫",
+    "水面型太陽光電",
+    "地方政府與中央政策",
+    "選舉壓力與政治動機推論"
+  ],
+  "sources": [
+    {
+      "id": "S001",
+      "source_type": "primary",
+      "publisher": "臺南市政府經濟發展局",
+      "title": "烏山頭水庫光電後續推動　市府配合中央政策辦理",
+      "url": "https://www.tainan.gov.tw/News_Content.aspx?n=13371&s=8774502",
+      "published_at": "2025-10-17",
+      "observed_at": "2026-11-16T21:20:00+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "市府強調能源政策及水庫管理屬中央權管，後續配合中央政策並維持資訊透明、水質檢測、地方溝通。"
+      ]
+    },
+    {
+      "id": "S002",
+      "source_type": "primary",
+      "publisher": "臺南市議會議員園地",
+      "title": "議員尤榮智市政總質詢：黃偉哲說尊重民意",
+      "url": "https://www.tncc.gov.tw/page.asp?mainid=72234FAF-00D1-4397-A103-F17D42667AE1",
+      "published_at": "2025-10-27",
+      "observed_at": "2026-11-16T21:20:00+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "議員稱接獲數百通抗議電話；此為議員自述，並非經獨立統計證實。"
+      ]
+    },
+    {
+      "id": "S003",
+      "source_type": "primary",
+      "publisher": "臺南市政府新聞及國際關係處",
+      "title": "回應今(13)日議員總質詢議題",
+      "url": "https://www.tainan.gov.tw/News_Content.aspx?n=13370&s=8779967",
+      "published_at": "2025-11-13",
+      "observed_at": "2026-11-16T21:20:00+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "市長稱地方反對將請中央不再設置；同一新聞稿經發局仍稱市府配合中央政策。"
+      ]
+    },
+    {
+      "id": "S004",
+      "source_type": "primary",
+      "publisher": "臺南市政府新聞及國際關係處",
+      "title": "回應今(19)日議員總質詢議題",
+      "url": "https://www.tainan.gov.tw/News_Content.aspx?n=13370&s=8781098",
+      "published_at": "2025-11-19",
+      "observed_at": "2026-11-16T21:20:00+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "刊登 2025-11-19；網站顯示 2025-11-20 修改。"
+      ]
+    },
+    {
+      "id": "S005",
+      "source_type": "secondary",
+      "publisher": "中央社",
+      "title": "鳳山水庫設光電　經部：未列重要濕地、水質檢測達標",
+      "url": "https://www.cna.com.tw/news/afe/202510130230.aspx",
+      "published_at": "2025-10-13",
+      "observed_at": "2026-11-16T21:20:00+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "轉述能源署公布六座水庫名單；鳳山水庫以工業用水為主，不宜與翡翠水庫作完全相同條件比較。"
+      ]
+    },
+    {
+      "id": "S006",
+      "source_type": "primary",
+      "publisher": "經濟部水利署",
+      "title": "水利署：翡翠水庫不具設置太陽光電效益 未規劃推動亦無強制要求",
+      "url": "https://www.wra.gov.tw/NewsAll_Content.aspx?n=6272&s=279539",
+      "published_at": "2026-11-16",
+      "observed_at": "2026-11-16T21:20:00+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "水利署稱2022至2024年函詢為全國性潛力盤點，尊重管理機關判斷，未針對翡翠強制推動。",
+        "官方網頁未於此查核中核定精確發稿時間。"
+      ]
+    },
+    {
+      "id": "S007",
+      "source_type": "secondary",
+      "publisher": "聯合報",
+      "title": "中央要求翡翠水庫種光電公文曝...北市府：第1年已依法拒 連3年來問",
+      "url": "https://udn.com/news/story/6656/9881708",
+      "published_at": "2026-11-16",
+      "observed_at": "2026-11-16T21:20:00+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "報導北市府提供公文號及答覆；尚未取得三份公文及回函完整掃描檔。"
+      ]
+    },
+    {
+      "id": "S008",
+      "source_type": "secondary",
+      "publisher": "中央社",
+      "title": "烏山頭水庫光電板清洗　經部：招標須知明定禁清潔劑",
+      "url": "https://www.cna.com.tw/news/afe/202510210111.aspx",
+      "published_at": "2025-10-21",
+      "observed_at": "2026-11-16T21:20:00+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "轉述部會水質檢測與材質說明；不等於證實所有場址零風險。"
+      ]
+    },
+    {
+      "id": "S009",
+      "source_type": "commentary",
+      "publisher": "黃揚明（剝雞）Facebook",
+      "title": "翡翠水庫三年函詢及地方選舉討論",
+      "url": "https://www.facebook.com/PokiiHuang/posts/pfbid02X28i8jP67U7bKSxz9BSqv7MvjsKsscmyoYtmr6NQjaCTdMHM8QYLe4g58HYC6Evxl",
+      "published_at": "2026-11-16",
+      "observed_at": "2026-11-16T21:20:00+08:00",
+      "retrieval_status": "reachable",
+      "notes": [
+        "依使用者提供之 Social Capture for Research v0.9.2，captured_at=2026-11-16T07:45:18.092Z。",
+        "貼文及留言只能證明公開論述內容，留言中的污染、利益輸送及候選人意圖並非已查證事實。"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "F001",
+      "statement": "2025-10-17 臺南市府經發局公開表示烏山頭水庫光電後續推動將配合中央能源政策。",
+      "status": "verified",
+      "observed_at": "2026-11-16T21:20:00+08:00",
+      "source_ids": [
+        "S001"
+      ],
+      "evidence_summary": "政府新聞稿：整體能源政策、水庫管理為中央權責；市府表示配合政策。",
+      "verification_notes": [],
+      "tags": [
+        "水庫光電",
+        "政策轉向"
+      ]
+    },
+    {
+      "id": "F002",
+      "statement": "2025-10-27 黃偉哲在臺南市議會答詢時稱，個人認為水質沒有問題，但身為市長會尊重民意。",
+      "status": "verified",
+      "observed_at": "2026-11-16T21:20:00+08:00",
+      "source_ids": [
+        "S002"
+      ],
+      "evidence_summary": "臺南市議會原始議員質詢紀錄載有黃偉哲發言；議員同時聲稱收到數百通抗議電話。",
+      "verification_notes": [
+        "議員收到抗議電話的數量僅作為其公開陳述，不推定已獨立核實。"
+      ],
+      "tags": [
+        "水庫光電",
+        "政策轉向"
+      ]
+    },
+    {
+      "id": "F003",
+      "statement": "2025-11-13 黃偉哲表示若地方反對，將請求中央未來不要繼續在烏山頭水庫設光電板；同日經發局仍稱市府配合中央政策。",
+      "status": "verified",
+      "observed_at": "2026-11-16T21:20:00+08:00",
+      "source_ids": [
+        "S003"
+      ],
+      "evidence_summary": "台南市政府同份新聞稿並列市長對地方反對的回應與局處配合中央的態度。",
+      "verification_notes": [
+        "市長說的是設置期滿後及後續開發之協商，不等於當下已拆除或撤銷一期。"
+      ],
+      "tags": [
+        "水庫光電",
+        "政策轉向"
+      ]
+    },
+    {
+      "id": "F004",
+      "statement": "2025-11-19 黃偉哲稱，即使水質檢測達標，若民眾不願意，市府就不會同意繼續設置，並將其界定為民意問題。",
+      "status": "verified",
+      "observed_at": "2026-11-16T21:20:00+08:00",
+      "source_ids": [
+        "S004"
+      ],
+      "evidence_summary": "台南市政府新聞稿明確記載對二期推動的表態。",
+      "verification_notes": [
+        "市長政治表態與地方政府有無法定最終准駁權須分別判斷。"
+      ],
+      "tags": [
+        "水庫光電",
+        "政策轉向"
+      ]
+    },
+    {
+      "id": "F005",
+      "statement": "能源署於2025-10公布全國已有六座水庫設置水面型光電，包含烏山頭、阿公店、鳳山、內埔子、鹽水埤、金湖水庫。",
+      "status": "verified",
+      "observed_at": "2026-11-16T21:20:00+08:00",
+      "source_ids": [
+        "S005"
+      ],
+      "evidence_summary": "中央社引述能源署六座水庫名單；鳳山水庫主要供工業用水。",
+      "verification_notes": [
+        "六座水庫所在地、管理者及地方政府實際同意權未逐案完成同條件比對。"
+      ],
+      "tags": [
+        "水庫光電",
+        "政策轉向"
+      ]
+    },
+    {
+      "id": "F006",
+      "statement": "水利署2026-11-16說明，2022至2024三次函詢屬全國水庫管理單位潛力盤點，並非針對翡翠水庫，未要求強制設置。",
+      "status": "verified",
+      "observed_at": "2026-11-16T21:20:00+08:00",
+      "source_ids": [
+        "S006"
+      ],
+      "evidence_summary": "水利署官方說明對函詢目的及是否要求設置的立場。",
+      "verification_notes": [
+        "這是中央機關自身對作業目的的公開說明，仍可與原始公文內容對照。"
+      ],
+      "tags": [
+        "水庫光電",
+        "政策轉向"
+      ]
+    },
+    {
+      "id": "F007",
+      "statement": "2026-11-16聯合報報導北市府公布2022-03-21、2023-12-18、2024-12-10三次水利署函詢資料，北市府主張早已依法拒絕翡翠水庫設置。",
+      "status": "verified",
+      "observed_at": "2026-11-16T21:20:00+08:00",
+      "source_ids": [
+        "S007"
+      ],
+      "evidence_summary": "新聞提供三份公文日期與文號，並報導北市府回應。",
+      "verification_notes": [
+        "實際公文全文與臺北市府回函仍待取得原件；目前驗證層次是機關公開說法及媒體報導。"
+      ],
+      "tags": [
+        "水庫光電",
+        "政策轉向"
+      ]
+    },
+    {
+      "id": "F008",
+      "statement": "2025-10-21經濟部透過媒體說明，烏山頭水庫光電招標禁止使用清潔劑，官方檢測水質符合相關標準。",
+      "status": "verified",
+      "observed_at": "2026-11-16T21:20:00+08:00",
+      "source_ids": [
+        "S008"
+      ],
+      "evidence_summary": "中央社引述經濟部及環境部水質監測表述。",
+      "verification_notes": [
+        "不得把『設置了光電』直接等同已造成水質污染。"
+      ],
+      "tags": [
+        "水庫光電",
+        "政策轉向"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "statement": "黃偉哲及南市府對烏山頭水庫後續光電的對外表態，在2025-10-17至11-19間由配合中央政策轉向強調民意反對則不再同意。",
+      "status": "supported",
+      "supports": [
+        "F001",
+        "F002",
+        "F003",
+        "F004"
+      ],
+      "contradicts": [],
+      "related_facts": [],
+      "reasoning_notes": "有連續官方紀錄；屬政治表態轉向。尚未證實二期工程正式取消、一期合約撤銷或法律審查結果改變。"
+    },
+    {
+      "id": "C002",
+      "statement": "地方抗議與民意壓力是黃偉哲公開表態轉向的重要因素。",
+      "status": "supported",
+      "supports": [
+        "F002",
+        "F003",
+        "F004"
+      ],
+      "contradicts": [],
+      "related_facts": [],
+      "reasoning_notes": "在議會質詢、地方反對聲浪與市長明確把議題界定為民意問題的時序支持下，可作合理政治因果推論；不必要求當事人自白。但不能排除其他考量。"
+    },
+    {
+      "id": "C003",
+      "statement": "黃偉哲是怕民進黨在後續選舉失利，才改口。",
+      "status": "unresolved",
+      "supports": [
+        "F001",
+        "F002",
+        "F003",
+        "F004"
+      ],
+      "contradicts": [],
+      "related_facts": [],
+      "reasoning_notes": "可合理提出選舉壓力為動機假說，尤其他本人已有連任屆數限制；但仍缺乏足以直接確認具體選舉計算的公開決策紀錄。政治評價與可驗證外部事實須分開。"
+    },
+    {
+      "id": "C004",
+      "statement": "民進黨高度重視2026臺北市長選舉，是因取得翡翠水庫光電開發權或特定廠商利益。",
+      "status": "unresolved",
+      "supports": [
+        "F005",
+        "F006",
+        "F007"
+      ],
+      "contradicts": [],
+      "related_facts": [],
+      "reasoning_notes": "可比較中央能源政策、地方治理權限及水庫實例，但目前不能由三年通案函詢與不同縣市設置差異直接推定特定選舉目的或利益輸送。"
+    },
+    {
+      "id": "C005",
+      "statement": "若民進黨候選人勝選台北市長，翡翠水庫就一定會裝設光電。",
+      "status": "unsupported",
+      "supports": [
+        "F006",
+        "F007"
+      ],
+      "contradicts": [],
+      "related_facts": [],
+      "reasoning_notes": "地方政府態度可能改變行政協調，但仍受水庫管理、土地使用、法規及主管權限約束；沒有足夠證據證明勝選即得設置。"
+    }
+  ],
+  "searches": [
+    {
+      "id": "Q001",
+      "observed_at": "2026-11-16T21:20:00+08:00",
+      "platform": "GitHub connector",
+      "query": "烏山頭、翡翠水庫",
+      "scope": "lichih/politics-db default-branch code search",
+      "result": "not_found",
+      "notes": "本次關鍵字搜尋未返回既有檔案命中；不等於資料庫內絕無相關資料。"
+    },
+    {
+      "id": "Q002",
+      "observed_at": "2026-11-16T21:20:00+08:00",
+      "platform": "web search",
+      "query": "2025/10/17, 10/27, 11/13, 11/19 黃偉哲 烏山頭市府原始新聞稿及議會紀錄",
+      "scope": "台南市政府、台南市議會、中央社",
+      "result": "found",
+      "notes": "取得10/17、10/27、11/13、11/19四階段原始說法。"
+    },
+    {
+      "id": "Q003",
+      "observed_at": "2026-11-16T21:20:00+08:00",
+      "platform": "web search",
+      "query": "2022 2023 2024 翡翠水庫光電 水利署 北市府 公文",
+      "scope": "水利署、聯合報",
+      "result": "partial",
+      "notes": "找到水利署對全國盤點的公開說明與北市府透過媒體公布的公文號；未取得全部收發文原件。"
+    }
+  ],
+  "promotion": {
+    "cases": [],
+    "comparators": [],
+    "research": []
+  },
+  "notes": [
+    "此筆記是2026-11-16研究會話的可查證時序與推論整理，並非對民進黨、黃偉哲或任何候選人內心動機的直接證明。",
+    "比較不同水庫時應逐案控制：水庫用途（飲用水／工業）、管理權責（中央／地方）、法規禁令、建置時間與地方是否有實質准駁權。",
+    "對外表述可寫：在地方反對升高後，黃偉哲公開立場轉向；選舉壓力是合理的政治動機推論。不可寫成已查得選戰內部指示或特定利益交換。",
+    "本次開啟的 Facebook 社群擷取僅作為輿論與待查主張的來源，不將留言中『毒水』『光電利益』等說法升格為事實。",
+    "2026-11-16T21:20:00+08:00 為本次觀察所據訊息提供的分鐘級時間，秒位僅為格式化補零。"
+  ]
+}
