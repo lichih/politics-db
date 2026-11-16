@@ -1,0 +1,149 @@
+session:
+  id: "2026-11-16-taipei-mayor-closing-polls"
+  project: Politics
+  title: "2026臺北市長選舉11月16日封關民調：ETtoday及同期不同機構結果"
+  started_at: "2026-11-16T13:08:17.221+08:00"
+  updated_at: "2026-11-16T13:08:17.221+08:00"
+  status: active
+
+topics: ["2026台北市長選舉", "蔣萬安", "沈伯洋", "封關民調", "ETtoday", "民調方法比較", "選前基準"]
+
+sources:
+  - id: S001
+    source_type: commentary
+    publisher: "黃揚明（剝雞）／Facebook"
+    title: "ET 民調蔣領先6.1%，存參（轉述ETtoday 48.1%比42.0%）"
+    url: "https://www.facebook.com/PokiiHuang/posts/pfbid02fnj1rZBXXiciUt2wwGZLxLHoVtR2dbKcW1J93Yku7Ybe6oTD9zFZhYxd5uejM7Bkl"
+    published_at: ""
+    observed_at: "2026-11-16T13:03:56+08:00"
+    retrieval_status: reachable
+    notes: ["使用者提供2026-11-16 13:03:56+08:00的Facebook deterministic擷取，原貼文時間欄為ambiguous。", "貼文引述ETtoday標題：蔣萬安48.1%、沈伯洋42.0%；未附完整民調方法或原文連結。"]
+  - id: S002
+    source_type: secondary
+    publisher: "維基百科／2026年中華民國直轄市長及縣市長選舉民意調查"
+    title: "臺北市蔣萬安－沈伯洋－其他：11月封關民調數字彙整"
+    url: "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%9B%B4%E8%BD%84%E5%B8%82%E9%95%B7%E5%8F%8A%E7%B8%A3%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E6%B0%91%E6%84%8F%E8%AA%BF%E6%9F%A5"
+    published_at: ""
+    observed_at: "2026-11-16T13:08:17.221+08:00"
+    retrieval_status: reachable
+    notes: ["搜尋結果曾列ETtoday調查期間為11/13至11/15、蔣48.1%、沈42.0%，但百科頁面更新中，仍須以ETtoday當次原始報導核對方法。"]
+  - id: S003
+    source_type: secondary
+    publisher: "聯合報"
+    title: "新台灣國策智庫民調／沈伯洋46.3%、蔣萬安42.2%"
+    url: "https://udn.com/vote2026/story/124652/9879869"
+    published_at: "2026-11-15"
+    observed_at: "2026-11-16T13:08:17.221+08:00"
+    retrieval_status: reachable
+    notes: ["11/10至11/12市話訪問；趨勢民調公司執行、凱達格蘭基金會出資；有效樣本1071，公布抽樣誤差±2.99%。"]
+  - id: S004
+    source_type: secondary
+    publisher: "台視新聞"
+    title: "信民協會／戴立安台北市長封關民調"
+    url: "https://news.ttv.com.tw/news/11511160000700W"
+    published_at: "2026-11-16"
+    observed_at: "2026-11-16T13:08:17.221+08:00"
+    retrieval_status: reachable
+    notes: ["11/11至11/13電話訪問，住宅電話750、行動電話322，有效樣本1072，公布抽樣誤差±3.0%。", "支持度數字與依投票率、既往選舉結果推算之得票率是不同指標。"]
+  - id: S005
+    source_type: secondary
+    publisher: "東森財經新聞"
+    title: "鋒燦傳媒台北市長封關民調"
+    url: "https://fnc.ebc.net.tw/fncnews/headline/222854"
+    published_at: "2026-11-16"
+    observed_at: "2026-11-16T13:08:17.221+08:00"
+    retrieval_status: reachable
+    notes: ["11/4至11/9市話1008份、網路1018份，合計2026份；混合模式，加權後報告抽樣誤差±2.18%。", "採混合模式，不能不加區分地與全市話或封閉式網路會員調查合併。"]
+  - id: S006
+    source_type: secondary
+    publisher: "TVBS"
+    title: "11月4日公布ETtoday民調雲：蔣萬安50.7%、沈伯洋41.9%"
+    url: "https://news.tvbs.com.tw/politics/4046094"
+    published_at: "2026-11-05"
+    observed_at: "2026-11-16T13:08:17.221+08:00"
+    retrieval_status: reachable
+    notes: ["ETtoday於11/1至11/3採封閉式會員網路問卷，有效樣本1853，依人口統計特徵加權。", "是前一波而非本次11/16封關民調；只供同機構歷次公布值比較。"]
+
+facts:
+  - id: F001
+    statement: "黃揚明於選前轉貼ETtoday台北市長封關民調，列蔣萬安48.1%、沈伯洋42.0%，蔣領先6.1個百分點。"
+    status: partial
+    observed_at: "2026-11-16T13:08:17.221+08:00"
+    source_ids: [S001, S002]
+    evidence_summary: "使用者提供之社群原貼文完整可讀，另有公開民調彙整同列這組數字。已核實『有人發布與轉述該數字』，尚未直接讀到ETtoday本次民調原始全文。"
+    excerpt: ""
+    verification_notes: ["ETtoday本次正式報告網址、樣本數、加權、是否封閉式會員問卷及公布的抽樣誤差，須直接讀當次原文再定稿。", "社群貼文時間為ambiguous，不用抓取時間冒充發布時間。"]
+    tags: ["2026", "民調", "ETtoday", "待核原始方法"]
+  - id: F002
+    statement: "新台灣國策智庫11月15日公布台北市長民調，沈伯洋46.3%、蔣萬安42.2%，沈領先4.1個百分點。"
+    status: verified
+    observed_at: "2026-11-16T13:08:17.221+08:00"
+    source_ids: [S003]
+    evidence_summary: "聯合報可讀報導列明結果、調查期11/10至11/12、市話及1071份樣本。"
+    excerpt: ""
+    verification_notes: ["本紀錄的verified指發布結果可核，不代表民調預測已獲選舉結果驗證。"]
+    tags: ["2026", "民調", "市話"]
+  - id: F003
+    statement: "信民協會11月16日公布封關民調，沈伯洋48.6%、蔣萬安33.8%，沈領先14.8個百分點。"
+    status: verified
+    observed_at: "2026-11-16T13:08:17.221+08:00"
+    source_ids: [S004]
+    evidence_summary: "台視報導列明結果及11/11至13住宅電話750、行動電話322、有效樣本1072之方法。"
+    excerpt: ""
+    verification_notes: ["該機構另有得票率模型估算，不能將模型推估區間當成支持度題直接結果。"]
+    tags: ["2026", "民調", "電話"]
+  - id: F004
+    statement: "鋒燦傳媒11月16日公布民調，沈伯洋44.7%、蔣萬安43.0%，沈領先1.7個百分點。"
+    status: verified
+    observed_at: "2026-11-16T13:08:17.221+08:00"
+    source_ids: [S005]
+    evidence_summary: "公開報導列明調查期11/4至9、混合市話與網路樣本共2026份；差距小於公布抽樣誤差。"
+    excerpt: ""
+    verification_notes: ["混合調查模式與其他機構抽樣框不同。"]
+    tags: ["2026", "民調", "混合模式"]
+  - id: F005
+    statement: "ETtoday在11月4日公布上一波結果：蔣萬安50.7%、沈伯洋41.9%，與11月16日轉述數字不同。"
+    status: verified
+    observed_at: "2026-11-16T13:08:17.221+08:00"
+    source_ids: [S006, S001]
+    evidence_summary: "TVBS轉述11/1至3封閉式網路問卷結果50.7比41.9；黃揚明11/16轉述48.1比42.0。"
+    excerpt: ""
+    verification_notes: ["跨時間差異不等於同一批受訪者改變立場；11/16本次抽樣方法需核實。"]
+    tags: ["2026", "民調", "ETtoday", "跨期"]
+  - id: F006
+    statement: "11月16日前後不同機構發布的臺北市長民調領先方向不一致：ETtoday轉述蔣領先，新台灣國策智庫、信民協會、鋒燦傳媒則為沈領先。"
+    status: verified
+    observed_at: "2026-11-16T13:08:17.221+08:00"
+    source_ids: [S001, S003, S004, S005]
+    evidence_summary: "僅比較各調查公布的點估計和所述領先方向，非聯合抽樣或民調平均。"
+    excerpt: ""
+    verification_notes: ["各調查執行日期、訪問模式、母體、未表態處理可能不同；不能由領先方向不同直接推出任一家造假。"]
+    tags: ["2026", "跨機構比較"]
+
+claims:
+  - id: C001
+    statement: "某一份封關民調的點估計即可判定2026年11月28日臺北市長選舉結果。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F001, F002, F003, F004, F006]
+    reasoning_notes: "選前調查與最終投票存在時距、樣本與投票率差異；待正式選舉結果公布後，逐機構按同一計分規則回測。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-11-16T13:08:17.221+08:00"
+    platform: web
+    query: "2026-11-16 ETtoday 蔣萬安48.1% 沈伯洋42.0% 民調調查日期方法"
+    scope: "公開搜尋與ETtoday當日報導"
+    result: partial
+    notes: "找到使用者擷取之黃揚明貼文與公開彙整所列數字及ETtoday文章標題；本輪尚未直接取得該篇原始全文與調查方法；不能沿用11/4舊一波方法作為11/16本次之已證實方法。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "作為11/28選舉結果公布後逐家比較之事前快照，並連結既有sessions/2026-10-30-taipei-mayor-polls-prediction-market/evidence.yaml。"
+  - "保存黃揚明貼文來源而非將其當作ETtoday原始調查報告；社群留言中的個人預測不列入民調事證。"
+  - "各份民調個別保留原始公布比例，不進行未經權重設計之平均。"
