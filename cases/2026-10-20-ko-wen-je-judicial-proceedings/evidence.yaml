@@ -554,7 +554,7 @@ facts:
   observed_at: '2026-11-16T20:08:00+08:00'
   source_ids: [S020, S021]
   evidence_summary: 原始主貼及帶comment_id的留言連結均可核對；僅確認兩造公開言論，不認定帳務抗辯或管理失職實體成立。
-  tags: [2026-11-16, Facebook, 財政紀律, 管理責任, 論點轉移]
+  tags: ['2026-11-16', Facebook, 財政紀律, 管理責任, 論點轉移]
 
 claims:
 - id: C001
