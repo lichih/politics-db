@@ -1,0 +1,154 @@
+session:
+  id: "2026-11-16-g6-g7-threads-discourse"
+  project: Politics
+  title: "2026-11-16 Threads「G6走入歷史」貼文與G7、G8留言：語意與圖表待核"
+  started_at: "2026-11-16T13:17:09.375+08:00"
+  updated_at: "2026-11-16T13:17:09.375+08:00"
+  status: active
+
+topics: ["G6", "G7", "G8", "Threads", "社群言論", "民調解讀", "政黨相對好感度", "待核圖像"]
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "kimbertsai／Threads"
+    title: "好吧 G6 這代名詞已走入歷史"
+    url: "https://www.threads.com/@kimbertsai/post/DfyTrOhmnKa"
+    published_at: "2026-11-16T10:41:52+08:00"
+    observed_at: "2026-11-16T13:13:06+08:00"
+    retrieval_status: reachable
+    notes:
+      - "使用者提供browser_extension Social Capture for Research v0.9.2，captured_at=2026-11-16T05:13:06.181Z，整串capture_status=ambiguous；主文ID與文字本身deterministic。"
+      - "原文僅『好吧 G6 這代名詞已走入歷史』；實際瀏覽器頁面可見附圖（貼文擷取media欄為空），但本次未讀到附圖內文字／數據，不得從標題倒推圖表意涵。"
+  - id: S002
+    source_type: primary
+    publisher: "voyagerkid／Threads"
+    title: "留言：還是大家來聊聊G7那比例發生什麼事了XD"
+    url: "https://www.threads.com/@voyagerkid/post/DfyVKuDkjO4"
+    published_at: "2026-11-16T10:54:54+08:00"
+    observed_at: "2026-11-16T13:13:06+08:00"
+    retrieval_status: reachable
+    notes: ["是對S001的直接回覆；表明留言者關注G7所占比例，但文字未提供比例數值或調查來源。"]
+  - id: S003
+    source_type: primary
+    publisher: "oceanmanpro1／Threads"
+    title: "留言：跑到G8"
+    url: "https://www.threads.com/@oceanmanpro1/post/DfyWwDVkiJO"
+    published_at: "2026-11-16T11:08:44+08:00"
+    observed_at: "2026-11-16T13:13:06+08:00"
+    retrieval_status: reachable
+    notes: ["依使用者擷取，此則回覆chuan0552之『已釘選』圖片留言；語句是評論，尚非群體流動的證據。"]
+  - id: S004
+    source_type: primary
+    publisher: "uno_310310／Threads"
+    title: "留言：將G7解讀為七年級生赴中國就業群體"
+    url: "https://www.threads.com/@uno_310310/post/DfyVihmD5go"
+    published_at: "2026-11-16T10:58:09+08:00"
+    observed_at: "2026-11-16T13:13:06+08:00"
+    retrieval_status: reachable
+    notes: ["留言者自行提出與七年級生、赴中國就業、青商會相關的猜測；原文未提出查證依據，不能歸納為民調結果。"]
+  - id: S005
+    source_type: secondary
+    publisher: "美麗島電子報"
+    title: "2026年3月國政民調：國民黨vs.民進黨相對好感度G1–G9分類方法"
+    url: "https://www.my-formosa.com.tw/DOC_224706.htm"
+    published_at: "2026-03"
+    observed_at: "2026-11-16T13:17:09.375+08:00"
+    retrieval_status: reachable
+    notes: ["依戴立安採用的相對好感度分類：G1至G3傾泛藍；G4至G6為兩黨評價相同的廣義中間群；G6為對兩黨都負評；G7至G9傾泛綠。", "此資料提供可能的術語脈絡，不表示S001附圖必定採用同一指標；需直接核對原圖與圖表來源。"]
+  - id: S006
+    source_type: secondary
+    publisher: "銳傳媒"
+    title: "信民協會—戴立安2026年11月16日台北市長封關民調新聞稿"
+    url: "https://vigormedia.tw/%E3%80%8A%E4%BF%A1%E6%B0%91%E5%8D%94%E6%9C%83-%E6%88%B4%E7%AB%8B%E5%AE%89%E3%80%8B%E5%8F%B0%E5%8C%97%E5%B8%82%E9%95%B7%E6%9C%80%E6%96%B0%E5%B0%81%E9%97%9C%E6%B0%91%E8%AA%BF%E6%96%B0%E8%81%9E/"
+    published_at: "2026-11-16"
+    observed_at: "2026-11-16T13:17:09.375+08:00"
+    retrieval_status: reachable
+    notes: ["同期封關民調背景：11/11至11/13住宅及行動電話共1072人；目前新聞稿的主文未見S001附圖同一張G群分類表，兩者不能逕行等同。"]
+
+facts:
+  - id: F001
+    statement: "2026年11月16日kimbertsai在Threads公開發布『好吧 G6 這代名詞已走入歷史』。"
+    status: verified
+    observed_at: "2026-11-16T13:13:06+08:00"
+    source_ids: [S001]
+    evidence_summary: "擷取記錄主貼文ID DfyTrOhmnKa、作者kimbertsai、發文時間2026-11-16T02:41:52Z、原文文字及網址。僅證實有此發言，不證實G6實際消失。"
+    excerpt: "好吧 G6 這代名詞已走入歷史"
+    verification_notes: ["原貼文另有附圖但擷取無附圖；無法判斷原貼文引用哪家民調、哪個統計或G6具體定義。"]
+    tags: ["2026", "社群言論", "G6"]
+  - id: F002
+    statement: "同串文有直接回覆質疑G7比例，以及留言以『跑到G8』形容群體變化。"
+    status: verified
+    observed_at: "2026-11-16T13:13:06+08:00"
+    source_ids: [S002, S003]
+    evidence_summary: "擷取保留DfyVKuDkjO4與DfyWwDVkiJO兩則文字；兩者是對數字的評論，未提供數據來源。"
+    excerpt: ""
+    verification_notes: ["沒有實際G7/G8比例，不能據此證明G6人口轉為G8。"]
+    tags: ["2026", "社群言論", "G7", "G8"]
+  - id: F003
+    statement: "另一名留言者自行以『七年級生』及中國就業經驗解釋G7，沒有在留言中附證據。"
+    status: verified
+    observed_at: "2026-11-16T13:13:06+08:00"
+    source_ids: [S004]
+    evidence_summary: "觀察到這種解讀在同串文出現，不代表解讀本身正確。"
+    excerpt: ""
+    verification_notes: ["如原貼文指的是戴立安G1–G9政黨好感度群，G7並不是『七年級生』。但仍須查看附圖以判定該貼文所用標籤。"]
+    tags: ["2026", "社群解讀", "G7"]
+  - id: F004
+    statement: "戴立安政黨相對好感度G1–G9術語中，G6指對國民黨與民進黨均負評之廣義中間群，G7至G9屬較偏民進黨群，並不是年級世代編碼。"
+    status: verified
+    observed_at: "2026-11-16T13:17:09.375+08:00"
+    source_ids: [S005]
+    evidence_summary: "美麗島民調公開方法文直接說明九群分類及每群定義。"
+    excerpt: ""
+    verification_notes: ["只確立此民調分類法本身；未核實kimbertsai所附圖片是否使用該分類法。"]
+    tags: ["2026", "民調方法", "政黨好感度", "G1-G9"]
+
+claims:
+  - id: C001
+    statement: "G6這個群體或名稱已走入歷史。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F001, F002, F004]
+    reasoning_notes: "只能證實主文有此政治觀察；附圖缺失，無法查核主張的量化前提、母體、統計變化及是否為民調分類之『G6』。"
+  - id: C002
+    statement: "G6人口已流向G8。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F002, F004]
+    reasoning_notes: "只有一則『跑到G8』的回覆，無追蹤樣本或跨期分類轉移資料可支持個體流動。"
+  - id: C003
+    statement: "G7指七年級生及青商會等赴中國工作的世代。"
+    status: unsupported
+    supports: []
+    contradicts: [F004]
+    related_facts: [F003]
+    reasoning_notes: "若採美麗島／戴立安G1–G9定義，G7代表政黨相對好感度分類，不是出生年級；待確認原貼文附圖。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-11-16T13:17:09.375+08:00"
+    platform: browser
+    query: "已開啟Threads @kimbertsai/post/DfyTrOhmnKa 原始貼文及回覆"
+    scope: "使用者開啟瀏覽器分頁與貼文DOM文字"
+    result: partial
+    notes: "核對主文、G7與G8回覆；瀏覽器DOM有顯示主貼文附圖URL及另一則圖像回覆，但未成功讀到圖片文字／表格；不把缺失圖像推測成事實。"
+  - id: Q002
+    observed_at: "2026-11-16T13:17:09.375+08:00"
+    platform: web
+    query: "G6 G7 G8 政黨相對好感度 戴立安 2026"
+    scope: "美麗島國政民調G1至G9官方分類解說"
+    result: found
+    notes: "找到相對好感度九群定義（S005）。未找到足以直接匹配主貼文附圖與數值的原始資料。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "此紀錄是2026/11/16社群言論與可能的民調術語混淆樣本，不是『G6消失』的事實認定。"
+  - "後續補強需取得主貼文及chuan0552留言的實際附圖；必要時追查原圖引用的調查發表者、日期、母體、問題文字與G6/G7/G8具體比例。"
+  - "本session可與同日sessions/2026-11-16-taipei-mayor-closing-polls/evidence.yaml交叉查閱，但不代表兩者圖表出處相同。"
