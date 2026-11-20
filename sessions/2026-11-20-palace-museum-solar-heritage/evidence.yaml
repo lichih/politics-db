@@ -4,7 +4,7 @@
     "project": "Politics",
     "title": "故宮屋頂光電盤點：文資排除規則、公文與劍橋對照",
     "started_at": "2026-11-20T04:02:20.730Z",
-    "updated_at": "2026-11-20T04:02:20.730Z",
+    "updated_at": "2026-11-20T04:03:02.484Z",
     "status": "active"
   },
   "topics": [
@@ -112,7 +112,7 @@
     {
       "id": "S008",
       "source_type": "secondary",
-      "publisher": "聯合報",
+      "publisher": "媒體轉載（Yahoo新聞，原始發布機構待確認）",
       "title": "故宮稱未規畫裝光電 北市文化局反擊：文資非能源達標數字",
       "url": "https://tw.news.yahoo.com/%E6%95%85%E5%AE%AE%E7%A8%B1%E6%9C%AA%E8%A6%8F%E5%8A%83%E8%A3%9D%E5%85%89%E9%9B%BB-%E5%8C%97%E5%B8%82%E6%96%87%E5%8C%96%E5%B1%80%E5%8F%8D%E6%93%8A-%E6%96%87%E8%B3%87%E9%9D%9E%E8%83%BD%E6%BA%90%E9%81%94%E6%A8%99%E6%95%B8%E5%AD%97-115908191.html",
       "published_at": "2026-11-19",
@@ -120,6 +120,32 @@
       "retrieval_status": "reachable",
       "notes": [
         "媒體轉述文化局回函原則建議現階段不在相關建築屋頂裝設光電設施；回函全文仍待核實。"
+      ]
+    },
+    {
+      "id": "S009",
+      "source_type": "primary",
+      "publisher": "國立故宮博物院",
+      "title": "故宮嚴正駁斥光電不實訊息　要求臺北市文化局長撤文並公開道歉",
+      "url": "https://www.npm.gov.tw/News-Content.aspx?idstr=MDMwMDAwOTY%3D&l=1&sno=04014710&type=03000096",
+      "published_at": "2026-11-19",
+      "observed_at": "2026-11-20T04:03:02.484Z",
+      "retrieval_status": "reachable",
+      "notes": [
+        "故宮院方原始正式聲明，明確否認有正式提案並反駁模擬圖造成錯誤印象的風險。"
+      ]
+    },
+    {
+      "id": "S010",
+      "source_type": "secondary",
+      "publisher": "聯合報",
+      "title": "故宮6/10已回覆不設光電 能源署要求原因只好行文北市",
+      "url": "https://udn.com/news/story/7314/9890781",
+      "published_at": "2026-11-20",
+      "observed_at": "2026-11-20T04:03:02.484Z",
+      "retrieval_status": "reachable",
+      "notes": [
+        "追蹤6月回函之故宮公開說法；未取得原函，不能當作已驗證文件。"
       ]
     }
   ],
@@ -162,7 +188,8 @@
       "status": "verified",
       "observed_at": "2026-11-20T04:02:20.730Z",
       "source_ids": [
-        "S003"
+        "S003",
+        "S009"
       ],
       "evidence_summary": "核實的是故宮公開立場，不因一封詢問函而推定存在工程提案。",
       "verification_notes": [],
@@ -194,7 +221,8 @@
       "status": "verified",
       "observed_at": "2026-11-20T04:02:20.730Z",
       "source_ids": [
-        "S005"
+        "S005",
+        "S010"
       ],
       "evidence_summary": "6/10公文原文尚未取得，僅能當作當事機關說法。",
       "verification_notes": [],
@@ -339,6 +367,7 @@
   },
   "notes": [
     "請與相關新聞的原始日期分開判讀；本記錄僅保存2026-11-20查核可及資料。",
-    "R2對照與AI模擬圖片能作視覺評論輔助，不得當作已核定裝設計畫。"
+    "R2對照與AI模擬圖片能作視覺評論輔助，不得當作已核定裝設計畫。",
+    "2026-11-20增查故宮官方原始聲明，將『從未提案』的立場由僅媒體轉述提升為原始聲明可核。"
   ]
 }
