@@ -1,0 +1,344 @@
+{
+  "session": {
+    "id": "2026-11-20-palace-museum-solar-heritage",
+    "project": "Politics",
+    "title": "故宮屋頂光電盤點：文資排除規則、公文與劍橋對照",
+    "started_at": "2026-11-20T04:02:20.730Z",
+    "updated_at": "2026-11-20T04:02:20.730Z",
+    "status": "active"
+  },
+  "topics": [
+    "國立故宮博物院",
+    "公有屋頂太陽光電",
+    "文化資產排除",
+    "臺北市文化局",
+    "劍橋國王學院禮拜堂"
+  ],
+  "sources": [
+    {
+      "id": "S001",
+      "source_type": "primary",
+      "publisher": "經濟部能源署",
+      "title": "屋頂太陽光電設置成效納入永續長獎勵機制評分規劃",
+      "url": "https://service.moenv.gov.tw/File/Get/soc/zh-tw/vif7vHSzPSNu5UX",
+      "published_at": "2026-04-28",
+      "observed_at": "2026-11-20T04:02:20.730Z",
+      "retrieval_status": "reachable",
+      "notes": [
+        "附件2（PDF第15頁）列文化資產為『得排除情形』，並記載由機關依建物實際狀況先行排除。",
+        "屬評分規劃文件，不足以證明最終辦法已核定實施。"
+      ]
+    },
+    {
+      "id": "S002",
+      "source_type": "primary",
+      "publisher": "蔡詩萍（臺北市文化局長）",
+      "title": "2026-11-19公開故宮11月12日來函影像",
+      "url": "https://www.facebook.com/linlindaddy/posts/pfbid02PnYtaFtUWp6HJfnuWHMEMrFvUzpzLhUhXhV4REEwyC8zYNjA1yGGNXwX4nPCcSa8l",
+      "published_at": "2026-11-19",
+      "observed_at": "2026-11-20T04:02:20.730Z",
+      "retrieval_status": "reachable",
+      "notes": [
+        "公文主旨是『函詢歷史建築及文化景觀內屋頂安裝太陽光電設備之妥適性』，說明中指能源署為釐清面積，倘未能設置須具體填寫不可設置原因。",
+        "原件及完整收發文附件未由本次獨立取得；屬公開影像與媒體轉載。"
+      ]
+    },
+    {
+      "id": "S003",
+      "source_type": "secondary",
+      "publisher": "中央社",
+      "title": "蔡詩萍稱擋下故宮屋頂光電案　故宮：從未提案、要求撤文道歉",
+      "url": "https://www.cna.com.tw/news/acul/202611190316.aspx",
+      "published_at": "2026-11-19",
+      "observed_at": "2026-11-20T04:02:20.730Z",
+      "retrieval_status": "reachable",
+      "notes": [
+        "故宮稱正館與院區有文化資產身分，沒有提出於正館園區裝設光電的提案。"
+      ]
+    },
+    {
+      "id": "S004",
+      "source_type": "secondary",
+      "publisher": "中央社",
+      "title": "經部：從未強制要求故宮設置太陽光電　文資一律排除",
+      "url": "https://www.cna.com.tw/news/acul/202611190378.aspx",
+      "published_at": "2026-11-19",
+      "observed_at": "2026-11-20T04:02:20.730Z",
+      "retrieval_status": "reachable",
+      "notes": [
+        "能源署稱5/27請各部會逐棟盤點屋頂面積與現況，提供文化資產等七項不可設置原因，一律排除。",
+        "此為能源署對程序的官方說明，5/27原函附件仍待取得。"
+      ]
+    },
+    {
+      "id": "S005",
+      "source_type": "secondary",
+      "publisher": "聯合報",
+      "title": "故宮裝光電板爭議 能源署：盤點非強迫 勿扭曲公文",
+      "url": "https://udn.com/news/story/6656/9890159",
+      "published_at": "2026-11-20",
+      "observed_at": "2026-11-20T04:02:20.730Z",
+      "retrieval_status": "reachable",
+      "notes": [
+        "報導故宮稱6/10已回函能源署表達文資不裝設立場；原函尚未直接取得。"
+      ]
+    },
+    {
+      "id": "S006",
+      "source_type": "primary",
+      "publisher": "Cambridge City Council",
+      "title": "Planning Committee, 7 February 2023 minutes",
+      "url": "https://democracy.cambridge.gov.uk/ieListDocuments.aspx?CId=181&MId=4173",
+      "published_at": "2023-02-07",
+      "observed_at": "2026-11-20T04:02:20.730Z",
+      "retrieval_status": "reachable",
+      "notes": [
+        "市議會在Historic England反對、審查官員建議拒絕後，仍同意國王學院禮拜堂光電申請。"
+      ]
+    },
+    {
+      "id": "S007",
+      "source_type": "primary",
+      "publisher": "King’s College, Cambridge",
+      "title": "Lighting the path to a greener future",
+      "url": "https://kingscollege.shorthandstories.com/agreenerfuture/",
+      "published_at": "2024",
+      "observed_at": "2026-11-20T04:02:20.730Z",
+      "retrieval_status": "reachable",
+      "notes": [
+        "國王學院說明裝設438片光電板，2024年2月接入學院供電系統。"
+      ]
+    },
+    {
+      "id": "S008",
+      "source_type": "secondary",
+      "publisher": "聯合報",
+      "title": "故宮稱未規畫裝光電 北市文化局反擊：文資非能源達標數字",
+      "url": "https://tw.news.yahoo.com/%E6%95%85%E5%AE%AE%E7%A8%B1%E6%9C%AA%E8%A6%8F%E5%8A%83%E8%A3%9D%E5%85%89%E9%9B%BB-%E5%8C%97%E5%B8%82%E6%96%87%E5%8C%96%E5%B1%80%E5%8F%8D%E6%93%8A-%E6%96%87%E8%B3%87%E9%9D%9E%E8%83%BD%E6%BA%90%E9%81%94%E6%A8%99%E6%95%B8%E5%AD%97-115908191.html",
+      "published_at": "2026-11-19",
+      "observed_at": "2026-11-20T04:02:20.730Z",
+      "retrieval_status": "reachable",
+      "notes": [
+        "媒體轉述文化局回函原則建議現階段不在相關建築屋頂裝設光電設施；回函全文仍待核實。"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "F001",
+      "statement": "能源署2026-04-28簡報附件二列文化資產為屋頂光電設置率『得排除』項目，並說由機關依建物情況先行排除。",
+      "status": "verified",
+      "observed_at": "2026-11-20T04:02:20.730Z",
+      "source_ids": [
+        "S001"
+      ],
+      "evidence_summary": "PDF第15頁；這是政策設計文件，不等同已實施的正式法規。",
+      "verification_notes": [],
+      "tags": [
+        "故宮",
+        "文化資產",
+        "光電盤點"
+      ]
+    },
+    {
+      "id": "F002",
+      "statement": "2026-11-12故宮函詢臺北市文化局關於歷史建築及文化景觀內屋頂設置光電之妥適性，理由包含能源署的面積盤點及無法設置須填寫原因。",
+      "status": "verified",
+      "observed_at": "2026-11-20T04:02:20.730Z",
+      "source_ids": [
+        "S002"
+      ],
+      "evidence_summary": "來函影像內容經新聞多方轉述；未取得本次文書之官方電子全文。",
+      "verification_notes": [],
+      "tags": [
+        "故宮",
+        "文化資產",
+        "光電盤點"
+      ]
+    },
+    {
+      "id": "F003",
+      "statement": "故宮2026-11-19對外表示並未提出在正館園區設置光電的正式提案。",
+      "status": "verified",
+      "observed_at": "2026-11-20T04:02:20.730Z",
+      "source_ids": [
+        "S003"
+      ],
+      "evidence_summary": "核實的是故宮公開立場，不因一封詢問函而推定存在工程提案。",
+      "verification_notes": [],
+      "tags": [
+        "故宮",
+        "文化資產",
+        "光電盤點"
+      ]
+    },
+    {
+      "id": "F004",
+      "statement": "能源署2026-11-19表示2026-05-27的函詢屬公有屋頂盤點，文化資產等七項原因在該調查中一律排除，並否認要求故宮裝設。",
+      "status": "verified",
+      "observed_at": "2026-11-20T04:02:20.730Z",
+      "source_ids": [
+        "S004"
+      ],
+      "evidence_summary": "核實的是官方公開說明；該5/27函及附件未直接取得。",
+      "verification_notes": [],
+      "tags": [
+        "故宮",
+        "文化資產",
+        "光電盤點"
+      ]
+    },
+    {
+      "id": "F005",
+      "statement": "故宮2026-11-20被媒體報導稱6/10已致函能源署表達文資不設置立場。",
+      "status": "verified",
+      "observed_at": "2026-11-20T04:02:20.730Z",
+      "source_ids": [
+        "S005"
+      ],
+      "evidence_summary": "6/10公文原文尚未取得，僅能當作當事機關說法。",
+      "verification_notes": [],
+      "tags": [
+        "故宮",
+        "文化資產",
+        "光電盤點"
+      ]
+    },
+    {
+      "id": "F006",
+      "statement": "劍橋市議會2023-02-07核准國王學院禮拜堂屋頂光電設置，儘管Historic England和規劃官員提出文資影響反對意見。",
+      "status": "verified",
+      "observed_at": "2026-11-20T04:02:20.730Z",
+      "source_ids": [
+        "S006"
+      ],
+      "evidence_summary": "此案有正式計畫與審查，不能直接類比台北故宮只進行盤點。",
+      "verification_notes": [],
+      "tags": [
+        "故宮",
+        "文化資產",
+        "光電盤點"
+      ]
+    },
+    {
+      "id": "F007",
+      "statement": "國王學院官方資料記載禮拜堂裝設438片光電板，於2024-02連接校內電力供應。",
+      "status": "verified",
+      "observed_at": "2026-11-20T04:02:20.730Z",
+      "source_ids": [
+        "S007"
+      ],
+      "evidence_summary": "須區分最初規劃申請492片與完工實裝438片。",
+      "verification_notes": [],
+      "tags": [
+        "故宮",
+        "文化資產",
+        "光電盤點"
+      ]
+    },
+    {
+      "id": "F008",
+      "statement": "臺北市文化局曾透過媒體說明其回函原則建議目前不在故宮相關建築屋頂設置光電設施。",
+      "status": "verified",
+      "observed_at": "2026-11-20T04:02:20.730Z",
+      "source_ids": [
+        "S008"
+      ],
+      "evidence_summary": "文化局回函全文仍待直接取得。",
+      "verification_notes": [],
+      "tags": [
+        "故宮",
+        "文化資產",
+        "光電盤點"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "statement": "故宮2026年11月已正式提案在正館屋頂裝設光電板。",
+      "status": "contradicted",
+      "supports": [],
+      "contradicts": [
+        "F003"
+      ],
+      "related_facts": [
+        "F002"
+      ],
+      "reasoning_notes": "函詢是否妥適與正式工程提案不同。"
+    },
+    {
+      "id": "C002",
+      "statement": "能源署已強制要求故宮在文化資產屋頂設置光電。",
+      "status": "unsupported",
+      "supports": [],
+      "contradicts": [
+        "F001",
+        "F004"
+      ],
+      "related_facts": [
+        "F002"
+      ],
+      "reasoning_notes": "目前文件與公開說明不支持強制裝設，但無法直接確認全部內部行政往返。"
+    },
+    {
+      "id": "C003",
+      "statement": "光電設置率的有效分母依法一定包含故宮已登錄文化資產屋頂。",
+      "status": "contradicted",
+      "supports": [],
+      "contradicts": [
+        "F001",
+        "F004"
+      ],
+      "related_facts": [
+        "F002"
+      ],
+      "reasoning_notes": "4/28簡報已列排除可能，5/27盤點官方稱一律排除；不可由盤點函詢推論已納入分母。"
+    },
+    {
+      "id": "C004",
+      "statement": "文化資產排除程序的作業成本與中央/院方責任劃分值得檢視。",
+      "status": "supported",
+      "supports": [
+        "F001",
+        "F002",
+        "F004"
+      ],
+      "contradicts": [],
+      "related_facts": [
+        "F005",
+        "F008"
+      ],
+      "reasoning_notes": "這是依公開文件提出的制度監督議題，非認定曾要求實際施工。"
+    }
+  ],
+  "searches": [
+    {
+      "id": "Q001",
+      "observed_at": "2026-11-20T04:02:20.730Z",
+      "platform": "GitHub",
+      "query": "politics-db 故宮 光電 heritage palace",
+      "scope": "politics-db main recursive path tree",
+      "result": "not_found",
+      "notes": "路徑未有本案專檔；不代表不存在其他非關鍵字相關記錄。 "
+    },
+    {
+      "id": "Q002",
+      "observed_at": "2026-11-20T04:02:20.730Z",
+      "platform": "web",
+      "query": "2026 故宮 蔡詩萍 能源署 光電 文資; 2023 King’s College Chapel photovoltaic planning",
+      "scope": "能源署PDF、中央社、聯合報、劍橋市議會、King’s College",
+      "result": "partial",
+      "notes": "可核實公文影像轉載及政策文件，但未取得5/27、6/10完整收發文原件。"
+    }
+  ],
+  "promotion": {
+    "cases": [],
+    "comparators": [],
+    "research": []
+  },
+  "notes": [
+    "請與相關新聞的原始日期分開判讀；本記錄僅保存2026-11-20查核可及資料。",
+    "R2對照與AI模擬圖片能作視覺評論輔助，不得當作已核定裝設計畫。"
+  ]
+}
