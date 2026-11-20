@@ -4,7 +4,7 @@
     "project": "Politics",
     "title": "故宮屋頂光電盤點：文資排除規則、公文與劍橋對照",
     "started_at": "2026-11-20T04:02:20.730Z",
-    "updated_at": "2026-11-20T04:46:56.666Z",
+    "updated_at": "2026-11-20T04:58:15.076Z",
     "status": "active"
   },
   "topics": [
@@ -155,7 +155,7 @@
       "source_type": "primary",
       "publisher": "國立故宮博物院（公開書函影像）",
       "title": "115年11月12日台博秘字第1150012682號致臺北市政府文化局書函",
-      "url": "https://media.fact.4649.tw/2026-11-20-palace-museum-solar-heritage/2026-11-12-museum-letter-to-culture-bureau.webp",
+      "url": "https://media.fact.4649.tw/2026-11-20-palace-museum-solar-heritage/document-2026-11-12-npm-to-taipei-culture-bureau-annotated.webp",
       "published_at": "2026-11-12",
       "observed_at": "2026-11-20T04:24:20.706Z",
       "retrieval_status": "reachable",
@@ -170,7 +170,7 @@
       "source_type": "primary",
       "publisher": "國立故宮博物院（公開新聞稿影像）",
       "title": "2026-11-19故宮嚴正駁斥光電不實訊息 要求臺北市文化局長撤文並公開道歉",
-      "url": "https://media.fact.4649.tw/2026-11-20-palace-museum-solar-heritage/2026-11-19-museum-public-clarification.webp",
+      "url": "https://media.fact.4649.tw/2026-11-20-palace-museum-solar-heritage/document-2026-11-19-npm-press-statement.webp",
       "published_at": "2026-11-19",
       "observed_at": "2026-11-20T04:24:20.706Z",
       "retrieval_status": "reachable",
@@ -202,7 +202,7 @@
       "retrieval_status": "reachable",
       "publisher": "國立故宮博物院（官方公開書函影像）",
       "title": "2026年11月12日台博秘字第1150012682號書函，故宮秘書室副本",
-      "url": "https://media.fact.4649.tw/2026-11-20-palace-museum-solar-heritage/2026-11-12-museum-letter-secretariat-copy.webp",
+      "url": "https://media.fact.4649.tw/2026-11-20-palace-museum-solar-heritage/document-2026-11-12-npm-to-taipei-culture-bureau-secretariat-copy.webp",
       "published_at": "2026-11-12",
       "notes": [
         "由使用者從故宮官方公開澄清頁提供，正文與之前文化局受文版本一致。",
@@ -216,7 +216,7 @@
       "retrieval_status": "reachable",
       "publisher": "臺北市政府文化局（故宮官網公開影像）",
       "title": "2026年11月18日北市文化文資字第1153042557號函覆故宮，第1頁",
-      "url": "https://media.fact.4649.tw/2026-11-20-palace-museum-solar-heritage/2026-11-18-taipei-culture-bureau-reply-page-1.webp",
+      "url": "https://media.fact.4649.tw/2026-11-20-palace-museum-solar-heritage/document-2026-11-18-taipei-culture-bureau-to-npm-page-01.webp",
       "published_at": "2026-11-18",
       "notes": [
         "文化局向故宮回函，直接援引文化資產保存法第24條及第30條，及文化景觀保存維護計畫。",
@@ -245,10 +245,75 @@
       "retrieval_status": "reachable",
       "publisher": "國立故宮博物院（官網聲明圖卡）",
       "title": "2026年11月20日故宮嚴正澄清：AI合成圖非院方想法、規劃或提案",
-      "url": "https://media.fact.4649.tw/2026-11-20-palace-museum-solar-heritage/2026-11-20-museum-rebuttal-graphic.webp",
+      "url": "https://media.fact.4649.tw/2026-11-20-palace-museum-solar-heritage/graphic-2026-11-20-npm-solar-rebuttal.webp",
       "published_at": "2026-11-20",
       "notes": [
         "此圖卡是故宮的公開立場宣示，不是技術鑑定或中央公文；圖中合成光電板由故宮加註文字與紅叉。"
+      ]
+    },
+    {
+      "id": "S018",
+      "source_type": "primary",
+      "publisher": "臺北市政府文化局（由故宮官方公開的完整回函影像）",
+      "title": "2026-11-18 北市文化局回覆故宮書函第2頁原始影像",
+      "url": "https://media.fact.4649.tw/2026-11-20-palace-museum-solar-heritage/document-2026-11-18-taipei-culture-bureau-to-npm-page-02.webp",
+      "published_at": "2026-11-18",
+      "observed_at": "2026-11-20T04:58:15.076Z",
+      "retrieval_status": "reachable",
+      "notes": [
+        "使用者提供之第二頁；與故宮官網 https://south.npm.gov.tw/FileDownload/Activities/NotSet/20261120110752492046.jpg 影像內容直接核對。",
+        "第4點稱原則建議現階段相關建物屋頂以不設置光電為宜；並提及後續工程涉及重要景觀元素時審慎評估。"
+      ]
+    },
+    {
+      "id": "S019",
+      "source_type": "secondary",
+      "publisher": "來源未明的太陽光電制度宣導簡報（使用者提供影像）",
+      "title": "「豁免條件（二）：因構造或用途特殊」《建築物設置太陽光電發電設備標準》第5條流程示意",
+      "url": "https://media.fact.4649.tw/2026-11-20-palace-museum-solar-heritage/slide-building-pv-exemption-special-structure-article-05.webp",
+      "observed_at": "2026-11-20T04:58:15.076Z",
+      "retrieval_status": "reachable",
+      "notes": [
+        "影像來源機關與製作日期未核實，不能視為故宮案件相關行政文件。",
+        "文字與正式第5條相符，但其對象是《再生能源發展條例》第12條之1所定一定規模的新建、增建、改建建物；與2026年5月公有屋頂盤點不是同一個義務或程序。"
+      ]
+    },
+    {
+      "id": "S020",
+      "source_type": "primary",
+      "publisher": "法務部全國法規資料庫",
+      "title": "再生能源發展條例第12條之1",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=J0130032",
+      "observed_at": "2026-11-20T04:58:15.076Z",
+      "retrieval_status": "reachable",
+      "notes": [
+        "第12-1條僅針對達一定規模的新建、增建、改建建築物之起造人設置義務，不能與既有公有建物光電盤點直接畫等號。"
+      ]
+    },
+    {
+      "id": "S021",
+      "source_type": "primary",
+      "publisher": "法務部全國法規資料庫",
+      "title": "建築物設置太陽光電發電設備標準第5條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070319",
+      "observed_at": "2026-11-20T04:58:15.076Z",
+      "retrieval_status": "reachable",
+      "notes": [
+        "第5條對因構造或用途特殊而顯然不宜設置者，經建築主管機關認定後免除前述建築物新建增改建設置義務。",
+        "此為不同於能源署5/27公有屋頂面積盤點的法規路徑。"
+      ]
+    },
+    {
+      "id": "S022",
+      "source_type": "primary",
+      "publisher": "法務部全國法規資料庫",
+      "title": "國立故宮博物院組織法",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=H0190006",
+      "observed_at": "2026-11-20T04:58:15.076Z",
+      "retrieval_status": "reachable",
+      "notes": [
+        "第1條：故宮隸屬行政院；第3條：院長一人，特任。",
+        "用於建立制度性人事權力關係，不足以直接證明有任何特定施壓指示。"
       ]
     }
   ],
@@ -478,7 +543,8 @@
       "observed_at": "2026-11-20T04:46:56.666Z",
       "source_ids": [
         "S015",
-        "S016"
+        "S016",
+        "S018"
       ],
       "evidence_summary": "兩頁公文影像；第二頁第四點為『原則建議現階段相關建築物屋頂以不設置太陽能光電設施為宜』，後續如果涉及文資風貌維護仍應審慎評估。",
       "verification_notes": [],
@@ -521,6 +587,79 @@
         "證據缺口",
         "文書往返",
         "行政責任"
+      ]
+    },
+    {
+      "id": "F017",
+      "statement": "2026年11月18日文化局回函第2頁已由故宮公開且由使用者提供完整影像，函文『原則建議現階段相關建物屋頂以不設置太陽能光電設施為宜』。",
+      "status": "verified",
+      "observed_at": "2026-11-20T04:58:15.076Z",
+      "source_ids": [
+        "S018",
+        "S015"
+      ],
+      "evidence_summary": "與官方頁面同一圖片內容核對；更新資料來源為正式 R2 檔及官方原圖。",
+      "verification_notes": [],
+      "tags": [
+        "文化局",
+        "正式回函",
+        "文資保存"
+      ]
+    },
+    {
+      "id": "F018",
+      "statement": "使用者提供的『豁免條件（二）』簡報對應《建築物設置太陽光電發電設備標準》第5條的建築執照相關個案認定，不是2026年5月公有屋頂盤點的同一程序。",
+      "status": "verified",
+      "observed_at": "2026-11-20T04:58:15.076Z",
+      "source_ids": [
+        "S019",
+        "S020",
+        "S021"
+      ],
+      "evidence_summary": "法規第5條連結《再生能源發展條例》第12-1條新建增建改建的設置義務；簡報本身原始製作機關尚未查得。",
+      "verification_notes": [],
+      "tags": [
+        "光電",
+        "法規區辨",
+        "豁免"
+      ]
+    },
+    {
+      "id": "F019",
+      "statement": "國立故宮博物院依組織法隸屬行政院，院長為特任職，因此其對中央能源政策的公開爭議存在制度性政治權力關係。",
+      "status": "verified",
+      "observed_at": "2026-11-20T04:58:15.076Z",
+      "source_ids": [
+        "S022"
+      ],
+      "evidence_summary": "組織法第1條、第3條可直接查核；最後半句是制度構造而非具體施壓事實。",
+      "verification_notes": [],
+      "tags": [
+        "故宮",
+        "行政組織",
+        "政治權責"
+      ]
+    },
+    {
+      "id": "F020",
+      "statement": "目前公開爭議中，故宮主要以蔡詩萍把函詢誤述為提案作公開反駁；能源署則公開強調只是盤點、非強制設置，但5/27與6/10中央往返原件並未完整公開。",
+      "status": "verified",
+      "observed_at": "2026-11-20T04:58:15.076Z",
+      "source_ids": [
+        "S003",
+        "S009",
+        "S012",
+        "S013",
+        "S004",
+        "S016"
+      ],
+      "evidence_summary": "可核對兩機關實際公開回應的焦點與仍欠缺的中央原件；不能從沒有見到文件直接推定機關拒絕公開。",
+      "verification_notes": [],
+      "tags": [
+        "故宮",
+        "能源署",
+        "公開溝通",
+        "資訊不對稱"
       ]
     }
   ],
@@ -660,6 +799,53 @@
         "F004"
       ],
       "reasoning_notes": "至少應公開可遮蔽個資的5/27函及附件、6/10填報／回覆、6/10至11/12是否有補充文件的清單與往返內容，不能把未知中間文件數量寫成已有1–3份。"
+    },
+    {
+      "id": "C010",
+      "statement": "公眾爭議的焦點客觀上從『中央能源署如何處理已填報不可設置的故宮』，移至『故宮與北市文化局長誰說錯了』。",
+      "status": "supported",
+      "supports": [
+        "F013",
+        "F015",
+        "F019",
+        "F020"
+      ],
+      "contradicts": [],
+      "related_facts": [
+        "F002",
+        "F017"
+      ],
+      "reasoning_notes": "依公開聲明時序與論證焦點可核對此公共討論的轉向；此政治效果可成立，不表示曾有協調好的轉移焦點計畫。"
+    },
+    {
+      "id": "C011",
+      "statement": "考慮故宮的中央直屬地位、院長特任與實際公開回應選擇，故宮對外將焦點放在北市文化局，而非揭露中央往返細節，有降低直接挑戰中央政策之政治成本的功能。",
+      "status": "supported",
+      "supports": [
+        "F019",
+        "F020",
+        "F013",
+        "F015"
+      ],
+      "contradicts": [],
+      "related_facts": [
+        "F016",
+        "F017"
+      ],
+      "reasoning_notes": "『有此政治功能』是由可核對組織權責、程序時序及公開行為合理推論，不等於直接證明故宮上級指使、雙方串通、蓄意藏匿公文或任何特定人內心意圖。"
+    },
+    {
+      "id": "C012",
+      "statement": "能源署或故宮因害怕揭露不利證據而刻意隱匿6月至11月特定公文，並有事先分工將爭議轉向北市。",
+      "status": "unsupported",
+      "supports": [],
+      "contradicts": [],
+      "related_facts": [
+        "F016",
+        "F019",
+        "F020"
+      ],
+      "reasoning_notes": "沒有公開完整文件及公開行為偏重反駁文化局，均不足以直接推定特定公文存在、拒絕公開的主觀原因、事先協調或指示。"
     }
   ],
   "searches": [
@@ -694,6 +880,9 @@
     "11/20後續補入使用者在R2 upload/提供的兩張完整頁面截圖（11/12函、11/19新聞稿），並讀取蔡詩萍完整原始貼文，修正把受函首長當外部評論者的前次錯誤。",
     "對外應同時呈現兩件事：故宮尋求文化局作為不設置理由支持的推論有時序及當事人說法支持；蔡詩萍把函詢妥適性說成已提案，在文書性質上不能成立。",
     "2026-11-20補入使用者上傳的故宮11/12秘書室副本、11/18文化局回函第1頁、故宮11/20反駁圖卡；另從故宮官網直接找到11/18回函第2頁。文化局正式意見是原則建議現階段不設，不是已駁回具體裝設申請。",
-    "5/27能源署原函與6/10故宮填報原件目前仍未取得；6月至11月額外中間文件之存在與數量均未知。今後應優先向握有收發與填報記錄的能源署與故宮追究說明責任。"
+    "5/27能源署原函與6/10故宮填報原件目前仍未取得；6月至11月額外中間文件之存在與數量均未知。今後應優先向握有收發與填報記錄的能源署與故宮追究說明責任。",
+    "2026-11-20 媒體規範：單篇同一 R2 slug 之正式檔案採 photo-/simulation-/document-YYYY-MM-DD-/graphic-/slide- 等 type-first 語意檔名；先前網址作公開入站相容別名，本文及本底稿全部改連 canonical。",
+    "查核現有 user-provided 新圖：11/18文化局回函p02直接確認；「第5條特殊建築」簡報只支持另一套新建增改建法規，不能當作本案能源署5月盤點程序。",
+    "合理政治推論需區分『公開論述的實際轉移焦點效果』與『事前串通、故意不公開文件』等具體可驗證外部事實。"
   ]
 }
