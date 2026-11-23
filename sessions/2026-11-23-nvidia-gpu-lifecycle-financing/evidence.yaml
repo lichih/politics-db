@@ -1,0 +1,232 @@
+session:
+  id: "2026-11-23-nvidia-gpu-lifecycle-financing"
+  project: Politics
+  title: "NVIDIA GPU 經濟壽命、算力融資、H100 租金、黃仁勳回任與 PC 記憶體成本"
+  started_at: "2026-11-23T23:48:26+08:00"
+  updated_at: "2026-11-23T23:48:26+08:00"
+  status: active
+
+topics: ["NVIDIA", "AI infrastructure", "GPU", "financing", "depreciation", "consumer PC", "Jensen Huang"]
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: NVIDIA Investor Relations
+    title: "NVIDIA Partners With Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to Establish AI Compute Infrastructure Financing Platforms"
+    url: "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx"
+    published_at: "2026-08-10"
+    observed_at: "2026-11-23T23:48:26+08:00"
+    retrieval_status: reachable
+    notes: ["5,000 億美元為長期擬動員的第三方資本總額，不是 NVIDIA 自有資金或已交割金額。"]
+  - id: S002
+    source_type: primary
+    publisher: Jensen Huang / NVIDIA Blog
+    title: "NVIDIA AI Factory Compute Is Becoming an Investable Asset Class"
+    url: "https://blogs.nvidia.com/blog/nvidia-ai-factory-compute/"
+    published_at: "2026-08-11"
+    observed_at: "2026-11-23T23:48:26+08:00"
+    retrieval_status: reachable
+    notes: ["提出可用算力資產長期收益、可出租性、可替代工作負載與資產持久性等主張；屬公司策略陳述，未證明投資報酬。"]
+  - id: S003
+    source_type: primary
+    publisher: NVIDIA / SEC
+    title: "NVIDIA Q2 FY2027 Form 10-Q, period ending July 26, 2026"
+    url: "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm"
+    published_at: "2026-08-26"
+    observed_at: "2026-11-23T23:48:26+08:00"
+    retrieval_status: reachable
+    notes: ["揭露特定 AI clouds 的有條件收益分享、融資支援和特定專案有限殘值支持。"]
+  - id: S004
+    source_type: primary
+    publisher: Silicon Data
+    title: "H100 Rental Price Index"
+    url: "https://www.silicondata.com/products/silicon-index/h100"
+    published_at: "2026-11-13"
+    observed_at: "2026-11-23T23:48:26+08:00"
+    retrieval_status: reachable
+    notes: ["2026-11-13 指數 $3.10／H100 GPU-hour；指數不是個別業者實際利用率、淨收入或折舊後報酬。"]
+  - id: S005
+    source_type: secondary
+    publisher: Reuters
+    title: "Nvidia's bet that its chips can finance the AI boom gets a Wall Street reality check"
+    url: "https://www.reuters.com/legal/transactional/nvidias-bet-that-its-chips-can-finance-ai-boom-gets-wall-street-reality-check-2026-10-01/"
+    published_at: "2026-10-01"
+    observed_at: "2026-11-23T23:48:26+08:00"
+    retrieval_status: reachable
+    notes: ["金融機構對 GPU 抵押殘值及信用支持仍有疑慮；記者引述銀行消息人士，需留意觀點層級。"]
+  - id: S006
+    source_type: primary
+    publisher: TrendForce
+    title: "Mounting Finished-Goods Inventories Prompt Some PC OEMs to Adjust Memory Procurement Plans for 2027"
+    url: "https://www.trendforce.com/presscenter/news/20261111-13303.html"
+    published_at: "2026-11-11"
+    observed_at: "2026-11-23T23:48:26+08:00"
+    retrieval_status: reachable
+    notes: ["Q4 2026 PC DRAM 合約價預估季增 13%–18%；亦指出 PC 終端需求疲弱與 OEM 調整採購，並非全由 AI 單因素造成。"]
+  - id: S007
+    source_type: primary
+    publisher: NVIDIA / SEC
+    title: "NVIDIA Form 8-K — acceptance of Huang resignation on November 11"
+    url: "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm"
+    published_at: "2026-11-12"
+    observed_at: "2026-11-23T23:48:26+08:00"
+    retrieval_status: reachable
+    notes: ["董事會於 11/11 接受辭職，非據此證明所有媒體指控。"]
+  - id: S008
+    source_type: primary
+    publisher: NVIDIA / SEC
+    title: "NVIDIA Form 8-K — Huang reinstatement on November 22"
+    url: "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm"
+    published_at: "2026-11-23"
+    observed_at: "2026-11-23T23:48:26+08:00"
+    retrieval_status: reachable
+    notes: ["11/22 董事會回任決議、11/23 公告，Kress 繼續擔任 CFO。"]
+  - id: S009
+    source_type: primary
+    publisher: NVIDIA Newsroom
+    title: "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director"
+    url: "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+    published_at: "2026-11-23"
+    observed_at: "2026-11-23T23:48:26+08:00"
+    retrieval_status: reachable
+    notes: ["董事會表示獲美國政府高層意見，認為回任不構成國安風險；獨立董事調查仍繼續；另設國安及出口管制委員會與新合規長職位。"]
+  - id: S010
+    source_type: primary
+    publisher: NVIDIA
+    title: "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027"
+    url: "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
+    published_at: "2026-11-17"
+    observed_at: "2026-11-23T23:48:26+08:00"
+    retrieval_status: reachable
+    notes: ["營收 $115.8B；資料中心 $107.6B，僅用來標示 NVIDIA 對資料中心需求高度依賴。"]
+
+facts:
+  - id: F001
+    statement: "NVIDIA 2026-08-10 宣布六家大型金融機構合作開發算力融資平台，目標逐步動員超過 5,000 億美元第三方資本。"
+    status: verified
+    observed_at: "2026-11-23T23:48:26+08:00"
+    source_ids: [S001, S002]
+    evidence_summary: "官方合作公告與黃仁勳親署文章一致。"
+    verification_notes: ["目標不等於已融資或 NVIDIA 借出的總額。"]
+    tags: ["nvidia", "ai-financing"]
+  - id: F002
+    statement: "黃仁勳 2026-08-11 公開將可持續產生算力收入的 AI 機房視為可投資資產，強調 GPU 耐用及再部署能力。"
+    status: verified
+    observed_at: "2026-11-23T23:48:26+08:00"
+    source_ids: [S002]
+    evidence_summary: "第一人稱公司戰略公開發言；證明他如此主張，不證明未來實際經濟報酬。"
+    tags: ["nvidia", "asset-life"]
+  - id: F003
+    statement: "NVIDIA 2026 第二季 10-Q 揭露特定 AI 雲端合作在符合條件時可參與第三方營收分享，並可對部分特定專案提供有限殘值支持。"
+    status: verified
+    observed_at: "2026-11-23T23:48:26+08:00"
+    source_ids: [S003]
+    evidence_summary: "SEC 10-Q 原文對收入分享與殘值支持做有條件描述。"
+    verification_notes: ["不能概括所有 NVIDIA GPU 均提供股權或租金分潤。"]
+    tags: ["nvidia", "revenue-share", "residual-value"]
+  - id: F004
+    statement: "Silicon Data 公開 H100 租金指數的 2026-11-13 讀數為每 GPU 小時 3.10 美元。"
+    status: verified
+    observed_at: "2026-11-23T23:48:26+08:00"
+    source_ids: [S004]
+    evidence_summary: "來源為指數編製者的時間序列紀錄。"
+    verification_notes: ["指數不是折舊後淨利，不能直接代表單一機房現金流。"]
+    tags: ["H100", "rental-index"]
+  - id: F005
+    statement: "路透社 2026-10-01 報導部分銀行人士質疑 GPU 殘值是否足夠作擔保，預期需要強化信用保證或高信用租戶現金流。"
+    status: verified
+    observed_at: "2026-11-23T23:48:26+08:00"
+    source_ids: [S005]
+    evidence_summary: "路透社對受訪者觀點的報導；屬外部融資質疑已被報導的事實。"
+    verification_notes: ["不同融資方案條款未全部公開，不能推定每案必須額外擔保。"]
+    tags: ["financing", "risk"]
+  - id: F006
+    statement: "TrendForce 2026-11-11 預估 2026 年第四季 PC DRAM 合約價格季增 13–18%，同時指出 PC 需求疲弱與 PC 廠商調整採購。"
+    status: verified
+    observed_at: "2026-11-23T23:48:26+08:00"
+    source_ids: [S006]
+    evidence_summary: "研究公司當時的價格預測與市場分析。"
+    verification_notes: ["這是 DRAM 合約價預測，不是 PC 整機售價已上漲同等幅度。"]
+    tags: ["PC", "DRAM"]
+  - id: F007
+    statement: "SEC 文件記載 NVIDIA 董事會 2026-11-11 接受黃仁勳辭去總裁、執行長與董事職務。"
+    status: verified
+    observed_at: "2026-11-23T23:48:26+08:00"
+    source_ids: [S007]
+    evidence_summary: "2026-11-12 8-K 確認人事程序。"
+    tags: ["governance", "huang"]
+  - id: F008
+    statement: "NVIDIA 董事會於 2026-11-22 恢復黃仁勳總裁、執行長及董事職務，並於 11-23 公告，Kress 續任 CFO。"
+    status: verified
+    observed_at: "2026-11-23T23:48:26+08:00"
+    source_ids: [S008, S009]
+    evidence_summary: "2026-11-23 8-K 與公司新聞稿相符。"
+    tags: ["governance", "huang"]
+  - id: F009
+    statement: "NVIDIA 2026-11-23 稱董事會與黃仁勳討論後滿意其坦誠與領導能力，並參考美國政府高層意見，認為回任無國安風險；其獨立董事調查仍將繼續。"
+    status: verified
+    observed_at: "2026-11-23T23:48:26+08:00"
+    source_ids: [S009]
+    evidence_summary: "這是董事會正式聲明的內容，不等於外部獨立證明所有指控已排除。"
+    tags: ["governance", "national-security"]
+  - id: F010
+    statement: "NVIDIA 2026-11-17 公告 FY2027 Q3 營收 1,158 億美元、資料中心業務營收 1,076 億美元。"
+    status: verified
+    observed_at: "2026-11-23T23:48:26+08:00"
+    source_ids: [S010]
+    evidence_summary: "NVIDIA 第三季財報公告。"
+    tags: ["earnings", "datacenter"]
+
+claims:
+  - id: C001
+    statement: "NVIDIA 不僅賣新 GPU，還正式嘗試透過算力資產化、融資支持與部分收益分潤分享舊設備的持續經濟價值。"
+    status: supported
+    supports: [F001, F002, F003]
+    related_facts: [F004]
+    reasoning_notes: "此為商業模式方向；實際分潤盈利規模、股權配置和普遍性未獲證明。"
+  - id: C002
+    statement: "NVIDIA 已經成功解決 GPU 換代與機房折舊之間的利益衝突。"
+    status: unsupported
+    related_facts: [F003, F004, F005]
+    reasoning_notes: "案例租金可上漲，仍須檢驗利用率、總成本、設備殘值、信用風險與保證支出。"
+  - id: C003
+    statement: "黃仁勳因為機房金融化計畫不可替代，所以董事會決定讓他回任。"
+    status: unresolved
+    related_facts: [F001, F008, F009]
+    reasoning_notes: "董事會正式理由為坦誠、領導能力與國安風險評估，沒有證據把回任直接歸因於融資戰略。"
+  - id: C004
+    statement: "延長 GPU 壽命必然減緩 AI 發展且必然降低消費級 PC 價格。"
+    status: unsupported
+    related_facts: [F002, F006, F010]
+    reasoning_notes: "延壽或降低重複採購，但融資與可用算力增加也可能擴張需求；PC 記憶體供給受資本配置及終端需求多因素左右。"
+  - id: C005
+    statement: "GPU 折舊是 AI 基礎建設融資風險的重要變數，但不是能夠單獨解釋所有 AI 泡沫的證據。"
+    status: supported
+    supports: [F002, F003, F005]
+    related_facts: [F004]
+    reasoning_notes: "設備殘值會影響債務融資；不能省略終端收入、算力使用率、能源和利率。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-11-23T23:48:26+08:00"
+    platform: "web"
+    query: "NVIDIA Jensen Huang reinstatement SEC 8-K 2026-11-23"
+    scope: "NVIDIA Newsroom, SEC EDGAR"
+    result: found
+    notes: "找到 11/22 決議、11/23 8-K 與新聞稿；獨立調查仍進行。"
+  - id: Q002
+    observed_at: "2026-11-23T23:48:26+08:00"
+    platform: "web"
+    query: "NVIDIA GPU financing residual value third-party revenue share H100 rental DRAM PC"
+    scope: "NVIDIA, SEC, Silicon Data, TrendForce, Reuters"
+    result: found
+    notes: "有支持商業模式與反方融資質疑；尚未完成逐專案 ROI 或 PC 終端價格因果驗證。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "本紀錄只保存可核實的來源聲明與可追溯推論，不把私人對話或 Fact 候選稿作為外部事實來源。"
+  - "同系列既有 session: sessions/2026-11-02-ai-bubble-watch/evidence.yaml，聚焦 CapEx、FCF、融資與政策風險；本 session 新增 NVIDIA 的 GPU 經濟壽命與回任。"
