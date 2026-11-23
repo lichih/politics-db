@@ -20,7 +20,7 @@ sources:
     published_at: "2026-11-23"
     observed_at: "2026-11-23T18:45:00+08:00"
     retrieval_status: reachable
-    notes: "引述警方調查：呂姓女騎士載母親，母親懷抱嬰兒；騎士注意車隊而追撞前方汽車。"
+    notes: ["引述警方調查：呂姓女騎士載母親，母親懷抱嬰兒；騎士注意車隊而追撞前方汽車。"]
   - id: S002
     source_type: secondary
     publisher: "鏡週刊"
@@ -29,7 +29,7 @@ sources:
     published_at: "2026-11-23"
     observed_at: "2026-11-23T18:45:00+08:00"
     retrieval_status: reachable
-    notes: "現場車隊停下、蔣萬安與黃瀞瑩及團隊查看，等待救護車送醫。"
+    notes: ["現場車隊停下、蔣萬安與黃瀞瑩及團隊查看，等待救護車送醫。"]
   - id: S003
     source_type: secondary
     publisher: "聯合報"
@@ -38,7 +38,7 @@ sources:
     published_at: "2026-11-23"
     observed_at: "2026-11-23T18:45:00+08:00"
     retrieval_status: reachable
-    notes: "引述羅浚晅社群內容與北市府發言人澄清：女子非孕婦，『下次騎車注意安全』非蔣萬安所說。"
+    notes: ["引述羅浚晅社群內容與北市府發言人澄清：女子非孕婦，『下次騎車注意安全』非蔣萬安所說。"]
   - id: S004
     source_type: secondary
     publisher: "中央通訊社"
@@ -47,7 +47,7 @@ sources:
     published_at: "2022-10-03"
     observed_at: "2026-11-23T18:45:00+08:00"
     retrieval_status: reachable
-    notes: "公布羅浚晅時任醫師公會全聯會副秘書長、加入陳時中競辦發言人；記錄其對說真話、反對潑髒水之公開致詞。"
+    notes: ["公布羅浚晅時任醫師公會全聯會副秘書長、加入陳時中競辦發言人；記錄其對說真話、反對潑髒水之公開致詞。"]
   - id: S005
     source_type: commentary
     publisher: "蘇一峰 Facebook"
@@ -56,7 +56,7 @@ sources:
     published_at: "2026-11-23"
     observed_at: "2026-11-23T18:45:00+08:00"
     retrieval_status: reachable
-    notes: "可作蘇一峰轉貼內容的原始紀錄；其中羅浚晅原文及醫療身分主張仍應以本人原貼文或其他佐證核實。圖卡用詞為評論。"
+    notes: ["可作蘇一峰轉貼內容的原始紀錄；其中羅浚晅原文及醫療身分主張仍應以本人原貼文或其他佐證核實。圖卡用詞為評論。"]
 
 facts:
   - id: F001
@@ -132,7 +132,7 @@ searches:
     query: "2026 11月23 羅浚晅 臉書 道歉 更正 孕婦"
     scope: "公開新聞及搜尋結果"
     result: partial
-    notes: "查得指控及市府回應；此次未取得羅浚晅本人完整更正原文，不能推定從未更正。"
+    notes: ["查得指控及市府回應；此次未取得羅浚晅本人完整更正原文，不能推定從未更正。"]
 
 promotion:
   cases: []
