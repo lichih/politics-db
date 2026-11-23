@@ -1,0 +1,143 @@
+session:
+  id: "2026-11-23-lo-chun-hsuan-pregnancy-claim"
+  project: "Politics"
+  title: "北投車掃追撞事故與羅浚晅孕婦指控"
+  started_at: "2026-11-23T18:45:00+08:00"
+  updated_at: "2026-11-23T18:45:00+08:00"
+  status: active
+
+topics:
+  - "2026年11月23日北投車掃交通事故"
+  - "羅浚晅社群指控與臺北市政府澄清"
+  - "醫療身分推定與政治言論查證"
+
+sources:
+  - id: S001
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "蔣萬安合體民眾黨北投車掃 騎士不慎追撞汽車"
+    url: "https://www.cna.com.tw/news/asoc/202611230132.aspx"
+    published_at: "2026-11-23"
+    observed_at: "2026-11-23T18:45:00+08:00"
+    retrieval_status: reachable
+    notes: "引述警方調查：呂姓女騎士載母親，母親懷抱嬰兒；騎士注意車隊而追撞前方汽車。"
+  - id: S002
+    source_type: secondary
+    publisher: "鏡週刊"
+    title: "蔣萬安士林北投車掃 支持者揮手下一秒出車禍"
+    url: "https://www.mirrormedia.mg/story/20261123edi005"
+    published_at: "2026-11-23"
+    observed_at: "2026-11-23T18:45:00+08:00"
+    retrieval_status: reachable
+    notes: "現場車隊停下、蔣萬安與黃瀞瑩及團隊查看，等待救護車送醫。"
+  - id: S003
+    source_type: secondary
+    publisher: "聯合報"
+    title: "蔣萬安車掃遇車禍...網路謠言滿天飛"
+    url: "https://udn.com/news/story/124652/9896807"
+    published_at: "2026-11-23"
+    observed_at: "2026-11-23T18:45:00+08:00"
+    retrieval_status: reachable
+    notes: "引述羅浚晅社群內容與北市府發言人澄清：女子非孕婦，『下次騎車注意安全』非蔣萬安所說。"
+  - id: S004
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "延攬專業與年輕世代 陳時中競辦新添4名發言人"
+    url: "https://www.cna.com.tw/news/aipl/202210030236.aspx"
+    published_at: "2022-10-03"
+    observed_at: "2026-11-23T18:45:00+08:00"
+    retrieval_status: reachable
+    notes: "公布羅浚晅時任醫師公會全聯會副秘書長、加入陳時中競辦發言人；記錄其對說真話、反對潑髒水之公開致詞。"
+  - id: S005
+    source_type: commentary
+    publisher: "蘇一峰 Facebook"
+    title: "2026-11-23轉貼羅浚晅孕婦發言與圖卡"
+    url: "https://www.facebook.com/dr.su520/posts/pfbid0BAX3ijVgKovJYpZpqHcnjDsgXyH5QTFsKXyvyfcWoHUNi294Eu3Fm9FPQcpDUJuCl"
+    published_at: "2026-11-23"
+    observed_at: "2026-11-23T18:45:00+08:00"
+    retrieval_status: reachable
+    notes: "可作蘇一峰轉貼內容的原始紀錄；其中羅浚晅原文及醫療身分主張仍應以本人原貼文或其他佐證核實。圖卡用詞為評論。"
+
+facts:
+  - id: F001
+    statement: "2026年11月23日北投車掃行經東華街時，呂姓女騎士載母親與嬰兒追撞汽車。"
+    status: verified
+    observed_at: "2026-11-23T18:45:00+08:00"
+    source_ids: [S001, S002]
+    evidence_summary: "中央社引述警方調查，並有媒體現場紀錄。"
+    verification_notes: []
+    tags: ["北投車掃", "交通事故"]
+  - id: F002
+    statement: "事件發生後蔣萬安及黃瀞瑩停下車掃、現場關心，並有救護車到場將傷者送醫。"
+    status: verified
+    observed_at: "2026-11-23T18:45:00+08:00"
+    source_ids: [S002]
+    evidence_summary: "鏡週刊記錄現場停車關心及救護車送醫。"
+    verification_notes: []
+    tags: ["現場處置"]
+  - id: F003
+    statement: "羅浚晅透過社群質疑『直接先檢討孕婦？』及市長現場未緊急調度指揮。"
+    status: verified
+    observed_at: "2026-11-23T18:45:00+08:00"
+    source_ids: [S003, S005]
+    evidence_summary: "新聞引述與蘇一峰公開轉貼的貼文圖卡。"
+    verification_notes:
+      - "未在本次查詢取得羅浚晅本人完整原文 permalink；暫以媒體引述交叉支持。"
+    tags: ["社群發言", "歸責"]
+  - id: F004
+    statement: "臺北市政府發言人魏汶宣公開表示傷者並非孕婦，且『下次騎車注意安全』不是蔣萬安所說。"
+    status: verified
+    observed_at: "2026-11-23T18:45:00+08:00"
+    source_ids: [S003]
+    evidence_summary: "此項確認的是市府作出澄清，不是公開了傷者醫療診斷報告。"
+    verification_notes:
+      - "沒有公開獨立醫療報告；個人孕產資訊應注意隱私。"
+    tags: ["市府澄清", "孕婦"]
+  - id: F005
+    statement: "羅浚晅於2022年10月3日由陳時中競辦公布為競選發言人，並宣示希望選舉『說出真話、看出問題』。"
+    status: verified
+    observed_at: "2026-11-23T18:45:00+08:00"
+    source_ids: [S004]
+    evidence_summary: "中央社引述正式公布與本人公開致詞。"
+    verification_notes: []
+    tags: ["競選職務", "政治參與"]
+
+claims:
+  - id: C001
+    statement: "事故女騎士是孕婦。"
+    status: unsupported
+    supports: []
+    contradicts: [F004]
+    related_facts: [F003, F004]
+    reasoning_notes: "提出者未見可核對佐證；市府稱非孕婦，非由本文直接確診。"
+  - id: C002
+    statement: "蔣萬安對傷者說『下次騎車注意安全』。"
+    status: contradicted
+    supports: []
+    contradicts: [F004]
+    related_facts: [F002, F003, F004]
+    reasoning_notes: "市府公開否認語句出自市長；音檔發話者尚待可重複比對。"
+  - id: C003
+    statement: "蔣萬安沒有對現場事故採取任何協助行動。"
+    status: contradicted
+    supports: []
+    contradicts: [F002]
+    related_facts: [F002]
+    reasoning_notes: "不同於是否指揮到位的價值判斷；多家報導現場停車、關心、協助送醫。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-11-23T18:45:00+08:00"
+    platform: web
+    query: "2026 11月23 羅浚晅 臉書 道歉 更正 孕婦"
+    scope: "公開新聞及搜尋結果"
+    result: partial
+    notes: "查得指控及市府回應；此次未取得羅浚晅本人完整更正原文，不能推定從未更正。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "評論中『支持者獎勵』是對行為回饋機制的推論，不能由單一留言代表整個陣營。"
