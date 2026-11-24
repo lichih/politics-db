@@ -28,7 +28,8 @@ sources:
     published_at: "2026-11-08"
     observed_at: "2026-11-24T12:36:04+08:00"
     retrieval_status: reachable
-    notes: "宣布針對可能受到外國情報行動鎖定的報導展開獨立調查，並非認定中國間諜身分。"
+    notes:
+      - "宣布針對可能受到外國情報行動鎖定的報導展開獨立調查，並非認定中國間諜身分。"
   - id: S002
     source_type: primary
     publisher: "美國證券交易委員會 SEC / NVIDIA"
@@ -45,7 +46,8 @@ sources:
     published_at: "2026-11-23"
     observed_at: "2026-11-24T12:36:04+08:00"
     retrieval_status: reachable
-    notes: "復任決議以2026-11-22為準；獨立調查仍會繼續。"
+    notes:
+      - "復任決議以2026-11-22為準；獨立調查仍會繼續。"
   - id: S004
     source_type: primary
     publisher: "CNBC"
@@ -54,7 +56,8 @@ sources:
     published_at: "2026-11-23"
     observed_at: "2026-11-24T12:36:04+08:00"
     retrieval_status: reachable
-    notes: "川普的中國挖角說法屬假設；當記者追問是否掌握跡象，他表示連暗示都沒有。"
+    notes:
+      - "川普的中國挖角說法屬假設；當記者追問是否掌握跡象，他表示連暗示都沒有。"
   - id: S005
     source_type: secondary
     publisher: "中央社"
@@ -63,7 +66,8 @@ sources:
     published_at: "2026-11-09"
     observed_at: "2026-11-24T12:36:04+08:00"
     retrieval_status: reachable
-    notes: "同篇含沈伯洋與范雲不同程度的國安風險評論及私人生活界線。"
+    notes:
+      - "同篇含沈伯洋與范雲不同程度的國安風險評論及私人生活界線。"
   - id: S006
     source_type: secondary
     publisher: "中央社"
@@ -72,7 +76,8 @@ sources:
     published_at: "2026-11-11"
     observed_at: "2026-11-24T12:36:04+08:00"
     retrieval_status: reachable
-    notes: "記錄黃捷就入出境及防諜制度質詢、劉世芳回應。"
+    notes:
+      - "記錄黃捷就入出境及防諜制度質詢、劉世芳回應。"
   - id: S007
     source_type: commentary
     publisher: "自由評論網／林修民"
@@ -81,7 +86,8 @@ sources:
     published_at: "2026-11-12"
     observed_at: "2026-11-24T12:36:04+08:00"
     retrieval_status: reachable
-    notes: "評論原文把未確證的間諜身分與對中政策判斷連結；僅可證明該評論存在，不可推論民進黨中央授意。"
+    notes:
+      - "評論原文把未確證的間諜身分與對中政策判斷連結；僅可證明該評論存在，不可推論民進黨中央授意。"
   - id: S008
     source_type: secondary
     publisher: "自由財經"
@@ -90,7 +96,8 @@ sources:
     published_at: "2026-11-13"
     observed_at: "2026-11-24T12:36:04+08:00"
     retrieval_status: reachable
-    notes: "媒體引述詹凌瑀的評論，並非民進黨正式聲明。"
+    notes:
+      - "媒體引述詹凌瑀的評論，並非民進黨正式聲明。"
   - id: S009
     source_type: secondary
     publisher: "NOWnews"
@@ -99,7 +106,8 @@ sources:
     published_at: "2026-11-24"
     observed_at: "2026-11-24T12:36:04+08:00"
     retrieval_status: reachable
-    notes: "沈伯洋強調等待調查、金融穩定比選舉重要。"
+    notes:
+      - "沈伯洋強調等待調查、金融穩定比選舉重要。"
   - id: S010
     source_type: secondary
     publisher: "中央社"
@@ -108,7 +116,8 @@ sources:
     published_at: "2026-11-23"
     observed_at: "2026-11-24T12:36:04+08:00"
     retrieval_status: reachable
-    notes: "行政院實際召開與金融及產業代表座談，不能稱政府完全沒有處置市場波動。"
+    notes:
+      - "行政院實際召開與金融及產業代表座談，不能稱政府完全沒有處置市場波動。"
   - id: S011
     source_type: secondary
     publisher: "中央社"
@@ -117,7 +126,8 @@ sources:
     published_at: "2026-11-24"
     observed_at: "2026-11-24T12:36:04+08:00"
     retrieval_status: reachable
-    notes: "市場反應的當日報導，不能據此證明全部漲跌由單一事件造成。"
+    notes:
+      - "市場反應的當日報導，不能據此證明全部漲跌由單一事件造成。"
 
 facts:
   - id: F001
@@ -199,7 +209,8 @@ searches:
     query: "2026-11-08至11-24 黃仁勳 沈伯洋 范雲 黃捷 林修民 詹凌瑀 川普 CNBC NVIDIA 台股"
     scope: "公開聲明、SEC原始資料、具名新聞、評論原文與politics-db舊session"
     result: found
-    notes: "對照了不同程度的國安質詢與評論；未因同屬某政治陣營就合併外部事實責任。"
+    notes:
+      - "對照了不同程度的國安質詢與評論；未因同屬某政治陣營就合併外部事實責任。"
 
 promotion:
   cases: []
