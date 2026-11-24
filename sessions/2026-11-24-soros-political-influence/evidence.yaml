@@ -1,0 +1,245 @@
+session:
+  id: "2026-11-24-soros-political-influence"
+  project: Politics
+  title: "索羅斯跨國政治資助、制度介入與司法改革：社群貼文取證"
+  started_at: "2026-11-24T12:48:00+08:00"
+  updated_at: "2026-11-24T13:10:00+08:00"
+  status: active
+topics:
+  - "索羅斯"
+  - "Open Society Foundations"
+  - "政治資金"
+  - "司法獨立"
+  - "烏克蘭政府改革"
+  - "沈伯洋民事判決"
+sources:
+  - id: S001
+    source_type: commentary
+    publisher: "黑色之聲 VoiceOfDarkMatter"
+    title: "法律不用改，只要改變執法方式：索羅斯跨國政治介入貼文"
+    url: "https://www.facebook.com/VoiceOfDarkMatter/posts/pfbid0TNVPX6VtocMKEWRS7f3KvUUqpi6Nvu2A1H1N85m4G8feGuJP7kcnbLL6QW3V9HB5l"
+    published_at: "2026-11-24T11:59:00+08:00"
+    observed_at: "2026-11-24T12:48:05+08:00"
+    retrieval_status: reachable
+    notes:
+      - "使用者提供 Facebook DOM 擷取文字，captured_at 2026-11-24T04:48:05.014Z；此處記錄貼文主張，不將原文視為外部事實認定。"
+  - id: S002
+    source_type: secondary
+    publisher: "Los Angeles Times / The Marshall Project"
+    title: "Here's why George Soros, liberal groups are spending big to help decide who's your next D.A."
+    url: "https://www.latimes.com/local/california/la-me-prosecutor-campaign-20180523-story.html"
+    published_at: "2018-05-23"
+    observed_at: "2026-11-24T13:10:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "2018年加州地方檢察官選舉，索羅斯投入超過270萬美元；為媒體調查而非逐筆選委會原始紀錄。"
+  - id: S003
+    source_type: secondary
+    publisher: "Los Angeles Times"
+    title: "Big spending by George Soros and liberal groups fails to sway D.A. races in California"
+    url: "https://www.latimes.com/local/california/la-me-da-election-soros-20180606-story.html"
+    published_at: "2018-06-06"
+    observed_at: "2026-11-24T13:10:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "部分加州檢察官選舉未受資金支持方勝出；可限制資金效果必然成功的推論，不否定介入本身。"
+  - id: S004
+    source_type: primary
+    publisher: "International Renaissance Foundation"
+    title: "George Soros establishes Strategic advisory groups to assist Ukraine’s government"
+    url: "https://www.irf.ua/en/z_initsiativi_dzhordzha_sorosa_bude_stvoreno_grupu_radnikiv_dlya_dopomogi_vladi_u_provedenni_reform/"
+    published_at: "2014-06-17"
+    observed_at: "2026-11-24T13:10:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "基金會官方自述：Soros 發起策略顧問小組；6月16日與總統討論。"
+  - id: S005
+    source_type: primary
+    publisher: "International Renaissance Foundation / Ukrayinska Pravda"
+    title: "George Soros: new Ukraine it is an idea that is real"
+    url: "https://www.irf.ua/en/jsoros_nova_ukraina_realnist/"
+    published_at: "2014-11-14"
+    observed_at: "2026-11-24T13:10:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "本人訪談：談 lustration 時主張先建立新官僚及司法體系，對舊官員須無罪推定及司法程序。"
+  - id: S006
+    source_type: primary
+    publisher: "International Renaissance Foundation"
+    title: "Short Annual Report 2016"
+    url: "https://www.irf.ua/en/short_annual_report_2016/"
+    published_at: "2017-09-13"
+    observed_at: "2026-11-24T13:10:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "基金會自述策略顧問小組參與執法、行政改革，促進公務員法等政策制定；屬基金會對自身工作的陳述。"
+  - id: S007
+    source_type: primary
+    publisher: "European Court of Human Rights"
+    title: "Polyakh and Others v. Ukraine (17 October 2019)"
+    url: "https://hudoc.echr.coe.int/eng?i=002-12632"
+    published_at: "2019-10-17"
+    observed_at: "2026-11-24T13:10:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "2014年政府清理法的適用涉及《歐洲人權公約》第8條侵害；不自行歸責該法給基金會。"
+  - id: S008
+    source_type: primary
+    publisher: "臺灣臺北地方法院"
+    title: "114年度訴字第4942號民事判決"
+    url: "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TPDV%2C114%2C%E8%A8%B4%2C4942%2C20260709%2C1"
+    published_at: "2026-07-09"
+    observed_at: "2026-11-24T13:10:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "沈伯洋對傅崐萁請求100萬元名譽損害賠償一審遭駁回；本案不是刑事境外金流審判。"
+  - id: S009
+    source_type: primary
+    publisher: "Venice Commission / Council of Europe"
+    title: "Poland: Joint Opinion CDL-AD(2024)029"
+    url: "https://www.coe.int/en/web/venice-commission/-/cdl-ad-2024-029-e"
+    published_at: "2024-10-12"
+    observed_at: "2026-11-24T13:10:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "司法改革審議官方文件；須分辨本份2024年10月意見與同年稍早關於國家司法委員會的CDL-AD(2024)018。"
+  - id: S010
+    source_type: primary
+    publisher: "Venice Commission / Council of Europe"
+    title: "Poland: Urgent Joint Opinion CDL-AD(2024)018 concerning National Council of the Judiciary"
+    url: "https://www.coe.int/en/web/venice-commission/poland"
+    published_at: "2024"
+    observed_at: "2026-11-24T13:10:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "依官方波蘭意見索引定位，尚待逐段確認約2000至3000名法官的精確段落及版本。"
+facts:
+  - id: F001
+    statement: "2018年索羅斯資助美國地方檢察官選舉，加州資助金額截至當年5月超過270萬美元。"
+    status: verified
+    observed_at: "2026-11-24T13:10:00+08:00"
+    source_ids: [S002]
+    evidence_summary: "洛杉磯時報與Marshall Project選舉資金調查直接報導。"
+    verification_notes:
+      - "精確金流可進一步以各州選舉財務申報交叉核對。"
+    tags: ["美國", "檢察官選舉", "政治資金"]
+  - id: F002
+    statement: "2018年加州多場索羅斯支持的地方檢察官選舉，受支持候選人沒有當選。"
+    status: verified
+    observed_at: "2026-11-24T13:10:00+08:00"
+    source_ids: [S003]
+    evidence_summary: "選後報導記載改革派挑戰者的部分敗選結果。"
+    verification_notes:
+      - "不能據此否定其他地區當選結果，也不能推論資助方沒有政治目的。"
+    tags: ["美國", "選舉結果"]
+  - id: F003
+    statement: "索羅斯發起策略顧問小組協助烏克蘭政府改革，2014年6月16日與總統波洛申科討論倡議。"
+    status: verified
+    observed_at: "2026-11-24T13:10:00+08:00"
+    source_ids: [S004]
+    evidence_summary: "基金會2014年6月17日官方公告明載發起、會談及總統支持。"
+    verification_notes:
+      - "證明政策介入形式與管道，不直接證明所有政策受其控制。"
+    tags: ["烏克蘭", "政策顧問"]
+  - id: F004
+    statement: "2016年基金會年報稱策略顧問小組參與行政、執法等改革，並促成公務員法等政策成果。"
+    status: verified
+    observed_at: "2026-11-24T13:10:00+08:00"
+    source_ids: [S006]
+    evidence_summary: "2016短年報「Supporting reformers in the government」段落記載顧問小組的工作與成果。"
+    verification_notes:
+      - "這是基金會自述；具體法案貢獻程度可再查政府立法歷程。"
+    tags: ["烏克蘭", "改革", "基金會自述"]
+  - id: F005
+    statement: "索羅斯2014年11月公開談及政府清理政策，強調先建立新司法與官僚體系，舊官員應有無罪推定和司法程序。"
+    status: verified
+    observed_at: "2026-11-24T13:10:00+08:00"
+    source_ids: [S005]
+    evidence_summary: "本人訪談直接提出上述政策主張，亦評論人事與政府組成。"
+    verification_notes:
+      - "2014年11月訪談晚於清理法通過，不能當作其起草時意見的完整證明。"
+    tags: ["烏克蘭", "政府清理", "反向證據"]
+  - id: F006
+    statement: "2019年歐洲人權法院在Polyakh等人案認定烏克蘭政府清理措施適用侵害第8條權利。"
+    status: verified
+    observed_at: "2026-11-24T13:10:00+08:00"
+    source_ids: [S007]
+    evidence_summary: "歐洲人權法院2019年10月17日判決摘要。"
+    verification_notes:
+      - "法院對烏克蘭國家措施的判定不等於對任何私人資助者的侵權責任認定。"
+    tags: ["烏克蘭", "人權法院", "司法"]
+  - id: F007
+    statement: "臺北地院於2026年7月9日駁回沈伯洋對傅崐萁的民事求償，判決引用黑熊學院會議錄音與外國資金相關資料討論合理查證。"
+    status: verified
+    observed_at: "2026-11-24T13:10:00+08:00"
+    source_ids: [S008]
+    evidence_summary: "114年度訴字第4942號民事判決主文及理由。"
+    verification_notes:
+      - "須區分法院採認合理查證基礎與證實每筆境外資金及用途；一審程序狀態須再查後續上訴。"
+    tags: ["台灣", "沈伯洋", "傅崐萁", "司法判決"]
+claims:
+  - id: C001
+    statement: "索羅斯透過資金介入地方檢察官選舉。"
+    status: supported
+    supports: [F001]
+    related_facts: [F002]
+    reasoning_notes: "選舉投入已成立；資助成效並非必然成功，與對個別檢察官起訴決定之控制為不同命題。"
+  - id: C002
+    statement: "索羅斯透過基金會與顧問小組介入烏克蘭政府政策和行政、執法改革。"
+    status: supported
+    supports: [F003, F004, F005]
+    reasoning_notes: "本人和基金會官方原始資料支持制度介入；不等同於控制全部改革。"
+  - id: C003
+    statement: "索羅斯參與制定2014年政府清理法中被歐洲人權法院判定侵權的具體條文。"
+    status: unresolved
+    related_facts: [F003, F004, F005, F006]
+    reasoning_notes: "有制度介入與公開政策意見，也有政府清理法侵權判決；尚無顧問小組起草該具體條文的連結紀錄。2014年11月訪談中的程序保障主張屬反向事證，但不能倒推其立法前言行。"
+  - id: C004
+    statement: "索羅斯或其基金會透過選舉資助直接指示個別檢察官不起訴。"
+    status: unresolved
+    related_facts: [F001]
+    reasoning_notes: "選舉資助證據不等於個案檢察指揮；未找到具體指示紀錄，亦不能把未找到當作不存在的證明。"
+  - id: C005
+    statement: "索羅斯策動喬治亞、烏克蘭戰爭並透過金融放空獲利。"
+    status: unresolved
+    reasoning_notes: "原貼文的跨國因果及金融利益假說尚缺具體交易資料與可追溯之政策、戰爭決策連結；不能記錄為已證事實。"
+  - id: C006
+    statement: "2026年7月9日臺北地院已刑事認定沈伯洋違法收受4800萬元境外金流。"
+    status: unsupported
+    related_facts: [F007]
+    reasoning_notes: "該判決為民事名譽損害賠償案，沒有作成上述刑事認定；亦不可因求償敗訴直接推論金流用途合法或違法。"
+  - id: C007
+    statement: "索羅斯對波蘭2024年檢察長更替與司法委員會改革的具體指示或決策影響。"
+    status: unresolved
+    reasoning_notes: "相關司法改革及國際法治審議存在；個別資助流向、遊說與決策關聯尚需個案文件。"
+searches:
+  - id: Q001
+    observed_at: "2026-11-24T13:10:00+08:00"
+    platform: "web"
+    query: "IRF George Soros strategic advisory groups 2014; IRF 2016 annual report; Soros lustration interview"
+    scope: "基金會官方網站"
+    result: found
+    notes: "找到公告、訪談、年報，與法院判決可分別比對。"
+  - id: Q002
+    observed_at: "2026-11-24T13:10:00+08:00"
+    platform: "web"
+    query: "George Soros prosecutor campaign 2018 California Los Angeles Times Marshall Project"
+    scope: "檢察官選舉資金、選後結果"
+    result: found
+    notes: "找到2018年調查與選後報導；未逐筆比對選舉委員會原始資料。"
+  - id: Q003
+    observed_at: "2026-11-24T13:10:00+08:00"
+    platform: "web"
+    query: "Polyakh v Ukraine ECHR; Taiwan 114訴4942; Venice Commission Poland 2024"
+    scope: "法院判決與官方審議"
+    result: partial
+    notes: "法院和官方意見可定位；波蘭案版本與精確法官人數仍待逐段核對。"
+promotion:
+  cases: []
+  comparators: []
+  research: []
+notes:
+  - "本資料為取證階段，不代表使用者認同或反對索羅斯，也不是評論草稿。"
+  - "避免由資助推定控制、由改革推定侵權責任，亦避免以尚未證明嚴重指控來淡化已證實的政治介入。"
+  - "喬治亞、匈牙利、塞爾維亞及波蘭其餘社群貼文內容仍需進一步原始取證，不因前次回答提及便提升為verified。"
+  - "待補：AIT與OSF/FOSI逐筆實際核撥及用途；美國選委會原始申報；烏克蘭清理法起草紀錄；波蘭2024年相關司法措施的基金會參與文件；戰爭與放空交易關聯。"
