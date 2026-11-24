@@ -1,0 +1,184 @@
+session:
+  id: "2026-11-24-judicial-flight-reform"
+  project: Politics
+  title: "重大刑案棄保逃亡、防逃制度改革及司法改革政治問責"
+  started_at: "2026-11-24T21:05:00+08:00"
+  updated_at: "2026-11-24T21:05:00+08:00"
+  status: active
+topics:
+  - "防逃制度與重罪被告具保"
+  - "科技設備監控"
+  - "司法改革的制度與政治責任"
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "司法院／基隆地方法院"
+    title: "基隆地院115年度重訴字第12號強制處分新聞稿"
+    url: "https://www.judicial.gov.tw/tw/cp-1888-1655187-db69d-1.html"
+    published_at: "2026-11-24"
+    observed_at: "2026-11-24T21:05:00+08:00"
+    retrieval_status: reachable
+  - id: S002
+    source_type: primary
+    publisher: "懲戒法院"
+    title: "陳勇松法官懲戒案件判決說明新聞稿"
+    url: "https://www.judicial.gov.tw/tw/cp-1888-1578389-7797e-1.html"
+    published_at: "2026-07-09"
+    observed_at: "2026-11-24T21:05:00+08:00"
+    retrieval_status: reachable
+  - id: S003
+    source_type: primary
+    publisher: "監察院"
+    title: "葉展皓虐童棄保潛逃案調查新聞稿"
+    url: "https://www.cy.gov.tw/News_Content.aspx?n=796&s=37178"
+    published_at: "2026-04-16"
+    observed_at: "2026-11-24T21:05:00+08:00"
+    retrieval_status: reachable
+  - id: S004
+    source_type: secondary
+    publisher: "中央社／最高檢察署發言"
+    title: "防重刑被告逃亡 最高檢：建議增訂保全羈押制度"
+    url: "https://www.cna.com.tw/news/asoc/202505140073.aspx"
+    published_at: "2025-05-14"
+    observed_at: "2026-11-24T21:05:00+08:00"
+    retrieval_status: reachable
+  - id: S005
+    source_type: primary
+    publisher: "立法院"
+    title: "刑事訴訟法修正第一百十六條之二條文"
+    url: "https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=33324&pid=260844"
+    published_at: "2025-10-17"
+    observed_at: "2026-11-24T21:05:00+08:00"
+    retrieval_status: reachable
+  - id: S006
+    source_type: primary
+    publisher: "桃園地檢署"
+    title: "1150415桃檢偵辦游姓律師棄保潛逃案新聞稿"
+    url: "https://www.tyc.moj.gov.tw/294079/294166/294168/1388749/"
+    published_at: "2026-04-15"
+    observed_at: "2026-11-24T21:05:00+08:00"
+    retrieval_status: reachable
+  - id: S007
+    source_type: secondary
+    publisher: "中央社"
+    title: "中油前執行長徐漢涉貪 宣判前夕拆卸電子腳環"
+    url: "https://www.cna.com.tw/news/asoc/202603190314.aspx"
+    published_at: "2026-03-19"
+    observed_at: "2026-11-24T21:05:00+08:00"
+    retrieval_status: reachable
+  - id: S008
+    source_type: primary
+    publisher: "民間司法改革基金會"
+    title: "民間團體就司改政策拜會賴清德總統候選人"
+    url: "https://www.jrf.org.tw/articles/2581"
+    published_at: "2023-10-25"
+    observed_at: "2026-11-24T21:05:00+08:00"
+    retrieval_status: reachable
+  - id: S009
+    source_type: primary
+    publisher: "民間司法改革基金會"
+    title: "司法節前夕反思改革停滯 賴政府應重啟社會對話"
+    url: "https://www.jrf.org.tw/articles/3112"
+    published_at: "2026-01-08"
+    observed_at: "2026-11-24T21:05:00+08:00"
+    retrieval_status: reachable
+  - id: S010
+    source_type: primary
+    publisher: "監察院"
+    title: "葉展皓案監察院調查揭示法院裁定通知函缺乏拘束力"
+    url: "https://www.cy.gov.tw/News_Content.aspx?n=640&s=37178"
+    published_at: "2026-04-16"
+    observed_at: "2026-11-24T21:05:00+08:00"
+    retrieval_status: reachable
+facts:
+  - id: F001
+    statement: "基隆地院2026-11-24表示，運輸毒品等罪嫌之李姓被告經依刑訴法101-2以60萬元具保，並限制住居、出境、出海；當庭諭知記明筆錄並通知檢察官。"
+    status: verified
+    observed_at: "2026-11-24T21:05:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "未採科技設備監控；法院表示程序合法，但不能由此證明裁量充分或防逃有效。"
+  - id: F002
+    statement: "2026-07-09懲戒法院就鍾文智案認定陳勇松法官未宣示、送達特定裁定及其他程序違失，判處相當於一年現職月俸給總額的罰款。"
+    status: verified
+    observed_at: "2026-11-24T21:05:00+08:00"
+    source_ids: [S002]
+    evidence_summary: "前案違失已具正式判決支持；不可直接推定基隆案有相同程序違失。"
+  - id: F003
+    statement: "監察院2026-04-16公布葉展皓棄保潛逃案調查，指出移審與羈押制度漏洞、科技監控執行改善需求，並指出2025年法院裁定通知函對獨立審判法官可能不具拘束力。"
+    status: verified
+    observed_at: "2026-11-24T21:05:00+08:00"
+    source_ids: [S003,S010]
+    evidence_summary: "制度性缺陷經監察院正式指出，部分改善仍屬建議性質。"
+  - id: F004
+    statement: "2025-05-14最高檢點名朱國榮、鍾文智、徐少東等被告逃亡，建議增訂保全羈押；其說法並追溯法務部2016年已研議。"
+    status: verified
+    observed_at: "2026-11-24T21:05:00+08:00"
+    source_ids: [S004]
+    evidence_summary: "2016年的狀態為研議而非已完成立法；是否提出正式草案、歷年決策待續查。"
+  - id: F005
+    statement: "2025-10-17立法院三讀修正刑訴法116-2，增訂法院得通知主管機關註銷逃逸被告護照及旅行文件的措施。"
+    status: verified
+    observed_at: "2026-11-24T21:05:00+08:00"
+    source_ids: [S005]
+    evidence_summary: "這是具體修法成果，不等同所有防逃漏洞已排除。"
+  - id: F006
+    statement: "桃園地檢署2026-04-15公布游姓律師在科技監控下規避措施、3月22日經船隻偷渡潛逃的偵辦經過。"
+    status: verified
+    observed_at: "2026-11-24T21:05:00+08:00"
+    source_ids: [S006]
+    evidence_summary: "科技監控的實際執行和應變屬獨立於有無書面裁定的檢驗面向。"
+  - id: F007
+    statement: "2026-03-19中油前執行長徐漢於宣判前夕拆卸電子腳環後逃亡。"
+    status: verified
+    observed_at: "2026-11-24T21:05:00+08:00"
+    source_ids: [S007]
+    evidence_summary: "此案後續已落網，不能描述為至今在逃。"
+  - id: F008
+    statement: "2023-10-25民間團體拜會賴清德，記錄賴對公開對話與常設性司改監督機制表示認同、值得檢討執行。"
+    status: verified
+    observed_at: "2026-11-24T21:05:00+08:00"
+    source_ids: [S008]
+    evidence_summary: "承諾文字應精確表達為認同機制及改革方向，不能無條件寫成承諾在特定日期設置特定組織。"
+  - id: F009
+    statement: "2026-01-08民間司改會批評賴政府司法改革停滯、要求重啟社會對話。"
+    status: verified
+    observed_at: "2026-11-24T21:05:00+08:00"
+    source_ids: [S009]
+    evidence_summary: "這是民間團體的公開評價，非政府全部改革作為的完整查核。"
+claims:
+  - id: C001
+    statement: "基隆案當庭諭知且未另製書面裁定，因此法官必定違法。"
+    status: unsupported
+    related_facts: [F001, F002, F003, F004, F005, F006, F007, F008, F009]
+    reasoning_notes: "基隆院稱已當庭諭知、記錄並通知檢察官；與鍾文智案已認定程序違失不一致。"
+  - id: C002
+    statement: "重大刑案防逃制度漏洞已在2026年全部解決。"
+    status: unsupported
+    related_facts: [F001, F002, F003, F004, F005, F006, F007, F008, F009]
+    reasoning_notes: "監察院2026年仍指出制度缺失，另有科技監控規避案例；但不能據此評定改革毫無成果。"
+  - id: C003
+    statement: "賴清德對所宣稱的司法改革監督機制負政策說明責任。"
+    status: supported
+    related_facts: [F001, F002, F003, F004, F005, F006, F007, F008, F009]
+    reasoning_notes: "2023年民間會談紀錄可確認對改革機制表達認同；具體責任需依憲政權限區分，不涉及指示個案法官。"
+  - id: C004
+    statement: "基隆案已再次發生棄保潛逃。"
+    status: unsupported
+    related_facts: [F001, F002, F003, F004, F005, F006, F007, F008, F009]
+    reasoning_notes: "截至2026-11-24取得的官方資料僅見具保裁定，未確認逃亡結果。"
+searches:
+  - id: Q001
+    observed_at: "2026-11-24T21:05:00+08:00"
+    platform: web
+    query: "2026 基隆毒品具保 鍾文智懲戒 監察院葉展皓 最高檢保全羈押"
+    scope: "司法機關、檢察機關、監察院及中央社公開紀錄"
+    result: found
+    notes: "比對前後案件與防逃制度改革節點；案件類型、程序失誤與結果不可等同。"
+promotion:
+  cases: []
+  comparators: []
+  research: []
+notes:
+  - "紀錄截至2026-11-24；基隆案只是具保爭議，不是已發生逃亡的案件。"
+  - "保全羈押之2016研議、2025修法與改革成效應區分規劃、規範、施行及評估。"
+  - "同一案例可呈現多個改革面向，但不同案例不可只因棄保逃亡就推定法官違法。"
