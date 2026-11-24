@@ -177,7 +177,7 @@ sources:
     url: "https://www.wsj.com/world/china/alice-huang-us-intel-nvidia-china-34e2404a"
     published_at: "2026-11-24"
     observed_at: "2026-11-24T12:44:02+08:00"
-    retrieval_status: partial
+    retrieval_status: blocked
     notes:
       - "報導指出早期警告備忘錄未確定記載黃樂受指派間諜；受付費限制，需另取得完整內容才能主張更多細節。"
 
