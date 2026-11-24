@@ -1,0 +1,188 @@
+session:
+  id: "2026-11-24-land-use-attribution-public-power"
+  project: Politics
+  title: "林國漳建案、黃國昌汐止土地停車場：責任歸屬與公權力查證基準"
+  started_at: "2026-11-24T15:46:48+08:00"
+  updated_at: "2026-11-24T15:46:48+08:00"
+  status: active
+
+topics:
+  - "土地所有權、使用行為與裁罰責任主體"
+  - "林國漳亞別建設投資及農牧用地停車指控"
+  - "公共質疑與司法權力的界線"
+  - "政治指控與司法迫害推論的證據門檻"
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "黃國昌 Facebook（對話中由使用者提供的擷取）"
+    title: "請問林國漳是要告什麼？"
+    url: "https://www.facebook.com/kcfor2016/posts/pfbid032Ymh4t2fF2jtmU87VYguGdj2ZJ2Vj7XJiXtdW9KXRAiB55GmFGaS9eAdjhALkcwTl"
+    published_at: "2026-11-24T12:31:00+08:00"
+    observed_at: "2026-11-24T15:46:48+08:00"
+    retrieval_status: reachable
+    notes:
+      - "原文與留言由使用者提供，擷取時間 2026-11-24T06:28:46.455Z；本次將其視為當事人發言的 primary evidence，不視為被指控行為的已證明事實。"
+  - id: S002
+    source_type: primary
+    publisher: "黃國昌 Facebook（對話中由使用者提供的擷取）"
+    title: "現場直擊違法停車位，三問公益律師林國漳"
+    url: "https://www.facebook.com/kcfor2016/posts/pfbid02m8tNp3XLYFyBWvG4qoggXXqbPwpsJhT1oo7ViP3hYHPoVs4vLJb4csKFwEkdNd8Nl"
+    published_at: "2026-11-24T14:12:00+08:00"
+    observed_at: "2026-11-24T15:46:48+08:00"
+    retrieval_status: reachable
+    notes:
+      - "使用者提供的 YAML 只擷取『現場直擊違法停車位三問公益律師林國漳…』及兩張媒體圖，內文被『查看更多』截斷；同時由使用者開啟的分頁看到後續開頭『結束和怡君車掃後，立刻趕往礁溪』，尚未取得完整版。"
+      - "不可推定兩張圖已證明特定地號違規。"
+  - id: S003
+    source_type: secondary
+    publisher: "中央社（引述新北市政府交通局及城鄉局）"
+    title: "黃國昌汐止保護區土地違規設停車場 市府罰承租人6萬"
+    url: "https://www.cna.com.tw/news/aloc/202308280084.aspx"
+    published_at: "2023-08-28"
+    observed_at: "2026-11-24T15:46:48+08:00"
+    retrieval_status: reachable
+    notes:
+      - "行政機關說法經中央社轉述，尚未取得裁處書正本。"
+  - id: S004
+    source_type: secondary
+    publisher: "中央社（引述新北市政府交通局）"
+    title: "黃國昌保護區土地尚未申設停車場 7/29最後通牒"
+    url: "https://www.cna.com.tw/news/aloc/202307260332.aspx"
+    published_at: "2023-07-26"
+    observed_at: "2026-11-24T15:46:48+08:00"
+    retrieval_status: reachable
+  - id: S005
+    source_type: secondary
+    publisher: "公視新聞"
+    title: "遭民眾黨質疑在宜蘭炒地 林國漳：抹黑合法投資將提告"
+    url: "https://news.pts.org.tw/article/837102"
+    published_at: "2026-11-24T14:00:00+08:00"
+    observed_at: "2026-11-24T15:46:48+08:00"
+    retrieval_status: reachable
+  - id: S006
+    source_type: secondary
+    publisher: "宜蘭新聞網"
+    title: "250萬投資建商惹議 吳宗憲追問林國漳利益迴避"
+    url: "https://www.travelnews.tw/news/250%E8%90%AC%E6%8A%95%E8%B3%87%E5%BB%BA%E5%95%86%E6%83%B9%E8%AD%B0-%E5%90%B3%E5%AE%97%E6%86%B2%E8%BF%BD%E5%95%8F%E6%9E%97%E5%9C%8B%E6%BC%B3%E5%88%A9%E7%9B%8A%E8%BF%B4%E9%81%BF/"
+    published_at: "2026-11-06"
+    observed_at: "2026-11-24T15:46:48+08:00"
+    retrieval_status: reachable
+  - id: S007
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "刑事訴訟法第161條"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+    observed_at: "2026-11-24T15:46:48+08:00"
+    retrieval_status: reachable
+    notes:
+      - "網頁搜尋摘要可直接核對條文；個別完整法規網頁開啟偶有逾時。"
+  - id: S008
+    source_type: primary
+    publisher: "法務部主管法規查詢系統"
+    title: "檢察官倫理規範（第6、8至11、19條）"
+    url: "https://mojlaw.moj.gov.tw/LawContent.aspx?LSID=FL063886"
+    observed_at: "2026-11-24T15:46:48+08:00"
+    retrieval_status: reachable
+
+facts:
+  - id: F001
+    statement: "2023年新北市政府認定汐止水源段162地號保護區土地遭未經許可作停車用途，對違規行為人即承租者裁罰；163地號為道路用地，兩筆土地法定用途不同。"
+    status: verified
+    observed_at: "2026-11-24T15:46:48+08:00"
+    source_ids: [S003, S004]
+    evidence_summary: "中央社2023-08-28引述交通局：7/31與8/24對承租人罰3,000與9,000元；城鄉局另對承租人罰60,000元。2023-07-26報導區分162地號保護區、163地號道路用地。"
+    verification_notes:
+      - "已確認的是土地使用違規與承租者受罰，不能等同黃國昌本人違法設置、經營或持有停車場設施。"
+      - "行政處分書正本未取得，證據層級為主管機關發言之新聞報導。"
+    tags: ["責任主體", "土地使用", "2023"]
+  - id: F002
+    statement: "2023-07-26新北市交通局稱勘查時未發現收費事實，無事證直接認定為收費停車場；同日報導指出地主接獲通知後表示已轉告承租人合法使用。"
+    status: verified
+    observed_at: "2026-11-24T15:46:48+08:00"
+    source_ids: [S004]
+    evidence_summary: "主管機關當時區分『有停車』與『收費停車場』的證明，也記錄地主收函後的回應。"
+    verification_notes:
+      - "此為2023-07-26查核時間點，不代表此後沒有新增證據。"
+    tags: ["收費事實", "地主回應"]
+  - id: F003
+    statement: "2026-11-24黃國昌公開指控林國漳投資的建案涉及農牧用地作停車用途，並發布聲稱現勘的貼文。"
+    status: verified
+    observed_at: "2026-11-24T15:46:48+08:00"
+    source_ids: [S001, S002]
+    evidence_summary: "可證明政治人物已提出特定指控與公開貼文，尚不能證明地號、土地用途、使用人或違法成立。"
+    tags: ["政治指控", "待核實"]
+  - id: F004
+    statement: "林國漳陣營公開承認250萬元投資並表示合法，且針對炒地相關指控提出將提告的回應。"
+    status: verified
+    observed_at: "2026-11-24T15:46:48+08:00"
+    source_ids: [S005, S006]
+    evidence_summary: "可確認有投資承認及否認炒地的公開回應；尚未獨立取得完整投資契約、分紅及土地登記資料。"
+    tags: ["投資", "當事人回應"]
+  - id: F005
+    statement: "刑事訴訟法第161條將被告犯罪事實的舉證責任置於檢察官；檢察官倫理規範要求不受政治關係影響、調查有利及不利證據，並遵守比例原則。"
+    status: verified
+    observed_at: "2026-11-24T15:46:48+08:00"
+    source_ids: [S007, S008]
+    evidence_summary: "刑訴法161條明定檢察官負舉證責任；倫理規範第6、9、10條規定政治中立、雙向查證、強制處分比例原則。"
+    tags: ["公權力", "舉證責任", "正當程序"]
+
+claims:
+  - id: C001
+    statement: "黃國昌本人曾違法經營或設置汐止停車場。"
+    status: unsupported
+    related_facts: [F001, F002]
+    reasoning_notes: "本次來源可確認承租人被認定為違規行為人並受罰；不能由地主身分與土地使用違規推出地主本人為經營者、設置者或違規人。unsupported不是反向證明絕不可能有其他責任。"
+  - id: C002
+    statement: "林國漳本人違法將農牧用地作停車場。"
+    status: unresolved
+    related_facts: [F003, F004]
+    reasoning_notes: "投資事實及黃國昌現勘主張，均不足單獨確定違規地號、土地使用人與林國漳法律責任；待宜蘭縣政府紀錄與土地資料。"
+  - id: C003
+    statement: "民進黨政府已在此次林國漳／黃國昌停車場爭議中指示檢調，使用國家機器進行司法迫害。"
+    status: unsupported
+    related_facts: [F003, F004, F005]
+    reasoning_notes: "本次取得的貼文、新聞與法規未出示此事件存在政府指示、檢調偵查或強制處分的具體資料；不可由一般司法迫害風險推導本案已發生。未查得不等於從未存在。"
+  - id: C004
+    statement: "政治懷疑或媒體攻擊可直接充當國家強制處分與刑事定罪的充分依據。"
+    status: contradicted
+    contradicts: [F005]
+    reasoning_notes: "刑訴法舉證與檢察官職務規範要求獨立查證、正當程序。判斷特定強制處分是否合法仍需檢查其個別要件和卷證。"
+  - id: C005
+    statement: "以2023年承租者受罰紀錄，反推黃國昌個人違法，再以此評價支持者，是正確的事證推論。"
+    status: contradicted
+    contradicts: [F001, F002]
+    reasoning_notes: "錯置責任主體與證據命題；此為本次對話中明確修正的查核方法錯誤，不得再當成個人違規已證實。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-11-24T15:46:48+08:00"
+    platform: "web search"
+    query: "黃國昌 汐止 2023 停車場 承租人 裁罰"
+    scope: "中央社歷史報導、新北市政府對外說明之二手記錄"
+    result: found
+    notes: "確認裁罰承租人3,000、9,000、60,000元及162/163地號用途差異，未取得裁處書原件。"
+  - id: Q002
+    observed_at: "2026-11-24T15:46:48+08:00"
+    platform: "web search"
+    query: "林國漳 亞別建設 黃國昌 2026-11-24 農牧用地 停車場 宜蘭縣政府"
+    scope: "當日新聞及當事人社群貼文，搜尋縣政府違規認定"
+    result: partial
+    notes: "找到投資與政治指控、否認及擬提告之報導；此次未取得縣政府農地違規裁處文件或確切地號。"
+  - id: Q003
+    observed_at: "2026-11-24T15:46:48+08:00"
+    platform: "web search"
+    query: "刑事訴訟法 161 檢察官倫理規範 第6 9 10"
+    scope: "法規來源"
+    result: found
+    notes: "確認舉證責任與檢察官獨立、公正、比例原則的規範。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "本件只是司法迫害風險與責任主體判準的存證，不是任何政治人物遭國家機器迫害的既成認定。"
+  - "候補第一手材料：新北市政府2023裁處書、宜蘭縣地籍／使用分區／農地稽查、林國漳投資契約及資金流、黃國昌第二篇貼文完整正文與照片。"
+  - "原始留言在使用者提供的兩篇Facebook YAML中，可確認批評者有使用『你家停車場』『你自己也有違法停車場』等措辭；不可由此推定任何政黨全體支持者立場。"
