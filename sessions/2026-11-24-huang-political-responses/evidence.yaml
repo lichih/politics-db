@@ -209,8 +209,7 @@ searches:
     query: "2026-11-08至11-24 黃仁勳 沈伯洋 范雲 黃捷 林修民 詹凌瑀 川普 CNBC NVIDIA 台股"
     scope: "公開聲明、SEC原始資料、具名新聞、評論原文與politics-db舊session"
     result: found
-    notes:
-      - "對照了不同程度的國安質詢與評論；未因同屬某政治陣營就合併外部事實責任。"
+    notes: "對照了不同程度的國安質詢與評論；未因同屬某政治陣營就合併外部事實責任。"
 
 promotion:
   cases: []
