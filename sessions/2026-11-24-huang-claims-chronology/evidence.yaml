@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "黃仁勳風波：11月7至24日台灣公開發言與美國證據狀態逐日比對"
   started_at: "2026-11-24T12:44:02+08:00"
-  updated_at: "2026-11-24T12:44:02+08:00"
+  updated_at: "2026-11-24T12:49:58+08:00"
   status: active
 
 topics: ["黃仁勳", "NVIDIA", "沈伯洋", "范雲", "莊瑞雄", "黃捷", "胡采蘋", "林修民", "黃樂", "Megaspeed", "川普", "政治言論", "國安", "證據時間線"]
@@ -181,6 +181,118 @@ sources:
     notes:
       - "報導指出早期警告備忘錄未確定記載黃樂受指派間諜；受付費限制，需另取得完整內容才能主張更多細節。"
 
+  - id: S018
+    source_type: secondary
+    publisher: "民視新聞網"
+    title: "對台灣國安產生影響？黃仁勳坦承出軌中國女間諜 民進黨團發聲了"
+    url: "https://www.ftvnews.com.tw/news/detail/2026B09W0227"
+    published_at: "2026-11-09"
+    observed_at: "2026-11-24T12:49:58+08:00"
+    retrieval_status: reachable
+    notes:
+      - "標題使用『中國女間諜』確定式稱呼；同篇正文稱對象『涉嫌替中國從事間諜活動』，且引述范雲仍待調查的說法。來源的標題與正文有證據語氣落差。"
+  - id: S019
+    source_type: secondary
+    publisher: "民視新聞網／轉述詹凌瑀"
+    title: "黃仁勳栽在「中國女間諜」身上？媒體人剖析「背後手段」嘆：傳統套路還是最有效"
+    url: "https://www.ftvnews.com.tw/news/detail/2026b09w0360"
+    published_at: "2026-11-09"
+    observed_at: "2026-11-24T12:49:58+08:00"
+    retrieval_status: reachable
+    notes:
+      - "詹凌瑀談『美國情報界認定為中國間諜』、『最傳統套路最有效』；該篇也明示美方情報判斷不同於法院最終判決，不能只擷取定論而漏掉其保留。"
+  - id: S020
+    source_type: secondary
+    publisher: "民視新聞網／轉述吳靜怡"
+    title: "黃仁勳捲桃色風波！驚爆牽扯中國女共諜 吳靜怡揭5大滲透模式"
+    url: "https://www.ftvnews.com.tw/news/detail/2026b09w0334"
+    published_at: "2026-11-09"
+    observed_at: "2026-11-24T12:49:58+08:00"
+    retrieval_status: reachable
+    notes:
+      - "分析多種可能情報滲透機制，屬一般風險模型；不能把其他個案中已證實的手法直接視為黃仁勳個案已發生的行為。"
+  - id: S021
+    source_type: secondary
+    publisher: "三立新聞網／鏡週刊外部轉載"
+    title: "黃仁勳沾中間諜都要去國會說明！醫嘆這事"
+    url: "https://www.mirrormedia.mg/external/setn_1936107"
+    published_at: "2026-11-09"
+    observed_at: "2026-11-24T12:49:58+08:00"
+    retrieval_status: reachable
+    notes:
+      - "記錄醫師杜承哲將黃仁勳遭美國國會要求閉門簡報，與沈伯洋所提立委赴中報備制度及藍白表決立場作政治對照；並不是杜承哲直接指控黃仁勳洩密。"
+  - id: S022
+    source_type: commentary
+    publisher: "自由評論網／自由廣場投書"
+    title: "黃仁勳風暴 給媚中藍白上一課"
+    url: "https://talk.ltn.com.tw/article/paper/1778446"
+    published_at: "2026-11-14"
+    observed_at: "2026-11-24T12:49:58+08:00"
+    retrieval_status: reachable
+    notes:
+      - "投稿文章將黃仁勳私德、間諜疑雲、晶片輸中事件與藍白政治評價串聯。屬作者政治意見，不能視為報社編輯部社論或民進黨正式立場。"
+  - id: S023
+    source_type: commentary
+    publisher: "自由時報編輯部"
+    title: "社論》黃仁勳的婚外情及其漣漪"
+    url: "https://talk.ltn.com.tw/article/paper/1778754"
+    published_at: "2026-11-17"
+    observed_at: "2026-11-24T12:49:58+08:00"
+    retrieval_status: reachable
+    notes:
+      - "社論寫黃仁勳『甚至被指』為中國推銷員／中共影響力代理人；形式上是在引述外界指控，尚不能將其直接寫成社論自行斷言其受中共指揮。"
+  - id: S024
+    source_type: secondary
+    publisher: "鏡週刊轉載三立新聞"
+    title: "黃仁勳回鍋機率0%！記者爆「被辭職」內幕"
+    url: "https://www.mirrormedia.mg/external/setn_1941959"
+    published_at: "2026-11-19"
+    observed_at: "2026-11-24T12:49:58+08:00"
+    retrieval_status: reachable
+    notes:
+      - "新聞轉述資深美國商業記者對回任機率為零的預判，結果證明判斷失準；引述他人預測與新聞社確定式下結論仍應區分。"
+  - id: S025
+    source_type: secondary
+    publisher: "中央社／綜合外電"
+    title: "傳記作者揭黃仁勳雙面人設 私下如暴君痛罵高層1小時"
+    url: "https://www.cna.com.tw/news/ait/202611130120.aspx"
+    published_at: "2026-11-13"
+    observed_at: "2026-11-24T12:49:58+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導明確歸因於傳記作者投書的個人見聞與指控；不能逕視為中央社自行查證並證實其職場人格特徵。"
+  - id: S026
+    source_type: commentary
+    publisher: "黃仁勳11日風暴民間整理網站"
+    title: "台灣媒體落井下石與翻臉實錄"
+    url: "https://jensen-in-distress-tw-media-watch.pages.dev/"
+    published_at: "2026-11-23"
+    observed_at: "2026-11-24T12:49:58+08:00"
+    retrieval_status: reachable
+    notes:
+      - "網站自稱完整庫含246篇／35品牌／20組同品牌前後對照，預設負面篩選顯示167篇／30品牌，分類含重度與看衰批判；為選樣編輯性資料庫，未逐項獨立覆核CSV與分類標準。"
+      - "所收來源跨三立、TVBS、聯合、自由、民視、中時等多種媒體，不能單憑樣本總數證明民進黨集中指揮、亦不能全部歸為間諜指控。"
+  - id: S027
+    source_type: secondary
+    publisher: "自由財經"
+    title: "黃仁勳遭媒體圍剿？分析指負面報導達75％ 這家外媒最會帶風向"
+    url: "https://ec.ltn.com.tw/article/breakingnews/5645763"
+    published_at: "2026-11-19"
+    observed_at: "2026-11-24T12:49:58+08:00"
+    retrieval_status: reachable
+    notes:
+      - "轉述 HyperspaceAI 創辦人對全球1641篇相關文章約75%負面分類，非本資料庫針對台灣的獨立抽樣，亦非一切負面報導都是不實。"
+  - id: S028
+    source_type: secondary
+    publisher: "民視新聞網"
+    title: "黃仁勳閃電復職！主播嗨喊「爸回來了」承諾台股5萬點請100份雞排珍奶"
+    url: "https://www.ftvnews.com.tw/news/detail/2026B24W0176"
+    published_at: "2026-11-24"
+    observed_at: "2026-11-24T12:49:58+08:00"
+    retrieval_status: reachable
+    notes:
+      - "回任後報導主播楊智捷的個人社群發言，不能據此認定是同一位作者撤回過去某篇間諜指控。"
+
 facts:
   - id: F001
     statement: "11/06美媒已有美國情報備忘錄與黃樂被指接近黃仁勳的報導，11/08 NVIDIA 董事會宣告因外國情報活動報導展開調查，但無理由相信國安或公司秘密已受損。"
@@ -253,6 +365,45 @@ facts:
     evidence_summary: "依照11/09與11/24兩次具名報導比對；限定為所核對的這兩次公開發言，不推定其他平台從無澄清。"
     tags: ["2026", "沈伯洋", "發言前後"]
 
+  - id: F011
+    statement: "11/09 民視多篇標題將黃樂稱為『中國女間諜』，但其中新聞內文說明她『涉嫌』替中國從事情報活動；同日詹凌瑀的發言以『情報界認定』及成功的傳統套路形容事件，但媒體同篇亦有情報判斷不等於法院結論的保留。"
+    status: verified
+    observed_at: "2026-11-24T12:49:58+08:00"
+    source_ids: [S018, S019]
+    evidence_summary: "同日原始新聞標題、內文與轉述發言的強度比較；此處核實言論存在，不核實黃樂已是間諜。"
+    tags: ["2026", "11月9日", "民視", "詹凌瑀", "標題內文落差"]
+  - id: F012
+    statement: "11/09 吳靜怡對五種可能的滲透模式提出解釋、杜承哲將黃仁勳受美國國會要求簡報與台灣立委赴中報備法案連結，兩人屬政治評論而非同一種對黃仁勳個人有罪斷言。"
+    status: verified
+    observed_at: "2026-11-24T12:49:58+08:00"
+    source_ids: [S020, S021]
+    evidence_summary: "具名報導記錄實際評論內容、發表日期與政治對照功能。"
+    tags: ["2026", "吳靜怡", "杜承哲", "類比"]
+  - id: F013
+    statement: "11/14 自由廣場投書以黃仁勳風波批評『媚中藍白』；11/17 自由時報編輯部社論引述外界稱其為中國推銷員、中共影響力代理人，屬不同責任層級與不同強度的政治敘事。"
+    status: verified
+    observed_at: "2026-11-24T12:49:58+08:00"
+    source_ids: [S022, S023]
+    evidence_summary: "原始投稿題目、內容片段與報社社論文字可核對；投稿不等於社論，社論轉述外界指控不等於直接宣稱已獲證明。"
+    tags: ["2026", "自由時報", "社論", "政治責任"]
+  - id: F014
+    statement: "11/19 三立轉述美國記者『回鍋機率0%』，結果與11/23回任矛盾；11/13中央社所載『私下暴君』乃傳記作者投書指控；11/24民視報導主播個人社群發文『爸回來了』，三者不能因媒體品牌出現便推定同一記者翻供。"
+    status: verified
+    observed_at: "2026-11-24T12:49:58+08:00"
+    source_ids: [S024, S025, S028, S013]
+    evidence_summary: "當時來源性質、時間與之後實際回任結果互相比對。"
+    tags: ["2026", "媒體追蹤", "預測失準", "歸因"]
+  - id: F015
+    statement: "民間媒體整理站列示167篇篩選後負面樣本、約30家品牌；另一介紹稱整庫246篇35家與20組同品牌前後對照。這些是網站自身的收錄聲明，非外部獨立複核的完整母體。"
+    status: partial
+    observed_at: "2026-11-24T12:49:58+08:00"
+    source_ids: [S026]
+    evidence_summary: "檢索畫面可見網站宣稱的統計口徑及篩選條件；尚未逐一核對各列原始URL、去重與標籤。"
+    verification_notes:
+      - "不得稱全數為綠營媒體或全數已構成誹謗。"
+      - "選取負面樣本的庫不能直接估算全部報導中負面比例。"
+    tags: ["2026", "媒體索引", "樣本", "待複核"]
+
 claims:
   - id: C001
     statement: "11/09沈伯洋評論時，公開資訊中完全沒有美國情報機構相關資料或合理疑點。"
@@ -311,6 +462,28 @@ claims:
     related_facts: [F007]
     reasoning_notes: "逐字稿此語回答的是『黃仁勳是否有意去中國發展／被中國挖角』，不能移作情報認定。"
 
+  - id: C009
+    statement: "在11月9日美方司法尚未確認個人間諜身分時，將新聞標題寫成『坦承出軌中國女間諜』，會讓讀者把已承認的婚外情事實與尚待核實的間諜身分混為同一已證實命題。"
+    status: supported
+    supports: [F011, F005]
+    contradicts: []
+    related_facts: [F001]
+    reasoning_notes: "屬語義與時間切片判斷；11月9日已有情報報導，不代表連情報線索都不存在，也不能用11月12日的新資訊回溯認定作者當時主觀故意。"
+  - id: C010
+    statement: "某媒體先報導黃仁勳不利新聞，後來報導他復職的喜悅反應，就足以證明同一作者故意說謊或同一組織政治協調。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F014, F015]
+    reasoning_notes: "新聞報導時點與事實狀態改變，作者、言論責任主體、引用來源亦須分別追查。"
+  - id: C011
+    statement: "民間網站統計的246篇新聞都可歸因於民進黨陣營發動的對黃仁勳不實共諜指控。"
+    status: contradicted
+    supports: []
+    contradicts: [F015]
+    related_facts: [F013, F014]
+    reasoning_notes: "整庫混含不同品牌、正常新聞、私德評論、預測、治理與國安報導；入庫被標負面不等於不實或受黨指示。"
+
 searches:
   - id: Q001
     observed_at: "2026-11-24T12:44:02+08:00"
@@ -319,6 +492,14 @@ searches:
     scope: "美國公司正式聲明、美國司法部長發言及路透、紐約時報情報報導、台灣具名報導與評論"
     result: found
     notes: "核心重點是依當天已公開資料作證據切片；後出現的情報消息不得倒灌到11月9日形成定案，11月23日的政治宣示也不得倒灌至11月12日。"
+
+  - id: Q002
+    observed_at: "2026-11-24T12:49:58+08:00"
+    platform: "web：多組媒體分網域檢索／民間整理站"
+    query: "2026-11-09至11-24 黃仁勳 共諜 民視 三立 自由 詹凌瑀 吳靜怡 杜承哲 社論 媒體翻臉 清單"
+    scope: "具名媒體、投稿與社論、新聞轉載、影片索引、民間彙整索引"
+    result: found
+    notes: "補入11月9日標題內文語義落差、評論者、自由廣場政治挪用與復職前後不同來源的預測；民間整庫仍待逐筆複核。"
 
 promotion:
   cases: []
