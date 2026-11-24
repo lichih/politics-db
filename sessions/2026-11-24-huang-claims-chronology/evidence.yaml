@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "黃仁勳風波：11月7至24日台灣公開發言與美國證據狀態逐日比對"
   started_at: "2026-11-24T12:44:02+08:00"
-  updated_at: "2026-11-24T12:49:58+08:00"
+  updated_at: "2026-11-24T12:50:34+08:00"
   status: active
 
 topics: ["黃仁勳", "NVIDIA", "沈伯洋", "范雲", "莊瑞雄", "黃捷", "胡采蘋", "林修民", "黃樂", "Megaspeed", "川普", "政治言論", "國安", "證據時間線"]
@@ -292,6 +292,16 @@ sources:
     retrieval_status: reachable
     notes:
       - "回任後報導主播楊智捷的個人社群發言，不能據此認定是同一位作者撤回過去某篇間諜指控。"
+  - id: S029
+    source_type: commentary
+    publisher: "自由評論網／自由廣場投書"
+    title: "AI教父遭滲透 戳破「美中逢源」幻想"
+    url: "https://talk.ltn.com.tw/article/paper/1778066"
+    published_at: "2026-11-11"
+    observed_at: "2026-11-24T12:50:34+08:00"
+    retrieval_status: reachable
+    notes:
+      - "投書使用『遭滲透』定性黃仁勳情報疑雲，並將此事聯結台灣藍白、疑美論政治攻防。其敘述需與當時尚在調查的情報證據區分；不能直接當成報社官方立場。"
 
 facts:
   - id: F001
@@ -403,6 +413,13 @@ facts:
       - "不得稱全數為綠營媒體或全數已構成誹謗。"
       - "選取負面樣本的庫不能直接估算全部報導中負面比例。"
     tags: ["2026", "媒體索引", "樣本", "待複核"]
+  - id: F016
+    statement: "11/11自由廣場投書以『AI教父遭滲透』為標題，連結黃仁勳與中國情報疑雲，並以該案批評台灣藍白及疑美論；內容屬可核對的政治論述操作，非間諜事實已證實的證據。"
+    status: verified
+    observed_at: "2026-11-24T12:50:34+08:00"
+    source_ids: [S029]
+    evidence_summary: "自由廣場11月11日投書標題及其公開內文可核對政治攻防的論證功能。"
+    tags: ["2026", "自由廣場", "11月11日", "政治論述"]
 
 claims:
   - id: C001
