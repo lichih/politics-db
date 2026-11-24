@@ -1,0 +1,211 @@
+session:
+  id: 2026-11-24-huang-political-responses
+  project: Politics
+  title: "2026年11月黃仁勳事件：台灣政治言論、美國戰略考量與市場反應"
+  started_at: "2026-11-24T12:36:04+08:00"
+  updated_at: "2026-11-24T12:36:04+08:00"
+  status: active
+
+topics:
+  - "黃仁勳"
+  - "NVIDIA"
+  - "川普"
+  - "沈伯洋"
+  - "范雲"
+  - "黃捷"
+  - "政治評論"
+  - "國安查證"
+  - "媒體倫理"
+  - "台股"
+  - "國家利益"
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "NVIDIA 董事會"
+    title: "Statement from NVIDIA Board of Directors"
+    url: "https://investor.nvidia.com/news/press-release-details/2026/Statement-from-NVIDIA-Board-of-Directors/"
+    published_at: "2026-11-08"
+    observed_at: "2026-11-24T12:36:04+08:00"
+    retrieval_status: reachable
+    notes: "宣布針對可能受到外國情報行動鎖定的報導展開獨立調查，並非認定中國間諜身分。"
+  - id: S002
+    source_type: primary
+    publisher: "美國證券交易委員會 SEC / NVIDIA"
+    title: "NVIDIA Form 8-K（2026-11-11 辭職）"
+    url: "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm"
+    published_at: "2026-11-12"
+    observed_at: "2026-11-24T12:36:04+08:00"
+    retrieval_status: reachable
+  - id: S003
+    source_type: primary
+    publisher: "NVIDIA"
+    title: "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director"
+    url: "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+    published_at: "2026-11-23"
+    observed_at: "2026-11-24T12:36:04+08:00"
+    retrieval_status: reachable
+    notes: "復任決議以2026-11-22為準；獨立調查仍會繼續。"
+  - id: S004
+    source_type: primary
+    publisher: "CNBC"
+    title: "CNBC Transcript: President Donald Trump Speaks with CNBC’s Eamon Javers and Squawk on the Street"
+    url: "https://pressroom.versantmedia.com/cnbc/press-releases/cnbc-transcript-president-donald-trump-speaks-cnbcs-eamon-javers-and-squawk"
+    published_at: "2026-11-23"
+    observed_at: "2026-11-24T12:36:04+08:00"
+    retrieval_status: reachable
+    notes: "川普的中國挖角說法屬假設；當記者追問是否掌握跡象，他表示連暗示都沒有。"
+  - id: S005
+    source_type: secondary
+    publisher: "中央社"
+    title: "黃仁勳坦承與中國女子婚外情 沈伯洋：中國經典手法"
+    url: "https://www.cna.com.tw/news/aipl/202611090083.aspx"
+    published_at: "2026-11-09"
+    observed_at: "2026-11-24T12:36:04+08:00"
+    retrieval_status: reachable
+    notes: "同篇含沈伯洋與范雲不同程度的國安風險評論及私人生活界線。"
+  - id: S006
+    source_type: secondary
+    publisher: "中央社"
+    title: "黃仁勳婚外情對象黃樂曾入境 劉世芳：已廢證不可能再來台"
+    url: "https://www.cna.com.tw/news/aipl/202611110140.aspx"
+    published_at: "2026-11-11"
+    observed_at: "2026-11-24T12:36:04+08:00"
+    retrieval_status: reachable
+    notes: "記錄黃捷就入出境及防諜制度質詢、劉世芳回應。"
+  - id: S007
+    source_type: commentary
+    publisher: "自由評論網／林修民"
+    title: "「戀愛腦」疑似降低黃仁勳對中國晶片產業判斷能力"
+    url: "https://talk.ltn.com.tw/article/breakingnews/5638118"
+    published_at: "2026-11-12"
+    observed_at: "2026-11-24T12:36:04+08:00"
+    retrieval_status: reachable
+    notes: "評論原文把未確證的間諜身分與對中政策判斷連結；僅可證明該評論存在，不可推論民進黨中央授意。"
+  - id: S008
+    source_type: secondary
+    publisher: "自由財經"
+    title: "黃仁勳被爆外遇共諜 詹凌瑀：欠全世界一個交代"
+    url: "https://ec.ltn.com.tw/article/breakingnews/5639094"
+    published_at: "2026-11-13"
+    observed_at: "2026-11-24T12:36:04+08:00"
+    retrieval_status: reachable
+    notes: "媒體引述詹凌瑀的評論，並非民進黨正式聲明。"
+  - id: S009
+    source_type: secondary
+    publisher: "NOWnews"
+    title: "黃仁勳回歸輝達 台股重返4萬大關有助選情？沈伯洋揭這點最重要"
+    url: "https://www.nownews.com/news/6894982"
+    published_at: "2026-11-24"
+    observed_at: "2026-11-24T12:36:04+08:00"
+    retrieval_status: reachable
+    notes: "沈伯洋強調等待調查、金融穩定比選舉重要。"
+  - id: S010
+    source_type: secondary
+    publisher: "中央社"
+    title: "卓榮泰：國安基金能量有餘裕 將樂觀正面檢討規模"
+    url: "https://www.cna.com.tw/news/aipl/202611230170.aspx"
+    published_at: "2026-11-23"
+    observed_at: "2026-11-24T12:36:04+08:00"
+    retrieval_status: reachable
+    notes: "行政院實際召開與金融及產業代表座談，不能稱政府完全沒有處置市場波動。"
+  - id: S011
+    source_type: secondary
+    publisher: "中央社"
+    title: "黃仁勳重掌輝達 台股報復性反彈逾3300點重登4萬大關"
+    url: "https://www.cna.com.tw/news/afe/202611240034.aspx"
+    published_at: "2026-11-24"
+    observed_at: "2026-11-24T12:36:04+08:00"
+    retrieval_status: reachable
+    notes: "市場反應的當日報導，不能據此證明全部漲跌由單一事件造成。"
+
+facts:
+  - id: F001
+    statement: "NVIDIA 董事會於11月8日表示將調查黃仁勳可能受到外國情報活動鎖定的報導；11月11日接受黃仁勳辭職；11月22日決議回任，11月23日宣布。回任時獨立調查尚未結束。"
+    status: verified
+    observed_at: "2026-11-24T12:36:04+08:00"
+    source_ids: [S001, S002, S003]
+    evidence_summary: "董事會兩次聲明與SEC 8-K固定程序時間線及調查狀態。"
+    tags: ["2026", "NVIDIA", "董事會", "國安"]
+  - id: F002
+    statement: "川普於11月23日CNBC訪談稱黃仁勳是美國的國家瑰寶，擔心遭排擠後可能被中國延攬；中國挖角屬川普假設，他回答記者時表示沒有實際跡象。"
+    status: verified
+    observed_at: "2026-11-24T12:36:04+08:00"
+    source_ids: [S004]
+    evidence_summary: "官方完整逐字稿同時呈現川普的國家競爭力判斷與對假設性的明確承認。"
+    verification_notes:
+      - "川普說He's got a little blood in him；[Chinese]是部分媒體加入的上下文補語，不是川普逐字原文。"
+    tags: ["2026", "川普", "CNBC", "國家利益"]
+  - id: F003
+    statement: "11月9日沈伯洋公開將黃仁勳事件評論為中國經典手法，同時表示有無造成利益侵害須待調查；范雲則主張尊重私人生活及依法調查、讓證據說話。"
+    status: verified
+    observed_at: "2026-11-24T12:36:04+08:00"
+    source_ids: [S005]
+    evidence_summary: "中央社同日現場採訪記錄兩人說法。"
+    tags: ["2026", "沈伯洋", "范雲", "政治言論"]
+  - id: F004
+    statement: "11月11日黃捷就黃樂入境台灣及防諜制度向內政部長劉世芳質詢；11月12日林修民撰文把間諜疑雲與黃仁勳對中晶片政策相聯；11月13日自由財經報導詹凌瑀批評黃仁勳欠全世界一個交代。"
+    status: verified
+    observed_at: "2026-11-24T12:36:04+08:00"
+    source_ids: [S006, S007, S008]
+    evidence_summary: "區分有明確本國主管機關監督標的的質詢、獨立評論者的推論、媒體轉述。"
+    verification_notes:
+      - "林修民與詹凌瑀之政治組織關係及是否受指示，未有相關證據。"
+    tags: ["2026", "媒體評論", "入境管理", "國安"]
+  - id: F005
+    statement: "11月24日沈伯洋對黃仁勳復任表示仍應等待調查、金融穩定比選舉重要；前一日卓榮泰召集金融及產業代表座談。黃仁勳回任消息後台股早盤大幅反彈。"
+    status: verified
+    observed_at: "2026-11-24T12:36:04+08:00"
+    source_ids: [S009, S010, S011]
+    evidence_summary: "媒體當日具名訪談、行政院座談報導與市場數據。"
+    verification_notes:
+      - "國安基金及穩市措施不能用以證明民進黨所有人物表態一致；盤勢反彈不能單獨作因果證明。"
+    tags: ["2026", "沈伯洋", "台股", "政府因應"]
+
+claims:
+  - id: C001
+    statement: "現有公開資料已足以認定黃仁勳遭中國情報機構操控或已造成NVIDIA洩密。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F001, F003, F004]
+    reasoning_notes: "啟動調查、一般情報手法、評論者推測，均非特定情報行動成立的證據；目前調查未完。"
+  - id: C002
+    statement: "台灣政治人物及媒體對黃仁勳事件採取了程度不同的言論與查證標準，應分別依具體命題檢驗。"
+    status: supported
+    supports: [F003, F004, F005]
+    contradicts: []
+    related_facts: [F001]
+    reasoning_notes: "國安管理質詢、情報定性、個人判斷能力指控與等待調查的聲明，在來源及推論強度上存在差異。"
+  - id: C003
+    statement: "這些評論已證明民進黨中央統一部署攻擊黃仁勳。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F003, F004]
+    reasoning_notes: "具名評論存在，但缺少指令、協調或金流等直接外部事證；政治論述功能評價不等於組織指揮關係。"
+  - id: C004
+    statement: "川普關於中國挖角黃仁勳的說法已獲得真實接觸或邀約證據支持。"
+    status: contradicted
+    supports: []
+    contradicts: [F002]
+    related_facts: []
+    reasoning_notes: "川普在同段訪談承認沒有任何相關暗示。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-11-24T12:36:04+08:00"
+    platform: "web / GitHub politics-db"
+    query: "2026-11-08至11-24 黃仁勳 沈伯洋 范雲 黃捷 林修民 詹凌瑀 川普 CNBC NVIDIA 台股"
+    scope: "公開聲明、SEC原始資料、具名新聞、評論原文與politics-db舊session"
+    result: found
+    notes: "對照了不同程度的國安質詢與評論；未因同屬某政治陣營就合併外部事實責任。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "Fact 政治評論文章：https://fact.4649.tw/politics/2026-11-24-jensen-national-interest-political-accountability/"
+  - "本紀錄只保存可核對來源與其說法；文章對短視、國家利益與政治責任的評價不冒充個案犯罪事實。"
