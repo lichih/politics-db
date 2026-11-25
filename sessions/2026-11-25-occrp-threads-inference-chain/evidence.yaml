@@ -24,7 +24,8 @@ sources:
     published_at: "2026-11-25T10:15:20+08:00"
     observed_at: "2026-11-25T11:28:38+08:00"
     retrieval_status: reachable
-    notes: "使用者提供之擷取資料。原文：「我從來沒有拿過索羅斯一塊錢……直接提告」。係當事人陳述，非已完成金流審計。"
+    notes:
+      - "使用者提供之擷取資料。原文：「我從來沒有拿過索羅斯一塊錢……直接提告」。係當事人陳述，非已完成金流審計。"
   - id: S002
     source_type: commentary
     publisher: "Threads / @yuhunglintw"
@@ -33,7 +34,8 @@ sources:
     published_at: "2026-11-24T23:09:22+08:00"
     observed_at: "2026-11-25T11:51:14+08:00"
     retrieval_status: reachable
-    notes: "使用者擷取，且曾於開啟之 Threads browser tab 讀到原文。內文使用2024/4/5日期、列出OSF資助OCCRP及協會合作，未直接斷言黃國昌個人受款。"
+    notes:
+      - "使用者擷取，且曾於開啟之 Threads browser tab 讀到原文。內文使用2024/4/5日期、列出OSF資助OCCRP及協會合作，未直接斷言黃國昌個人受款。"
   - id: S003
     source_type: primary
     publisher: "Threads / @yuhunglintw"
@@ -42,7 +44,8 @@ sources:
     published_at: "2026-11-25T00:40:20+08:00"
     observed_at: "2026-11-25T11:51:14+08:00"
     retrieval_status: reachable
-    notes: "依使用者提供的擷取，作者更正先前4/5為4/15；這是作者的更正聲明，並非單憑此件驗證立院紀錄。"
+    notes:
+      - "依使用者提供的擷取，作者更正先前4/5為4/15；這是作者的更正聲明，並非單憑此件驗證立院紀錄。"
   - id: S004
     source_type: commentary
     publisher: "Threads / @pennnnnnny2021"
@@ -51,7 +54,8 @@ sources:
     published_at: "2026-11-25T11:34:59+08:00"
     observed_at: "2026-11-25T11:49:27+08:00"
     retrieval_status: reachable
-    notes: "作者稱「我把主持改合作」；先前『主持』版本尚未取得可獨立重現之完整原始貼文。"
+    notes:
+      - "作者稱「我把主持改合作」；先前『主持』版本尚未取得可獨立重現之完整原始貼文。"
   - id: S005
     source_type: commentary
     publisher: "Threads / @pennnnnnny2021"
@@ -60,7 +64,8 @@ sources:
     published_at: "2026-11-25T11:39:05+08:00"
     observed_at: "2026-11-25T11:49:27+08:00"
     retrieval_status: reachable
-    notes: "原文含「圖是假的嗎？你告什麼？」及「問一下，OCCRP有支薪給你嗎？」；問句本身未提供金流證據。"
+    notes:
+      - "原文含「圖是假的嗎？你告什麼？」及「問一下，OCCRP有支薪給你嗎？」；問句本身未提供金流證據。"
   - id: S006
     source_type: commentary
     publisher: "Threads / @pennnnnnny2021"
@@ -69,7 +74,8 @@ sources:
     published_at: "2026-11-25T11:45:29+08:00"
     observed_at: "2026-11-25T11:49:27+08:00"
     retrieval_status: reachable
-    notes: "原文：「我沒說任何『個人』拿了索羅斯的錢……可以說說為什麼不能拿索羅斯的錢嗎？」"
+    notes:
+      - "原文：「我沒說任何『個人』拿了索羅斯的錢……可以說說為什麼不能拿索羅斯的錢嗎？」"
   - id: S007
     source_type: commentary
     publisher: "Threads / @pennnnnnny2021"
@@ -78,7 +84,8 @@ sources:
     published_at: "2026-11-25T11:16:37+08:00"
     observed_at: "2026-11-25T11:49:27+08:00"
     retrieval_status: reachable
-    notes: "直接回覆@chenshize7；表示黃國昌與OCCRP合作，反問是否有聲稱他個人拿錢。"
+    notes:
+      - "直接回覆@chenshize7；表示黃國昌與OCCRP合作，反問是否有聲稱他個人拿錢。"
   - id: S008
     source_type: commentary
     publisher: "Threads / @anna9941317"
@@ -87,7 +94,8 @@ sources:
     published_at: "2026-11-25T08:27:01+08:00"
     observed_at: "2026-11-25T11:54:32+08:00"
     retrieval_status: reachable
-    notes: "使用者擷取及開啟之Threads頁面可見原文，後附OCCRP合作／OSF資助素材，使用更正前的2024/4/5日期；不能單以文字近似斷定資料源自特定帳號。"
+    notes:
+      - "使用者擷取及開啟之Threads頁面可見原文，後附OCCRP合作／OSF資助素材，使用更正前的2024/4/5日期；不能單以文字近似斷定資料源自特定帳號。"
   - id: S009
     source_type: commentary
     publisher: "Threads / @ryanteng10"
@@ -96,7 +104,8 @@ sources:
     published_at: "2026-11-25T02:29:17+08:00"
     observed_at: "2026-11-25T11:56:20+08:00"
     retrieval_status: reachable
-    notes: "使用者擷取；此留言直接回覆@kabvdhdkkw，見S010。"
+    notes:
+      - "使用者擷取；此留言直接回覆@kabvdhdkkw，見S010。"
   - id: S010
     source_type: commentary
     publisher: "Threads / @kabvdhdkkw"
@@ -105,7 +114,8 @@ sources:
     published_at: "2026-11-25T01:20:31+08:00"
     observed_at: "2026-11-25T11:56:20+08:00"
     retrieval_status: reachable
-    notes: "原文以『沈伯洋是直接收到索羅斯的錢』描述組織受款，有個人與法人混用之問題；同文指出協會和OCCRP合作但無協會收款說法。"
+    notes:
+      - "原文以『沈伯洋是直接收到索羅斯的錢』描述組織受款，有個人與法人混用之問題；同文指出協會和OCCRP合作但無協會收款說法。"
   - id: S011
     source_type: commentary
     publisher: "Threads / @lichihwu"
@@ -114,7 +124,8 @@ sources:
     published_at: "2026-11-25T11:55:59+08:00"
     observed_at: "2026-11-25T11:56:20+08:00"
     retrieval_status: reachable
-    notes: "原文：「你是說真的有拿錢不能說有拿錢才是洋流正當的連連看」。保留為使用者原話，不作事實認定。"
+    notes:
+      - "原文：「你是說真的有拿錢不能說有拿錢才是洋流正當的連連看」。保留為使用者原話，不作事實認定。"
   - id: S012
     source_type: primary
     publisher: "OCCRP"
@@ -123,7 +134,8 @@ sources:
     published_at: ""
     observed_at: "2026-11-25T11:56:20+08:00"
     retrieval_status: reachable
-    notes: "前次查核之官方來源入口，OCCRP列明OSF為資助者；本次未重新取得特定撥款年份與金額。"
+    notes:
+      - "前次查核之官方來源入口，OCCRP列明OSF為資助者；本次未重新取得特定撥款年份與金額。"
   - id: S013
     source_type: primary
     publisher: "OCCRP"
@@ -132,7 +144,8 @@ sources:
     published_at: ""
     observed_at: "2026-11-25T11:56:20+08:00"
     retrieval_status: reachable
-    notes: "前次查核之共同調查頁，合作名單涉及台灣公益揭弊暨吹哨者保護協會；合作關係不等於資金移轉。"
+    notes:
+      - "前次查核之共同調查頁，合作名單涉及台灣公益揭弊暨吹哨者保護協會；合作關係不等於資金移轉。"
   - id: S014
     source_type: commentary
     publisher: "Threads / @huang.guochang"
@@ -141,7 +154,8 @@ sources:
     published_at: "2026-11-24T22:32:57+08:00"
     observed_at: "2026-11-25T11:56:20+08:00"
     retrieval_status: reachable
-    notes: "此篇為S010和S009所屬串文根貼文；包含影片但目前僅保留擷取文字與URL，不推定影片內容。"
+    notes:
+      - "此篇為S010和S009所屬串文根貼文；包含影片但目前僅保留擷取文字與URL，不推定影片內容。"
   - id: S015
     source_type: commentary
     publisher: "Threads / @hac030"
@@ -150,7 +164,8 @@ sources:
     published_at: "2026-11-24T22:54:58+08:00"
     observed_at: "2026-11-25T11:56:20+08:00"
     retrieval_status: reachable
-    notes: "S014直接回覆，S010再回覆S015，S009再回覆S010；不同作者、不同主張，不可合併成同一指控。"
+    notes:
+      - "S014直接回覆，S010再回覆S015，S009再回覆S010；不同作者、不同主張，不可合併成同一指控。"
   - id: S016
     source_type: commentary
     publisher: "Threads / @kinmenwalker（截圖）"
@@ -159,7 +174,8 @@ sources:
     published_at: ""
     observed_at: "2026-11-25T11:28:38+08:00"
     retrieval_status: blocked
-    notes: "使用者於對話提供原始截圖，未提供可核對貼文永久連結；來源為截圖而非已獨立確認的公開原貼。與S001之當事人否認相呼應，但不能互代原始來源。"
+    notes:
+      - "使用者於對話提供原始截圖，未提供可核對貼文永久連結；來源為截圖而非已獨立確認的公開原貼。與S001之當事人否認相呼應，但不能互代原始來源。"
 
 facts:
   - id: F001
