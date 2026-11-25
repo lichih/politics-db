@@ -1,0 +1,65 @@
+# 2026-11-25 Threads poyujen / Meta AI follow-up
+# Observations come from the user-supplied deterministic social capture; these are verbatim statements, not validated factual assertions.
+session: 2026-11-25-occrp-threads-inference-chain
+captured_at: "2026-11-25T13:50:44.420Z"
+source_capture: "threads-DgKDuWBk03E.yaml"
+records:
+  - time: "2026-11-25T11:54:57Z"
+    author: poyujen
+    url: https://www.threads.com/@poyujen/post/DgKeIEHARbS
+    claim: "沈伯洋做研究的時候是學者，黃國昌去合作OCCRP的時候是能拿到很多機密的國會議員"
+    assessment: "2023年合作起點時黃國昌非立委，原句時間前提錯誤"
+  - time: "2026-11-25T13:27:29Z"
+    author: lichihwu
+    url: https://www.threads.com/@lichihwu/post/DgKotwWj7OX
+    claim: "指出2023年非立委、組織直接資助與合作證據差異，並批評監督標準"
+    assessment: "主張內容與政治評語應分別檢驗"
+  - time: "2026-11-25T13:33:43Z"
+    author: poyujen
+    url: https://www.threads.com/@poyujen/post/DgKpbcRATHu
+    claim: "黃國昌有提到他停止與OCCRP合作了嗎？"
+    assessment: "沒有公開終止聲明不能證明合作延續"
+  - time: "2026-11-25T13:35:43Z"
+    author: poyujen
+    url: https://www.threads.com/@poyujen/post/DgKpqDqgVd7
+    claim: "作為公民，關心黃委員擔任國會議員期間是否仍然與OCCRP合作合理嗎？"
+    assessment: "合理監督問題，不是已證實的合作延續"
+  - time: "2026-11-25T13:38:08Z"
+    author: poyujen
+    url: https://www.threads.com/@poyujen/post/DgKp7w1gdkQ
+    claim: "沈伯洋什麼時候辭掉台灣民主實驗室的職位？"
+  - time: "2026-11-25T13:38:31Z"
+    author: meta.ai
+    url: https://www.threads.com/@meta.ai/post/DgKp-k2CWj-
+    claim: "引2023-11-16組織聲明稱沈口頭請辭理事長，由常務理事代理"
+    assessment: "需核對實際登記及後續職務；AI文字不是原始組織聲明"
+  - time: "2026-11-25T13:41:21Z"
+    author: poyujen
+    url: https://www.threads.com/@poyujen/post/DgKqTXEgVfM
+    claim: "所以沈伯洋擔任公職與台灣民主實驗室是沒有重疊的"
+    assessment: "將立委任期與理事長職務的窄範圍擴大到所有公職；2018至2020黨產會兼任委員經歷構成反證"
+  - time: "2026-11-25T13:41:43Z"
+    author: meta.ai
+    url: https://www.threads.com/@meta.ai/post/DgKqV-vilP5
+    claim: "大致正確；理由僅指理事長職務與立委任期形式上沒有重疊"
+    assessment: "沒有回答所有公職是否重疊的擴張主張"
+  - time: "2026-11-25T13:49:12Z"
+    author: lichihwu
+    url: https://www.threads.com/@lichihwu/post/DgKrM1oDx62
+    claim: "質疑OSF至OCCRP再至TAWPA的金流推論，以及利用錯誤任期前提引導AI"
+  - time: "2026-11-25T13:49:28Z"
+    author: meta.ai
+    url: https://www.threads.com/@meta.ai/post/DgKrOwgEdYY
+    claim: "承認合作不證明收款、2023年合作起點不是立委"
+    assessment: "AI答覆本身非原始資金或人事證據"
+primary_external_evidence:
+  - https://ivod.ly.gov.tw/Demand/Speech/151116
+  - https://www.cna.com.tw/news/aipl/201810140188.aspx
+  - https://www.cna.com.tw/news/aipl/201910020126.aspx
+  - https://www.cna.com.tw/news/aipl/202611250309.aspx
+open_questions:
+  - "2024年2月後，TAWPA是否與OCCRP繼續執行同一或其他計畫，具體期間、參與人員及經費為何？"
+  - "沈伯洋2023年11月後理事長變更正式登記日期與其他參與關係為何？"
+interpretation_limits:
+  - "不同貼文與AI回覆的命題變化可觀察，不證明發問者知情故意、共謀或機密洩露"
+  - "沈伯洋曾有政府委員任職與組織成立時期重疊，不表示該時期OSF資助或政府控制組織已被證明"
