@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "2026年11月索羅斯／OCCRP／黃國昌 Threads 收款指控與「連連看」傳播鏈存證"
   started_at: "2026-11-25T11:56:20+08:00"
-  updated_at: "2026-11-25T12:01:01+08:00"
+  updated_at: "2026-11-25T12:04:12+08:00"
   status: active
 
 topics:
@@ -238,6 +238,37 @@ sources:
     notes:
       - "另有2022報稅年度向同組織支付US$3,000,000的資料；不能將某一筆300萬美元說成全部歷年補助額。"
 
+  - id: S023
+    source_type: primary
+    publisher: "臺灣高等檢察署"
+    title: "115年9月10日張姓被告等人違反國安法案新聞稿"
+    url: "https://www.tph.moj.gov.tw/4421/4509/4515/1438183/"
+    published_at: "2026-09-10"
+    observed_at: "2026-11-25T12:04:12+08:00"
+    retrieval_status: reachable
+    notes:
+      - "高檢署於2026-09-08通知兩名助理到案並聲請羈押，稱涉嫌受大陸資金在臺發展組織。僅證明檢方曾為此程序及主張，不證明來源已經法院審查確認。"
+  - id: S024
+    source_type: secondary
+    publisher: "中央通訊社"
+    title: "高金素梅案2助理認罪，高院裁定續押"
+    url: "https://www.cna.com.tw/news/asoc/202611060309.aspx"
+    published_at: "2026-11-06"
+    observed_at: "2026-11-25T12:04:12+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導陳智葟、林怡君承認部分罪嫌及高院續押，但未公開可獨立審核的完整供述、補強證據、金流帳簿。不能由此直接證明高金個人受指示。"
+  - id: S025
+    source_type: secondary
+    publisher: "中國威脅報告（第三方整理）"
+    title: "高金素梅共諜案儀表板與原始文件索引"
+    url: "https://cnthreats.report/zh-hant/kao-chin-su-mei-case"
+    published_at: ""
+    observed_at: "2026-11-25T12:04:12+08:00"
+    retrieval_status: reachable
+    notes:
+      - "搜尋摘要提供原始檢方新聞稿、2005年立法院公報與高金聲明的索引；其自身重述檢方指控並不增加一份獨立金流證據。原始起訴書未見公開，尚未逐頁重審原件。"
+
 facts:
   - id: F001
     statement: "OCCRP於官方公開資料列OSF為資助者；台灣吹哨者保護協會曾參與OCCRP共同調查。"
@@ -312,13 +343,16 @@ facts:
       - "本次未逐項驗證貼文所列紐約大學、全球深度報導網、MADRE的受助金額與期間。"
     tags: ["論點轉移", "OSF", "高金素梅"]
   - id: F009
-    statement: "高檢署於2026年11月6日以涉嫌國安法及其他罪名起訴高金素梅等人，檢方指稱相關團隊引進約新台幣1.7億元中共資金；高金素梅否認並質疑證據。"
+    statement: "2026年11月6日高檢署確曾起訴高金素梅等4人；經媒體轉述的檢方說法為張俊傑透過部落捐贈與親友帳戶引入約新台幣1.7億元資金；高金素梅否認。起訴本身不能證明資金源自中共、由高金個人收受或國會行為受指示。"
     status: verified
     observed_at: "2026-11-25T12:01:01+08:00"
     source_ids: [S019, S020]
-    evidence_summary: "正式起訴已發生；但目前不是有罪確定判決，資金流向及個人刑責仍具爭議。"
+    evidence_summary: "目前獨立確認的是起訴程序及雙方公開主張；『1.7億元來自中共』『與特定行為構成對價』『高金有共同犯意』仍是檢方待證事項。起訴書全文、銀行逐筆流水及原始指示文件未於本次取得。"
     verification_notes:
       - "不能將團隊及親友帳戶所涉1.7億元直接簡化為高金素梅個人已收取同額款項。"
+      - "檢方將質詢日本、反軍購、程序委員會、課綱微調等國會行為列入指控，但行為存在不等於受外部指令；需要另證金流、指示、知情、對價與時間序列。"
+      - "陳智葟、林怡君有認罪報導；共犯自白亦不得直接取代高金素梅之個別歸責及補強證據。"
+      - "本次應把檢方／媒體敘事視為檢方主張，不能作為已獨立查證的境外資金來源。"
     tags: ["司法程序", "起訴", "資金流向"]
   - id: F010
     statement: "Open Society Institute稅務申報整理資料顯示，2022及2024報稅年度均有向Barack Obama Foundation支付US$3,000,000的補助紀錄。"
@@ -329,6 +363,17 @@ facts:
     verification_notes:
       - "兩個年度分開保存；若需完整財務審計，應再核對IRS原始表格及修正紀錄。"
     tags: ["OSF", "歐巴馬基金會", "補助"]
+
+  - id: F011
+    statement: "截至本次查詢，公開新聞稿及轉述尚未提供可獨立重建1.7億元金流的逐筆原始明細，亦未公開足以獨立判斷高金知悉指示的全部卷證。"
+    status: partial
+    observed_at: "2026-11-25T12:04:12+08:00"
+    source_ids: [S019, S020, S023, S024, S025]
+    evidence_summary: "檢方有起訴和敘事，兩名助理亦有認罪報導；新聞稿無完整銀行帳號、每筆金額、實際匯款人、受款人、用途、指示原件及個人對價的公開逐筆資料。"
+    verification_notes:
+      - "partial表示這次查閱範圍未取得完整材料；不能推論檢方卷內沒有此類證據。"
+      - "原始新聞稿依第三方索引可查；尚未逐頁重核3頁原件，不能宣稱已完成起訴內容全面查核。"
+    tags: ["獨立查核不足", "金流", "刑事舉證責任", "程序證據"]
 
 claims:
   - id: C001
@@ -389,6 +434,21 @@ claims:
     related_facts: [F008, F009, F010]
     reasoning_notes: "不同來源、法律要件與資助用途無排他關係；此項屬貼文論證效果之檢驗，不等於作者明示提出完整命題。"
 
+  - id: C009
+    statement: "反軍購、對日質詢等立委職務行為，因與檢方所稱中共立場相似，便能證明受中共指示。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F009, F011]
+    reasoning_notes: "立委行為本身不證明指示或受賄；須有具體聯繫紀錄、時間因果、金流及知情對價等獨立證據。當前公開摘要未完成這個證明。"
+  - id: C010
+    statement: "兩名助理認罪足以證明高金素梅本人犯罪。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F009, F011]
+    reasoning_notes: "共同被告自白、程序上的羈押裁定或檢察官起訴均不是高金本人有罪判決，仍須個別補強並驗證證據。"
+
 searches:
   - id: Q001
     observed_at: "2026-11-25T11:54:32+08:00"
@@ -413,6 +473,14 @@ searches:
     result: found
     notes: "查到高檢署起訴及當事人否認，且核實歐巴馬基金會跨年度補助；無法據此認定高金本人實收1.7億元或歐巴馬參與台灣大罷免。"
 
+  - id: Q004
+    observed_at: "2026-11-25T12:04:12+08:00"
+    platform: "GitHub connector; web"
+    query: "politics-db full git tree + 高金素梅 / 1.7億元 related entries; 高檢署原始新聞稿及起訴細節"
+    scope: "politics-db main tree 300 entries, title/path scan, code search/PR search; official press notice and CNA, public analysis index"
+    result: partial
+    notes: "repo沒有以高金素梅命名的獨立案件檔，搜索未命中原有專案證據；只找到本次自己新增的PR#240。已核對起訴程序及指控來源，但無完整起訴書或逐筆流向，需停止以檢方敘事作為已確證事實。"
+
 promotion:
   cases: []
   comparators: []
@@ -423,3 +491,5 @@ notes:
   - "2026-11-25收到的使用者擷取資料，部分貼文的relation為unknown，不以推論補齊對話樹。"
   - "截圖原始影像目前在對話附件；本次repository YAML保存引用及來源說明，不宣稱圖片位元組已永久歸檔。"
   - "對政治目的／抹黑功能的分析，不等於發文者受特定政治人物指示的外部事實。"
+  - "2026-11-25方法更正：先前以中央社轉述檢方的起訴敘事作為查核結論，未先釐清1.7億元具體金流及個別歸責，亦未先全面掃描repo；此處採append-only保留更正與未取得證據之界線。"
+  - "高金案後續待查：高檢署11/6新聞稿三頁原件、起訴書、1.7億元逐筆來源/入帳/用途、2005-2016相關立院質詢紀錄、二名助理自白的補強證據、高金本人對指示之知悉及反證。"
