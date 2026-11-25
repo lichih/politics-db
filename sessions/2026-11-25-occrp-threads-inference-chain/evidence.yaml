@@ -3,7 +3,7 @@ session:
   project: Politics
   title: "2026年11月索羅斯／OCCRP／黃國昌 Threads 收款指控與「連連看」傳播鏈存證"
   started_at: "2026-11-25T11:56:20+08:00"
-  updated_at: "2026-11-25T12:04:12+08:00"
+  updated_at: "2026-11-25T12:08:40+08:00"
   status: active
 
 topics:
@@ -269,6 +269,69 @@ sources:
     notes:
       - "搜尋摘要提供原始檢方新聞稿、2005年立法院公報與高金聲明的索引；其自身重述檢方指控並不增加一份獨立金流證據。原始起訴書未見公開，尚未逐頁重審原件。"
 
+  - id: S026
+    source_type: commentary
+    publisher: "Threads / @tina928628"
+    title: "宣稱索羅斯曾贊助黃國昌與馬英九之圖卡"
+    url: "https://www.threads.com/@tina928628/post/DgJPBkemTMH"
+    published_at: "2026-11-25T08:23:45+08:00"
+    observed_at: "2026-11-25T12:08:40+08:00"
+    retrieval_status: reachable
+    notes:
+      - "擷取與開啟Threads瀏覽器頁確認原文『索羅斯曾經贊助黃國昌&馬英久』及兩張圖卡。『馬英久』照錄原文，指涉馬英九。"
+      - "左圖稱2023年OSF資助OCCRP388.47萬美元、OCCRP與台灣公益揭弊暨吹哨者保護協會共同調查；右圖稱2023年OSAF資助IRI167萬美元、馬英九2013年接見IRI訪團。圖卡本身未展示資金進入兩名政治人物個人帳戶的證據。"
+      - "圖卡原始影像附在使用者對話，repo本次僅存證其內容及帖文URL，不宣稱二進位檔已入repo。"
+  - id: S027
+    source_type: commentary
+    publisher: "Threads / @meta.ai"
+    title: "就tina928628圖卡回覆指出資助／合作不能推論個人收款"
+    url: "https://www.threads.com/@meta.ai/post/DgJgQqZEfbq"
+    published_at: "2026-11-25T10:54:22+08:00"
+    observed_at: "2026-11-25T12:08:40+08:00"
+    retrieval_status: reachable
+    notes:
+      - "直接回覆@taiwangogono1；原文逐項區分OSF→OCCRP→協會合作及OSAF→IRI→馬英九2013年接見。Meta AI發言是二手解釋，不能作原始金流驗證。"
+  - id: S028
+    source_type: primary
+    publisher: "中華民國總統府"
+    title: "President Ma meets joint delegation from the US International Republican Institute and the National Democratic Institute"
+    url: "https://english.president.gov.tw/NEWS/4188"
+    published_at: "2013-06-26"
+    observed_at: "2026-11-25T12:08:40+08:00"
+    retrieval_status: reachable
+    notes:
+      - "總統府原始新聞稿證明馬英九2013年6月26日接見IRI及NDI聯合訪團，不涉及2023年IRI受助案。"
+  - id: S029
+    source_type: secondary
+    publisher: "OpenGrants / IRS 990-PF derived ledger"
+    title: "International Republican Institute 2023 Open Society Action Fund USD 1,670,000"
+    url: "https://funders.opengrants.io/recipients/521340267"
+    published_at: ""
+    observed_at: "2026-11-25T12:08:40+08:00"
+    retrieval_status: reachable
+    notes:
+      - "IRS衍生資料列2023年OSAF對IRI已付款US$1,670,000，用途為東亞離散社群能力建設；第三方整理並非IRS原始990-PF逐頁影像。"
+  - id: S030
+    source_type: secondary
+    publisher: "The Daily Signal"
+    title: "Why Soros Network Donated Over $1M to This Republican Organization"
+    url: "https://www.dailysignal.com/2025/08/04/exclusive-why-soros-network-donated-1m-this-republican-organization/"
+    published_at: "2025-08-04"
+    observed_at: "2026-11-25T12:08:40+08:00"
+    retrieval_status: reachable
+    notes:
+      - "IRI發言人稱這筆一次性贈款支持在中國遭迫害的維吾爾社群，屬受助機構的說明，不是完全獨立稽核。"
+  - id: S031
+    source_type: secondary
+    publisher: "OpenGrants / IRS 990-PF derived ledger"
+    title: "Journalism Development Network 2023 grants"
+    url: "https://funders.opengrants.io/recipients/260898750"
+    published_at: ""
+    observed_at: "2026-11-25T12:08:40+08:00"
+    retrieval_status: reachable
+    notes:
+      - "可找到2023年Open Society Institute對Journalism Development Network補助US$2,650,000；尚未取得可精確重建圖卡所列OCCRP US$3,884,700之原始補助資料。"
+
 facts:
   - id: F001
     statement: "OCCRP於官方公開資料列OSF為資助者；台灣吹哨者保護協會曾參與OCCRP共同調查。"
@@ -375,6 +438,35 @@ facts:
       - "原始新聞稿依第三方索引可查；尚未逐頁重核3頁原件，不能宣稱已完成起訴內容全面查核。"
     tags: ["獨立查核不足", "金流", "刑事舉證責任", "程序證據"]
 
+  - id: F012
+    statement: "tina928628於11月25日上午直接發文主張索羅斯贊助黃國昌及馬英九，所附兩張圖卡以對第三方組織資助和與兩人的合作／接見串聯。"
+    status: verified
+    observed_at: "2026-11-25T12:08:40+08:00"
+    source_ids: [S026, S027]
+    evidence_summary: "已核對公開發文存在及宣稱方式；不是核實指控內容為真。Meta AI在回覆中指出這些資料不能證明個人受款。"
+    verification_notes:
+      - "留言中有人要求提告及截圖，並不表示已確認提告或當事人已收悉。"
+      - "原貼含拼錯名字『馬英久』，保存原文以供後續版本比對。"
+    tags: ["個人受款指控", "關係圖", "社群傳播"]
+  - id: F013
+    statement: "OSAF向IRI於2023年支付167萬美元補助，馬英九確實曾於2013年6月26日接見IRI與NDI聯合訪團。"
+    status: verified
+    observed_at: "2026-11-25T12:08:40+08:00"
+    source_ids: [S028, S029, S030]
+    evidence_summary: "兩事件均有來源，彼此相隔約10年，且沒有資金流向馬英九之證據。"
+    verification_notes:
+      - "2023年補助的媒體引述IRI說明用途涉及中國維吾爾人；不能由2013年接見推論2023年資金之用途或受益人。"
+    tags: ["IRI", "OSAF", "馬英九", "資助與接見"]
+  - id: F014
+    statement: "圖卡主張2023年OSF資助OCCRP388.47萬美元，但目前尚未核對出對應精確金額的原始補助紀錄。"
+    status: partial
+    observed_at: "2026-11-25T12:08:40+08:00"
+    source_ids: [S026, S031, S012]
+    evidence_summary: "已能確認OSF體系曾資助與OCCRP相關組織，但圖卡列出的該年度總額、法人主體及核定或已付款口徑尚未獨立重建。"
+    verification_notes:
+      - "Journalism Development Network之2023年OSI付款265萬美元不能直接冒充圖卡388.47萬美元；不同法人、多筆來源及期間可能造成差異，需逐筆重建。"
+    tags: ["金額核實", "OCCRP", "OSF"]
+
 claims:
   - id: C001
     statement: "黃國昌個人接受索羅斯／OSF資金。"
@@ -449,6 +541,21 @@ claims:
     related_facts: [F009, F011]
     reasoning_notes: "共同被告自白、程序上的羈押裁定或檢察官起訴均不是高金本人有罪判決，仍須個別補強並驗證證據。"
 
+  - id: C011
+    statement: "OSF曾資助OCCRP及OSAF曾資助IRI，所以索羅斯曾資助黃國昌與馬英九本人。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F001, F012, F013, F014]
+    reasoning_notes: "兩個不同時間和組織的資助／合作／外交接見不能推出個人資金移轉。未見兩人個人收款資料；不代表已排除所有可能其他資金關係。"
+  - id: C012
+    statement: "圖卡所列OCCRP於2023年獲OSF資助388.47萬美元的數字已經由原始紀錄核實。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F014]
+    reasoning_notes: "已核實受助關係，但未核實精確金額、法人主體及年度口徑，故不得寫為已證事實。"
+
 searches:
   - id: Q001
     observed_at: "2026-11-25T11:54:32+08:00"
@@ -481,6 +588,14 @@ searches:
     result: partial
     notes: "repo沒有以高金素梅命名的獨立案件檔，搜索未命中原有專案證據；只找到本次自己新增的PR#240。已核對起訴程序及指控來源，但無完整起訴書或逐筆流向，需停止以檢方敘事作為已確證事實。"
 
+  - id: Q005
+    observed_at: "2026-11-25T12:08:40+08:00"
+    platform: "Threads browser and web"
+    query: "tina928628 Threads original; OSAF 2023 IRI 1670000; 2013 馬英九接見 IRI NDI; OCCRP OSF 2023 3884700"
+    scope: "開啟Threads頁面、總統府官方2013新聞、OpenGrants IRS-derived紀錄及公開媒體"
+    result: partial
+    notes: "確認原貼、2013總統府接見和2023年IRI受款；OCCRP圖卡388.47萬美元精確額尚未核實，個人資助指控缺相應金流。"
+
 promotion:
   cases: []
   comparators: []
@@ -492,4 +607,5 @@ notes:
   - "截圖原始影像目前在對話附件；本次repository YAML保存引用及來源說明，不宣稱圖片位元組已永久歸檔。"
   - "對政治目的／抹黑功能的分析，不等於發文者受特定政治人物指示的外部事實。"
   - "2026-11-25方法更正：先前以中央社轉述檢方的起訴敘事作為查核結論，未先釐清1.7億元具體金流及個別歸責，亦未先全面掃描repo；此處採append-only保留更正與未取得證據之界線。"
+  - "2026-11-25新增tina928628來源，將同一個對受助組織合作和外交接見的關係圖跨越成兩名政治人物個人受助的實例繼續存證。"
   - "高金案後續待查：高檢署11/6新聞稿三頁原件、起訴書、1.7億元逐筆來源/入帳/用途、2005-2016相關立院質詢紀錄、二名助理自白的補強證據、高金本人對指示之知悉及反證。"
