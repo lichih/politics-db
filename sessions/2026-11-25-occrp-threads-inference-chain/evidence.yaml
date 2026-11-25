@@ -1,0 +1,305 @@
+session:
+  id: "2026-11-25-occrp-threads-inference-chain"
+  project: Politics
+  title: "2026年11月索羅斯／OCCRP／黃國昌 Threads 收款指控與「連連看」傳播鏈存證"
+  started_at: "2026-11-25T11:56:20+08:00"
+  updated_at: "2026-11-25T11:56:20+08:00"
+  status: active
+
+topics:
+  - "OSF"
+  - "OCCRP"
+  - "黃國昌"
+  - "台灣公益揭弊暨吹哨者保護協會"
+  - "沈伯洋"
+  - "選舉期間社群指控"
+  - "資助關係與合作關係"
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "Threads / @huang.guochang"
+    title: "黃國昌否認個人接受索羅斯資金、表示將提告"
+    url: "https://www.threads.com/@huang.guochang/post/DgJbywQEjdX"
+    published_at: "2026-11-25T10:15:20+08:00"
+    observed_at: "2026-11-25T11:28:38+08:00"
+    retrieval_status: reachable
+    notes:
+      - "使用者提供之擷取資料。原文：「我從來沒有拿過索羅斯一塊錢……直接提告」。係當事人陳述，非已完成金流審計。"
+  - id: S002
+    source_type: commentary
+    publisher: "Threads / @yuhunglintw"
+    title: "以黃國昌之吹哨者協會與OCCRP合作反駁索羅斯爭議的原始貼文"
+    url: "https://www.threads.com/@yuhunglintw/post/DgIPlIkGAlI"
+    published_at: "2026-11-24T23:09:22+08:00"
+    observed_at: "2026-11-25T11:51:14+08:00"
+    retrieval_status: reachable
+    notes:
+      - "使用者擷取，且曾於開啟之 Threads browser tab 讀到原文。內文使用2024/4/5日期、列出OSF資助OCCRP及協會合作，未直接斷言黃國昌個人受款。"
+  - id: S003
+    source_type: primary
+    publisher: "Threads / @yuhunglintw"
+    title: "作者更正黃國昌立院質詢日期為2024年4月15日"
+    url: "https://www.threads.com/@yuhunglintw/post/DgIZ_WbmLg9"
+    published_at: "2026-11-25T00:40:20+08:00"
+    observed_at: "2026-11-25T11:51:14+08:00"
+    retrieval_status: reachable
+    notes:
+      - "依使用者提供的擷取，作者更正先前4/5為4/15；這是作者的更正聲明，並非單憑此件驗證立院紀錄。"
+  - id: S004
+    source_type: commentary
+    publisher: "Threads / @pennnnnnny2021"
+    title: "稱主持已改合作"
+    url: "https://www.threads.com/@pennnnnnny2021/post/DgJk6Gro9rC"
+    published_at: "2026-11-25T11:34:59+08:00"
+    observed_at: "2026-11-25T11:49:27+08:00"
+    retrieval_status: reachable
+    notes:
+      - "作者稱「我把主持改合作」；先前『主持』版本尚未取得可獨立重現之完整原始貼文。"
+  - id: S005
+    source_type: commentary
+    publisher: "Threads / @pennnnnnny2021"
+    title: "問『OCCRP有支薪給你嗎』"
+    url: "https://www.threads.com/@pennnnnnny2021/post/DgJlYNQow96"
+    published_at: "2026-11-25T11:39:05+08:00"
+    observed_at: "2026-11-25T11:49:27+08:00"
+    retrieval_status: reachable
+    notes:
+      - "原文含「圖是假的嗎？你告什麼？」及「問一下，OCCRP有支薪給你嗎？」；問句本身未提供金流證據。"
+  - id: S006
+    source_type: commentary
+    publisher: "Threads / @pennnnnnny2021"
+    title: "否認主張任何個人接受索羅斯資金"
+    url: "https://www.threads.com/@pennnnnnny2021/post/DgJmG_jI1J0"
+    published_at: "2026-11-25T11:45:29+08:00"
+    observed_at: "2026-11-25T11:49:27+08:00"
+    retrieval_status: reachable
+    notes:
+      - "原文：「我沒說任何『個人』拿了索羅斯的錢……可以說說為什麼不能拿索羅斯的錢嗎？」"
+  - id: S007
+    source_type: commentary
+    publisher: "Threads / @pennnnnnny2021"
+    title: "合作關係與『我說他拿了索羅斯錢嗎』"
+    url: "https://www.threads.com/@pennnnnnny2021/post/DgJizo0I-rw"
+    published_at: "2026-11-25T11:16:37+08:00"
+    observed_at: "2026-11-25T11:49:27+08:00"
+    retrieval_status: reachable
+    notes:
+      - "直接回覆@chenshize7；表示黃國昌與OCCRP合作，反問是否有聲稱他個人拿錢。"
+  - id: S008
+    source_type: commentary
+    publisher: "Threads / @anna9941317"
+    title: "直接宣稱『原來黃國昌也收索羅斯的錢啊』"
+    url: "https://www.threads.com/@anna9941317/post/DgJPZaZk0YA"
+    published_at: "2026-11-25T08:27:01+08:00"
+    observed_at: "2026-11-25T11:54:32+08:00"
+    retrieval_status: reachable
+    notes:
+      - "使用者擷取及開啟之Threads頁面可見原文，後附OCCRP合作／OSF資助素材，使用更正前的2024/4/5日期；不能單以文字近似斷定資料源自特定帳號。"
+  - id: S009
+    source_type: commentary
+    publisher: "Threads / @ryanteng10"
+    title: "稱『這不是黃國昌最愛的連連看嗎』"
+    url: "https://www.threads.com/@ryanteng10/post/DgImdSLE89w"
+    published_at: "2026-11-25T02:29:17+08:00"
+    observed_at: "2026-11-25T11:56:20+08:00"
+    retrieval_status: reachable
+    notes:
+      - "使用者擷取；此留言直接回覆@kabvdhdkkw，見S010。"
+  - id: S010
+    source_type: commentary
+    publisher: "Threads / @kabvdhdkkw"
+    title: "區分台灣民主實驗室直接受資助與吹哨者協會合作"
+    url: "https://www.threads.com/@kabvdhdkkw/post/DgIelpsEptH"
+    published_at: "2026-11-25T01:20:31+08:00"
+    observed_at: "2026-11-25T11:56:20+08:00"
+    retrieval_status: reachable
+    notes:
+      - "原文以『沈伯洋是直接收到索羅斯的錢』描述組織受款，有個人與法人混用之問題；同文指出協會和OCCRP合作但無協會收款說法。"
+  - id: S011
+    source_type: commentary
+    publisher: "Threads / @lichihwu"
+    title: "回覆質疑混淆直接受款與間接合作"
+    url: "https://www.threads.com/@lichihwu/post/DgJnT9ODw48"
+    published_at: "2026-11-25T11:55:59+08:00"
+    observed_at: "2026-11-25T11:56:20+08:00"
+    retrieval_status: reachable
+    notes:
+      - "原文：「你是說真的有拿錢不能說有拿錢才是洋流正當的連連看」。保留為使用者原話，不作事實認定。"
+  - id: S012
+    source_type: primary
+    publisher: "OCCRP"
+    title: "Who supports our work"
+    url: "https://www.occrp.org/en/about-us/who-supports-our-work"
+    published_at: ""
+    observed_at: "2026-11-25T11:56:20+08:00"
+    retrieval_status: reachable
+    notes:
+      - "前次查核之官方來源入口，OCCRP列明OSF為資助者；本次未重新取得特定撥款年份與金額。"
+  - id: S013
+    source_type: primary
+    publisher: "OCCRP"
+    title: "The Dictators' Bank, cooperative investigation"
+    url: "https://www.occrp.org/en/project/the-dictators-bank"
+    published_at: ""
+    observed_at: "2026-11-25T11:56:20+08:00"
+    retrieval_status: reachable
+    notes:
+      - "前次查核之共同調查頁，合作名單涉及台灣公益揭弊暨吹哨者保護協會；合作關係不等於資金移轉。"
+  - id: S014
+    source_type: commentary
+    publisher: "Threads / @huang.guochang"
+    title: "質疑沈伯洋過往評論柯文哲"
+    url: "https://www.threads.com/@huang.guochang/post/DgILU3lErpU"
+    published_at: "2026-11-24T22:32:57+08:00"
+    observed_at: "2026-11-25T11:56:20+08:00"
+    retrieval_status: reachable
+    notes:
+      - "此篇為S010和S009所屬串文根貼文；包含影片但目前僅保留擷取文字與URL，不推定影片內容。"
+  - id: S015
+    source_type: commentary
+    publisher: "Threads / @hac030"
+    title: "在黃國昌貼文下貼出共同調查的嘲諷說法"
+    url: "https://www.threads.com/@hac030/post/DgIN7m8o4Qe"
+    published_at: "2026-11-24T22:54:58+08:00"
+    observed_at: "2026-11-25T11:56:20+08:00"
+    retrieval_status: reachable
+    notes:
+      - "S014直接回覆，S010再回覆S015，S009再回覆S010；不同作者、不同主張，不可合併成同一指控。"
+  - id: S016
+    source_type: commentary
+    publisher: "Threads / @kinmenwalker（截圖）"
+    title: "宣稱『黃國昌拿過索羅斯的資金』"
+    url: ""
+    published_at: ""
+    observed_at: "2026-11-25T11:28:38+08:00"
+    retrieval_status: blocked
+    notes:
+      - "使用者於對話提供原始截圖，未提供可核對貼文永久連結；來源為截圖而非已獨立確認的公開原貼。與S001之當事人否認相呼應，但不能互代原始來源。"
+
+facts:
+  - id: F001
+    statement: "OCCRP於官方公開資料列OSF為資助者；台灣吹哨者保護協會曾參與OCCRP共同調查。"
+    status: verified
+    observed_at: "2026-11-25T11:56:20+08:00"
+    source_ids: [S012, S013]
+    evidence_summary: "可分別支持組織資助與跨組織合作兩種不同關係。"
+    verification_notes:
+      - "僅憑兩項關係不能推出OCCRP付款給台灣協會，更不能推出黃國昌個人收款。"
+    tags: ["OCCRP", "OSF", "合作關係"]
+  - id: F002
+    statement: "黃國昌於2026年11月25日公開否認自己接受索羅斯資金，並稱將提告。"
+    status: verified
+    observed_at: "2026-11-25T11:28:38+08:00"
+    source_ids: [S001]
+    evidence_summary: "證明當事人有作該聲明，不直接證明財務事實的全貌。"
+    verification_notes: []
+    tags: ["當事人聲明", "金流爭議"]
+  - id: F003
+    statement: "yuhunglintw於11月24日列舉資助及合作關係，11月25日更正質詢日期，但其貼文未明言黃國昌本人接受資金。"
+    status: verified
+    observed_at: "2026-11-25T11:51:14+08:00"
+    source_ids: [S002, S003]
+    evidence_summary: "同一作者的原貼文與後續更正；其與kinmenwalker、anna9941317屬不同發文者。"
+    verification_notes: []
+    tags: ["時間線", "更正", "關係圖"]
+  - id: F004
+    statement: "pennnnnnny2021先將用詞由『主持』更正為『合作』，再反問OCCRP是否支薪，並否認主張任何個人接受索羅斯資金。"
+    status: verified
+    observed_at: "2026-11-25T11:49:27+08:00"
+    source_ids: [S004, S005, S006, S007]
+    evidence_summary: "同一帳號之四則公開發言，記錄措辭及主張變化。"
+    verification_notes:
+      - "先前含『主持』的完整原文仍應另行保存，以確認用詞發生的確切位置。"
+    tags: ["時間線", "論證轉移"]
+  - id: F005
+    statement: "anna9941317直接主張黃國昌收索羅斯資金，提供的文字證據僅列出黃國昌相關協會與OCCRP合作、OSF資助OCCRP。"
+    status: verified
+    observed_at: "2026-11-25T11:54:32+08:00"
+    source_ids: [S008, S012, S013]
+    evidence_summary: "指控與所附理由之對照；可直接觀察從合作／受資助關係推論個人收款的論證缺口。"
+    verification_notes:
+      - "此處verified僅表示『該貼文確實提出指控及理由』，不代表黃國昌收款已證實。"
+      - "沿用更正前2024/4/5日期，不能據此推定串通或指控轉載來源。"
+    tags: ["個人收款指控", "證據跳躍"]
+  - id: F006
+    statement: "在黃國昌貼文的回覆串中，ryanteng10以『連連看』反諷比較資助與合作關係，未在該回覆提供新的收款金流。"
+    status: verified
+    observed_at: "2026-11-25T11:56:20+08:00"
+    source_ids: [S014, S015, S010, S009]
+    evidence_summary: "可確認回覆關係：huang.guochang根貼文→hac030→kabvdhdkkw→ryanteng10。"
+    verification_notes:
+      - "S010用『沈伯洋直接收到』描述台灣民主實驗室組織受款，應區分個人與法人。"
+    tags: ["連連看", "證據標準", "回覆樹"]
+  - id: F007
+    statement: "在相同回覆串中，lichihwu質疑把直接資助與間接合作一概稱作『連連看』。"
+    status: verified
+    observed_at: "2026-11-25T11:56:20+08:00"
+    source_ids: [S011]
+    evidence_summary: "保存使用者公開回覆原文；relation在擷取中為unknown，不擅自補定父層。"
+    verification_notes: []
+    tags: ["反駁", "回覆樹"]
+
+claims:
+  - id: C001
+    statement: "黃國昌個人接受索羅斯／OSF資金。"
+    status: unsupported
+    supports: []
+    contradicts: [F002]
+    related_facts: [F001, F005]
+    reasoning_notes: "有明示指控但所出示理由只證明跨組織資助及合作；目前無個人金流資料。當事人否認不足以獨立完成反向證明，故列unsupported而非contradicted。"
+  - id: C002
+    statement: "OCCRP與台灣吹哨者保護協會有合作，因此台灣協會或黃國昌必然受OSF金錢資助。"
+    status: unsupported
+    supports: []
+    contradicts: []
+    related_facts: [F001, F005]
+    reasoning_notes: "合作事實不能推導出資金移轉或個人薪酬。"
+  - id: C003
+    statement: "同樣資料從暗示性反問在其他公開貼文被升級為直接個人收款指控。"
+    status: supported
+    supports: [F003, F004, F005]
+    contradicts: []
+    related_facts: [F001]
+    reasoning_notes: "支持的是可見的論述表達與類型變化，不是帳號間抄襲、組織動員或事前串通。"
+  - id: C004
+    statement: "有組織性地協調散布此類索羅斯／黃國昌收款指控。"
+    status: unresolved
+    supports: []
+    contradicts: []
+    related_facts: [F003, F005, F006]
+    reasoning_notes: "不同帳號使用相似資料不足以認定有指使、共同管理或協調。"
+  - id: C005
+    statement: "對台灣民主實驗室有直接受助紀錄的監督，與對黃國昌個人收款的推定，在證據上等價。"
+    status: contradicted
+    supports: []
+    contradicts: [F001, F005, F006]
+    related_facts: []
+    reasoning_notes: "組織直接受款證據和第三方共同調查證據的性質不同。亦須避免把沈伯洋個人誤寫成該組織實際受款者。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-11-25T11:54:32+08:00"
+    platform: "Browser / open Threads tab"
+    query: "Read @anna9941317/post/DgJPZaZk0YA, @yuhunglintw/post/DgIPlIkGAlI"
+    scope: "使用者提供的公開 Threads URLs；瀏覽器頁面與擷取 YAML"
+    result: found
+    notes: "已核對anna9941317之直接收款指控及yuhunglintw原始合作論述；部分其它回覆依使用者所提供之deterministic capture紀錄。"
+  - id: Q002
+    observed_at: "2026-11-25T11:56:20+08:00"
+    platform: "GitHub repository"
+    query: "OCCRP, soros in lichih/politics-db"
+    scope: "預設main上的程式碼／檔案搜尋"
+    result: not_found
+    notes: "此方法未命中既有檔案，不等於repo中從未有相關PR或其他未合併證據。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "本檔是證據保存，不是Fact文章發布授權；後續新素材應追加觀察，維持各發文者及回覆parent、時間、source chain的區分。"
+  - "2026-11-25收到的使用者擷取資料，部分貼文的relation為unknown，不以推論補齊對話樹。"
+  - "截圖原始影像目前在對話附件；本次repository YAML保存引用及來源說明，不宣稱圖片位元組已永久歸檔。"
+  - "對政治目的／抹黑功能的分析，不等於發文者受特定政治人物指示的外部事實。"
