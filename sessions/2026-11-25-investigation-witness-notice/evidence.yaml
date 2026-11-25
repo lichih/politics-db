@@ -1,0 +1,110 @@
+session:
+  id: "2026-11-25-investigation-witness-notice"
+  project: Politics
+  title: "調查局證人通知書：當日送達、待證事由與強制同行爭議"
+  started_at: "2026-11-25T14:15:00+08:00"
+  updated_at: "2026-11-25T14:15:00+08:00"
+  status: active
+topics:
+  - "證人通知書及正當程序"
+  - "刑事訴訟法第175條及第196條之1"
+  - "選舉前公權力行使"
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "黃國昌 Facebook"
+    title: "調查局違法傳喚證人為哪樁？"
+    url: "https://www.facebook.com/kcfor2016/posts/pfbid02i3g2VwHNmHiGnAsL4wSXGo3m2eocrD1mgSa6nkfEL9DSmn9Y7yskPYjmH3xJjjA8l"
+    published_at: "2026-11-25T13:40:00+08:00"
+    observed_at: "2026-11-25T14:15:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "由使用者提供Facebook頁面擷取於2026-11-25T06:15:04.847Z，內容為當事人公開陳述，不代表調查官行為已獲獨立證實。"
+      - "黃國昌稱收到同仁轉述志工遭遇，已無償接受委任。"
+  - id: S002
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "刑事訴訟法第175條與第196條之1"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+    observed_at: "2026-11-25T14:15:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "第196條之1規定司法警察官、司法警察通知證人到場，準用第175條；第175條有24小時送達原則及急迫例外。"
+  - id: S003
+    source_type: primary
+    publisher: "新北市法規檢索系統"
+    title: "刑事訴訟法第175條"
+    url: "https://web.law.ntpc.gov.tw/Scripts/FLAWDOC01.aspx?fcode=B0000014&flno=175"
+    observed_at: "2026-11-25T14:15:00+08:00"
+    retrieval_status: reachable
+  - id: S004
+    source_type: primary
+    publisher: "新北市法規檢索系統"
+    title: "刑事訴訟法第196條之1"
+    url: "https://web.law.ntpc.gov.tw/Scripts/FLAWDOC01.aspx?fcode=B0000014&flno=196-1"
+    observed_at: "2026-11-25T14:15:00+08:00"
+    retrieval_status: reachable
+facts:
+  - id: F001
+    statement: "黃國昌於2026年11月25日公開指稱一名志工的證人通知書在當日發文、應到時間為當日上午8時30分且未載明待證事由，調查官至住處要求同行。"
+    status: verified
+    observed_at: "2026-11-25T14:15:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "已證實黃國昌公開提出上述指控並表示接受委任；尚未取得通知書正本、現場錄影或調查局個案回覆。"
+    verification_notes:
+      - "不能把當事人轉述直接標為調查官行為已確定發生。"
+  - id: F002
+    statement: "刑訴法第196條之1允許司法警察官或司法警察使用通知書通知證人到場詢問，並準用第175條之證人通知規則。"
+    status: verified
+    observed_at: "2026-11-25T14:15:00+08:00"
+    source_ids: [S002, S004]
+    evidence_summary: "法律授權通知證人，與具備強制拘提、帶走證人的權力並非同一回事。"
+  - id: F003
+    statement: "刑訴法第175條規定證人通知應記載待證事由，且原則上最遲於應到時間24小時前送達；有急迫情形者不受24小時限制。"
+    status: verified
+    observed_at: "2026-11-25T14:15:00+08:00"
+    source_ids: [S002, S003]
+    evidence_summary: "是否具急迫事由需要個案紀錄驗證；急迫例外不等於免除全部其他必要記載。"
+claims:
+  - id: C001
+    statement: "本案調查官已經違法強制帶走證人。"
+    status: unresolved
+    related_facts: [F001, F002, F003]
+    reasoning_notes: "尚未取得實際通知書、到場交涉紀錄、是否發生強制同行與法律處分依據。"
+  - id: C002
+    statement: "通知書發文當天要求到場，一律違反24小時規定。"
+    status: contradicted
+    contradicts: [F003]
+    reasoning_notes: "第175條設有急迫情形例外，且發文日期與實際送達時間是不同事實。"
+  - id: C003
+    statement: "民進黨政府為選舉目的指示調查局針對志工。"
+    status: unresolved
+    related_facts: [F001]
+    reasoning_notes: "政治目的或指示尚無直接佐證；選前三天是重要時間背景而非指示的證明。"
+  - id: C004
+    statement: "調查局有義務對通知方式、待證事由、急迫性及強制同行指控提出可核對的程序說明。"
+    status: supported
+    supports: [F002, F003]
+    reasoning_notes: "制度問責與公權力行為查核的合理要求；不預設調查機關已違法。"
+searches:
+  - id: Q001
+    observed_at: "2026-11-25T14:15:00+08:00"
+    platform: "web"
+    query: "刑事訴訟法175條196條之1 證人通知24小時急迫"
+    scope: "法規資料庫"
+    result: found
+    notes: "確認證人通知應記載待證事由與24小時原則及急迫例外。"
+  - id: Q002
+    observed_at: "2026-11-25T14:15:00+08:00"
+    platform: "web"
+    query: "黃國昌 2026-11-25 調查局 志工 證人通知 官方回應"
+    scope: "當日官方與媒體公開資訊"
+    result: partial
+    notes: "此次尚未取得本次證人通知書正本或調查局具體個案回應；不推定不存在。"
+promotion:
+  cases: []
+  comparators: []
+  research: []
+notes:
+  - "2026-11-28為預定投票日；行動時間與政治活動是否有直接關聯仍待證明。"
+  - "2025年黃國昌稱調查局長承諾檢討，尚未取得會議紀錄與機關承諾文本，不記為已證實行政作為。"
