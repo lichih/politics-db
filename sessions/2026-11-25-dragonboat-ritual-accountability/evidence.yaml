@@ -1,0 +1,240 @@
+session:
+  id: 2026-11-25-dragonboat-ritual-accountability
+  project: Politics
+  title: "沈伯洋11月15日台北大洋流龍舟撒金紙：祭江習俗、現場脈絡與責任"
+  started_at: "2026-11-25T13:05:56+08:00"
+  updated_at: "2026-11-25T13:05:56+08:00"
+  status: active
+
+topics:
+  - 沈伯洋
+  - 台北大洋流
+  - 龍舟
+  - 祭江
+  - 撒金紙
+  - 社子島
+  - 環境治理
+  - 政治論述
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "沈伯洋台北市長競選官方網站"
+    title: "2026-11-15 台北大洋流 士林×北投行程"
+    url: "https://puma.taipei/schedule?month=2026-11"
+    published_at: "2026-11"
+    observed_at: "2026-11-25T13:05:56+08:00"
+    retrieval_status: reachable
+    notes:
+      - "官網將11/15列為競選行程，規劃車掃及關渡宮前河岸廣場市政開講。"
+      - "官方行程不直接證明每艘應援船的安排、知情與指揮關係。"
+
+  - id: S002
+    source_type: primary
+    publisher: "臺北市政府環保局公開環評附件；作者徐碩"
+    title: "社子島開發計畫環評書面意見：划龍舟祭江（徐碩）"
+    url: "https://www-ws.gov.taipei/001/Upload/544/relfile/13197/8351813/c9a16c92-35c7-4ab6-a62b-ee1d0fb6b942.pdf"
+    published_at: ""
+    observed_at: "2026-11-25T13:05:56+08:00"
+    retrieval_status: reachable
+    notes:
+      - "公開PDF第755至771行文字擷取記載：浮洲／浮汐每年農曆五月初五／初七、獻江／友誼賽／謝江，祭水仙尊王並追念水中亡者。"
+      - "此為研究者提交的書面意見，不代表市府對民俗的官方認定。"
+      - "PDF檔案過大，web截圖未成功；已取得全文文字擷取，但尚未逐頁影像覆核。"
+
+  - id: S003
+    source_type: secondary
+    publisher: "自由時報"
+    title: "藍轟洋流划龍舟撒金紙？ 網揭謝江習俗 翻舊照"
+    url: "https://tag.observe.tw/article/109615636/"
+    published_at: "2026-11-16"
+    observed_at: "2026-11-25T13:05:56+08:00"
+    retrieval_status: reachable
+    notes:
+      - "轉載頁描述支持者自行包船、在淡水河龍舟上喊當選口號同時撒金紙。"
+      - "未取得原始完整音軌，不能定論領喊者第一句的逐字內容。"
+
+  - id: S004
+    source_type: secondary
+    publisher: "壹蘋新聞網"
+    title: "張景森聲援撒紙錢：別把無知當正義、環保金紙說明"
+    url: "https://news.nextapple.com/politics/20261117/7E58BA1DF08ED4663D5881F7E37F7661"
+    published_at: "2026-11-17"
+    observed_at: "2026-11-25T13:05:56+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導張景森11/16的公開論述，包含龍舟祭江文化、環保金紙材質、少量無環境負荷主張，以及批評反對者不懂文化。"
+      - "材質、總量與環境影響為張的主張，不是經環境檢驗的鑑定結論。"
+
+  - id: S005
+    source_type: secondary
+    publisher: "放言"
+    title: "沈伯洋回應龍舟撒金紙：若習俗與環保衝突應保護水域"
+    url: "https://www.fountmedia.io/article/445622"
+    published_at: "2026-11-17"
+    observed_at: "2026-11-25T13:05:56+08:00"
+    retrieval_status: reachable
+    notes:
+      - "沈11/17受訪承認相關民俗背景，但強調水域保護、事後清潔與團隊未來注意。"
+      - "張景森的論述不能完全等同於沈伯洋本人立場。"
+
+  - id: S006
+    source_type: secondary
+    publisher: "聯合新聞網"
+    title: "彭啓明：盼雙北環保局釐清祭江情境並依法處理"
+    url: "https://udn.com/news/story/124652/9885898"
+    published_at: "2026-11-18"
+    observed_at: "2026-11-25T13:05:56+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導環境部長提及民俗情境、清理工作與地方環保機關裁罰權。"
+      - "不能據此推論已開罰或已無違規。"
+
+  - id: S007
+    source_type: commentary
+    publisher: "自由評論網／莊宇森投書"
+    title: "祭江撒紙錢，何須道歉？"
+    url: "https://talk.ltn.com.tw/article/paper/1778957"
+    published_at: "2026-11-18"
+    observed_at: "2026-11-25T13:05:56+08:00"
+    retrieval_status: reachable
+    notes:
+      - "援引蔣萬安參與2023年端午官方祭江照片，並主張環保紙錢合法或無污染；屬作者意見而非裁罰認定。"
+
+  - id: S008
+    source_type: secondary
+    publisher: "壹電視"
+    title: "洋流龍舟隊撒金紙引議；環保局仍查證"
+    url: "https://www.nexttv.com.tw/NextTV/News/Home/Politics/2026-11-16/2528349.html"
+    published_at: "2026-11-16"
+    observed_at: "2026-11-25T13:05:56+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導龍舟協會相關人士參與、已有人透過1999檢舉、當時環保局表示尚待釐清是否違規。"
+
+facts:
+  - id: F001
+    statement: "沈伯洋競選官網將2026年11月15日台北大洋流士林北投場列為正式競選行程。"
+    status: verified
+    observed_at: "2026-11-25T13:05:56+08:00"
+    source_ids: [S001]
+    evidence_summary: "官方行程明列日期、地點及車掃／市政開講。"
+    excerpt: ""
+    verification_notes: []
+    tags: [競選造勢, 活動目的]
+
+  - id: F002
+    statement: "當次水上應援船隊有參與者邊喊當選口號邊向淡水河撒金紙；領喊前句尚未獨立逐字確認。"
+    status: partial
+    observed_at: "2026-11-25T13:05:56+08:00"
+    source_ids: [S003]
+    evidence_summary: "新聞描述現場影片及口號、撒金紙行為；尚未取得完整原始影像與音軌供逐字分析。"
+    excerpt: ""
+    verification_notes:
+      - "不能把推測的『我們的市長』當成已核實現場逐字口號。"
+    tags: [現場行為, 口號, 金紙]
+
+  - id: F003
+    statement: "社子島田野研究記錄浮洲與浮汐農曆五月初五、初七年度龍舟祭江，涉及祈安、祭祀、追念、獻江與謝江。"
+    status: verified
+    observed_at: "2026-11-25T13:05:56+08:00"
+    source_ids: [S002]
+    evidence_summary: "研究者徐碩書面意見，已由市府環評附件公開。"
+    excerpt: ""
+    verification_notes:
+      - "年度祭江存在不能自動證實11月15日競選應援亦為同一儀式。"
+      - "不排除另有非端午出航祈安習慣，惟須個案佐證。"
+    tags: [民俗, 祭江, 社子島]
+
+  - id: F004
+    statement: "張景森於事件後以龍舟祭江與環保金紙說明撒紙行為，並將質疑者指為不懂或不尊重文化。"
+    status: verified
+    observed_at: "2026-11-25T13:05:56+08:00"
+    source_ids: [S004]
+    evidence_summary: "11月17日報導引述張景森11月16日公開說法。"
+    excerpt: ""
+    verification_notes:
+      - "此項僅證明公開辯護的內容及功能，不證明作者明知不實。"
+    tags: [事後論述, 張景森]
+
+  - id: F005
+    statement: "沈伯洋11月17日表示水域保護比傳統習俗更重要，未來辦活動會注意。"
+    status: verified
+    observed_at: "2026-11-25T13:05:56+08:00"
+    source_ids: [S005]
+    evidence_summary: "受訪報導直接記載其回應。"
+    excerpt: ""
+    verification_notes: []
+    tags: [沈伯洋, 回應]
+
+  - id: F006
+    statement: "環境部長於11月18日主張仍需釐清當次是否符合民俗情境以及清理情形，尊重地方環保局權限。"
+    status: verified
+    observed_at: "2026-11-25T13:05:56+08:00"
+    source_ids: [S006]
+    evidence_summary: "受訪新聞記載彭啓明的判準，未見據此已完成裁罰之結果。"
+    excerpt: ""
+    verification_notes: []
+    tags: [行政調查, 環保]
+
+  - id: F007
+    statement: "祭江辯護者以蔣萬安參加官方龍舟祭江的先例回應質疑。"
+    status: verified
+    observed_at: "2026-11-25T13:05:56+08:00"
+    source_ids: [S004, S007]
+    evidence_summary: "張景森報導及投書援用官方祭江先例。"
+    excerpt: ""
+    verification_notes:
+      - "比較案例有助確認傳統儀式存在，不能直接認定兩場活動的程序、管理條件及情境相同。"
+    tags: [比較案例, 論述]
+
+claims:
+  - id: C001
+    statement: "2026年11月15日撒金紙就是依照該龍舟隊既有出航／謝江習俗進行。"
+    status: unresolved
+    supports: [F003, F004]
+    contradicts: []
+    related_facts: [F001, F002]
+    reasoning_notes: "既有年度祭江有獨立證據，惟尚缺該船隊非端午日常出航紀錄與當次具體儀式安排；不能直接認為假，也不能當成已獨立證成。"
+
+  - id: C002
+    statement: "張景森公開辯護將原有環境及活動責任爭議轉為文化傳統與批評者是否無知的討論。"
+    status: supported
+    supports: [F004, F007]
+    contradicts: []
+    related_facts: [F002, F006]
+    reasoning_notes: "可由公開論述結構判定其效果；不等於證明發言者明知祭江主張不實。"
+
+  - id: C003
+    statement: "宣稱依民俗撒金紙，便無須查明環保影響或行政責任。"
+    status: unsupported
+    supports: []
+    contradicts: [F005, F006]
+    related_facts: [F003, F004]
+    reasoning_notes: "民俗背景不能直接推導出法定豁免；仍須依當時行為、材質及法規查核。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-11-25T13:05:56+08:00"
+    platform: web
+    query: "社子島龍舟隊 非端午 例行 出航 祭江 11月15日"
+    scope: "公開地方田野、新聞、公開主張"
+    result: partial
+    notes: "找到年度祭江田野及當事辯護主張；未找到可獨立核實11月15日當次儀式程序或同隊非端午慣行的公開紀錄。"
+
+  - id: Q002
+    observed_at: "2026-11-25T13:05:56+08:00"
+    platform: web
+    query: "2026年11月沈伯洋龍舟撒金紙環保局正式裁罰結果"
+    scope: "截至2026-11-25可檢索報導"
+    result: partial
+    notes: "查到已遭檢舉及環境部長要求地方釐清；未核實後續裁罰或最終調查結論，不能推定沒有裁罰。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "論證需區分：年度祭江文化的存在、當次祭江是否成立、撒紙材質與環保責任、競選活動組織者及船隊個別決策者的權責。"
+  - "不從龍舟隊參與推定其為11月15日選舉造勢主辦者，也不從官方行程推定競選團隊事前指示撒紙。"
