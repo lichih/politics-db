@@ -1,0 +1,219 @@
+session:
+  id: "2026-11-25-investigation-transparency-accountability"
+  project: Politics
+  title: "徐欣瑩助理偵訊爭議與偵查不公開：檢警回應、可驗證性及既有糾正紀錄"
+  started_at: "2026-11-25T15:26:00+08:00"
+  updated_at: "2026-11-25T15:26:00+08:00"
+  status: active
+topics:
+  - "徐欣瑩助理搜索及偵訊程序"
+  - "偵查不公開及媒體消息來源"
+  - "辯護人在場與同意續行訊問"
+  - "監察院糾正與司法改革基金會九問"
+  - "公權力說明責任與可獨立檢驗性"
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "監察院"
+    title: "2024年6月12日糾正警政署、調查局偵查不公開違失新聞稿"
+    url: "https://www.cy.gov.tw/News_Content.aspx?n=125&s=30210&sms=8912"
+    published_at: "2024-06-12"
+    observed_at: "2026-11-25T15:26:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "監察院已正式調查並糾正警政署及調查局；其調查屬既有實例，不直接證明2026年新竹個案違法。"
+  - id: S002
+    source_type: primary
+    publisher: "民間司法改革基金會"
+    title: "2024年12月27日聲明：九問偵查大公開，請權責機關發布調查報告"
+    url: "https://www.jrf.org.tw/articles/2862"
+    published_at: "2024-12-27"
+    observed_at: "2026-11-25T15:26:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "司改會將柯文哲案起訴前部分媒體報導與起訴書對照，提出九項具體問題；其對洩密來源的推定仍屬該會判斷。"
+      - "該聲明記錄截至2024-12-27高檢署尚未發布相關調查報告，不得推論截至2026年仍未發布。"
+  - id: S003
+    source_type: secondary
+    publisher: "聯合新聞網"
+    title: "徐欣瑩助理控檢警強扣選務電腦，辦案人員稱消息可以放給媒體"
+    url: "https://udn.com/news/story/124652/9900681"
+    published_at: "2026-11-25"
+    observed_at: "2026-11-25T15:26:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "報導當事人影片與競辦指控；沒有據此獨立認定警察確實洩密。"
+  - id: S004
+    source_type: secondary
+    publisher: "壹蘋新聞網"
+    title: "徐欣瑩助理控無律師陪同訊問，竹檢公布訊問時間軸"
+    url: "https://news.nextapple.com/politics/20261125/3C3BD3A20C73221B7C212C73D990346B"
+    published_at: "2026-11-25"
+    observed_at: "2026-11-25T15:26:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "轉述新竹地檢署11月25日說明：20日20:35訊問、21:28王姓律師在場諭知10萬交保、21日00:19至00:57洪姓律師協助、02:09改限制住居。"
+      - "目前取得的是完整新聞引述，尚未直接取得地檢署新聞稿正本。"
+  - id: S005
+    source_type: secondary
+    publisher: "聯合報／經濟日報"
+    title: "徐欣瑩助理控警洩密，新竹縣警局還原辦案過程"
+    url: "https://money.udn.com/money/story/12622/9901183"
+    published_at: "2026-11-25"
+    observed_at: "2026-11-25T15:26:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "轉述新竹縣警局11月25日說明：警方稱11月20日17:30暫停筆錄等待律師、曾協助聯繫、其後經李女同意續行；否認送返時指示媒體放消息。"
+      - "警方主張扣押設備與共同雲端、相關帳號有關；必要性仍須核對搜索票與扣押清單。"
+  - id: S006
+    source_type: primary
+    publisher: "全國法規資料庫"
+    title: "刑事訴訟法第95條：訊問時告知事項與辯護人選任"
+    url: "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+    observed_at: "2026-11-25T15:26:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "無辯護人之被告表示已選任辯護人時，應即停止訊問；同意續行者例外。"
+  - id: S007
+    source_type: secondary
+    publisher: "公視新聞網"
+    title: "徐欣瑩助理坦承散布不實影片，涉違反選罷法10萬元交保"
+    url: "https://news.pts.org.tw/article/836729"
+    published_at: "2026-11-21"
+    observed_at: "2026-11-25T15:26:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "11月21日媒體標題以「坦承散布」描述案情。可證明報導存在，不能獨立證明筆錄有此供述、內容自願真實或消息源自哪個機關。"
+  - id: S008
+    source_type: commentary
+    publisher: "徐勝凌 Facebook"
+    title: "2026年11月25日程序正義應一體適用之貼文及留言"
+    url: "https://www.facebook.com/XinFengWillBeBetter/posts/pfbid02jZb2DrCrG37PxYUbABvHuKQbgQwKWfU94CuqH15JAQnTJjFwLRy8tKKVRsS5qCnxl"
+    published_at: "2026-11-25"
+    observed_at: "2026-11-25T15:26:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "使用者提供Facebook確定性擷取；徐勝凌主張對程序正義應採一致標準，原貼文以『如果指控屬實』為前提。"
+      - "留言對當事人立場差異大，不可將留言當成偵訊事實證據。"
+  - id: S009
+    source_type: primary
+    publisher: "監察院"
+    title: "2024年6月18日偵查不公開重大違失糾正公告"
+    url: "https://www.cy.gov.tw/DocFiles/IFDEWebBBS_CY/Docs/113/3RD/01/14/1132630207.pdf"
+    published_at: "2024-06-18"
+    observed_at: "2026-11-25T15:26:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "同S001調查之正式糾正公告；明載包括向媒體透露具體供述內容，且2019年以來有4名調查局人員涉嫌洩密遭起訴或緩起訴。"
+facts:
+  - id: F001
+    statement: "監察院2024年正式糾正警政署及調查局未落實偵查不公開，包含對媒體揭露供述內容、證物或影像等具體違失。"
+    status: verified
+    observed_at: "2026-11-25T15:26:00+08:00"
+    source_ids: [S001, S009]
+    evidence_summary: "監察院調查及糾正公告為獨立監督的正式認定；不是2026年新竹個案的裁判。"
+    tags: ["監察院", "偵查不公開"]
+  - id: F002
+    statement: "民間司改會2024年12月27日列出多筆柯文哲案起訴前報導與起訴書的對照，向北檢、高檢署及法務部提出九問。"
+    status: verified
+    observed_at: "2026-11-25T15:26:00+08:00"
+    source_ids: [S002]
+    evidence_summary: "已確認九問聲明及對照表存在；洩密者身分與法律責任不因該聲明直接確定。"
+    tags: ["司改會", "九問"]
+  - id: F003
+    statement: "2026年11月25日徐欣瑩李姓助理公開否認製造或散布影片，指控律師陪同、搜索扣押及送返途中疑似對媒體放話存在問題。"
+    status: verified
+    observed_at: "2026-11-25T15:26:00+08:00"
+    source_ids: [S003]
+    evidence_summary: "確認當事人有此公開說法，不代表所有指控已獨立證實。"
+    tags: ["徐欣瑩", "當事人陳述"]
+  - id: F004
+    statement: "新竹地檢署11月25日透過新聞報導公布李女訊問、辯護人到場及交保改限制住居的具體時間線。"
+    status: verified
+    observed_at: "2026-11-25T15:26:00+08:00"
+    source_ids: [S004]
+    evidence_summary: "檢方主張20日20:35李女先稱無須委任律師、21:28王姓律師在場時諭知10萬元交保，21日00:19至00:57洪姓律師協助、02:09改限制住居；為機關說法非獨立筆錄勘驗。"
+    tags: ["新竹地檢署", "律師"]
+  - id: F005
+    statement: "新竹縣警局11月25日表示曾暫停詢問協助聯繫律師，之後經李女同意續行；否認送返途中的通話是通知媒體。"
+    status: verified
+    observed_at: "2026-11-25T15:26:00+08:00"
+    source_ids: [S005]
+    evidence_summary: "確認警方公開提出上述反證；尚待筆錄、錄音錄影、通聯及勤務紀錄比對。"
+    tags: ["新竹縣警察局", "警方回應"]
+  - id: F006
+    statement: "刑事訴訟法第95條規定已選任辯護人而未在場時原則上停止訊問，被告同意續行則屬法定例外。"
+    status: verified
+    observed_at: "2026-11-25T15:26:00+08:00"
+    source_ids: [S006]
+    evidence_summary: "法律規則可確認；個案同意是否有效與自願仍需程序紀錄。"
+    tags: ["刑事訴訟法", "程序保障"]
+  - id: F007
+    statement: "公視11月21日新聞以李姓助理『坦承散布不實影片』為標題，11月25日當事人則公開否認散布。"
+    status: verified
+    observed_at: "2026-11-25T15:26:00+08:00"
+    source_ids: [S007, S003]
+    evidence_summary: "可確認兩個公開陳述有表面衝突；尚未取得偵訊筆錄確認具體供述或報導消息來源。"
+    tags: ["公視", "媒體", "供述"]
+  - id: F008
+    statement: "徐勝凌11月25日以柯文哲案支持者的經驗呼籲程序權利一體適用，並未將李女犯罪嫌疑當成已查無犯罪。"
+    status: verified
+    observed_at: "2026-11-25T15:26:00+08:00"
+    source_ids: [S008]
+    evidence_summary: "貼文原文可核對；其比較係政治及道德論證，不構成個案程序違法之證明。"
+    tags: ["徐勝凌", "一致標準"]
+claims:
+  - id: C001
+    statement: "新竹檢警在本案違法剝奪李女辯護人在場權。"
+    status: unresolved
+    related_facts: [F003, F004, F005, F006]
+    reasoning_notes: "機關與當事人有矛盾；應勘驗各時段訊問錄影、委任及同意筆錄，不能只以兩名律師後來到場推定先前合法。"
+  - id: C002
+    statement: "本案偵查人員洩密，並在送返李女途中指示媒體發布消息。"
+    status: unresolved
+    related_facts: [F003, F005, F007]
+    reasoning_notes: "警方否認電話涉及媒體；即使通話與媒體無關，也無法排除其他時段資訊外洩，需要媒體資訊來源及不同時間線核對。"
+  - id: C003
+    statement: "本案檢警受到政黨指示，以選舉為目的偵辦。"
+    status: unresolved
+    related_facts: [F003, F004, F005]
+    reasoning_notes: "選前搜索與政治影響是合理監督線索，尚不足以確認有具體指示或政治目的。"
+  - id: C004
+    statement: "已有正式糾正與跨案具體質疑，要求機關提供可獨立檢驗的程序說明具有充分公共理由。"
+    status: supported
+    supports: [F001, F002, F003, F004, F005, F007]
+    reasoning_notes: "說明責任不等於必須公開所有偵查秘密，更不等於把犯罪舉證責任倒置。可透過獨立監督、當事人閱卷救濟、遮蔽敏感資訊的結論報告達成。"
+  - id: C005
+    statement: "截至2026年11月25日，司法機關始終未對司改會2024年九問提出任何回覆或調查結果。"
+    status: unresolved
+    related_facts: [F002]
+    reasoning_notes: "本次只核實2024-12-27聲明時的待答狀態，未完成截至今日的官方全量回覆與調查結果查找；不可寫成肯定事實。"
+searches:
+  - id: Q001
+    observed_at: "2026-11-25T15:26:00+08:00"
+    platform: "web"
+    query: "監察院 2024 06 12 糾正 偵查不公開 警政署 調查局"
+    scope: "監察院原始公告、報告新聞稿"
+    result: found
+    notes: "取得監察院官方新聞稿及糾正公告。"
+  - id: Q002
+    observed_at: "2026-11-25T15:26:00+08:00"
+    platform: "web"
+    query: "民間司法改革基金會 2024 12 27 九問偵查大公開"
+    scope: "民間司改會原始聲明"
+    result: found
+    notes: "取得九問與媒體、起訴書對照表，尚未確認所有後續答覆。"
+  - id: Q003
+    observed_at: "2026-11-25T15:26:00+08:00"
+    platform: "web"
+    query: "徐欣瑩助理 2026 11 25 竹檢 竹縣警 律師 洩密"
+    scope: "當事人影片、媒體引述雙方官方聲明"
+    result: found
+    notes: "取得當日三方公開敘述；未取得完整錄音錄影、通聯、扣押清單。"
+promotion:
+  cases: []
+  comparators: []
+  research: []
+notes:
+  - "公共評論以既有制度違失、2024年九問、2026年三方爭議建立可驗證的說明責任，不能以2024舊案直接宣稱2026新案違法。"
+  - "追蹤點：新竹縣警局錄影與同意續問、竹檢訊問筆錄、律師實際到場、扣押清單、送返通聯、2026-11-21媒體消息來源、司改會九問截至2026年的官方調查回覆。"
