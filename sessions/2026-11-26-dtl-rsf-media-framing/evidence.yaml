@@ -1,0 +1,146 @@
+session:
+  id: "2026-11-26-dtl-rsf-media-framing"
+  project: Politics
+  title: "台灣民主實驗室分析師經 RSF 至自由時報的資訊操弄論述傳播與資料口徑"
+  started_at: "2026-11-26T17:51:00+08:00"
+  updated_at: "2026-11-26T17:51:00+08:00"
+  status: active
+topics:
+  - "台灣民主實驗室與 RSF 公開引用鏈"
+  - "中國資訊操弄與政治批評的分類界線"
+  - "DW 174 支 AI 影片統計起訖"
+  - "媒體轉述、國際組織來源與公共問責"
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "無國界記者組織 RSF"
+    title: "Taiwan on the frontlines of the fight against Chinese propaganda"
+    url: "https://rsf.org/en/taiwan-frontlines-fight-against-chinese-propaganda"
+    published_at: "2026-11-19"
+    observed_at: "2026-11-26T17:51:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "RSF 引述台灣民主實驗室社群及數位研究分析師 Eric Hsu 對中國宣傳策略的概括性說法，也引用匿名 DTL 分析師對 Threads 推薦演算法的評價。"
+      - "RSF 報導提及 DW 調查的 174 支影片，文中標為2026年8月至11月發布。這與 DW 原文所列2025年8月至2026年11月不一致。"
+      - "RSF 還引用其他受訪者與機構；不能把整篇報導與所有例證直接視作 DTL 產製的研究報告。"
+  - id: S002
+    source_type: primary
+    publisher: "德國之聲 DW"
+    title: "可愛但有毒：AI政治迷因如何影響台灣選舉？"
+    url: "https://amp.dw.com/zh-hant/%E5%8F%AF%E6%84%9B%E4%BD%86%E6%9C%89%E6%AF%92ai%E6%94%BF%E6%B2%BB%E8%BF%B7%E5%9B%A0%E5%A6%82%E4%BD%95%E5%BD%B1%E9%9F%BF%E5%8F%B0%E7%81%A3%E9%81%B8%E8%88%89/a-79954343"
+    published_at: "2026-11-16"
+    observed_at: "2026-11-26T17:51:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "DW 報導說174支影片特指『紅熊沈伯洋』形象的 AI 政治影片，期間為2025年8月18日至2026年11月間，並列出帳號間同片短時間重發的若干 CIB 跡象。"
+      - "DW 另引研究員整理近一年多194個帳號及1865支 AI 政治影片，該總量和174支紅熊樣本不能混用。"
+      - "部分帳號有協同行為跡象，不能由174支數字推論全部影片均已證明受中國指揮或全部內容均不實。"
+  - id: S003
+    source_type: secondary
+    publisher: "自由時報"
+    title: "無國界記者揭中國資訊操作：讓你覺得台灣很爛"
+    url: "https://news.ltn.com.tw/news/politics/breakingnews/5652595"
+    published_at: "2026-11-26"
+    observed_at: "2026-11-26T17:51:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "中文媒體轉述 RSF 對中國宣傳的報導，標題突出讓台灣民眾覺得台灣很爛的概括語。"
+      - "這可證明公開轉述與傳播，不能單憑轉述證明媒體與 DTL 事前協調。"
+  - id: S004
+    source_type: commentary
+    publisher: "麥克風的市場求生手冊 Facebook（使用者 Social Capture）"
+    title: "2026-11-26 RSF、DTL 與自由時報報導之社群評論"
+    url: "https://www.facebook.com/mktsurvivalkit/posts/pfbid02fb3bzVEp9eTPgD7tjZKvVj4JhimMAnFFb623Vak6HwWvxp73yfQJFWKfXe92psh9l"
+    published_at: "2026-11-26"
+    observed_at: "2026-11-26T17:51:00+08:00"
+    retrieval_status: reachable
+    notes:
+      - "使用者擷取 2026-11-26T09:51:04.573Z；貼文轉述 RSF 與自由時報後，留言區出現批評民進黨不等於批評台灣的反駁，以及對研究資助者的追問。"
+      - "留言是社群反應的定向樣本，無法推導台灣整體輿論分布。"
+facts:
+  - id: F001
+    statement: "2026-11-19 RSF 公開引用 DTL 分析師 Eric Hsu 對中國資訊操弄目的的解釋，以及另一位匿名 DTL 分析師對 Threads 演算法的說明。"
+    status: verified
+    observed_at: "2026-11-26T17:51:00+08:00"
+    source_ids: [S001]
+    evidence_summary: "RSF 原文列明受訪者與所屬機構，證實 DTL 參與報導的專業解釋。"
+    tags: ["media", "research", "attribution"]
+  - id: F002
+    statement: "2026-11-26 自由時報以中文轉述 RSF 關於台灣面臨中國資訊操弄的報導，使 DTL 分析師被引用的說法進入國內媒體報導。"
+    status: verified
+    observed_at: "2026-11-26T17:51:00+08:00"
+    source_ids: [S001, S003]
+    evidence_summary: "可觀察到 DTL 受訪→RSF 報導→自由時報轉述的公開引用路徑，不能由此推定共同指揮。"
+    tags: ["media", "dissemination"]
+  - id: F003
+    statement: "RSF 報導將 DW 174 支 AI 影片的時段寫為2026年8月至11月；DW 2026-11-16原始報導寫2025年8月至2026年11月，且174支特指紅熊沈伯洋主題。"
+    status: verified
+    observed_at: "2026-11-26T17:51:00+08:00"
+    source_ids: [S001, S002]
+    evidence_summary: "直接對照兩家媒體之時間與統計口徑；此為可核實的轉述差異，不能直接推定出於故意。"
+    tags: ["media", "methodology", "correction"]
+  - id: F004
+    statement: "DW 以部分帳號同片在短時間內重發等行為作為可能協同造假行為的依據，並非僅憑嘲諷政治人物本身便宣稱174支皆為中國操作。"
+    status: verified
+    observed_at: "2026-11-26T17:51:00+08:00"
+    source_ids: [S002]
+    evidence_summary: "DW 文中另列13次相同影片短時間重發及帳號關係等具體行為線索；樣本協同性和外國指揮歸屬仍要分別檢驗。"
+    tags: ["counterargument", "methodology"]
+  - id: F005
+    statement: "2026-11-26 Facebook 討論中，有人明確區分認為民進黨施政不好與認為台灣不好；另有人提出研究資助來源質疑。"
+    status: verified
+    observed_at: "2026-11-26T17:51:00+08:00"
+    source_ids: [S004]
+    evidence_summary: "確認存在這些回應，不代表已證實 RSF 或 DTL 原文直接等同兩種批評。"
+    tags: ["public_discourse", "classification"]
+claims:
+  - id: C001
+    statement: "DTL 有透過受訪研究人員影響國際及台灣媒體的公共議題解釋路徑。"
+    status: supported
+    related_facts: [F001, F002]
+    reasoning_notes: "已可確認公開引用與再傳播；影響包括其解釋在報導中呈現，不等於 DTL 控制整篇採訪、選題或編輯。"
+  - id: C002
+    statement: "RSF 或 DTL 將所有針對民進黨政府的批評均正式分類為中國資訊操弄。"
+    status: unresolved
+    related_facts: [F001, F004, F005]
+    reasoning_notes: "RSF 並未直接提出此普遍命題；需 DTL 原始分類規則與個案資料才能檢查是否存在系統性概念混同。"
+  - id: C003
+    statement: "174支影片均已證明為中國境外協同操控。"
+    status: unresolved
+    related_facts: [F003, F004]
+    reasoning_notes: "部分協同行為線索不等於174支全部已完成來源歸屬；需逐帳號原始資料。"
+  - id: C004
+    statement: "DTL 指揮 RSF 或自由時報的編輯，或接受政黨指示進行政治宣傳。"
+    status: unresolved
+    related_facts: [F001, F002]
+    reasoning_notes: "公開採訪與引用並不證明內部指揮；應按可核實的政策影響與具體外部事實分層分析。"
+searches:
+  - id: Q001
+    observed_at: "2026-11-26T17:51:00+08:00"
+    platform: web
+    query: "RSF Taiwan on the frontlines of the fight against Chinese propaganda Eric Hsu Doublethink Lab"
+    scope: "RSF 原始受訪與報導"
+    result: found
+    notes: "核實2026-11-19原始報導、兩名 DTL 分析師受訪及其概括說法。"
+  - id: Q002
+    observed_at: "2026-11-26T17:51:00+08:00"
+    platform: web
+    query: "DW 2026 可愛但有毒 AI 政治迷因 174 紅熊沈伯洋 2025年8月"
+    scope: "DW 統計原始時間範圍與樣本"
+    result: found
+    notes: "發現 RSF 二次引用的174支期間與 DW 原文不一致。"
+  - id: Q003
+    observed_at: "2026-11-26T17:51:00+08:00"
+    platform: web
+    query: "自由時報 5652595 RSF 讓你覺得台灣很爛"
+    scope: "國內媒體傳播鏈"
+    result: found
+    notes: "找到 2026-11-26 的自由時報報導。"
+promotion:
+  cases: []
+  comparators: []
+  research: []
+notes:
+  - "本案是媒體引用與資訊分類的研究，不應和2022年科技部研究雲端保存疑點合併成同一條違規指控。"
+  - "已證明的作用是DTL研究者參與RSF敘事中的觀點解釋，經自由時報轉述；未證明其對全篇內容或媒體流程具有編輯控制。"
+  - "以政治人物為嘲諷對象不能單憑內容斷定中國操作；但DW另有特定帳號協同行為線索，亦不應全部忽略。"
