@@ -3,7 +3,7 @@ session:
   project: Politics
   title: 吳乃仁台糖債權強制執行、撤回管收與協商時間線
   started_at: '2026-10-20T11:49:45+08:00'
-  updated_at: '2026-10-20T11:49:45+08:00'
+  updated_at: '2026-11-26T16:41:00+08:00'
   status: active
 
 topics:
@@ -101,6 +101,60 @@ sources:
   - 補充刑事案已服刑完畢與2026年強制執行背景。
   - 民事部分記載吳乃仁與春龍公司等遭判賠約1.1億元確定，加計利息與衍生債務約1.7億元。
 
+- id: S008
+  source_type: secondary
+  publisher: 自由財經
+  title: 吳乃仁清償方案不夠具體被否決 台糖董限期一週內再提可行方案
+  url: https://ec.ltn.com.tw/article/breakingnews/5642371
+  published_at: '2026-11-16'
+  observed_at: '2026-11-26T16:41:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 台糖董事長於11/16公開表示前兩次方案不夠具體，將發函限7天重提；屬對其發言的新聞報導，不等於已取得函文。
+- id: S009
+  source_type: secondary
+  publisher: 聯合報
+  title: 吳乃仁1.7億還款計畫沒下文 王鴻薇指台糖拒提供
+  url: https://udn.com/news/story/6656/9900960
+  published_at: '2026-11-25'
+  observed_at: '2026-11-26T16:41:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 王鴻薇表示台糖收到新方案但未提供金額、方式，尚需研議約一個月。
+  - 她另指11/23前交付立委辦公室資料的要求未獲履行，尚缺雙方收發文primary record。
+- id: S010
+  source_type: secondary
+  publisher: 中央社
+  title: 吳乃仁欠台糖近1.8億 龔明鑫已提新清償方案檢視中
+  url: https://www.cna.com.tw/news/aipl/202611260180.aspx
+  published_at: '2026-11-26'
+  observed_at: '2026-11-26T16:41:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 龔明鑫受訪確認台糖正在檢視新的清償方案，主張審慎使用次數及期間有限的管收手段。
+  - 民眾黨團要求公開撤回管收授權、協商與財產調查紀錄及最新受償明細。
+  - 黨團指截至當時尚未收到11/16承諾提供的催告函，此為黨團主張，尚缺原始收發文紀錄。
+- id: S011
+  source_type: secondary
+  publisher: 公視新聞
+  title: 吳乃仁債務協商3個月未果 台糖稱下週會有明確進度
+  url: https://news.pts.org.tw/article/835887
+  published_at: '2026-11-16'
+  observed_at: '2026-11-26T16:41:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 引述吳明昌表示前兩次方案不夠具體，未獲內部委員會接受。
+- id: S012
+  source_type: secondary
+  publisher: 蕃新聞／轉載報導
+  title: 吳乃仁債務案 台糖發函限7天提清償方案
+  url: https://n.yam.com/Article/20261116414435
+  published_at: '2026-11-16'
+  observed_at: '2026-11-26T16:41:00+08:00'
+  retrieval_status: reachable
+  notes:
+  - 報導吳明昌描述新方案未提出時視為協商不成立並聲請強制執行，管收仍須符合後續執行法定要件。
+
 facts:
 - id: F001
   statement: 吳乃仁等4人對台糖的民事賠償責任於2020-02-27最高法院駁回上訴後確定，執行名義本金為117,969,922元，並自2010-06-16起按年息5%計算利息。
@@ -161,6 +215,35 @@ facts:
   - 不得據此推論已再次聲請管收。
   tags: [財產調查, 強制執行, secondary]
 
+- id: F009
+  statement: 2026-11-16台糖董事長公開宣示，前兩次清償方案不夠具體而未獲接受，將發函要求七天內提出具體新方案；未提出則視為協商不成立並啟動後續強制執行。
+  status: verified
+  observed_at: '2026-11-26T16:41:00+08:00'
+  source_ids: [S008, S011, S012]
+  evidence_summary: 三則當日報導可相互印證董事長公開說法；原函是否發出及送達尚需另行驗證。
+  tags: [公開承諾, 七天期限, 強制執行]
+- id: F010
+  statement: 2026-11-25王鴻薇表示台糖收到吳乃仁最新還款方案，但不提供金額和方式，預計再研議約一個月。
+  status: partial
+  observed_at: '2026-11-26T16:41:00+08:00'
+  source_ids: [S009, S010]
+  evidence_summary: 11/26經濟部長確認新的清償方案正在檢視；一個月研議、未提供內容等細節仍主要來自立委公開陳述。
+  tags: [第三次方案, 協商, 研議]
+- id: F011
+  statement: 2026-11-26經濟部長龔明鑫公開確認台糖正在檢視新的清償方案，主張因管收有次數與期間限制應審慎運用。
+  status: verified
+  observed_at: '2026-11-26T16:41:00+08:00'
+  source_ids: [S010]
+  evidence_summary: 中央社直接報導部長受訪說法；只確認其政策理由已被提出，不代表理由足以證成追償策略有效。
+  tags: [經濟部, 管收, 公開說明]
+- id: F012
+  statement: 原始資料記載截至2024-12-31四名債務人合計受償39730557元，截至2025-04-30合計受償39763909元，吳乃仁個人遭執行約7500499元；不得把個人數字當作全案受償總額。
+  status: verified
+  observed_at: '2026-11-26T16:41:00+08:00'
+  source_ids: [S001, S002]
+  evidence_summary: 經濟部書面答復與法院管收裁定直接列示受償範圍及各自時間截點，與部分政治發言混用750萬元與全案債權的敘述不同。
+  tags: [數字校正, 受償範圍, 判決]
+
 claims:
 - id: C001
   statement: 吳乃仁已確定提出「每月只還5萬元」的正式清償方案。
@@ -205,6 +288,28 @@ claims:
   related_facts: [F004, F006]
   reasoning_notes: 目前只知獨立董事湯瑞科為公司授權訴訟代理人並在庭上作決定；尚未取得特定撤回決策是否另經事前核准、授權邊界、內部紀錄或事後董事會／審計委員會處理資料。
 
+- id: C007
+  statement: 2026-11-16所設七天期限已被台糖證實違反。
+  status: unsupported
+  supports: []
+  contradicts: [F010, F011]
+  related_facts: [F009]
+  reasoning_notes: 七天針對提交新方案；台糖已收到新方案。缺原函及送達日期，不能把「未談成或未管收」等同七天期限違反。
+- id: C008
+  statement: 2026-11-26已可確定台糖未再次聲請管收，且完全停止任何強制執行。
+  status: unresolved
+  supports: []
+  contradicts: []
+  related_facts: [F010, F011, F008]
+  reasoning_notes: 仍未取得完整法院案件紀錄與台糖執行紀錄；未公告不等於未聲請。公開報導支持「尚未顯示新的管收結果」，不能推論所有程序停擺。
+- id: C009
+  statement: 台糖第三次方案的審查有明確、對外可驗證的截止日以及未通過的後續處理責任。
+  status: unresolved
+  supports: []
+  contradicts: []
+  related_facts: [F009, F010, F011]
+  reasoning_notes: 目前未見原始催告函、新方案、委員會審查及具體期限／處置紀錄；這是追償治理核心待證。
+
 searches:
 - id: Q001
   observed_at: '2026-10-20T11:49:45+08:00'
@@ -244,3 +349,6 @@ notes:
 - 本案需區分「確定債權與強制執行」、「管收這一特定間接執行手段」及「自願協商／分期」三個層次；撤回管收不等於債權消滅，也不等於全部強制執行停止。
 - 可繼續查的核心不是「300年」口號，而是：6/22特定撤回決策的內部授權紀錄；第二次協商方案與審計委員會處理；8/20財產調查程序的primary record；9/30後是否已再聲請管收或取得新受償。
 - 「每月5萬元」不得作為authoritative fact；即使做假設計算，也應明示其方案本身未經台糖證實。
+
+- 2026-11-26追蹤：11/16的期限是要求提出方案，不是限期清償。即使已提出新方案，台糖仍須說明如何評估是否合理、何時終止協商及何時切換執行措施。不得將政治評論「拖過選舉」視為已證明的實際指示或安排。
+- 數字校正：中央社11/26引述民眾黨團稱多年僅收回約750萬元，這與原始經濟部及法院記載的四名債務人合計已受償近3976萬元不同；應區分個人與全案，不能混算比例。
