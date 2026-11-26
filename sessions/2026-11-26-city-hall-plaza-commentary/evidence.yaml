@@ -1,0 +1,80 @@
+session:
+  id: "2026-11-26-city-hall-plaza-commentary"
+  project: Politics
+  title: "市府廣場不能借：沈伯洋說明與黃揚明評論的命題分層"
+  started_at: "2026-11-26T13:22:00+08:00"
+  updated_at: "2026-11-26T13:22:00+08:00"
+  status: closed
+
+topics:
+  - "2026台北市長選舉"
+  - "選前活動場地與路權"
+  - "政治評論的舉證界線"
+  - "論證功能與命題還原"
+
+sources:
+  - id: S001
+    source_type: commentary
+    publisher: "黃揚明（剝雞）"
+    title: "2026-11-26 Facebook：要當市長，先把規則搞清楚"
+    url: "https://www.facebook.com/PokiiHuang/posts/pfbid02VWZ3Dou1WyysgTvFnFnRNNqm3BZMTEfiizaNdBGvZLw6jzY14FqoBUwDGy1DAUcPl"
+    published_at: "2026-11-26T12:15:00+08:00"
+    observed_at: "2026-11-26T13:22:29+08:00"
+    retrieval_status: reachable
+    notes:
+      - "來源為使用者於2026-11-26提供的social capture；captured_at為2026-11-26T05:22:29.535Z。"
+      - "本次記錄以capture內容為依據；未重新檢查原始Facebook頁面目前可達性。"
+  - id: S002
+    source_type: primary
+    publisher: "臺北市政府"
+    title: "臺北市市政大樓及市民廣場場地租借申請作業說明（待複核現行版本）"
+    url: "https://www.gov.taipei/News_Content.aspx?n=37A6B8C02064F262&s=D38CF5D3C2B65964&sms=795AB926DF3E53C7"
+    observed_at: "2026-11-26T13:22:00+08:00"
+    retrieval_status: blocked
+    notes:
+      - "本次依同一段對話此前提供之政府文件網址留存查核入口，尚未在本次寫入流程重新取得文件。"
+      - "blocked在此指本次未完成直接讀取，不表示政府網址已失效；不得以此記錄聲稱已確認條文、施行日期或所有適用例外。"
+
+facts:
+  - id: F001
+    statement: "黃揚明於2026-11-26 Facebook貼文寫道：『我是覺得，要當市長，先把規則搞清楚……』"
+    status: verified
+    observed_at: "2026-11-26T13:22:29+08:00"
+    source_ids: [S001]
+    evidence_summary: "使用者提供的社群擷取檔明載貼文作者、時間及完整貼文文字。"
+    tags: ["社群原文", "政治評論"]
+  - id: F002
+    statement: "貼文配圖涉及市府廣場借用規定及沈伯洋對選前活動場地選擇的說明。"
+    status: partial
+    observed_at: "2026-11-26T13:22:29+08:00"
+    source_ids: [S001]
+    evidence_summary: "社群擷取檔列出兩張貼文圖片；相關原始談話與行政規定須另核全文與時間脈絡。"
+    verification_notes:
+      - "不以圖片或政治評論本身取代沈伯洋完整發言、正式規範及場地核准文件。"
+    tags: ["脈絡待核", "場地"]
+
+claims:
+  - id: C001
+    statement: "沈伯洋提到市府廣場不能借，足以證明他不知道市府廣場的選舉活動規定。"
+    status: unsupported
+    related_facts: [F001, F002]
+    reasoning_notes: "由引用不能借推導其內心是否知悉規定，欠缺直接支持；不能把較強的『不知道規定』命題強加給評論者後要求對方證明。"
+  - id: C002
+    statement: "黃揚明該句評論是在質疑沈伯洋選擇列舉『市府廣場不能借』作為場地選擇說明的合理性。"
+    status: unresolved
+    related_facts: [F001, F002]
+    reasoning_notes: "這是有公開文本基礎的論證功能解讀，但並非黃揚明明示的完整論證；避免把解讀冒充本人承認的動機。"
+
+searches: []
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "本件定位為低優先級查核／方法樣本，不形成Fact獨立文章。"
+  - "應還原發言時的問題、完整上下文與語句在因果論述中的作用；不能只核對孤立字面真假。"
+  - "政治短評的舉證範圍以實際提出的主張為限，不任意升格為『當事人必然不懂規定』等更強命題。"
+  - "模型在本次對話初步分析時，優先排除『不懂規定』的推論，卻未先追問為何列舉本不適用之場地；此為需獨立識別的查核流程缺口，不是對任何政黨行為的預設結論。"
+  - "若未來重新查核，需補：11月25日沈伯洋完整原始影片；市府廣場規定的當時有效版本及限制範圍；廣場維修／場地申請紀錄；封路核准與替代方案。"
