@@ -1,0 +1,129 @@
+session:
+  id: "2026-11-26-fact-argument-self-audit"
+  project: Politics
+  title: "Fact 作者雙標自檢：個案比較與假中立保留"
+  started_at: "2026-11-26T01:59:27+00:00"
+  updated_at: "2026-11-26T01:59:27+00:00"
+  status: active
+
+topics:
+  - "AI 作者自檢"
+  - "雙重標準"
+  - "假中立"
+  - "方法中立"
+  - "Fact 文章版本"
+
+sources:
+  - id: S001
+    source_type: primary
+    publisher: "Fact: 立場之外／Git"
+    title: "《小人何以反覆》2026-11-26 初次修訂版"
+    url: "https://github.com/4649-tw/fact-4649-tw/blob/9155209d675b151df5703a86679378e3366f3309/knowledge_base/politics/2026-11-26-principles-before-partisanship.md"
+    observed_at: "2026-11-26T01:59:27+00:00"
+    retrieval_status: reachable
+  - id: S002
+    source_type: primary
+    publisher: "Fact: 立場之外／Git"
+    title: "《小人何以反覆》再次修訂版"
+    url: "https://github.com/4649-tw/fact-4649-tw/blob/66296a387dcee97d1e7c496dcd867b88cf40cb53/knowledge_base/politics/2026-11-26-principles-before-partisanship.md"
+    observed_at: "2026-11-26T01:59:27+00:00"
+    retrieval_status: reachable
+  - id: S003
+    source_type: primary
+    publisher: "GitHub / Fact"
+    title: "Fact 論證調整 PR #182"
+    url: "https://github.com/4649-tw/fact-4649-tw/pull/182"
+    observed_at: "2026-11-26T01:59:27+00:00"
+    retrieval_status: reachable
+  - id: S004
+    source_type: primary
+    publisher: "politics-db"
+    title: "Politics Project Workflow：方法中立與同一把尺"
+    url: "https://github.com/lichih/politics-db/blob/main/docs/project-workflow.md"
+    observed_at: "2026-11-26T01:59:27+00:00"
+    retrieval_status: reachable
+
+facts:
+  - id: F001
+    statement: "舊版 Fact 摘要將『這些主張可以同時成立』置於重要的論證位置。"
+    status: verified
+    observed_at: "2026-11-26T01:59:27+00:00"
+    source_ids: [S001]
+    evidence_summary: "對形式邏輯相容性的強調，可由原始文字核對。"
+    tags: ["ai-output", "draft"]
+  - id: F002
+    statement: "最新版 Fact 摘要轉為描述三組公開案例中統戰風險與個別責任的運用差異。"
+    status: verified
+    observed_at: "2026-11-26T01:59:27+00:00"
+    source_ids: [S002, S003]
+    evidence_summary: "新版以在野交流、民進黨籍官員訪中、本人父親貿易為具體對照，未宣稱計算出全部歷史言論的比例。"
+    tags: ["ai-output", "revision"]
+  - id: F003
+    statement: "同一文章新版標示『定向取得案例的質性分布』，並明說不代表全部歷史言論的頻率統計。"
+    status: verified
+    observed_at: "2026-11-26T01:59:27+00:00"
+    source_ids: [S002]
+    evidence_summary: "這項文字已保留適用範圍；不應再用無母體統計作為限制個案比較的重複理由。"
+    tags: ["sampling", "scope"]
+  - id: F004
+    statement: "Fact PR #182 保留原稿至修訂稿的追溯紀錄。"
+    status: verified
+    observed_at: "2026-11-26T01:59:27+00:00"
+    source_ids: [S003]
+    evidence_summary: "可核對修改時間、版本內容及論述強度。"
+    tags: ["provenance"]
+
+claims:
+  - id: C001
+    statement: "作者早期過度強調形式邏輯相容性，忽略其在不同政治案例的非對稱運用。"
+    status: supported
+    supports: [F001, F002]
+    reasoning_notes: "這是對文章論證安排的具體稽核，不是政治人物道德定性的獨立證據。"
+  - id: C002
+    statement: "三個定向查得的案例若要進行個案雙標比較，必須先證明可代表當事人的全部歷史言論。"
+    status: contradicted
+    contradicts: [F002, F003]
+    reasoning_notes: "統計代表性僅對『大多數發言』『整體比例』等母體概括命題必要；對可核對個案的差異比較，應查個案可比性、客觀差異、實際反例與推論門檻。將母體要求套在個案比較上屬不相關保留，可能造成假中立。"
+  - id: C003
+    statement: "當事人自行說『交流者不一定參與統戰』就足以作為其沒有雙標的反證。"
+    status: unsupported
+    related_facts: [F001, F002]
+    reasoning_notes: "宣示只能確立當事人自稱採用的原則。需要看對不同陣營的實際適用，不能自動替當事人免責。"
+  - id: C004
+    statement: "使用者指出論證問題，即證明 AI 受到使用者洗腦或政治指揮。"
+    status: unsupported
+    related_facts: [F001, F002, F004]
+    reasoning_notes: "修改是可核對的作者行為，不可從接受批評推定心理操控；應由獨立來源與對稱標準評估修訂後內容。"
+  - id: C005
+    statement: "已查到三個定向案例，即能推論當事人所有發言都呈相同分布。"
+    status: unsupported
+    related_facts: [F003]
+    reasoning_notes: "只有主張整體歷史言論分布時才需要母體抽樣；也不應把個案比較自動擴張成無例外的全稱結論。"
+
+searches:
+  - id: Q001
+    observed_at: "2026-11-26T01:59:27+00:00"
+    platform: "GitHub connector"
+    query: "Compare Fact article revisions at commits 9155209 and 66296a3"
+    scope: "同一篇 L0 文章之摘要與相關論證段落"
+    result: found
+    notes: "核對了『主張可以同時成立』與『懷疑對手時擴張風險』的版本差異。"
+  - id: Q002
+    observed_at: "2026-11-26T01:59:27+00:00"
+    platform: "GitHub connector"
+    query: "Fact PR #182 correction history"
+    scope: "公開 commit / PR provenance"
+    result: found
+    notes: "可核對修訂版本；此處未另執行所有歷史言論的系統性搜尋。"
+
+promotion:
+  cases: []
+  comparators: []
+  research: []
+
+notes:
+  - "範圍與權威：本檔專門稽核 AI 作者之證據使用、論證一致性、版本與修正行為，不是證明沈伯洋或其他政治人物有罪、雙標或受到組織指揮的外部證據。"
+  - "雙標檢驗的必要問題：（1）有沒有具體可核對的相似案例；（2）客觀差異是否足以解釋差別待遇；（3）換掉政黨和人物身分，是否仍採同一推論門檻；（4）有沒有真能改變結論的反例；（5）論斷是否超出個案來源；（6）作者是否把當事人的自我辯護誤認反證。"
+  - "假中立警訊：不可將『未知是否另有案例』『不是母體代表樣本』『形式上沒有矛盾』等在當前命題無承擔作用的說法，反覆拿來降低個案證據權重。"
+  - "反向迎合警訊：使用者指出問題後，AI 仍必須自行核對證據，不得因為批評方向相符就把具體差異推成全面定性。"
+  - "落實規則：先寫待證命題，再以同一條件審查反方與正方；每一個限制條件都要回答『它削弱哪項具體推論』。若答不出，不作為文章中的平衡但書。"
